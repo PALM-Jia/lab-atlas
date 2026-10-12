@@ -11,7 +11,6 @@ import json
 import re
 import subprocess
 import sys
-from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -45,7 +44,6 @@ def page_dependencies() -> dict[str, list[str]]:
 def write_release_manifest(deps: dict[str, list[str]]) -> Path:
     manifest = {
         "schema": "lab-atlas-release-manifest/v1",
-        "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "primary_pages": list(PAGES),
         "page_dependencies": deps,
         "compatibility_pages": ["workflow-map.html", "keyword-missing.html"],

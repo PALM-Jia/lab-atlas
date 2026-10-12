@@ -1,0 +1,104 @@
+{
+  "schema": "lab-atlas-workflow-contract/v1",
+  "purpose": "描述论文信息从主页清单到网页展示投影的阶段边界；不把阶段内部的规则或 AI 判断伪装成严格 API。",
+  "principles": [
+    "每个阶段交接输入证据、采用输出、来源方法和未决状态。",
+    "原始观察值与采用值同时保留；未决项不被空值或推断覆盖。",
+    "网页页面是数据投影，不产生新的事实。"
+  ],
+  "authoritative_inputs": [
+    {
+      "path": "outputs/paper-atlas/data.json",
+      "role": "网络节点、边和上游论文快照"
+    },
+    {
+      "path": "outputs/paper-atlas/retrieval-data.json",
+      "role": "论文检索证据与采用值投影"
+    },
+    {
+      "path": "outputs/paper-atlas/paper-keywords.json",
+      "role": "受控关键词及标注状态"
+    },
+    {
+      "path": "outputs/paper-atlas/paper-fields.json",
+      "role": "研究领域投影"
+    },
+    {
+      "path": "outputs/paper-atlas/network-evidence.js",
+      "role": "网络关系的字段证据"
+    }
+  ],
+  "derived_projections": [
+    "outputs/paper-atlas/data.js",
+    "outputs/paper-atlas/retrieval-data.js",
+    "outputs/paper-atlas/paper-keywords.js",
+    "outputs/paper-atlas/paper-fields.js",
+    "outputs/paper-atlas/research-fields.js"
+  ],
+  "stages": [
+    {
+      "id": "homepage",
+      "title": "读取主页清单",
+      "mode": "外部读取",
+      "automation": "自动",
+      "inputs": ["实验室主页论文列表"],
+      "adopted_outputs": ["主页标题", "主页作者名字", "主页发表情况", "主页链接"],
+      "evidence": ["主页原文", "抓取时间"],
+      "unresolved": ["主页条目尚未对应到数据库记录"],
+      "handoff": "将主页原值和条目编号交给身份核对，不在本阶段改写原值。"
+    },
+    {
+      "id": "identity",
+      "title": "核对身份与版本",
+      "mode": "外部查询 + 本地归并",
+      "automation": "规则优先，疑难项可由 AI 辅助",
+      "inputs": ["主页标题", "主页作者名字", "主页发表情况", "OpenAlex 候选", "Semantic Scholar 候选", "按需访问的原始发布页"],
+      "adopted_outputs": ["论文标题", "作者名字", "论文录用情况", "OpenAlex ID", "Semantic Scholar paperId", "DOI/arXiv ID", "版本对应关系"],
+      "evidence": ["各来源候选原值", "候选来源和查询状态", "采用值", "采用理由"],
+      "unresolved": ["未确定对应记录", "多个版本无法唯一归并", "来源之间仍有未解释冲突"],
+      "handoff": "只把已确认的标识和版本交给详情查询；身份字段的冲突回到本阶段处理。"
+    },
+    {
+      "id": "lab-details",
+      "title": "采集论文详情",
+      "mode": "按标识外部查询",
+      "automation": "自动采集与字段归并",
+      "inputs": ["已确认标识", "已确认版本"],
+      "adopted_outputs": ["摘要", "数据库关键词", "数据库主题", "被引数", "引用文献", "被引记录"],
+      "evidence": ["OpenAlex 主记录", "Semantic Scholar 字段补缺", "按需访问的原始发布页", "查询时间", "字段状态"],
+      "unresolved": ["字段缺失", "来源查询失败", "两份引用记录的收集范围不足"],
+      "handoff": "本阶段不重新判定标题、作者或发表情况；把两份引用记录中的外部标识交给外部文献补全。"
+    },
+    {
+      "id": "external",
+      "title": "补全引用记录",
+      "mode": "外部查询 + 本地去重归并",
+      "automation": "规则优先",
+      "inputs": ["引用文献", "被引记录"],
+      "adopted_outputs": ["外部文献信息", "引用文献（补全后）", "被引记录（补全后）"],
+      "evidence": ["外部论文标识", "外部论文查询结果", "匹配与去重记录", "各方向收集状态"],
+      "unresolved": ["外部论文身份未确定", "外部详情缺失", "未接入的施引名单补缺"],
+      "handoff": "只扩展一层外部论文；不建立外部论文之间的引用关系，也不按名单长度重算被引数。"
+    },
+    {
+      "id": "features",
+      "title": "生成特征与画像",
+      "mode": "本地处理",
+      "automation": "规则、模型与有限 AI 标注",
+      "inputs": ["论文标题", "可用摘要", "受控关键词词表", "作者名字", "确认的实验室署名"],
+      "adopted_outputs": ["论文关键词", "研究领域标签", "语义向量", "作者关键词画像", "作者语义关联"],
+      "evidence": ["文本输入指纹", "标注/审核来源", "规则或模型版本", "署名权重", "向量生成记录"],
+      "unresolved": ["摘要缺失时仅使用标题", "关键词无匹配", "领域无法归类", "向量生成失败"],
+      "handoff": "输出供网络和检索汇总页面读取；页面本身不再生成或修改特征。"
+    }
+  ],
+  "field_semantics": {
+    "database_keywords": "数据库原始关键词及分数；不等同于本站受控关键词。",
+    "controlled_keywords": "由实验室受控词表对标题和可用摘要标注、审核后采用的词项。",
+    "cited_by_count": "来源报告的被引总数；不等同于当前已取得的被引名单长度。",
+    "citing_query_total": "施引查询在某次快照中返回的统计值，与论文记录中的被引数分别保存。",
+    "references": "论文引用的文献列表。",
+    "citing_records": "引用该论文的文献列表。"
+  },
+  "status_values": ["ready", "partial", "missing", "review", "empty", "excluded"]
+}

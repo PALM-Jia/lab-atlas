@@ -12,7 +12,6 @@ import hashlib
 import json
 import re
 import sys
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -24,6 +23,8 @@ AUTHORITATIVE_INPUTS = (
     "outputs/paper-atlas/paper-fields.json",
     "outputs/paper-atlas/network-evidence.js",
 )
+
+WORKFLOW_CONTRACT = "work/atlas-inputs/workflow-contract.json"
 
 # These are browser/runtime projections of the authoritative payloads.  They
 # are listed for provenance, but are never parsed to establish counts.
@@ -118,6 +119,24 @@ def run(root: Path, manifest_path: Path) -> tuple[dict[str, Any], bool]:
     }
     for rel, path in files.items():
         check(checks, f"path exists: {rel}", path.is_file(), True)
+    contract_path = root / WORKFLOW_CONTRACT
+    check(checks, f"path exists: {WORKFLOW_CONTRACT}", contract_path.is_file(), True)
+    if contract_path.is_file():
+        contract = read_json(contract_path)
+        stages = contract.get("stages", [])
+        stage_ids = [stage.get("id") for stage in stages]
+        required_stage_ids = ["homepage", "identity", "lab-details", "external", "features"]
+        check(checks, "workflow contract schema", contract.get("schema"), "lab-atlas-workflow-contract/v1")
+        check(checks, "workflow contract stage order", stage_ids, required_stage_ids)
+        check(checks, "workflow contract stage count", len(stages), 5)
+        for stage in stages:
+            fields_present = all(stage.get(key) for key in ("inputs", "adopted_outputs", "evidence", "unresolved", "handoff"))
+            check(checks, f"workflow contract fields: {stage.get('id')}", fields_present, True)
+        semantics = contract.get("field_semantics", {})
+        check(checks, "workflow contract field semantics", sorted(semantics), sorted((
+            "controlled_keywords", "cited_by_count", "citing_query_total",
+            "database_keywords", "citing_records", "references",
+        )))
 
     # Only parse authoritative files that exist.  This keeps failure output
     # useful when a checkout is incomplete while still making the run fail.
@@ -176,10 +195,10 @@ def run(root: Path, manifest_path: Path) -> tuple[dict[str, Any], bool]:
     passed = all(item["passed"] for item in checks)
     manifest = {
         "schema": "lab-atlas-input-manifest/v1",
-        "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "project": "Lab Atlas",
         "authoritative_inputs": [file_record(root, rel) for rel in AUTHORITATIVE_INPUTS],
         "derived_projections": [file_record(root, rel) for rel in DERIVED_PROJECTIONS],
+        "workflow_contract": file_record(root, WORKFLOW_CONTRACT),
         "validation": {"passed": passed, "checks": checks},
     }
     manifest_path.parent.mkdir(parents=True, exist_ok=True)
