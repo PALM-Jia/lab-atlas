@@ -28,7 +28,7 @@ window.WorkflowLayout={build(data){
  let cursor=left;
  const columns=columnWidths.map(width=>{const col={left:cursor,width,center:cursor+width/2};cursor+=width;return col;});
  const info=new Map(data.information.map(i=>[i.id,i])),rows=new Map(data.tracks.map((t,i)=>[t.id,i]));
- const offsets={candidates:-22,identity:22,homeTitle:22,title:22,abstract:22,keywords:-22,topics:22,publication:-22,homePublication:-22,counts:22,references:-22,citingRecords:22,citationMap:-22,citingMap:22,directions:-22,vector:22,externalDirections:-22,externalVector:22,keywordProfile:-22,directionProfile:22};
+ const offsets={candidates:-22,identity:22,homeTitle:22,title:22,abstract:22,keywords:-22,controlledKeywords:0,topics:22,publication:-22,homePublication:-22,counts:22,references:-22,citingRecords:22,citationMap:-22,citingMap:22,directions:-44,vector:44,externalDirections:-22,externalVector:22,keywordProfile:-22,directionProfile:22};
  const point=n=>{
   const widths=subcolumns[n.stage],r=ranks.get(n.id),col=columns[n.stage];
   const x=col.left+(col.width-groupWidth(widths))/2+widths.slice(0,r).reduce((sum,w)=>sum+w+gap,0)+widths[r]/2;

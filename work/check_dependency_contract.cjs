@@ -1,5 +1,5 @@
 const assert=require('node:assert/strict');global.window=global;require('../outputs/paper-atlas/workflow-data.js');require('../outputs/paper-atlas/workflow-layout.js');const d=WORKFLOW_MAP,g=WorkflowLayout.build(d),byId=new Map(d.artifacts.map(n=>[n.id,n]));
-assert.equal(d.information.length,12);assert.equal(d.artifacts.length,23);assert(!JSON.stringify({stages:WORKFLOW_STAGES,map:d}).includes('缓存'));
+assert.equal(d.information.length,13);assert.equal(d.artifacts.length,23);assert(!JSON.stringify(d).includes('缓存'));
 for(const id of ['abstract','keywords','topics','counts','references','citingRecords'])assert.deepEqual(d.dependencies.filter(e=>e.to===id).map(e=>e.from),['identity']);
 for(const id of ['externalDirections','externalVector'])assert.deepEqual(d.dependencies.filter(e=>e.to===id).map(e=>e.from),['external']);
 assert(!d.dependencies.some(e=>e.from==='external'&&['directions','vector','keywordProfile','directionProfile'].includes(e.to)));
