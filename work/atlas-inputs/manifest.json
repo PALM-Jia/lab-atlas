@@ -1,0 +1,380 @@
+{
+  "schema": "lab-atlas-input-manifest/v1",
+  "generated_at_utc": "2026-10-12T16:23:11.424834+00:00",
+  "project": "Lab Atlas",
+  "authoritative_inputs": [
+    {
+      "path": "outputs/paper-atlas/data.json",
+      "exists": true,
+      "bytes": 108301480,
+      "sha256": "44bc969bd08b696e038a31291457dbe4c9a15f88f54f99ebfd0faacf387ae3f1"
+    },
+    {
+      "path": "outputs/paper-atlas/retrieval-data.json",
+      "exists": true,
+      "bytes": 20233153,
+      "sha256": "f8474aa50c9902408e9ba073b70ce835e893dcf5558835429c96a267346083c1"
+    },
+    {
+      "path": "outputs/paper-atlas/paper-keywords.json",
+      "exists": true,
+      "bytes": 1268274,
+      "sha256": "a7be5fd6cae99c29dc63f04ca6679ab7e1de814b068284213a92deb4abb1ee81"
+    },
+    {
+      "path": "outputs/paper-atlas/paper-fields.json",
+      "exists": true,
+      "bytes": 878806,
+      "sha256": "ba8d9ad48f690ec8360cc80bab775fac94f69bed728279c709111988e0e68e06"
+    },
+    {
+      "path": "outputs/paper-atlas/network-evidence.js",
+      "exists": true,
+      "bytes": 3468578,
+      "sha256": "44235c37a5967bcec860567f2297f758c4ca0efbc50898a2e60996eb5e882aaf"
+    }
+  ],
+  "derived_projections": [
+    {
+      "path": "outputs/paper-atlas/data.js",
+      "exists": true,
+      "bytes": 108301499,
+      "sha256": "20db1afc58e0b870806073bd83b4fe5fc3e3418b1feabd3b5c64c7e46e2bdd6a"
+    },
+    {
+      "path": "outputs/paper-atlas/retrieval-data.js",
+      "exists": true,
+      "bytes": 20233177,
+      "sha256": "ad658e6d4f528a171d1abc322c435a86158a0c6c8f0a696aecd1beb1d77616fd"
+    },
+    {
+      "path": "outputs/paper-atlas/paper-keywords.js",
+      "exists": true,
+      "bytes": 1268318,
+      "sha256": "c71cbb6db3ff2fcf5ff3b5dc325966bd5982e6017293d2036d6816a6577b089b"
+    },
+    {
+      "path": "outputs/paper-atlas/paper-fields.js",
+      "exists": true,
+      "bytes": 522837,
+      "sha256": "8003b1a4a738499866c57342ed563de96a3a64b32446fdb9b3d58be51aeb8a08"
+    },
+    {
+      "path": "outputs/paper-atlas/research-fields.js",
+      "exists": true,
+      "bytes": 4451,
+      "sha256": "283af3a8133834183bd402912d4f55d020c4f645d6508afbfa420c4ec94d9361"
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "checks": [
+      {
+        "name": "path exists: outputs/paper-atlas/data.json",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "path exists: outputs/paper-atlas/retrieval-data.json",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "path exists: outputs/paper-atlas/paper-keywords.json",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "path exists: outputs/paper-atlas/paper-fields.json",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "path exists: outputs/paper-atlas/network-evidence.js",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "path exists: outputs/paper-atlas/data.js",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "path exists: outputs/paper-atlas/retrieval-data.js",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "path exists: outputs/paper-atlas/paper-keywords.js",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "path exists: outputs/paper-atlas/paper-fields.js",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "path exists: outputs/paper-atlas/research-fields.js",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "atlas nodes",
+        "actual": 1673,
+        "expected": 1673,
+        "passed": true
+      },
+      {
+        "name": "atlas lab nodes",
+        "actual": 144,
+        "expected": 144,
+        "passed": true
+      },
+      {
+        "name": "atlas external nodes",
+        "actual": 1529,
+        "expected": 1529,
+        "passed": true
+      },
+      {
+        "name": "atlas node partition",
+        "actual": 1673,
+        "expected": 1673,
+        "passed": true
+      },
+      {
+        "name": "retrieval lab papers",
+        "actual": 144,
+        "expected": 144,
+        "passed": true
+      },
+      {
+        "name": "retrieval external papers",
+        "actual": 1529,
+        "expected": 1529,
+        "passed": true
+      },
+      {
+        "name": "retrieval total",
+        "actual": 1673,
+        "expected": 1673,
+        "passed": true
+      },
+      {
+        "name": "retrieval lab IDs match atlas",
+        "actual_count": 144,
+        "expected_count": 144,
+        "missing_count": 0,
+        "extra_count": 0,
+        "missing_sample": [],
+        "extra_sample": [],
+        "passed": true
+      },
+      {
+        "name": "retrieval external IDs match atlas",
+        "actual_count": 1529,
+        "expected_count": 1529,
+        "missing_count": 0,
+        "extra_count": 0,
+        "missing_sample": [],
+        "extra_sample": [],
+        "passed": true
+      },
+      {
+        "name": "keyword papers",
+        "actual": 1673,
+        "expected": 1673,
+        "passed": true
+      },
+      {
+        "name": "keyword statuses",
+        "actual": 1673,
+        "expected": 1673,
+        "passed": true
+      },
+      {
+        "name": "keyword IDs match atlas",
+        "actual_count": 1673,
+        "expected_count": 1673,
+        "missing_count": 0,
+        "extra_count": 0,
+        "missing_sample": [],
+        "extra_sample": [],
+        "passed": true
+      },
+      {
+        "name": "keyword vocabulary",
+        "actual": 49,
+        "expected": 49,
+        "passed": true
+      },
+      {
+        "name": "keyword vocabulary IDs unique",
+        "actual": 49,
+        "expected": 49,
+        "passed": true
+      },
+      {
+        "name": "keyword IDF vocabulary",
+        "actual": [
+          "adversarial-robustness",
+          "bayesian-inference",
+          "class-imbalance",
+          "classifier-ensemble",
+          "confidence-calibration",
+          "contrastive-learning",
+          "data-imputation-recovery",
+          "dataset-distillation",
+          "deep-clustering",
+          "dimensionality-reduction",
+          "domain-adaptation",
+          "ensemble-clustering",
+          "federated-learning",
+          "graph-manifold-regularization",
+          "graph-neural-networks",
+          "graph-structure-learning",
+          "hallucination-mitigation",
+          "hyperspectral-images",
+          "image-segmentation",
+          "knowledge-distillation",
+          "label-correlation-modeling",
+          "label-distribution-learning",
+          "label-enhancement",
+          "large-language-models",
+          "large-vision-language-models",
+          "latent-reasoning",
+          "low-rank-modeling",
+          "model-merging",
+          "multi-label-learning",
+          "multi-objective-optimization",
+          "multi-view-learning",
+          "multimodal-retrieval",
+          "noisy-label-learning",
+          "nonnegative-matrix-factorization",
+          "open-vocabulary-recognition",
+          "pairwise-constraint-propagation",
+          "parameter-efficient-fine-tuning",
+          "partial-label-learning",
+          "person-reidentification",
+          "pseudo-label-self-training",
+          "semi-supervised-learning",
+          "sparse-representation",
+          "subspace-clustering",
+          "traffic-data",
+          "underwater-images",
+          "value-preference-alignment",
+          "vision-language-models",
+          "weakly-supervised-learning",
+          "zero-shot-learning"
+        ],
+        "expected": [
+          "adversarial-robustness",
+          "bayesian-inference",
+          "class-imbalance",
+          "classifier-ensemble",
+          "confidence-calibration",
+          "contrastive-learning",
+          "data-imputation-recovery",
+          "dataset-distillation",
+          "deep-clustering",
+          "dimensionality-reduction",
+          "domain-adaptation",
+          "ensemble-clustering",
+          "federated-learning",
+          "graph-manifold-regularization",
+          "graph-neural-networks",
+          "graph-structure-learning",
+          "hallucination-mitigation",
+          "hyperspectral-images",
+          "image-segmentation",
+          "knowledge-distillation",
+          "label-correlation-modeling",
+          "label-distribution-learning",
+          "label-enhancement",
+          "large-language-models",
+          "large-vision-language-models",
+          "latent-reasoning",
+          "low-rank-modeling",
+          "model-merging",
+          "multi-label-learning",
+          "multi-objective-optimization",
+          "multi-view-learning",
+          "multimodal-retrieval",
+          "noisy-label-learning",
+          "nonnegative-matrix-factorization",
+          "open-vocabulary-recognition",
+          "pairwise-constraint-propagation",
+          "parameter-efficient-fine-tuning",
+          "partial-label-learning",
+          "person-reidentification",
+          "pseudo-label-self-training",
+          "semi-supervised-learning",
+          "sparse-representation",
+          "subspace-clustering",
+          "traffic-data",
+          "underwater-images",
+          "value-preference-alignment",
+          "vision-language-models",
+          "weakly-supervised-learning",
+          "zero-shot-learning"
+        ],
+        "passed": true
+      },
+      {
+        "name": "field papers",
+        "actual": 1673,
+        "expected": 1673,
+        "passed": true
+      },
+      {
+        "name": "field IDs match atlas",
+        "actual_count": 1673,
+        "expected_count": 1673,
+        "missing_count": 0,
+        "extra_count": 0,
+        "missing_sample": [],
+        "extra_sample": [],
+        "passed": true
+      },
+      {
+        "name": "field vocabulary",
+        "actual": 6,
+        "expected": 6,
+        "passed": true
+      },
+      {
+        "name": "network evidence lab IDs",
+        "actual_count": 144,
+        "expected_count": 144,
+        "missing_count": 0,
+        "extra_count": 0,
+        "missing_sample": [],
+        "extra_sample": [],
+        "passed": true
+      },
+      {
+        "name": "network evidence lab count",
+        "actual": 144,
+        "expected": 144,
+        "passed": true
+      },
+      {
+        "name": "network evidence coverage total",
+        "actual": 144,
+        "expected": 144,
+        "passed": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "schema": "lab-atlas-release-manifest/v1",
+  "generated_at_utc": "2026-10-12T16:23:09.041535+00:00",
+  "primary_pages": [
+    "index.html",
+    "retrieval.html",
+    "workflow.html"
+  ],
+  "page_dependencies": {
+    "index.html": [
+      "style.css",
+      "panel-layout.css",
+      "theme.css",
+      "cytoscape.min.js",
+      "data.js",
+      "node-shadows.js",
+      "panel-layout.js",
+      "dynamic-layout.js",
+      "author-identities.js",
+      "author-groups.js",
+      "author-identity-resolver.js",
+      "author-affiliations.js",
+      "paper-author-interest.js",
+      "paper-keywords.js",
+      "paper-fields.js",
+      "paper-density.js",
+      "keyword-relations.js",
+      "author-keywords.js",
+      "author-relations.js",
+      "timeline-3d.js",
+      "network-evidence.js",
+      "network-evidence-ui.js",
+      "search-match.js",
+      "node-sizes.js",
+      "app.js",
+      "./index.html",
+      "retrieval.html",
+      "workflow.html"
+    ],
+    "retrieval.html": [
+      "retrieval.css",
+      "theme.css",
+      "retrieval-data.js",
+      "search-match.js",
+      "retrieval.js",
+      "index.html",
+      "workflow.html"
+    ],
+    "workflow.html": [
+      "theme.css",
+      "workflow.css",
+      "workflow-data.js",
+      "workflow-guide.js",
+      "workflow-explanations.js",
+      "workflow-flow-data.js",
+      "workflow-flow.js",
+      "workflow.js",
+      "index.html",
+      "retrieval.html"
+    ]
+  },
+  "compatibility_pages": [
+    "workflow-map.html",
+    "keyword-missing.html"
+  ],
+  "archive_candidates": [
+    "papers.html",
+    "papers.js",
+    "papers.css",
+    "acceptance-report.html",
+    "citation-comparison.html",
+    "citation-comparison.json",
+    "citation-comparison.csv",
+    "scholar-dblp-probe.html",
+    "scholar-dblp-probe.json",
+    "author-semantic.js",
+    "citation-counts.js"
+  ],
+  "notes": [
+    "The three primary pages must remain usable from file://.",
+    "Archive candidates are not deleted by this command."
+  ]
+}
