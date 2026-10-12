@@ -63,20 +63,17 @@
     "keyword-missing.html"
   ],
   "archive_candidates": [
-    "papers.html",
-    "papers.js",
-    "papers.css",
-    "acceptance-report.html",
-    "citation-comparison.html",
-    "citation-comparison.json",
-    "citation-comparison.csv",
-    "scholar-dblp-probe.html",
-    "scholar-dblp-probe.json",
-    "author-semantic.js",
-    "citation-counts.js"
+    "work/archive/paper-atlas-legacy-2026-10-13/papers.html",
+    "work/archive/paper-atlas-legacy-2026-10-13/papers.js",
+    "work/archive/paper-atlas-legacy-2026-10-13/papers.css",
+    "work/archive/paper-atlas-legacy-2026-10-13/acceptance-report.html",
+    "work/archive/paper-atlas-legacy-2026-10-13/citation-comparison.html",
+    "work/archive/paper-atlas-legacy-2026-10-13/scholar-dblp-probe.html",
+    "work/archive/paper-atlas-legacy-2026-10-13/scholar-dblp-probe.json",
+    "work/archive/paper-atlas-legacy-2026-10-13/source-papers.html"
   ],
   "notes": [
     "The three primary pages must remain usable from file://.",
-    "Archive candidates are not deleted by this command."
+    "Legacy pages are kept outside the static release directory for reference."
   ]
 }
