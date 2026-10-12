@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\": \"W1553309915\", \"annotations\": [{\"keyword_id\": \"dimensionality-reduction\", \"exact_quote\": \"we propose an effective model and develop an efficient algorithm to solve the multi-instance dimensionality reduction problem\", \"evidence_field\": \"abstract\", \"reason_zh\": \"摘要明确将多示例降维作为需要解决的降维问题，并提出模型与算法，满足显式低维映射或维度压缩的研究任务。\"}, {\"keyword_id\": \"weakly-supervised-learning\", \"exact_quote\": \"the labels of bags are known while the labels of instances are unknown\", \"evidence_field\": \"abstract\", \"reason_zh\": \"摘要指出袋标签已知而实例标签未知，属于袋级粗粒度或不完整监督，且论文以此作为多示例降维建模的关键条件。\"}], \"abstentions\": [{\"keyword_id\": \"sparse-representation\", \"reason_zh\": \"摘要提到投影矩阵的稀疏约束，但未说明以少量字典原子、基向量或稀疏编码表达样本；是否满足稀疏表示定义无法确定。\"}], \"input_issues\": []}"
+}

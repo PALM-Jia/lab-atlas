@@ -1,0 +1,30 @@
+{
+  "paper_id": "W3167202680",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "impute possible missing values at the same time",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要提出在线框架同时对缺失值进行填补，并报告填补精度，符合缺失观测估计/恢复任务。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "the Graph Laplacian (GL) serves as the spatial regularizer to utilize spatial correlations among network sensors",
+      "evidence_field": "abstract",
+      "reason_zh": "使用图拉普拉斯作为空间正则项，借助传感器网络的空间相关性约束预测与填补，符合图/流形正则化。"
+    },
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "spatiotemporal traffic datasets",
+      "evidence_field": "abstract",
+      "reason_zh": "研究对象为交通状态及时空交通数据集，属于交通数据应用对象。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "仅提及矩阵分解模型，未说明显式低秩约束或低秩近似；按定义一般矩阵分解不自动支持低秩建模。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2308736390\",\"annotations\":[{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"Low-rank matrix approximation (LRMA) is a powerful technique for signal processing and pattern analysis.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要以低秩矩阵近似为核心，并提出稀疏低秩矩阵近似（SLRMA），显式使用低秩分解/近似表示数据，符合低秩建模定义。\"},{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"where one matrix is made up of extremely sparse and orthogonal column vectors and the other consists of the transform coefficients\",\"evidence_field\":\"abstract\",\"reason_zh\":\"SLRMA将数据矩阵分解为极稀疏正交列向量矩阵与变换系数矩阵的乘积，稀疏列向量作为基/潜在表示表达数据，符合稀疏表示机制。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

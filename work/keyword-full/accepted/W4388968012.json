@@ -1,0 +1,30 @@
+{
+  "paper_id": "W4388968012",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "Ensemble clustering",
+      "evidence_field": "title",
+      "reason_zh": "标题明确将集成聚类作为研究任务，融合多个聚类结果以获共识划分。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "low-rank optimal Laplacian matrix learning",
+      "evidence_field": "title",
+      "reason_zh": "标题显式提出低秩的最优拉普拉斯矩阵学习，表明对矩阵施加低秩约束或低秩表示。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "Laplacian matrix learning",
+      "evidence_field": "title",
+      "reason_zh": "标题表明学习拉普拉斯矩阵，该矩阵可编码样本间图或亲和结构，符合学习或修正关系矩阵的机制。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "标题仅表明学习拉普拉斯矩阵，未说明将其作为图或流形正则项对学习结果施加几何一致性约束。"
+    }
+  ],
+  "input_issues": []
+}

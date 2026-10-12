@@ -1,0 +1,13 @@
+{
+  "paper_id": "W1556320907",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "constraints can improve the results of a variety of clustering algorithms",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要研究约束对多种聚类算法的改进，约束作为有限监督信息指导聚类，符合半监督学习中以有限成对约束指导全部样本学习的设定。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,26 @@
+{
+  "paper_id": "W18701524",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "unsupported_evidence",
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "Besides, we additionally introduce a discriminative regularization into the objective to avoid overfitting.",
+      "evidence_field": "abstract",
+      "reason_zh": "原文只明确判别正则用于避免过拟合；谱聚类名称及图割目标不能单独证明采用邻域几何一致性正则。"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "graph-manifold-regularization"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "graph-manifold-regularization",
+        "reason_zh": "摘要未说明判别正则为图拉普拉斯或邻域几何一致性约束，不能仅由谱聚类名称推定。"
+      }
+    ],
+    "input_issues": []
+  }
+}

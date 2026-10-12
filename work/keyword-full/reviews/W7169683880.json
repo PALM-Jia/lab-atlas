@@ -1,0 +1,26 @@
+{
+  "paper_id": "W7169683880",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "标题明确研究半监督子空间聚类，以有限监督替代充分的实例级真值，属于不完整监督条件，漏标弱监督学习。",
+      "exact_quote": "semi-supervised tensor subspace clustering",
+      "evidence_field": "title"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "semi-supervised tensor subspace clustering",
+        "evidence_field": "title",
+        "reason_zh": "标题明确研究半监督子空间聚类，以有限监督替代充分的实例级真值，属于不完整监督条件，漏标弱监督学习。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

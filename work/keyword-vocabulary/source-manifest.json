@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-12T03:47:18+08:00",
+  "purpose": "Clean source pack only; no keyword selection performed",
+  "scope": {
+    "rule": "nodes where lab is exactly true in outputs/paper-atlas/data.json",
+    "source_node_count": 1673,
+    "internal_papers": 144,
+    "external_nodes_excluded": 1529,
+    "exported_fields": [
+      "id",
+      "title",
+      "abstract",
+      "abstract_status",
+      "year"
+    ],
+    "excluded_content": [
+      "external papers",
+      "existing direction labels",
+      "existing keywords",
+      "api_topics",
+      "tags",
+      "authors",
+      "institutions",
+      "graph relationships"
+    ]
+  },
+  "sources": [
+    {
+      "path": "outputs/paper-atlas/data.json",
+      "sha256": "9a71c22b6c57dfa8035528c30c2816a15d141ec10a6306670b7c412079c23886",
+      "meta_updated": "2026-10-10T02:48:17+08:00",
+      "role": "authoritative paper membership and exact text/year source"
+    },
+    {
+      "url": "https://jyh-learning.github.io/",
+      "accessed_at": "2026-10-12T03:47:18+08:00",
+      "status": "web tool full page read and direct HTTP 200 snapshot",
+      "snapshot": "homepage.html",
+      "sha256": "99e97cb17e7eea4e87197da3d573cccc4d25be29f0c8fcfdd9ba3efdbe75ba12",
+      "role": "personal homepage self-description"
+    },
+    {
+      "url": "https://jyh-learning.github.io/papers.html",
+      "accessed_at": "2026-10-12T03:47:18+08:00",
+      "status": "web tool full page read and direct HTTP 200 snapshot",
+      "snapshot": "papers.html",
+      "sha256": "13f335f276f53a762f8a0f5af9b6baa6a92acdff7ae20f6cbe1b05d88631adc8",
+      "role": "live title-list coverage comparison only"
+    },
+    {
+      "url": "https://palm.seu.edu.cn/home.html",
+      "status": "read via web tool",
+      "role": "explicitly linked lab homepage; points to new site"
+    },
+    {
+      "url": "https://palm.seu.edu.cn/intro.html",
+      "status": "full page read via web tool; direct HTTP snapshot denied 403",
+      "role": "broad lab background, not specific group research plan",
+      "captured_relevant_text": "homepage-context.md"
+    },
+    {
+      "url": "https://aiia.seu.edu.cn/palm/",
+      "status": "read via web tool",
+      "role": "new lab home; intro discovery"
+    },
+    {
+      "url": "https://aiia.seu.edu.cn/palm/intro/list.htm",
+      "status": "not verified: two web tool timeouts and direct HTTP 403",
+      "role": "new introduction page unavailable"
+    }
+  ],
+  "coverage": {
+    "exported_papers": 144,
+    "unique_ids": 144,
+    "title_present": 144,
+    "nonempty_abstract_fields": 114,
+    "missing_abstracts": 30,
+    "nonempty_abstract_percent": 79.16666666666666,
+    "bibliographic_text_in_abstract": 1,
+    "remaining_nonempty_abstract_fields": 113,
+    "year_present": 138,
+    "missing_years": 6,
+    "year_counts": {
+      "2021": 10,
+      "2020": 9,
+      "2024": 22,
+      "2025": 28,
+      "None": 6,
+      "2026": 34,
+      "2023": 10,
+      "2022": 5,
+      "2019": 6,
+      "2018": 6,
+      "2017": 5,
+      "2015": 1,
+      "2027": 1,
+      "2016": 1
+    },
+    "abstract_characters_total": 154466,
+    "max_abstract_characters": 2022
+  },
+  "missing_abstract_ids": [
+    "lab-bb2d463fb71a",
+    "lab-088383584e44",
+    "lab-a07279b34373",
+    "lab-3af81cff7068",
+    "lab-8ef4decb9b26",
+    "lab-7af4622bbcc3",
+    "lab-9ddc9ff7ce0c",
+    "lab-4f3942c218c8",
+    "lab-fdadc630f8db",
+    "lab-94f819e13bbe",
+    "lab-bc765488bcf7",
+    "lab-e407c5f18da5",
+    "lab-0529638ee44a",
+    "lab-dccd5bfa936b",
+    "lab-e73ac884ede0",
+    "lab-1025a6d4de24",
+    "lab-effcb20ed6d4",
+    "lab-2110e10b1fd2",
+    "lab-5dda1e979492",
+    "lab-deff0ac02cbd",
+    "lab-6757df585f08",
+    "lab-1a90fc2c3965",
+    "lab-4dafc16e5fd8",
+    "lab-80376da04947",
+    "lab-b4f457369e13",
+    "lab-8a05dc1f7a41",
+    "lab-cfe1c0f8487f",
+    "lab-cafae06c3f4f",
+    "lab-60280e69a6e3",
+    "lab-10ec9a4b941d"
+  ],
+  "missing_year_ids": [
+    "lab-bb2d463fb71a",
+    "lab-088383584e44",
+    "lab-a07279b34373",
+    "lab-3af81cff7068",
+    "lab-8ef4decb9b26",
+    "lab-7af4622bbcc3"
+  ],
+  "quality_warnings": [
+    {
+      "id": "lab-d99ee9ba4a13",
+      "field": "abstract",
+      "issue": "232-character authors-and-proceedings citation, not substantive abstract",
+      "action": "preserved verbatim; treat as title-only evidence downstream"
+    },
+    {
+      "field": "year",
+      "issue": "source contains year 2027 and six null values",
+      "action": "preserved exactly; no inferred year or correction"
+    }
+  ],
+  "integrity": {
+    "all_ids_titles_years_equal_source": true,
+    "all_nonempty_abstracts_exactly_equal_source": true,
+    "truncation_performed": false,
+    "publisher_abstract_completeness_verified": false,
+    "production_files_modified": false,
+    "lab_papers_sha256": "eeb84be27409832245ae05cd890a4fb19583675cf6e2fa446d0ee0840e8ae7f7",
+    "homepage_context_sha256": "e589f401451ab308b99a2846a1b9372aa44eac107b1138cd22112f7f51f3b1a1"
+  },
+  "homepage_list_comparison": {
+    "method": "Extract each li own text (exclude nested li), NFKC/casefold/alphanumeric normalize; longest matching title or list_title wins to disambiguate title substrings",
+    "display_entries": 152,
+    "sections": {
+      "The works that I personally like the most": 8,
+      "Preprint": 9,
+      "Journal Papers": 66,
+      "Conference Papers": 69
+    },
+    "unique_matching_internal_ids": 144,
+    "repeated_display_ids": {
+      "lab-d50fd9c219f7": 2,
+      "lab-a9d5b70ee03a": 2,
+      "lab-9bd585a26235": 2,
+      "lab-af85f8a01211": 2,
+      "lab-5403cb1aad23": 2,
+      "lab-efed21f0ba73": 2,
+      "lab-a7cf765d0111": 2,
+      "lab-dec46f74923a": 2
+    },
+    "live_only_entries": [],
+    "local_only_ids": [],
+    "conclusion": "Same paper-title membership; metadata/year/status equivalence not asserted"
+  },
+  "abstract_provenance_counts": {
+    "OpenAlex": 104,
+    "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a8b879590adff2b1874f97db59b65518-Abstract-Conference.html": 1,
+    "Semantic Scholar d914661c8ec7e5146ddfb16fb0e92c45bad5c6f5": 1,
+    "Semantic Scholar 192150ae85278c86d04eef6689fde33d5c0fdc5e": 1,
+    "https://proceedings.iclr.cc/paper_files/paper/2026/hash/813ed01a11220fcdeed10e0d7da2de25-Abstract-Conference.html": 1,
+    "https://proceedings.iclr.cc/paper_files/paper/2026/hash/63ef323523f3be8b58ed9277cc747485-Abstract-Conference.html": 1,
+    "Semantic Scholar ffa4e6793ed6592ca8e9f778a6d3fe7b917d81af": 1,
+    "Semantic Scholar 611a4e80a1ff450dad58b071b0f010d0abde1ac4": 1,
+    "https://proceedings.mlr.press/v267/li25am.html": 1,
+    "https://proceedings.iclr.cc/paper_files/paper/2025/hash/0a1f690b558591412b5bddaf10de3b19-Abstract-Conference.html": 1,
+    "https://proceedings.iclr.cc/paper_files/paper/2025/hash/95b6e2ff961580e03c0a662a63a71812-Abstract-Conference.html": 1
+  },
+  "approved_downstream_inputs": [
+    "lab-papers.json",
+    "homepage-context.md"
+  ],
+  "audit_only_files": [
+    "source-manifest.json",
+    "homepage.html",
+    "papers.html"
+  ]
+}

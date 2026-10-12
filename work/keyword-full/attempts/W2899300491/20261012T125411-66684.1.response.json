@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2899300491\",\"annotations\":[{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"this study proposes an innovative traffic data imputation method\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文明确提出交通数据插补任务，目标是从缺失或坏数据预测/重建完整数据，属于数据补全与恢复。\"},{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"The quality of traffic data is crucial for modern transportation planning and operations.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"研究对象为交通数据，实验使用256个环形检测器的实际数据，符合交通数据对象定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

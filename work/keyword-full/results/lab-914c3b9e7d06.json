@@ -1,0 +1,34 @@
+{
+  "paper_id": "lab-914c3b9e7d06",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "Federated Multi-Label Learning is a distributed paradigm where multiple clients possess heterogeneous multi-label data and perform collaborative learning under privacy constraints without sharing raw data.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以联邦多标记学习为任务，客户端持有多标记数据，目标是学习同时成立的多个相关标记。"
+    },
+    {
+      "keyword_id": "federated-learning",
+      "exact_quote": "Federated Multi-Label Learning is a distributed paradigm where multiple clients possess heterogeneous multi-label data and perform collaborative learning under privacy constraints without sharing raw data.",
+      "evidence_field": "abstract",
+      "reason_zh": "多个客户端在隐私约束下不共享原始数据，通过协作学习训练模型，符合联邦学习设定。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "However, modeling label correlations under heterogeneous distributions remains challenging. Due to client-specific label spaces and varying co-occurrence patterns, correlations learned by individual clients inevitably deviate from the global structure, a phenomenon we term label correlation drift.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要显式讨论并建模客户端间的标签共现模式与标签相关性，并处理局部相关性偏离全局结构的标签相关漂移。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "knowledge-distillation",
+      "reason_zh": "摘要仅称共识相关性作为全局教师纠正局部估计，未说明迁移教师模型的输出、表示或优化能力至学生模型，不足以判定知识蒸馏。"
+    },
+    {
+      "keyword_id": "model-merging",
+      "reason_zh": "摘要提到聚合时按数据量和相关性质量加权客户端，但未明确是在参数/更新空间合并多个已训练模型以保留能力，机制不充分。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,37 @@
+{
+  "paper_id": "W7167257411",
+  "annotations": [
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "Multi-view learning can effectively exploit the consistency and complementarity among multiple data sources",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以多视图学习为研究任务，显式利用多个数据源之间的一致性与互补性进行联合学习。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "has become a major research direction in semi-supervised classification",
+      "evidence_field": "abstract",
+      "reason_zh": "论文将多视图学习定位为半监督分类研究，并在低标签设置下评估，属于半监督学习设定。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "classification performance under low-label settings",
+      "evidence_field": "abstract",
+      "reason_zh": "低标签设置意味着仅使用有限/不完整的实例级监督，且论文将其作为实质研究条件。"
+    },
+    {
+      "keyword_id": "graph-neural-networks",
+      "exact_quote": "decoupled dual-branch graph convolutional architecture",
+      "evidence_field": "abstract",
+      "reason_zh": "提出解耦双分支图卷积架构，使用图卷积获取表示，属于图神经网络方法。"
+    },
+    {
+      "keyword_id": "contrastive-learning",
+      "exact_quote": "while the InfoNCE constraint maximizes the mutual information between consensus representation and labels to enhance discriminative capability",
+      "evidence_field": "abstract",
+      "reason_zh": "使用InfoNCE对比约束最大化共识表示与标签的互信息，以增强判别能力，属于对比学习机制。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

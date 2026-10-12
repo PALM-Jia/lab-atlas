@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2963384510",
+  "annotations": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "it is thus desirable to infer or learn a graph topology from the data",
+      "evidence_field": "abstract",
+      "reason_zh": "论文核心议题是从数据推断或学习图拓扑，即学习样本间的图结构/邻接关系；该引文直接支撑此研究任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

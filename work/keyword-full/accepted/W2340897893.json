@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2340897893",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "pixel-level and instance-level semantic labeling",
+      "evidence_field": "abstract",
+      "reason_zh": "论文构建并评估用于像素级与实例级语义标注的数据集，属于图像分割任务。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "coarse annotations to enable methods that leverage large volumes of weakly-labeled data",
+      "evidence_field": "abstract",
+      "reason_zh": "数据集提供粗粒度标注并明确用于支持利用大规模弱标注数据的方法，体现粗粒度弱监督设定。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

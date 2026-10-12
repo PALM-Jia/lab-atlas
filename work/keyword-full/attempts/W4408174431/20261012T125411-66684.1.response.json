@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W4408174431\",\"annotations\":[{\"keyword_id\":\"semi-supervised-learning\",\"exact_quote\":\"Semi-supervised constrained clustering\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确为半监督约束聚类，摘要进一步说明约束聚类是利用专家提供的must-link/cannot-link等约束的半监督扩展，符合以有限成对约束指导全部样本学习的定义。\"}],\"abstentions\":[{\"keyword_id\":\"weakly-supervised-learning\",\"reason_zh\":\"摘要明确称约束聚类为半监督扩展，未以弱监督框架表述；成对约束是否按该词条定义为弱监督不明确。\"},{\"keyword_id\":\"pairwise-constraint-propagation\",\"reason_zh\":\"摘要仅聚焦实例级成对约束及其应用，未说明对must-link/cannot-link关系进行扩展或传播。\"}],\"input_issues\":[]}"
+}

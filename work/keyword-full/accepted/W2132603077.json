@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2132603077",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "The segmentation is achieved by effectively searching for closed contours of edge elements (equivalent to minimum cuts in G), which consist mostly of strong edges, while rejecting contours containing isolated strong edges.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将图像分割作为应用任务，并把分割描述为在图上搜索闭合边缘轮廓以定位区域边界，满足图像像素/区域划分定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

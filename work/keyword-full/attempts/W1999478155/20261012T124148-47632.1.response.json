@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W1999478155\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"This paper addresses the problem of segmenting an image into regions.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将把图像划分为区域作为研究任务，标题也表明是图像分割，满足图像分割定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

@@ -1,0 +1,37 @@
+{
+  "paper_id": "W7137355068",
+  "annotations": [
+    {
+      "keyword_id": "subspace-clustering",
+      "exact_quote": "we propose a semi-supervised sparse subspace clustering method based on label propagation (S4CLP) in this paper",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出半监督稀疏子空间聚类方法，并以自表示学习与聚类联合框架完成子空间划分，符合子空间聚类任务。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "Semi-supervised sparse subspace clustering based on label propagation",
+      "evidence_field": "title",
+      "reason_zh": "标题明确为半监督设定，摘要进一步用点标签约束与成对约束等有限监督指导学习，符合半监督学习。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "the coefficient matrix in our model is sparse",
+      "evidence_field": "abstract",
+      "reason_zh": "模型用l1范数使系数矩阵稀疏，以稀疏系数表达样本关系，符合稀疏表示。"
+    },
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "exact_quote": "Therefore, we propose a semi-supervised sparse subspace clustering method based on label propagation (S4CLP) in this paper. Concretely, we integrate self-representation learning and clustering learning into a joint framework, where the two components interact to improve clustering performance. Moreover, we also incorporate pointwise label constraints and pairwise constraints (cannot-link) into a unified framework.",
+      "evidence_field": "abstract",
+      "reason_zh": "方法基于标签传播，并将成对cannot-link约束纳入统一框架，表明成对监督关系被传播并用于指导聚类学习。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "we fully leverage label information to guide the learning of the coefficient matrix and clustering results in our model",
+      "evidence_field": "abstract",
+      "reason_zh": "模型学习系数矩阵（样本间自表示/亲和矩阵）并用标签信息引导，联合聚类，符合学习样本间亲和关系。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

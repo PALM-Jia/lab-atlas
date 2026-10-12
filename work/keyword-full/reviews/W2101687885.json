@@ -1,0 +1,31 @@
+{
+  "paper_id": "W2101687885",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "论文以目标检测中少量标注样本可用为实际研究条件，并借助未标注样本改进方法，属于词表明确覆盖的有限标注与不完整监督；不要求其成为独立于半监督的研究问题。",
+      "exact_quote": "A clear improvement is observed with respect to the linear and the nonlinear kernel-based OSP, demonstrating good generalization capabilities when a low number of labeled samples are available, which is usually the case in target-detection problems.",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "A clear improvement is observed with respect to the linear and the nonlinear kernel-based OSP, demonstrating good generalization capabilities when a low number of labeled samples are available, which is usually the case in target-detection problems.",
+        "evidence_field": "abstract",
+        "reason_zh": "论文以目标检测中少量标注样本可用为实际研究条件，并借助未标注样本改进方法，属于词表明确覆盖的有限标注与不完整监督；不要求其成为独立于半监督的研究问题。"
+      }
+    ],
+    "abstentions": [
+      {
+        "keyword_id": "graph-structure-learning",
+        "reason_zh": "摘要提及基于图的半监督方法，但未说明是否学习或修正样本间边、邻接或亲和矩阵，仅能推断图结构可能被使用，证据不足以确认。"
+      }
+    ],
+    "input_issues": []
+  }
+}

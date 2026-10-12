@@ -1,0 +1,25 @@
+{
+  "paper_id": "W3099750577",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Non-Negative Matrix Factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以非负矩阵分解为核心方法；摘要进一步提出新的非负矩阵分解从原始数据生成二值码。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "discover a compact parts-based representation composed of binary codes",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要旨在从高维原始数据学习由二值码构成的紧凑表示，属于显式低维嵌入与维度压缩，并与其他降维方法比较。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "we construct an affinity graph to encode the geometrical structure of the original data, and the learned binary code subspace achieved by matrix factorization respects the structure.",
+      "evidence_field": "abstract",
+      "reason_zh": "构建亲和图编码原始数据的几何结构，并要求矩阵分解学到的二值码子空间保持该结构，构成图/流形几何一致性约束。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

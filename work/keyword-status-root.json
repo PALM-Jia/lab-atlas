@@ -1,0 +1,44 @@
+[
+  {
+    "id": "lab-b4f457369e13",
+    "title": "One Coin Has Two Sides: Single Poistive Multi Label Learning from Salient Annotations",
+    "classification": "2026_formal_conference",
+    "detail": "贾育衡主页列为 ICML 2026。ICML 官方 Poster 页面已公开作者和完整摘要；此前只走 OpenReview 路径遇到人机验证，漏用了可访问的 ICML 官方页。",
+    "verified_sources": [
+      {"url": "https://jyh-learning.github.io/papers.html", "fact": "Conference Papers 区列为 ICML 2026，含作者名单。"},
+      {"url": "https://rainywangxy.github.io/", "fact": "第一作者个人主页读取成功，邮箱 wang_xy@seu.edu.cn；该主页为个人介绍，没有本篇书目信息。"},
+      {"url": "https://github.com/RainyWangxy/PiSA", "fact": "第一作者公开代码仓标题对应本文，Positive 拼写与主页 Poistive 变体对应。"},
+      {"url": "https://icml.cc/virtual/2026/poster/64609", "fact": "本轮跟随普通跳转取得完整页面，论文标题、作者及摘要可读取。页面 meta keywords 是宽泛会议分类，不是具体论文关键词。"},
+      {"url": "https://openreview.net/forum?id=LhhFsfAzL6", "fact": "本轮仍跳转 Verifying your browser 页面。"}
+    ],
+    "checked_date": "2026-10-10",
+    "keyword_remedy": "改用 ICML 官方摘要提取关键词；保留自动提取来源，不混称 OpenAlex 原始关键词。"
+  },
+  {
+    "id": "lab-a1005f21ac76",
+    "title": "Trustworthy Federated Label Distribution Learning under Annotation Quality Disparity",
+    "classification": "2026_formal_with_preprint",
+    "detail": "贾育衡主页和 ICML 官方目录确认 ICML 2026；arXiv 预印本于 2026-05-06 首次公开，05-10 更新为 v2。正式会议页面已有完整摘要，但项目匹配的 OpenAlex arXiv 记录 keywords 返回空数组。",
+    "verified_sources": [
+      {"url": "https://jyh-learning.github.io/papers.html", "fact": "Conference Papers 区列为 ICML 2026，含作者名单。"},
+      {"url": "https://arxiv.org/abs/2605.04827", "fact": "v1 2026-05-06，v2 2026-05-10，摘要和 arXiv DOI 均已公开。"},
+      {"url": "https://icml.cc/virtual/2026/poster/64703", "fact": "本轮取得完整官方页面，标题、作者和摘要可读取。"},
+      {"url": "https://palm.seu.edu.cn/xgeng/", "fact": "合作者耿新个人主页可读取，其 Selected Publications 未列这篇；正式会议状态由 PI 主页和 ICML 官方页确认。"}
+    ],
+    "checked_date": "2026-10-10",
+    "keyword_remedy": "从 ICML 官方摘要或 arXiv 正文提取；更新身份匹配时优先寻找正式会议版。"
+  },
+  {
+    "id": "lab-8a05dc1f7a41",
+    "title": "Discovering Attention Head Interactions in Vision Transformers",
+    "classification": "2026_formal_conference",
+    "detail": "贾育衡主页明确列为 CVPR Findings 2026。已有 DOI 和 OpenAlex 记录；缓存 keywords 与摘要字段均为空，属于已公开论文的数据库元数据不完整。",
+    "verified_sources": [
+      {"url": "https://jyh-learning.github.io/papers.html", "fact": "Conference Papers 区列为 CVPR Findings 2026，作者为 Zhenyu Lu、Yuheng Jia、Wei You、Hao Chen。"},
+      {"url": "https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf", "fact": "CVPR 2026 Program Guide Findings Posters 列出标题及四位作者。"},
+      {"url": "https://openalex.org/W7221042064", "fact": "已有匹配缓存；DOI 10.1109/cvprf71909.2026.00324，keywords=[]，abstract_inverted_index 为空。"}
+    ],
+    "checked_date": "2026-10-10",
+    "keyword_remedy": "从 CVPR Findings/IEEE 正式论文页面或作者提供的正文补采关键词与摘要。"
+  }
+]

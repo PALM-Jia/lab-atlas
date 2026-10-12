@@ -1,0 +1,28 @@
+{
+  "paper_id": "W4416997644",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "Ensemble Clustering Method via Robust Consensus Learning",
+      "evidence_field": "title",
+      "reason_zh": "标题明确为集成聚类方法，摘要也围绕共关联矩阵与共识矩阵融合多个聚类结果展开。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "Finally, spectral clustering is applied to the refined consensus matrix to obtain the final clustering result.",
+      "evidence_field": "abstract",
+      "reason_zh": "方法从共关联/连接矩阵去噪并恢复、精炼共识矩阵，该矩阵作为最终谱聚类的样本亲和输入，属于学习或修正样本间图结构。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "多阶图结构用于增强共识矩阵表达力，但未明确图拉普拉斯、邻域或几何一致性正则约束。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "摘要仅有用于块对角聚类结构的理论秩约束，未明确低秩性质或低秩分解，暂不选择。"
+    }
+  ],
+  "input_issues": []
+}

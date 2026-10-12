@@ -1,0 +1,35 @@
+*{box-sizing:border-box}body{margin:0;height:100dvh;overflow:hidden;display:flex;flex-direction:column;background:var(--bg);color:var(--text);font-size:14px;line-height:1.6}a{color:var(--accent);text-decoration:none}button{font:inherit}h1,h2,h3,p{margin:0}main{flex:1;min-height:0;overflow:auto;padding:14px 18px 22px}.intro{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:12px}h1{font-size:20px;font-weight:600}.legend{display:flex;gap:16px;align-items:center;font-size:12px;color:var(--muted)}.legend span{display:inline-flex;gap:6px;align-items:center}.dot{display:inline-block;border:2px solid #7b8595;background:white;width:10px;height:10px;border-radius:50%}.dot.fixed{outline:1px solid #7b8595;outline-offset:2px}.dash{width:20px;border-top:2px dashed #8a94a4}#map-scroll{max-width:100%;overflow-x:auto;overflow-y:hidden;border:1px solid var(--line);border-radius:6px;background:white}#map-board{position:relative;height:596px;min-width:1350px}#paper{position:absolute;inset:0;pointer-events:auto}#stage-headings,#lane-headings{position:absolute;inset:0;pointer-events:none;z-index:2}.stage-header{position:absolute;top:0;height:76px;padding:12px 6px 8px;text-align:center;pointer-events:auto;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--text);line-height:1.5}.stage-header strong{display:block;font-size:14px;font-weight:600}.stage-header small{display:block;margin-top:5px;font-size:11px;color:var(--muted)}.stage-header:hover,.stage-header[aria-pressed=true]{background:var(--soft);color:var(--accent)}.stage-header.checkpoint{box-shadow:inset 0 3px #8c7abc}.lane-header{position:absolute;left:10px;width:105px;transform:translateY(-50%);padding:3px 4px;text-align:left;border:0;background:white;color:var(--track);font-size:13px;font-weight:600;pointer-events:auto;border-radius:4px}.lane-header:hover,.lane-header[aria-pressed=true]{background:var(--soft);text-decoration:underline;text-underline-offset:3px}.joint-element{cursor:pointer}.joint-element:focus{outline:none}.joint-element:focus-visible [joint-selector=body]{stroke-width:4}.joint-link{cursor:pointer}#inspector{margin-top:12px;padding:14px 18px;background:white;border:1px solid var(--line);border-radius:6px;min-height:162px}.detail-top{display:flex;align-items:baseline;gap:12px;margin-bottom:8px}h2{font-size:16px;font-weight:600}.detail-top small{color:var(--muted);font-size:12px}.detail-summary{margin-bottom:10px;color:var(--muted);font-size:13px}.detail-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 22px;margin:0}.detail-grid dt{font-size:12px;color:var(--muted);margin-bottom:3px}.detail-grid dd{margin:0;font-size:13px}.detail-tabs{display:flex;gap:6px;margin-bottom:10px}.detail-tabs button{border:1px solid var(--line);border-radius:4px;background:white;color:var(--accent);font-size:12px;padding:3px 8px}.detail-tabs button:hover,.detail-tabs button.active{background:var(--soft)}details{margin-top:12px;font-size:12px;color:var(--muted)}summary{cursor:pointer}details p{margin-top:6px}.note{color:var(--muted);font-size:12px}svg text{font-family:Inter,"Segoe UI","Microsoft YaHei",sans-serif}#map-scroll:focus-visible{outline:1px solid var(--accent);outline-offset:2px}@media(max-width:850px){main{padding:12px}.intro{align-items:start;flex-direction:column;gap:8px}.legend{gap:12px;flex-wrap:wrap}.detail-grid{grid-template-columns:1fr}#inspector{padding:12px}h1{font-size:18px}.detail-top{flex-wrap:wrap;gap:4px 10px}}/* The same content drives stages, tracks and individual paths. */
+main{width:100%;max-width:1640px;margin:0 auto}
+.detail-tabs{flex-wrap:wrap}
+.detail-tabs.track-stages{margin:12px 0 0}
+.source-line{margin-top:12px;padding-top:9px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
+.source-line b{font-weight:500;color:var(--text);margin-right:5px}
+.source-line span{padding:0 5px;color:#a5acb9}
+.related-paths{display:flex;align-items:center;flex-wrap:wrap;gap:5px 7px;margin-top:10px;font-size:12px}
+.related-paths b{font-weight:500;color:var(--muted);min-width:52px}
+.related-paths button{border:1px solid var(--line);border-radius:4px;background:var(--paper);padding:3px 7px;color:var(--accent);font-size:12px;line-height:1.5}
+.related-paths button:hover{background:var(--soft);text-decoration:underline;text-underline-offset:3px}
+.edge-explanation{font-size:14px;line-height:1.7;margin-bottom:12px;max-width:960px}
+.arrow{color:var(--muted);font-weight:400;padding:0 4px}
+.note{margin-top:10px}
+.joint-element[data-type="standard.Rectangle"]{cursor:default}
+@media(max-width:850px){.source-line{line-height:1.8}.detail-tabs button{line-height:1.5}}
+@media print{body{height:auto;overflow:visible}main{overflow:visible}.atlas-header,.legend button{display:none}#map-scroll{overflow:visible}.detail-tabs{display:none}}
+/* Reference text is static; selecting the graph only changes emphasis and location. */
+#inspector{padding:0;min-height:0}
+.explanation-toolbar{position:sticky;top:0;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 12px;background:var(--paper);border-bottom:1px solid var(--line);border-radius:6px 6px 0 0}
+.explanation-toolbar .tabs{display:flex}
+.explanation-card{padding:18px;border-bottom:1px solid var(--line);scroll-margin-top:58px}
+.explanation-card:last-child{border-bottom:0}
+.explanation-card>.detail-summary{margin-top:6px}
+.boundary-note{font-size:12px;color:var(--muted);margin-top:7px;line-height:1.7}
+.edge-group{padding:16px 18px;border-bottom:1px solid var(--line)}
+.edge-group:last-child{border-bottom:0}
+.edge-group>h2{margin-bottom:9px}
+.edge-row{display:grid;grid-template-columns:minmax(230px,1fr) 2fr;gap:18px;padding:10px 0;border-top:1px solid #edf0f4;scroll-margin-top:58px;font-size:13px;line-height:1.65}
+.edge-row>div{align-self:start}
+.edge-row button{font:inherit;color:var(--accent);border:0;background:none;padding:0;text-align:left}
+.edge-row button:hover{text-decoration:underline;text-underline-offset:3px}
+.edge-row .arrow{padding:0 6px}
+@media(max-width:850px){.explanation-card,.edge-group{padding:14px 12px}.edge-row{grid-template-columns:1fr;gap:4px}.explanation-toolbar{padding:8px}.explanation-toolbar .quiet{font-size:12px}.explanation-card,.edge-row{scroll-margin-top:56px}}
+@media print{.explanation-toolbar{display:none}#inspector [role=tabpanel][hidden]{display:block!important}}

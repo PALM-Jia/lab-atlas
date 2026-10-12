@@ -1,0 +1,18 @@
+{
+  "sample_id": "S02",
+  "annotations": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "novel discriminative low-rank representation method",
+      "evidence_field": "abstract",
+      "reason_zh": "所提方法明确以低秩表示建模数据结构，属于低秩表示方法。"
+    },
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "exploit the spatial and spectral information of HSIs",
+      "evidence_field": "abstract",
+      "reason_zh": "研究直接利用高光谱图像的空间与光谱信息开展聚类。"
+    }
+  ],
+  "abstentions": []
+}

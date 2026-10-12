@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W7124941562\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"orthogonal NMF\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确将正交 NMF 作为方案方法用于图像聚类；NMF 即非负矩阵分解，符合以非负因子分解矩阵的定义。\"}],\"abstentions\":[{\"keyword_id\":\"semi-supervised-learning\",\"reason_zh\":\"标题出现 label propagation，可能涉及标签/约束传播，但未说明存在有限监督与未标注样本或有限成对约束，无法判定为半监督学习。\"}],\"input_issues\":[]}"
+}

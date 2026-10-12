@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2605264395",
+  "annotations": [
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "Traffic state estimation (TSE) refers to the process of the inference of traffic state variables (i.e., flow, density, speed and other equivalent variables) on road segments using partially observed traffic data.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文直接研究高速公路交通状态变量（流量、密度、速度等）的估计，对象为道路时空交通数据，符合交通数据定义。"
+    },
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "inference of traffic state variables (i.e., flow, density, speed and other equivalent variables) on road segments using partially observed traffic data",
+      "evidence_field": "abstract",
+      "reason_zh": "TSE 从部分观测、含噪的交通数据推断未观测交通状态变量，属于估计缺失观测或恢复原始数值的任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

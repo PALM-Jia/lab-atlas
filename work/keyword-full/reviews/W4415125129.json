@@ -1,0 +1,26 @@
+{
+  "paper_id": "W4415125129",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "方法以有限先验成对约束为实质监督条件，并通过约束传播增强该知识，符合有限、不完整监督的弱监督设定。",
+      "exact_quote": "under the condition of limited prior knowledge",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "under the condition of limited prior knowledge",
+        "evidence_field": "abstract",
+        "reason_zh": "方法以有限先验成对约束为实质监督条件，并通过约束传播增强该知识，符合有限、不完整监督的弱监督设定。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

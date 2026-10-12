@@ -1,0 +1,54 @@
+{
+  "papers": [
+    {
+      "paper_id": "W1522301498",
+      "title": "Adam: A Method for Stochastic Optimization",
+      "abstract": "We introduce Adam, an algorithm for first-order gradient-based optimization of stochastic objective functions, based on adaptive estimates of lower-order moments. The method is straightforward to implement, is computationally efficient, has little memory requirements, is invariant to diagonal rescaling of the gradients, and is well suited for problems that are large in terms of data and/or parameters. The method is also appropriate for non-stationary objectives and problems with very noisy and/or sparse gradients. The hyper-parameters have intuitive interpretations and typically require little tuning. Some connections to related algorithms, on which Adam was inspired, are discussed. We also analyze the theoretical convergence properties of the algorithm and provide a regret bound on the convergence rate that is comparable to the best known results under the online convex optimization framework. Empirical results demonstrate that Adam works well in practice and compares favorably to other stochastic optimization methods. Finally, we discuss AdaMax, a variant of Adam based on the infinity norm."
+    },
+    {
+      "paper_id": "W1522538275",
+      "title": "A combined genetic adaptive search (GeneAS) for engineering design",
+      "abstract": "In this paper, a flexible yet efficient algorithm for solving engineering design optimization problems is presented. The algorithm is developed based on both binary-coded and realcoded genetic algorithms (GAs). Since both GAs are used, the variables involving discrete, continuous, and zero-one variables are handled quite efficiently. The algorithm restricts its search only to the permissible values of the variables, thereby reducing the search effort in converging to the optimum solution. The efficiency and ease of application of the proposed method is demonstrated by solving three different mechanical component design problems borrowed from the optimization literature. The proposed technique is compared with binarycoded genetic algorithms, Augmented Lagrange multiplier method, Branch and Bound method and Hooke and Jeeves pattern search method. In all cases, the solutions obtained using the proposed technique are superior than those obtained with other methods. These results are encour..."
+    },
+    {
+      "paper_id": "W1523738436",
+      "title": "Fast Multi-Instance Multi-Label Learning",
+      "abstract": "In multi-instance multi-label learning (MIML), one object is represented by multiple instances and simultaneously associated with multiple labels. Existing MIML approaches have been found useful in many applications; however, most of them can only handle moderate-sized data. To efficiently handle large data sets, we propose the MIMLfast approach, which first constructs a low-dimensional subspace shared by all labels, and then trains label specific linear models to optimize approximated ranking loss via stochastic gradient descent. Although the MIML problem is complicated, MIMLfast is able to achieve excellent performance by exploiting label relations with shared space and discovering sub-concepts for complicated labels. Experiments show that the performance of MIMLfast is highly competitive to state-of-the-art techniques, whereas its time cost is much less; particularly, on a data set with 30K bags and 270K instances, where none of existing approaches can return results in 24 hours, MIMLfast takes only 12 minutes. Moreover, our approach is able to identify the most representative instance for each label, and thus providing a chance to understand the relation between input patterns and output semantics."
+    },
+    {
+      "paper_id": "W1528905581",
+      "title": "Generalized Linear Models",
+      "abstract": "A new program for depression is instituted in the hopes of reducing the number of visits to the emergency room in the year following treatment. Predictors include (among many others) treatment (yes/no), race, and drug, and alcohol usage indices. A common and minimally invasive treatment for jaundice in newborns is exposure to light. Yet the cost of this (mainly because of longer hospital stays) was estimated as long ago as 1984 at over $600 per infant. Predictors of the cost include race, gestational age, and birthweight"
+    },
+    {
+      "paper_id": "W1532846663",
+      "title": "Evolutionary Dynamics of Gene and Isoform Regulation in Mammalian Tissues",
+      "abstract": "Most mammalian genes produce multiple distinct messenger RNAs through alternative splicing, but the extent of splicing conservation is not clear. To assess tissue-specific transcriptome variation across mammals, we sequenced complementary DNA from nine tissues from four mammals and one bird in biological triplicate, at unprecedented depth. We find that while tissue-specific gene expression programs are largely conserved, alternative splicing is well conserved in only a subset of tissues and is frequently lineage-specific. Thousands of previously unknown, lineage-specific, and conserved alternative exons were identified; widely conserved alternative exons had signatures of binding by MBNL, PTB, RBFOX, STAR, and TIA family splicing factors, implicating them as ancestral mammalian splicing regulators. Our data also indicate that alternative splicing often alters protein phosphorylatability, delimiting the scope of kinase signaling."
+    },
+    {
+      "paper_id": "W1535599202",
+      "title": "Multi-Instance Kernels",
+      "abstract": "Learning from structured data is becoming increasingly important. However, most prior work on kernel methods has focused on learning from attribute-value data. Only recently, research started investigating kernels for structured data. This paper considers kernels for multi-instance problems - a class of concepts on individuals represented by sets. The main result of this paper is a kernel on multi-instance data that can be shown to separate positive and negative sets under natural assumptions. This kernel compares favorably with state of the art multi-instance learning algorithms in an empirical study. Finally, we give some concluding remarks and propose future work that might further improve the results."
+    },
+    {
+      "paper_id": "W1538422756",
+      "title": "Constrained Multi-View Video Face Clustering",
+      "abstract": "In this paper, we focus on face clustering in videos. To promote the performance of video clustering by multiple intrinsic cues, i.e., pairwise constraints and multiple views, we propose a constrained multi-view video face clustering method under a unified graph-based model. First, unlike most existing video face clustering methods which only employ these constraints in the clustering step, we strengthen the pairwise constraints through the whole video face clustering framework, both in sparse subspace representation and spectral clustering. In the constrained sparse subspace representation, the sparse representation is forced to explore unknown relationships. In the constrained spectral clustering, the constraints are used to guide for learning more reasonable new representations. Second, our method considers both the video face pairwise constraints as well as the multi-view consistence simultaneously. In particular, the graph regularization enforces the pairwise constraints to be respected and the co-regularization penalizes the disagreement among different graphs of multiple views. Experiments on three real-world video benchmark data sets demonstrate the significant improvements of our method over the state-of-the-art methods."
+    },
+    {
+      "paper_id": "W1545533962",
+      "title": "Feature Extraction & Image Processing",
+      "abstract": null
+    },
+    {
+      "paper_id": "W1553309915",
+      "title": "Multi-Instance Dimensionality Reduction",
+      "abstract": "Multi-instance learning deals with problems that treat bags of instances as training examples. In single-instance learning problems, dimensionality reduction is an essential step for high-dimensional data analysis and has been studied for years. The curse of dimensionality also exists in multiinstance learning tasks, yet this difficult task has not been studied before. Direct application of existing single-instance dimensionality reduction objectives to multi-instance learning tasks may not work well since it ignores the characteristic of multi-instance learning that the labels of bags are known while the labels of instances are unknown. In this paper, we propose an effective model and develop an efficient algorithm to solve the multi-instance dimensionality reduction problem. We formulate the objective as an optimization problem by considering orthonormality and sparsity constraints in the projection matrix for dimensionality reduction, and then solve it by the gradient descent along the tangent space of the orthonormal matrices. We also propose an approximation for improving the efficiency. Experimental results validate the effectiveness of the proposed method."
+    },
+    {
+      "paper_id": "W1556320907",
+      "title": "When is constrained clustering beneficial, and why?",
+      "abstract": "Several researchers have illustrated that constraints can improve the results of a variety of clustering algorithms. However, there can be a large variation in this improvement, even for a fixed number of constraints for a given data set. We present the first attempt to provide insight into this phenomenon by characterizing two constraint set properties: inconsistency and incoherence. We show that these measures are strongly anti-correlated with clustering algorithm performance. Since they can be computed prior to clustering, these measures can aid in deciding which constraints to use in practice."
+    }
+  ]
+}

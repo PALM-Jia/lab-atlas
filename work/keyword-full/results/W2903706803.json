@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2903706803",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "Matrix Completion",
+      "evidence_field": "title",
+      "reason_zh": "标题表明以矩阵补全为任务，即从不完整观测中估计缺失矩阵元素，符合数据补全与恢复。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "Non-Convex Low-Rank Approximation",
+      "evidence_field": "title",
+      "reason_zh": "标题与摘要围绕非凸低秩近似/正则化器展开，显式利用矩阵低秩约束或近似结构完成补全。"
+    },
+    {
+      "keyword_id": "subspace-clustering",
+      "exact_quote": "subspace clustering based on low rank representation",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要指出所提正则化器与优化方法适用于其他秩最小化问题，例如基于低秩表示的子空间聚类，涉及按潜在子空间分组。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

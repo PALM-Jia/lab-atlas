@@ -1,0 +1,25 @@
+{
+  "paper_id": "W188881548",
+  "annotations": [
+    {
+      "keyword_id": "subspace-clustering",
+      "exact_quote": "robust subspace clustering",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出LRRSC用于稳健子空间聚类，目标是从多子空间数据点恢复各子空间维度与成员，属于子空间聚类任务。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "low-rank representation with symmetric constraint (LRRSC)",
+      "evidence_field": "abstract",
+      "reason_zh": "方法显式采用带对称约束的低秩表示，并将对称约束融入高维数据表示的低秩性，还涉及核范数正则最小二乘，满足低秩建模定义。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "The affinity matrix for spectral clustering can be obtained",
+      "evidence_field": "abstract",
+      "reason_zh": "论文从对称低秩表示的主方向角度信息得到用于谱聚类的亲和矩阵，显式构建样本间亲和关系，符合学习/构建亲和矩阵的图结构学习情形。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2166912588\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"Multilabel classification via calibrated label ranking\",\"evidence_field\":\"title\",\"reason_zh\":\"标题直接表明任务是多标签分类，即为实例预测多个相关标签。\"},{\"keyword_id\":\"label-correlation-modeling\",\"exact_quote\":\"Label ranking studies the problem of learning a mapping from instances to rankings over a predefined set of labels.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要将任务表述为学习标签集合上的排序，并通过成对比较/偏好学习显式建模标签间排序关系，符合标签相关性建模。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

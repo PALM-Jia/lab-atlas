@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2602809673\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"we extend SLIC to compute content-sensitive superpixels\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将SLIC扩展用于计算内容敏感超像素，超像素分割属于图像分割任务。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W3034413451\",\"annotations\":[],\"abstentions\":[{\"keyword_id\":\"class-imbalance\",\"reason_zh\":\"摘要提到平衡样本分布，但未明确为类别或簇的样本量不均衡，核心是选择偏差导致的特征相关性，证据不足以判定。\"},{\"keyword_id\":\"domain-adaptation\",\"reason_zh\":\"选择偏差涉及分布偏移，但未提源域与目标域及将知识迁移至目标域的适配过程，无法判定。\"}],\"input_issues\":[]}"
+}

@@ -1,0 +1,11 @@
+{
+  "paper_id": "W2014967532",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "摘要仅涉及社会领袖、层级结构及共同邻居相似度用于社区划分，未说明学习或修正样本间边、邻接或亲和矩阵，证据不足以判定该机制。"
+    }
+  ],
+  "input_issues": []
+}

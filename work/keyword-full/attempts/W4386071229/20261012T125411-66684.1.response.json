@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W4386071229\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"Symmetric nonnegative matrix factorization: A systematic review\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以对称非负矩阵分解为综述主题，属于以非负因子分解矩阵且包含对称非负矩阵分解的方法。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

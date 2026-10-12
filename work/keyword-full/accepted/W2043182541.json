@@ -1,0 +1,11 @@
+{
+  "paper_id": "W2043182541",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "sparse-representation",
+      "reason_zh": "仅说明分类模型用少量训练点索引核基函数，未给出样本的稀疏表示机制。"
+    }
+  ],
+  "input_issues": []
+}

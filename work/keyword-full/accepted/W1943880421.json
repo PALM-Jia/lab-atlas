@@ -1,0 +1,13 @@
+{
+  "paper_id": "W1943880421",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "Superpixel-based video object segmentation",
+      "evidence_field": "title",
+      "reason_zh": "标题表明论文任务是在视频中分割目标，并基于超像素进行像素级/超像素分割，符合图像分割定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2773194520",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Sparse Hyperspectral Unmixing",
+      "evidence_field": "title",
+      "reason_zh": "论文研究稀疏高光谱解混，处理对象为高光谱图像。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "Sparse hyperspectral unmixing from large spectral libraries",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要表明从大规模光谱库进行稀疏高光谱解混，稀疏表示用少量光谱库原子表达像素。"
+    },
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "segmentation and oversegmentation algorithms",
+      "evidence_field": "abstract",
+      "reason_zh": "论文方法基于分割与超分割算法进行空间多尺度分解，超分割对应超像素分割，属于图像分割方法的使用。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

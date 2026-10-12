@@ -1,0 +1,30 @@
+{
+  "paper_id": "W2750950678",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_positive",
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "摘要说明由运动相关系数计算时空图，并用其拉普拉斯约束背景模型，未学习或修正边与亲和结构；固定图构造本身不满足图结构学习定义。",
+      "exact_quote": "we compute a spatial and temporal graph for a given sequence using motion-aware correlation coefficient.",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "graph-structure-learning"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "sparse-representation",
+        "reason_zh": "摘要仅提到前景为稀疏矩阵和稀疏子空间聚类，未明确说明以字典原子、基向量或潜在特征表达样本的稀疏表示机制。"
+      },
+      {
+        "keyword_id": "graph-structure-learning",
+        "reason_zh": "仅说明用运动相关系数计算时空图并估计距离矩阵，未给出学习或修正边、邻接或亲和结构的机制。"
+      }
+    ],
+    "input_issues": []
+  }
+}

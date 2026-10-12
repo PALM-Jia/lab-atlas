@@ -1,0 +1,755 @@
+{
+  "papers": [
+    {
+      "paper_id": "lab-af85f8a01211",
+      "primary": "trust",
+      "secondary": [
+        "clustering"
+      ],
+      "evidence": [
+        {
+          "field_id": "trust",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "To tackle this critical issue, we pioneer the development of a calibrated deep clustering framework.",
+          "score": 1
+        },
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Towards Calibrated Deep Clustering Network",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要问题是深度聚类预测置信度的过度自信及校准。"
+    },
+    {
+      "paper_id": "lab-b15f2540bde4",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Exploiting Multi-Label Correlation in Label Distribution Learning",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究如何利用多标记相关性改进标记分布学习。"
+    },
+    {
+      "paper_id": "lab-b4f457369e13",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "One Coin Has Two Sides: Single Poistive Multi Label Learning from Salient Annotations",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究显著单正标记监督下的多标记学习。"
+    },
+    {
+      "paper_id": "lab-b613f6b0fb67",
+      "primary": "vision",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "vision",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Superpixel-Guided Discriminative Low-Rank Representation of Hyperspectral Images for Classification",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要目标是提高高光谱图像分类性能。"
+    },
+    {
+      "paper_id": "lab-b653a194f324",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Maximum entropy subspace clustering network",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究深度子空间聚类网络的连接性与训练问题。"
+    },
+    {
+      "paper_id": "lab-b84d85c3683d",
+      "primary": null,
+      "secondary": [],
+      "evidence": [],
+      "reason_zh": "主要研究计数数据的贝叶斯核泊松回归，不直接对应六个领域。"
+    },
+    {
+      "paper_id": "lab-b8edb24bba59",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "FairMatch: Promoting Partial Label Learning by Unlabeled Samples",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要目标是利用无标记样本改进偏标记学习。"
+    },
+    {
+      "paper_id": "lab-b98b32a37a21",
+      "primary": "vision",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "vision",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Local Low-Rank Approximation With Superpixel-Guided Locality Preserving Graph for Hyperspectral Image Classification",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要目标是降低光谱变化并提高高光谱图像分类性能。"
+    },
+    {
+      "paper_id": "lab-bb2d463fb71a",
+      "primary": "foundation",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "foundation",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Unsupervised Long-tailed Learning for Foundation Model",
+          "score": 1
+        }
+      ],
+      "reason_zh": "标题明确面向基础模型的无监督长尾学习。"
+    },
+    {
+      "paper_id": "lab-bba08ca100fc",
+      "primary": "vision",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "vision",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Multiscale Phase Congruency Analysis for Image Edge Visual Saliency Detection",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要任务是图像边缘视觉显著性检测。"
+    },
+    {
+      "paper_id": "lab-bbbc3701492a",
+      "primary": "trust",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "trust",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Improving the Adversarial Robustness of Deep Neural Networks via Efficient Two Stage Training",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要目标是提高神经网络对抗鲁棒性。"
+    },
+    {
+      "paper_id": "lab-bc765488bcf7",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Progressive Label Enhancement",
+          "score": 1
+        }
+      ],
+      "reason_zh": "标题明确研究标记增强。"
+    },
+    {
+      "paper_id": "lab-bddb535117ca",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "ConMix: Contrastive Mixup at Representation Level for Long-tailed Deep Clustering",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究长尾数据分布下的深度聚类。"
+    },
+    {
+      "paper_id": "lab-bf934091a903",
+      "primary": "foundation",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "foundation",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "We then applied a supervised adaptation to frozen GFM embeddings (DNABERT-2, Evo 2, Genos) by adding a lightweight classifier (i.e. a multi-layer perceptron) and reduced the cross-species performance decrease for rat and pig (8.56%-23.84% in AUROC), while performance on chicken was very close to human (decline within 1%, even exceeding by 0.52% when using the Evo 2 embedding).",
+          "score": 1
+        }
+      ],
+      "reason_zh": "系统评估并适配基因组基础模型以改善跨物种剪接变异预测。"
+    },
+    {
+      "paper_id": "lab-c0b4fa3ab5d5",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Label Distribution Learning with Biased Annotations Assisted by Multi-Label Learning",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究存在偏差标注时的标记分布学习。"
+    },
+    {
+      "paper_id": "lab-c0cf7adb052a",
+      "primary": "vision",
+      "secondary": [
+        "foundation"
+      ],
+      "evidence": [
+        {
+          "field_id": "vision",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Large Model Guided Semantic Segment Anything for Underwater Consumer Electronics",
+          "score": 1
+        },
+        {
+          "field_id": "foundation",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Large Model Guided Semantic Segment Anything for Underwater Consumer Electronics",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要任务是利用大模型改进水下图像语义分割。"
+    },
+    {
+      "paper_id": "lab-c42096082d68",
+      "primary": "recovery",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "recovery",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Adaptive and robust low-rank tensor completion for missing and corrupted traffic data recovery",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要任务是补全缺失交通数据并恢复损坏观测。"
+    },
+    {
+      "paper_id": "lab-cafae06c3f4f",
+      "primary": null,
+      "secondary": [],
+      "evidence": [],
+      "reason_zh": "仅有标题支持高速公路交通状态估计，未明确数据补全或其他六类主任务。"
+    },
+    {
+      "paper_id": "lab-cb0529713b81",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Graph-based Clustering Revisited: A Relaxation of Kernel k-Means Perspective",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究图聚类约束松弛与聚类性能。"
+    },
+    {
+      "paper_id": "lab-cf4dec41fda2",
+      "primary": null,
+      "secondary": [],
+      "evidence": [],
+      "reason_zh": "主要研究通用迁移学习的域间分布与样本选择，不直接对应六个领域。"
+    },
+    {
+      "paper_id": "lab-cfe1c0f8487f",
+      "primary": "trust",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "trust",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "Our philosophy is to simultaneously overcome overfitting to noisy classes and transfer knowledge between semantically related classes.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要解决长尾分类中的标签噪声与对噪声类别过拟合问题。"
+    },
+    {
+      "paper_id": "lab-d08ff32d883d",
+      "primary": null,
+      "secondary": [],
+      "evidence": [],
+      "reason_zh": "主要研究广义极限学习机的输出分布及通用分类回归建模。"
+    },
+    {
+      "paper_id": "lab-d162a6829a75",
+      "primary": "clustering",
+      "secondary": [
+        "vision"
+      ],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Superpixel Graph Contrastive Clustering with Semantic-Invariant Augmentations for Hyperspectral Images",
+          "score": 1
+        },
+        {
+          "field_id": "vision",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Superpixel Graph Contrastive Clustering with Semantic-Invariant Augmentations for Hyperspectral Images",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要任务是高光谱图像的对比聚类。"
+    },
+    {
+      "paper_id": "lab-d50fd9c219f7",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "Symmetric nonnegative matrix factorization (SNMF) has demonstrated to be a powerful method for data clustering.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要目标是通过自监督非负矩阵分解改进数据聚类。"
+    },
+    {
+      "paper_id": "lab-d7d729a798a9",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "RankMatch: A Novel Approach to Semi-Supervised Label Distribution Learning Leveraging Rank Correlation between Labels",
+          "score": 1
+        }
+      ],
+      "reason_zh": "标题明确研究半监督标记分布学习。"
+    },
+    {
+      "paper_id": "lab-d93ee5aa7a9a",
+      "primary": "clustering",
+      "secondary": [
+        "labels"
+      ],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Partial Label Clustering",
+          "score": 1
+        },
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Partial Label Clustering",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要目标是利用偏标记信息提高聚类性能。"
+    },
+    {
+      "paper_id": "lab-d99ee9ba4a13",
+      "primary": "trust",
+      "secondary": [
+        "foundation"
+      ],
+      "evidence": [
+        {
+          "field_id": "trust",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Cracking the Code of Hallucination in LVLMs with Vision-aware Head Divergence",
+          "score": 1
+        },
+        {
+          "field_id": "foundation",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Cracking the Code of Hallucination in LVLMs with Vision-aware Head Divergence",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要问题是视觉语言大模型的幻觉机制与抑制。"
+    },
+    {
+      "paper_id": "lab-dccd5bfa936b",
+      "primary": "foundation",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "foundation",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "PGSB: Pretrained-Guided Shared Basis for LoRA Model Merging",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要任务是预训练大模型的LoRA模型合并。"
+    },
+    {
+      "paper_id": "lab-de8760c3355c",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Instance-Dependent Inaccurate Label Distribution Learning",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究实例相关不准确标记分布的学习。"
+    },
+    {
+      "paper_id": "lab-dec46f74923a",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "To tackle this challenge, we propose a Controllable Pseudo-label Generation (CPG) framework, expanding the labeled dataset with the progressively identified reliable pseudo-labels from the unlabeled dataset and training the model on the updated labeled dataset with a known distribution, making it unaffected by the unlabeled data distribution.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究未知类别分布下利用伪标记改进长尾半监督分类。"
+    },
+    {
+      "paper_id": "lab-def7c80ee1d1",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "Considering that the quality of the similarity graph is crucial to the final clustering performance, we propose a new semisupervised model, which is able to simultaneously learn the similarity matrix with supervisory information and generate the clustering results, such that the mutual enhancement effect of the two tasks can produce better clustering performance.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要目标是联合学习相似图并生成更好的聚类结果。"
+    },
+    {
+      "paper_id": "lab-deff0ac02cbd",
+      "primary": "trust",
+      "secondary": [
+        "foundation"
+      ],
+      "evidence": [
+        {
+          "field_id": "trust",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Attention Heads are Complementary Visual Units: Mitigating Hallucinations in LVLMs via Adaptive Visual Cues Focusing",
+          "score": 1
+        },
+        {
+          "field_id": "foundation",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Attention Heads are Complementary Visual Units: Mitigating Hallucinations in LVLMs via Adaptive Visual Cues Focusing",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要目标是通过注意力头视觉线索缓解视觉语言大模型幻觉。"
+    },
+    {
+      "paper_id": "lab-df79e6b90766",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Complementary Classifier Induced Partial Label Learning",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究通过互补分类器消歧偏标记。"
+    },
+    {
+      "paper_id": "lab-e407c5f18da5",
+      "primary": "vision",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "vision",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "No-reference Image Quality Assessment for Contrast-changed Images via a Semi-supervised Robust PCA Model",
+          "score": 1
+        }
+      ],
+      "reason_zh": "标题明确研究对比度变化图像的无参考质量评价。"
+    },
+    {
+      "paper_id": "lab-e73ac884ede0",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Exploiting Negative Multi-Cluster Structure in Class-Wise Embeddings for Weakly Supervised Multi-Label Learning",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要目标是利用类嵌入结构改善弱监督多标记学习。"
+    },
+    {
+      "paper_id": "lab-e91390053be5",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Mixed Blessing: Class-Wise Embedding guided Instance-Dependent Partial Label Learning",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究实例相关偏标记的消歧。"
+    },
+    {
+      "paper_id": "lab-e9f08a9f6baf",
+      "primary": "trust",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "trust",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "On the Adversarial Robustness of Hierarchical Classification",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究层次分类中的对抗鲁棒性。"
+    },
+    {
+      "paper_id": "lab-ec6acdec9eea",
+      "primary": "foundation",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "foundation",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "PLUME: Latent Reasoning Based Universal Multimodal Embedding",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要任务是大模型驱动的统一多模态嵌入与检索。"
+    },
+    {
+      "paper_id": "lab-ed665f8e6c6f",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Clustering ensemble meets low-rank tensor approximation",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要目标是通过低秩张量近似改善集成聚类。"
+    },
+    {
+      "paper_id": "lab-efed21f0ba73",
+      "primary": "vision",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "vision",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Irregular Tensor Low-Rank Representation for Hyperspectral Image Representation",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究高光谱图像不规则空间结构的判别表示。"
+    },
+    {
+      "paper_id": "lab-effcb20ed6d4",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "AdapMatch: Adaptive Bias Decoupling for Semi-Supervised Partial Label Learning under Unknown Class Distributions",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究未知类别分布下的半监督偏标记消歧。"
+    },
+    {
+      "paper_id": "lab-f121e8ed99c9",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Semi-Supervised Spectral Clustering With Structured Sparsity Regularization",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要任务是半监督谱聚类。"
+    },
+    {
+      "paper_id": "lab-f46fa8731916",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Active k-labelsets ensemble for multi-label classification",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要任务是多标记分类的标签子集集成。"
+    },
+    {
+      "paper_id": "lab-f6916a1b1d89",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Label Distribution Learning from Logical Label",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要目标是从逻辑标记直接学习标记分布。"
+    },
+    {
+      "paper_id": "lab-fc483a521424",
+      "primary": "foundation",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "foundation",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "Large pre-trained models achieve remarkable success across diverse domains, yet fully fine-tuning incurs prohibitive computational and memory costs.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究大型预训练模型的参数高效微调与动态秩适配。"
+    },
+    {
+      "paper_id": "lab-fc69e7eb5613",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "Semi-supervised learning faces significant challenges in realistic scenarios where labeled data is scarce and unlabeled data follows unknown, arbitrary distributions.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究有限标注与未知无标记分布下的通用半监督分类。"
+    },
+    {
+      "paper_id": "lab-fdadc630f8db",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Label Enhancement by Fusing Manifold Fusion of Feature and Label Spaces",
+          "score": 1
+        }
+      ],
+      "reason_zh": "标题明确研究特征与标记空间融合的标记增强。"
+    },
+    {
+      "paper_id": "lab-fe676cbbfafd",
+      "primary": "clustering",
+      "secondary": [
+        "vision"
+      ],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Superpixel-level Hypergraph Regularized Multi-view Clustering for Hyperspectral Images",
+          "score": 1
+        },
+        {
+          "field_id": "vision",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Superpixel-level Hypergraph Regularized Multi-view Clustering for Hyperspectral Images",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要任务是大规模高光谱图像的多视图聚类。"
+    }
+  ]
+}

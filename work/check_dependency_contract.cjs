@@ -1,0 +1,9 @@
+const assert=require('node:assert/strict');global.window=global;require('../outputs/paper-atlas/workflow-data.js');require('../outputs/paper-atlas/workflow-layout.js');const d=WORKFLOW_MAP,g=WorkflowLayout.build(d),byId=new Map(d.artifacts.map(n=>[n.id,n]));
+assert.equal(d.information.length,12);assert.equal(d.artifacts.length,23);assert(!JSON.stringify({stages:WORKFLOW_STAGES,map:d}).includes('缓存'));
+for(const id of ['abstract','keywords','topics','counts','references','citingRecords'])assert.deepEqual(d.dependencies.filter(e=>e.to===id).map(e=>e.from),['identity']);
+for(const id of ['externalDirections','externalVector'])assert.deepEqual(d.dependencies.filter(e=>e.to===id).map(e=>e.from),['external']);
+assert(!d.dependencies.some(e=>e.from==='external'&&['directions','vector','keywordProfile','directionProfile'].includes(e.to)));
+for(let i=0;i<d.artifacts.length;i++)for(let j=i+1;j<d.artifacts.length;j++){const a=d.artifacts[i],b=d.artifacts[j],p=g.point(a),q=g.point(b);assert(!(Math.abs(p.x-q.x)<(g.nodeWidth(a)+g.nodeWidth(b))/2&&Math.abs(p.y-q.y)<32),a.id+' overlaps '+b.id);}
+let vertical=0;
+for(const e of d.dependencies){const a=byId.get(e.from),b=byId.get(e.to),p=g.point(a),q=g.point(b),points=[{x:p.x+g.nodeWidth(a)/2,y:p.y},...g.vertices(e),{x:q.x-g.nodeWidth(b)/2,y:q.y}];for(let i=1;i<points.length;i++){const u=points[i-1],v=points[i];if(u.y!==v.y){vertical++;assert([a.stage,b.stage].some(stage=>u.x>=g.columns[stage].left+24&&u.x<=g.columns[stage].left+g.columns[stage].width-24),'Illegal turn '+e.id);}}}
+console.log(JSON.stringify({nodes:d.artifacts.length,edges:d.dependencies.length,information:d.information.length,verticalSegments:vertical,width:g.width,height:g.height,passed:'stage-boundary margins, distinct external outputs, identity-only collection, no repeated sources, no overlap'}));

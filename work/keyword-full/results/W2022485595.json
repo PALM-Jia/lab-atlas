@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2022485595",
+  "annotations": [
+    {
+      "keyword_id": "multi-objective-optimization",
+      "exact_quote": "developing evolutionary multiobjective optimization (EMO) algorithms for handling many-objective (having four or more objectives) optimization problems",
+      "evidence_field": "abstract",
+      "reason_zh": "论文核心是面向四个及以上目标的 many-objective 优化，提出并评估 NSGA-III 以求解非支配帕累托解集，满足多目标优化定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

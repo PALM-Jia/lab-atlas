@@ -1,0 +1,19 @@
+{
+  "paper_id": "W4224239755",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Non-Negative Matrix Factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题和摘要明确以非负矩阵分解（NMF）为核心方法，并提出Guided Semi-Supervised NMF变体，满足非负矩阵分解定义。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "incorporating supervision from both pre-assigned document class labels and user-designed seed words",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明方法结合预分配文档类别标签和用户设计种子词等有限监督信息，属于利用部分监督的半监督学习设定。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

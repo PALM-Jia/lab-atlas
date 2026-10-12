@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W1572368544\",\"annotations\":[{\"keyword_id\":\"pairwise-constraint-propagation\",\"exact_quote\":\"it is capable of propagating similar constraints to all data pairs\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将相似约束传播到所有数据对，扩展成对 must-link 类监督关系，符合成对约束传播定义。\"},{\"keyword_id\":\"semi-supervised-learning\",\"exact_quote\":\"metric learning under pairwise constraints that are expressed as similarity judgements between data pairs\",\"evidence_field\":\"abstract\",\"reason_zh\":\"以数据对间的相似性判断作为有限成对约束来学习距离度量，属于有限成对约束指导全部样本的学习设定。\"}],\"abstentions\":[{\"keyword_id\":\"contrastive-learning\",\"reason_zh\":\"有相似/不相似对距离差最大化线索，但摘要仅称距离度量学习，未说明学习表示/嵌入或对比视图，是否属对比学习机制不确定。\"}],\"input_issues\":[]}"
+}

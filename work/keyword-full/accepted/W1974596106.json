@@ -1,0 +1,34 @@
+{
+  "paper_id": "W1974596106",
+  "annotations": [
+    {
+      "keyword_id": "partial-label-learning",
+      "exact_quote": "where each training sample has multiple labels and only one of them is the correct label",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确训练样本有多个候选标签且仅一个正确，属于偏标记学习设定。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "ambiguously labeled multiclass classification, where each training sample has multiple labels and only one of them is the correct label",
+      "evidence_field": "abstract",
+      "reason_zh": "候选标签歧义替代完整实例真值，且作为分类任务的核心监督条件，符合弱监督学习。"
+    },
+    {
+      "keyword_id": "pseudo-label-self-training",
+      "exact_quote": "At each iteration of the algorithm, two alternating steps are performed: 1) a confidence update and 2) a dictionary update. The confidence of each sample is defined as the probability distribution on its ambiguous labels. The dictionaries are updated using either soft or hard decision rules.",
+      "evidence_field": "abstract",
+      "reason_zh": "交替迭代中用样本在候选标签上的置信分布及软/硬决策作为字典更新信号，符合将弱标注预测用于后续训练。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "sparse-representation",
+      "reason_zh": "仅出现字典学习与字典更新，未说明用少量字典原子或稀疏系数表达样本。"
+    },
+    {
+      "keyword_id": "confidence-calibration",
+      "reason_zh": "置信度是候选标签上的概率分布，但摘要未给出使置信度与正确概率相符的校准目标。"
+    }
+  ],
+  "input_issues": []
+}

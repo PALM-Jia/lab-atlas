@@ -1,0 +1,21 @@
+{
+  "paper_id": "W2000355138",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_positive",
+      "keyword_id": "nonnegative-matrix-factorization",
+      "reason_zh": "原文仅说明非负稀疏编码，没有说明以非负因子分解矩阵；非负约束本身不足以认定非负矩阵分解，应删除该标签。",
+      "exact_quote": "non-negative sparse coding is used to encode local features",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "nonnegative-matrix-factorization"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

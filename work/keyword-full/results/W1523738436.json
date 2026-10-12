@@ -1,0 +1,36 @@
+{
+  "paper_id": "W1523738436",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "one object is represented by multiple instances and simultaneously associated with multiple labels",
+      "evidence_field": "abstract",
+      "reason_zh": "该任务为对象同时预测多个标签，符合多标记学习/多标记分类定义。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "one object is represented by multiple instances and simultaneously associated with multiple labels",
+      "evidence_field": "abstract",
+      "reason_zh": "标记仅关联到由多个示例构成的对象（包），实例级标签未给出，属于包级粗粒度弱监督。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "exploiting label relations with shared space and discovering sub-concepts for complicated labels",
+      "evidence_field": "abstract",
+      "reason_zh": "方法明确利用标签关系并借助共享空间建模标签间依赖/相关性。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "constructs a low-dimensional subspace shared by all labels",
+      "evidence_field": "abstract",
+      "reason_zh": "方法显式构建所有标签共享的低维子空间，以低维/低秩表示刻画标签相关结构。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "dimensionality-reduction",
+      "reason_zh": "存在低维子空间线索，但论文研究任务为快速多示例多标记学习，未见以维度压缩本身为研究目标，角色不足。"
+    }
+  ],
+  "input_issues": []
+}

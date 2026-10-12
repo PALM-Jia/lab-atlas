@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2150057984",
+  "annotations": [
+    {
+      "keyword_id": "bayesian-inference",
+      "exact_quote": "Sparse Bayesian learning",
+      "evidence_field": "title",
+      "reason_zh": "标题直接表明采用稀疏贝叶斯学习；摘要中RVM为完全概率模型并以高斯分布生成可时序融合的观测，涉及概率建模与贝叶斯推断。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "the sparsity of the RVM means that only a fraction of CPU time is required to track at frame rate",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要强调RVM的稀疏性，说明模型以少量基函数/相关向量参与表示与预测，符合稀疏表示方法。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,36 @@
+{
+  "paper_id": "W2133871228",
+  "annotations": [
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "we exploit its sparsity in the time domain, and apply sparse Bayesian learning methods to estimate and subtract the noise impulses",
+      "evidence_field": "abstract",
+      "reason_zh": "利用脉冲噪声在时域的稀疏性，并用稀疏贝叶斯学习估计噪声脉冲，属于稀疏表示/稀疏恢复。"
+    },
+    {
+      "keyword_id": "bayesian-inference",
+      "exact_quote": "Impulsive Noise Mitigation in Powerline Communications Using Sparse Bayesian Learning",
+      "evidence_field": "title",
+      "reason_zh": "标题明确采用稀疏贝叶斯学习进行噪声抑制，属于基于概率模型的后验推断方法。"
+    },
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "we add the information in the date tones to perform joint noise estimation and symbol detection",
+      "evidence_field": "abstract",
+      "reason_zh": "从受噪声污染的接收观测中联合估计噪声并检测发送符号，以恢复原始数据。"
+    },
+    {
+      "keyword_id": "pseudo-label-self-training",
+      "exact_quote": "we use decision feedback from the decoder to further enhance the accuracy of noise estimation",
+      "evidence_field": "abstract",
+      "reason_zh": "将解码器对符号的判决作为预测反馈，用于后续迭代噪声估计，符合伪标签/自训练机制。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "reason_zh": "摘要提到导频和数据音，但未说明以有限监督结合未标注样本作为半监督学习设定，机制更接近导频辅助的联合检测与噪声估计。"
+    }
+  ],
+  "input_issues": []
+}

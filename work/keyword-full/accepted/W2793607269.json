@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2793607269",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral Image Classification",
+      "evidence_field": "title",
+      "reason_zh": "标题和摘要以高光谱图像分类为任务，Indian Pines 为高光谱数据集，符合高光谱图像应用对象定义。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "The joint sparse representation (JSR)-based classifier assumes that pixels in a local window can be jointly and sparsely represented by a dictionary constructed by the training samples.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确采用联合稀疏表示，将局部窗口像素由训练样本字典联合稀疏表示，属于稀疏表示方法。"
+    },
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "The class label of each pixel can be decided according to the representation residual.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明每个像素根据表示残差判定类别标签，属于像素级类别赋予，符合图像分割定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

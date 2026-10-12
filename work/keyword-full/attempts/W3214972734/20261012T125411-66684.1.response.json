@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W3214972734\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"convex nonnegative matrix factorization\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以凸非负矩阵分解作为方法，符合非负因子分解矩阵的定义。\"},{\"keyword_id\":\"semi-supervised-learning\",\"exact_quote\":\"semi-supervised\",\"evidence_field\":\"title\",\"reason_zh\":\"标题将方法标为半监督设定，表明结合有限监督与未标注数据或约束进行学习。\"}],\"abstentions\":[{\"keyword_id\":\"dimensionality-reduction\",\"reason_zh\":\"标题仅称用于 data representation，未明确低维映射或维度压缩目标，无法确定是否构成显式降维。\"},{\"keyword_id\":\"low-rank-modeling\",\"reason_zh\":\"标题只出现非负矩阵分解，未明确低秩约束或低秩近似目标，不能据此确认低秩建模。\"}],\"input_issues\":[]}"
+}

@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2294644361",
+  "annotations": [
+    {
+      "keyword_id": "subspace-clustering",
+      "exact_quote": "clustering high-dimensional data sets distributed around a collection of linear and affine subspaces",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确研究围绕线性/仿射子空间分布的高维数据集聚类，并综述现有子空间聚类算法，符合子空间聚类任务定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

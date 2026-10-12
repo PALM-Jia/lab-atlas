@@ -1,0 +1,15 @@
+{
+  "paper_id": "W2402479123",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "Background Modeling and Subtraction in Videos",
+      "evidence_field": "title",
+      "reason_zh": "标题表明任务是对视频进行背景建模与前景减除，即将像素划分为前景/背景，属于像素级图像区域划分。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": [
+    "摘要仅包含“International audience”，无实质研究内容，无法用于补充方法或设定证据。"
+  ]
+}

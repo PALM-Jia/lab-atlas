@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"lab-deff0ac02cbd\",\"annotations\":[{\"keyword_id\":\"hallucination-mitigation\",\"exact_quote\":\"Mitigating Hallucinations in LVLMs\",\"evidence_field\":\"title\",\"reason_zh\":\"标题直接表明以缓解LVLM幻觉为目标，摘要进一步提出VerDA训练无关方法减少幻觉，符合幻觉抑制任务定义。\"},{\"keyword_id\":\"large-vision-language-models\",\"exact_quote\":\"Large Vision-Language Models (LVLMs)\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以LVLMs为研究对象，分析其注意力动态与幻觉并设计适配方法，符合视觉语言大模型定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

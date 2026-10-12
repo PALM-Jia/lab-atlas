@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W4290098428\",\"annotations\":[{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"traffic data imputation\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以交通数据缺失值填补/恢复为核心任务，符合数据补全与恢复定义。\"},{\"keyword_id\":\"graph-neural-networks\",\"exact_quote\":\"graph convolution networks\",\"evidence_field\":\"title\",\"reason_zh\":\"标题提出用图卷积网络建模，属于图上可学习消息传递/图卷积表示方法。\"},{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"traffic data\",\"evidence_field\":\"title\",\"reason_zh\":\"标题将交通数据作为待填补的对象，符合交通数据应用对象定义。\"}],\"abstentions\":[{\"keyword_id\":\"graph-structure-learning\",\"reason_zh\":\"标题仅称动态图卷积网络，未说明是否学习或修正样本间边/邻接/亲和矩阵；无摘要，无法确证。\"}],\"input_issues\":[]}"
+}

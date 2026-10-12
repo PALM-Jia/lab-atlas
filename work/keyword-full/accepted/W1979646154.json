@@ -1,0 +1,32 @@
+{
+  "paper_id": "W1979646154",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "estimate missing traffic data",
+      "evidence_field": "abstract",
+      "reason_zh": "论文研究缺失交通数据的插补，比较多种方法以估计缺失观测，符合数据补全与恢复任务。"
+    },
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "traffic flow data are lost",
+      "evidence_field": "abstract",
+      "reason_zh": "论文直接处理实际交通流量数据缺失问题，属于交通数据这一应用对象。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "摘要仅提及PPCA在插补比较中表现最佳，未说明低秩约束、分解或近似机制，不能据方法名补出。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "reason_zh": "PPCA虽与降维相关，但摘要将其作为缺失数据插补方法比较，未以显式低维映射或维度压缩为研究目标。"
+    },
+    {
+      "keyword_id": "bayesian-inference",
+      "reason_zh": "probabilistic principal component analysis仅作为方法名出现，摘要未描述先验、后验估计或近似推断。"
+    }
+  ],
+  "input_issues": []
+}

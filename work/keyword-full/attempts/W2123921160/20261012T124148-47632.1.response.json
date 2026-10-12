@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2123921160\",\"annotations\":[{\"keyword_id\":\"dimensionality-reduction\",\"exact_quote\":\"the corresponding illumination cone is approximated by a low-dimensional linear subspace whose basis vectors are estimated using the generative model.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文将每个姿态的光照锥用低维线性子空间近似，基向量由生成模型估计，构成显式的低维表示/嵌入，用于压缩高维图像空间的表示。\"},{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"the corresponding illumination cone is approximated by a low-dimensional linear subspace whose basis vectors are estimated using the generative model.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"该低维线性子空间是对光照锥的显式低秩/低维近似，用少量基向量表示相关图像结构。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

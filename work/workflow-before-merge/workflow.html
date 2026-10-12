@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>处理流程 · Lab Atlas</title><meta name="description" content="从实验室论文清单到来源证据、采用字段与关联网络的处理流程和数据依赖。"><link rel="stylesheet" href="theme.css"><link rel="stylesheet" href="workflow.css"><script defer src="workflow-content.js"></script><script defer src="workflow.js"></script></head>
+<body class="workflow-page">
+<header class="atlas-header"><a class="brand atlas-brand" href="index.html"><span class="brand-mark">✳</span><span>Lab Atlas <small>处理流程</small></span></a><a class="button" href="workflow-map.html">流程图</a><a class="button" href="retrieval.html">检索汇总</a><a class="button" href="index.html">返回网络</a></header>
+<main id="workflow-main">
+<div class="page-intro"><div><h1>从论文清单到关联网络</h1><p>采集扩大信息，核对确定采用值，再生成特征与关联。</p></div><details class="scope-note"><summary>流程与数据的对应</summary><p>本页说明采集与处理的设计规则；各字段实际取得情况见<a href="retrieval.html">检索汇总</a>。语义向量的设计路径是本地计算；现有网络使用从 Semantic Scholar 取得的向量。</p></details></div>
+<div class="view-switch tabs" role="tablist" aria-label="流程视角"><button id="tab-stages" role="tab" aria-selected="true" aria-controls="view-stages" class="active">阶段流程</button><button id="tab-data" role="tab" aria-selected="false" aria-controls="view-data" tabindex="-1">数据流与依赖</button></div>
+<section id="view-stages" role="tabpanel" aria-labelledby="tab-stages">
+<div class="phase-strip" aria-label="主要阶段"><a href="#phase-import"><b>1</b> 建立清单</a><span aria-hidden="true">→</span><a href="#phase-retrieval"><b>2—6</b> 检索与核对</a><span aria-hidden="true">→</span><a href="#phase-features"><b>7</b> 生成特征</a><span aria-hidden="true">→</span><a href="#phase-output"><b>8</b> 计算关联与输出</a></div>
+<div class="stage-layout"><div id="stage-list" class="stage-list"></div><aside class="stage-detail" aria-label="阶段详情"><div id="stage-detail" aria-live="polite"></div><div class="boundary-key"><b>两次集中收束</b><p><a href="#stage-match" data-select-stage="match">③ 对应关系</a>：确定读取哪篇论文、哪个版本。</p><p><a href="#stage-adopt" data-select-stage="adopt">⑥ 采用字段</a>：确定计算使用哪一个值。</p></div></aside></div>
+</section>
+<section id="view-data" role="tabpanel" aria-labelledby="tab-data" hidden>
+<div class="section-head"><h2>信息在哪里进入，在哪里固定</h2><span class="muted">选择一行查看依赖路径</span></div>
+<div class="matrix-scroll"><table class="dependency-matrix"><caption class="sr-only">各类数据在处理阶段中的采集、固定与使用位置</caption><thead><tr><th scope="col">信息</th><th scope="col">① 主页</th><th scope="col">② 候选</th><th scope="col">③ 对应</th><th scope="col">④ 补字段</th><th scope="col">⑤ 外部</th><th scope="col">⑥ 采用</th><th scope="col">⑦ 特征</th><th scope="col">⑧ 输出</th></tr></thead><tbody id="dependency-body"></tbody></table></div>
+<div class="matrix-key"><span><i class="collect"></i>采集／扩充</span><span><i class="freeze"></i>固定</span><span><i class="derive"></i>派生</span><span><i class="use"></i>读取／使用</span></div>
+<section id="data-detail" class="data-detail" aria-live="polite"></section>
+<section class="evidence-layers"><div><h3>来源证据层</h3><p>保留来源原值、版本、查询时间和失败记录。同一字段可有多个来源值。</p></div><span aria-hidden="true">→</span><div><h3>采用字段层 · ⑥</h3><p>等价写法归并，按版本和证据确定采用值；仍有分歧的保留各来源。</p></div><span aria-hidden="true">→</span><div><h3>派生结果层 · ⑦⑧</h3><p>记录特征与连线的输入依据。页面筛选改变展示范围，底层证据继续保留。</p></div></section>
+</section>
+<noscript><p>流程：①建立清单 → ②收集候选 → ③固定论文与版本对应 → ④补齐字段 → ⑤补齐外部文献 → ⑥固定采用字段 → ⑦生成特征 → ⑧计算关联。启用 JavaScript 可查看逐阶段说明和数据依赖图。</p></noscript>
+</main></body></html>

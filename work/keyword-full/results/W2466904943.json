@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2466904943",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Symmetric nonnegative matrix factorization (SNMF) is equivalent to computing a symmetric nonnegative low rank approximation of a data similarity matrix.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以对称非负矩阵分解（SNMF）为研究对象，并围绕其算法展开，符合以非负因子分解矩阵的定义。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "computing a symmetric nonnegative low rank approximation of a data similarity matrix",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要将SNMF等价为对数据相似度矩阵进行对称非负低秩近似，显式涉及低秩近似表示。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

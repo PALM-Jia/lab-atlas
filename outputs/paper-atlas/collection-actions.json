@@ -1,0 +1,53 @@
+{
+  "scope": "已执行操作及其结果；未执行路径在记录内明确区分",
+  "actions": [
+    {
+      "sequence": 1,
+      "record": "扩大身份检索：针对原先 28 项无合格候选，增加 OpenAlex 完整及缩短标题查询、15 个相关作者的 163 篇文献集合、Crossref 候选及官方网页检索。补回交通低秩论文、ADiVA 更名版本及 CVPR 作者字段缺失论文共 3 项。证据在 identity-search-audit.json、identity-discoveries.json。"
+    },
+    {
+      "sequence": 2,
+      "record": "正式版优先：对原先 7 项多合格候选优先选择期刊或会议正式版，保留版本候选并检查实验室论文之间的 ID 冲突。6 项选定正式版；State/TRB 与 Speed/TITS 仍有同 ID 冲突，未合并。"
+    },
+    {
+      "sequence": 3,
+      "record": "更名版本核查：用 arXiv 2603.06281 的版本标题及 DOI 对应核查 ADiVA，确认 OpenAlex W7134273068。证据在 identity-arxiv-lookups.json。"
+    },
+    {
+      "sequence": 4,
+      "record": "作者字段缺失补救：Discovering Attention Head Interactions 的 OpenAlex 记录 W7221042064 标题匹配但作者数组为空，通过 CVPR 官方目录核对标题和作者。身份已确认，数据库作者 ID 仍缺失。"
+    },
+    {
+      "sequence": 5,
+      "record": "会议来源补查：找到 6 个官方论文页面和 7 个 NeurIPS 官方目录匹配。当前程序仍以 OpenAlex ID 作为身份成功条件，故这 13 项列为采集流程缺口；部分目录后的页面尚未完成摘要解析。证据在 public-paper-metadata.json。"
+    },
+    {
+      "sequence": 6,
+      "record": "查询格式补救：Hub 标题中的逗号导致 OpenAlex title.search 请求 HTTP 400，改用缩短标题取得候选；后续程序已清理过滤字符串中的逗号和冒号。Uniform 候选与 Homeomorphic 原始标题是否对应仍待核实，不能直接合并。"
+    },
+    {
+      "sequence": 7,
+      "record": "OpenReview 访问失败：notes 请求返回 HTTP 403、ChallengeRequiredError。改查公开会议来源；OneCoin 候选仍未完成身份核对。保留实际请求失败记录。"
+    },
+    {
+      "sequence": 8,
+      "record": "邻域重采集：使用用户提供的 OpenAlex 密钥完成已匹配论文的一跳邻域采集，保留预算及截断记录。密钥不写入网页、日志或文档。"
+    },
+    {
+      "sequence": 9,
+      "record": "外部文献单查：早期 69 个批量缺失 ID 逐个请求，68 个 HTTP 404，1 个补回。证据在项目 work/external-lookup-audit.json。当前批量缺失 71 个 ID 与早期集合并不完全相同；新增缺失项尚需逐个核查。404 的删除、合并或标识问题尚未判断。"
+    },
+    {
+      "sequence": 10,
+      "record": "向量请求补救：修复收到 HTTP 200 但传输超时被误归类的问题；Semantic Scholar 超时由 18 秒提高到 45 秒，复用逐标识缓存，并按已确认版本核对标题。标题匹配回退尚未执行：无 DOI/arXiv ID、null 响应及错误标题仍分别列为流程缺口或待核实。"
+    },
+    {
+      "sequence": 11,
+      "record": "证据与判断拆分：每条失败记录具体来源、字段、返回状态和未执行路径，新增 failure_assessment；汇总不再把失败路径可追踪写成原因合理。"
+    },
+    {
+      "sequence": 12,
+      "record": "验证：节点身份、连接端点、共同集合与原始向量计算已独立核验，JavaScript 语法检查通过；浏览器工具因 URL 策略拒绝标签页绑定，渲染检查未完成。"
+    }
+  ]
+}

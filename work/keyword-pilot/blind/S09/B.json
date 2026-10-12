@@ -1,0 +1,27 @@
+{
+  "sample_id": "S09",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "Our approach over-clusters data into fine-grained sub-clusters, applies dual-frequency filtering to preserve structural information, and merges them into target clusters via a learnable assignment. The resulting aggregation process provides guidance signals for representation learning",
+      "evidence_field": "abstract",
+      "reason_zh": "所提网络以可学习的分配合并子簇，并用聚合结果指导表示学习，属于利用可学习表示与聚类分配获得划分。"
+    },
+    {
+      "keyword_id": "class-imbalance",
+      "exact_quote": "enabling reliable sample selection with class-balanced weights and an adaptive push-away loss that explicitly separates majority and minority representations.",
+      "evidence_field": "abstract",
+      "reason_zh": "方案采用类别平衡权重并分离多数类与少数类表示，实质处理类别样本量不均衡。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-neural-networks",
+      "reason_zh": "GCN消息传递出现在问题分析中；所提方案仅明确双频滤波，未充分说明采用图卷积或可学习消息传递。"
+    },
+    {
+      "keyword_id": "contrastive-learning",
+      "reason_zh": "推开损失用于分离多数类和少数类表示，但未说明视图、样本或中心间的对比目标，难以排除普通距离正则。"
+    }
+  ]
+}

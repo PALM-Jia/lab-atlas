@@ -1,0 +1,31 @@
+{
+  "paper_id": "W2167686991",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "NMF aims to find two non-negative matrices whose product can well approximate the original matrix.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以非负矩阵分解为核心方法，摘要明确说明 NMF 寻找两个非负矩阵以近似原矩阵，满足非负因子分解定义。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "We construct an affinity graph to encode the geometrical information and seek a matrix factorization which respects the graph structure.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明构造亲和图编码几何信息，并要求矩阵分解尊重图结构，属于以图/流形结构施加几何一致性约束的正则化。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "The sizes of these two matrices are usually smaller than the original matrix. This results in a compressed version of the original data matrix.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要指出 NMF 的因子矩阵尺寸更小并得到原数据矩阵的压缩表示，体现显式低维分解与维度压缩目标。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "The sizes of these two matrices are usually smaller than the original matrix. This results in a compressed version of the original data matrix.",
+      "evidence_field": "abstract",
+      "reason_zh": "所提方法使用尺寸更小的非负因子矩阵近似并压缩原矩阵，显式采用低秩分解表示数据；首轮遗漏该方法。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

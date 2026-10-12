@@ -1,0 +1,30 @@
+{
+  "paper_id": "W4210792995",
+  "annotations": [
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "Multi-view clustering aims to partition multi-view data into different categories by optimally exploring the consistency and complementary information from multiple sources.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以多视图数据为对象，利用多个来源的一致性与互补信息进行联合学习，符合多视图学习设定。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "TMvC first learns the Laplacian graphs of all views and stacks them into a tensor which can be viewed as a high-order graph.",
+      "evidence_field": "abstract",
+      "reason_zh": "方法显式学习各视图的拉普拉斯图并堆叠为高阶图，属于学习或构建样本间图结构。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "which learns high-order graph by low-rank tensor constraint to uncover the essential information stored in multiple views.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确用低秩张量约束学习高阶图表示，属于显式低秩建模。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "摘要仅提到学习Laplacian图和高阶图，未说明用图拉普拉斯或邻域结构对学习结果施加几何一致性正则，缺少正则化机制证据。"
+    }
+  ],
+  "input_issues": []
+}

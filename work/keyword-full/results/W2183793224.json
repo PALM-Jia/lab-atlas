@@ -1,0 +1,11 @@
+{
+  "paper_id": "W2183793224",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "multi-objective-optimization",
+      "reason_zh": "摘要仅提到用Lagrange乘子λ折中感知失真与码率，未说明以多个相互制约目标求解帕累托解集，证据不足以确认该词。"
+    }
+  ],
+  "input_issues": []
+}

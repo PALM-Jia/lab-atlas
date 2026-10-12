@@ -1,0 +1,13 @@
+{
+  "paper_id": "W4407158224",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "Interval type-2 fuzzy neural networks for multi-label classification",
+      "evidence_field": "title",
+      "reason_zh": "标题明确该论文研究多标记分类，即为单个实例预测多个可同时成立的标记，符合多标记学习定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

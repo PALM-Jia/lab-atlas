@@ -1,0 +1,18 @@
+{
+  "paper_id": "W2435477720",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Nonnegative matrix factorization (NMF)",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以非负矩阵分解为研究对象，提出 large-cone NMF 算法并分析其局部解，符合非负矩阵分解定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "sparse-representation",
+      "reason_zh": "摘要仅称所得基具有低重叠并可使基稀疏，未说明用少量原子或基稀疏表示样本，无法确定稀疏表示是否作为实质方法。"
+    }
+  ],
+  "input_issues": []
+}

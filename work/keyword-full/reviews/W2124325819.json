@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2124325819",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "abstention",
+      "reason_zh": "词表明确允许有限标注这种不完整监督；摘要将标注不足作为实质问题并提出结合未标注数据的方法，首轮以未涉及标签不精确等为由弃权遗漏了此定义范围，应改为选择弱监督学习。",
+      "keyword_id": "weakly-supervised-learning",
+      "evidence_field": "abstract",
+      "exact_quote": "However, most existing methods suffer from limited labeled data and expensive training. In this paper, we address these two issues through employing abundant unlabeled data and pursuing sparsity of metrics, resulting in a novel metric learning approach called semi-supervised sparse metric learning."
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "reason_zh": "针对有限实例标注造成的不完整监督，结合未标注数据进行学习，并将标注不足作为实质研究条件，符合词表弱监督学习定义。",
+        "evidence_field": "abstract",
+        "exact_quote": "However, most existing methods suffer from limited labeled data and expensive training. In this paper, we address these two issues through employing abundant unlabeled data and pursuing sparsity of metrics, resulting in a novel metric learning approach called semi-supervised sparse metric learning."
+      }
+    ],
+    "input_issues": [],
+    "abstentions": []
+  }
+}

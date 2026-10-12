@@ -1,0 +1,24 @@
+{
+  "paper_id": "W2741998188",
+  "annotations": [
+    {
+      "keyword_id": "subspace-clustering",
+      "exact_quote": "Latent Multi-view Subspace Clustering",
+      "evidence_field": "title",
+      "reason_zh": "标题直接给出潜多视图子空间聚类方法；摘要进一步说明以潜在表示聚类数据点并进行数据重构，符合子空间聚类任务。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "simultaneously explores underlying complementary information from multiple views",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确联合利用多个视图的互补信息学习潜在表示，属于多视图学习设定。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "dimensionality-reduction",
+      "reason_zh": "摘要提到学习潜在表示，但未说明显式低维映射或维度压缩目标，证据不足以确认降维任务。"
+    }
+  ],
+  "input_issues": []
+}

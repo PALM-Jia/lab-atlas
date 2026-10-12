@@ -1,0 +1,18 @@
+{
+  "paper_id": "lab-bb2d463fb71a",
+  "annotations": [
+    {
+      "keyword_id": "class-imbalance",
+      "exact_quote": "Unsupervised Long-tailed Learning for Foundation Model",
+      "evidence_field": "title",
+      "reason_zh": "标题明确研究长尾学习，长尾分布属于类别或簇样本量不均衡的显式研究设定。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "large-language-models",
+      "reason_zh": "标题仅称Foundation Model，未说明其为大规模预训练语言模型，无法确认属于大语言模型。"
+    }
+  ],
+  "input_issues": []
+}

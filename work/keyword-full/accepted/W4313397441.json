@@ -1,0 +1,13 @@
+{
+  "paper_id": "W4313397441",
+  "annotations": [
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "Network-level signal predictive control with real-time routing information",
+      "evidence_field": "title",
+      "reason_zh": "标题研究网络级信号预测控制并利用实时路径信息，属于交通网络中的实际数据对象，而非仅提及智能交通背景。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

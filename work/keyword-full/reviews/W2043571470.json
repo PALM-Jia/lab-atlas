@@ -1,0 +1,34 @@
+{
+  "paper_id": "W2043571470",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "unsupported_evidence",
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "仅有标题中的张量分解，未限定低秩约束或低秩近似；一般张量分解不能确定为低秩建模。",
+      "exact_quote": "Factorization strategies for third-order tensors",
+      "evidence_field": "title"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "low-rank-modeling"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "dimensionality-reduction",
+        "reason_zh": "标题仅提三阶张量分解策略，未说明以显式低维映射或维度压缩为目标。"
+      },
+      {
+        "keyword_id": "nonnegative-matrix-factorization",
+        "reason_zh": "标题仅提三阶张量分解，未表明采用非负因子分解或非负约束。"
+      },
+      {
+        "keyword_id": "low-rank-modeling",
+        "reason_zh": "标题只说明三阶张量分解，缺少低秩约束或低秩近似的证据。"
+      }
+    ],
+    "input_issues": []
+  }
+}

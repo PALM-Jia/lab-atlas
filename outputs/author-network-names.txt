@@ -1,0 +1,33 @@
+作者网络默认名单（毕业学生弱化、在读学生显示、其他隐藏；2023–2027含年份未知、全方向；按论文数排序）
+姓名	论文数	分类	备注
+Zhiqiang Kou	14	已毕业学生	
+Yaxin Hou	11	在读学生	
+Bo Han	9	在读学生	东南大学计算机学院，hanbo@seu.edu.cn；不与HKBU同名作者合并。
+Fuchao Yang	6	已毕业学生	
+Zhuoming Li	6	在读学生	
+Jiawei Tang	6	在读学生	
+Xu Zhang	5	已毕业学生	
+Jiahao Jiang	5	已毕业学生	
+Xiaoyu Wang	5	在读学生	DiCaP：东南软件学院，wang_xy@seu.edu.cn；CuMA：东南计算机学院，结合单位与合作关系归一；其余3篇仅署名，归入实验室多标签合作组。
+Zhixin Li	5	在读学生	
+Chongjie Si	4	已毕业学生	
+Zhenglin Hua	4	在读学生	
+Zhengxing Jiao	3	在读学生	
+Haoye Qiu	3	在读学生	
+Jun Ma	3	在读学生	
+Hanyang Li	3	已毕业学生	
+Yutong Xie	3	在读学生	
+Yuhang Li	2	已毕业学生	
+Wenlong Lyu	2	在读学生	
+Si Qin	2	在读学生	
+Jianhong Cheng	2	已毕业学生	
+Qirui Lin	2	已毕业学生	
+Jianhan Qi	2	已毕业学生	
+Xiaorui Peng	2	已毕业学生	
+Yaodong Shen	1	在读学生	
+Yanzheng Wang	1	在读学生	
+Yuxiang Ma	1	在读学生	
+Ke Xia	1	已毕业学生	
+Jingwei Fang	1	在读学生	
+Yandu Sun	1	在读学生	
+Te Qi	1	已毕业学生	

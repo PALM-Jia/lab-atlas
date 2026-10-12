@@ -1,0 +1,36 @@
+{
+  "paper_id": "W2052727801",
+  "annotations": [
+    {
+      "keyword_id": "multimodal-retrieval",
+      "exact_quote": "cross-media retrieval has become increasingly important, because users can retrieve the results with various types of media by submitting a query of any media type.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以跨媒体检索为任务，描述用户可用任一媒体类型查询并获取多种媒体结果，符合多模态检索定义。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "we propose a semi-supervised cross-media feature learning algorithm with unified patch graph regularization",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要提出半监督跨媒体特征学习算法，并指出标注数据稀缺，符合结合有限监督信息与未标注样本的半监督设定。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "Unified Patch Graph Regularization",
+      "evidence_field": "title",
+      "reason_zh": "标题明确采用统一补丁图正则化，将图结构约束用于跨媒体特征学习，符合图与流形正则化定义。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "although the labeled data are accurate, they require a lot of human labor and thus are very scarce.",
+      "evidence_field": "abstract",
+      "reason_zh": "标注稀缺是所提出跨媒体学习方法要解决的实质问题，并利用未标注实例，属于以不完整监督替代完整实例真值的弱监督条件。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "multi-view-learning",
+      "reason_zh": "摘要提到不同媒体类型互补并联合建模，但未明确是同一对象的多个互补视图，多视图学习设定证据不足。"
+    }
+  ],
+  "input_issues": []
+}

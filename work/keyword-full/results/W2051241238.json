@@ -1,0 +1,24 @@
+{
+  "paper_id": "W2051241238",
+  "annotations": [
+    {
+      "keyword_id": "bayesian-inference",
+      "exact_quote": "In this paper, we propose a new model-based state estimator based on the EKF technique",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出基于EKF的状态估计器，利用过程模型与观测模型进行数据同化，属于通过概率模型近似后验状态推断。"
+    },
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "Freeway traffic state estimation and prediction are central components in real-time traffic management and information applications.",
+      "evidence_field": "abstract",
+      "reason_zh": "研究对象为高速公路交通状态估计与预测，并使用经验微观交通数据，属于交通数据对象。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "reason_zh": "交通状态估计有推断状态变量之意，但摘要未表明目标为缺失观测估计或污染数据恢复，证据不足。"
+    }
+  ],
+  "input_issues": []
+}

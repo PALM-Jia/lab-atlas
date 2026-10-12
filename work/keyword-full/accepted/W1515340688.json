@@ -1,0 +1,25 @@
+{
+  "paper_id": "W1515340688",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "multi-label classification",
+      "evidence_field": "title",
+      "reason_zh": "标题明确研究多标签分类，学习为实例预测多个相关标记。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "learn the label dependency graph in each group respectively",
+      "evidence_field": "abstract",
+      "reason_zh": "显式学习每组标签依赖图，建模标签间依赖或相关结构。"
+    },
+    {
+      "keyword_id": "classifier-ensemble",
+      "exact_quote": "The group specific classifier chains which are built on the nearest group of the test example are used for prediction.",
+      "evidence_field": "abstract",
+      "reason_zh": "为不同组训练特定分类器链，并按测试样本的最近组分配专家链进行预测。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

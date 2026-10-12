@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2605006852",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral remote sensing detection of petroleum hydrocarbons in mixtures with mineral substrates",
+      "evidence_field": "title",
+      "reason_zh": "标题明确使用高光谱遥感探测矿物基质混合物中的石油烃，研究对象为具有密集光谱波段的遥感图像。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

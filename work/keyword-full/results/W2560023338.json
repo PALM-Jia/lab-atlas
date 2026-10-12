@@ -1,0 +1,18 @@
+{
+  "paper_id": "W2560023338",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "pixel-level prediction",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确 PSPNet 用于场景解析并提供像素级预测框架，属于对图像像素赋予类别或划分区域的图像分割任务。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "open-vocabulary-recognition",
+      "reason_zh": "摘要只称场景解析面临 unrestricted open vocabulary 挑战，未说明识别类别可由词语指定或方法实际进行开放词表识别，无法满足定义。"
+    }
+  ],
+  "input_issues": []
+}

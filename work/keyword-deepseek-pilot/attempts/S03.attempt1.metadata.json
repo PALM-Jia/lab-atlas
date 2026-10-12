@@ -1,0 +1,23 @@
+{
+  "sample_id": "S03",
+  "http_status": 200,
+  "request_id": null,
+  "response_id": "38232232-5698-4543-af91-122356139d5f",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 8460,
+    "completion_tokens": 8192,
+    "total_tokens": 16652,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 8192
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 8460
+  },
+  "duration_ms": 54766,
+  "status": "response_received"
+}

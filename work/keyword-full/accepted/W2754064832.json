@@ -1,0 +1,22 @@
+{
+  "paper_id": "W2754064832",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "large-scale hyperspectral image (HSI) clustering problem",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以大规模高光谱图像（HSI）聚类为研究对象，符合处理密集光谱波段图像的定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "multi-view-learning",
+      "reason_zh": "摘要仅提及考虑HSI的谱与空间属性用于锚图构造，未明确多视图设定或视图间关系的联合机制，证据不足。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "摘要仅称构造锚图并进行谱分析，未说明边、邻接或亲和矩阵被学习或修正，图构造本身不等价，证据不足。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,66 @@
+{
+  "model_requested": "DeepSeek V4.1 Flash",
+  "api_model": "deepseek-flash",
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "replicates": 1,
+  "concurrency": 10,
+  "thinking": "enabled",
+  "reasoning_effort": "high",
+  "max_tokens": 8192,
+  "inputs": [
+    {
+      "sample_id": "S01",
+      "sha256": "3eb4cbc0debe6ce7fddc06dc78fc9becc3a9338d6058a86555027b4496482dc8"
+    },
+    {
+      "sample_id": "S02",
+      "sha256": "e1d0148eb21184692a97c3824dd8fbc34042b3dab36071dd1f1e09d2f2c2be03"
+    },
+    {
+      "sample_id": "S03",
+      "sha256": "208d17e007136988acd8f33b356a090c24e434bf6412ddc5a456770ed41480d5"
+    },
+    {
+      "sample_id": "S04",
+      "sha256": "72c05d5154cda3d69cd25d437930924372e29587049815141172982846b4d38c"
+    },
+    {
+      "sample_id": "S05",
+      "sha256": "291d6080630e559b91d6dc2219b4673f3e79b4e5373952f1df5edb022652e1f2"
+    },
+    {
+      "sample_id": "S06",
+      "sha256": "ca6428a63855838d22692d71b47e09dd4d6a896d35c058c7930cabe3b95fb7d2"
+    },
+    {
+      "sample_id": "S07",
+      "sha256": "0127a46b64f7815547914dd0ddabb9e3e69dcc95b08dde5a25e9385a5beaf16b"
+    },
+    {
+      "sample_id": "S08",
+      "sha256": "b976c67f72cbd2fd8ef08238bcb13fcdd40ffee00c9c4f12ce8808af513336f7"
+    },
+    {
+      "sample_id": "S09",
+      "sha256": "690d0cbd27255e219e3bde436e8ea29f5276f1bc84074b0b1e363bd8dab305c9"
+    },
+    {
+      "sample_id": "S10",
+      "sha256": "341ac66ea3f6f6a14589841ded40ad1348a1675164e64fe1fa4ad0047d9d1a84"
+    }
+  ],
+  "common": [
+    {
+      "name": "annotation-instructions.txt",
+      "sha256": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7"
+    },
+    {
+      "name": "vocabulary-for-annotation.json",
+      "sha256": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d"
+    },
+    {
+      "name": "annotation-output.schema.json",
+      "sha256": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+    }
+  ]
+}

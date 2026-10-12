@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2545016534",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "evidence_field": "abstract",
+      "exact_quote": "CLRR explicitly incorporates supervision information as hard constraints for enhancing the discriminating power of optimal representation.",
+      "reason_zh": "首轮遗漏有原文支持的关键词。半监督子空间聚类以must-link或相同标签等有限约束替代全体样本的充分实例监督，并将其作为核心硬约束，属于弱监督学习。"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "evidence_field": "abstract",
+        "exact_quote": "CLRR explicitly incorporates supervision information as hard constraints for enhancing the discriminating power of optimal representation.",
+        "reason_zh": "半监督子空间聚类以must-link或相同标签等有限约束替代全体样本的充分实例监督，并将其作为核心硬约束，属于弱监督学习。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

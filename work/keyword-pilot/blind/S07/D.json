@@ -1,0 +1,18 @@
+{
+  "sample_id": "S07",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "Ensemble clustering integrates a set of base clustering results to generate a stronger one.",
+      "evidence_field": "abstract",
+      "reason_zh": "主任务是融合多个基础聚类结果，生成更强的共识划分。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "we propose a simple, yet effective CA matrix self-enhancement framework that can improve the CA matrix to achieve better clustering performance.",
+      "evidence_field": "abstract",
+      "reason_zh": "方法实质修正表示样本共同归簇关系的共关联矩阵，符合学习或修正样本间亲和矩阵的定义。"
+    }
+  ],
+  "abstentions": []
+}

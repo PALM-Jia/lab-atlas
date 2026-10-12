@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2980537499",
+  "annotations": [
+    {
+      "keyword_id": "bayesian-inference",
+      "exact_quote": "we propose a Bayesian temporal factorization (BTF) framework",
+      "evidence_field": "abstract",
+      "reason_zh": "提出贝叶斯时序分解框架，并在概率图模型下用Gibbs采样进行模型推断，属于基于先验与概率模型的后验/近似推断。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "low-rank matrix/tensor factorization",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将低秩矩阵/张量分解作为框架组件，用于表示相关结构，满足低秩建模定义。"
+    },
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "for both missing data imputation and multi-step rolling prediction tasks",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要把缺失数据插补列为实验任务，目标是估计缺失观测/恢复缺失数据，符合数据补全与恢复。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

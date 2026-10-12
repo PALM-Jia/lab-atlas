@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W3165181705\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"Semantic Supplementary Network With Prior Information for Multi-Label Image Classification\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确研究多标签图像分类，需为图像预测多个可同时成立的标签。\"},{\"keyword_id\":\"label-correlation-modeling\",\"exact_quote\":\"how to use the dependency relationship between labels to improve the recognition accuracy\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要提出利用标签间依赖关系提升识别准确率，并强调加强标签潜在依赖，显式建模标签相关性。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

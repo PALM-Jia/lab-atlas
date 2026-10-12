@@ -1,0 +1,24 @@
+{
+  "paper_id": "W2071847464",
+  "annotations": [
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "we design a new optimization problem by integrating both multi-view representation and multi-instance bag constraints.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要显式利用多个特征视图表示同一多实例包，并在优化问题中整合多视图表示，符合多视图学习设定。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "we formulate a new cross-view feature selection problem that aims to identify the most representative features across all feature views for MIL.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出跨视图特征选择问题，以选出跨所有视图的最具代表性特征（top-m）为目标，属于以维度压缩为目标的显式特征子集选择/降维。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "摘要提及多实例包与包约束，但未明确说明监督为包级/不完整，也未把弱监督作为实质研究问题，证据不足。"
+    }
+  ],
+  "input_issues": []
+}

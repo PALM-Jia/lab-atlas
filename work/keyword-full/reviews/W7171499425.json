@@ -1,0 +1,30 @@
+{
+  "paper_id": "W7171499425",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "unsupported_evidence",
+      "keyword_id": "pseudo-label-self-training",
+      "reason_zh": "dual self-supervision仅说明自监督机制，未说明使用模型预测或聚类伪标签作为后续训练信号；不能将一般自监督等同于伪标签或自训练。",
+      "exact_quote": "dual self-supervision",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "pseudo-label-self-training"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "graph-structure-learning",
+        "reason_zh": "structure-aware attention只提示利用或关注结构，未说明学习或修正样本间边、邻接或亲和矩阵，无法确认图结构学习。"
+      },
+      {
+        "keyword_id": "pseudo-label-self-training",
+        "reason_zh": "摘要仅说明dual self-supervision，未交代是否将模型预测作为后续训练信号，无法确认伪标签或自训练。"
+      }
+    ],
+    "input_issues": []
+  }
+}

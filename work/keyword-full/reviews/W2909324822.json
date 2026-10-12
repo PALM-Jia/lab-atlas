@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2909324822",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "核心非负矩阵分解同时学习低维因子特征，显式采用低维矩阵分解表示数据结构；非负矩阵分解没有声明的父子关系，遗漏低秩建模。",
+      "exact_quote": "Thus, the weight matrix of graph and low dimensional features of data can be simultaneously learned by our algorithm",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "low-rank-modeling",
+        "exact_quote": "Thus, the weight matrix of graph and low dimensional features of data can be simultaneously learned by our algorithm",
+        "evidence_field": "abstract",
+        "reason_zh": "核心非负矩阵分解同时学习低维因子特征，显式采用低维矩阵分解表示数据结构；非负矩阵分解没有声明的父子关系，遗漏低秩建模。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

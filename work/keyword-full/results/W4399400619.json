@@ -1,0 +1,24 @@
+{
+  "paper_id": "W4399400619",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "Spectral Ensemble Clustering",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以Spectral Ensemble Clustering为研究任务，融合多个聚类结果以求得共识划分，符合集成聚类定义。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "Tensorized Graph Learning",
+      "evidence_field": "title",
+      "reason_zh": "标题将Tensorized Graph Learning作为方法组件，表明学习/构建图结构，可对应学习样本间边或亲和矩阵。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "标题仅有Tensorized一词，未明确说明矩阵或张量的低秩约束、分解或近似，无法确认低秩建模。"
+    }
+  ],
+  "input_issues": []
+}

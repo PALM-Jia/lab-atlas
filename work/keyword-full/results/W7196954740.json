@@ -1,0 +1,18 @@
+{
+  "paper_id": "W7196954740",
+  "annotations": [
+    {
+      "keyword_id": "federated-learning",
+      "exact_quote": "Multi-Task Federated Learning",
+      "evidence_field": "title",
+      "reason_zh": "标题明确为多任务联邦学习；摘要说明服务器与客户端交互、客户端私有特征不可观测，符合多客户端保留本地数据协作训练的联邦学习设定。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "multi-objective-optimization",
+      "reason_zh": "摘要仅称joint optimization与system utility，未说明多个相互制约目标、帕累托解集或显式多目标优化，证据不足。"
+    }
+  ],
+  "input_issues": []
+}

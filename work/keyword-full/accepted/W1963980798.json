@@ -1,0 +1,24 @@
+{
+  "paper_id": "W1963980798",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "Multilabel Image Classification",
+      "evidence_field": "title",
+      "reason_zh": "标题直接表明研究任务是多标记图像分类，即为单个实例预测可同时成立的多个标记。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "in addition to pair-wise label correlations, high-order label correlations are also informative for multilabel active learning",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确利用成对与高阶标签相关性作为多标记主动学习的信息来源，显式建模标签间依赖关系。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "标题和摘要出现主动学习且以减少标注为目标，但未明确将不完整或不精确监督作为学习设定，也未说明缺失标签如何参与训练，证据不足以判定为弱监督学习。"
+    }
+  ],
+  "input_issues": []
+}

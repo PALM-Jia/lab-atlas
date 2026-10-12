@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2130315403",
+  "annotations": [
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "the duality between stories and their underlying multimodal features is exploited to transform features in low-dimensional space with normalized cut.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确利用故事及其多模态特征之间的对偶性进行联合低维变换，属于联合利用多个互补视图/观测变量的多视图学习。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "exploring the pairwise visual cues deriving from near-duplicate keyframes (NDK) for constraint-based clustering.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要用近重复关键帧得到的成对视觉线索和约束指导聚类，属于有限成对约束指导全部样本学习的半监督约束聚类。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "the duality between stories and their underlying multimodal features is exploited to transform features in low-dimensional space with normalized cut.",
+      "evidence_field": "abstract",
+      "reason_zh": "方法明确将多模态特征变换到低维空间，并利用降维空间进行聚类，遗漏实质采用的降维任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

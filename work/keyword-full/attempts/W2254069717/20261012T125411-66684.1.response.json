@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2254069717\",\"annotations\":[{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"The proposed algorithms are capable of estimating the sparse wireless channels even when the measurement matrix is only partially known.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"算法以稀疏无线信道为估计对象，信道由少量显著路径/分量表示，测量矩阵对应稀疏表示中的字典或基。\"},{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"in the sparse Bayesian learning (SBL) framework\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文将问题置于稀疏贝叶斯学习框架，依赖先验与概率模型进行后验推断以估计信道。\"}],\"abstentions\":[{\"keyword_id\":\"data-imputation-recovery\",\"reason_zh\":\"摘要仅出现“data detection”任务，未明确描述缺失观测填补或从污染观测恢复原始数值，通信数据检测是否落入该定义缺乏足够证据。\"}],\"input_issues\":[]}"
+}

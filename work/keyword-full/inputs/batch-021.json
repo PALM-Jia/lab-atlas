@@ -1,0 +1,54 @@
+{
+  "papers": [
+    {
+      "paper_id": "W1560724230",
+      "title": "Learning with Kernels",
+      "abstract": "A comprehensive introduction to Support Vector Machines and related kernel methods. In the 1990s, a new type of learning algorithm was developed, based on results from statistical learning theory: the Support Vector Machine (SVM). This gave rise to a new class of theoretically elegant learning machines that use a central concept of SVMs—-kernels—for a number of learning tasks. Kernel machines provide a modular framework that can be adapted to different tasks and domains by the choice of the kernel function and the base algorithm. They are replacing neural networks in a variety of fields, including engineering, information retrieval, and bioinformatics. Learning with Kernels provides an introduction to SVMs and related kernel methods. Although the book begins with the basics, it also includes the latest research. It provides all of the concepts necessary to enable a reader equipped with some basic mathematical knowledge to enter the world of machine learning using theoretically well-founded yet easy-to-use kernel algorithms and to understand and apply the powerful algorithms that have been developed over the last few years."
+    },
+    {
+      "paper_id": "W1561538450",
+      "title": "Perceptual Quality Assessment of Screen Content Images",
+      "abstract": "Research on screen content images (SCIs) becomes important as they are increasingly used in multi-device communication applications. In this paper, we present a study on perceptual quality assessment of distorted SCIs subjectively and objectively. We construct a large-scale screen image quality assessment database (SIQAD) consisting of 20 source and 980 distorted SCIs. In order to get the subjective quality scores and investigate, which part (text or picture) contributes more to the overall visual quality, the single stimulus methodology with 11 point numerical scale is employed to obtain three kinds of subjective scores corresponding to the entire, textual, and pictorial regions, respectively. According to the analysis of subjective data, we propose a weighting strategy to account for the correlation among these three kinds of subjective scores. Furthermore, we design an objective metric to measure the visual quality of distorted SCIs by considering the visual difference of textual and pictorial regions. The experimental results demonstrate that the proposed SCI perceptual quality assessment scheme, consisting of the objective metric and the weighting strategy, can achieve better performance than 11 state-of-the-art IQA methods. To the best of our knowledge, the SIQAD is the first large-scale database published for quality evaluation of SCIs, and this research is the first attempt to explore the perceptual quality assessment of distorted SCIs."
+    },
+    {
+      "paper_id": "W1565746575",
+      "title": "Statistical Comparisons of Classifiers over Multiple Data Sets",
+      "abstract": "While methods for comparing two learning algorithms on a single data set have been scrutinized for quite some time already, the issue of statistical tests for comparisons of more algorithms on multiple data sets, which is even more essential to typical machine learning studies, has been all but ignored. This article reviews the current practice and then theoretically and empirically examines several suitable tests. Based on that, we recommend a set of simple, yet safe and robust non-parametric tests for statistical comparisons of classifiers: the Wilcoxon signed ranks test for comparison of two classifiers and the Friedman test with the corresponding post-hoc tests for comparison of more classifiers over multiple data sets. Results of the latter can also be neatly presented with the newly introduced CD (critical difference) diagrams."
+    },
+    {
+      "paper_id": "W1567003148",
+      "title": "Facility location: concepts, models, algorithms and case studies. Series: Contributions to Management Science",
+      "abstract": "Network analysis and location analysis constitute an essential part of spatial analysis, and one can hardly find a textbook on this topic in which these subjects are not addressed. Although the imp..."
+    },
+    {
+      "paper_id": "W1567512734",
+      "title": "Bayesian Learning for Neural Networks",
+      "abstract": null
+    },
+    {
+      "paper_id": "W1572368544",
+      "title": "Constrained Metric Learning Via Distance Gap Maximization",
+      "abstract": "Vectored data frequently occur in a variety of fields, which are easy to handle since they can be mathematically abstracted as points residing in a Euclidean space. An appropriate distance metric in the data space is quite demanding for a great number of applications. In this paper, we pose robust and tractable metric learning under pairwise constraints that are expressed as similarity judgements between data pairs. The major features of our approach include: 1) it maximizes the gap between the average squared distance among dissimilar pairs and the average squared distance among similar pairs; 2) it is capable of propagating similar constraints to all data pairs; and 3) it is easy to implement in contrast to the existing approaches using expensive optimization such as semidefinite programming. Our constrained metric learning approach has widespread applicability without being limited to particular backgrounds. Quantitative experiments are performed for classification and retrieval tasks, uncovering the effectiveness of the proposed approach."
+    },
+    {
+      "paper_id": "W1573811011",
+      "title": "Dissimilarity in Graph-Based Semi-Supervised Classification",
+      "abstract": "Label dissimilarity specifies that a pair of examples probably have different class labels. We present a semi-supervised classification algorithm that learns from dissimilarity and similarity information on labeled and unlabeled data. Our approach uses a novel graphbased encoding of dissimilarity that results in a convex problem, and can handle both binary and multiclass classification. Experiments on several tasks are promising. 1"
+    },
+    {
+      "paper_id": "W1574496672",
+      "title": "A comparison of methods for multiclass support vector machines",
+      "abstract": "Support vector machines (SVMs) were originally designed for binary classification. How to effectively extend it for multiclass classification is still an ongoing research issue. Several methods have been proposed where typically we construct a multiclass classifier by combining several binary classifiers. Some authors also proposed methods that consider all classes at once. As it is computationally more expensive to solve multiclass problems, comparisons of these methods using large-scale problems have not been seriously conducted. Especially for methods solving multiclass SVM in one step, a much larger optimization problem is required so up to now experiments are limited to small data sets. In this paper we give decomposition implementations for two such \"all-together\" methods. We then compare their performance with three methods based on binary classifications: \"one-against-all,\" \"one-against-one,\" and directed acyclic graph SVM (DAGSVM). Our experiments indicate that the \"one-against-one\" and DAG methods are more suitable for practical use than the other methods. Results also show that for large problems methods by considering all data at once in general need fewer support vectors."
+    },
+    {
+      "paper_id": "W1576445103",
+      "title": "Caltech-256 Object Category Dataset",
+      "abstract": "We introduce a challenging set of 256 object categories containing a total of 30607 images. The original Caltech-101 [1] was collected by choosing a set of object categories, downloading examples from Google Images and then manually screening out all images that did not fit the category. Caltech-256 is collected in a similar manner with several improvements: a) the number of categories is more than doubled, b) the minimum number of images in any category is increased from 31 to 80, c) artifacts due to image rotation are avoided and d) a new and larger clutter category is introduced for testing background rejection. We suggest several testing paradigms to measure classification performance, then benchmark the dataset using two simple metrics as well as a state-of-the-art spatial pyramid matching [2] algorithm. Finally we use the clutter category to train an interest detector which rejects uninformative background regions. \\n"
+    },
+    {
+      "paper_id": "W1581034630",
+      "title": "Multiple-Instance Learning of Real-Valued Data",
+      "abstract": "The multiple-instance learning model has received much attention recently with a primary application area being that of drug activity prediction. Most prior work on multiple-instance learning has been for concept learning, yet for drug activity prediction, the label is a real-valued affinity measurement giving the binding strength. We present extensions of k-nearest neighbors (k-NN), Citation-kNN, and the diverse density algorithm for the real-valued setting and study their performance on Boolean and real-valued data. We also provide a method for generating chemically realistic artificial data."
+    }
+  ]
+}

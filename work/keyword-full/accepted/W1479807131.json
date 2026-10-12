@@ -1,0 +1,24 @@
+{
+  "paper_id": "W1479807131",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "semi-supervised learning (SSL) occupies the middle ground, between supervised learning (in which all training examples are labeled) and unsupervised learning (in which no label data are given).",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要将半监督学习界定为介于全标注监督学习与无标签无监督学习之间的设定，并围绕利用未标注数据分类展开综述，符合半监督学习定义。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "semi-supervised learning (SSL) occupies the middle ground, between supervised learning (in which all training examples are labeled) and unsupervised learning (in which no label data are given).",
+      "evidence_field": "abstract",
+      "reason_zh": "综述以部分标注和未标注数据共同学习的监督不完整条件为研究主题，符合弱监督定义；词表未声明与半监督标签的父子互斥。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "摘要提到流形结构与图方法作为SSL综述内容，但未说明是否以图拉普拉斯/邻域结构施加几何一致性正则，无法确认该方法的实质角色。"
+    }
+  ],
+  "input_issues": []
+}

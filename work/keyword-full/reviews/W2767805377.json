@@ -1,0 +1,34 @@
+{
+  "issues": [
+    {
+      "kind": "false_positive",
+      "reason_zh": "这里讨论空间邻域中像素及其标签的依赖；没有明确不同标签之间共现、排序或相关结构的建模，不能把像素空间依赖直接当作标签间相关性。",
+      "evidence_field": "abstract",
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "we develop a concept of spatial dependency system that involves pixel dependency and label dependency"
+    }
+  ],
+  "patch": {
+    "abstentions": [
+      {
+        "keyword_id": "graph-manifold-regularization",
+        "reason_zh": "摘要提到邻域覆盖与邻域重要性，但未明确用图/流形结构对学习结果施加几何一致性约束，证据不足。"
+      },
+      {
+        "keyword_id": "graph-structure-learning",
+        "reason_zh": "摘要提出空间依赖系统涉及像素与标签依赖，但未说明学习或修正样本间边、邻接或亲和矩阵，无法确定。"
+      },
+      {
+        "keyword_id": "label-correlation-modeling",
+        "reason_zh": "空间依赖系统中的label dependency未交代是否建模不同标签间共现或依赖，证据不足。"
+      }
+    ],
+    "input_issues": [],
+    "remove_ids": [
+      "label-correlation-modeling"
+    ],
+    "upsert_annotations": []
+  },
+  "paper_id": "W2767805377",
+  "verdict": "revise"
+}

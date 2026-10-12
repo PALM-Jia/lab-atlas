@@ -1,0 +1,25 @@
+{
+  "paper_id": "W1931947167",
+  "annotations": [
+    {
+      "keyword_id": "subspace-clustering",
+      "exact_quote": "Subspace clustering refers to the problem of segmenting data drawn from a union of subspaces.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要开篇明确以子空间聚类为研究任务，围绕从子空间并集采样的数据分割展开。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "expressing each data point as a structured sparse linear combination of all other data points",
+      "evidence_field": "abstract",
+      "reason_zh": "方法核心是将每个数据点表示为其他数据点的结构化稀疏线性组合，符合稀疏表示定义。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "we propose a unified optimization framework for learning both the affinity and the segmentation",
+      "evidence_field": "abstract",
+      "reason_zh": "提出的统一优化框架显式学习样本间亲和矩阵（affinity）及分割，属于学习或修正亲和关系。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

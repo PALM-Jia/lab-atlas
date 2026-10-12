@@ -1,0 +1,24 @@
+{
+  "paper_id": "W3101747232",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "Ensemble Clustering",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以集成聚类为研究任务，摘要进一步提出基于稀疏图与概率轨迹的集成聚类方法。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "we present the elite neighbor selection strategy to identify the uncertain links by locally adaptive thresholds and build a sparse graph with a small number of probably reliable links",
+      "evidence_field": "abstract",
+      "reason_zh": "通过局部自适应阈值识别不确定链接并构建稀疏图，学习/修正样本间可靠边，符合图结构学习。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "sparse-representation",
+      "reason_zh": "仅有 sparse graph representation 和稀疏图构建，未说明以少量字典原子或基向量稀疏表达样本，无法确认满足稀疏表示定义。"
+    }
+  ],
+  "input_issues": []
+}

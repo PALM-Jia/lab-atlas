@@ -1,0 +1,26 @@
+{
+  "paper_id": "W1556320907",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "unsupported_evidence",
+      "keyword_id": "semi-supervised-learning",
+      "reason_zh": "摘要讨论约束集性质和聚类性能，但未说明有限监督、成对标签约束或标注与未标注样本结合；一般聚类约束不足以确认半监督设定。",
+      "exact_quote": "constraints can improve the results of a variety of clustering algorithms",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "semi-supervised-learning"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "semi-supervised-learning",
+        "reason_zh": "约束集的监督来源及是否为成对关系未说明，不能仅凭约束聚类认定半监督。"
+      }
+    ],
+    "input_issues": []
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W1919721856\",\"annotations\":[{\"keyword_id\":\"ensemble-clustering\",\"exact_quote\":\"we design a new noise immune cluster ensemble framework named as AP2CE\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确本文设计聚类集成框架AP2CE，用于融合多个聚类解并获得更优聚类结果，符合集成聚类任务定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

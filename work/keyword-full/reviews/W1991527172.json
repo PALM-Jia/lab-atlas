@@ -1,0 +1,26 @@
+{
+  "paper_id": "W1991527172",
+  "verdict": "revise",
+  "issues": [
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "apply it in social tagging to handle the issue of the noisy training set by treating the tag counts as the misclassification costs.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确处理社会标签训练监督的噪声并据标签计数调整误分类代价；不准确监督是实质研究条件，符合弱监督定义。",
+      "kind": "false_negative"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "apply it in social tagging to handle the issue of the noisy training set by treating the tag counts as the misclassification costs.",
+        "evidence_field": "abstract",
+        "reason_zh": "摘要明确处理社会标签训练监督的噪声并据标签计数调整误分类代价；不准确监督是实质研究条件，符合弱监督定义。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

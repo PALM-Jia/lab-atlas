@@ -1,0 +1,24 @@
+{
+  "paper_id": "W2740503509",
+  "annotations": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "learn an affinity matrix simultaneously to regularize the proposed matrix factorization",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确在矩阵分解中同时学习亲和矩阵，属于学习或修正样本间亲和结构，而非仅使用固定图。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "Adaptive Manifold Regularized Matrix Factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题直接给出自适应流形正则化矩阵分解，摘要进一步说明用学习的亲和矩阵正则化矩阵分解，构成图/流形几何一致性约束。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "摘要只称矩阵分解，未说明低秩约束或显式低秩近似，不能由一般矩阵分解推断满足低秩建模定义。"
+    }
+  ],
+  "input_issues": []
+}

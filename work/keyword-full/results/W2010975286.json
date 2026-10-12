@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2010975286",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "Segmentation using superpixels: A bipartite graph partitioning approach",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以图像分割为任务，摘要也围绕分割性能与分割框架展开。"
+    },
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "aggregate multi-layer superpixels in a principled and very effective manner",
+      "evidence_field": "abstract",
+      "reason_zh": "将不同算法和参数生成的多层超像素聚合为统一分割，符合融合多个已有分割/聚类结果求共识划分。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

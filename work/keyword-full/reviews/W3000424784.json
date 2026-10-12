@@ -1,0 +1,28 @@
+{
+  "paper_id": "W3000424784",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "unsupported_evidence",
+      "keyword_id": "partial-label-learning",
+      "reason_zh": "歧义标签标题及截断摘要未说明每例候选标签集合且仅一个为真，不能将一般标签歧义直接等同偏标记学习。",
+      "exact_quote": "Learning from ambiguously labeled examples",
+      "evidence_field": "title"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "partial-label-learning"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "partial-label-learning",
+        "reason_zh": "标题说明标签歧义，摘要截断，未给出候选标签集合及仅一个真标签的偏标记设定。"
+      }
+    ],
+    "input_issues": [
+      "摘要文本在 'ambiguous label...' 处明显截断，无法读取完整研究细节；本标注主要依据标题。"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "paper_id": "W2163886442",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Imaging spectrometers are therefore often referred to as hyperspectral cameras (HSCs).",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以成像光谱仪/高光谱相机采集的密集光谱波段图像为研究对象，讨论其光谱混合与解混，符合高光谱图像处理。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "Signal-subspace, geometrical, statistical, sparsity-based, and spatial-contextual unmixing algorithms are described.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要将基于稀疏的解混算法列为综述核心类别，且像素被假设为少数端元的混合，符合用少量基/字典原子表达样本的稀疏表示。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "reason_zh": "摘要讨论从混合光谱估计端元与丰度，属于解混反问题，但未说明是缺失观测填补或污染数据恢复，无法确认符合定义。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "摘要提到信号子空间类解混，但未出现低秩约束、分解或近似表示相关结构，缺证据确认。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "摘要仅笼统提到 spatial-contextual 解混算法，未说明使用邻域、图拉普拉斯或超图施加几何一致性约束。"
+    },
+    {
+      "keyword_id": "bayesian-inference",
+      "reason_zh": "摘要仅笼统提到 statistical 解混算法，未说明先验、后验估计或概率推断过程，无法确认。"
+    }
+  ],
+  "input_issues": []
+}

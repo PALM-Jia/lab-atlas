@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2129807511\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"nonnegative matrix factorization (NMF)\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以非负矩阵分解为核心方法，并比较其不同优化算法与稀疏变体。\"},{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"To improve the parts-based representation of data some sparseness constraints have been proposed.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要提出稀疏性约束以改进基于部件的表示，并研究稀疏NMF，符合用少量基向量或潜在特征表达样本。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

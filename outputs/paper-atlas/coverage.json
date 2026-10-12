@@ -1,0 +1,1080 @@
+{
+  "meta": {
+    "updated": "2026-10-10T02:48:17+08:00",
+    "source": "https://jyh-learning.github.io/papers.html",
+    "stats": {
+      "lab": 144,
+      "external": 1529,
+      "matched": 118,
+      "abstracts": 114,
+      "title_only": 6,
+      "neighborhood_seeds": 118,
+      "requests": 7,
+      "edges": {
+        "citation": 2974,
+        "coupling": 3796,
+        "cocitation": 328,
+        "author": 1729,
+        "topic": 52039,
+        "institution": 4257,
+        "semantic": 230472,
+        "series": 0
+      },
+      "full_edges": {
+        "citation": 2974,
+        "coupling": 3796,
+        "cocitation": 328,
+        "author": 1729,
+        "topic": 52039,
+        "institution": 4257,
+        "semantic": 230472,
+        "series": 0
+      },
+      "vectors": 1673
+    },
+    "limits": {
+      "neighborhood_seeds": 118,
+      "citing_per_seed": 600,
+      "reference_nodes_per_seed": "all known reference IDs used",
+      "external_nodes": 1600
+    },
+    "layout": "citation_and_coupling_force_layout",
+    "notes": [
+      "所有已匹配实验室论文均尝试采集一跳引用邻域；逐条记录完整度与失败。",
+      "引用清单每篇最多 600 条；展示外部节点最多 1600 篇，按跨实验室论文出现频次选取。",
+      "数据库主题、关键词主题及内容相似均为候选关联。",
+      "初始坐标由引用与共同参考文献计算；动态排布按当前关系与连接强度调整。",
+      "未提供人工系列标注，该关系层明确不可用。"
+    ],
+    "semantic": {
+      "model": "specter2_proximity",
+      "base": "allenai/specter2_base",
+      "adapter": "allenai/specter2",
+      "base_revision": "3447645e1def9117997203454fa4495937bfbd83",
+      "adapter_revision": "2081559630a80fc5851d8f798a05ba81e9468089",
+      "dimensions": 768,
+      "method": "local",
+      "max_tokens": 512,
+      "pooling": "CLS",
+      "normalization": "L2",
+      "text_policy": "title + [SEP] + available abstract",
+      "papers": 1673,
+      "ready": 1673,
+      "title_only": 336,
+      "lab_ready": 144,
+      "lab_title_only": 30,
+      "updated": "2026-10-12T02:45:19+08:00"
+    }
+  },
+  "errors": [
+    {
+      "provider": "OpenReview",
+      "url": "https://api2.openreview.net/notes?id=TOahfjA3sP",
+      "status": "failure",
+      "reason": "http_403",
+      "attempts": [
+        {
+          "http": 403,
+          "curl": 0
+        }
+      ],
+      "detail": "{\"name\":\"ChallengeRequiredError\",\"message\":\"Challenge verification required (2026-10-09-11155819)\",\"status\":403,\"details\":{\"challengeUrl\":\"https://openreview.net/challenge?redirect"
+    },
+    {
+      "provider": "OpenReview",
+      "url": "https://api2.openreview.net/notes?id=3lH8WT0fhu",
+      "status": "failure",
+      "reason": "http_403",
+      "attempts": [
+        {
+          "http": 403,
+          "curl": 0
+        }
+      ],
+      "detail": "{\"name\":\"ChallengeRequiredError\",\"message\":\"Challenge verification required (2026-10-09-11155848)\",\"status\":403,\"details\":{\"challengeUrl\":\"https://openreview.net/challenge?redirect"
+    },
+    {
+      "provider": "OpenReview",
+      "url": "https://api2.openreview.net/notes?id=LPRxGZ7Oax",
+      "status": "failure",
+      "reason": "http_403",
+      "attempts": [
+        {
+          "http": 403,
+          "curl": 0
+        }
+      ],
+      "detail": "{\"name\":\"ChallengeRequiredError\",\"message\":\"Challenge verification required (2026-10-09-11155942)\",\"status\":403,\"details\":{\"challengeUrl\":\"https://openreview.net/challenge?redirect"
+    }
+  ],
+  "unmatched": [
+    {
+      "id": "lab-5403cb1aad23",
+      "title": "Noise Separation guided Candidate Label Reconstruction for Noisy Partial Label Learning",
+      "status": "not_matched",
+      "reason": "public_page_verified_no_openalex_match",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W7171735960",
+          "title": "Partial Multi-Label Learning with Missing Labels via Feature-Aware Label Disentanglement"
+        },
+        {
+          "id": "https://openalex.org/W4385962772",
+          "title": "Bridging Generative and Discriminative Noisy-Label Learning via Direction-Agnostic EM Formulation"
+        },
+        {
+          "id": "https://openalex.org/W7158429312",
+          "title": "Federated Learning for Robust Malware Detection under Noisy Labels and Malicious Sybils"
+        },
+        {
+          "id": "https://openalex.org/W7166106919",
+          "title": "Robust Graph Neural Networks via Community-Guided Label Refinement and Progressive Contrastive Learning"
+        },
+        {
+          "id": "https://openalex.org/W4400726538",
+          "title": "Label-Efficient Time Series Representation Learning: A Review"
+        },
+        {
+          "id": "https://openalex.org/W4213212652",
+          "title": "Noisy intermediate-scale quantum algorithms"
+        },
+        {
+          "id": "https://openalex.org/W2953421783",
+          "title": "Cell segmentation methods for label-free contrast microscopy: review and comprehensive comparison"
+        },
+        {
+          "id": "https://openalex.org/W7148389683",
+          "title": "When Labels Are Scarce: A Systematic Mapping of Label-Efficient Code Vulnerability Detection"
+        },
+        {
+          "id": "https://openalex.org/W4387601539",
+          "title": "Machine Learning-Guided Protein Engineering"
+        },
+        {
+          "id": "https://openalex.org/W7153201386",
+          "title": "Semantic Noise Reduction via Teacher-Guided Dual-Path Audio-Visual Representation Learning"
+        }
+      ]
+    },
+    {
+      "id": "lab-bb2d463fb71a",
+      "title": "Unsupervised Long-tailed Learning for Foundation Model",
+      "status": "not_matched",
+      "reason": "title_only_no_independent_locator",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W3206816884",
+          "title": "Deep Long-Tailed Learning: A Survey"
+        },
+        {
+          "id": "https://openalex.org/W7204476104",
+          "title": "Unsupervised Post-Training of Foundation Models: A Survey"
+        },
+        {
+          "id": "https://openalex.org/W4401307342",
+          "title": "A Systematic Review on Long-Tailed Learning"
+        },
+        {
+          "id": "https://openalex.org/W4393147300",
+          "title": "Long-Tailed Partial Label Learning by Head Classifier and Tail Classifier Cooperation"
+        },
+        {
+          "id": "https://openalex.org/W4287020743",
+          "title": "Robust long-tailed learning under label noise"
+        },
+        {
+          "id": "https://openalex.org/W4388296405",
+          "title": "A Survey of Deep Active Learning for Foundation Models"
+        },
+        {
+          "id": "https://openalex.org/W4319653852",
+          "title": "APAM: Adaptive Pre-training and Adaptive Meta Learning in Language Model for Noisy Labels and Long-tailed Learning"
+        },
+        {
+          "id": "https://openalex.org/W4393159450",
+          "title": "Decoupled Contrastive Learning for Long-Tailed Recognition"
+        },
+        {
+          "id": "https://openalex.org/W4390783979",
+          "title": "Uncertainty-aware Sampling for Long-tailed Semi-supervised Learning"
+        },
+        {
+          "id": "https://openalex.org/W4385767665",
+          "title": "Stochastic Feature Averaging for Learning with Long-Tailed Noisy Labels"
+        }
+      ]
+    },
+    {
+      "id": "lab-088383584e44",
+      "title": "PEEK: Partial Label Learning Empowered by External Knowledge",
+      "status": "not_matched",
+      "reason": "title_only_no_independent_locator",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W3135096391",
+          "title": "AI applications to medical images: From machine learning to deep learning"
+        },
+        {
+          "id": "https://openalex.org/W7117764744",
+          "title": "Research Frontiers in Machine Learning & Knowledge Extraction"
+        },
+        {
+          "id": "https://openalex.org/W7171751667",
+          "title": "Evaluating the impact of artificial intelligence on customer experience enhancement – a case study of peek & cloppenburg"
+        },
+        {
+          "id": "https://openalex.org/W2964303497",
+          "title": "Machine Learning Interpretability: A Survey on Methods and Metrics"
+        },
+        {
+          "id": "https://openalex.org/W4412944080",
+          "title": "Perspective: Leveraging Domain Knowledge for Tabular Machine Learning in the Medical Domain"
+        },
+        {
+          "id": "https://openalex.org/W7158604250",
+          "title": "(Actual) Neurosymbolic AI: Combining Deep Learning and Knowledge Graphs (Dagstuhl Seminar 25291)"
+        },
+        {
+          "id": "https://openalex.org/W3046653923",
+          "title": "Federated Learning: A Survey on Enabling Technologies, Protocols, and Applications"
+        },
+        {
+          "id": "https://openalex.org/W7163222964",
+          "title": "ProactiveLLM: Learning Active Interaction for Streaming Large Language Models"
+        },
+        {
+          "id": "https://openalex.org/W4206784960",
+          "title": "Application of Reinforcement Learning and Deep Learning in Multiple-Input and Multiple-Output (MIMO) Systems"
+        },
+        {
+          "id": "https://openalex.org/W4411825895",
+          "title": "The Empowerment of Consumers with Disabilities: The Role of Self-Esteem, Accessibility, and Access to Information"
+        }
+      ]
+    },
+    {
+      "id": "lab-a07279b34373",
+      "title": "Hub for Outliers, Spokes for Inliers: Homeomorphic Latent Space Construction for Dual-Mismatched Semi-Supervised Learning",
+      "status": "not_matched",
+      "reason": "possible_renamed_paper_without_version_identity",
+      "candidates": []
+    },
+    {
+      "id": "lab-3af81cff7068",
+      "title": "Beyond Low-Rank: A Region-Aware Imputation Method for Traffic Data Recovery",
+      "status": "not_matched",
+      "reason": "title_only_no_independent_locator",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W3014706756",
+          "title": "Edge Computing-Empowered Large-Scale Traffic Data Recovery Leveraging Low-Rank Theory"
+        },
+        {
+          "id": "https://openalex.org/W4405173589",
+          "title": "A Survey and Benchmarking of Spatial-Temporal Traffic Data Imputation Models"
+        },
+        {
+          "id": "https://openalex.org/W4416435429",
+          "title": "An interdisciplinary and cross-task review on missing data imputation"
+        },
+        {
+          "id": "https://openalex.org/W7117998659",
+          "title": "A Novel Graph Neural Network Method for Traffic State Estimation with Directional Wave Awareness"
+        },
+        {
+          "id": "https://openalex.org/W4391631632",
+          "title": "Multilinear Kernel Regression and Imputation via Manifold Learning"
+        },
+        {
+          "id": "https://openalex.org/W4319604654",
+          "title": "Single Cells Are Spatial Tokens: Transformers for Spatial Transcriptomic Data Imputation"
+        },
+        {
+          "id": "https://openalex.org/W7155530850",
+          "title": "Low-Rank Adaptation Redux for Large Models"
+        },
+        {
+          "id": "https://openalex.org/W7211907913",
+          "title": "Reconstruction-aware urban crime analytics from incomplete judicial records using heterogeneous graph temporal imputation"
+        },
+        {
+          "id": "https://openalex.org/W2273844344",
+          "title": "Leveraging Sparsity and Low Rank for Large-Scale Networks and Data Science"
+        },
+        {
+          "id": "https://openalex.org/W7204212440",
+          "title": "Poisoning‐Aware Data Cleansing and Restoration for Secure IoT‐Enabled Wireless Sensor Systems"
+        }
+      ]
+    },
+    {
+      "id": "lab-8ef4decb9b26",
+      "title": "Hyerspectral Image Clustering with Local Sparse Subspace guided Super-Graph Construction",
+      "status": "not_matched",
+      "reason": "spelling_variant_no_verified_match",
+      "candidates": []
+    },
+    {
+      "id": "lab-7af4622bbcc3",
+      "title": "Adaptive Graph Feedback Clustering Network",
+      "status": "not_matched",
+      "reason": "title_only_no_independent_locator",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W4387917817",
+          "title": "Stacked Network to Realize Spectral Clustering With Adaptive Graph Learning"
+        },
+        {
+          "id": "https://openalex.org/W2074978629",
+          "title": "Cluster synchronization in networks of coupled nonidentical dynamical systems"
+        },
+        {
+          "id": "https://openalex.org/W4393159789",
+          "title": "Attribute-Missing Graph Clustering Network"
+        },
+        {
+          "id": "https://openalex.org/W4410291851",
+          "title": "Probabilistic power forecasting for wind farm clusters using Moran-Graph network with posterior feedback attention mechanism"
+        },
+        {
+          "id": "https://openalex.org/W3090016979",
+          "title": "Adaptive Universal Generalized PageRank Graph Neural Network"
+        },
+        {
+          "id": "https://openalex.org/W4409363832",
+          "title": "Federated Graph-Level Clustering Network"
+        },
+        {
+          "id": "https://openalex.org/W2949271011",
+          "title": "From Clustering to Cluster Explanations via Neural Networks"
+        },
+        {
+          "id": "https://openalex.org/W3131552394",
+          "title": "Modular Feedback Control of Networked Systems by Clustering: A Drinking Water Network Case Study"
+        },
+        {
+          "id": "https://openalex.org/W4287029165",
+          "title": "Graph Neural Networks With Lifting-based Adaptive Graph Wavelets"
+        },
+        {
+          "id": "https://openalex.org/W4388193048",
+          "title": "Reinforcement Graph Clustering with Unknown Cluster Number"
+        }
+      ]
+    },
+    {
+      "id": "lab-9ddc9ff7ce0c",
+      "title": "Towards Robust Models: Mitigating Adversarial Shifts in Feature Statistics with Uncertainty-Aware Reconstruction",
+      "status": "not_matched",
+      "reason": "expanded_search_no_verified_record",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W7155642061",
+          "title": "Trustworthy Deep Learning: Robustness, Uncertainty Quantification, and Adversarial Resilience"
+        },
+        {
+          "id": "https://openalex.org/W4361807236",
+          "title": "ALUM: Adversarial Data Uncertainty Modeling from Latent Model Uncertainty Compensation"
+        },
+        {
+          "id": "https://openalex.org/W4403589299",
+          "title": "Towards Robust Uncertainty-Aware Incomplete Multi-View Classification"
+        },
+        {
+          "id": "https://openalex.org/W4387705798",
+          "title": "On the Robustness of ML-Based Network Intrusion Detection Systems: An Adversarial and Distribution Shift Perspective"
+        },
+        {
+          "id": "https://openalex.org/W4415276843",
+          "title": "Adversarially Robust Few-Shot Anomaly Detection with Vision Foundation Models"
+        },
+        {
+          "id": "https://openalex.org/W4411095885",
+          "title": "Securing Visually-Aware Recommender Systems: An Adversarial Image Reconstruction and Detection Framework"
+        },
+        {
+          "id": "https://openalex.org/W4392816991",
+          "title": "Three-Dimensional Reconstruction Pre-Training as a Prior to Improve Robustness to Adversarial Attacks and Spurious Correlation"
+        },
+        {
+          "id": "https://openalex.org/W4388505137",
+          "title": "An Introduction to Adversarially Robust Deep Learning"
+        },
+        {
+          "id": "https://openalex.org/W4388110137",
+          "title": "Towards Practical Non-Adversarial Distribution Matching"
+        },
+        {
+          "id": "https://openalex.org/W4388756760",
+          "title": "Information Theoretic Learning-Enhanced Dual-Generative Adversarial Networks With Causal Representation for Robust OOD Generalization"
+        }
+      ]
+    },
+    {
+      "id": "lab-dccd5bfa936b",
+      "title": "PGSB: Pretrained-Guided Shared Basis for LoRA Model Merging",
+      "status": "not_matched",
+      "reason": "official_listing_no_openalex_match",
+      "candidates": []
+    },
+    {
+      "id": "lab-e73ac884ede0",
+      "title": "Exploiting Negative Multi-Cluster Structure in Class-Wise Embeddings for Weakly Supervised Multi-Label Learning",
+      "status": "not_matched",
+      "reason": "official_listing_no_openalex_match",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W2027266161",
+          "title": "Multi-instance multi-label learning"
+        },
+        {
+          "id": "https://openalex.org/W2808239701",
+          "title": "Incomplete Multi-View Weak-Label Learning"
+        },
+        {
+          "id": "https://openalex.org/W7154183346",
+          "title": "Bringing Clustering to MLL: Weakly-Supervised Clustering for Partial Multi-Label Learning"
+        },
+        {
+          "id": "https://openalex.org/W2997136715",
+          "title": "Cross-Modality Attention with Semantic Graph Embedding for Multi-Label Classification"
+        },
+        {
+          "id": "https://openalex.org/W4382467872",
+          "title": "Incomplete Multi-View Multi-Label Learning via Label-Guided Masked View- and Category-Aware Transformers"
+        },
+        {
+          "id": "https://openalex.org/W4367319981",
+          "title": "Weakly supervised machine learning"
+        },
+        {
+          "id": "https://openalex.org/W4388092626",
+          "title": "Self-Supervised Multi-Modality Learning for Multi-Label Skin Lesion Classification"
+        },
+        {
+          "id": "https://openalex.org/W4409364107",
+          "title": "Semi-Supervised Multi-View Multi-Label Learning with View-Specific Transformer and Enhanced Pseudo-Label"
+        },
+        {
+          "id": "https://openalex.org/W3000521887",
+          "title": "Bi-Modal Learning With Channel-Wise Attention for Multi-Label Image Classification"
+        },
+        {
+          "id": "https://openalex.org/W2780925023",
+          "title": "A Survey on Multi-View Clustering"
+        }
+      ]
+    },
+    {
+      "id": "lab-1025a6d4de24",
+      "title": "Individuals Matter: Improving Deep Multi-View Clustering via Explicit Single-View Enhancement",
+      "status": "not_matched",
+      "reason": "official_listing_no_openalex_match",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W4391653295",
+          "title": "A Survey and an Empirical Evaluation of Multi-View Clustering Approaches"
+        },
+        {
+          "id": "https://openalex.org/W4413006872",
+          "title": "A Fuzzy MCDM-Based Deep Multi-View Clustering Approach for Large-Scale Multi-View Data Analysis"
+        },
+        {
+          "id": "https://openalex.org/W4414281963",
+          "title": "Improved Multi-View Graph Clustering with Global Graph Refinement"
+        },
+        {
+          "id": "https://openalex.org/W4304811962",
+          "title": "GoMIC: Multi-view image clustering via self-supervised contrastive heterogeneous graph co-learning"
+        },
+        {
+          "id": "https://openalex.org/W7204947551",
+          "title": "Geometric-driven Scalable Multi-view Subspace Clustering with View Rarity Analysis"
+        },
+        {
+          "id": "https://openalex.org/W4393001925",
+          "title": "NOODLE: Joint Cross-View Discrepancy Discovery and High-Order Correlation Detection for Multi-View Subspace Clustering"
+        },
+        {
+          "id": "https://openalex.org/W4293239473",
+          "title": "GoMIC: Multi-view Image Clustering via Self-supervised Contrastive Heterogeneous Graph Co-learning"
+        },
+        {
+          "id": "https://openalex.org/W4398192834",
+          "title": "Multi-View Attentive Contextualization for Multi-View 3D Object Detection"
+        },
+        {
+          "id": "https://openalex.org/W4391871543",
+          "title": "Prismatic: Interactive Multi-View Cluster Analysis of Concept Stocks"
+        },
+        {
+          "id": "https://openalex.org/W4414713458",
+          "title": "A multi-view multimodal deep learning framework for Alzheimer's disease diagnosis"
+        }
+      ]
+    },
+    {
+      "id": "lab-effcb20ed6d4",
+      "title": "AdapMatch: Adaptive Bias Decoupling for Semi-Supervised Partial Label Learning under Unknown Class Distributions",
+      "status": "not_matched",
+      "reason": "official_listing_no_openalex_match",
+      "candidates": []
+    },
+    {
+      "id": "lab-2110e10b1fd2",
+      "title": "Progressive Pseudo-label Self-balancing Towards Unsupervised Vision-Language Models Adaptation",
+      "status": "not_matched",
+      "reason": "official_listing_no_openalex_match",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W4402501176",
+          "title": "DPA: Dual Prototypes Alignment for Unsupervised Adaptation of Vision-Language Models"
+        },
+        {
+          "id": "https://openalex.org/W4320037250",
+          "title": "Data augmentation with norm-AE and selective pseudo-labelling for unsupervised domain adaptation"
+        },
+        {
+          "id": "https://openalex.org/W2940156133",
+          "title": "A Survey of Unsupervised Deep Domain Adaptation"
+        },
+        {
+          "id": "https://openalex.org/W4400373877",
+          "title": "CLIP the divergence: Language-guided unsupervised domain adaptation"
+        },
+        {
+          "id": "https://openalex.org/W7220748834",
+          "title": "Unsupervised Domain Adaptation Object Detection Based on Pseudo-Label Purification in Rainy and Foggy Weather"
+        },
+        {
+          "id": "https://openalex.org/W4392655270",
+          "title": "Source-free unsupervised domain adaptation: A survey"
+        },
+        {
+          "id": "https://openalex.org/W4281985824",
+          "title": "CA-UDA: Class-Aware Unsupervised Domain Adaptation with Optimal Assignment and Pseudo-Label Refinement"
+        },
+        {
+          "id": "https://openalex.org/W7155035878",
+          "title": "Source-Free Domain Adaptation with Vision-Language Prior"
+        },
+        {
+          "id": "https://openalex.org/W7138285544",
+          "title": "Mitigating Endogenous Confirmation Bias in Noisy Label Learning for Vision-Language Models"
+        },
+        {
+          "id": "https://openalex.org/W4406840674",
+          "title": "SelfPrompt: Confidence-Aware Semi-Supervised Tuning for Robust Vision-Language Model Adaptation"
+        }
+      ]
+    },
+    {
+      "id": "lab-5dda1e979492",
+      "title": "LoCo: Selective Local Competition for Discriminative Open-Vocabulary Multi-Label Recognition",
+      "status": "not_matched",
+      "reason": "official_listing_no_openalex_match",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W2546241758",
+          "title": "ImageNet Large Scale Visual Recognition Challenge"
+        },
+        {
+          "id": "https://openalex.org/W3199557517",
+          "title": "Adolescents' understanding of the emotions of others : a survey of local high school students"
+        },
+        {
+          "id": "https://openalex.org/W3019180786",
+          "title": "Deep learning in rare disease. Detection of tubers in tuberous sclerosis complex"
+        },
+        {
+          "id": "https://openalex.org/W4321011695",
+          "title": "Unveiling the Unseen: A Comprehensive Survey on Explainable Anomaly Detection in Images and Videos"
+        },
+        {
+          "id": "https://openalex.org/W2805573128",
+          "title": "The Juridical Communities of Apulia: Communal Identity and Municipal Belonging in the Aragonese Kingdom of Naples"
+        },
+        {
+          "id": "https://openalex.org/W7161631256",
+          "title": "A Survey of Surface Defect Detection in Machine Vision: Addressing Core Challenges, Methodologies, and Dataset Analysis"
+        },
+        {
+          "id": "https://openalex.org/W4400061097",
+          "title": "Analyse intelligente de documents avec des approches neuronales"
+        },
+        {
+          "id": "https://openalex.org/W2889294614",
+          "title": "Morphological processing in the brain: The good (inflection), the bad (derivation) and the ugly (compounding)"
+        },
+        {
+          "id": "https://openalex.org/W2560300527",
+          "title": "A level drama and theatre studies in urban and rural English settings at a time of post-16 educational change"
+        },
+        {
+          "id": "https://openalex.org/W4407308591",
+          "title": "Mediator: Memory-efficient LLM Merging with Less Parameter Conflicts and Uncertainty Based Routing"
+        }
+      ]
+    },
+    {
+      "id": "lab-deff0ac02cbd",
+      "title": "Attention Heads are Complementary Visual Units: Mitigating Hallucinations in LVLMs via Adaptive Visual Cues Focusing",
+      "status": "not_matched",
+      "reason": "official_listing_no_openalex_match",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W7138861295",
+          "title": "Causally-Grounded Dual-Path Attention Intervention for Object Hallucination Mitigation in LVLMs"
+        },
+        {
+          "id": "https://openalex.org/W4416235962",
+          "title": "Causally-Grounded Dual-Path Attention Intervention for Object Hallucination Mitigation in LVLMs"
+        },
+        {
+          "id": "https://openalex.org/W7214699276",
+          "title": "ACPruner: Visual Token Pruning as Biased Attention Coverage Maximization in LVLMs"
+        },
+        {
+          "id": "https://openalex.org/W7162639760",
+          "title": "Structure-Guided Visual Perturbation Neutralization for LVLMs"
+        },
+        {
+          "id": "https://openalex.org/W7125785291",
+          "title": "V-Loop: Visual Logical Loop Verification for Hallucination Detection in Medical Visual Question Answering"
+        },
+        {
+          "id": "https://openalex.org/W4416056156",
+          "title": "Grounding or Guessing? Visual Signals for Detecting Hallucinations in Sign Language Translation"
+        },
+        {
+          "id": "https://openalex.org/W7154451413",
+          "title": "Relaxing Anchor-Frame Dominance for Mitigating Hallucinations in Video Large Language Models"
+        },
+        {
+          "id": "https://openalex.org/W7154162106",
+          "title": "Robust 4D Visual Geometry Transformer with Uncertainty-Aware Priors"
+        },
+        {
+          "id": "https://openalex.org/W7126022698",
+          "title": "Compression Tells Intelligence: Visual Coding, Visual Token Technology, and the Unification"
+        },
+        {
+          "id": "https://openalex.org/W7117991108",
+          "title": "From Context to Human: A Review of VLM Contextualization in the Recognition of Human States in Visual Data"
+        }
+      ]
+    },
+    {
+      "id": "lab-6757df585f08",
+      "title": "Mismatch-Free One-Step at Scale: Linear-Time Ensemble Clustering with Soft Balancing",
+      "status": "not_matched",
+      "reason": "no_public_locator_for_future_year",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W3021204671",
+          "title": "The ONETEP linear-scaling density functional theory program"
+        },
+        {
+          "id": "https://openalex.org/W3035491488",
+          "title": "SDCOR: Scalable density-based clustering for local outlier detection in massive-scale datasets"
+        },
+        {
+          "id": "https://openalex.org/W2105234758",
+          "title": "Random-projection Ensemble Classification"
+        },
+        {
+          "id": "https://openalex.org/W2150710561",
+          "title": "How soft materials control harder ones: routes to bioorganization"
+        },
+        {
+          "id": "https://openalex.org/W3113113038",
+          "title": "Defects and defect engineering in Soft Matter"
+        },
+        {
+          "id": "https://openalex.org/W2963780435",
+          "title": "Effect of spike-timing-dependent plasticity on stochastic burst synchronization in a scale-free neuronal network"
+        },
+        {
+          "id": "https://openalex.org/W2060514462",
+          "title": "Mechanisms of cluster ionization in strong laser pulses"
+        },
+        {
+          "id": "https://openalex.org/W4412795937",
+          "title": "Selection, Ensemble, and Adaptation: Advancing Multi-Source-Free Domain Adaptation via Architecture Zoo"
+        },
+        {
+          "id": "https://openalex.org/W2472535939",
+          "title": "The physics of x-ray free-electron lasers"
+        },
+        {
+          "id": "https://openalex.org/W7125957786",
+          "title": "Predicting BNPL Loan Defaults: A Comparison of Ensemble Learning Models Combined With Balancing Techniques and an Analysis of the Impact of Digital Literacy"
+        }
+      ]
+    },
+    {
+      "id": "lab-1a90fc2c3965",
+      "title": "KGFlow: Enhancing Large Language Model Reasoning with Multi-Graph Alignment for Knowledge-Intensive Medical Question Answering",
+      "status": "not_matched",
+      "reason": "expanded_search_no_verified_record",
+      "candidates": []
+    },
+    {
+      "id": "lab-4dafc16e5fd8",
+      "title": "Question-Level Multimodal Fusion for Cognitive Ability Assessment in Asynchronous Video Interviews",
+      "status": "not_matched",
+      "reason": "expanded_search_no_verified_record",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W7202187509",
+          "title": "EMMR: Emotion-Mediated Multimodal Reasoning for Personality Assessment in Asynchronous Video Interviews"
+        },
+        {
+          "id": "https://openalex.org/W7204464735",
+          "title": "AVI-Personality: A Trait-Activated Multimodal Dataset for Personality and Competency Assessment in Asynchronous Video Interviews"
+        },
+        {
+          "id": "https://openalex.org/W7164316328",
+          "title": "Frozen Multimodal Embeddings for AI-Assisted Interview Assessment of Personality and Cognitive Ability"
+        },
+        {
+          "id": "https://openalex.org/W7164419465",
+          "title": "Traits Run Deeper: Trait-Specific Asymmetric Fusion for Multimodal Personality Assessment"
+        },
+        {
+          "id": "https://openalex.org/W7116763759",
+          "title": "SBT-Net: a tri-cue guided multimodal fusion framework for depression recognition"
+        },
+        {
+          "id": "https://openalex.org/W4413170367",
+          "title": "AI-Powered Interview Coach: A Multimodal Full-Stack Framework for Real-Time Behavioral and Technical Skill Assessment"
+        },
+        {
+          "id": "https://openalex.org/W4410640076",
+          "title": "A Comprehensive Review of Multimodal Analysis in Education"
+        },
+        {
+          "id": "https://openalex.org/W7162568939",
+          "title": "Faster R-BERT multimodal fusion real-time psychological stress recognition system"
+        },
+        {
+          "id": "https://openalex.org/W7161141912",
+          "title": "AI Virtual Interview Trainer: A Multimodal Intelligent System for Automated Interview Simulation and Skill Development"
+        },
+        {
+          "id": "https://openalex.org/W4417521432",
+          "title": "A closed-loop system for dynamic personality monitoring and judicial risk early warning based on multimodal fusion"
+        }
+      ]
+    },
+    {
+      "id": "lab-b4f457369e13",
+      "title": "One Coin Has Two Sides: Single Poistive Multi Label Learning from Salient Annotations",
+      "status": "not_matched",
+      "reason": "public_candidate_page_access_blocked",
+      "candidates": []
+    },
+    {
+      "id": "lab-77b725acea33",
+      "title": "Mini-cluster Guided Long-tailed Deep Clustering",
+      "status": "not_matched",
+      "reason": "public_page_verified_no_openalex_match",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W4403465936",
+          "title": "A Comprehensive Survey on Deep Clustering: Taxonomy, Challenges, and Future Directions"
+        },
+        {
+          "id": "https://openalex.org/W3000477497",
+          "title": "Truth Inference With a Deep Clustering-Based Aggregation Model"
+        },
+        {
+          "id": "https://openalex.org/W4416717131",
+          "title": "ICIRD: Information-Principled Deep Clustering for Invariant, Redundancy-Reduced and Discriminative Cluster Distributions"
+        },
+        {
+          "id": "https://openalex.org/W4416786370",
+          "title": "You Can Trust Your Clustering Model: A Parameter-free Self-Boosting Plug-in for Deep Clustering"
+        },
+        {
+          "id": "https://openalex.org/W3206816884",
+          "title": "Deep Long-Tailed Learning: A Survey"
+        },
+        {
+          "id": "https://openalex.org/W4379806182",
+          "title": "TDEC: Deep Embedded Image Clustering with Transformer and Distribution Information"
+        },
+        {
+          "id": "https://openalex.org/W7148177507",
+          "title": "TDEC: Deep Embedded Image Clustering with Transformer and Distribution Information"
+        },
+        {
+          "id": "https://openalex.org/W2557839538",
+          "title": "Range Loss for Deep Face Recognition with Long-tail"
+        },
+        {
+          "id": "https://openalex.org/W4292580997",
+          "title": "Properties of globular clusters formed in dark matter mini-halos"
+        },
+        {
+          "id": "https://openalex.org/W2125260795",
+          "title": "Deep multi-frequency rotation measure tomography of the galaxy cluster A2255"
+        }
+      ]
+    },
+    {
+      "id": "lab-918df170a3ad",
+      "title": "Samples Are Not Equal: A Sample Selection Approach for Deep Clustering",
+      "status": "not_matched",
+      "reason": "public_page_verified_no_openalex_match",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W2794302998",
+          "title": "Not All Samples Are Created Equal: Deep Learning with Importance Sampling"
+        },
+        {
+          "id": "https://openalex.org/W1997295490",
+          "title": "The ROSAT Brightest Cluster Sample -- I. The compilation of the sample and the cluster log N--log S distribution"
+        },
+        {
+          "id": "https://openalex.org/W2084461563",
+          "title": "Cosmology and astrophysics from relaxed galaxy clusters – I. Sample selection"
+        },
+        {
+          "id": "https://openalex.org/W3003753408",
+          "title": "Deep learning-based clustering approaches for bioinformatics"
+        },
+        {
+          "id": "https://openalex.org/W2689134854",
+          "title": "Sampling Matters in Deep Embedding Learning"
+        },
+        {
+          "id": "https://openalex.org/W3133924926",
+          "title": "Radio halos in a mass-selected sample of 75 galaxy clusters: I. Sample selection and data analysis"
+        },
+        {
+          "id": "https://openalex.org/W3036111747",
+          "title": "Initial training samples selection using clustering algorithm for audio recognition"
+        },
+        {
+          "id": "https://openalex.org/W2133436825",
+          "title": "The Mass Function of an X‐Ray Flux–limited Sample of Galaxy Clusters"
+        },
+        {
+          "id": "https://openalex.org/W3031375907",
+          "title": "Deep Kernel Learning for Clustering"
+        },
+        {
+          "id": "https://openalex.org/W2118694681",
+          "title": "Planckearly results. VIII. The all-sky early Sunyaev-Zeldovich cluster sample"
+        }
+      ]
+    },
+    {
+      "id": "lab-82a7992c094e",
+      "title": "Learning from Sample Stability for Deep Clustering",
+      "status": "not_matched",
+      "reason": "public_page_verified_no_openalex_match",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W2950180292",
+          "title": "Deep Clustering for Unsupervised Learning of Visual Features"
+        },
+        {
+          "id": "https://openalex.org/W4391376721",
+          "title": "Deep Embedding Clustering Driven by Sample Stability"
+        },
+        {
+          "id": "https://openalex.org/W4401024515",
+          "title": "Deep Embedding Clustering Driven by Sample Stability"
+        },
+        {
+          "id": "https://openalex.org/W3047868264",
+          "title": "Deep Robust Clustering by Contrastive Learning"
+        },
+        {
+          "id": "https://openalex.org/W4307092192",
+          "title": "Learning Representation for Clustering Via Prototype Scattering and Positive Sampling"
+        },
+        {
+          "id": "https://openalex.org/W2913037830",
+          "title": "A Robust and Efficient Deep Learning Method for Dynamical Mass Measurements of Galaxy Clusters"
+        },
+        {
+          "id": "https://openalex.org/W4200533996",
+          "title": "A Deep-Learning intelligent system incorporating data augmentation for Short-Term voltage stability assessment of power systems"
+        },
+        {
+          "id": "https://openalex.org/W3135873104",
+          "title": "Deep Clustering by Semantic Contrastive Learning"
+        },
+        {
+          "id": "https://openalex.org/W3157490352",
+          "title": "A Deep Learning Object Detection Method for an Efficient Clusters Initialization"
+        },
+        {
+          "id": "https://openalex.org/W3034363127",
+          "title": "Deep Semantic Clustering by Partition Confidence Maximisation"
+        }
+      ]
+    },
+    {
+      "id": "lab-bddb535117ca",
+      "title": "ConMix: Contrastive Mixup at Representation Level for Long-tailed Deep Clustering",
+      "status": "not_matched",
+      "reason": "public_page_verified_no_openalex_match",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W7138171435",
+          "title": "Rethinking Long-tailed Dataset Distillation: A Uni-Level Framework with Unbiased Recovery and Relabeling"
+        },
+        {
+          "id": "https://openalex.org/W7214911135",
+          "title": "OFBD: Object-Focused Background Debiasing for Long-Tailed Learning"
+        },
+        {
+          "id": "https://openalex.org/W7140176988",
+          "title": "Reframing Long-Tailed Learning via Loss Landscape Geometry"
+        },
+        {
+          "id": "https://openalex.org/W4416786370",
+          "title": "You Can Trust Your Clustering Model: A Parameter-free Self-Boosting Plug-in for Deep Clustering"
+        },
+        {
+          "id": "https://openalex.org/W4416450637",
+          "title": "A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning"
+        },
+        {
+          "id": "https://openalex.org/W4414875834",
+          "title": "A clustering framework for skewed features with low true cluster separation"
+        },
+        {
+          "id": "https://openalex.org/W4389131693",
+          "title": "An In-Depth Analysis of Domain Adaptation in Computer and Robotic Vision"
+        },
+        {
+          "id": "https://openalex.org/W4319302472",
+          "title": "Table of Contents"
+        }
+      ]
+    },
+    {
+      "id": "lab-2c640db3fd61",
+      "title": "Complementary Label Learning with Positive Label Guessing and Negative Label Enhancement",
+      "status": "not_matched",
+      "reason": "public_page_verified_no_openalex_match",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W4376653814",
+          "title": "Enhancing Label Sharing Efficiency in Complementary-Label Learning with Label Augmentation"
+        },
+        {
+          "id": "https://openalex.org/W4376653765",
+          "title": "CLImage: Human-Annotated Datasets for Complementary-Label Learning"
+        },
+        {
+          "id": "https://openalex.org/W4221158619",
+          "title": "PiCO+: Contrastive Label Disambiguation for Robust Partial Label Learning"
+        },
+        {
+          "id": "https://openalex.org/W7126082071",
+          "title": "Robust Learning with Limited Labels"
+        },
+        {
+          "id": "https://openalex.org/W4400726538",
+          "title": "Label-Efficient Time Series Representation Learning: A Review"
+        },
+        {
+          "id": "https://openalex.org/W4312064649",
+          "title": "Deep learning with very few and no labels"
+        },
+        {
+          "id": "https://openalex.org/W7218852040",
+          "title": "Complementary-Label Learning: A Survey of Methods, an Open-Source Toolkit, and Fair Benchmarking Results"
+        },
+        {
+          "id": "https://openalex.org/W4416877853",
+          "title": "Diffusion Disambiguation Models for Partial Label Learning"
+        },
+        {
+          "id": "https://openalex.org/W3177015951",
+          "title": "Efficient Algorithms for Learning from Coarse Labels"
+        },
+        {
+          "id": "https://openalex.org/W4399423294",
+          "title": "Prompt Expending for Single Positive Multi-Label Learning with Global Unannotated Categories"
+        }
+      ]
+    },
+    {
+      "id": "lab-cafae06c3f4f",
+      "title": "Efficient and Robust Freeway Traffic State Estimation under Oblique Grid using Vehicle Trajectory Data",
+      "status": "ambiguous",
+      "reason": "title_variant_collides_with_another_lab_paper",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W4404390751",
+          "title": "Efficient and Robust Freeway Traffic Speed Estimation under Oblique Grid using Vehicle Trajectory Data",
+          "doi": "https://doi.org/10.48550/arxiv.2411.05842",
+          "type": "preprint",
+          "year": 2024
+        },
+        {
+          "id": "https://openalex.org/W4400525194",
+          "title": "Efficient and Robust Freeway Traffic Speed Estimation Under Oblique Grid Using Vehicle Trajectory Data",
+          "doi": "https://doi.org/10.1109/tits.2024.3422246",
+          "type": "article",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "id": "lab-60280e69a6e3",
+      "title": "When Missingness Meets Anomalies: A Tailored Low-rank Tensor Completion Approach for Traffic Data Recovery",
+      "status": "not_matched",
+      "reason": "expanded_search_no_verified_record",
+      "candidates": [
+        {
+          "id": "https://openalex.org/W4392126176",
+          "title": "A Systematic Review of Low-Rank and Local Low-Rank Matrix Approximation in Big Data Medical Imaging"
+        },
+        {
+          "id": "https://openalex.org/W7164139983",
+          "title": "A Spatial-Temporal Traffic Prediction Algorithm Based on Non-Negative Tensor Factorization"
+        },
+        {
+          "id": "https://openalex.org/W4416435429",
+          "title": "An interdisciplinary and cross-task review on missing data imputation"
+        },
+        {
+          "id": "https://openalex.org/W2273844344",
+          "title": "Leveraging Sparsity and Low Rank for Large-Scale Networks and Data Science"
+        },
+        {
+          "id": "https://openalex.org/W2779063167",
+          "title": "Data gathering and anomaly detection in wireless sensors networks"
+        },
+        {
+          "id": "https://openalex.org/W7208082682",
+          "title": "Traffic Matrix Prediction and Traffic Engineering Leveraging Machine Learning Techniques(機械学習を利用したトラフィックの予測と制御)"
+        },
+        {
+          "id": "https://openalex.org/W7167237994",
+          "title": "A Multisource Hardware Sensing Signal Fusion Network for Robust State Prediction and Anomaly Perception"
+        },
+        {
+          "id": "https://openalex.org/W4412198931",
+          "title": "Spatial-Temporal Data Mining for Ocean Science: Data, Methodologies and Opportunities"
+        },
+        {
+          "id": "https://openalex.org/W3081456333",
+          "title": "Data-Driven Aerospace Engineering: Reframing the Industry with Machine Learning"
+        },
+        {
+          "id": "https://openalex.org/W4365504037",
+          "title": "A survey on deep learning tools dealing with data scarcity: definitions, challenges, solutions, tips, and applications"
+        }
+      ]
+    }
+  ]
+}

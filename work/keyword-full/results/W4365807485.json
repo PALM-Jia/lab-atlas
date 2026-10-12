@@ -1,0 +1,46 @@
+{
+  "paper_id": "W4365807485",
+  "annotations": [
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "Nonnegative matrix factorization(NMF) algorithms are a series of dimensional reduction techniques widely used in data preprocessing.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将 NMF 归为降维技术并研究低维表示，符合降维任务。"
+    },
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "we proposed a novel semisupervisedconstrained nonnegative matrix factorization based on label propagation(LpCNMF)",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出 LpCNMF，其核心方法为非负矩阵分解。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "adopts graph and label propagation as regularization terms",
+      "evidence_field": "abstract",
+      "reason_zh": "以图和标签传播作为正则项，对表示学习施加图结构一致性约束。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "makes use of a small amount of labeled data to predict the label information of the unlabeled data",
+      "evidence_field": "abstract",
+      "reason_zh": "利用少量已标注数据与未标注数据预测标签，属半监督学习设定。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "a small amount of labeled data",
+      "evidence_field": "abstract",
+      "reason_zh": "仅有少量已标注数据，其余监督不完整，构成弱监督条件。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "摘要仅提非负矩阵分解与基/系数矩阵，未明确低秩约束或低秩近似；一般矩阵分解或非负约束不能自动推得低秩。"
+    },
+    {
+      "keyword_id": "pseudo-label-self-training",
+      "reason_zh": "有标签传播预测未标注标签的线索，但摘要未明确这些预测被作为伪标签/自训练信号用于后续训练，机制不确定。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,44 @@
+{
+  "paper_id": "W3034504038",
+  "annotations": [
+    {
+      "keyword_id": "label-distribution-learning",
+      "exact_quote": "we propose a novel approach named Label Distribution Learning on Auxiliary Label Space Graphs(LDL-ALSG)",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出LDL-ALSG，明确以标记分布学习为核心任务。"
+    },
+    {
+      "keyword_id": "label-enhancement",
+      "exact_quote": "numerous existing datasets only contain one-hot labels rather than label distributions. To solve the problem, we propose a novel approach named Label Distribution Learning on Auxiliary Label Space Graphs(LDL-ALSG)",
+      "evidence_field": "abstract",
+      "reason_zh": "数据集仅有one-hot逻辑标签，方法旨在由此构建/恢复标记分布，符合标记增强定义。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "The underlying assumption is that facial images should have similar expression distributions to their neighbours in the label space of action unit recognition and facial landmark detection.",
+      "evidence_field": "abstract",
+      "reason_zh": "以标签空间图中邻居具有相似表情分布为假设，对学习结果施加图/流形一致性约束。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "numerous existing datasets only contain one-hot labels rather than label distributions.",
+      "evidence_field": "abstract",
+      "reason_zh": "监督信号仅为one-hot标签而非细粒度标记分布，论文以这种不完整/粗粒度监督为问题，符合弱监督设定。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "noisy-label-learning",
+      "reason_zh": "摘要提到标注不一致，但未明确将其作为错误类别或噪声标签学习设定，LDL将表情歧义视为多强度分布而非标签噪声。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "标题和摘要提到辅助标签空间图，但未说明是否学习或修正图的边/亲和矩阵，证据不足以判定。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "reason_zh": "辅助标签空间的拓扑用于样本邻域一致性，摘要未说明标签之间的相关结构建模。"
+    }
+  ],
+  "input_issues": []
+}

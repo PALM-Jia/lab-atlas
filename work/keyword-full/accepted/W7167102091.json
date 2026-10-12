@@ -1,0 +1,42 @@
+{
+  "paper_id": "W7167102091",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "this article proposes a novel jointly optimized and trainable framework named graph masked autoencoders with relationship-aware learning (GMARC) for HSI clustering",
+      "evidence_field": "abstract",
+      "reason_zh": "提出可联合优化的可训练框架用于HSI聚类，利用图掩码自编码器学习表示并服务聚类划分，符合深度聚类。"
+    },
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral image (HSI) clustering is a fundamental yet challenging task.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文直接研究高光谱图像（HSI）数据上的聚类任务。"
+    },
+    {
+      "keyword_id": "graph-neural-networks",
+      "exact_quote": "which is the first to apply masked graph autoencoders (MGAEs) to HSI clustering tasks",
+      "evidence_field": "abstract",
+      "reason_zh": "核心方法为图掩码自编码器，属于在图上进行可学习神经表示提取的图神经网络方法。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "we propose a relationship-aware learning module (RAL), explicitly constructing both global and local relationships to enrich data representations",
+      "evidence_field": "abstract",
+      "reason_zh": "RAL显式构造全局与局部节点关系，学习样本间关系/亲和结构，符合图结构学习。"
+    },
+    {
+      "keyword_id": "contrastive-learning",
+      "exact_quote": "reinforcing the feature consistency among positive pairs and reducing correlation among negative pairs",
+      "evidence_field": "abstract",
+      "reason_zh": "通过增强正节点对特征一致性并降低负节点对相关性来学习表示，符合对比学习的吸引与区分目标。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "虽有局部关系与正节点对一致性线索，但未明确使用邻域图拉普拉斯或流形一致性约束，机制无法确定。"
+    }
+  ],
+  "input_issues": []
+}

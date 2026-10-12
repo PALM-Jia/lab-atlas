@@ -1,0 +1,35 @@
+{
+  "paper_id": "W4322201905",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "Semi-supervised",
+      "evidence_field": "title",
+      "reason_zh": "半监督条件是方法核心，有限监督属于不完整监督，亦符合弱监督定义；两词无父子关系。"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "Semi-supervised",
+        "evidence_field": "title",
+        "reason_zh": "半监督条件是方法核心，有限监督属于不完整监督，亦符合弱监督定义；两词无父子关系。"
+      }
+    ],
+    "abstentions": [
+      {
+        "keyword_id": "graph-manifold-regularization",
+        "reason_zh": "标题仅出现adaptive neighbors，未说明将其作为邻域几何一致性正则，无法确认图与流形正则化。"
+      },
+      {
+        "keyword_id": "subspace-clustering",
+        "reason_zh": "标题仅出现block-diagonal learning，未明确按潜在子空间分组或使用自表达关系，无法确认子空间聚类。"
+      }
+    ],
+    "input_issues": []
+  }
+}

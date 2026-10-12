@@ -1,0 +1,43 @@
+{
+  "paper_id": "W2519936666",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "automatically completing the missing tags and rectifying the noise-corrupted ones",
+      "evidence_field": "abstract",
+      "reason_zh": "任务明确补全缺失标签并修正噪声标签，输出为恢复后的标签数据，符合数据补全与恢复定义。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "super-sparse and large-scale tensor factorization",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确使用张量分解/补全建模用户-图像-标签关系，属于张量分解与近似表示。"
+    },
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "Social image tag refinement, which aims to improve tag quality by automatically completing the missing tags and rectifying the noise-corrupted ones",
+      "evidence_field": "abstract",
+      "reason_zh": "对每张图像补全和修正多个可共存的标签，属于多标记学习/识别任务。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "the intra-relations between users, images and tags are explored by three regularizations respectively",
+      "evidence_field": "abstract",
+      "reason_zh": "对标签等对象内部关系用正则化建模，显式利用标签间相关结构。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "completing the missing tags and rectifying the noise-corrupted ones",
+      "evidence_field": "abstract",
+      "reason_zh": "以不完整（缺失标签）和不准确（噪声标签）的监督信号作为研究条件，符合弱监督学习。"
+    },
+    {
+      "keyword_id": "noisy-label-learning",
+      "exact_quote": "rectifying the noise-corrupted ones",
+      "evidence_field": "abstract",
+      "reason_zh": "训练监督（标签）存在噪声，并将修正噪声标签作为研究问题，符合噪声标签学习。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2947716341",
+  "annotations": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "learn the graph and the clustering result simultaneously",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要提出联合学习框架，同时学习图与聚类结果，使构建的图适配聚类任务，符合学习或修正样本间图/亲和结构的定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

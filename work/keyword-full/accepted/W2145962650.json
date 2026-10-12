@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2145962650",
+  "annotations": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "Suppose we have a data matrix, which is the superposition of a low-rank component and a sparse component.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文将数据矩阵显式建模为低秩分量与稀疏分量的叠加，并围绕恢复低秩分量展开，符合低秩约束/分解建模。"
+    },
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "one can recover the principal components of a data matrix even though a positive fraction of its entries are arbitrarily corrupted. This extends to the situation where a fraction of the entries are missing as well.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要研究从任意污染条目和缺失条目中恢复数据主成分/低秩与稀疏分量，输出为恢复的原始数据，符合数据补全与恢复。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2002767255\",\"annotations\":[{\"keyword_id\":\"ensemble-clustering\",\"exact_quote\":\"It consists of generating a set of clusterings from the same dataset and combining them into a final clustering.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确说明从同一数据集生成多个聚类并合并为最终聚类，即融合多个已有聚类结果求共识划分，符合集成聚类定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

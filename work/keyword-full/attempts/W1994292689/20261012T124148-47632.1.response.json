@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W1994292689\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"Nonnegative matrix factorization (NMF) is the problem of approximating a given nonnegative matrix by the product of two nonnegative matrices.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以非负矩阵分解为核心问题，研究其修正乘性更新的全局收敛性，属于非负因子分解方法。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

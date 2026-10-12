@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W4414260826\",\"annotations\":[{\"keyword_id\":\"dimensionality-reduction\",\"exact_quote\":\"Dimensionality Reduction plays a pivotal role in improving feature learning accuracy and reducing training time by eliminating redundant features, noise, and irrelevant data.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将降维作为核心研究任务，讨论其在特征学习与训练效率中的作用。\"},{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"Nonnegative Matrix Factorization (NMF) has emerged as a popular and powerful method for dimensionality reduction.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要将NMF作为降维的主流强方法，并综述其在特征提取和特征选择中的应用，符合非负矩阵分解方法角色。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

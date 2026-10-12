@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2099272618",
+  "annotations": [
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "multi-view information of image sets is exploited in this paper",
+      "evidence_field": "abstract",
+      "reason_zh": "论文显式利用图像集的多视图信息，并联合优化不同视图的聚类指示向量、最大化视图间相关性，符合多视图学习设定。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W3166291381\",\"annotations\":[{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"missing data imputation problem for large-scale spatiotemporal traffic data\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确以大规模时空交通数据的缺失数据填补为核心问题，目标是估计缺失观测并恢复数据。\"},{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"based on the existing framework of Low-Rank Tensor Completion\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文采用低管秩平滑张量完成与张量核范数最小化，显式利用张量低秩约束/表示进行重建。\"},{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"spatiotemporal traffic data\",\"evidence_field\":\"abstract\",\"reason_zh\":\"研究对象为时空交通数据，并以其缺失值填补为任务，属于实际交通数据对象。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

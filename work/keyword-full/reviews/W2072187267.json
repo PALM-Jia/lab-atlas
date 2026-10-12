@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2072187267",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_positive",
+      "keyword_id": "multi-view-learning",
+      "reason_zh": "文中联合的是同一高光谱图像上的光谱域与空间域邻域保持散度，而非明确的多个特征视图及其跨视图关系；不能仅由空间与光谱信息联合推出多视图学习。",
+      "exact_quote": "Then, the local similarity information is described by integrating a spectral-domain regularized local preserving scatter matrix and a spatial-domain local pixel neighborhood preserving scatter matrix.",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "multi-view-learning"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "graph-structure-learning",
+        "reason_zh": "摘要仅说明局部相似性与邻域保持散度矩阵，未明确学习或修正样本间边/亲和矩阵，不足以判定为图结构学习。"
+      }
+    ],
+    "input_issues": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "paper_id": "W3000424784",
+  "annotations": [
+    {
+      "keyword_id": "partial-label-learning",
+      "exact_quote": "Learning from ambiguously labeled examples",
+      "evidence_field": "title",
+      "reason_zh": "标题直接表明任务是从歧义标签样例中学习；歧义标签对应候选标签集合、仅一个为真的偏标记学习设定。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "we are concerned with ambiguous label",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确论文关注歧义标签；这种不精确的标签监督作为核心研究条件，符合弱监督学习定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": [
+    "摘要文本在 'ambiguous label...' 处明显截断，无法读取完整研究细节；本标注主要依据标题。"
+  ]
+}

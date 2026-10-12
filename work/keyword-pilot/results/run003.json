@@ -1,0 +1,18 @@
+{
+  "sample_id": "S01",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "Multilabel Ranking with Inconsistent Rankers",
+      "evidence_field": "title",
+      "reason_zh": "研究任务是对每个实例的多个标签进行排序，属于多标记学习任务。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "only subjective inconsistent rankings from multiple rankers are associated with each instance",
+      "evidence_field": "abstract",
+      "reason_zh": "方法以多个主观且不一致的实例级排序作为监督，核心处理不精确的监督信号。"
+    }
+  ],
+  "abstentions": []
+}

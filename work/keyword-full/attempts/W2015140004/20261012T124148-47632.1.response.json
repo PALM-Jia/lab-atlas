@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2015140004\",\"annotations\":[{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"which typically utilize dramatically fewer basis functions than the comparable SVM-based approaches\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要称方法为稀疏贝叶斯核方法并利用权重相关判定先验，且强调使用远少于SVM的基函数，体现少量基函数/权重的稀疏表示。\"},{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"In sparse Bayesian framework, a relevance determination prior over weights is used to automatic relevance determination. The inference techniques based on Laplace approximation is derived for model selection.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"明确在稀疏贝叶斯框架下设定权重先验，并基于Laplace近似进行推断与模型选择，满足贝叶斯后验估计/近似推断。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

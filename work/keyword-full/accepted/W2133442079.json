@@ -1,0 +1,44 @@
+{
+  "paper_id": "W2133442079",
+  "annotations": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "our approach provides a novel graph structure construction method by introducing multiple-wise edges instead of pairwise edges, and presents an effective scheme to estimate the weights for such multiple-wise edges.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确提出构建图结构并以multiple-wise边替代pairwise边，还估计这些边的权重，属于学习或修正样本间边与亲和矩阵。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "these two contributions are novel for semi-supervised classification.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要将两项贡献定位于半监督分类，方法为graph-based transductive classification，利用邻居与标签信息进行半监督推断。"
+    },
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "The experimental results on image segmentation and transductive classification demonstrate the effectiveness and efficiency of the proposed approach.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明在image segmentation上进行了实验，将图像像素划分区域作为应用与评估任务。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "these two contributions are novel for semi-supervised classification.",
+      "evidence_field": "abstract",
+      "reason_zh": "所提传导分类方法以半监督分类为研究设定，用有限标签而非完整实例级真值指导邻居标签预测，亦满足不完整监督的弱监督定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "摘要提到图结构构建和按邻居线性预测标签，但未明确使用图拉普拉斯或流形正则项施加几何一致性约束，证据不足。"
+    },
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "reason_zh": "摘要区分multiple-wise edges与pairwise edges，但这是图结构中的边，未说明扩展must-link或cannot-link成对监督关系。"
+    },
+    {
+      "keyword_id": "bayesian-inference",
+      "reason_zh": "摘要仅提到二阶内在Gaussian Markov random field框架，未说明先验后验估计或近似贝叶斯推断，证据不足。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,31 @@
+{
+  "paper_id": "W2147590979",
+  "annotations": [
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "the hyperdimensional data are first transformed to a lower dimensionality feature space using the feature reduction technique to maximize separability between classes",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确用特征降维将高维数据映射到低维特征空间，以压缩维度并提升类别可分性，满足降维任务定义。"
+    },
+    {
+      "keyword_id": "bayesian-inference",
+      "exact_quote": "Bayesian learning-based probabilistic sparse kernel model",
+      "evidence_field": "abstract",
+      "reason_zh": "论文采用基于贝叶斯学习的概率稀疏核模型RVM进行推断，涉及先验/概率建模，满足贝叶斯推断。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "probabilistic sparse kernel model, the relevance vector machine (RVM)",
+      "evidence_field": "abstract",
+      "reason_zh": "明确使用稀疏核模型RVM，以少量核基函数/相关向量表达判别函数，符合稀疏表示机制。"
+    },
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "experiments were carried out on real hyperspectral data",
+      "evidence_field": "abstract",
+      "reason_zh": "研究对象为高光谱图像分类，并在真实高光谱数据上实验，满足高光谱图像应用对象。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

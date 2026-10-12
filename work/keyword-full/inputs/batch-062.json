@@ -1,0 +1,54 @@
+{
+  "papers": [
+    {
+      "paper_id": "W2100470808",
+      "title": "Frequency-tuned salient region detection",
+      "abstract": "Detection of visually salient image regions is useful for applications like object segmentation, adaptive compression, and object recognition. In this paper, we introduce a method for salient region detection that outputs full resolution saliency maps with well-defined boundaries of salient objects. These boundaries are preserved by retaining substantially more frequency content from the original image than other existing techniques. Our method exploits features of color and luminance, is simple to implement, and is computationally efficient. We compare our algorithm to five state-of-the-art salient region detection methods with a frequency domain analysis, ground truth, and a salient object segmentation application. Our method outperforms the five algorithms both on the ground-truth evaluation and on the segmentation task by achieving both higher precision and better recall."
+    },
+    {
+      "paper_id": "W2100495367",
+      "title": "Reducing the Dimensionality of Data with Neural Networks",
+      "abstract": "High-dimensional data can be converted to low-dimensional codes by training a multilayer neural network with a small central layer to reconstruct high-dimensional input vectors. Gradient descent can be used for fine-tuning the weights in such \"autoencoder\" networks, but this works well only if the initial weights are close to a good solution. We describe an effective way of initializing the weights that allows deep autoencoder networks to learn low-dimensional codes that work much better than principal components analysis as a tool to reduce the dimensionality of data."
+    },
+    {
+      "paper_id": "W2100549954",
+      "title": "Linearized Alternating Direction Method with Adaptive Penalty for Low-Rank Representation",
+      "abstract": "Low-rank representation (LRR) is an effective method for subspace clustering and has found wide applications in computer vision and machine learning. The existing LRR solver is based on the alternating direction method (ADM). It suffers from $O(n^3)$ computation complexity due to the matrix-matrix multiplications and matrix inversions, even if partial SVD is used. Moreover, introducing auxiliary variables also slows down the convergence. Such a heavy computation load prevents LRR from large scale applications. In this paper, we generalize ADM by linearizing the quadratic penalty term and allowing the penalty to change adaptively. We also propose a novel rule to update the penalty such that the convergence is fast. With our linearized ADM with adaptive penalty (LADMAP) method, it is unnecessary to introduce auxiliary variables and invert matrices. The matrix-matrix multiplications are further alleviated by using the skinny SVD representation technique. As a result, we arrive at an algorithm for LRR with complexity $O(rn^2)$, where $r$ is the rank of the representation matrix. Numerical experiments verify that for LRR our LADMAP method is much faster than state-of-the-art algorithms. Although we only present the results on LRR, LADMAP actually can be applied to solving more general convex programs."
+    },
+    {
+      "paper_id": "W2100556411",
+      "title": "A Fast Iterative Shrinkage-Thresholding Algorithm for Linear Inverse Problems",
+      "abstract": "Abstract. We consider the class of iterative shrinkage-thresholding algorithms (ISTA) for solving linear inverse problems arising in signal/image processing. This class of methods, which can be viewed as an extension of the classical gradient algorithm, is attractive due to its simplicity and thus is adequate for solving large-scale problems even with dense matrix data. However, such methods are also known to converge quite slowly. In this paper we present a new fast iterative shrinkage-thresholding algorithm (FISTA) which preserves the computational simplicity of ISTA but with a global rate of convergence which is proven to be significantly better, both theoretically and practically. Initial promising numerical results for wavelet-based image deblurring demonstrate the capabilities of FISTA which is shown to be faster than ISTA by several orders of magnitude."
+    },
+    {
+      "paper_id": "W2100659887",
+      "title": "A database for handwritten text recognition research",
+      "abstract": "An image database for handwritten text recognition research is described. Digital images of approximately 5000 city names, 5000 state names, 10000 ZIP Codes, and 50000 alphanumeric characters are included. Each image was scanned from mail in a working post office at 300 pixels/in in 8-bit gray scale on a high-quality flat bed digitizer. The data were unconstrained for the writer, style, and method of preparation. These characteristics help overcome the limitations of earlier databases that contained only isolated characters or were prepared in a laboratory setting under prescribed circumstances. Also, the database is divided into explicit training and testing sets to facilitate the sharing of results among researchers as well as performance comparisons.>"
+    },
+    {
+      "paper_id": "W2101139104",
+      "title": "Algorithms for orthogonal nonnegative matrix factorization",
+      "abstract": "Nonnegative matrix factorization (NMF) is a widely-used method for multivariate analysis of nonnegative data, the goal of which is decompose a data matrix into a basis matrix and an encoding variable matrix with all of these matrices allowed to have only nonnegative elements. In this paper we present simple algorithms for orthogonal NMF, where orthogonality constraints are imposed on basis matrix or encoding matrix. We develop multiplicative updates directly from the true gradient (natural gradient) in Stiefel manifold, whereas existing algorithms consider additive orthogonality constraints. Numerical experiments on face image data for a image representation task show that our orthogonal NMF algorithm preserves the orthogonality, while the goodness-of-fit (GOF) is minimized. We also apply our orthogonal NMF to a clustering task, showing that it works better than the original NMF, which is confirmed by experiments on several UCI repository data sets."
+    },
+    {
+      "paper_id": "W2101491865",
+      "title": "The emerging field of signal processing on graphs: Extending high-dimensional data analysis to networks and other irregular domains",
+      "abstract": "In applications such as social, energy, transportation, sensor, and neuronal networks, high-dimensional data naturally reside on the vertices of weighted graphs. The emerging field of signal processing on graphs merges algebraic and spectral graph theoretic concepts with computational harmonic analysis to process such signals on graphs. In this tutorial overview, we outline the main challenges of the area, discuss different ways to define graph spectral domains, which are the analogs to the classical frequency domain, and highlight the importance of incorporating the irregular structures of graph data domains when processing signals on graphs. We then review methods to generalize fundamental operations such as filtering, translation, modulation, dilation, and downsampling to the graph setting and survey the localized, multiscale transforms that have been proposed to efficiently extract information from high-dimensional data on graphs. We conclude with a brief discussion of open issues and possible extensions."
+    },
+    {
+      "paper_id": "W2101511590",
+      "title": "SIGMA: A SET-COVER-BASED INEXACT GRAPH MATCHING ALGORITHM",
+      "abstract": "Network querying is a growing domain with vast applications ranging from screening compounds against a database of known molecules to matching sub-networks across species. Graph indexing is a powerful method for searching a large database of graphs. Most graph indexing methods to date tackle the exact matching (isomorphism) problem, limiting their applicability to specific instances in which such matches exist. Here we provide a novel graph indexing method to cope with the more general, inexact matching problem. Our method, SIGMA, builds on approximating a variant of the set-cover problem that concerns overlapping multi-sets. We extensively test our method and compare it to a baseline method and to the state-of-the-art Grafil. We show that SIGMA outperforms both, providing higher pruning power in all the tested scenarios."
+    },
+    {
+      "paper_id": "W2101687885",
+      "title": "Target Detection With Semisupervised Kernel Orthogonal Subspace Projection",
+      "abstract": "The orthogonal subspace projection (OSP) algorithm is substantially a kind of matched filter that requires the evaluation of a prototype for each class to be detected. The kernel OSP (KOSP) has recently demonstrated improved results for target detection in hyperspectral images. The use of kernel methods (KMs) makes the method nonlinear, helps to combat the high-dimensionality problem, and improves robustness to noise. This paper presents a semisupervised graph-based approach to improve KOSP. The proposed algorithm deforms the kernel by approximating the marginal distribution using the unlabeled samples. Two further improvements are presented. First, a contextual selection of unlabeled samples is proposed. This strategy helps in better modeling the data manifold, and thus, improved sensitivity-specificity rates are obtained. Second, given the high computational burden involved, we present two alternative formulations based on the Nystroumlm method and the incomplete Cholesky factorization to achieve operational processing times. The good performance of the proposed method is illustrated in a toy data set and two relevant hyperspectral image target-detection applications: crop identification and thermal hot-spot detection. A clear improvement is observed with respect to the linear and the nonlinear kernel-based OSP, demonstrating good generalization capabilities when a low number of labeled samples are available, which is usually the case in target-detection problems. The relevance of unlabeled samples and the computational cost are also analyzed in detail."
+    },
+    {
+      "paper_id": "W2101700394",
+      "title": "Calculation of average PSNR differences between RD-curves",
+      "abstract": null
+    }
+  ]
+}

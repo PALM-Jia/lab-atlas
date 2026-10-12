@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2756314412",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "abstention",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "标题已明确半监督降维为核心设定，词表的弱监督定义包含有限标注，不需另有错误标签或粗粒度监督；原弃权理由将不完整监督排除，需改为标签。",
+      "exact_quote": "Semi-supervised dimensionality reduction",
+      "evidence_field": "title"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "Semi-supervised dimensionality reduction",
+        "evidence_field": "title",
+        "reason_zh": "标题将半监督明确作为降维方法的研究设定，有限标注构成不完整监督，符合弱监督定义。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

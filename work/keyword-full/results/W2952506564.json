@@ -1,0 +1,30 @@
+{
+  "paper_id": "W2952506564",
+  "annotations": [
+    {
+      "keyword_id": "label-distribution-learning",
+      "exact_quote": "The label distribution, which covers a certain number of crowd counting labels, representing the degree to which each label describes the video frame, is previously adopted to model the label ambiguity of the crowd number.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文用标签分布表示每个候选人数标签对视频帧的描述程度，并以其为学习目标，符合标记分布学习。"
+    },
+    {
+      "keyword_id": "label-enhancement",
+      "exact_quote": "since the label ambiguity is significantly affected by the crowd number of the scene, we initialize the label distribution of each frame by the discretized Gaussian distribution with adaptive variance instead of the original single static Gaussian distribution",
+      "evidence_field": "abstract",
+      "reason_zh": "依据场景人数将逻辑人数标注构建为自适应方差的高斯标签分布，符合从逻辑标签构建更细标签分布。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "The mixed l2,1-norm is adopted to restrict the weights of predicting the adjacent crowd numbers to be locally correlated.",
+      "evidence_field": "abstract",
+      "reason_zh": "显式约束相邻人群数量标签的预测权重局部相关，建模了标签间的局部相关结构。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "domain-adaptation",
+      "reason_zh": "摘要仅提到cross-scene experiments，未说明源域/目标域分布差异及适配过程，无法确定域适应设定。"
+    }
+  ],
+  "input_issues": []
+}

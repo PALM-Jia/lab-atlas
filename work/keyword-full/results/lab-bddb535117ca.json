@@ -1,0 +1,25 @@
+{
+  "paper_id": "lab-bddb535117ca",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "Long-tailed Deep Clustering",
+      "evidence_field": "title",
+      "reason_zh": "标题和摘要均以长尾深度聚类为研究任务，利用可学习神经表示进行聚类，符合深度聚类定义。"
+    },
+    {
+      "keyword_id": "contrastive-learning",
+      "exact_quote": "The proposed method makes innovations to mixup representations in contrastive learning to enhance deep clustering in long-tailed scenarios.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确在对比学习中对表示做 mixup，属于通过吸引与区分目标学习表示的方法。"
+    },
+    {
+      "keyword_id": "class-imbalance",
+      "exact_quote": "re-balancing loss for classes with different long-tailed degree",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要针对类别/簇长尾不均衡，使用重平衡损失处理不同长尾程度，显式处理类别不平衡。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

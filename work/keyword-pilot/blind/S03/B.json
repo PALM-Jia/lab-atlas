@@ -1,0 +1,18 @@
+{
+  "sample_id": "S03",
+  "annotations": [
+    {
+      "keyword_id": "partial-label-learning",
+      "exact_quote": "where each training sample has multiple labels and only one of them is the correct label",
+      "evidence_field": "abstract",
+      "reason_zh": "每个样本提供多个候选标签且仅一个为真，符合偏标记学习设定。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "ambiguously labeled multiclass classification",
+      "evidence_field": "abstract",
+      "reason_zh": "论文将标签歧义作为所研究任务的监督条件，属于不精确监督。"
+    }
+  ],
+  "abstentions": []
+}

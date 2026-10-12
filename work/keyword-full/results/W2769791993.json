@@ -1,0 +1,11 @@
+{
+  "paper_id": "W2769791993",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "multi-objective-optimization",
+      "reason_zh": "摘要提到多准则决策及两个准则间的权衡，但未说明以相互制约目标求解帕累托解集，多目标优化定义证据不足。"
+    }
+  ],
+  "input_issues": []
+}

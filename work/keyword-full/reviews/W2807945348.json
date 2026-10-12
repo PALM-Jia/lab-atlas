@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "kind": "false_positive",
+      "reason_zh": "本文分布表达候选标签哪个为真的置信度，用于仅一个真标签的偏标记学习；不能等同于预测各标签对实例的相对描述程度。",
+      "evidence_field": "abstract",
+      "keyword_id": "label-distribution-learning",
+      "exact_quote": "we formalize the different labeling confidence levels as the latent label distributions"
+    },
+    {
+      "kind": "false_negative",
+      "reason_zh": "首轮遗漏用于潜在分布估计及受约束标签传播的局部一致性约束。",
+      "evidence_field": "abstract",
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "we present a biconvex formulation with constrained local consistency"
+    }
+  ],
+  "patch": {
+    "abstentions": [],
+    "input_issues": [],
+    "remove_ids": [
+      "label-distribution-learning"
+    ],
+    "upsert_annotations": [
+      {
+        "reason_zh": "局部一致性约束与后述受约束标签传播共同对潜在分布施加邻域几何一致性，属于图与流形正则化。",
+        "evidence_field": "abstract",
+        "keyword_id": "graph-manifold-regularization",
+        "exact_quote": "we present a biconvex formulation with constrained local consistency"
+      }
+    ]
+  },
+  "paper_id": "W2807945348",
+  "verdict": "revise"
+}

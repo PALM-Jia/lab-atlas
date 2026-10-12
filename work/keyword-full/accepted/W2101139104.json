@@ -1,0 +1,22 @@
+{
+  "paper_id": "W2101139104",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Algorithms for orthogonal nonnegative matrix factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以正交非负矩阵分解为研究对象；摘要进一步说明将非负数据矩阵分解为基矩阵和编码矩阵，满足非负矩阵分解的方法定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "dimensionality-reduction",
+      "reason_zh": "摘要提到矩阵分解与图像表示，但未明确低维映射、嵌入或维度压缩目标，证据不足。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "仅见非负矩阵分解，未明确低秩约束或低秩近似表述，按规则不能由一般矩阵分解推出低秩建模。"
+    }
+  ],
+  "input_issues": []
+}

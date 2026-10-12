@@ -1,0 +1,19 @@
+{
+  "paper_id": "W4410824735",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "nonnegative matrix factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以非负矩阵分解作为核心方法进行数据表示，符合定义。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "Graph regularized",
+      "evidence_field": "title",
+      "reason_zh": "标题表明对非负矩阵分解施加图正则化，用图/流形结构约束学习表示，符合定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

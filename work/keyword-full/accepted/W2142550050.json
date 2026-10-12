@@ -1,0 +1,11 @@
+{
+  "paper_id": "W2142550050",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "multi-objective-optimization",
+      "reason_zh": "标题仅提及多准则决策系统，未说明以多个相互制约目标求解帕累托解集，无法确认满足多目标优化定义。"
+    }
+  ],
+  "input_issues": []
+}

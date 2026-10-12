@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2557568853",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "we consider a semi-supervised clustering setting",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要表明在实验评估中采用半监督聚类设定，利用相对距离约束作为有限监督信息，符合半监督学习定义。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "evidence_field": "abstract",
+      "exact_quote": "We consider the problem of metric learning subject to a set of constraints on relative-distance comparisons between the data items.",
+      "reason_zh": "研究以相对距离比较的侧信息约束进行度量学习，使用间接关系监督代替充分实例级真值，符合弱监督学习。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

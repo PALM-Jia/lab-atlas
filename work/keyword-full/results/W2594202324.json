@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2594202324",
+  "annotations": [
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "Comparing traffic state estimators for mixed human and automated traffic flows",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以混合人类驾驶与自动驾驶交通流下的交通状态估计为研究对象，交通状态与流量属于交通数据对象。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

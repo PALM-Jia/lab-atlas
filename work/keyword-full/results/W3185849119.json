@@ -1,0 +1,18 @@
+{
+  "paper_id": "W3185849119",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Non-negative Matrix Factorization: A Survey",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以非负矩阵分解为综述对象；摘要进一步调查现有NMF方法、变体与应用，满足该方法概念。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "摘要只提非负矩阵分解，未明确低秩约束、分解或近似表示；NMF名称不足以确认低秩建模。"
+    }
+  ],
+  "input_issues": []
+}

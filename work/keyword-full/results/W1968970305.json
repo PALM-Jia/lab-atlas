@@ -1,0 +1,48 @@
+{
+  "paper_id": "W1968970305",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "nonnegative matrix factorization (NMF) is a popular nonnegative dimensionality reduction method",
+      "evidence_field": "abstract",
+      "reason_zh": "论文围绕非负矩阵分解提出CPSNMF，并在NMF目标函数中引入正则项，NMF是核心方法。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "this paper proposed a novel semi-supervised NMF method (CPSNMF) with pairwise constraints",
+      "evidence_field": "abstract",
+      "reason_zh": "以有限成对约束指导全部样本学习，明确属于半监督学习设定。"
+    },
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "exact_quote": "The method propagates both the must-link and cannot-link constraints from the constrained samples to unconstrained samples",
+      "evidence_field": "abstract",
+      "reason_zh": "明确将must-link与cannot-link约束从受约束样本传播到未约束样本，符合成对约束传播定义。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "nonnegative dimensionality reduction method",
+      "evidence_field": "abstract",
+      "reason_zh": "论文核心为NMF这一显式低维表示/降维方法，CPSNMF沿用NMF分解进行维度压缩。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "the weight matrix is incorporated as a regularization term to the NMF objective function. Therefore, the proposed method can fully utilize the constraint information to keep the geometry of the data distribution.",
+      "evidence_field": "abstract",
+      "reason_zh": "将权重矩阵作为NMF目标的正则项，并以保持数据分布几何结构为目的，符合图/流形正则化。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "To effectively utilize the limited supervised information, this paper proposed a novel semi-supervised NMF method (CPSNMF) with pairwise constraints.",
+      "evidence_field": "abstract",
+      "reason_zh": "以有限成对约束作为不完整监督信号并作为核心研究条件，符合弱监督学习定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "摘要只提到调整data weight matrix并用作正则项，未明确该矩阵是否为样本间边/邻接/亲和矩阵，无法确认图结构学习。"
+    }
+  ],
+  "input_issues": []
+}

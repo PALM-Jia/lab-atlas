@@ -1,0 +1,36 @@
+{
+  "paper_id": "W7136978842",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "Data Imputation",
+      "evidence_field": "title",
+      "reason_zh": "标题直接以数据插补为任务，摘要也说明数据缺失挑战并以恢复缺失观测为目标。"
+    },
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "Spatiotemporal Traffic Data",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以时空交通数据为实际处理对象，摘要也提到交通动态的多视图观测。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "a framework integrating intra-view and inter-view modules",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要提出融合视图内与视图间模块的框架，显式联合利用同一对象的多视图观测及其关系。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "third-order tensor schemes to characterize highdimensional low-rank properties within each view",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明视图内模块用三阶张量方案刻画高维低秩性质，显式利用低秩张量结构。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "摘要提到 yields affinity matrices，但未明确这是学习/修正样本间图结构并作为模型组件，还是分析得到的亲和关系，机制角色不足。"
+    }
+  ],
+  "input_issues": []
+}

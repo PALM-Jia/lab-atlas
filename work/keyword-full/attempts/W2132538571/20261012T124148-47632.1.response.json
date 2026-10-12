@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2132538571\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"Nonnegative matrix factorization (NMF) is useful to find basis information of nonnegative data.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以非负矩阵分解为核心对象，研究其乘法更新算法的收敛性，属于非负因子分解方法的研究。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

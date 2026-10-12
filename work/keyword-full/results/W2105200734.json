@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2105200734",
+  "annotations": [
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "local highway traffic variables such as flow, speed and density",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以高速公路交通流量、速度、密度等实际交通数据为对象，重构交通状态，符合交通数据应用对象定义。"
+    },
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "compensation for gaps in data caused by detector failure",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要将补偿检测器故障造成的数据缺失列为应用，方法通过插值估计缺失或未观测的交通变量，符合数据补全与恢复。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "the fusion of floating car data with stationary detector data",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确融合固定检测器与浮动车两类异构观测数据来估计同一交通状态，显式联合利用多源互补观测，符合多视图学习设定。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

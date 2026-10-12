@@ -1,0 +1,49 @@
+{
+  "paper_id": "W4415125129",
+  "annotations": [
+    {
+      "keyword_id": "subspace-clustering",
+      "exact_quote": "a new subspace clustering model based on tensor low-rank representation",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将本文任务定义为基于张量低秩表示的新子空间聚类模型。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "both EVSC and MvEVSC can be formulated as a convex low-rank tensor representation model",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确使用凸低秩张量表示模型，对图矩阵与亲和矩阵施加显式低秩约束。"
+    },
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "exact_quote": "employing pairwise constraint propagation to construct a discriminative graph matrix",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确采用成对约束传播扩展先验知识并构建判别图矩阵。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "guides the learning of the affinity matrix through a tensor low-rank representation",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要表明判别图引导样本间亲和矩阵的学习，符合学习或修正亲和/邻接结构的方法。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "construct a discriminative graph matrix that integrates both prior knowledge and the local geometric structure of the data",
+      "evidence_field": "abstract",
+      "reason_zh": "判别图矩阵整合局部几何结构并用于引导亲和矩阵学习，对学习结果施加图结构一致性约束。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "under the condition of limited prior knowledge",
+      "evidence_field": "abstract",
+      "reason_zh": "在有限先验知识条件下学习，摘要以成对约束传播体现有限监督并指导全部样本的子空间聚类。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "EVSC can directly deal with multiview setting, termed MvEVSC.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明方法可直接处理多视图设定并派生MvEVSC，显式联合多视图进行子空间聚类。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

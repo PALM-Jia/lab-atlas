@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W4386076222\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"our model not only has the large effective receptive field required for downstream tasks such as detection and segmentation, but also has the adaptive spatial aggregation conditioned by input and task information.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将分割列为模型面向的下游任务，并说明模型为该类任务提供大有效感受野，可判定图像分割是本论文涉及的研究任务之一。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

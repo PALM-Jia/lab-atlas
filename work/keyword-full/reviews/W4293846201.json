@@ -1,0 +1,26 @@
+{
+  "paper_id": "W4293846201",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_positive",
+      "keyword_id": "adversarial-robustness",
+      "reason_zh": "对抗攻击仅用于引入安全背景，提出的评估框架以一般输入扰动定义鲁棒性，未说明评估刻意构造的攻击或对抗扰动；背景不足以选择该词。",
+      "exact_quote": "ML model robustness refers to the ability of an ML model to be insensitive to input perturbations and maintain its performance.",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "adversarial-robustness"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "adversarial-robustness",
+        "reason_zh": "摘要未说明框架是否实际评估对抗攻击，只有一般扰动鲁棒性定义和攻击背景，不能确认对抗鲁棒性研究。"
+      }
+    ],
+    "input_issues": []
+  }
+}

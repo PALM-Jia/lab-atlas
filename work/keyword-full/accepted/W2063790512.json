@@ -1,0 +1,18 @@
+{
+  "paper_id": "W2063790512",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "A Signal Processing Perspective on Hyperspectral Unmixing: Insights from Remote Sensing",
+      "evidence_field": "title",
+      "reason_zh": "标题明确为高光谱解混，摘要进一步说明利用高光谱图像的高光谱分辨率识别场景中的材料及其组成；属于对高光谱图像的处理/解混研究，满足应用对象定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "sparse-representation",
+      "reason_zh": "摘要仅泛泛提到近期盲高光谱解混研究采用 sparse SP 等先进技术，未说明本文是否实际采用稀疏表示或具体机制，无法确认其研究角色。"
+    }
+  ],
+  "input_issues": []
+}

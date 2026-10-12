@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2583115687\",\"annotations\":[],\"abstentions\":[{\"keyword_id\":\"sparse-representation\",\"reason_zh\":\"标题仅出现“sparse metrics”，未说明是否以少量字典原子、基向量或潜在特征表达样本，无法确认满足稀疏表示定义。\"}],\"input_issues\":[]}"
+}

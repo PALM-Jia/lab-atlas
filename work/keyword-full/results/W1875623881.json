@@ -1,0 +1,43 @@
+{
+  "paper_id": "W1875623881",
+  "annotations": [
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "exact_quote": "exhaustively propagating pairwise constraints throughout the entire dataset",
+      "evidence_field": "abstract",
+      "reason_zh": "论文核心是将成对约束传播到整个数据集，符合成对约束传播定义。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "a set of independent semi-supervised classification subproblems",
+      "evidence_field": "abstract",
+      "reason_zh": "将约束传播分解为半监督分类子问题，利用有限约束与未标注数据学习。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "are further used to adjust the similarity matrix for constrained spectral clustering",
+      "evidence_field": "abstract",
+      "reason_zh": "传播得到的约束用于修正相似度矩阵/亲和关系，属于图结构学习。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "using label propagation based on \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$k$$\\end{document}-nearest neighbor graphs",
+      "evidence_field": "abstract",
+      "reason_zh": "在k近邻图上进行标签传播，通过邻域图结构对学习结果施加几何一致性约束。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "extended to more challenging constraint propagation on multi-source data where each pairwise constraint is defined over a pair of data points from different sources",
+      "evidence_field": "abstract",
+      "reason_zh": "显式扩展到多源数据并利用不同来源数据点间约束，符合多源/多视图联合学习设定。"
+    },
+    {
+      "keyword_id": "multimodal-retrieval",
+      "exact_quote": "This multi-source constraint propagation has an important application to cross-modal multimedia retrieval.",
+      "evidence_field": "abstract",
+      "reason_zh": "将多源约束传播应用于跨模态多媒体检索，属于跨模态检索任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

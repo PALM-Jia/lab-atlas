@@ -1,0 +1,13 @@
+{
+  "paper_id": "W7213647567",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "we propose an adaptive representation learning framework for electroencephalography-based brain age clustering, called ARLC-Net. Specifically, ARLC-Net integrates cluster number determination with unsupervised representation learning into a reinforcement learning framework",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要提出ARLC-Net，将可学习的无监督表示学习与聚类数量确定结合来完成脑龄聚类，满足深度聚类的可学习表示与聚类任务要求。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

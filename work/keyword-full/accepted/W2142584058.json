@@ -1,0 +1,31 @@
+{
+  "paper_id": "W2142584058",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "The GSNMF algorithm is derived from the original NMF algorithm by exploiting both sparse and graph-preserving properties.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文核心方法以非负矩阵分解(NMF)为基础并求解非负解，属于非负矩阵分解方法。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "A sparse representation of the facial images is obtained by minimizing the l(1)-norm of the basis images.",
+      "evidence_field": "abstract",
+      "reason_zh": "通过最小化基图像l1范数获得面部图像稀疏表示，符合稀疏表示定义。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "according to the graph embedding theory, the neighborhood of the samples is preserved by retaining the graph structure in the mapped space.",
+      "evidence_field": "abstract",
+      "reason_zh": "利用图嵌入与图结构保持样本邻域关系，对映射空间施加几何一致性约束。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "GSNMF can be conducted as an unsupervised or a supervised dimension reduction method.",
+      "evidence_field": "abstract",
+      "reason_zh": "明确将GSNMF作为无监督或有监督降维方法，目标是将高维面部表情图像映射到低维子空间。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,11 @@
+{
+  "paper_id": "W2615874979",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "reason_zh": "摘要仅描述无监督逐层训练与监督微调，未说明使用有限标注与未标注样本的半监督数据设定，监督信息是否有限及两者如何结合不明确。"
+    }
+  ],
+  "input_issues": []
+}

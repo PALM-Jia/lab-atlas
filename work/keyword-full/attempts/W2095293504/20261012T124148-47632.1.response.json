@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2095293504\",\"annotations\":[{\"keyword_id\":\"graph-structure-learning\",\"exact_quote\":\"they involve iterative removal of edges from the network to split it into communities\",\"evidence_field\":\"abstract\",\"reason_zh\":\"算法迭代移除网络中的边，显式修正样本间的边/邻接结构以划分社区，满足图结构学习定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

@@ -1,0 +1,32 @@
+{
+  "paper_id": "lab-7647c3b38f71",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "merges them into target clusters via a learnable assignment",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要提出用可学习分配将细粒度子簇合并为目标簇，并通过网络学习表示，满足深度聚类利用可学习神经表示和/或聚类头获得数据划分的定义。"
+    },
+    {
+      "keyword_id": "class-imbalance",
+      "exact_quote": "primarily due to the pervasive challenge of class imbalance",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确指出类别不平衡是核心挑战，并后续采用类别平衡权重处理，符合类别不平衡学习定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-neural-networks",
+      "reason_zh": "摘要仅在背景和问题分析中提及GCN及其消息传递会放大偏差，未明确说明SAGENet使用图卷积或可学习消息传递来获取表示，角色无法确定。"
+    },
+    {
+      "keyword_id": "contrastive-learning",
+      "reason_zh": "摘要提到自适应push-away loss显式分离多数与少数类表示，仅有区分性目标线索，缺少视图/样本间吸引-区分的完整对比学习证据，无法确定。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "reason_zh": "属性图涉及节点属性和拓扑信息，但摘要未显式说明多视图设定或视图间关系联合利用，无法确定多视图学习。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,34 @@
+{
+  "paper_id": "W4226219101",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "Deep graph clustering, which aims to reveal the underlying graph structure and divide the nodes into different groups",
+      "evidence_field": "abstract",
+      "reason_zh": "明确给出深度图聚类任务：用可学习网络揭示图结构并将节点分组；本文提出DCRN解决该任务。"
+    },
+    {
+      "keyword_id": "graph-neural-networks",
+      "exact_quote": "over-smoothing in GCN",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要以GCN过平滑为需要缓解的问题并改进其传播，说明方法使用图卷积/图消息传递的图神经网络组件。"
+    },
+    {
+      "keyword_id": "contrastive-learning",
+      "exact_quote": "by forcing the cross-view sample correlation matrix and cross-view feature correlation matrix to approximate two identity matrices",
+      "evidence_field": "abstract",
+      "reason_zh": "使用孪生网络与跨视图相关矩阵，并通过逼近单位阵来约束跨视图一致性和不同样本/特征的区分，符合视图间吸引与区分目标的表示学习。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "multi-view-learning",
+      "reason_zh": "摘要仅出现cross-view相关矩阵，未说明同一对象具有多个互补特征视图或观测变量，也可能只是孪生网络的增强视图，按定义不足以判定。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "摘要仅提到propagation regularization term用于获取长距离信息，未说明是否基于邻域、图拉普拉斯或超图施加几何一致性约束，机制不明确。"
+    }
+  ],
+  "input_issues": []
+}

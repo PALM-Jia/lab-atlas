@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2963089385\",\"annotations\":[{\"keyword_id\":\"graph-structure-learning\",\"exact_quote\":\"simultaneously learn cluster indicator matrix and similarity information in kernel spaces\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确模型同时学习聚类指示矩阵与相似度信息，即学习/修正样本间亲和关系，属于图结构学习定义的核心机制。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

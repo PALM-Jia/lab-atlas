@@ -1,0 +1,26 @@
+{
+  "paper_id": "W3157960931",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "abstention",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "论文明确以强度标注不足为问题，通过插值和高斯构造分布替代真实强度监督，并用该分布训练模型；弱监督是实质监督条件，首轮弃权理由与原文不符。",
+      "exact_quote": "the intensity label distribution is generated for each frame in the expression sequence using a linear interpolation estimation and a Gaussian function to address the lack of reasonable annotations for expression intensity",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "the intensity label distribution is generated for each frame in the expression sequence using a linear interpolation estimation and a Gaussian function to address the lack of reasonable annotations for expression intensity",
+        "evidence_field": "abstract",
+        "reason_zh": "为解决真实表情强度标注不足，构造强度分布并作为模型监督信号，属于以不完整监督替代充分真值的弱监督学习。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

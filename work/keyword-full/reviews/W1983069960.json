@@ -1,0 +1,35 @@
+{
+  "paper_id": "W1983069960",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "有限标注或成对约束构成不完整监督，并作为本文实质研究设定；词表中弱监督与半监督没有父子关系，应补充弱监督标签。",
+      "exact_quote": "Label propagation based semi-supervised",
+      "evidence_field": "title"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "Label propagation based semi-supervised",
+        "evidence_field": "title",
+        "reason_zh": "有限标注或成对约束构成不完整监督，并作为本文实质研究设定；词表中弱监督与半监督没有父子关系，应补充弱监督标签。"
+      }
+    ],
+    "abstentions": [
+      {
+        "keyword_id": "dimensionality-reduction",
+        "reason_zh": "标题仅提feature extraction，未明确低维映射或维度压缩目标，无法确定是否满足降维定义。"
+      },
+      {
+        "keyword_id": "graph-manifold-regularization",
+        "reason_zh": "标题仅提label propagation，未说明使用邻域/图拉普拉斯等对学习结果施加几何一致性正则，机制不确定。"
+      }
+    ],
+    "input_issues": []
+  }
+}

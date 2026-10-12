@@ -1,0 +1,27 @@
+全量关键词标注执行方案
+
+用户已授权执行全量1673篇单次DeepSeek V4.1 Flash标注，并保留全量gpt-6.1-sol语义审阅。此文本冻结执行协议；当前准备快照未开始调用API。
+
+范围与输入
+实验室144篇、外部1529篇；1464篇有摘要、209篇只用标题。固定49词的定义、别名、维度、声明parent_id以及每篇输入原文保持不变。试标10篇也按同样协议处理，不导入试标答案。相近标题仅为候选，不跨ID合并或借用文本。允许annotations为空，允许abstentions与input_issues，原文不足时不补造。
+
+请求、批次与并行
+全部1673篇统一用deepseek-flash（DeepSeek V4.1 Flash）。每次API请求只有一个paper_id/title/abstract对象，独立system/user消息，无历史消息、其他论文、既有标注或审阅信息。system为annotation-instructions.txt，user由worker-task-template.txt内联完整49词词表、输出schema和唯一论文原文；API模型不读取或写入本地文件。
+启用thinking、reasoning_effort=high、max_tokens=32768。API默认100并发，可因限流或故障降速；官方当前并发上限2500，100目标不超过该上限。后台API请求不占原生审阅worker槽位。密钥仅从运行时DEEPSEEK_API_KEY环境读取并在内存使用，不落文件或日志。
+168个输入批（实验室15、外部153）每批最多10篇、24000字符，仅用于控制索引、状态和后续审阅；不能把整批10篇放入一次API请求。控制端按论文请求并按论文保存results/<paper_id>.json。
+全量审阅使用gpt-6.1-sol新上下文，fork_turns=none；原生审阅worker同时最多3，每次派发最多40篇且避免上下文过长。派发只包含指定论文原文与相应首轮结果、词表、schema和审阅协议，不暴露首轮模型身份或队列来源。逐篇审阅一次，仅输出差异，完成当前派发即结束；不继承先前审阅上下文，不独立重标。
+
+执行顺序
+1. prepare.py冻结并核对来源、词表、schema、所有输入、公共文本协议、manifest及preflight；可执行工具不冻结。仅在results与reviews均空且从未开始时允许用户授权的--refresh-protocol；不得改词表或原文。
+2. validate.py离线检查冻结与格式；run-deepseek.py按论文启动API标注，控制端负责幂等、机械校验、保存和断点。有效已有结果直接跳过，不重标；无效结果不覆盖，由主控归档后仅技术重试该ID。
+3. 机械通过的首轮论文进入6.1sol语义审阅队列。审阅复核错标、关键漏标、证据、弃权与输入问题；pass无patch，revise给一次最小patch，难判用needs_review。保留results与reviews，不覆盖首轮答案。
+4. 控制端更新run-state逐批/逐篇进度；API100与审阅3为不同并发限制。最终validate.py --require-complete检查首轮机械完整性，--require-reviewed核对全量审阅及合法修订；patch只在内存应用并重新验证，后续生成accepted仍保留原始结果。
+5. 交付结果与统计；不改production UI、既有研究方向标签或语义向量。
+
+验收与恢复
+机械检查ID唯一、四字段schema、49词合法ID、标签重复、声明父子冲突、选词与弃权重叠、引文连续逐字与字段归属。机械通过不等同语义正确；6.1sol审阅也不等同人工金标准。
+有效空集计为有效结果，不为覆盖率补标签。input_issues、abstentions交语义审阅；不可可靠修复的needs_review不自动接受。仅执行、格式或引文错误可技术性重试，失败ID最多2次；不重跑其他有效论文，不做第二轮独立全量标注或Astra审计。
+余额不足、配额/接口故障或中断时停止新增请求并保存断点；已返回的有效结果仍安全保存。恢复只处理未完成项，密钥仍仅内存使用，不在输出中泄露。
+
+完成汇报
+以1673为总分母互斥统计有效非空、有效空、待核验输入、无效、未完成，各项合计1673；另列每关键词覆盖、弃权、仅标题/有摘要、失败与技术重试。逐ID统计审阅pending/pass/revised/needs_review/invalid，needs_review不算验收通过。费用与运行量按实际记录汇报，不伪造准确率或节省比例。

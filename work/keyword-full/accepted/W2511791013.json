@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2511791013",
+  "annotations": [
+    {
+      "keyword_id": "person-reidentification",
+      "exact_quote": "identity match performance in the multi-camera setting",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要将多摄像头场景下的身份匹配作为核心评价目标，涉及跨摄像头同一身份的正确识别与关联。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "8 cameras observing more than 2,700 identities over 85 min",
+      "evidence_field": "abstract",
+      "reason_zh": "数据集由8个摄像头对同一批身份进行多视图观测，并以多摄像头联合跟踪为设定。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

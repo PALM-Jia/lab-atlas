@@ -1,0 +1,26 @@
+{
+  "paper_id": "lab-9bd585a26235",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "本文以有限初始must-link/cannot-link监督关系为传播依据，有限监督替代充分实例级真值且是核心研究条件，明确符合弱监督定义。",
+      "exact_quote": "this article proposes a novel PCP model via dual adversarial manifold regularization to fully explore the potential of the limited initial PCs.",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "this article proposes a novel PCP model via dual adversarial manifold regularization to fully explore the potential of the limited initial PCs.",
+        "evidence_field": "abstract",
+        "reason_zh": "本文以有限初始must-link/cannot-link监督关系为传播依据，有限监督替代充分实例级真值且是核心研究条件，明确符合弱监督定义。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

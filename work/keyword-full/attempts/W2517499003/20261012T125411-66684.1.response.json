@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2517499003\",\"annotations\":[{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"Traffic flow parameters such as speed, density, and volume extracted from UAV-based traffic videos\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以无人机航拍视频中的交通流参数（速度、密度、流量）为研究对象，属于交通数据这一实际数据对象。\"}],\"abstentions\":[{\"keyword_id\":\"graph-structure-learning\",\"reason_zh\":\"摘要提到用连通图和四个约束确定兴趣点连通性，但未说明该图结构是通过学习或修正得到，还是基于规则的构造，无法确定满足图结构学习定义。\"}],\"input_issues\":[]}"
+}

@@ -1,0 +1,40 @@
+{
+  "paper_id": "W7163222908",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "Clustering is performed via a self-training objective on the refined embeddings.",
+      "evidence_field": "abstract",
+      "reason_zh": "在GAT学习得到的精炼嵌入上执行聚类，并使用自训练目标，属于可学习的神经表示加聚类目标。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "The model first projects high-dimensional data onto a fixed SOM grid, generating prototypes enriched with local density and variance statistics.",
+      "evidence_field": "abstract",
+      "reason_zh": "显式将高维数据投影到固定SOM低维网格并生成原型，体现低维映射与维度压缩。"
+    },
+    {
+      "keyword_id": "graph-neural-networks",
+      "exact_quote": "A sparse graph constructed from the lattice topology enables subsequent GAT layers to refine these prototypes through learnable attention weights.",
+      "evidence_field": "abstract",
+      "reason_zh": "使用GAT图注意力层在稀疏图上进行可学习消息传递以精炼表示，符合图神经网络定义。"
+    },
+    {
+      "keyword_id": "pseudo-label-self-training",
+      "exact_quote": "Clustering is performed via a self-training objective on the refined embeddings.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确采用self-training目标进行聚类，即以模型当前输出或聚类预测作为后续训练信号。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "摘要说明图由SOM格子拓扑构造、GAT学习注意力权重，但未明确学习或修正样本间边、邻接矩阵；固定图上的注意力不充分。"
+    },
+    {
+      "keyword_id": "noisy-label-learning",
+      "reason_zh": "仅提到在20% label noise下保持聚类性能，未表明训练监督中存在错误标签并将其作为研究条件；更像鲁棒性评估而非噪声标签学习。"
+    }
+  ],
+  "input_issues": []
+}

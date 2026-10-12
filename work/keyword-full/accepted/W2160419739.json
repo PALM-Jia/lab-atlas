@@ -1,0 +1,31 @@
+{
+  "paper_id": "W2160419739",
+  "annotations": [
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "exact_quote": "This paper presents an exhaustive and efficient constraint propagation approach to exploiting pairwise constraints for spectral clustering.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出对成对约束进行穷尽且高效的传播，用于谱聚类，直接扩展并传播must-link/cannot-link关系，符合成对约束传播定义。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "using semi-supervised learning based on k -nearest neighbors graphs",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确用基于k近邻图的半监督学习求解标签传播子问题，并以有限成对约束指导全数据集的谱聚类，符合半监督学习设定。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "The resulting exhaustive set of propagated pairwise constraints are then used to adjust the weight (or similarity) matrix for spectral clustering.",
+      "evidence_field": "abstract",
+      "reason_zh": "传播后的成对约束被用于调整样本权重/相似度矩阵，即修正样本间亲和关系，符合图结构学习定义。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "This paper presents an exhaustive and efficient constraint propagation approach to exploiting pairwise constraints for spectral clustering.",
+      "evidence_field": "abstract",
+      "reason_zh": "以成对关系约束替代完整实例级类别标签来指导聚类，监督不完整且不精确，属于弱监督条件。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,43 @@
+{
+  "verdict": "revise",
+  "patch": {
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "Conventional semi-supervised clustering approaches have several shortcomings, such as (1) not fully utilizing all useful must-link and cannot-link constraints",
+        "evidence_field": "abstract",
+        "reason_zh": "以有限must-link/cannot-link约束指导聚类的监督条件是实质研究问题，符合不完整监督的弱监督定义；无需另外自称弱监督。"
+      }
+    ],
+    "input_issues": [],
+    "abstentions": [
+      {
+        "keyword_id": "subspace-clustering",
+        "reason_zh": "摘要中的random subspace用于生成聚类集成成员，并非按样本所属潜在子空间分组，不满足子空间聚类定义。"
+      },
+      {
+        "keyword_id": "multi-view-learning",
+        "reason_zh": "随机子空间是特征子集采样技术，未表明同一对象有多个互补特征视图并显式联合利用视图关系。"
+      },
+      {
+        "keyword_id": "noisy-label-learning",
+        "reason_zh": "摘要中的noisy genes指输入特征噪声，未涉及错误类别或候选集遗漏真标签等标签噪声设定。"
+      },
+      {
+        "keyword_id": "confidence-calibration",
+        "reason_zh": "摘要提及confidence factors用于集成框架，但未使预测置信度与正确概率相符，不满足校准定义。"
+      }
+    ],
+    "remove_ids": []
+  },
+  "issues": [
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "Conventional semi-supervised clustering approaches have several shortcomings, such as (1) not fully utilizing all useful must-link and cannot-link constraints",
+      "evidence_field": "abstract",
+      "kind": "false_negative",
+      "reason_zh": "以有限must-link/cannot-link约束指导聚类的监督条件是实质研究问题，符合不完整监督的弱监督定义；无需另外自称弱监督。"
+    }
+  ],
+  "paper_id": "W2605427894"
+}

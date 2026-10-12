@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W4388003221\",\"annotations\":[{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"leverage data imputation techniques to fill in the gaps in the target and station device matrices\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确用数据插补填补目标与站点设备矩阵中的缺失值，输出为恢复缺失观测，符合数据补全与恢复。\"},{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"robust Non-negative Matrix Factorization (NMF) algorithms are utilized to enhance the robustness of the clustering process\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要说明使用NMF算法进行非负因子分解并服务聚类，符合非负矩阵分解方法。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

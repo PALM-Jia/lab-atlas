@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2089391273",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "symmetric non-negative matrix factorization",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以对称非负矩阵分解作为将句子聚类并抽取摘要的方法，符合非负矩阵分解（含对称非负矩阵分解）定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

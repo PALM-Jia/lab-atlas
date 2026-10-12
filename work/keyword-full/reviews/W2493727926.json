@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2493727926",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "方法以同时使用有标注与无标注数据的半监督损失为核心，缺失实例标签的不完整监督是实质研究条件，也符合独立的弱监督词定义。",
+      "exact_quote": "We propose a semi-supervised loss to jointly minimize the empirical error on labeled data, as well as the embedding error on both labeled and unlabeled data",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "We propose a semi-supervised loss to jointly minimize the empirical error on labeled data, as well as the embedding error on both labeled and unlabeled data",
+        "evidence_field": "abstract",
+        "reason_zh": "方法以同时使用有标注与无标注数据的半监督损失为核心，缺失实例标签的不完整监督是实质研究条件，也符合独立的弱监督词定义。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "issues": [
+    {
+      "reason_zh": "研究对象明确是互联网网络流量，词表traffic-data限于道路交通速度、流量、轨迹或交通状态；网络OD流量不属于该对象。",
+      "evidence_field": "title",
+      "keyword_id": "traffic-data",
+      "exact_quote": "Robust Spatio-temporal Tensor Recovery for Internet Traffic Data",
+      "kind": "false_positive"
+    }
+  ],
+  "paper_id": "W2587547160",
+  "patch": {
+    "remove_ids": [
+      "traffic-data"
+    ],
+    "upsert_annotations": [],
+    "input_issues": [],
+    "abstentions": [
+      {
+        "keyword_id": "low-rank-modeling",
+        "reason_zh": "摘要仅称张量恢复和利用结构，未明确低秩约束、分解或近似表示，无法确认满足低秩建模定义。"
+      }
+    ]
+  },
+  "verdict": "revise"
+}

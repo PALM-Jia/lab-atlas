@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2123217057",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "Multi-label Classification Using Ensembles of Pruned Sets",
+      "evidence_field": "title",
+      "reason_zh": "标题明确指出研究任务是多标记分类，摘要也说明该pruned sets方法用于multi-label classification，满足定义。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "This allows the classification process to inherently take into account correlations between labels.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明把标签集合视为单一标签从而显式考虑标签间相关性，并进一步剪枝聚焦最重要相关性，属于显式建模标签相关结构。"
+    },
+    {
+      "keyword_id": "classifier-ensemble",
+      "exact_quote": "By combining pruned sets in an ensemble scheme (EPS), new label sets can be formed to adapt to irregular or complex data.",
+      "evidence_field": "abstract",
+      "reason_zh": "EPS以集成方案组合多个pruned sets分类器来完成多标记分类，符合结合多个分类器预测的分类器集成定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

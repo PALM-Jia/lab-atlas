@@ -1,0 +1,30 @@
+{
+  "paper_id": "W2891772265",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_positive",
+      "keyword_id": "semi-supervised-learning",
+      "reason_zh": "标题仅说明使用成对约束进行度量学习，未说明约束有限或与未标注样本结合；不能把一般成对监督直接认定为半监督学习。",
+      "exact_quote": "Kernel Distance Metric Learning Using Pairwise Constraints for Person Re-Identification",
+      "evidence_field": "title"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "semi-supervised-learning"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "contrastive-learning",
+        "reason_zh": "摘要仅提成对约束和距离度量学习，未说明采用对比学习式的吸引/区分表示目标或对比损失，无法确认满足对比学习定义。"
+      },
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "reason_zh": "成对约束可视为弱监督线索，但摘要未说明其替代实例级真值并作为实质监督条件，无法确定满足弱监督学习定义。"
+      }
+    ],
+    "input_issues": []
+  }
+}

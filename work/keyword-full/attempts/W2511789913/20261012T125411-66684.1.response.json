@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2511789913\",\"annotations\":[{\"keyword_id\":\"multi-objective-optimization\",\"exact_quote\":\"evolutionary multiobjective optimization (EMO)\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文研究进化多目标优化中的分解与选择问题，处理收敛性与多样性平衡，属于多个相互制约目标下的帕累托优化。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

@@ -1,0 +1,13 @@
+{
+  "paper_id": "W4387968048",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "Superpixel Segmentation Network",
+      "evidence_field": "title",
+      "reason_zh": "论文标题明确提出超像素分割网络，摘要也围绕生成超像素展开；超像素分割属于图像分割定义中涵盖的像素/区域划分任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W4376607907\",\"annotations\":[{\"keyword_id\":\"dimensionality-reduction\",\"exact_quote\":\"Robust Feature Extraction\",\"evidence_field\":\"title\",\"reason_zh\":\"论文以特征提取为核心研究任务，通过张量分解从多维度数据中学习特征表示，属于降维/特征提取任务。\"},{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"nonnegative Tucker decomposition\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文采用非负Tucker张量分解作为核心方法，显式对张量进行分解/低秩表示以提取特征。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

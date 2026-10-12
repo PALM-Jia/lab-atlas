@@ -1,0 +1,26 @@
+{
+  "paper_id": "W4379015973",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "input_problem",
+      "keyword_id": null,
+      "exact_quote": "\\documentclass[12pt]{minimal}",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要算法缩写处混入重复LaTeX文档与宏包源码，首轮未记录抽取格式污染；其余可读描述足以支持现有标签。"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "sparse-representation",
+        "reason_zh": "摘要只提到 self-expression layer 和 entropy-norm constraint，未明确以少量字典原子、基向量或潜在特征稀疏表达样本，无法确认满足稀疏表示定义。"
+      }
+    ],
+    "input_issues": [
+      "摘要算法缩写处混入重复LaTeX文档与宏包源码；其余任务方法描述可读，标签仅依据可靠文本。"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "paper_id": "W2337392139",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_positive",
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "原文提出几何感知核学习，但未说明利用邻域、图拉普拉斯或超图等对学习结果施加几何一致性约束；利用流形信息构造核不能直接等同于流形正则化。",
+      "exact_quote": "we propose a framework for more general geometry-aware kernel learning",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "graph-manifold-regularization"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "dimensionality-reduction",
+        "reason_zh": "仅在评估任务中提及，未提出显式低维映射或以其为研究目标。"
+      },
+      {
+        "keyword_id": "multi-view-learning",
+        "reason_zh": "仅笼统称整合多种信息源，未说明同一对象的多个视图及视图间联合关系。"
+      },
+      {
+        "keyword_id": "graph-structure-learning",
+        "reason_zh": "虽学习核矩阵，但未明确其为样本图、邻接或亲和结构的显式学习或修正。"
+      },
+      {
+        "keyword_id": "graph-manifold-regularization",
+        "reason_zh": "摘要说明利用流形几何信息学习核，但未给出约束学习结果的正则项或几何一致性机制，无法确认图与流形正则化。"
+      }
+    ],
+    "input_issues": []
+  }
+}

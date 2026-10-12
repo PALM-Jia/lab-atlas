@@ -1,0 +1,15 @@
+{
+  "paper_id": "W1929873255",
+  "annotations": [
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "In such a learning framework, the training examples are bags composed of instances, and the task is to predict the labels of unseen bags through analyzing the training bags with known labels. A bag is positive if it contains at least one positive instance, while it is negative if it contains no positive instance. However, the labels of the instances constituting the training bags are unknown.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以包级标签已知、构成训练包的实例标签未知为学习条件，属于用不完整或粗粒度监督替代实例级真值的弱监督设定，并将其作为核心任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": [
+    "摘要末尾混入“title page”及重复且截断的题名/摘要片段，属于文本提取噪声；主体摘要仍可理解。"
+  ]
+}

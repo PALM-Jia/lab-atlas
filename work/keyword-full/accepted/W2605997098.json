@@ -1,0 +1,31 @@
+{
+  "paper_id": "W2605997098",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "Multi-Label Learning with Global and Local Label Correlation",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以多标记学习为研究任务，摘要也围绕多标签相关性与缺失标签展开。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "exploiting global and local label correlations simultaneously",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确提出同时利用全局与局部标签相关性，属于显式建模标签间相关结构。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "optimizing label manifolds",
+      "evidence_field": "abstract",
+      "reason_zh": "方法通过优化标签流形对标签表示施加流形几何一致性约束，符合流形正则化。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "only partial labels are observed, which makes the exploitation of the label correlations much more difficult.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文将只有部分标签可观测、标签缺失作为实质研究条件，属于不完整监督的弱监督学习。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

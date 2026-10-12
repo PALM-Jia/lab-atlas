@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2027922120\",\"annotations\":[{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"LLC utilizes the locality constraints to project each descriptor into its local-coordinate system, and the projected coordinates are integrated by max pooling to generate the final representation.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"LLC将描述子投影到局部坐标系统并池化为最终表示，属于用局部基向量/字典编码样本的表示方法，且与稀疏编码策略比较，符合稀疏表示以基向量表达样本的核心机制。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W3084845654\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"Symmetric Nonnegative Matrix Factorization\",\"evidence_field\":\"title\",\"reason_zh\":\"标题即提出对称非负矩阵分解（Symmetric NMF），摘要进一步说明其基于半二次优化求解对称矩阵分解，属于非负矩阵分解方法研究。\"}],\"abstentions\":[{\"keyword_id\":\"data-imputation-recovery\",\"reason_zh\":\"摘要只称方法对连续遮挡污染鲁棒，未说明输出是恢复原始数值或估计缺失观测，无法确认其为数据补全与恢复任务。\"}],\"input_issues\":[]}"
+}

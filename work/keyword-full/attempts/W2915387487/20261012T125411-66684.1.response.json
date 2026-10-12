@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2915387487\",\"annotations\":[{\"keyword_id\":\"domain-adaptation\",\"exact_quote\":\"the training set and test set usually come from different domains\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确训练集与测试集来自不同域，方法旨在跨域迁移并消除负迁移，符合域适应设定。\"}],\"abstentions\":[{\"keyword_id\":\"graph-manifold-regularization\",\"reason_zh\":\"摘要只提到利用源样本局部几何结构构建信息多样性项，未说明邻域/图拉普拉斯/超图或几何一致性约束的具体机制，无法确认满足定义。\"},{\"keyword_id\":\"dimensionality-reduction\",\"reason_zh\":\"摘要只提到引入正交投影矩阵扩展MMD，未说明低维映射或维度压缩目标，无法确认降维任务。\"}],\"input_issues\":[]}"
+}

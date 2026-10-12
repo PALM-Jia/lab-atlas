@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2001963273\",\"annotations\":[{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"Imputing Erroneous Data of Single-Station Loop Detectors for Nonincident Conditions\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确对单站环形检测器的错误数据进行插补，摘要进一步说明需检测、诊断并校正错误以估计站流量，属于从污染观测恢复原始数值的数据补全与恢复任务。\"},{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"Effective use of loop detector data for traffic management requires that errors be efficiently detected, diagnosed, and corrected.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要直接以环形检测器数据和站流量估计为研究对象，属于实际道路交通流量数据的处理与校正。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

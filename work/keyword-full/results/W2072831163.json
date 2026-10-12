@@ -1,0 +1,22 @@
+{
+  "paper_id": "W2072831163",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "we first select genes using Nonnegative Matrix Factorization (NMF). In order to improve the performance of classification, Symmetry NMF (SymNMF) is used in this approach.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确使用NMF进行基因选择，并用对称非负矩阵分解SymNMF提取特征，符合非负矩阵分解方法定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "dimensionality-reduction",
+      "reason_zh": "仅见基因选择和SymNMF特征提取，未明确以低维映射/嵌入或维度压缩为目标，证据不足以判定。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "虽使用NMF分解，但摘要未显式说明低秩约束或低秩近似目标，不能仅由NMF推断低秩建模。"
+    }
+  ],
+  "input_issues": []
+}

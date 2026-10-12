@@ -1,0 +1,44 @@
+{
+  "paper_id": "lab-2110e10b1fd2",
+  "annotations": [
+    {
+      "keyword_id": "pseudo-label-self-training",
+      "exact_quote": "Progressive Pseudo-label Self-balancing",
+      "evidence_field": "title",
+      "reason_zh": "标题表明方法采用渐进式伪标签自平衡，伪标签作为训练信号并迭代更新，属于伪标签与自训练。"
+    },
+    {
+      "keyword_id": "class-imbalance",
+      "exact_quote": "they tend to generate long-tailed pseudo-labels that are inconsistent with the true label distribution",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确指出VLM产生长尾伪标签且与真实标签分布不一致，并据此进行头部/中部/尾部划分与平衡，属于类别不平衡/长尾学习。"
+    },
+    {
+      "keyword_id": "vision-language-models",
+      "exact_quote": "Enhancing Vision-Language Models (VLMs) on downstream tasks with unlabeled data has attracted increasing attention.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以Vision-Language Models (VLMs)为研究/适配对象，研究其在下游任务上的无监督适配。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "we design a neighborhood consistency filtering mechanism and a visual classifier to improve the pseudo-label accuracy.",
+      "evidence_field": "abstract",
+      "reason_zh": "该机制利用邻域一致性对伪标签进行过滤，属于用邻域结构对学习结果施加几何一致性约束。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "large-vision-language-models",
+      "reason_zh": "摘要仅称 Vision-Language Models (VLMs)，缺少LVLM或大型多模态语言模型的明确证据，无法判定为视觉语言大模型。"
+    },
+    {
+      "keyword_id": "noisy-label-learning",
+      "reason_zh": "摘要提到不可靠置信度和错误伪尾标签，但定义说明伪标签错误不自动计入噪声标签学习，未明确以标注噪声为独立研究设定。"
+    },
+    {
+      "keyword_id": "domain-adaptation",
+      "reason_zh": "标题含Adaptation，但摘要未说明源域与目标域分布差异及跨域适配过程，无法判定为域适应。"
+    }
+  ],
+  "input_issues": []
+}

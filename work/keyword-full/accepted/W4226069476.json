@@ -1,0 +1,13 @@
+{
+  "paper_id": "W4226069476",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "Masked-attention Mask Transformer for Universal Image Segmentation",
+      "evidence_field": "title",
+      "reason_zh": "标题明确论文面向通用图像分割；摘要进一步说明其处理全景、实例和语义分割任务，符合图像分割定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

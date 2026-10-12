@@ -1,0 +1,26 @@
+{
+  "paper_id": "W136278976",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "evidence_field": "abstract",
+      "exact_quote": "we develop a semi-supervised spin-glass model that enables current community detection methods to incorporate background knowledge in the forms of individual labels and pairwise constraints.",
+      "reason_zh": "有限个体标签与成对约束指导社区发现是核心监督条件，属于不完整监督的弱监督设定。"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "evidence_field": "abstract",
+        "exact_quote": "we develop a semi-supervised spin-glass model that enables current community detection methods to incorporate background knowledge in the forms of individual labels and pairwise constraints.",
+        "reason_zh": "有限个体标签与成对约束指导社区发现是核心监督条件，属于不完整监督的弱监督设定。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

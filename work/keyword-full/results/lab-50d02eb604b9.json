@@ -1,0 +1,37 @@
+{
+  "paper_id": "lab-50d02eb604b9",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "Semi-supervised symmetric non-negative matrix factorization (SNMF) utilizes the available supervisory information (usually in the form of pairwise constraints) to improve the clustering ability of SNMF.",
+      "evidence_field": "abstract",
+      "reason_zh": "标题与摘要明确研究半监督 SNMF，利用成对约束这类有限监督信息指导聚类学习。"
+    },
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Semi-supervised symmetric non-negative matrix factorization (SNMF)",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以对称非负矩阵分解为模型基础，并在其框架下提出改进方法。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "by seeking low-rank representation for the tensor synthesized by the pairwise constraint matrix and a similarity matrix",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要显式寻求成对约束矩阵与相似矩阵所合成张量的低秩表示，满足低秩建模定义。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "We finally refine the similarity matrix by the strengthened pairwise constraints.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文显式修正样本间相似度（亲和）矩阵，属于学习或修正亲和图结构。"
+    },
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "exact_quote": "We finally refine the similarity matrix by the strengthened pairwise constraints. We repeat the above steps to continuously boost the similarity matrix and pairwise constraint matrix",
+      "evidence_field": "abstract",
+      "reason_zh": "成对约束被强化并迭代用于更新相似矩阵与约束矩阵，体现成对约束的传播/扩展，而非仅直接使用已知约束。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,31 @@
+{
+  "paper_id": "W3583549",
+  "annotations": [
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "exact_quote": "symmetric graph regularization framework for pairwise constraint propagation",
+      "evidence_field": "abstract",
+      "reason_zh": "论文核心任务，提出对称图正则化框架进行成对约束传播，并扩展must-link和cannot-link约束。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "quadratic optimization with symmetric graph regularization",
+      "evidence_field": "abstract",
+      "reason_zh": "使用对称图正则化作为二次优化的一部分，对子问题学习结果施加图几何一致性约束。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "The propagated constraints are further used to adjust the similarity between data points",
+      "evidence_field": "abstract",
+      "reason_zh": "传播后的约束被用于修正数据点间的相似度/亲和矩阵，属于图结构学习。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "our method can directly be applied to multi-class problem and also can effectively exploit both must-link and cannot-link constraints",
+      "evidence_field": "abstract",
+      "reason_zh": "利用must-link和cannot-link成对约束这一有限监督信息指导多类问题，符合半监督学习中以有限成对约束指导全部样本学习的设定。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,25 @@
+{
+  "paper_id": "lab-9dab3341b9f1",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "Superpixel segmentation aims at dividing the input image into some representative regions containing pixels with similar and consistent intrinsic properties",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要首句明确研究超像素分割，即将图像划分为代表性区域，属于图像分割任务。"
+    },
+    {
+      "keyword_id": "subspace-clustering",
+      "exact_quote": "we regard each representative region with independent semantic information as a subspace, and correspondingly formulate superpixel segmentation as a subspace clustering problem to preserve more detailed content boundaries.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确把每个代表性区域视为子空间，并将超像素分割形式化为子空间聚类问题，属于该任务。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "we devise a spatial regularization and propose a novel convex locality-constrained subspace clustering model that is able to constrain the spatial adjacent pixels with similar attributes to be clustered into a superpixel",
+      "evidence_field": "abstract",
+      "reason_zh": "提出空间正则化，利用空间相邻像素属性相似性施加局部几何一致性约束，符合图与流形正则化定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

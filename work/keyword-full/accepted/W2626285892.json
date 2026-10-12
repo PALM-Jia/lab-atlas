@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2626285892",
+  "annotations": [
+    {
+      "keyword_id": "classifier-ensemble",
+      "exact_quote": "ensemble with majority voting approach named the ensemble extreme learning machine for multi-instance learning (E-ELM-MIL)",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出基于多数投票集成的E-ELM-MIL，结合多个ELM分类器的预测完成分类，符合分类器集成定义。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "Multi-instance learning (MIL) is a classification approach for classifying on a collection of instances which each group is represented as a bag.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以MIL为任务，按包组织实例并预测测试包标签，属于包级粗粒度监督的弱监督设定。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

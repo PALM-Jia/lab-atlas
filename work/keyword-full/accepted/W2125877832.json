@@ -1,0 +1,11 @@
+{
+  "paper_id": "W2125877832",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "classifier-ensemble",
+      "reason_zh": "摘要仅建议用复杂度空间指导分类器的静态/动态选择，未说明结合多个分类器预测或按样本分配专家以完成分类，且选择作为应用建议而非已实现方法。"
+    }
+  ],
+  "input_issues": []
+}

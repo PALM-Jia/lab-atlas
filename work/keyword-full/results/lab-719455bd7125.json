@@ -1,0 +1,19 @@
+{
+  "paper_id": "lab-719455bd7125",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "nonnegative matrix factorization (NMF) based classification method",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以非负矩阵分解(NMF)为基础构建分类方法，NMF是所提方案的核心方法。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "complementary characteristics between positive and negative labels",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要指出正负标签之间存在互补特性，并据此设计正则框架利用两类标签，属于显式利用标签间依赖/互补关系。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W4320497874\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"multi-label classification\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确将多标记分类作为研究任务，即为实例学习预测可同时成立的多个标记。\"}],\"abstentions\":[{\"keyword_id\":\"classifier-ensemble\",\"reason_zh\":\"标题中的 Stacked chaining 可能涉及多个分类器的堆叠组合，但未明确说明是否结合多个分类器预测或按样本分配专家，证据不足。\"},{\"keyword_id\":\"label-correlation-modeling\",\"reason_zh\":\"标题中的 chaining 可能涉及标记间依赖或顺序建模，但标题未明确说明显式建模标签相关性，证据不足。\"}],\"input_issues\":[]}"
+}

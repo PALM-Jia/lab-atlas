@@ -1,0 +1,31 @@
+{
+  "paper_id": "W2090668741",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "abstention",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "稀缺成对约束作为关系级有限监督是方法的实质问题，符合弱监督定义；无需另行使用弱监督名称，原弃权对监督条件的要求过严。",
+      "exact_quote": "The major challenge in designing an effective constrained spectral clustering is a sensible combination of the scarce pairwise constraints with the original affinity matrix.",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "The major challenge in designing an effective constrained spectral clustering is a sensible combination of the scarce pairwise constraints with the original affinity matrix.",
+        "evidence_field": "abstract",
+        "reason_zh": "稀缺成对约束作为关系级有限监督是方法的实质问题，符合弱监督定义；无需另行使用弱监督名称，原弃权对监督条件的要求过严。"
+      }
+    ],
+    "abstentions": [
+      {
+        "keyword_id": "bayesian-inference",
+        "reason_zh": "摘要仅提到 Gaussian process interpretation，未说明先验与后验估计或近似推断的具体机制，无法确认满足贝叶斯推断定义。"
+      }
+    ],
+    "input_issues": []
+  }
+}

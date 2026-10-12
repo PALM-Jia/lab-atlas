@@ -1,0 +1,39 @@
+{
+  "paper_id": "W4410947840",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "image-segmentation",
+      "exact_quote": "the envelope cube of each superpixel block obtained via superpixel segmentation is regarded as the fundamental unit for computing the low rank approximation",
+      "evidence_field": "abstract",
+      "reason_zh": "方法实质采用超像素分割来划分低秩近似的基本计算单元，属于图像分割方法；不要求分割本身为新贡献。"
+    },
+    {
+      "kind": "false_negative",
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "Finally, an iterative update algorithm is proposed to solve the low rank and noise terms using the Alternating Direction Method of Multipliers (ADMM).",
+      "evidence_field": "abstract",
+      "reason_zh": "方法将观测图像分解为低秩与噪声项，并恢复去噪后的低秩图像分量用于分类，属于从污染观测恢复数据，不只是分类器鲁棒性改进。"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "image-segmentation",
+        "exact_quote": "the envelope cube of each superpixel block obtained via superpixel segmentation is regarded as the fundamental unit for computing the low rank approximation",
+        "evidence_field": "abstract",
+        "reason_zh": "方法实质采用超像素分割来划分低秩近似的基本计算单元，属于图像分割方法；不要求分割本身为新贡献。"
+      },
+      {
+        "keyword_id": "data-imputation-recovery",
+        "exact_quote": "Finally, an iterative update algorithm is proposed to solve the low rank and noise terms using the Alternating Direction Method of Multipliers (ADMM).",
+        "evidence_field": "abstract",
+        "reason_zh": "方法将观测图像分解为低秩与噪声项，并恢复去噪后的低秩图像分量用于分类，属于从污染观测恢复数据，不只是分类器鲁棒性改进。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

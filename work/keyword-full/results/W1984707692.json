@@ -1,0 +1,31 @@
+{
+  "paper_id": "W1984707692",
+  "annotations": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "optimizing the kernel matrix with respect to the pairwise constraints",
+      "evidence_field": "abstract",
+      "reason_zh": "论文学习非参数核矩阵，核矩阵可视为样本间亲和/相似矩阵，并以成对约束进行优化，属于学习样本间亲和矩阵。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "introducing the graph Laplacian of the observed data as a regularizer",
+      "evidence_field": "abstract",
+      "reason_zh": "明确将观测数据的图拉普拉斯作为正则项，对核矩阵优化施加几何一致性约束。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "clustering with pairwise constraints",
+      "evidence_field": "abstract",
+      "reason_zh": "使用成对约束指导聚类，属于以有限成对约束指导全部样本学习的半监督设定。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "Learning nonparametric kernel matrices from pairwise constraints",
+      "evidence_field": "title",
+      "reason_zh": "以成对约束作为不完整监督信号来学习核矩阵，替代完整的实例级标签，并将该监督条件作为核心研究问题。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

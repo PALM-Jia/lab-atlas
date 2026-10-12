@@ -1,0 +1,31 @@
+{
+  "paper_id": "W2018849884",
+  "annotations": [
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "Semi-Supervised Nonlinear Dimensionality Reduction",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以非线性降维为研究任务，面向流形可视化，满足显式低维映射与维度压缩目标。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "This paper considers the semi-supervised manifold learning problems.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将问题设定为半监督流形学习，并使用成对 Cannot-Link/Must-Link 约束指导学习，符合有限监督与未标注/成对约束的半监督学习定义。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "We apply the pairwise Cannot-Link and Must-Link constraints induced by the neighborhood graph to specify the types of neighboring pairs.",
+      "evidence_field": "abstract",
+      "reason_zh": "所提半监督LAE/LLE以邻域图及成对约束调节流形嵌入、保留局部多模态结构并分离异类邻居，属于对学习结果施加图与流形几何一致性约束，首轮漏标。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "This paper considers the semi-supervised manifold learning problems. We apply the pairwise Cannot-Link and Must-Link constraints induced by the neighborhood graph to specify the types of neighboring pairs.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文将半监督流形学习及Must-Link/Cannot-Link关系监督作为实质研究条件，以成对关系替代充分的实例类别真值，符合不完整或不精确监督的弱监督设定；词表未将该词与半监督学习设为父子，应分别保留。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

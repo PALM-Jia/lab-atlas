@@ -1,0 +1,19 @@
+{
+  "paper_id": "W6929385289",
+  "annotations": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "recovering a low-rank matrix with an unknown fraction of its entries being arbitrarily corrupted",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以核范数与污染恢复求解低秩矩阵，属于显式利用低秩约束/分解的建模。"
+    },
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "Exact Recovery of Corrupted Low-Rank Matrices",
+      "evidence_field": "title",
+      "reason_zh": "标题表明从受污染观测中精确恢复低秩矩阵，输出为待恢复数据，符合数据恢复任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

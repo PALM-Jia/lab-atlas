@@ -1,0 +1,3 @@
+{
+  "content": "{\n  \"paper_id\": \"W2134089414\",\n  \"annotations\": [\n    {\n      \"keyword_id\": \"semi-supervised-learning\",\n      \"exact_quote\": \"In experiments with arti cial constraints on six data sets, we observe improvements in clustering accuracy.\",\n      \"evidence_field\": \"abstract\",\n      \"reason_zh\": \"使用人工约束作为背景知识指导k-means对数据集聚类，属于以有限监督/成对约束结合未标注样本的半监督学习设定。\"\n    },\n    {\n      \"keyword_id\": \"traffic-data\",\n      \"exact_quote\": \"the real-world problem of automatically detecting road lanes from GPS data\",\n      \"evidence_field\": \"abstract\",\n      \"reason_zh\": \"论文将该聚类方法应用于从GPS数据自动检测车道，GPS轨迹/道路时空数据属于实际交通数据对象。\"\n    }\n  ],\n  \"abstentions\": [],\n  \"input_issues\": []\n}"
+}

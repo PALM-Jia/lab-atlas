@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2545554564\",\"annotations\":[{\"keyword_id\":\"hyperspectral-images\",\"exact_quote\":\"spectral target detection algorithms for hyperspectral imaging applications\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文明确以高光谱成像应用中的光谱目标检测算法为研究对象，摘要直接涉及高光谱成像数据，符合高光谱图像这一应用对象定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

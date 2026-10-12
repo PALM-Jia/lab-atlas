@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2767828695\",\"annotations\":[{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"the employment of a standard Kalman filter\",\"evidence_field\":\"abstract\",\"reason_zh\":\"方案采用标准卡尔曼滤波，在概率状态空间模型下进行后验状态估计，属于贝叶斯推断。\"},{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"real microscopic traffic data collected within the Next Generation SIMulation (NGSIM) program\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以高速公路交通密度、匝道流量等实际交通状态为研究对象，并使用真实微观交通数据验证估计方案。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

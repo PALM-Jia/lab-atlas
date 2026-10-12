@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2136948085",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "binary sparse nonnegative matrix factorization (B-SNMF)",
+      "evidence_field": "abstract",
+      "reason_zh": "论文明确以二元稀疏非负矩阵分解B-SNMF作为核心方法，标题也直接给出非负矩阵分解。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "Binary Sparse Nonnegative Matrix Factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题表明方法采用稀疏非负矩阵分解，摘要称其为部件化子空间选择算法，符合用稀疏基/部件表达样本的稀疏表示思路。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

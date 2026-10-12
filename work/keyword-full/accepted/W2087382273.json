@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2087382273",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "UTOPIAN: User-Driven Topic Modeling Based on Interactive Nonnegative Matrix Factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题明确将交互式非负矩阵分解作为UTOPIAN主题建模系统的核心方法，满足以非负因子分解矩阵的定义。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "Centered around its semi-supervised formulation, UTOPIAN enables users to interact with the topic modeling method and steer the result in a user-driven manner.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明系统以半监督形式为核心，利用用户交互/反馈指导主题建模，属于结合有限监督与未标注文档的半监督学习设定。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "Centered around its semi-supervised formulation, UTOPIAN enables users to interact with the topic modeling method and steer the result in a user-driven manner.",
+      "evidence_field": "abstract",
+      "reason_zh": "用户反馈作为有限监督指导文档主题建模，是实质的不完整监督设定；词表弱监督定义覆盖有限标注，不需论文另称弱监督。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

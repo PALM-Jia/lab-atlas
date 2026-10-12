@@ -1,0 +1,39 @@
+{
+  "issues": [
+    {
+      "reason_zh": "方法对超像素图推断前景区域，并用该区域划分引导跟踪，图像分割是实际采用的处理环节，不能仅因最终任务为跟踪而遗漏。",
+      "evidence_field": "abstract",
+      "keyword_id": "image-segmentation",
+      "exact_quote": "The foreground regions inferred by the proposed graph labeling method are used to guide the tracking process.",
+      "kind": "false_negative"
+    }
+  ],
+  "paper_id": "W2592712968",
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "image-segmentation",
+        "exact_quote": "The foreground regions inferred by the proposed graph labeling method are used to guide the tracking process.",
+        "evidence_field": "abstract",
+        "reason_zh": "方法对超像素图推断前景区域，并用该区域划分引导跟踪，图像分割是实际采用的处理环节，不能仅因最终任务为跟踪而遗漏。"
+      }
+    ],
+    "abstentions": [
+      {
+        "keyword_id": "graph-structure-learning",
+        "reason_zh": "摘要说明边编码空间、时间与外观约束，但未说明边、邻接或亲和矩阵被学习或修正，证据不足以判定图结构学习。"
+      },
+      {
+        "keyword_id": "pairwise-constraint-propagation",
+        "reason_zh": "仅说明图标签算法融入约束，未说明扩展或传播must-link/cannot-link监督关系，定义证据不足。"
+      },
+      {
+        "keyword_id": "noisy-label-learning",
+        "reason_zh": "虽提到过滤潜在受污染训练样本，但未说明训练监督中存在错误标签并作为研究条件，证据不足。"
+      }
+    ],
+    "input_issues": []
+  },
+  "verdict": "revise"
+}

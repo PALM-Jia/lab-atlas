@@ -1,0 +1,54 @@
+{
+  "papers": [
+    {
+      "paper_id": "W2066454034",
+      "title": "Facial Age Estimation by Learning from Label Distributions",
+      "abstract": "One of the main difficulties in facial age estimation is that the learning algorithms cannot expect sufficient and complete training data. Fortunately, the faces at close ages look quite similar since aging is a slow and smooth process. Inspired by this observation, instead of considering each face image as an instance with one label (age), this paper regards each face image as an instance associated with a label distribution. The label distribution covers a certain number of class labels, representing the degree that each label describes the instance. Through this way, one face image can contribute to not only the learning of its chronological age, but also the learning of its adjacent ages. Two algorithms, named IIS-LLD and CPNN, are proposed to learn from such label distributions. Experimental results on two aging face databases show remarkable advantages of the proposed label distribution learning algorithms over the compared single-label learning algorithms, either specially designed for age estimation or for general purpose."
+    },
+    {
+      "paper_id": "W2067191022",
+      "title": "Mean shift: a robust approach toward feature space analysis",
+      "abstract": "A general non-parametric technique is proposed for the analysis of a complex multimodal feature space and to delineate arbitrarily shaped clusters in it. The basic computational module of the technique is an old pattern recognition procedure: the mean shift. For discrete data, we prove the convergence of a recursive mean shift procedure to the nearest stationary point of the underlying density function and, thus, its utility in detecting the modes of the density. The relation of the mean shift procedure to the Nadaraya-Watson estimator from kernel regression and the robust M-estimators; of location is also established. Algorithms for two low-level vision tasks discontinuity-preserving smoothing and image segmentation - are described as applications. In these algorithms, the only user-set parameter is the resolution of the analysis, and either gray-level or color images are accepted as input. Extensive experimental results illustrate their excellent performance."
+    },
+    {
+      "paper_id": "W2067317289",
+      "title": "Class-Driven Non-Negative Matrix Factorization for Image Representation",
+      "abstract": "Non-negative matrix factorization (NMF) is a useful technique to learn a parts-based representation by decomposing the original data matrix into a basis set and coefficients with non-negative constraints. However, as an unsupervised method, the original NMF cannot utilize the discriminative class information. In this paper, we propose a semi-supervised class-driven NMF method to associate a class label with each basis vector by introducing an inhomogeneous representation cost constraint. This constraint forces the learned basis vectors to represent better for their own classes but worse for the others. Therefore, data samples in the same class will have similar representations, and consequently the discriminability in new representations could be boosted. Some experiments carried out on several standard databases validate the effectiveness of our method in comparison with the state-of-the-art approaches."
+    },
+    {
+      "paper_id": "W206759535",
+      "title": "Text Mining using Non-Negative Matrix Factorizations",
+      "abstract": "This study involves a methodology for the automatic identification of semantic features and document clusters in a heterogeneous text collection. The methodology is based upon encoding the data using low rank non-negative matrix factorization algorithms to preserve natural data non-negativity and thus avoid subtractive basis vector and encoding interactions present in techniques such as principal component analysis. Some existing non-negative matrix factorization techniques are reviewed and some new ones are proposed. Numerical experiments are reported on the use of a hybrid NMF algorithm to produce a parts-based approximation of a sparse term-by-document matrix. The resulting basis vectors and matrix projection can be used to identify underlying semantic features (topics) and document clusters of the corresponding text collection."
+    },
+    {
+      "paper_id": "W2067931421",
+      "title": "SymNMF: nonnegative low-rank approximation of a similarity matrix for graph clustering",
+      "abstract": "Nonnegative matrix factorization (NMF) provides a lower rank approximation of a matrix by a product of two nonnegative factors. NMF has been shown to produce clustering results that are often superior to those by other methods such as K-means. In this paper, we provide further interpretation of NMF as a clustering method and study an extended formulation for graph clustering called Symmetric NMF (SymNMF). In contrast to NMF that takes a data matrix as an input, SymNMF takes a nonnegative similarity matrix as an input, and a symmetric nonnegative lower rank approximation is computed. We show that SymNMF is related to spectral clustering, justify SymNMF as a general graph clustering method, and discuss the strengths and shortcomings of SymNMF and spectral clustering. We propose two optimization algorithms for SymNMF and discuss their convergence properties and computational efficiencies. Our experiments on document clustering, image clustering, and image segmentation support SymNMF as a graph clustering method that captures latent linear and nonlinear relationships in the data."
+    },
+    {
+      "paper_id": "W2068096985",
+      "title": "Measuring robustness of community structure in complex networks",
+      "abstract": "The theory of community structure is a powerful tool for real networks, which can simplify their topological and functional analysis considerably. However, since community detection methods have random factors and real social networks derived from complex systems always contain error edges, evaluating the robustness of community structure is an urgent and important task. In this letter, we employ the critical threshold of resolution parameter in Hamiltonian function, , to measure the robustness of a network. According to spectral theory, a rigorous proof shows that the index we proposed is inversely proportional to robustness of community structure. Furthermore, by utilizing the co-evolution model, we provides a new efficient method for computing the value of . The research can be applied to broad clustering problems in network analysis and data mining due to its solid mathematical basis and experimental effects."
+    },
+    {
+      "paper_id": "W2068403421",
+      "title": "No-Reference Quality Assessment of Contrast-Distorted Images Based on Natural Scene Statistics",
+      "abstract": "Contrast distortion is often a determining factor in human perception of image quality, but little investigation has been dedicated to quality assessment of contrast-distorted images without assuming the availability of a perfect-quality reference image. In this letter, we propose a simple but effective method for no-reference quality assessment of contrast distorted images based on the principle of natural scene statistics (NSS). A large scale image database is employed to build NSS models based on moment and entropy features. The quality of a contrast-distorted image is then evaluated based on its unnaturalness characterized by the degree of deviation from the NSS models. Support vector regression (SVR) is employed to predict human mean opinion score (MOS) from multiple NSS features as the input. Experiments based on three publicly available databases demonstrate the promising performance of the proposed method."
+    },
+    {
+      "paper_id": "W2069323107",
+      "title": "Combinatorial optimization:Algorithms and complexity",
+      "abstract": null
+    },
+    {
+      "paper_id": "W2069629462",
+      "title": "Comparison and validation of community structures in complex networks",
+      "abstract": "The issue of partitioning a network into communities has attracted a great deal of attention recently. Most authors seem to equate this issue with the one of finding the maximum value of the modularity, as defined by Newman. Since the problem formulated this way is believed to be NP-hard, most effort has gone into the construction of search algorithms, and less to the question of other measures of community structures, similarities between various partitionings and the validation with respect to external information."
+    },
+    {
+      "paper_id": "W2070960409",
+      "title": "Segment Based Decision Tree Induction With Continuous Valued Attributes",
+      "abstract": "A key issue in decision tree (DT) induction with continuous valued attributes is to design an effective strategy for splitting nodes. The traditional approach to solving this problem is adopting the candidate cut point (CCP) with the highest discriminative ability, which is evaluated by some frequency based heuristic measures. However, such methods ignore the class permutation of examples in the node, and they cannot distinguish the CCPs with the same or similar frequency information, thus may fail to induce a better and smaller tree. In this paper, a new concept, i.e., segment of examples, is proposed to differentiate the CCPs with same frequency information. Then, a new hybrid scheme that combines the two heuristic measures, i.e., frequency and segment, is developed for splitting DT nodes. The relationship between frequency and the expected number of segments, which is regarded as a random variable, is also given. Experimental comparisons demonstrate that the proposed scheme is not only effective to improve the generalization capability, but also valid to reduce the size of the tree."
+    }
+  ]
+}

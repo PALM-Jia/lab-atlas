@@ -1,0 +1,22 @@
+{
+  "paper_id": "W1974387747",
+  "annotations": [
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "single/multiple modalities of cues, i.e., face, dressing and/or voice",
+      "evidence_field": "abstract",
+      "reason_zh": "论文将同一女性吸引力对象表示为 face、dressing、voice 多种模态/视图，并显式研究单/多模态联合估计，符合多视图学习设定。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "multi-label-learning",
+      "reason_zh": "摘要提到 semantic attributes 和 attribute estimation models，但未说明单个实例需同时预测多个可成立标记，定义证据不足。"
+    },
+    {
+      "keyword_id": "label-distribution-learning",
+      "reason_zh": "摘要仅说 attractiveness levels converted from manual k-wise ratings，未说明预测各标签相对描述程度或标签分布，无法确定。"
+    }
+  ],
+  "input_issues": []
+}

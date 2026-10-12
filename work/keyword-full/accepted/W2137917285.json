@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2137917285",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "Multi-instance multi-label learning (MIML) is a framework for supervised classification where the objects to be classified are bags of instances associated with multiple labels.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以多实例多标记学习(MIML)为框架，对象关联多个标记，并研究实例标记预测，属多标记分类/识别任务。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "We instead consider the problem of predicting instance labels while learning from data labeled only at the bag level.",
+      "evidence_field": "abstract",
+      "reason_zh": "仅使用包级标记监督，缺少实例级真值，并将其作为核心问题来学习实例预测，符合粗粒度/不完整弱监督定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

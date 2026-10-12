@@ -1,0 +1,21 @@
+{
+  "paper_id": "W4400491911",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "Ensembling semi-supervised p-spectral clustering",
+      "evidence_field": "title",
+      "reason_zh": "标题以Ensembling...clustering提出对半监督p谱聚类进行集成，融合多个聚类结果以获得共识划分。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "semi-supervised p-spectral clustering",
+      "evidence_field": "title",
+      "reason_zh": "标题明确为半监督p谱聚类，结合有限监督信息与未标注样本进行学习。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": [
+    "abstract字段为波斯语字符且内容疑似标题/作者名的回译乱码，与英文标题明显不一致，无法作为可靠的摘要证据。"
+  ]
+}

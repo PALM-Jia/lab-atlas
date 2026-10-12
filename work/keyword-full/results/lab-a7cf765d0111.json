@@ -1,0 +1,13 @@
+{
+  "paper_id": "lab-a7cf765d0111",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "This paper examines the generalization performance of ensemble clustering, focusing on generalization error, excess risk and consistency.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文研究集成聚类的泛化性能，并基于基聚类结果加权与偏差-多样性分析开发新的集成聚类算法，属于融合多个已有聚类结果求共识划分的任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

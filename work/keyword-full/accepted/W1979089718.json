@@ -1,0 +1,19 @@
+{
+  "paper_id": "W1979089718",
+  "annotations": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "Our new model learns the data similarity matrix by assigning the adaptive and optimal neighbors for each data point based on the local distances.",
+      "evidence_field": "abstract",
+      "reason_zh": "模型显式学习数据相似度/亲和矩阵，并为每个样本分配自适应邻居，属于学习样本间边或亲和结构。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "the new rank constraint is imposed to the Laplacian matrix of the data similarity matrix, such that the connected components in the resulted similarity matrix are exactly equal to the cluster number.",
+      "evidence_field": "abstract",
+      "reason_zh": "通过拉普拉斯矩阵约束使相似度矩阵的连通分量数等于簇数，用图拉普拉斯结构对学习结果施加一致性约束。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

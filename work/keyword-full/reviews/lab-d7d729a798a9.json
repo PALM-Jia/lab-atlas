@@ -1,0 +1,35 @@
+{
+  "paper_id": "lab-d7d729a798a9",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "evidence_field": "abstract",
+      "exact_quote": "Speciﬁcally, focusing solely on the ranking relationships between labels while disregarding their margins helps prevent model overﬁtting.",
+      "reason_zh": "论文以半监督标记分布学习及伪标签利用为核心，有限标注与未标注样本构成不完整监督设定。"
+    },
+    {
+      "kind": "input_problem",
+      "keyword_id": null,
+      "evidence_field": "abstract",
+      "exact_quote": "Theoretically, we prove that incorporating ranking",
+      "reason_zh": "摘要以未完成的理论句结尾，文本明显截断；可用部分足以审阅现有标签，但不能把缺失的理论结论视为已给出。"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "evidence_field": "abstract",
+        "exact_quote": "Speciﬁcally, focusing solely on the ranking relationships between labels while disregarding their margins helps prevent model overﬁtting.",
+        "reason_zh": "论文以半监督标记分布学习及伪标签利用为核心，有限标注与未标注样本构成不完整监督设定。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": [
+      "摘要末尾句子未完成（Theoretically, we prove that incorporating ranking），疑似截断。"
+    ]
+  }
+}

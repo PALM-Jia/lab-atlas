@@ -1,0 +1,31 @@
+{
+  "paper_id": "W2063069198",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral unmixing is one of the most important techniques in analyzing hyperspectral images",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以高光谱图像解混为任务，明确处理高光谱图像数据。"
+    },
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "manifold regularization is incorporated into sparsity-constrained NMF for unmixing in this paper",
+      "evidence_field": "abstract",
+      "reason_zh": "论文将流形正则加入稀疏约束的非负矩阵分解（NMF）框架，NMF是核心分解方法。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "sparse nonnegative matrix factorization (NMF) algorithms have achieved advanced performance for hyperspectral unmixing because they overcome the difficulty of absence of pure pixels and sufficiently utilize the sparse characteristic of the data",
+      "evidence_field": "abstract",
+      "reason_zh": "论文基于稀疏NMF，以稀疏约束的表示利用高光谱数据的稀疏特性进行解混。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "Manifold Regularized Sparse NMF for Hyperspectral Unmixing",
+      "evidence_field": "title",
+      "reason_zh": "标题直接表明对稀疏NMF引入流形正则化，利用数据内在流形结构施加几何一致性约束。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

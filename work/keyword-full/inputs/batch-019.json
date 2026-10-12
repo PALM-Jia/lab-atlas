@@ -1,0 +1,54 @@
+{
+  "papers": [
+    {
+      "paper_id": "W1504886279",
+      "title": "Symmetric Nonnegative Matrix Factorization for Graph Clustering",
+      "abstract": "Nonnegative matrix factorization (NMF) provides a lower rank approximation of a nonnegative matrix, and has been successfully used as a clustering method. In this paper, we offer some conceptual understanding for the capabilities and shortcomings of NMF as a clustering method. Then, we propose Symmetric NMF (SymNMF) as a general framework for graph clustering, which inherits the advantages of NMF by enforcing nonnegativity on the clustering assignment matrix. Unlike NMF, however, SymNMF is based on a similarity measure between data points, and factorizes a symmetric matrix containing pairwise similarity values (not necessarily nonnegative). We compare SymNMF with the widely-used spectral clustering methods, and give an intuitive explanation of why SymNMF captures the cluster structure embedded in the graph representation more naturally. In addition, we develop a Newton-like algorithm that exploits second-order information efficiently, so as to show the feasibility of SymNMF as a practical framework for graph clustering. Our experiments on artificial graph data, text data, and image data demonstrate the substantially enhanced clustering quality of SymNMF over spectral clustering and NMF. Therefore, SymNMF is able to achieve better clustering results on both linear and nonlinear manifolds, and serves as a potential basis for many extensions and applications."
+    },
+    {
+      "paper_id": "W1506806321",
+      "title": "Pattern Recognition and Machine Learning (Information Science and Statistics)",
+      "abstract": null
+    },
+    {
+      "paper_id": "W1509714275",
+      "title": "Medical Image Retrieval with Relevance Feedback via Pairwise Constraint Propagation",
+      "abstract": "Relevance feedback is an effective tool to bridge the gap between superficial image contents and medically-relevant sense in content-based medical image retrieval.In this paper, we propose an interactive medical image search framework based on pairwise constraint propagation.The basic idea is to obtain pairwise constraints from user feedback and propagate them to the entire image set to reconstruct the similarity matrix, and then rank medical images on this new manifold.In contrast to most of the algorithms that only concern manifold structure, the proposed method integrates pairwise constraint information in a feedback procedure and resolves the small sample size and the asymmetrical training typically in relevance feedback.We also introduce a long-term feedback strategy for our retrieval tasks.Experiments on two medical image datasets indicate the proposed approach can significantly improve the performance of medical image retrieval.The experiments also indicate that the proposed approach outperforms previous relevance feedback models."
+    },
+    {
+      "paper_id": "W1510147702",
+      "title": "Characterising Virtual Eigensignatures for General Purpose Face Recognition",
+      "abstract": "We describe an eigenspace manifold for the representation and recognition of pose-varying faces. The distribution of faces in this manifold allows us to determine theoretical recognition characteristics which are then verified experimentally. Using this manifold a framework is proposed which can be used for both familiar and unfamiliar face recognition. A simple implementation demonstrates the pose dependent nature of the system over the transition from unfamiliar to familiar face recognition. Furthermore we show that multiple test images, whether real or virtual, can be used to augment the recognition process. The results compare favourably with reported human face recognition experiments. Finally, we describe how this framework can be used as a mechanism for characterising faces from video for general purpose recognition."
+    },
+    {
+      "paper_id": "W1510835000",
+      "title": "Learning to predict where humans look",
+      "abstract": "For many applications in graphics, design, and human computer interaction, it is essential to understand where humans look in a scene. Where eye tracking devices are not a viable option, models of saliency can be used to predict fixation locations. Most saliency approaches are based on bottom-up computation that does not consider top-down image semantics and often does not match actual eye movements. To address this problem, we collected eye tracking data of 15 viewers on 1003 images and use this database as training and testing examples to learn a model of saliency based on low, middle and high-level image features. This large database of eye tracking data is publicly available with this paper."
+    },
+    {
+      "paper_id": "W1513927654",
+      "title": "A Robust and Efficient Method for Fusing Heterogeneous Data from Traffic Sensors on Freeways",
+      "abstract": "Abstract: Fusing freeway traffic data such as spot speeds and travel times from a variety of traffic sensors (loops, cameras, automated vehicle identification systems) into a coherent, consistent, and reliable picture of the prevailing traffic conditions (e.g., speeds, flows) is a critical task in any off- or online traffic management or data archival system. This task is challenging as such data differ in terms of spatial and temporal resolution, accuracy, reliability, and most importantly in terms of spatiotemporal semantics. In this article, we propose a data fusion algorithm (the extended generalized Treiber-Helbing filter [the EGTF]) which, although heuristic in nature, uses basic notions from traffic flow theory and is generic in the sense that it does not impose any restrictions on the way the data are structured in a temporal or spatial way. This implies that the data can stem from any data source, given they provide a means to distinguish between free flowing and congested traffic. On the basis of (ground truth and sensor) data from a micro-simulation tool, we demonstrate that the EGTF method results in accurate reconstructed traffic conditions and is robust to increasing degrees of data corruption. Further research should focus on validating the approach on real data. The method can be straightforwardly implemented in any traffic data archiving system or application which requires consistent and coherent traffic data from traffic sensors as inputs."
+    },
+    {
+      "paper_id": "W1514928307",
+      "title": "Classification with Noisy Labels by Importance Reweighting",
+      "abstract": "In this paper, we study a classification problem in which sample labels are randomly corrupted. In this scenario, there is an unobservable sample with noise-free labels. However, before being observed, the true labels are independently flipped with a probability ρ ∈ [0,0.5), and the random label noise can be class-conditional. Here, we address two fundamental problems raised by this scenario. The first is how to best use the abundant surrogate loss functions designed for the traditional classification problem when there is label noise. We prove that any surrogate loss function can be used for classification with noisy labels by using importance reweighting, with consistency assurance that the label noise does not ultimately hinder the search for the optimal classifier of the noise-free sample. The other is the open problem of how to obtain the noise rate ρ. We show that the rate is upper bounded by the conditional probability P(∧Y|X) of the noisy sample. Consequently, the rate can be estimated, because the upper bound can be easily reached in classification problems. Experimental results on synthetic and real datasets confirm the efficiency of our methods."
+    },
+    {
+      "paper_id": "W1515340688",
+      "title": "Group sensitive Classifier Chains for multi-label classification",
+      "abstract": "In multi-label classification, labels often have correlations with each other. Exploiting label correlations can improve the performances of classifiers. Current multi-label classification methods mainly consider the global label correlations. However, the label correlations may be different over different data groups. In this paper, we propose a simple and efficient framework for multi-label classification, called Group sensitive Classifier Chains. We assume that similar examples not only share the same label correlations, but also tend to have similar labels. We augment the original feature space with label space and cluster them into groups, then learn the label dependency graph in each group respectively and build the classifier chains on each group specific label dependency graph. The group specific classifier chains which are built on the nearest group of the test example are used for prediction. Comparison results with the state-of-the-art approaches manifest competitive performances of our method."
+    },
+    {
+      "paper_id": "W151604921",
+      "title": "Matrix Analysis and Applications",
+      "abstract": "This balanced and comprehensive study presents the theory, methods and applications of matrix analysis in a new theoretical framework, allowing readers to understand second-order and higher-order matrix analysis in a completely new light. Alongside the core subjects in matrix analysis, such as singular value analysis, the solution of matrix equations and eigenanalysis, the author introduces new applications and perspectives that are unique to this book. The very topical subjects of gradient analysis and optimization play a central role here. Also included are subspace analysis, projection analysis and tensor analysis, subjects which are often neglected in other books. Having provided a solid foundation to the subject, the author goes on to place particular emphasis on the many applications matrix analysis has in science and engineering, making this book suitable for scientists, engineers and graduate students alike."
+    },
+    {
+      "paper_id": "W1516407653",
+      "title": "Constrained Clustering",
+      "abstract": "This volume encompasses many new types of constraints and clustering methods as well as delivers thorough coverage of the capabilities and limitations of constrained clustering. With contributions from industrial researchers and leading academic experts who pioneered the field, it provides a well-balanced combination of theoretical advances, key algorithmic development, and novel applications. The book presents various types of constraints for clustering and describes useful variations of the standard problem of clustering under constraints. It also demonstrates the application of clustering with constraints to relational, bibliographic, and video data."
+    }
+  ]
+}

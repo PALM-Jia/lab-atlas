@@ -1,0 +1,31 @@
+{
+  "paper_id": "lab-8ef4decb9b26",
+  "annotations": [
+    {
+      "keyword_id": "subspace-clustering",
+      "exact_quote": "Local Sparse Subspace guided Super-Graph Construction",
+      "evidence_field": "title",
+      "reason_zh": "标题表明以局部稀疏子空间引导图构建来完成聚类，属于按潜在子空间进行分组的子空间聚类任务。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "Sparse Subspace",
+      "evidence_field": "title",
+      "reason_zh": "标题明确采用局部稀疏子空间，符合以稀疏潜在/基向量表达样本的稀疏表示方法特征。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "Super-Graph Construction",
+      "evidence_field": "title",
+      "reason_zh": "标题明确构建超级图，涉及学习或构建样本间图结构/亲和关系。"
+    },
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyerspectral Image Clustering",
+      "evidence_field": "title",
+      "reason_zh": "标题以高光谱图像聚类为研究对象，符合高光谱图像处理定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

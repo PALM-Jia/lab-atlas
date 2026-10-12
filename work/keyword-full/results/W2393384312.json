@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2393384312",
+  "annotations": [
+    {
+      "keyword_id": "partial-label-learning",
+      "exact_quote": "Partial label learning deals with the problem where each training example is represented by a feature vector while associated with a set of candidate labels, among which only one label is valid.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文研究每个实例有候选标签集且仅一个有效标签的偏标记学习问题，并提出特征感知消歧。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "associated with a set of candidate labels, among which only one label is valid",
+      "evidence_field": "abstract",
+      "reason_zh": "训练实例仅提供候选标签集且只有一个有效标签，属于候选歧义的不精确弱监督信号。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "the manifold structure of feature space is utilized to generate normalized labeling confidences over candidate label set",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确利用特征空间的流形结构生成归一化标记置信度，属于以流形结构约束候选标签学习。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

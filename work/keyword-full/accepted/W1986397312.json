@@ -1,0 +1,11 @@
+{
+  "paper_id": "W1986397312",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "classifier-ensemble",
+      "reason_zh": "标题同时提到相关向量机和支持向量机，但未说明是否结合多个分类器预测或以专家分配完成分类，无法确认集成分类机制。"
+    }
+  ],
+  "input_issues": []
+}

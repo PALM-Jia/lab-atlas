@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2740436868",
+  "annotations": [
+    {
+      "keyword_id": "class-imbalance",
+      "exact_quote": "extensions of ELM achieve stable classification performances for imbalanced data. In this paper, we introduce a hybrid method combining the extended Kalman filter (EKF) with cost-sensitive dissimilar ELM (CS-D-ELM).",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确提到不平衡数据，并采用成本敏感ELM分类器，属于显式处理类别不平衡的设定。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "bayesian-inference",
+      "reason_zh": "仅提到用扩展卡尔曼滤波(EKF)预处理原始数据，未说明先验、概率模型或后验推断，无法确认贝叶斯推断。"
+    },
+    {
+      "keyword_id": "data-imputation-recovery",
+      "reason_zh": "仅说原始数据经EKF预处理以生成分类器输入，未说明估计缺失观测或从污染观测恢复原始数值。"
+    },
+    {
+      "keyword_id": "contrastive-learning",
+      "reason_zh": "摘要出现cost-sensitive dissimilar ELM，但未说明视图、样本或中心间的吸引与区分目标，无法确认对比学习。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2324845311",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral Image Analysis",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以高光谱图像分析为应用对象，摘要也处理高光谱图像数据，属于高光谱图像应用。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "hyperspectral image data are decomposed into a low-rank matrix and a sparse matrix",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将高光谱数据分解为低秩矩阵，并用低秩矩阵表示固有光谱特征，满足显式低秩矩阵近似。"
+    },
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "intrinsic spectral features are represented by the low-rank matrix and spectral variation is accommodated by the sparse matrix",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要把光谱变化视为需处理的变化/污染，用低秩矩阵恢复固有光谱特征，从而改善后续分析。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

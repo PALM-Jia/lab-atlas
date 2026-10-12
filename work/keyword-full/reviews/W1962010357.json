@@ -1,0 +1,21 @@
+{
+  "paper_id": "W1962010357",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "input_problem",
+      "keyword_id": null,
+      "exact_quote": "Finally, it is argued ...",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要末句明确截断，应记录输入文本不完整；可理解的主体仍可用于审查，不能推断缺失内容。"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [],
+    "abstentions": [],
+    "input_issues": [
+      "摘要末尾“Finally, it is argued ...”为截断句，末段内容不完整。"
+    ]
+  }
+}

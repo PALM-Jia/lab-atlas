@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('work/download_semantic_model.py');s=p.read_text(encoding='utf8');s=s.replace('temp=repo/(name+\'.partial\');url=f"https://huggingface.co/{meta[\'id\']}/resolve/{meta[\'sha\']}/{name}"', 'temp=repo/(name+\'.partial\');route=\'resolve\' if name.endswith(\'.bin\') else \'raw\';url=f"https://huggingface.co/{meta[\'id\']}/{route}/{meta[\'sha\']}/{name}"');p.write_text(s,encoding='utf8')

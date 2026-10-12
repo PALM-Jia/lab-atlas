@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2136595724",
+  "annotations": [
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "The standard MIL problem assumes that a bag is labeled positive if at least one of its instances is positive; otherwise, the bag is negative.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要用包级标签定义MIL，区域实例的真实标签未提供，监督为粗粒度且不完整的包级信号，符合弱监督学习。"
+    },
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "Images are viewed as bags, each of which contains a number of instances corresponding to regions obtained from image segmentation.",
+      "evidence_field": "abstract",
+      "reason_zh": "所提区域图像分类方法实质使用图像分割形成区域实例与包，分割是其方法组件，遗漏图像分割。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

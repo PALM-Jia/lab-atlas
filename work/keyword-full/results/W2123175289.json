@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2123175289",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "the crowd is segmented into components of homogeneous motion",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要将人群分割为运动同质分量，并验证crowd segmentation算法，属于对图像/视频区域进行划分的实质处理。"
+    },
+    {
+      "keyword_id": "bayesian-inference",
+      "exact_quote": "the correspondence between features and the number of people per segment is learned with Gaussian Process regression",
+      "evidence_field": "abstract",
+      "reason_zh": "使用高斯过程回归学习特征与人数对应关系，属于基于先验函数的贝叶斯非参数回归与后验推断。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

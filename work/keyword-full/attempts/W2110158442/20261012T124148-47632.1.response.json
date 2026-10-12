@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2110158442\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"Contour Detection and Hierarchical Image Segmentation\",\"evidence_field\":\"title\",\"reason_zh\":\"标题将层次图像分割列为核心研究任务，摘要进一步提出把任意轮廓检测器输出转化为层次区域树的分割算法。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

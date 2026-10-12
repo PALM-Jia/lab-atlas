@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W174426676\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"FNMF is based on non-negative matrix factorization (NMF), which is a part-based image representation method proposed by Lee.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确提出FNMF基于非负矩阵分解，以非负基分量进行图像表示，属于以非负因子分解矩阵的方法。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

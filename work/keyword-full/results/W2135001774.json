@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2135001774",
+  "annotations": [
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "Principal component analysis (PCA) is a commonly applied technique for dimensionality reduction.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文将PCA推广到指数族与Bregman损失，PCA是显式低维映射的降维方法，因此研究任务属于降维。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

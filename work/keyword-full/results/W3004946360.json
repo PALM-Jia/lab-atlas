@@ -1,0 +1,25 @@
+{
+  "paper_id": "W3004946360",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "we propose a Structural Deep Clustering Network (SDCN) to integrate the structural information into deep clustering.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确提出深度聚类任务，并说明SDCN将结构信息整合进深度聚类。"
+    },
+    {
+      "keyword_id": "graph-neural-networks",
+      "exact_quote": "Graph Convolutional Network (GCN) in encoding the graph structure",
+      "evidence_field": "abstract",
+      "reason_zh": "使用图卷积网络GCN编码图结构，并将其作为模型组成部分，符合图神经网络方法定义。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "GCN improves the autoencoder-specific representation as a high-order graph regularization constraint",
+      "evidence_field": "abstract",
+      "reason_zh": "将GCN对自编码器表示的作用表述为高阶图正则约束，符合图与流形正则化定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

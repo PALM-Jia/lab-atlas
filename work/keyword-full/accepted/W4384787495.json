@@ -1,0 +1,19 @@
+{
+  "paper_id": "W4384787495",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "Deep Clustering Optimization Method",
+      "evidence_field": "title",
+      "reason_zh": "标题明确将方法定位为深度聚类优化，属于利用可学习表示或聚类头获得数据划分的深度聚类任务。"
+    },
+    {
+      "keyword_id": "graph-neural-networks",
+      "exact_quote": "DCOM-GNN",
+      "evidence_field": "title",
+      "reason_zh": "标题方法名包含GNN且面向Graph，表明方案采用图神经网络作为处理图数据的可学习组件。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

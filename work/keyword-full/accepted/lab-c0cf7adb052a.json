@@ -1,0 +1,19 @@
+{
+  "paper_id": "lab-c0cf7adb052a",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "underwater image semantic segmentation called Underwater Semantic Segment Anything (UWSSA)",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确提出面向水下的语义分割框架，进行像素级语义区域划分，属于图像分割任务。"
+    },
+    {
+      "keyword_id": "underwater-images",
+      "exact_quote": "underwater image semantic segmentation",
+      "evidence_field": "abstract",
+      "reason_zh": "论文直接研究水下图像的语义分割及水下场景中的成像困难，属于以水下采集图像为应用对象。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

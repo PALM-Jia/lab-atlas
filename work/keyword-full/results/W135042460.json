@@ -1,0 +1,25 @@
+{
+  "paper_id": "W135042460",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "Multi-Instance Multi-Label learning (MIML) deals with data objects that are represented by a bag of instances and associated with a set of class labels simultaneously.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确研究多实例多标记学习，对象同时关联多个类别标记，属于多标记学习任务。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "users usually tag only a part of positive labels, and the untagged labels are not necessarily negative.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要将弱标记定义为只标注部分正标记、未标注标记未必为负，属于不完整监督并作为核心研究问题。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "highly relevant labels share some common in-stances",
+      "evidence_field": "abstract",
+      "reason_zh": "方法假设高度相关标签共享部分实例，显式利用标签间相关性来建模，满足标签相关性建模定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,30 @@
+{
+  "paper_id": "W3142256053",
+  "annotations": [
+    {
+      "keyword_id": "label-distribution-learning",
+      "exact_quote": "learn a latent preference distribution for each instance",
+      "evidence_field": "abstract",
+      "reason_zh": "方法为每个实例学习潜在偏好分布，用于刻画各标签的相对偏好程度，符合标签分布学习核心任务。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "single objective label ranking for each instance in the training set",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以实例的标签排序为学习目标，显式涉及标签间相对排序结构，属于标签相关性/排序建模。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "only subjective inconsistent rankings from multiple rankers are associated with each instance",
+      "evidence_field": "abstract",
+      "reason_zh": "监督信号为多个标注者主观且不一致的排序而非单一客观排序，并作为核心研究条件，符合不精确/不一致弱监督。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "multi-label-learning",
+      "reason_zh": "文本仅说明标签排序及偏好分布学习，未说明多个标签同时成立的预测任务，无法确认多标记学习。"
+    }
+  ],
+  "input_issues": []
+}

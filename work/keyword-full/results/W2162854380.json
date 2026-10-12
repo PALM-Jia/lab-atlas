@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2162854380",
+  "annotations": [
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "we present a family of subspace learning algorithms based on a new form of regularization",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出子空间学习/低维投影算法族，并显式在所选子空间中进行学习，符合显式低维映射或嵌入的降维任务。"
+    },
+    {
+      "keyword_id": "domain-adaptation",
+      "exact_quote": "it boosts the performance when training and testing samples are not independent and identically distributed",
+      "evidence_field": "abstract",
+      "reason_zh": "训练与测试样本分布不一致，方法通过最小化所选子空间中的 Bregman 散度迁移知识，面向跨域学习，符合域适应设定。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

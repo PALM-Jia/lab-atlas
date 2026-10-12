@@ -1,0 +1,24 @@
+{
+  "sample_id": "S06",
+  "annotations": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "Nonnegative Matrix Factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以矩阵分解表示数据，属于显式矩阵分解建模。"
+    },
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Nonnegative Matrix Factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题直接表明采用非负矩阵分解方法。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "Mixed Hypergraph Regularization",
+      "evidence_field": "title",
+      "reason_zh": "标题表明方法以混合超图结构施加正则约束，符合利用超图结构约束学习结果的定义。"
+    }
+  ],
+  "abstentions": []
+}

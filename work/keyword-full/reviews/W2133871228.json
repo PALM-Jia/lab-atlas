@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2133871228",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_positive",
+      "keyword_id": "pseudo-label-self-training",
+      "exact_quote": "we use decision feedback from the decoder to further enhance the accuracy of noise estimation",
+      "evidence_field": "abstract",
+      "reason_zh": "解码判决反馈用于改进噪声估计，原文未将未标注样本的预测作为后续模型训练信号；迭代信号估计不等同于伪标签或自训练。"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "pseudo-label-self-training"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "semi-supervised-learning",
+        "reason_zh": "摘要提到导频和数据音，但未说明以有限监督结合未标注样本作为半监督学习设定，机制更接近导频辅助的联合检测与噪声估计。"
+      }
+    ],
+    "input_issues": []
+  }
+}

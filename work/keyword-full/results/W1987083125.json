@@ -1,0 +1,18 @@
+{
+  "paper_id": "W1987083125",
+  "annotations": [
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "The inter-level relationship constraint, e.g., a plant image must first be assigned to a parent node (high-level non-leaf node) correctly if it can further be assigned to the most relevant child node (low-level non-leaf node or leaf node) on the visual tree, is formally defined and leveraged to learn more discriminative tree classifiers over the visual tree.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要显式定义并利用父子节点/类别之间的层级依赖与约束来联合学习分类器，属于对标签间依赖或局部相关结构的显式建模。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "classifier-ensemble",
+      "reason_zh": "虽提到多个相互关联的树分类器联合训练，但未说明通过投票、加权或样本专家分配等方式集成预测，难以确认满足分类器集成定义。"
+    }
+  ],
+  "input_issues": []
+}

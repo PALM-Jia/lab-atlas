@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2146247053\",\"annotations\":[{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"allows a sparse regression or classification function to be constructed as a linear combination of a few basis functions\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确用少量基函数线性组合构建稀疏回归或分类函数，属于以少量基向量表达样本的稀疏表示。\"},{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"by computing the stationary points of the variational update expressions with noninformative (ARD) hyperpriors, a fast version of variational SBL can be constructed\",\"evidence_field\":\"abstract\",\"reason_zh\":\"利用非信息性先验进行变分更新与近似推断，并涉及变分下界/边缘似然，符合贝叶斯后验近似推断。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2118718620\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"Non-negative Matrix Factorization with Sparseness Constraints\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以非负矩阵分解为核心技术，摘要进一步说明对标准NMF进行稀疏约束扩展。\"},{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"explicitly incorporating the notion of ‘sparseness ’ improves the found decompositions\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将稀疏性引入NMF分解，以稀疏约束改进基/潜在特征表示，符合稀疏表示方法。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

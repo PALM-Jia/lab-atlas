@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2133576408\",\"annotations\":[{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"uses the second left and right singular vectors of an appropriately scaled word-document matrix\",\"evidence_field\":\"abstract\",\"reason_zh\":\"核心谱共聚类算法对词-文档矩阵进行奇异向量分解，显式利用矩阵分解/低秩谱嵌入表示文档与词的结构以求解二划分。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

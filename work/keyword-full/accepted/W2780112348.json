@@ -1,0 +1,30 @@
+{
+  "paper_id": "W2780112348",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "multi-label learning in recent years has led to the development of a large number of methods, many of them based on ensembles",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以多标记学习为研究领域，关注多标记分类方法/分类器，满足多标记学习任务定义。"
+    },
+    {
+      "keyword_id": "classifier-ensemble",
+      "exact_quote": "ensembles of multi-label classifiers",
+      "evidence_field": "title",
+      "reason_zh": "论文以多标记分类器集成为综述与比较对象，结合多个分类器完成多标记分类，符合分类器集成定义。"
+    },
+    {
+      "keyword_id": "class-imbalance",
+      "exact_quote": "evaluating their performance based on the characteristics of the datasets such as imbalance, dependence among labels and dimensionality",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要把类别不平衡列为数据集特征并据此评估集成方法性能，属于对类别不平衡学习设定的显式分析。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "label-correlation-modeling",
+      "reason_zh": "摘要仅将标签间依赖列为数据集特征与评估维度，未说明论文或其方法显式建模标签共现/依赖结构，不能满足标签相关性建模定义。"
+    }
+  ],
+  "input_issues": []
+}

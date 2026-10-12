@@ -1,0 +1,19 @@
+{
+  "paper_id": "W4385236799",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Non-Negative Matrix Factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题直接以非负矩阵分解作为方法核心，属于该方法的改进。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "Semi-Supervised",
+      "evidence_field": "title",
+      "reason_zh": "标题明确将方法设定为半监督，表明在有限监督信息下进行学习。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

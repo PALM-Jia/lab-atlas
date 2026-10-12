@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2774644650",
+  "annotations": [
+    {
+      "keyword_id": "adversarial-robustness",
+      "exact_quote": "Adversarial attacks serve as an important surrogate to evaluate the robustness of deep learning models before they are deployed.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文研究对抗攻击，并明确将其作为评估深度学习模型鲁棒性的手段，还检验对抗训练模型的脆弱性，属于对抗鲁棒性研究。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

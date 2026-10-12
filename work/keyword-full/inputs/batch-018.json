@@ -1,0 +1,54 @@
+{
+  "papers": [
+    {
+      "paper_id": "W148549881",
+      "title": "Semi-supervised Clustering via Constrained Symmetric Non-negative Matrix Factorization",
+      "abstract": "Semi-supervised clustering based on pairwise constraints has been very active in recent years. The pairwise constraints consist of must-link and cannot-link. Since different types of constraints provide different information, they should be utilized with different strategies in the learning process. In this paper, we investigate the effect of must-link and cannot-link constraints on non-negative matrix factorization (NMF) and show that they play different roles when guiding the factorization procedure. A new semi-supervised NMF model is then proposed with pairwise constraints penalties. Among them, must-link constraints are used to control the distance of the data in the compressed form, and cannot-link constraints are used to control the encoding factor. Meanwhile, the same penalty strategies are applied on symmetric NMF model to handle the similarity matrix. The proposed two models are implemented by an alternating nonnegative least squares algorithm. We examine the performance of our models on series of real similarity data, and compare them with state-of-the-art, illustrating that the new models provide superior clustering performance."
+    },
+    {
+      "paper_id": "W1489499640",
+      "title": "Non-negative Matrix Factorization for Face Recognition",
+      "abstract": "The computer vision problem of face classification under several ambient and unfavorable conditions is considered in this study. Changes in expression, different lighting conditions and occlusions are the relevant factors that are studied in this present contribution. Non-negative Matrix Factorization (NMF) technique is introduced in the context of face classification and a direct comparison with Principal Component Analysis (PCA) is also analyzed. Two leading techniques in face recognition are also considered in this study noticing that NMF is able to improve these techniques when a high dimensional feature space is used. Finally, different distance metrics (L1, L2 and correlation) are evaluated in the feature space defined by NMF in order to determine the best one for this specific problem. Experiments demonstrate that the correlation is the most suitable metric for this problem."
+    },
+    {
+      "paper_id": "W1491576965",
+      "title": "Multi‐label learning: a review of the state of the art and ongoing research",
+      "abstract": "Multi‐label learning is quite a recent supervised learning paradigm. Owing to its capabilities to improve performance in problems where a pattern may have more than one associated class, it has attracted the attention of researchers, producing an increasing number of publications. This study presents an up‐to‐date overview about multi‐label learning with the aim of sorting and describing the main approaches developed till now. The formal definition of the paradigm, the analysis of its impact on the literature, its main applications, works developed, pitfalls and guidelines, and ongoing research are presented.WIREs Data Mining Knowl Discov2014, 4:411–444. doi: 10.1002/widm.1139 This article is categorized under: Technologies > Classification Technologies > Machine Learning"
+    },
+    {
+      "paper_id": "W1492230849",
+      "title": "IAM Graph Database Repository for Graph Based Pattern Recognition and Machine Learning",
+      "abstract": "In recent years the use of graph based representation has gained popularity in pattern recognition and machine learning. As a matter of fact, object representation by means of graphs has a number of advantages over feature vectors. Therefore, various algorithms for graph based machine learning have been proposed in the literature. However, in contrast with the emerging interest in graph based representation, a lack of standardized graph data sets for benchmarking can be observed. Common practice is that researchers use their own data sets, and this behavior cumbers the objective evaluation of the proposed methods. In order to make the different approaches in graph based machine learning better comparable, the present paper aims at introducing a repository of graph data sets and corresponding benchmarks, covering a wide spectrum of different applications."
+    },
+    {
+      "paper_id": "W1492698999",
+      "title": "Solving Multiple-Instance and Multiple-Part Learning Problems with Decision Trees and Rule Sets. Application to the Mutagenesis Problem",
+      "abstract": "In recent work, Dietterich et al. (1997) have presented the problem of supervised multiple-instance learning and how to solve it by building axis-parallel rectangles. This problem is encountered in contexts where an object may have different possible alternative configurations, each of which is described by a vector. This paper introduces the multiple-part problem, which is related to the multiple-instance problem, and shows how it can be solved using the multiple-instance algorithms. These two so-called “multiple“ problems could play a key role both in the development of efficient algorithms for learning the relations between the activity of a structured object and its structural properties and in relational learning. This paper analyzes and tries to clarify multiple-problem solving. It goes on to propose multiple-instance extensions of classical learning algorithms to solve multiple-problems by learning multiple-decision trees ( Id3-Mi ) and multiple-decision rules (Ripper- Mi). In particular, it suggests a new multiple-instance entropy function and a multiple-instance coverage function. Finally, it successfully applies the multiple-part framework on the well-known mutagenesis prediction problem."
+    },
+    {
+      "paper_id": "W1498436455",
+      "title": "Learning representations by back-propagating errors",
+      "abstract": "We describe a new learning procedure, back-propagation, for networks of neurone-like units. The procedure repeatedly adjusts the weights of the connections in the network so as to minimize a measure of the difference between the actual output vector of the net and the desired output vector. As a result of the weight adjustments, internal ‘hidden’ units which are not part of the input or output come to represent important features of the task domain, and the regularities in the task are captured by the interactions of these units. The ability to create useful new features distinguishes back-propagation from earlier, simpler methods such as the perceptron-convergence procedure 1 ."
+    },
+    {
+      "paper_id": "W1501137245",
+      "title": "On the periodicity of traffic oscillations and capacity drop: The role of driver characteristics",
+      "abstract": "This paper shows that traffic hysteresis, a manifestation of driver characteristics, has a profound impact on the development of traffic oscillations and the bottleneck discharge rate. Findings suggest that aggressive driver behavior (with small response times and jammed spacing) leads to spontaneous formations of stop-and-go disturbances. Furthermore, the aggressive behavior, coupled with a late response to adopt less aggressive behavior, generates large hysteresis that leads to oscillations’ transformation from localized to substantial disturbances and growth. The larger the magnitude of hysteresis is, the larger the growth is. Our finding also suggests that the bottleneck discharge rate can diminish by 8-23% when driver adopts a less aggressive reaction to a disturbance (characterized by a larger response time). This finding is particularly notable since lane-changes have been believed to be the major cause of a reduction in bottleneck discharge rate."
+    },
+    {
+      "paper_id": "W1501500081",
+      "title": "A Survey of Clustering Data Mining Techniques",
+      "abstract": "Clustering is the division of data into groups of similar objects. In clustering, some details are disregarded in exchange for data simplification. Clustering can be viewed as a data modeling technique that provides for concise summaries of the data. Clustering is therefore related to many disciplines and plays an important role in a broad range of applications. The applications of clustering usually deal with large datasets and data with many attributes. Exploration of such data is a subject of data mining. This survey concentrates on clustering algorithms from a data mining perspective."
+    },
+    {
+      "paper_id": "W1502922572",
+      "title": "Gaussian Processes in Machine Learning",
+      "abstract": "We give a basic introduction to Gaussian Process regression models. We focus on understanding the role of the stochastic process and how it is used to define a distribution over functions. We present the simple equations for incorporating training data and examine how to learn the hyperparameters using the marginal likelihood. We explain the practical advantages of Gaussian Process and end with conclusions and a look at the current trends in GP work. These keywords were added by machine and not by the authors. This process is experimental and the keywords may be updated as the learning algorithm improves."
+    },
+    {
+      "paper_id": "W1503398984",
+      "title": "Machine Learning : A Probabilistic Perspective",
+      "abstract": "Today's Web-enabled deluge of electronic data calls for automated methods of data analysis. Machine learning provides these, developing methods that can automatically detect patterns in data and then use the uncovered patterns to predict future data. This textbook offers a comprehensive and self-contained introduction to the field of machine learning, based on a unified, probabilistic approach. The coverage combines breadth and depth, offering necessary background material on such topics as probability, optimization, and linear algebra as well as discussion of recent developments in the field, including conditional random fields, L1 regularization, and deep learning. The book is written in an informal, accessible style, complete with pseudo-code for the most important algorithms. All topics are copiously illustrated with color images and worked examples drawn from such application domains as biology, text processing, computer vision, and robotics. Rather than providing a cookbook of different heuristic methods, the book stresses a principled model-based approach, often using the language of graphical models to specify models in a concise and intuitive way. Almost all the models described have been implemented in a MATLAB software package--PMTK (probabilistic modeling toolkit)--that is freely available online. The book is suitable for upper-level undergraduates with an introductory-level college math background and beginning graduate students."
+    }
+  ]
+}

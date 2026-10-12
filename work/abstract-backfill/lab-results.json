@@ -1,0 +1,669 @@
+{
+  "summary": {
+    "not_found": 10,
+    "no_abstract": 3,
+    "query_failed": 6,
+    "success": 12
+  },
+  "results": [
+    {
+      "id": "lab-bb2d463fb71a",
+      "title": "Unsupervised Long-tailed Learning for Foundation Model",
+      "status": "not_found",
+      "abstract": null,
+      "attempts": [],
+      "candidates": [],
+      "reason": "exact_title_web_search_found_no_verifiable_publication_page"
+    },
+    {
+      "id": "lab-088383584e44",
+      "title": "PEEK: Partial Label Learning Empowered by External Knowledge",
+      "status": "not_found",
+      "abstract": null,
+      "attempts": [],
+      "candidates": [],
+      "reason": "exact_title_web_search_found_no_verifiable_publication_page"
+    },
+    {
+      "id": "lab-a07279b34373",
+      "title": "Hub for Outliers, Spokes for Inliers: Homeomorphic Latent Space Construction for Dual-Mismatched Semi-Supervised Learning",
+      "status": "no_abstract",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://arxiv.org/abs/2610.07610",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-4a8c68a7d44ee40d0f2fdb5ed3917c98f0c28ecfaf46b17cadf775da15e3cf09.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "Hub for Outliers, Spokes for Inliers: Uniform Latent Space Construction for Dual-Mismatched Semi-Supervised Learning",
+          "abstract": "Semi-supervised learning typically assumes that labeled and unlabeled data share an identical class distribution and label space. However, this setting is often violated: unlabeled data may be imbalanced and contain unknown class samples, causing mismatches in both class distribution and label space. Such dual mismatch leads to majority classes dominating the latent space and unknown class samples being overconfidently misclassified, degrading feature discriminability and pseudo-label quality. To address this, we propose a hub-spoke latent geometry, where known classes are uniformly distributed around a central hub and each class forms compact clusters around its prototype, while the hub provides an anchor for a low-evidence region specifically designed for high-uncertainty unknown class samples. Integrated with an evidence-based classifier, this geometry ultimately enhances feature discriminability and uncertainty separation by mitigating majority-class domination through structured feature organization and guiding high-uncertainty unknown class samples toward the hub. Extensive experiments show that our method outperforms state-of-the-art methods, with a maximum improvement of 3.25% across various settings.",
+          "authors": [
+            "Yuan, Li",
+            "Hou, Yaxin",
+            "Tang, Jiawei",
+            "Gao, Yongbiao",
+            "Jia, Yuheng"
+          ],
+          "doi": null,
+          "source_url": "https://arxiv.org/abs/2610.07610",
+          "accepted": false,
+          "reason": "title_mismatch_requires_review"
+        }
+      ],
+      "reason": "pages_returned_no_verified_abstract"
+    },
+    {
+      "id": "lab-3af81cff7068",
+      "title": "Beyond Low-Rank: A Region-Aware Imputation Method for Traffic Data Recovery",
+      "status": "not_found",
+      "abstract": null,
+      "attempts": [],
+      "candidates": [],
+      "reason": "exact_title_web_search_found_no_verifiable_publication_page"
+    },
+    {
+      "id": "lab-8ef4decb9b26",
+      "title": "Hyerspectral Image Clustering with Local Sparse Subspace guided Super-Graph Construction",
+      "status": "not_found",
+      "abstract": null,
+      "attempts": [],
+      "candidates": [],
+      "reason": "exact_title_web_search_found_no_verifiable_publication_page"
+    },
+    {
+      "id": "lab-7af4622bbcc3",
+      "title": "Adaptive Graph Feedback Clustering Network",
+      "status": "not_found",
+      "abstract": null,
+      "attempts": [],
+      "candidates": [],
+      "reason": "exact_title_web_search_found_no_verifiable_publication_page"
+    },
+    {
+      "id": "lab-9ddc9ff7ce0c",
+      "title": "Towards Robust Models: Mitigating Adversarial Shifts in Feature Statistics with Uncertainty-Aware Reconstruction",
+      "status": "not_found",
+      "abstract": null,
+      "attempts": [],
+      "candidates": [],
+      "reason": "exact_title_web_search_found_no_verifiable_publication_page"
+    },
+    {
+      "id": "lab-4f3942c218c8",
+      "title": "DPtSTrip: Adversarially Robust Learning with Distance-Aware Point-to-Set Triplet Loss",
+      "status": "no_abstract",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://doi.org/10.1016/j.patcog.2025.112840",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-79faca382a69855459978ae5b7f51a55eaed22d14ef311d16e7efc93b8d3df50.html"
+        }
+      ],
+      "candidates": [],
+      "reason": "pages_returned_no_verified_abstract"
+    },
+    {
+      "id": "lab-fdadc630f8db",
+      "title": "Label Enhancement by Fusing Manifold Fusion of Feature and Label Spaces",
+      "status": "query_failed",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0031320324009233",
+          "http": 403,
+          "status": "query_failed",
+          "reason": "http_403"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.patcog.2025.111854",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-8631e1a3f2983627bc6e1bbe000fe45a01e9473b81c1a6530b8c360d4c6842c0.html"
+        }
+      ],
+      "candidates": [],
+      "reason": "http_403"
+    },
+    {
+      "id": "lab-94f819e13bbe",
+      "title": "From Point Cloud to Energy Model: Constructing High-resolution Urban Building Model for Energy Simulation and Evaluation Using UAV Oblique Imagery",
+      "status": "query_failed",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S235271022500381X",
+          "http": 403,
+          "status": "query_failed",
+          "reason": "http_403"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.jobe.2025.112145",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-88033ffa165b749204609141a8ff6cd90c2abfef44fdf3ea034e8ca051a6fdcb.html"
+        }
+      ],
+      "candidates": [],
+      "reason": "http_403"
+    },
+    {
+      "id": "lab-bc765488bcf7",
+      "title": "Progressive Label Enhancement",
+      "status": "query_failed",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0031320324009233",
+          "http": 403,
+          "status": "query_failed",
+          "reason": "http_403"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.patcog.2024.111172",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-caf59bc46930394af688a62ee6a24c79f9b51ee1b4ea3cd879715b72bfa6c482.html"
+        }
+      ],
+      "candidates": [],
+      "reason": "http_403"
+    },
+    {
+      "id": "lab-e407c5f18da5",
+      "title": "No-reference Image Quality Assessment for Contrast-changed Images via a Semi-supervised Robust PCA Model",
+      "status": "query_failed",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0020025521007428",
+          "http": 403,
+          "status": "query_failed",
+          "reason": "http_403"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.ins.2021.07.052",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-bf2321b2bce71e1db70d6c0011a876286d29729106ed971978a18fa5632eab89.html"
+        }
+      ],
+      "candidates": [],
+      "reason": "http_403"
+    },
+    {
+      "id": "lab-0529638ee44a",
+      "title": "Nonnegative Matrix Factorization with Mixed Hypergraph Regularization for Community Detection",
+      "status": "query_failed",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0020025518300203",
+          "http": 403,
+          "status": "query_failed",
+          "reason": "http_403"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.ins.2018.01.008",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-1c77fce5031f9de78a7da012676a35ffd42a198fb4d04cfe42be4aab329757be.html"
+        }
+      ],
+      "candidates": [],
+      "reason": "http_403"
+    },
+    {
+      "id": "lab-dccd5bfa936b",
+      "title": "PGSB: Pretrained-Guided Shared Basis for LoRA Model Merging",
+      "status": "success",
+      "abstract": "Large pretrained models have achieved remarkable success across diverse domains, yet adapting them to multiple downstream tasks remains challenging: full fine-tuning is costly, while maintaining separate task-specific models is storage-inefficient and fails to produce a unified multi-task model. Low-Rank Adaptation (LoRA) offers an efficient alternative for Model Merging by representing each task adaptation as a low-rank update over frozen pretrained weights. However, existing LoRA merging methods often treat task-specific updates as directly comparable objects and merge them in their original low-rank parameter spaces. This overlooks two key factors: which update directions provide reliable shared support across tasks, and how these directions should be re-parameterized with respect to the pretrained weights before merging. To address this limitation, we propose Pretrained-Guided Shared Basis (PGSB), a two-stage framework for LoRA model merging. PGSB first identifies shared directions among task-specific LoRA updates, and then re-parameterizes these directions using their interaction with the pretrained weights, producing a more suitable basis for merging. Extensive experiments demonstrate that PGSB consistently outperforms state-of-the-art baselines across multiple benchmarks.",
+      "attempts": [
+        {
+          "url": "https://neurips.cc/virtual/2026/poster/152671",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-813439962df3e8c5bc4b0bcdfea21c76d35a0ae41de1a42410bd925285ad105a.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "PGSB: Pretrained-Guided Shared Basis for LoRA Model Merging",
+          "abstract": "Large pretrained models have achieved remarkable success across diverse domains, yet adapting them to multiple downstream tasks remains challenging: full fine-tuning is costly, while maintaining separate task-specific models is storage-inefficient and fails to produce a unified multi-task model. Low-Rank Adaptation (LoRA) offers an efficient alternative for Model Merging by representing each task adaptation as a low-rank update over frozen pretrained weights. However, existing LoRA merging methods often treat task-specific updates as directly comparable objects and merge them in their original low-rank parameter spaces. This overlooks two key factors: which update directions provide reliable shared support across tasks, and how these directions should be re-parameterized with respect to the pretrained weights before merging. To address this limitation, we propose Pretrained-Guided Shared Basis (PGSB), a two-stage framework for LoRA model merging. PGSB first identifies shared directions among task-specific LoRA updates, and then re-parameterizes these directions using their interaction with the pretrained weights, producing a more suitable basis for merging. Extensive experiments demonstrate that PGSB consistently outperforms state-of-the-art baselines across multiple benchmarks.",
+          "authors": [],
+          "doi": null,
+          "source_url": "https://neurips.cc/virtual/2026/poster/152671",
+          "accepted": true,
+          "reason": "exact_title_on_official_publication_page"
+        }
+      ],
+      "source_url": "https://neurips.cc/virtual/2026/poster/152671",
+      "reason": "exact_title_on_official_publication_page"
+    },
+    {
+      "id": "lab-e73ac884ede0",
+      "title": "Exploiting Negative Multi-Cluster Structure in Class-Wise Embeddings for Weakly Supervised Multi-Label Learning",
+      "status": "success",
+      "abstract": "Class-wise embeddings provide an effective strategy for multi-label learning (MLL) by capturing the distinct discriminative properties of each class. However, existing methods based on class-wise embeddings typically overlook the internal distribution of negative samples. We uncover a pivotal phenomenon: negative instances in class-wise spaces naturally organize into multiple semantically coherent sub-clusters, a structure that persists across diverse modalities even under extreme label sparsity. Leveraging this insight, we propose a Structure-Aware Pseudo-label mining framework for weakly supervised MLL (SaPu). The proposed framework mines positive pseudo-labels by aggregating cluster-level consistency across different class-wise embeddings and identifies negative pseudo-labels via neighborhood exclusion. These high-quality signals further guide class-wise contrastive learning, establishing a self-reinforcing loop that iteratively refines embeddings. Extensive experiments on image, text and audio benchmarks validate that SaPu outperforms state-of-the-art methods by an average of 4.46% in challenging single-label supervision scenarios. Code is available in the supplementary material .",
+      "attempts": [
+        {
+          "url": "https://neurips.cc/virtual/2026/poster/153676",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-4bd89b9838ba34fb383d0bfe98464b0e13d095725f1d480bb6dd4e6999f2f43a.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "Exploiting Negative Multi-Cluster Structure in Class-Wise Embeddings for Weakly Supervised Multi-Label Learning",
+          "abstract": "Class-wise embeddings provide an effective strategy for multi-label learning (MLL) by capturing the distinct discriminative properties of each class. However, existing methods based on class-wise embeddings typically overlook the internal distribution of negative samples. We uncover a pivotal phenomenon: negative instances in class-wise spaces naturally organize into multiple semantically coherent sub-clusters, a structure that persists across diverse modalities even under extreme label sparsity. Leveraging this insight, we propose a Structure-Aware Pseudo-label mining framework for weakly supervised MLL (SaPu). The proposed framework mines positive pseudo-labels by aggregating cluster-level consistency across different class-wise embeddings and identifies negative pseudo-labels via neighborhood exclusion. These high-quality signals further guide class-wise contrastive learning, establishing a self-reinforcing loop that iteratively refines embeddings. Extensive experiments on image, text and audio benchmarks validate that SaPu outperforms state-of-the-art methods by an average of 4.46% in challenging single-label supervision scenarios. Code is available in the supplementary material .",
+          "authors": [],
+          "doi": null,
+          "source_url": "https://neurips.cc/virtual/2026/poster/153676",
+          "accepted": true,
+          "reason": "exact_title_on_official_publication_page"
+        }
+      ],
+      "source_url": "https://neurips.cc/virtual/2026/poster/153676",
+      "reason": "exact_title_on_official_publication_page"
+    },
+    {
+      "id": "lab-1025a6d4de24",
+      "title": "Individuals Matter: Improving Deep Multi-View Clustering via Explicit Single-View Enhancement",
+      "status": "success",
+      "abstract": "Although existing deep multi-view clustering methods often achieve high performance, they predominantly focus on improving the fused representation while overlooking the enhancement of individual views, often resulting in stagnant or inconsistently improved view-specific representations that limit the final fusion quality. To address this, we propose Explicit single-View Enhancement (EVE), a novel deep multi-view clustering framework designed to explicitly optimize the clustering capability of each individual view. Specifically, EVE employs an attention-based module to generate a global consensus as a reliable anchor, which subsequently guides the refinement of individual views through two key components: feature-level selective alignment and structural-level neighborhood propagation. Crucially, the enhanced single views will further boost the fused representation, and finally leading to a mutually reinforcing closed-loop feedback process. Our method is also naturally applicable to incomplete deep multi-view clustering scenarios. Extensive experiments on multiple benchmark datasets demonstrate that EVE consistently outperforms state-of-the-art competitors, achieving substantial average improvements of 5.9% in ARI across all datasets. The code is available in the Supplementary Material .",
+      "attempts": [
+        {
+          "url": "https://neurips.cc/virtual/2026/poster/148868",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-b68ced60e608e1a10bc5b1508dd5a5c8a69b36c8ddea0dc916a3fbd5f0e530bf.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "Individuals Matter: Improving Deep Multi-View Clustering via Explicit Single-View Enhancement",
+          "abstract": "Although existing deep multi-view clustering methods often achieve high performance, they predominantly focus on improving the fused representation while overlooking the enhancement of individual views, often resulting in stagnant or inconsistently improved view-specific representations that limit the final fusion quality. To address this, we propose Explicit single-View Enhancement (EVE), a novel deep multi-view clustering framework designed to explicitly optimize the clustering capability of each individual view. Specifically, EVE employs an attention-based module to generate a global consensus as a reliable anchor, which subsequently guides the refinement of individual views through two key components: feature-level selective alignment and structural-level neighborhood propagation. Crucially, the enhanced single views will further boost the fused representation, and finally leading to a mutually reinforcing closed-loop feedback process. Our method is also naturally applicable to incomplete deep multi-view clustering scenarios. Extensive experiments on multiple benchmark datasets demonstrate that EVE consistently outperforms state-of-the-art competitors, achieving substantial average improvements of 5.9% in ARI across all datasets. The code is available in the Supplementary Material .",
+          "authors": [],
+          "doi": null,
+          "source_url": "https://neurips.cc/virtual/2026/poster/148868",
+          "accepted": true,
+          "reason": "exact_title_on_official_publication_page"
+        }
+      ],
+      "source_url": "https://neurips.cc/virtual/2026/poster/148868",
+      "reason": "exact_title_on_official_publication_page"
+    },
+    {
+      "id": "lab-effcb20ed6d4",
+      "title": "AdapMatch: Adaptive Bias Decoupling for Semi-Supervised Partial Label Learning under Unknown Class Distributions",
+      "status": "success",
+      "abstract": "Partial Label Learning (PLL) trains models from instances with candidate label sets containing the ground-truth, while Semi-Supervised Partial Label Learning (SSPLL) further leverages the available unlabeled data to prompt the performance. The previous SSPLL methods implicitly assume the unlabeled data are class-balanced distributed. However, in realistic scenarios, the class distribution of unlabeled data is unknown, resulting in performance collapse on minority classes for the existing SSPLL methods. We identify two coupled biases behind this failure: (i) pseudo-label selection bias, where high-confidence filtering tends to over-select samples from dominant classes, causing the training data to become increasingly skewed toward these classes; and (ii) disambiguation bias, where dominant classes are more likely to win within candidate sets, even when they are incorrect. Theoretically, we show that these two biases reinforce each other over training, forming a feedback loop that degrades generalization performance. To weaken this loop, we propose AdapMatch, which uses DAS to reduce the skew in training data caused by pseudo-label selection bias via prior-aware pseudo-label admission and CAD to lower the disambiguation error by suppressing candidate-set domination. Across five benchmarks, AdapMatch yields gains up to 41.31\\% at most , showing strong robustness to varying scale, imbalance, and ambiguity. The code is available at \\url{https://anonymous.4open.science/r/AdapMatch-8BC5}.",
+      "attempts": [
+        {
+          "url": "https://neurips.cc/virtual/2026/poster/150939",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-097cf09a20ae8cc35749c8e83f87da4aa1e4ac40d9ea0a7eb7274fb5e589da1a.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "AdapMatch: Adaptive Bias Decoupling for Semi-Supervised Partial Label Learning under Unknown Class Distributions",
+          "abstract": "Partial Label Learning (PLL) trains models from instances with candidate label sets containing the ground-truth, while Semi-Supervised Partial Label Learning (SSPLL) further leverages the available unlabeled data to prompt the performance. The previous SSPLL methods implicitly assume the unlabeled data are class-balanced distributed. However, in realistic scenarios, the class distribution of unlabeled data is unknown, resulting in performance collapse on minority classes for the existing SSPLL methods. We identify two coupled biases behind this failure: (i) pseudo-label selection bias, where high-confidence filtering tends to over-select samples from dominant classes, causing the training data to become increasingly skewed toward these classes; and (ii) disambiguation bias, where dominant classes are more likely to win within candidate sets, even when they are incorrect. Theoretically, we show that these two biases reinforce each other over training, forming a feedback loop that degrades generalization performance. To weaken this loop, we propose AdapMatch, which uses DAS to reduce the skew in training data caused by pseudo-label selection bias via prior-aware pseudo-label admission and CAD to lower the disambiguation error by suppressing candidate-set domination. Across five benchmarks, AdapMatch yields gains up to 41.31\\% at most , showing strong robustness to varying scale, imbalance, and ambiguity. The code is available at \\url{https://anonymous.4open.science/r/AdapMatch-8BC5}.",
+          "authors": [],
+          "doi": null,
+          "source_url": "https://neurips.cc/virtual/2026/poster/150939",
+          "accepted": true,
+          "reason": "exact_title_on_official_publication_page"
+        }
+      ],
+      "source_url": "https://neurips.cc/virtual/2026/poster/150939",
+      "reason": "exact_title_on_official_publication_page"
+    },
+    {
+      "id": "lab-2110e10b1fd2",
+      "title": "Progressive Pseudo-label Self-balancing Towards Unsupervised Vision-Language Models Adaptation",
+      "status": "success",
+      "abstract": "Enhancing Vision-Language Models (VLMs) on downstream tasks with unlabeled data has attracted increasing attention. Constructing a pseudo-labeled dataset by pseudo-labeling is a common method. Nonetheless, owing to the inherent class-wise prediction bias in VLMs, they tend to generate long-tailed pseudo-labels that are inconsistent with the true label distribution. Motivated by this, we first divide all classes into pseudo-head, pseudo-middle, and pseudo-tail classes based on the pseudo-label quantity. Accordingly, we propose a P rogressive P seudo-label S elf- B alancing (PPSB) framework, which measures the class-wise prediction bias and calculates quantity upper bounds for certain classes to construct relatively balanced pseudo-labeled dataset, while introducing fewer incorrect pseudo-tail labels. In this way, the class-wise prediction bias is progressively corrected and the pseudo-label dataset scale increases autonomously during training. Furthermore, the confidence scores generated by VLMs are not entirely reliable. Therefore, we design a neighborhood consistency filtering mechanism and a visual classifier to improve the pseudo-label accuracy. We theoretically prove that our method can significantly reduce the generalization error under certain conditions. Extensive experiments across six benchmarks under three learning paradigms demonstrate that our method outperforms state-of-the-art methods by average 3.84 % in accuracy. Code is available in the supplementary materials.",
+      "attempts": [
+        {
+          "url": "https://neurips.cc/virtual/2026/poster/150525",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-f623a19ba133a0f33a300deba1f8305db645a336c0c1ed75f7f3b6d1fa5ff47e.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "Progressive Pseudo-label Self-balancing Towards Unsupervised Vision-Language Models Adaptation",
+          "abstract": "Enhancing Vision-Language Models (VLMs) on downstream tasks with unlabeled data has attracted increasing attention. Constructing a pseudo-labeled dataset by pseudo-labeling is a common method. Nonetheless, owing to the inherent class-wise prediction bias in VLMs, they tend to generate long-tailed pseudo-labels that are inconsistent with the true label distribution. Motivated by this, we first divide all classes into pseudo-head, pseudo-middle, and pseudo-tail classes based on the pseudo-label quantity. Accordingly, we propose a P rogressive P seudo-label S elf- B alancing (PPSB) framework, which measures the class-wise prediction bias and calculates quantity upper bounds for certain classes to construct relatively balanced pseudo-labeled dataset, while introducing fewer incorrect pseudo-tail labels. In this way, the class-wise prediction bias is progressively corrected and the pseudo-label dataset scale increases autonomously during training. Furthermore, the confidence scores generated by VLMs are not entirely reliable. Therefore, we design a neighborhood consistency filtering mechanism and a visual classifier to improve the pseudo-label accuracy. We theoretically prove that our method can significantly reduce the generalization error under certain conditions. Extensive experiments across six benchmarks under three learning paradigms demonstrate that our method outperforms state-of-the-art methods by average 3.84 % in accuracy. Code is available in the supplementary materials.",
+          "authors": [],
+          "doi": null,
+          "source_url": "https://neurips.cc/virtual/2026/poster/150525",
+          "accepted": true,
+          "reason": "exact_title_on_official_publication_page"
+        }
+      ],
+      "source_url": "https://neurips.cc/virtual/2026/poster/150525",
+      "reason": "exact_title_on_official_publication_page"
+    },
+    {
+      "id": "lab-5dda1e979492",
+      "title": "LoCo: Selective Local Competition for Discriminative Open-Vocabulary Multi-Label Recognition",
+      "status": "success",
+      "abstract": "Open-vocabulary multi-label recognition (OV-MLR) aims to identify all queried semantic concepts present in an image. Existing methods mainly improve global image-text matching or text-side representations, leaving local prediction largely under-explored. In this paper, we revisit local prediction and reveal that it can serve as a strong discriminative branch once two properties are properly handled: spatial consistency of local visual features and compatibility-aware local competition. This perspective is motivated by local semantic sparsity: each image region is related to only a small subset of queried concepts, while compatible concepts of different granularities or types may still coexist locally. We instantiate this perspective with LoCo, a selective Local Competition framework for OV-MLR. LoCo adopts a spatially consistent visual encoder to reduce local feature entanglement, and introduces Selective Softmax to impose competition only among locally incompatible categories while preserving compatible responses. It further combines multi-scale local aggregation with global prediction to handle objects at different scales and scene-level semantics.  Experiments on four multi-label benchmarks show that LoCo achieves state-of-the-art performance, with average gains of +11.3\\% F1-score and +5.2\\% mAP.  Our results suggest that local semantic sparsity offers a useful basis for developing more discriminative open-vocabulary multi-label recognition methods. Code is available in the supplementary material.",
+      "attempts": [
+        {
+          "url": "https://neurips.cc/virtual/2026/poster/155077",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-1fc3a8eeabc5497eadef026d683066afeb57a7d9ae69e4c9a3ca54af8df9f963.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "LoCo: Selective Local Competition for Discriminative Open-Vocabulary Multi-Label Recognition",
+          "abstract": "Open-vocabulary multi-label recognition (OV-MLR) aims to identify all queried semantic concepts present in an image. Existing methods mainly improve global image-text matching or text-side representations, leaving local prediction largely under-explored. In this paper, we revisit local prediction and reveal that it can serve as a strong discriminative branch once two properties are properly handled: spatial consistency of local visual features and compatibility-aware local competition. This perspective is motivated by local semantic sparsity: each image region is related to only a small subset of queried concepts, while compatible concepts of different granularities or types may still coexist locally. We instantiate this perspective with LoCo, a selective Local Competition framework for OV-MLR. LoCo adopts a spatially consistent visual encoder to reduce local feature entanglement, and introduces Selective Softmax to impose competition only among locally incompatible categories while preserving compatible responses. It further combines multi-scale local aggregation with global prediction to handle objects at different scales and scene-level semantics.  Experiments on four multi-label benchmarks show that LoCo achieves state-of-the-art performance, with average gains of +11.3\\% F1-score and +5.2\\% mAP.  Our results suggest that local semantic sparsity offers a useful basis for developing more discriminative open-vocabulary multi-label recognition methods. Code is available in the supplementary material.",
+          "authors": [],
+          "doi": null,
+          "source_url": "https://neurips.cc/virtual/2026/poster/155077",
+          "accepted": true,
+          "reason": "exact_title_on_official_publication_page"
+        }
+      ],
+      "source_url": "https://neurips.cc/virtual/2026/poster/155077",
+      "reason": "exact_title_on_official_publication_page"
+    },
+    {
+      "id": "lab-deff0ac02cbd",
+      "title": "Attention Heads are Complementary Visual Units: Mitigating Hallucinations in LVLMs via Adaptive Visual Cues Focusing",
+      "status": "success",
+      "abstract": "Recent studies have explored attention dynamics in Large Vision-Language Models (LVLMs). However, most existing approaches aggregate attention across heads, potentially obscuring head-specific visual information and weakening visual grounding, leading to hallucinations. In this work, we revisit hallucination from the perspective of how visual information is distributed and utilized across attention heads. We observe that a small subset of visual tokens accounts for most of the attention within each attention head, with these tokens—defined as head-wise visual cues—being complementary across heads, suggesting that effective grounding requires preserving head-specific support. We further find that the proportion of visual cues within visual attention declines during generation, leading to key visual information loss and hallucination. In addition, hallucinated tokens show weaker utilization of long-range textual context compared to correctly generated tokens. Building on these findings, we propose V isual Cu e s R einforcement via Head-Adaptive D e-redundancy and Distance-Aware A ttenuation ( VerDA ), a training-free method to mitigate hallucinations. Specifically, we remove redundant visual tokens via head-adaptive de-redundancy, suppress local textual bias through distance-aware attenuation, and reinforce visual cues by redistributing attention. Experiments across multiple LVLMs and benchmarks demonstrate that VerDA consistently outperforms existing methods in mitigating hallucinations, with negligible inference overhead. Code is available in the supplementary materials.",
+      "attempts": [
+        {
+          "url": "https://neurips.cc/virtual/2026/poster/149428",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-d560b64867b1a56f9bdf1e496bef4883505f66c963c02fc96e60a90739849fbd.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "Attention Heads are Complementary Visual Units: Mitigating Hallucinations in LVLMs via Adaptive Visual Cues Focusing",
+          "abstract": "Recent studies have explored attention dynamics in Large Vision-Language Models (LVLMs). However, most existing approaches aggregate attention across heads, potentially obscuring head-specific visual information and weakening visual grounding, leading to hallucinations. In this work, we revisit hallucination from the perspective of how visual information is distributed and utilized across attention heads. We observe that a small subset of visual tokens accounts for most of the attention within each attention head, with these tokens—defined as head-wise visual cues—being complementary across heads, suggesting that effective grounding requires preserving head-specific support. We further find that the proportion of visual cues within visual attention declines during generation, leading to key visual information loss and hallucination. In addition, hallucinated tokens show weaker utilization of long-range textual context compared to correctly generated tokens. Building on these findings, we propose V isual Cu e s R einforcement via Head-Adaptive D e-redundancy and Distance-Aware A ttenuation ( VerDA ), a training-free method to mitigate hallucinations. Specifically, we remove redundant visual tokens via head-adaptive de-redundancy, suppress local textual bias through distance-aware attenuation, and reinforce visual cues by redistributing attention. Experiments across multiple LVLMs and benchmarks demonstrate that VerDA consistently outperforms existing methods in mitigating hallucinations, with negligible inference overhead. Code is available in the supplementary materials.",
+          "authors": [],
+          "doi": null,
+          "source_url": "https://neurips.cc/virtual/2026/poster/149428",
+          "accepted": true,
+          "reason": "exact_title_on_official_publication_page"
+        }
+      ],
+      "source_url": "https://neurips.cc/virtual/2026/poster/149428",
+      "reason": "exact_title_on_official_publication_page"
+    },
+    {
+      "id": "lab-6757df585f08",
+      "title": "Mismatch-Free One-Step at Scale: Linear-Time Ensemble Clustering with Soft Balancing",
+      "status": "not_found",
+      "abstract": null,
+      "attempts": [],
+      "candidates": [],
+      "reason": "exact_title_web_search_found_no_verifiable_publication_page"
+    },
+    {
+      "id": "lab-1a90fc2c3965",
+      "title": "KGFlow: Enhancing Large Language Model Reasoning with Multi-Graph Alignment for Knowledge-Intensive Medical Question Answering",
+      "status": "not_found",
+      "abstract": null,
+      "attempts": [],
+      "candidates": [],
+      "reason": "exact_title_web_search_found_no_verifiable_publication_page"
+    },
+    {
+      "id": "lab-4dafc16e5fd8",
+      "title": "Question-Level Multimodal Fusion for Cognitive Ability Assessment in Asynchronous Video Interviews",
+      "status": "not_found",
+      "abstract": null,
+      "attempts": [],
+      "candidates": [],
+      "reason": "exact_title_web_search_found_no_verifiable_publication_page"
+    },
+    {
+      "id": "lab-80376da04947",
+      "title": "Fragmented Text Is Insufficient for Image Representation: Fine-Grained Correspondence in Multimodal Dataset Distillation",
+      "status": "success",
+      "abstract": "Multimodal dataset distillation (MDD) aims to synthesize a compact image-text dataset on which a visual-language model can be trained to achieve performance comparable to that trained on the original, full-scale dataset. While previous methods have achieved promising results by using trajectory matching, they fail to consider the gap between single-semantic texts and multi-semantic images. Additionally, they usually use contrastive losses to pull together paired samples and penalize non-paired samples, ignoring the textual information from unpaired samples that are semantically related to the corresponding images. To reduce the semantic gap, we introduce a multi-text fusion module that strengthens the cross-modal interaction between the image and text. In addition, we leverage uncertainty to adaptively guide the contribution of non-paired samples in the synthetic dataset, thereby improving the effective utilization of information from these samples. We then provide an information theoretic analysis of the semantic gap and the limitations of contrastive supervision. Experiments on Flickr-30K and MS-COCO show that our method consistently outperforms previous state-of-the-art MDD methods, achieving significant improvements in retrieval performance (e.g., +6.5% in IR@10 and +4.6% in TR@10 in a 500-pair setting). Code is available at https://github.com/yiqiqiandefanhua/P2DE .",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-3-032-37252-9_8",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-765d24188f3823a065c94acb058197d308a1fd0b5aeadf87a2ec239f22711acb.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "Fragmented Text is Insufficient for Image Representation: Fine-Grained Correspondence in Multimodal Dataset Distillation",
+          "abstract": "Multimodal dataset distillation (MDD) aims to synthesize a compact image-text dataset on which a visual-language model can be trained to achieve performance comparable to that trained on the original, full-scale dataset. While previous methods have achieved promising results by using trajectory matching, they fail to consider the gap between single-semantic texts and multi-semantic images. Additionally, they usually use contrastive losses to pull together paired samples and penalize non-paired samples, ignoring the textual information from unpaired samples that are semantically related to the corresponding images. To reduce the semantic gap, we introduce a multi-text fusion module that strengthens the cross-modal interaction between the image and text. In addition, we leverage uncertainty to adaptively guide the contribution of non-paired samples in the synthetic dataset, thereby improving the effective utilization of information from these samples. We then provide an information theoretic analysis of the semantic gap and the limitations of contrastive supervision. Experiments on Flickr-30K and MS-COCO show that our method consistently outperforms previous state-of-the-art MDD methods, achieving significant improvements in retrieval performance (e.g., +6.5% in IR@10 and +4.6% in TR@10 in a 500-pair setting). Code is available at https://github.com/yiqiqiandefanhua/P2DE .",
+          "authors": [
+            "Fang, Jingwei",
+            "Hou, Yaxin",
+            "Han, Bo",
+            "Zhang, Xu",
+            "Liu, Hui",
+            "Hou, Junhui",
+            "Jia, Yuheng"
+          ],
+          "doi": "10.1007/978-3-032-37252-9_8",
+          "source_url": "https://link.springer.com/chapter/10.1007/978-3-032-37252-9_8",
+          "accepted": true,
+          "reason": "exact_title_on_official_publication_page"
+        }
+      ],
+      "source_url": "https://link.springer.com/chapter/10.1007/978-3-032-37252-9_8",
+      "reason": "exact_title_on_official_publication_page"
+    },
+    {
+      "id": "lab-b4f457369e13",
+      "title": "One Coin Has Two Sides: Single Poistive Multi Label Learning from Salient Annotations",
+      "status": "success",
+      "abstract": "Single-Positive Multi-Label Learning (SPML) studies learning from incomplete supervision, where each instance is annotated with only one positive label despite potentially belonging to multiple categories. While existing methods assume the annotated labels are randomly distributed, real-world annotations are often biased toward the most salient category. We formalize this realistic scenario as Salient Single-Positive Multi-Label Learning (SalSPML). This salient annotation bias poses a challenge to conventional SPML methods,  as the missing labels often correspond to less salient and harder-to-recognize categories. Fortunately, we find that salient annotations are typically more representative and informative. Motivated by this insight, we propose Prototype-Guided Rejection for Salient Annotation (PiSA),  which constructs reliable class-wise prototypes from salient labels and leverages them to guide embedding learning for non-salient labels recognition.  We theoretically demonstrate that SalSPML is harder than Random SPML due to irreducible annotation bias, and under SalSPML, more accurate prototypes facilitate false-negative label detection. Experiments on multiple benchmarks, together with two newly constructed real-world SalSPML datasets, demonstrate that PiSA consistently outperforms existing methods, achieving an average mAP improvement of 3.16\\%.",
+      "attempts": [
+        {
+          "url": "https://icml.cc/virtual/2026/poster/64609",
+          "http": 200,
+          "status": "received",
+          "file": "api-page-840647ac5d5c663ff428b2a33833fd7351085d337ba5f52a9247d500b22468ff.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "One Coin Has Two Sides: Single Poistive Multi Label Learning from Salient Annotations",
+          "abstract": "Single-Positive Multi-Label Learning (SPML) studies learning from incomplete supervision, where each instance is annotated with only one positive label despite potentially belonging to multiple categories. While existing methods assume the annotated labels are randomly distributed, real-world annotations are often biased toward the most salient category. We formalize this realistic scenario as Salient Single-Positive Multi-Label Learning (SalSPML). This salient annotation bias poses a challenge to conventional SPML methods,  as the missing labels often correspond to less salient and harder-to-recognize categories. Fortunately, we find that salient annotations are typically more representative and informative. Motivated by this insight, we propose Prototype-Guided Rejection for Salient Annotation (PiSA),  which constructs reliable class-wise prototypes from salient labels and leverages them to guide embedding learning for non-salient labels recognition.  We theoretically demonstrate that SalSPML is harder than Random SPML due to irreducible annotation bias, and under SalSPML, more accurate prototypes facilitate false-negative label detection. Experiments on multiple benchmarks, together with two newly constructed real-world SalSPML datasets, demonstrate that PiSA consistently outperforms existing methods, achieving an average mAP improvement of 3.16\\%.",
+          "authors": [],
+          "doi": null,
+          "source_url": "https://icml.cc/virtual/2026/poster/64609",
+          "accepted": true,
+          "reason": "exact_title_on_official_publication_page"
+        }
+      ],
+      "source_url": "https://icml.cc/virtual/2026/poster/64609",
+      "reason": "exact_title_on_official_publication_page"
+    },
+    {
+      "id": "lab-8a05dc1f7a41",
+      "title": "Discovering Attention Head Interactions in Vision Transformers",
+      "status": "query_failed",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://cvpr.thecvf.com/virtual/2026/poster/40839",
+          "http": 200,
+          "status": "received",
+          "file": "api-page-3cd2ad6ece7186884f66339e81a984f6e21eb4b4d2ffc86f4e89eb06487da92c.html"
+        },
+        {
+          "url": "https://doi.org/10.1109/cvprf71909.2026.00324",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-59a408ae476db31143acef38ee0e77404c53be70f53ec2673ff7134435aee2d9.html"
+        }
+      ],
+      "candidates": [],
+      "reason": "empty_response"
+    },
+    {
+      "id": "lab-cfe1c0f8487f",
+      "title": "Boosting Class Representation via Semantically Related Instances for Robust Long-Tailed Learning with Noisy Labels",
+      "status": "success",
+      "abstract": "The problem of learning from long-tailed noisy data, referred to as Long-Tailed Noisy Label Learning (LTNLL), presents significant challenges in deep learning. LTNLL datasets are typically affected by two primary issues: class imbalance and label noise. While previous methods have addressed these problems separately, the simultaneous presence of both in real-world applications remains underexplored. In this paper, we introduce a simple yet effective method, Instances Benefitting Classes (IBC). Our philosophy is to simultaneously overcome overfitting to noisy classes and transfer knowledge between semantically related classes. At the instance level, we propose selecting top-k semantically similar classes and use them to construct soft labels. Specifically, we soften noisy hard labels by reducing the probability of noisy classes and reallocating this probability to the semantically similar classes. This reduces the model's overconfidence in noisy classes while enhancing its focus on tail classes. We next propose a novel shot-specific multi-expert ensemble learning framework to make knowledge transfer more targeted, where we maintain multiple shot-specific soft labels for each instance, with each expert supervised by one of these labels. By integrating these experts, we demonstrate that IBC exhibits more separable representations, improving both overall and partition performance. Extensive experiments show that IBC outperforms existing state-of-the-art (SOTA) methods on a variety of benchmark and real-world datasets, achieving improvements ranging from 1.89% to 4.99% on the CIFAR-10 and CIFAR-100 datasets across all settings. The source code is available at https://github.com/yhli-ml/IBC.",
+      "attempts": [
+        {
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Li_Boosting_Class_Representation_via_Semantically_Related_Instances_for_Robust_Long-Tailed_ICCV_2025_paper.html",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-f9678c2c3ae429dd8a629af136a741c397720acd9842decc7c2c6a37c7b737a1.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "Boosting Class Representation via Semantically Related Instances for Robust Long-Tailed Learning with Noisy Labels",
+          "abstract": "The problem of learning from long-tailed noisy data, referred to as Long-Tailed Noisy Label Learning (LTNLL), presents significant challenges in deep learning. LTNLL datasets are typically affected by two primary issues: class imbalance and label noise. While previous methods have addressed these problems separately, the simultaneous presence of both in real-world applications remains underexplored. In this paper, we introduce a simple yet effective method, Instances Benefitting Classes (IBC). Our philosophy is to simultaneously overcome overfitting to noisy classes and transfer knowledge between semantically related classes. At the instance level, we propose selecting top-k semantically similar classes and use them to construct soft labels. Specifically, we soften noisy hard labels by reducing the probability of noisy classes and reallocating this probability to the semantically similar classes. This reduces the model's overconfidence in noisy classes while enhancing its focus on tail classes. We next propose a novel shot-specific multi-expert ensemble learning framework to make knowledge transfer more targeted, where we maintain multiple shot-specific soft labels for each instance, with each expert supervised by one of these labels. By integrating these experts, we demonstrate that IBC exhibits more separable representations, improving both overall and partition performance. Extensive experiments show that IBC outperforms existing state-of-the-art (SOTA) methods on a variety of benchmark and real-world datasets, achieving improvements ranging from 1.89% to 4.99% on the CIFAR-10 and CIFAR-100 datasets across all settings. The source code is available at https://github.com/yhli-ml/IBC.",
+          "authors": [
+            "Li, Yuhang",
+            "Li, Zhuying",
+            "Jia, Yuheng"
+          ],
+          "doi": null,
+          "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Li_Boosting_Class_Representation_via_Semantically_Related_Instances_for_Robust_Long-Tailed_ICCV_2025_paper.html",
+          "accepted": true,
+          "reason": "exact_title_on_official_publication_page"
+        }
+      ],
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Li_Boosting_Class_Representation_via_Semantically_Related_Instances_for_Robust_Long-Tailed_ICCV_2025_paper.html",
+      "reason": "exact_title_on_official_publication_page"
+    },
+    {
+      "id": "lab-d99ee9ba4a13",
+      "title": "Cracking the Code of Hallucination in LVLMs with Vision-aware Head Divergence",
+      "status": "success",
+      "abstract": "Large vision-language models (LVLMs) have made substantial progress in integrating large language models (LLMs) with visual inputs, enabling advanced multimodal reasoning. Despite their success, a persistent challenge is hallucination—where generated text fails to accurately reflect visual content—undermining both accuracy and reliability. Existing methods focus on alignment training or decoding refinements but primarily address symptoms at the generation stage without probing the underlying causes. In this work, we investigate the internal mechanisms driving hallucination in LVLMs, with an emphasis on the multi-head attention module. Specifically, we introduce Vision-aware Head Divergence (VHD), a metric that quantifies the sensitivity of attention head outputs to visual context. Based on this, our findings reveal the presence of vision-aware attention heads that are more attuned to visual information; however, the model’s overreliance on its prior language patterns is closely related to hallucinations. Building on these insights, we propose Vision-aware Head Reinforcement (VHR), a training-free approach to mitigate hallucination by enhancing the role of vision-aware attention heads. Extensive experiments demonstrate that our method achieves superior performance compared to state-of-the-art approaches in mitigating hallucinations, while maintaining high efficiency with negligible additional time overhead. The code is available at https://github.com/jinghan1he/VHR .",
+      "attempts": [
+        {
+          "url": "https://aclanthology.org/2025.acl-long.175/",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-9b5b6962d01a185cbc14acb35a1bf02fcf786709b2ab3030c4f83aea3085d161.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "Cracking the Code of Hallucination in LVLMs with Vision-aware Head Divergence",
+          "abstract": "Large vision-language models (LVLMs) have made substantial progress in integrating large language models (LLMs) with visual inputs, enabling advanced multimodal reasoning. Despite their success, a persistent challenge is hallucination—where generated text fails to accurately reflect visual content—undermining both accuracy and reliability. Existing methods focus on alignment training or decoding refinements but primarily address symptoms at the generation stage without probing the underlying causes. In this work, we investigate the internal mechanisms driving hallucination in LVLMs, with an emphasis on the multi-head attention module. Specifically, we introduce Vision-aware Head Divergence (VHD), a metric that quantifies the sensitivity of attention head outputs to visual context. Based on this, our findings reveal the presence of vision-aware attention heads that are more attuned to visual information; however, the model’s overreliance on its prior language patterns is closely related to hallucinations. Building on these insights, we propose Vision-aware Head Reinforcement (VHR), a training-free approach to mitigate hallucination by enhancing the role of vision-aware attention heads. Extensive experiments demonstrate that our method achieves superior performance compared to state-of-the-art approaches in mitigating hallucinations, while maintaining high efficiency with negligible additional time overhead. The code is available at https://github.com/jinghan1he/VHR .",
+          "authors": [
+            "Jinghan He",
+            "Kuan Zhu",
+            "Haiyun Guo",
+            "Junfeng Fang",
+            "Zhenglin Hua",
+            "Yuheng Jia",
+            "Ming Tang",
+            "Tat-Seng Chua",
+            "Jinqiao Wang"
+          ],
+          "doi": "10.18653/v1/2025.acl-long.175",
+          "source_url": "https://aclanthology.org/2025.acl-long.175/",
+          "accepted": true,
+          "reason": "exact_title_on_official_publication_page"
+        }
+      ],
+      "source_url": "https://aclanthology.org/2025.acl-long.175/",
+      "reason": "exact_title_on_official_publication_page"
+    },
+    {
+      "id": "lab-cafae06c3f4f",
+      "title": "Efficient and Robust Freeway Traffic State Estimation under Oblique Grid using Vehicle Trajectory Data",
+      "status": "no_abstract",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://arxiv.org/abs/2411.05842",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-2e347275d4098e2e7ae4cb6efddc76129e934ca5576ee757a0d9271de92c46dd.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "Efficient and Robust Freeway Traffic Speed Estimation under Oblique Grid using Vehicle Trajectory Data",
+          "abstract": "Accurately estimating spatiotemporal traffic states on freeways is a significant challenge due to limited sensor deployment and potential data corruption. In this study, we propose an efficient and robust low-rank model for precise spatiotemporal traffic speed state estimation (TSE) using lowpenetration vehicle trajectory data. Leveraging traffic wave priors, an oblique grid-based matrix is first designed to transform the inherent dependencies of spatiotemporal traffic states into the algebraic low-rankness of a matrix. Then, with the enhanced traffic state low-rankness in the oblique matrix, a low-rank matrix completion method is tailored to explicitly capture spatiotemporal traffic propagation characteristics and precisely reconstruct traffic states. In addition, an anomaly-tolerant module based on a sparse matrix is developed to accommodate corrupted data input and thereby improve the TSE model robustness. Notably, driven by the understanding of traffic waves, the computational complexity of the proposed efficient method is only correlated with the problem size itself, not with dataset size and hyperparameter selection prevalent in existing studies. Extensive experiments demonstrate the effectiveness, robustness, and efficiency of the proposed model. The performance of the proposed method achieves up to a 12% improvement in Root Mean Squared Error (RMSE) in the TSE scenarios and an 18% improvement in RMSE in the robust TSE scenarios, and it runs more than 20 times faster than the state-of-the-art (SOTA) methods.",
+          "authors": [
+            "He, Yang",
+            "An, Chengchuan",
+            "Jia, Yuheng",
+            "Liu, Jiachao",
+            "Lu, Zhenbo",
+            "Xia, Jingxin"
+          ],
+          "doi": null,
+          "source_url": "https://arxiv.org/abs/2411.05842",
+          "accepted": false,
+          "reason": "title_mismatch_requires_review"
+        }
+      ],
+      "reason": "pages_returned_no_verified_abstract"
+    },
+    {
+      "id": "lab-60280e69a6e3",
+      "title": "When Missingness Meets Anomalies: A Tailored Low-rank Tensor Completion Approach for Traffic Data Recovery",
+      "status": "not_found",
+      "abstract": null,
+      "attempts": [],
+      "candidates": [],
+      "reason": "exact_title_web_search_found_no_verifiable_publication_page"
+    },
+    {
+      "id": "lab-10ec9a4b941d",
+      "title": "Partial Label Learning with Dissimilarity Propagation guided Candidate Label Shrinkage",
+      "status": "success",
+      "abstract": "In partial label learning (PLL), each sample is associated with a group of candidate labels, among which only one label is correct. The key of PLL is to disambiguate the candidate label set to find the ground-truth label. To this end, we first construct a constrained regression model to capture the confidence of the candidate labels, and multiply the label confidence matrix by its transpose to build a second-order similarity matrix, whose elements indicate the pairwise similarity relationships of samples globally. Then we develop a semantic dissimilarity matrix by considering the complement of the intersection of the candidate label set, and further propagate the initial dissimilarity relationships to the whole data set by leveraging the local geometric structure of samples. The similarity and dissimilarity matrices form an adversarial relationship, which is further utilized to shrink the solution space of the label confidence matrix and promote the dissimilarity matrix. We finally extend the proposed model to a kernel version to exploit the non-linear structure of samples and solve the proposed model by the inexact augmented Lagrange multiplier method. By exploiting the adversarial prior, the proposed method can significantly outperformstate-of-the-art PLL algorithms when evaluated on 10 artificial and 7 real-world partial label data sets. We also prove the effectiveness of our method with some theoretical guarantees. The code is publicly available at https://github.com/Yangfc-ML/DPCLS.",
+      "attempts": [
+        {
+          "url": "https://papers.neurips.cc/paper_files/paper/2023/hash/6b97236d90d945be7c58268207a14f4f-Abstract-Conference.html",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-98fc0b63d35ff312e050a7072d6ad55f89744bfe7ce84bd13030d1aed621f2e4.html"
+        },
+        {
+          "url": "https://doi.org/10.52202/075280-1481",
+          "http": 200,
+          "status": "cached",
+          "file": "api-page-eb5428f6a52e83eb9f637aad81d2c7a39d812e22dc64a47d7913356e37f314dc.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "Partial Label Learning with Dissimilarity Propagation guided Candidate Label Shrinkage",
+          "abstract": "In partial label learning (PLL), each sample is associated with a group of candidate labels, among which only one label is correct. The key of PLL is to disambiguate the candidate label set to find the ground-truth label. To this end, we first construct a constrained regression model to capture the confidence of the candidate labels, and multiply the label confidence matrix by its transpose to build a second-order similarity matrix, whose elements indicate the pairwise similarity relationships of samples globally. Then we develop a semantic dissimilarity matrix by considering the complement of the intersection of the candidate label set, and further propagate the initial dissimilarity relationships to the whole data set by leveraging the local geometric structure of samples. The similarity and dissimilarity matrices form an adversarial relationship, which is further utilized to shrink the solution space of the label confidence matrix and promote the dissimilarity matrix. We finally extend the proposed model to a kernel version to exploit the non-linear structure of samples and solve the proposed model by the inexact augmented Lagrange multiplier method. By exploiting the adversarial prior, the proposed method can significantly outperformstate-of-the-art PLL algorithms when evaluated on 10 artificial and 7 real-world partial label data sets. We also prove the effectiveness of our method with some theoretical guarantees. The code is publicly available at https://github.com/Yangfc-ML/DPCLS.",
+          "authors": [
+            "Jia, Yuheng",
+            "Yang, Fuchao",
+            "Dong, Yongqiang"
+          ],
+          "doi": "10.52202/075280-1481",
+          "source_url": "https://papers.neurips.cc/paper_files/paper/2023/hash/6b97236d90d945be7c58268207a14f4f-Abstract-Conference.html",
+          "accepted": true,
+          "reason": "exact_title_on_official_publication_page"
+        }
+      ],
+      "reason": "exact_title_on_official_publication_page",
+      "source_url": "https://papers.neurips.cc/paper_files/paper/2023/hash/6b97236d90d945be7c58268207a14f4f-Abstract-Conference.html"
+    }
+  ]
+}

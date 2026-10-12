@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2123729354",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_positive",
+      "reason_zh": "摘要描述通过调节窗口大小权衡画质平滑与缓冲占用平滑，但未说明求解帕累托解集；存在两个相互制约的指标本身不足以满足词表的多目标优化定义，应删除该明确选择并局部弃权。",
+      "keyword_id": "multi-objective-optimization",
+      "evidence_field": "abstract",
+      "exact_quote": "The smoothness of both picture quality and buffer occupancy can be gracefully achieved by regulating the size of the window."
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "multi-objective-optimization"
+    ],
+    "upsert_annotations": [],
+    "input_issues": [],
+    "abstentions": [
+      {
+        "reason_zh": "摘要仅交代调节窗口以权衡两个平滑性指标，未交代帕累托解集求解机制，不足以确认词表中的多目标优化。",
+        "keyword_id": "multi-objective-optimization"
+      }
+    ]
+  }
+}

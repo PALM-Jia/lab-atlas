@@ -1,0 +1,46 @@
+{
+  "paper_id": "W2964051675",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "For graph-based semi-supervised learning",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要开篇点明图半监督学习设定，标题也含Semi-Supervised Learning。"
+    },
+    {
+      "keyword_id": "graph-neural-networks",
+      "exact_quote": "graph convolutional networks (GCNs), which nicely integrate local vertex features and graph topology in the convolutional layers.",
+      "evidence_field": "abstract",
+      "reason_zh": "以GCN为研究对象，图卷积在图上聚合顶点特征与拓扑。"
+    },
+    {
+      "keyword_id": "pseudo-label-self-training",
+      "exact_quote": "we propose both co-training and self-training approaches to train GCNs.",
+      "evidence_field": "abstract",
+      "reason_zh": "明确提出self-training训练GCN，将模型预测作为后续训练信号。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "Our approaches significantly improve GCNs in learning with very few labels",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要强调在极少标签下改进GCN，监督信号不完整，属于弱监督学习设定。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "the graph convolution of the GCN model is actually a special form of Laplacian smoothing",
+      "evidence_field": "abstract",
+      "reason_zh": "论文指出图卷积是拉普拉斯平滑，利用图拉普拉斯结构对顶点特征施加几何一致性约束。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "classifier-ensemble",
+      "reason_zh": "摘要提到co-training，但未说明结合多个分类器预测或按样本分配专家，无法确定构成分类器集成。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "reason_zh": "co-training通常与多视图学习相关，但摘要未提及多个互补视图或显式联合利用视图关系，无法确定。"
+    }
+  ],
+  "input_issues": []
+}

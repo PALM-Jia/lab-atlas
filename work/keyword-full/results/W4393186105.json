@@ -1,0 +1,19 @@
+{
+  "paper_id": "W4393186105",
+  "annotations": [
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "A multi-view network is designed to fuse information from the original underwater images and the MT maps",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确设计多视图网络融合原始水下图像与介质透射图两种视图，并联合利用视图间关系，符合多视图学习定义。"
+    },
+    {
+      "keyword_id": "underwater-images",
+      "exact_quote": "Underwater Images",
+      "evidence_field": "title",
+      "reason_zh": "标题直接以水下图像为研究对象，摘要也围绕水下成像退化开展超分辨率任务，符合应用对象定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

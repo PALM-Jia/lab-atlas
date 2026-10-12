@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2153677638",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "automated detection of 101 semantic concepts in multimedia",
+      "evidence_field": "title",
+      "reason_zh": "论文任务是对多媒体中的101个语义概念进行自动检测，使用概念词典作为待识别的多个语义标记，属于多标记识别场景。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "2 unimodal analysis experiments, 2 multimodal analysis experiments, and 1 combined analysis experiment",
+      "evidence_field": "abstract",
+      "reason_zh": "将通用视频索引分解为单模态、多模态及组合分析实验，显式联合利用多种媒体模态/特征视图，符合多视图学习的数据设定。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,40 @@
+{
+  "paper_id": "W1875623881",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_positive",
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "extended to more challenging constraint propagation on multi-source data where each pairwise constraint is defined over a pair of data points from different sources",
+      "evidence_field": "abstract",
+      "reason_zh": "不同来源数据点之间的约束与跨模态检索不保证同一对象具有多个互补特征视图；摘要未交代词表要求的同对象多视图设定。"
+    },
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "our approach actually provides an efficient solution for exhaustively propagating pairwise constraints throughout the entire dataset.",
+      "evidence_field": "abstract",
+      "reason_zh": "以有限成对约束传播至全部样本作为监督，属于不完整监督条件，遗漏弱监督设定。"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "multi-view-learning"
+    ],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "our approach actually provides an efficient solution for exhaustively propagating pairwise constraints throughout the entire dataset.",
+        "evidence_field": "abstract",
+        "reason_zh": "利用已知成对约束向整个数据集传播监督关系，以不完整监督指导全部样本学习。"
+      }
+    ],
+    "abstentions": [
+      {
+        "keyword_id": "multi-view-learning",
+        "reason_zh": "多源跨对象约束未明确同一对象具有互补视图，不能确定符合多视图学习设定。"
+      }
+    ],
+    "input_issues": []
+  }
+}

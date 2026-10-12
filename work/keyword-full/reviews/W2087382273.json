@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2087382273",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "用户反馈作为有限监督指导文档主题建模，是实质的不完整监督设定；词表弱监督定义覆盖有限标注，不需论文另称弱监督。",
+      "exact_quote": "Centered around its semi-supervised formulation, UTOPIAN enables users to interact with the topic modeling method and steer the result in a user-driven manner.",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "Centered around its semi-supervised formulation, UTOPIAN enables users to interact with the topic modeling method and steer the result in a user-driven manner.",
+        "evidence_field": "abstract",
+        "reason_zh": "用户反馈作为有限监督指导文档主题建模，是实质的不完整监督设定；词表弱监督定义覆盖有限标注，不需论文另称弱监督。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

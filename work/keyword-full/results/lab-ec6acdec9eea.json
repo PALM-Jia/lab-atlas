@@ -1,0 +1,25 @@
+{
+  "paper_id": "lab-ec6acdec9eea",
+  "annotations": [
+    {
+      "keyword_id": "latent-reasoning",
+      "exact_quote": "We propose PLUME, a latent reasoning framework that advances UME by replacing verbalized CoT with a short autoregressive rollout of continuous latent states.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确提出 PLUME 是 latent reasoning 框架，用连续潜在状态的自回归 rollout 替代显式 CoT，属于以连续潜在状态执行中间推理。"
+    },
+    {
+      "keyword_id": "multimodal-retrieval",
+      "exact_quote": "Universal multimodal embedding (UME) maps heterogeneous inputs into a shared retrieval space with a single model.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要开篇定义 UME 将异构输入映射到共享检索空间，且后文面向视频与视觉文档检索，符合多模态检索任务。"
+    },
+    {
+      "keyword_id": "large-vision-language-models",
+      "exact_quote": "Recent approaches improve UME by generating explicit chain-of-thought (CoT) rationales before extracting embeddings, enabling multimodal large language models to better infer complex query intent.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以 multimodal large language models 作为推理核心/组件，研究其显式 CoT 与潜在推理适配，符合视觉语言大模型证据。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

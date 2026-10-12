@@ -1,0 +1,19 @@
+{
+  "paper_id": "W4307723017",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "subspace-clustering",
+      "reason_zh": "标题中的Self-representative可能暗示自表达关系，但未说明按潜在子空间进行分组或聚类任务，缺少研究任务证据。"
+    },
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "reason_zh": "标题含factorization，但未说明因子非负，无法确认是非负矩阵分解。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "标题含factorization，但未显式声明低秩约束或低秩近似，且一般矩阵分解不自动计入。"
+    }
+  ],
+  "input_issues": []
+}

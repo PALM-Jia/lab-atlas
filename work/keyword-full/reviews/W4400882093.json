@@ -1,0 +1,26 @@
+{
+  "paper_id": "W4400882093",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "题目以成对约束作为半监督聚类信号，属于有限、不完整关系监督替代完整实例真值的弱监督条件。",
+      "exact_quote": "semi-supervised clustering with pairwise constraint propagation",
+      "evidence_field": "title"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "semi-supervised clustering with pairwise constraint propagation",
+        "evidence_field": "title",
+        "reason_zh": "题目以成对约束作为半监督聚类信号，属于有限、不完整关系监督替代完整实例真值的弱监督条件。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "paper_id": "W3149839747",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "unsupported_evidence",
+      "keyword_id": "classifier-ensemble",
+      "reason_zh": "摘要综述深度模型集成并列出融合策略，但未说明被集成模型是分类器或任务为分类；不能从一般模型集成直接推定分类器集成。",
+      "exact_quote": "",
+      "evidence_field": null
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "classifier-ensemble"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "classifier-ensemble",
+        "reason_zh": "摘要仅明确多个深度模型的集成与泛化，没有分类器预测或分类任务证据，保留弃权。"
+      }
+    ],
+    "input_issues": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "paper_id": "W2152322845",
+  "annotations": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "We first propose that a ‘local’ scale should be used to compute the affinity between each pair of points.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要提出用局部尺度计算每对点间亲和度，实质构造/修正样本亲和矩阵与图结构，满足图结构学习定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "dimensionality-reduction",
+      "reason_zh": "摘要提到特征向量结构，但任务为谱聚类与自动确定簇数，未提出以维度压缩为目标的显式低维映射。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "摘要使用亲和度与特征向量，但未提出图拉普拉斯、邻域或流形正则项来约束学习结果。"
+    }
+  ],
+  "input_issues": []
+}

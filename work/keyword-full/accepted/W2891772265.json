@@ -1,0 +1,22 @@
+{
+  "paper_id": "W2891772265",
+  "annotations": [
+    {
+      "keyword_id": "person-reidentification",
+      "exact_quote": "Person re-identification is a fundamental task in many computer vision and image understanding systems.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要开篇明确本文任务是行人重识别，并指出不同摄像头视角外观变化带来的挑战。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "contrastive-learning",
+      "reason_zh": "摘要仅提成对约束和距离度量学习，未说明采用对比学习式的吸引/区分表示目标或对比损失，无法确认满足对比学习定义。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "成对约束可视为弱监督线索，但摘要未说明其替代实例级真值并作为实质监督条件，无法确定满足弱监督学习定义。"
+    }
+  ],
+  "input_issues": []
+}

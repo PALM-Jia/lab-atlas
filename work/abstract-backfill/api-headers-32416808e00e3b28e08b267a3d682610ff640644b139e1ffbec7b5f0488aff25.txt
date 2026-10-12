@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 47430
+Connection: keep-alive
+Date: Sun, 11 Oct 2026 20:15:33 GMT
+x-amzn-Remapped-Date: Sun, 11 Oct 2026 20:15:33 GMT
+x-amzn-RequestId: 4d2520de-4635-48be-a022-f0c5240930b7
+Access-Control-Allow-Origin: *
+x-amzn-Remapped-Content-Length: 47430
+x-amzn-Remapped-Connection: keep-alive
+x-amz-apigw-id: FGIv6EKQPHcEskA=
+x-amzn-Remapped-Server: gunicorn
+X-Cache: Miss from cloudfront
+Via: 1.1 835186e0609daf82a127075915b23764.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: CDG50-P5
+X-Amz-Cf-Id: pEaEjZfvZ93k_-jRdfwaroBiyICVim63K-lwem4J2Y9GntyOl2wu0A==
+

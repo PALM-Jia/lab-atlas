@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2002469984",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "nonnegative matrix factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题直接提出非负矩阵分解，摘要进一步说明用L21范数构建鲁棒NMF，属于论文核心方法，满足非负矩阵分解定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

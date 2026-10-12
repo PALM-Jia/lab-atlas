@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2019338222",
+  "annotations": [
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "multiple features, e.g., spectral, texture, and shape features, are employed to represent pixels from different perspectives",
+      "evidence_field": "abstract",
+      "reason_zh": "同一像素由光谱、纹理、形状等多个互补特征/视角表示，且摘要后续将其联合组合，符合多视图学习设定。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "obtain a unified low-dimensional representation of these multiple features for subsequent classification",
+      "evidence_field": "abstract",
+      "reason_zh": "明确以获得多特征统一的低维表示用于后续分类为目标，属于显式低维嵌入/降维。"
+    },
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral Remote Sensing Image Classification",
+      "evidence_field": "title",
+      "reason_zh": "研究对象为高光谱遥感图像分类，符合高光谱图像应用对象。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

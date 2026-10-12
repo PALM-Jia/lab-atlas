@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2136602355\",\"annotations\":[{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"This brief proposes a bayesian approach to ELM, which presents some advantages over other approaches: it allows the introduction of a priori knowledge; obtains the confidence intervals (CIs) without the need of applying methods that are computationally intensive, e.g., bootstrap; and presents high generalization capabilities.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确提出对ELM的贝叶斯方法，引入先验知识并据此获得置信区间，属于通过先验与概率模型进行后验估计或近似推断的研究。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

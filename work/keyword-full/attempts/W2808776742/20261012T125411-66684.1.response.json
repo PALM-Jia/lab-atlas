@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2808776742\",\"annotations\":[{\"keyword_id\":\"dimensionality-reduction\",\"exact_quote\":\"As an unsupervised dimensionality reduction method\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将PCA/本文方法置于无监督降维语境，并提出学习HSI的内在低维特征，满足显式低维映射或维度压缩任务。\"},{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"by superpixel segmentation\",\"evidence_field\":\"abstract\",\"reason_zh\":\"方案实质采用超像素分割划分同质区域并引入空间上下文，属于定义包含的超像素分割。\"},{\"keyword_id\":\"hyperspectral-images\",\"exact_quote\":\"Hyperspectral Imagery\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以高光谱图像为处理对象，摘要也围绕HSI分类与特征提取展开。\"}],\"abstentions\":[{\"keyword_id\":\"low-rank-modeling\",\"reason_zh\":\"摘要只称低维/主成分特征，未明确矩阵或张量低秩约束、分解或近似表示，无法确认满足低秩建模定义。\"}],\"input_issues\":[]}"
+}

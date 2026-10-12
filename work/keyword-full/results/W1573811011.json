@@ -1,0 +1,19 @@
+{
+  "paper_id": "W1573811011",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "We present a semi-supervised classification algorithm that learns from dissimilarity and similarity information on labeled and unlabeled data.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确该算法为半监督分类，结合有标注和无标注数据进行学习。"
+    },
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "exact_quote": "learns from dissimilarity and similarity information on labeled and unlabeled data",
+      "evidence_field": "abstract",
+      "reason_zh": "利用成对不相似/相似监督信息，并在有标注与无标注数据上学习，符合成对约束（含不相似关系）向无标注样本扩展的设定。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

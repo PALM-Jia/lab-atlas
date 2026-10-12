@@ -1,0 +1,38 @@
+{
+  "paper_id": "W2046025323",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "Consensus clustering (also known as aggregation of clustering) can improve clustering robustness, deal with distributed and heterogeneous data sources and make use of multiple clustering criteria.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以consensus clustering/aggregation of clustering为研究任务，旨在融合多个聚类结果实现共识划分，符合集成聚类定义。"
+    },
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "formulated within the framework of nonnegative matrix factorization (NMF)",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明将consensus与semi-supervised clustering放在NMF框架下构建算法，NMF是论文实质采用的方法。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "Semi-supervised clustering can integrate various forms of background knowledge into clustering.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文研究半监督聚类，将背景知识作为监督信息整合进聚类，属于结合有限监督与未标注样本的半监督学习设定。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "federated-learning",
+      "reason_zh": "摘要仅称consensus clustering可处理distributed and heterogeneous data sources，未说明多客户端保留本地原始数据并以模型更新协作训练，证据不足。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "摘要仅提semi-supervised clustering整合various forms of background knowledge，未明确监督信号不完整、不精确、粗粒度或不准确，无法判定为弱监督学习。"
+    },
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "reason_zh": "摘要仅笼统提background knowledge，未说明must-link/cannot-link或其传播扩展，机制证据不足。"
+    }
+  ],
+  "input_issues": []
+}

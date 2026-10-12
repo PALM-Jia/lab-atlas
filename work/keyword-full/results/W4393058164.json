@@ -1,0 +1,13 @@
+{
+  "paper_id": "W4393058164",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "nonnegative matrix factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以非负矩阵分解为研究主题，并涵盖其算法与应用。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

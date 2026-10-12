@@ -1,0 +1,31 @@
+{
+  "paper_id": "lab-d93ee5aa7a9a",
+  "annotations": [
+    {
+      "keyword_id": "partial-label-learning",
+      "exact_quote": "Partial label learning (PLL) is a significant weakly supervised learning framework, where each training example corresponds to a set of candidate labels and only one label is the ground-truth label.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要定义 PLL 为每个训练样例对应候选标签集合且仅一个真标签，并研究部分标签聚类，属于偏标记学习设定。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "Partial label learning (PLL) is a significant weakly supervised learning framework, where each training example corresponds to a set of candidate labels and only one label is the ground-truth label.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将 PLL 称为弱监督学习框架，并将候选标签的不完整监督作为实质研究条件。"
+    },
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "exact_quote": "Moreover, we propagate the initial must-link and cannot-link constraints based on an adversarial prior promoted dual-graph learning approach.",
+      "evidence_field": "abstract",
+      "reason_zh": "方法显式传播初始 must-link 与 cannot-link 成对约束，符合扩展成对监督关系的定义。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "we first construct a weight matrix of examples based on their relationships in the feature space and disambiguate the candidate labels to estimate the ground-truth label based on the weight matrix.",
+      "evidence_field": "abstract",
+      "reason_zh": "方法基于样本特征空间关系构建并联合优化样本权重矩阵，属于学习/构建样本间亲和结构。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2102625537\",\"annotations\":[{\"keyword_id\":\"multi-objective-optimization\",\"exact_quote\":\"CEC09 unconstrained MOP test instances\",\"evidence_field\":\"title\",\"reason_zh\":\"标题以 CEC09 无约束 MOP 测试实例为对象，MOP 指多目标优化问题；摘要说明对 MOEA/D 子问题资源分配策略进行研究，属于多目标优化任务。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

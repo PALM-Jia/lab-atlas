@@ -1,0 +1,38 @@
+{
+  "paper_id": "W2149908819",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "we consider constrained clustering with pairwise constraints, which specify some pairs of objects from the same cluster or not.",
+      "evidence_field": "abstract",
+      "reason_zh": "使用成对约束这一有限监督信息指导全部样本的聚类，符合半监督学习中以有限成对约束指导学习的定义。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "it can handle both must-link and cannot-link constraints",
+      "evidence_field": "abstract",
+      "reason_zh": "must-link/cannot-link成对约束是不完整的成对监督信号，替代完整实例标签并作为聚类实质条件，符合弱监督学习。"
+    },
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "exact_quote": "it can propagate pairwise constraints effectively",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确框架能有效传播成对约束，属于对must-link/cannot-link监督关系的扩展与传播。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "摘要提及学习核与数据邻近结构，但未明确学习或修正图边、邻接或亲和矩阵，无法确认图结构学习。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "仅有邻近结构与谱核学习表述，未说明图拉普拉斯或流形正则化约束，证据不足。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "reason_zh": "核学习可能隐含表示，但摘要未声明低维映射或降维目标，不能确认降维任务。"
+    }
+  ],
+  "input_issues": []
+}

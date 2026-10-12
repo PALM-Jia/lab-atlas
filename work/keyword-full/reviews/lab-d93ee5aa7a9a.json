@@ -1,0 +1,26 @@
+{
+  "paper_id": "lab-d93ee5aa7a9a",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "semi-supervised-learning",
+      "evidence_field": "abstract",
+      "exact_quote": "which takes advantage of the limited available partial labels to improve the clustering performance.",
+      "reason_zh": "用有限可用偏标记及其导出的成对约束指导聚类，符合有限监督指导全部样本的半监督设定。"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "semi-supervised-learning",
+        "evidence_field": "abstract",
+        "exact_quote": "which takes advantage of the limited available partial labels to improve the clustering performance.",
+        "reason_zh": "用有限可用偏标记及其导出的成对约束指导聚类，符合有限监督指导全部样本的半监督设定。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "paper_id": "W18701524",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "摘要未说明判别正则为图拉普拉斯或邻域几何一致性约束，不能仅由谱聚类名称推定。"
+    }
+  ],
+  "input_issues": []
+}

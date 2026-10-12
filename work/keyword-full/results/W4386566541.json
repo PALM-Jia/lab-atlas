@@ -1,0 +1,19 @@
+{
+  "paper_id": "W4386566541",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "Deep Clustering Optimization Method",
+      "evidence_field": "title",
+      "reason_zh": "标题明确提出一种面向图神经网络的深度聚类优化方法，深度聚类构成研究任务。"
+    },
+    {
+      "keyword_id": "graph-neural-networks",
+      "exact_quote": "Graph Neural Networks",
+      "evidence_field": "title",
+      "reason_zh": "标题表明方法面向图神经网络，GNN是其方案中的主要对象或组件。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

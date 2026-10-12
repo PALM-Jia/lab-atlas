@@ -1,0 +1,13 @@
+{
+  "paper_id": "W4412107039",
+  "annotations": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "First, a general hypergraph construction strategy is proposed to overcome the limitation of existing methods that are often constrained by specific hypergraph data types. Next, an adaptive hypergraph optimization mechanism is designed to enhance coclustering performance.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要提出通用超图构建策略与自适应超图优化机制，对超图结构（超边/关联）进行学习或修正以提升共聚类，符合图结构学习定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

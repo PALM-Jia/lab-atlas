@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2023685757",
+  "annotations": [
+    {
+      "keyword_id": "multi-objective-optimization",
+      "exact_quote": "It decomposes a multi-objective optimization problem (MOP) into a set of scalar subproblems using uniformly distributed aggregation weight vectors",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以多目标优化问题为研究对象，采用分解为标量子问题并追求帕累托最优解集的设定，符合多目标优化定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

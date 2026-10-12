@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2001045763\",\"annotations\":[{\"keyword_id\":\"hyperspectral-images\",\"exact_quote\":\"hyperspectral images\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以高光谱图像作为目标检测的数据对象，符合处理密集光谱波段图像的定义。\"}],\"abstentions\":[{\"keyword_id\":\"domain-adaptation\",\"reason_zh\":\"标题仅提到Unsupervised transfer learning，未说明源域与目标域的分布差异及具体适配过程，无法确定属于域适应而非其他迁移学习。\"}],\"input_issues\":[]}"
+}

@@ -1,0 +1,19 @@
+{
+  "paper_id": "lab-57c2d8cba676",
+  "annotations": [
+    {
+      "keyword_id": "hallucination-mitigation",
+      "exact_quote": "we propose a novel hallucination mitigation method that enhances visual evidence based on Inter-Layer Visual Attention Discrepancy (ILVAD)",
+      "evidence_field": "abstract",
+      "reason_zh": "论文明确提出一种缓解LVLM幻觉的方法，旨在减少生成内容与视觉证据不一致的问题。"
+    },
+    {
+      "keyword_id": "large-vision-language-models",
+      "exact_quote": "Large Vision-Language Models (LVLMs) have shown remarkable performance on a wide range of vision-language tasks.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以LVLM为研究对象，分析其视觉注意力并缓解其幻觉，属于视觉输入的大型多模态语言模型。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

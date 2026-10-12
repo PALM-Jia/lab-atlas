@@ -1,0 +1,30 @@
+{
+  "paper_id": "W2033421762",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "on-line semi-supervised learning algorithm",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将在线半监督学习算法作为提出的方法，并利用有标注与无标注样本，满足半监督学习设定。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "multiple-instance learning resolves the uncertainties where to take positive updates during tracking",
+      "evidence_field": "abstract",
+      "reason_zh": "论文把多实例学习作为方案组成，以包级/不确定的监督处理正更新，符合弱监督中不完整、粗粒度监督的实质条件。"
+    },
+    {
+      "keyword_id": "classifier-ensemble",
+      "exact_quote": "multiple-instance boosting",
+      "evidence_field": "title",
+      "reason_zh": "标题表明方法为 multiple-instance boosting，boosting 通过组合多个基分类器预测完成分类，符合分类器集成定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "pseudo-label-self-training",
+      "reason_zh": "摘要只把 self-learning process 作为跟踪更新中可能漂移的背景提及，未说明模型预测被用作后续训练信号，无法确定满足伪标签/自训练定义。"
+    }
+  ],
+  "input_issues": []
+}

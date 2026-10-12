@@ -1,0 +1,30 @@
+{
+  "paper_id": "W3172516059",
+  "annotations": [
+    {
+      "keyword_id": "partial-label-learning",
+      "exact_quote": "Partial label learning deals with training examples each associated with a set of candidate labels, among which only one is valid.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以部分标记学习为研究设定：每个样例有候选标签集且仅一个为真，CENDA 面向该设定。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "Partial Label Dimensionality Reduction via Confidence-Based Dependence Maximization",
+      "evidence_field": "title",
+      "reason_zh": "标题直接指出对部分标记数据进行降维，摘要也说明学习投影矩阵并在投影特征空间中操作，满足显式低维映射与维度压缩目标。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "training examples each associated with a set of candidate labels, among which only one is valid",
+      "evidence_field": "abstract",
+      "reason_zh": "候选标签集仅一个有效，属于候选歧义这一不精确监督条件，且论文以该弱监督设定为实质研究问题。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "pseudo-label-self-training",
+      "reason_zh": "有候选标签置信度迭代更新线索，但未明确说明模型预测被用作后续伪标签训练信号，更像部分标记下的置信度估计/传播，证据不足。"
+    }
+  ],
+  "input_issues": []
+}

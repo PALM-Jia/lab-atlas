@@ -1,0 +1,11 @@
+{
+  "paper_id": "W1736339626",
+  "annotations": [],
+  "abstentions": [
+    {
+      "reason_zh": "摘要使用核范数作为协作相似度度量，但未说明通过低秩约束、分解或近似表示结构，无法确认低秩建模。",
+      "keyword_id": "low-rank-modeling"
+    }
+  ],
+  "input_issues": []
+}

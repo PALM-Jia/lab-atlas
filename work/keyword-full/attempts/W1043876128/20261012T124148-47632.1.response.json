@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W1043876128\",\"annotations\":[{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"Highway Traffic State Estimation With Mixed Connected and Conventional Vehicles\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确研究高速公路混合车流的交通状态估计，摘要进一步估计车辆总密度与流量，属于交通数据对象。\"},{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"we employ a Kalman filter for the estimation of the total density\",\"evidence_field\":\"abstract\",\"reason_zh\":\"采用 Kalman 滤波对总密度进行状态估计，属于基于概率状态模型的递推后验估计。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

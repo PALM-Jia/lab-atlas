@@ -1,0 +1,22 @@
+{
+  "paper_id": "W2149497493",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Non-negative matrix factorization with α-divergence",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以非负矩阵分解为研究对象，并包含α-散度设定，符合非负因子分解矩阵的定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "标题仅指明非负矩阵分解，未说明是否显式采用低秩约束或低秩近似，无法确认低秩建模这一独立维度。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "reason_zh": "标题未说明是否以显式低维映射或维度压缩为目标，仅凭NMF不能确定。"
+    }
+  ],
+  "input_issues": []
+}

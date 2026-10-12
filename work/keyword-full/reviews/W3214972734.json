@@ -1,0 +1,35 @@
+{
+  "paper_id": "W3214972734",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "标题明确研究半监督非负矩阵分解，有限监督这一研究条件也符合弱监督定义。",
+      "exact_quote": "semi-supervised",
+      "evidence_field": "title"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "semi-supervised",
+        "evidence_field": "title",
+        "reason_zh": "标题明确研究半监督非负矩阵分解，有限监督这一研究条件也符合弱监督定义。"
+      }
+    ],
+    "abstentions": [
+      {
+        "keyword_id": "dimensionality-reduction",
+        "reason_zh": "标题仅称用于 data representation，未明确低维映射或维度压缩目标，无法确定是否构成显式降维。"
+      },
+      {
+        "keyword_id": "low-rank-modeling",
+        "reason_zh": "标题只出现非负矩阵分解，未明确低秩约束或低秩近似目标，不能据此确认低秩建模。"
+      }
+    ],
+    "input_issues": []
+  }
+}

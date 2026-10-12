@@ -1,0 +1,24 @@
+{
+  "paper_id": "W2167799103",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperion hyperspectral data",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要以 Hyperion hyperspectral data 为研究对象，处理其密集光谱波段数据以支持农业指数，符合高光谱图像定义。"
+    },
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "fixing bad and outlier pixels, local destriping, atmospheric correction, and minimum noise fraction smoothing",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要将预处理界定为修复坏像素/异常像素、局部去条纹、大气校正和 MNF 平滑，旨在从受污染观测恢复可用数据，符合数据补全与恢复任务。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "dimensionality-reduction",
+      "reason_zh": "摘要提到 minimum noise fraction smoothing，但未说明显式低维映射或维度压缩目标，无法确定属于降维任务。"
+    }
+  ],
+  "input_issues": []
+}

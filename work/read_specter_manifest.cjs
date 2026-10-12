@@ -1,0 +1,1 @@
+const fs=require('node:fs');for(const n of ['specter2_base','specter2']){const m=JSON.parse(fs.readFileSync('work/'+n+'-manifest.json','utf8'));console.log(JSON.stringify({id:m.id,sha:m.sha,files:m.siblings.map(f=>({name:f.rfilename,size:f.size}))}));}

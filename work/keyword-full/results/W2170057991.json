@@ -1,0 +1,34 @@
+{
+  "paper_id": "W2170057991",
+  "annotations": [
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "transductive classi¯cation on the basis of the spectral hypergraph",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明在谱超图聚类方法基础上进行转导分类，即利用超图结构约束嵌入与分类，符合图/流形正则化的定义。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "develop algorithms for hypergraph embedding",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确开发超图嵌入算法，学习对象的嵌入表示，符合降维/嵌入任务定义。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "transductive classi¯cation",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要将转导分类列为贡献算法，转导分类在部分标注与未标注样本间进行推断，属于半监督学习设定。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "仅提到用超图表示复杂关系，未说明学习或修正样本间边、邻接或亲和矩阵；不满足图结构学习定义。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "摘要只提转导分类，未明确监督信号不完整、不精确或粗粒度并将其作为实质研究问题，证据不足以确认弱监督设定。"
+    }
+  ],
+  "input_issues": []
+}

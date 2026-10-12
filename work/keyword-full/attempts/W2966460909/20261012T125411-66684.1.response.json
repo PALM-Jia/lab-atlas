@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2966460909\",\"annotations\":[{\"keyword_id\":\"label-distribution-learning\",\"exact_quote\":\"Label distribution learning (LDL) is a novel machine learning paradigm to deal with label ambiguity issues\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要开篇定义LDL为处理标签歧义的学习范式，全文围绕LDL模型展开，属于本文核心研究任务。\"},{\"keyword_id\":\"label-correlation-modeling\",\"exact_quote\":\"we also exploit the label correlations in the proposed LDL model.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确说明在提出的LDL模型中利用标签相关性，属于显式建模标签间相关结构。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "W4411867306",
+  "annotations": [
+    {
+      "keyword_id": "graph-neural-networks",
+      "exact_quote": "Dual-View Graph Neural Network (D-GNN)",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确采用双视图图神经网络，并利用图注意力机制进行段级任务的可学习消息传递。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "as two different views, which capture semantic and Euclidean spatial relationships",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要将余弦相似度与欧氏距离热核作为两个不同视图，并联合用于图建模和一致性损失，符合多视图学习设定。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "摘要提到图注意力及两种相似度视图，但未明确学习或修正样本间边、邻接或亲和矩阵，证据不足。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "摘要仅提双视图一致性损失，未说明使用图拉普拉斯、超图或流形几何一致性约束，机制不确定。"
+    }
+  ],
+  "input_issues": []
+}

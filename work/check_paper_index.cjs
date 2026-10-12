@@ -1,0 +1,17 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
+const root=path.resolve(__dirname,'../outputs/paper-atlas');
+function boot(search='',data){const elements=new Map();const get=id=>{if(!elements.has(id))elements.set(id,{value:'',checked:false,innerHTML:'',textContent:'',href:'',listeners:{},addEventListener(name,fn){this.listeners[name]=fn;}});return elements.get(id);};const ctx={URL,URLSearchParams,location:{search},history:{replaceState(...args){ctx.latestURL=args[2];}},document:{getElementById:get},window:{}};vm.createContext(ctx);if(data)ctx.window.ATLAS_DATA=data;else vm.runInContext(fs.readFileSync(path.join(root,'data.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'search-match.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'papers.js'),'utf8'),ctx);return {ctx,get,data:ctx.window.ATLAS_DATA};}
+let app=boot();assert.equal(app.get('index-from').value,2023);assert.equal(app.get('index-external').checked,false);assert.match(app.get('index-list').innerHTML,/在网络中查看/);
+app=boot('?from=2010');assert.match(app.get('index-count').textContent,/144 篇 · 实验室 144 · 外部 0/);
+app=boot('?external=1&from=2010');assert.match(app.get('index-count').textContent,/1673 篇/);
+const p=(id,extra={})=>({id,title:id,lab:true,year:2026,authors:['A'],tags:['x'],links:[],match_status:'matched',...extra});
+const data={topics:[{id:'x',name:'主题 X'}],nodes:[p('old',{year:1990}),p('2011',{year:2011}),p('unknown',{year:null}),p('ext',{lab:false}),p('title',{authors:[],abstract:null,match_status:'unmatched'}),p('escape',{title:'<img src=x onerror=1>',authors:['A & B'],links:['javascript:alert(1)','https://example.org/?x="y"','data:text/html,x']})]};
+assert.match(boot('?search=semisupervised',{topics:[],nodes:[p('hyphen',{title:'Semi-supervised Learning'})]}).get('index-count').textContent,/1 篇/);
+app=boot('?from=2010&to=2010&unknown=0',data);assert.match(app.get('index-list').innerHTML,/>old</);assert.doesNotMatch(app.get('index-list').innerHTML,/>2011</);assert.match(app.get('index-count').textContent,/1 篇/);
+app=boot('?search=主题%20X&external=1&unknown=0&from=2010',data);assert.match(app.get('index-count').textContent,/5 篇/);
+app=boot('?status=title',data);assert.match(app.get('index-count').textContent,/1 篇/);assert.match(app.get('index-list').innerHTML,/>title</);
+app=boot('?search=A%20%26%20B&view=timeline&relation=semantic',data);const html=app.get('index-list').innerHTML;assert.match(html,/&lt;img/);assert.doesNotMatch(html,/<img|javascript:|data:text/);assert.match(html,/https:\/\/example.org\/\?x=&quot;y&quot;/);assert.match(app.get('return-network').href,/view=timeline/);assert.match(app.get('return-network').href,/relation=semantic/);assert.doesNotMatch(html,/view=timeline/);assert.match(html,/paper=escape/);
+app.get('index-external').checked=true;app.get('index-external').listeners.change();assert.match(app.ctx.latestURL,/external=1/);
+app.get('index-reset').listeners.click();assert.equal(app.get('index-search').value,'');assert.equal(app.get('index-external').checked,false);assert.equal(app.get('index-from').value,2023);
+app=boot('?from=2027&to=2020&unknown=0',data);assert.equal(app.get('index-from').value,2020);assert.equal(app.get('index-to').value,2020);assert.match(app.get('index-list').innerHTML,/无匹配论文/);
+console.log('PASS: real-data counts, standalone filters, older-year sentinel, safe links/escaping, network query preservation and reset.');

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W4311770445\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"Dynamic ensemble learning for multi-label classification\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确将多标记分类作为研究任务，即为实例预测可同时成立的多个标记。\"},{\"keyword_id\":\"classifier-ensemble\",\"exact_quote\":\"Dynamic ensemble learning for multi-label classification\",\"evidence_field\":\"title\",\"reason_zh\":\"标题表明采用集成学习处理多标记分类，属于结合多个基分类器预测完成分类的集成方法。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

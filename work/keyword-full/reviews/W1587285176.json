@@ -1,0 +1,44 @@
+{
+  "verdict": "revise",
+  "patch": {
+    "abstentions": [
+      {
+        "keyword_id": "subspace-clustering",
+        "reason_zh": "摘要提到多流形与低维子空间，但未明确按样本所属潜在子空间分组或说明自表达关系用于聚类，无法确定满足子空间聚类定义。"
+      }
+    ],
+    "input_issues": [],
+    "upsert_annotations": [
+      {
+        "evidence_field": "abstract",
+        "keyword_id": "dimensionality-reduction",
+        "reason_zh": "方法将原始高维数据显式表示于低维空间，并在该空间保持流形重构关系，实质采用维度压缩。",
+        "exact_quote": "It approximates the nonnegative data in an original high dimensional space with a linear representation in a low dimensional space by using the product of two nonnegative matrices."
+      },
+      {
+        "evidence_field": "abstract",
+        "keyword_id": "low-rank-modeling",
+        "reason_zh": "用两个非负矩阵的乘积建立原始高维数据的低维线性近似，显式利用低维矩阵分解表示数据结构。",
+        "exact_quote": "It approximates the nonnegative data in an original high dimensional space with a linear representation in a low dimensional space by using the product of two nonnegative matrices."
+      }
+    ],
+    "remove_ids": []
+  },
+  "issues": [
+    {
+      "evidence_field": "abstract",
+      "kind": "false_negative",
+      "keyword_id": "dimensionality-reduction",
+      "reason_zh": "提出的NMF聚类方法实质采用高维到低维线性表示，并保持原空间与低维空间的几何一致性，降维方法被遗漏。",
+      "exact_quote": "It approximates the nonnegative data in an original high dimensional space with a linear representation in a low dimensional space by using the product of two nonnegative matrices."
+    },
+    {
+      "evidence_field": "abstract",
+      "kind": "false_negative",
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "文本明确以矩阵乘积进行低维线性近似，符合矩阵低秩分解/近似的实质方法角色。",
+      "exact_quote": "It approximates the nonnegative data in an original high dimensional space with a linear representation in a low dimensional space by using the product of two nonnegative matrices."
+    }
+  ],
+  "paper_id": "W1587285176"
+}

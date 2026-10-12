@@ -1,0 +1,21 @@
+{
+  "paper_id": "W2903706803",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_positive",
+      "keyword_id": "subspace-clustering",
+      "reason_zh": "子空间聚类仅作为优化方法可适用的其他问题举例；本文实际构建并验证的是矩阵补全模型，没有说明实质采用子空间聚类，不应标注一般应用。",
+      "exact_quote": "Particularly, we show that the proposed regularizer as well as optimization method are suitable for other RM problems, such as subspace clustering based on low rank representation.",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "subspace-clustering"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "paper_id": "W4390885769",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "Clustering ensemble integrates multiple base clustering results to improve the stability and robustness of the single clustering method",
+      "evidence_field": "abstract",
+      "reason_zh": "论文研究聚类集成，融合多个基聚类结果以形成共识划分，符合集成聚类定义。"
+    },
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "ISDCE exploits the deep clustering algorithm with different initialization parameters to generate multiple diverse base clusterings.",
+      "evidence_field": "abstract",
+      "reason_zh": "方案在生成步骤实质使用深度聚类算法产生多个基聚类，依赖深度表示学习获得数据划分，符合深度聚类定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

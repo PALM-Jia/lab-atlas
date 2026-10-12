@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2271263562\",\"annotations\":[{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"The recently proposed low-rank representation (LRR) method has been empirically shown to be useful in various tasks such as motion segmentation, image segmentation, saliency detection and face recognition.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以低秩表示（LRR）方法为核心研究对象，并对其成功条件进行理论分析；引用句明确LRR为低秩表示方法，满足显式低秩表示/建模。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

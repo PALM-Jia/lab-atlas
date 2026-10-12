@@ -1,0 +1,9 @@
+{
+  "papers": 1673,
+  "vocabulary": 49,
+  "keyword_paper_edges": 5579,
+  "keyword_author_edges": 616,
+  "task_author_edges": 538,
+  "paper_relation_build_ms": 238,
+  "retrieval_profile_parity": true
+}

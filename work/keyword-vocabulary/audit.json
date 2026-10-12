@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.2",
+  "audit_date": "2026-10-12",
+  "auditor_role": "vocabulary_editor_programmatic_delta_validation_only",
+  "scope": {
+    "note_zh": "本次仅删除一个指定词条、同步覆盖候选及统计、重生成输出并运行现有程序验证；没有进行独立语义审计。",
+    "external_literature_or_network_used": false,
+    "source_or_production_files_modified": false
+  },
+  "verdict": "single_term_deletion_programmatic_checks_passed",
+  "previous_audit": {
+    "file": "audit.previous-50-keywords.json",
+    "sha256": "5c74f26e8d86a05ec561b80a8a41fd9ca72f41a9bb2aaff84a986c5a45f4304e",
+    "keyword_count": 50,
+    "status": "historical_superseded_not_current_validation"
+  },
+  "revision_accounting": {
+    "previous_keyword_count": 50,
+    "current_keyword_count": 49,
+    "removed_ids": [
+      "splicing-variant-prediction"
+    ],
+    "added_ids": [],
+    "unchanged_remaining_keywords": true,
+    "candidate_links_before": 337,
+    "candidate_links_after": 336
+  },
+  "delta_checks": {
+    "only_requested_keyword_removed": true,
+    "remaining_keyword_records_unchanged": true,
+    "no_active_removed_id_references": true,
+    "all_other_candidate_lists_unchanged": true,
+    "markdown_numbering_1_to_49": true
+  },
+  "affected_papers": [
+    {
+      "paper_id": "lab-bf934091a903",
+      "title": "Comprehensive review and assessment of multi-species splicing variant prediction: task-specific deep learning models and genomic foundation models",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "domain-adaptation"
+      ],
+      "uncovered_reason": "依用户要求删除剪接变异效应预测任务词；保留原有域适应候选，任务本身未覆盖。基因组基础模型未单列对象词，不等同于大语言模型。"
+    }
+  ],
+  "programmatic_validation": {
+    "validation_scope": "programmatic_structure_and_exact_text_only",
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "counts": {
+      "papers": 144,
+      "keywords": 49,
+      "dimensions": {
+        "research_task": 18,
+        "method": 15,
+        "research_setting": 10,
+        "application_object": 6
+      },
+      "substantive_abstracts": 113,
+      "title_only": 31,
+      "evidence_items": 93,
+      "coverage_rows": 144,
+      "papers_with_candidates": 137,
+      "papers_without_candidates": 7
+    },
+    "sha256": {
+      "lab-papers.json": "eeb84be27409832245ae05cd890a4fb19583675cf6e2fa446d0ee0840e8ae7f7",
+      "homepage-context.md": "e589f401451ab308b99a2846a1b9372aa44eac107b1138cd22112f7f51f3b1a1",
+      "vocabulary.json": "2b944d5e69161bd08d7c1a739f734398fd73cf2bb183f9b7d40cd6e0ab3df65d",
+      "coverage-review.json": "3fb299d8c7d987d0341c6794915879cff9f79243836cd4c5d025f8e3874bc049",
+      "vocabulary.md": "80b63154143a7b2592ba840bfd4e4972404320b01b3dbf0f22a40c8d1922724e"
+    },
+    "not_proved": [
+      "semantic synonymy",
+      "strict semantic parent containment",
+      "evidence role and definition fit",
+      "candidate correctness or completeness",
+      "publisher abstract completeness"
+    ],
+    "validator_sha256": "a3989ea3ee4b90659d25c39d955eef5c0d9b53e8e2b94cf9013ce46d5aa7ebcf",
+    "build_source_sha256": "9e26727e0be30e35a96832ed8970e7605777a778dd2583565fcba1f99f71e7ce"
+  },
+  "limitations_zh": [
+    "程序验证只证明结构、统计、引用原文匹配和本次删项范围；不证明独立语义审计通过。",
+    "137篇有候选、7篇无候选；候选不等于最终标注。"
+  ]
+}

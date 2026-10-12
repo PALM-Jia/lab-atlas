@@ -1,0 +1,40 @@
+{
+  "paper_id": "lab-b98b32a37a21",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "hyperspectral image (HSI)",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要以高光谱图像为研究对象，针对HSI的光谱变化并提升分类性能。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "local low-rank approximation with superpixel-guided locality preserving graph (LLRA-SLPG)",
+      "evidence_field": "abstract",
+      "reason_zh": "所提方法LLRA-SLPG显式采用局部低秩近似来恢复判别表示，属于低秩建模。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "a Laplacian graph is constructed from the superpixels to ensure that a typical pixel should be similar to its neighbors within the same superpixel",
+      "evidence_field": "abstract",
+      "reason_zh": "构造拉普拉斯图并约束同超像素邻居相似，保持局部流形结构，属图与流形正则化。"
+    },
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "clusters pixels of an HSI into several groups (i.e., superpixels)",
+      "evidence_field": "abstract",
+      "reason_zh": "将HSI像素聚类为超像素，属超像素分割，是所提方法的组成步骤。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "reason_zh": "仅提到训练像素极少，未明确说明是否联合利用未标注样本或成对约束进行半监督学习。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "仅有极少训练像素的线索，但未说明监督不完整或不精确被作为实质研究条件，证据不足。"
+    }
+  ],
+  "input_issues": []
+}

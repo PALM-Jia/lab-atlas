@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2156935079",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "Learning multi-label scene classification",
+      "evidence_field": "title",
+      "reason_zh": "标题明确表明研究任务是多标记场景分类，即学习为单个实例预测可同时成立的多个类别标记，符合多标记学习定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

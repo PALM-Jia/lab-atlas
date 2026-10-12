@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W1971454348\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"Multi-label classification (MLC) is the supervised learning problem where an instance may be associated with multiple labels.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要开篇明确将多标记分类定义为实例可关联多个标签的监督学习问题，符合多标记学习定义。\"},{\"keyword_id\":\"label-correlation-modeling\",\"exact_quote\":\"Modeling dependencies between labels allows MLC methods to improve their performance at the expense of an increased computational cost.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确建模标签间依赖关系，并围绕分类器链建模该依赖，显式满足标签相关性建模定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2529827714",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "traffic data imputation",
+      "evidence_field": "title",
+      "reason_zh": "标题明确指出研究交通数据补全/恢复任务，符合数据补全与恢复的定义。"
+    },
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "traffic data",
+      "evidence_field": "title",
+      "reason_zh": "标题将交通数据作为补全任务的数据对象，符合交通数据应用对象。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

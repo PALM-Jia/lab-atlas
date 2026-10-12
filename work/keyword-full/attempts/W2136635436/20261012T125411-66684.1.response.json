@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2136635436\",\"annotations\":[{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"Locally Consistent Concept Factorization for Document Clustering\",\"evidence_field\":\"title\",\"reason_zh\":\"所提 LCCF 以概念分解为核心，属于矩阵分解式低秩/近似表示，用于文档概念提取与聚类。\"},{\"keyword_id\":\"graph-manifold-regularization\",\"exact_quote\":\"By using the graph Laplacian to smooth the document-to-concept mapping\",\"evidence_field\":\"abstract\",\"reason_zh\":\"使用图拉普拉斯对文档到概念的映射进行平滑，以保持内在流形结构，符合图与流形正则化定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

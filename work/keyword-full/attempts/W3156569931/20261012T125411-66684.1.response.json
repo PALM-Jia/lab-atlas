@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W3156569931\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"Structured subspace learning-induced symmetric nonnegative matrix factorization\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以对称非负矩阵分解为方法核心，符合非负因子分解矩阵的定义。\"}],\"abstentions\":[{\"keyword_id\":\"subspace-clustering\",\"reason_zh\":\"标题仅含“subspace learning”，未说明按潜在子空间对样本进行分组的聚类任务。\"},{\"keyword_id\":\"dimensionality-reduction\",\"reason_zh\":\"标题有“subspace learning”，但未明确显式低维映射、嵌入或维度压缩目标。\"},{\"keyword_id\":\"low-rank-modeling\",\"reason_zh\":\"标题的“symmetric nonnegative matrix factorization”提示矩阵分解，但未明确低秩约束或低秩近似目标，非负矩阵分解本身不自动等同低秩建模。\"}],\"input_issues\":[]}"
+}

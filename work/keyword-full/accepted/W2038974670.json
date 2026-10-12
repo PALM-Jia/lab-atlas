@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2038974670",
+  "annotations": [
+    {
+      "keyword_id": "bayesian-inference",
+      "exact_quote": "Sparse Bayesian Learning",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以稀疏贝叶斯学习为核心方法，摘要说明该方法是RVM的扩展并用EM更新模型参数，属于基于概率模型的贝叶斯推断。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "Sparse kernel methods have been widely used in regression and classification applications.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要以稀疏核方法为研究对象并讨论其稀疏性，所扩展的RVM属于稀疏核表示方法，符合稀疏表示作为实质方法的角色。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

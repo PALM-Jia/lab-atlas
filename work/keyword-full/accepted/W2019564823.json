@@ -1,0 +1,18 @@
+{
+  "paper_id": "W2019564823",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Orthogonal nonnegative matrix tri-factorization for co-clustering",
+      "evidence_field": "title",
+      "reason_zh": "标题表明核心方法为带正交约束的非负矩阵三因子分解，对矩阵进行非负因子分解，属于非负矩阵分解的变体。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "标题仅提非负矩阵三因子分解，未显式声明低秩约束或低秩近似，不能由一般矩阵分解自动推断为低秩建模。"
+    }
+  ],
+  "input_issues": []
+}

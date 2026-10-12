@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2106334424",
+  "annotations": [
+    {
+      "keyword_id": "multi-objective-optimization",
+      "exact_quote": "Since 1985, various evolutionary approaches to multiobjective optimization have been developed that are capable of searching for multiple solutions concurrently in a single run.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确研究多目标优化，并围绕多个相互冲突目标与Pareto最优前沿展开，符合多目标优化定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

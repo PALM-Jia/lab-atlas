@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2470139095",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "Video Object Segmentation",
+      "evidence_field": "title",
+      "reason_zh": "论文研究视频对象分割，摘要进一步说明提供逐帧像素级真值分割，属于对图像像素划分区域或赋予像素级类别的分割任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

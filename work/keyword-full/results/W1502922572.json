@@ -1,0 +1,13 @@
+{
+  "paper_id": "W1502922572",
+  "annotations": [
+    {
+      "keyword_id": "bayesian-inference",
+      "exact_quote": "We focus on understanding the role of the stochastic process and how it is used to define a distribution over functions.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要描述高斯过程通过随机过程定义函数分布，并结合训练数据与边际似然学习超参数，符合先验建模与后验推断的贝叶斯推断定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

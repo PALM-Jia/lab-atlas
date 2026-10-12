@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W4214827269\",\"annotations\":[{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"recover traffic data from corrupted and incomplete observations\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确以从缺失与污染观测中恢复交通数据为任务，输出待恢复数据，满足数据补全与恢复定义。\"},{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"real-world traffic dataset\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文在真实世界交通数据集上实验，研究对象为交通数据，满足交通数据应用对象定义。\"},{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"utilize tensor factorization and its low-dimensional representation\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要说明采用张量分解及其低维表示建模数据，属于对张量低秩/低维结构的显式利用，满足低秩建模定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

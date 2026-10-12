@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2150102617",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "multi-label-learning",
+      "reason_zh": "摘要只提文本分类与层级分类体系，未明确每个实例可同时具有多个有效标记，无法确认多标记学习设定。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "reason_zh": "虽提及层级分类体系，但未说明显式建模标签间共现、依赖或相关结构的方法。"
+    },
+    {
+      "keyword_id": "noisy-label-learning",
+      "reason_zh": "仅提到修正错误数据，未把错误标签作为训练监督条件并在此条件下学习。"
+    }
+  ],
+  "input_issues": []
+}

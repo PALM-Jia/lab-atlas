@@ -1,0 +1,13 @@
+const fs=require('node:fs');
+const file='outputs/paper-atlas/workflow-flow-data.js';
+let s=fs.readFileSync(file,'utf8');
+s=s.replace("label:'采集外部文献',description:'从引用文献、被引记录提取外部标识并去重，采集对应论文信息，只扩展一层。没有匹配详情的引用条目保留在原名单中。'", "label:'采集外部文献并补全记录',description:'以引用文献和被引记录为输入，合并外部标识并去重，只采集一层外部论文信息。核对条目的身份与版本、补充详情并去重，输出外部文献信息及补全后的两份记录；未匹配条目保留。被引数仍采用来源统计，不按记录数量重算。'");
+const bypass="  edge(id,id+'-resolved','value','保留原有条目和获取状态，在④补充端点信息并去重。');\n";
+if(!s.includes(bypass)&&!s.includes(bypass.replace(/\n/g,'\r\n')))throw Error('Expected bypass not found');
+s=s.replace(bypass,'').replace(bypass.replace(/\n/g,'\r\n'),'');
+fs.writeFileSync(file,s);
+const test='work/check_workflow_flow.cjs';let t=fs.readFileSync(test,'utf8');
+const anchor=" assert(!d.edges.some(e=>e.from==='external-info'&&e.to.endsWith('-resolved')));";
+if(!t.includes(anchor))throw Error('Test anchor missing');
+t=t.replace(anchor,anchor+"\n assert.deepEqual(d.edges.filter(e=>e.to==='external').map(e=>e.from).sort(),['citing-list','reference-list']);\n for(const id of ['reference-list','citing-list'])assert.deepEqual(d.edges.filter(e=>e.to===id+'-resolved').map(e=>e.from),['external']);\n assert.equal(d.processes.find(p=>p.id==='external').label,'采集外部文献并补全记录');");
+fs.writeFileSync(test,t);

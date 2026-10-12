@@ -1,0 +1,1587 @@
+{
+  "reference_file": "audit/reference-final.json",
+  "initial_reference_sha256": "264BFF0C762A410730B62F000FBCA5FFA1D1F500E1D4939BC260DCE0493F8C56",
+  "audit_policy_zh": "按标题/摘要和固定词表逐词判断；短引用可由同字段上下文确认实质角色，背景定义不因位置而自动成为误标；错误判断不以投票或模型身份为依据。",
+  "summary": {
+    "sample_count": 10,
+    "anonymous_result_count": 40,
+    "checked_annotations": 49,
+    "checked_abstentions": 20,
+    "reference_revision_count": 1,
+    "false_positive_count": 1,
+    "false_negative_count": 5,
+    "nonverbatim_quote_count": 0,
+    "semantic_evidence_issue_count": 1,
+    "schema_issue_count": 0,
+    "hierarchy_issue_count": 0,
+    "erroneous_abstention_count": 0,
+    "unique_problem_count": 6,
+    "problem_free_result_count": 34,
+    "counting_note_zh": "以issue_id去重；S06/A低秩多选同时具有语义证据不足属性，仅计一次。optional选与不选均不计错。没有按匿名组排序或猜测身份。"
+  },
+  "samples": [
+    {
+      "sample_id": "S01",
+      "reference_required_ids": [
+        "label-correlation-modeling",
+        "weakly-supervised-learning"
+      ],
+      "reference_optional_ids": [
+        "multi-label-learning",
+        "label-distribution-learning"
+      ],
+      "reference_revisions": [
+        {
+          "sample_id": "S01",
+          "keyword_id": "weakly-supervised-learning",
+          "change": "excluded_to_required",
+          "initial_judgment_zh": "初始参考集认为主观不一致未明确构成弱监督设定。",
+          "final_judgment_zh": "必选弱监督学习。",
+          "exact_quote": "While most existing multilabel ranking methods assume the availability of a single objective label ranking for each instance in the training set, this paper deals with a more common case where only subjective inconsistent rankings from multiple rankers are associated with each instance.",
+          "evidence_field": "abstract",
+          "reason_zh": "重新对照完整首句与词表后，客观标签排序被仅有的主观不一致多人排序替代，且全文方法专门处理该条件，已明确满足不精确监督作为实质问题。初审把是否存在错误类别真值的较窄噪声标签条件误用于弱监督，导致漏项。此修订由原文和定义支持，与匿名结果的一致率无关。"
+        }
+      ],
+      "results": {
+        "A": {
+          "selected_ids": [
+            "multi-label-learning",
+            "weakly-supervised-learning"
+          ],
+          "accepted_required_ids": [
+            "weakly-supervised-learning"
+          ],
+          "accepted_optional_ids": [
+            "multi-label-learning"
+          ],
+          "false_positives": [],
+          "false_negatives": [
+            {
+              "issue_id": "S01-A-FN-label-correlation-modeling",
+              "keyword_id": "label-correlation-modeling",
+              "error_type": "substantive_method_omission",
+              "reason_zh": "遗漏实质方法：共同偏好分布被要求兼容各人的标签排序，显式建模标签间排序；词表定义明确包含排序，不要求出现相关性字样。",
+              "exact_quote": "IPDL generates a common preference distribution that is most compatible to all the personal rankings, and then learns a mapping from the instances to the preference distributions.",
+              "evidence_field": "abstract"
+            }
+          ],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "multi-label-learning",
+              "decision": "accepted_optional",
+              "exact_quote": "Multilabel Ranking with Inconsistent Rankers",
+              "evidence_field": "title",
+              "quote_is_verbatim": true,
+              "reason_zh": "词表边界歧义：多标签排序属于广义多标签研究，而定义以分类与识别、同时成立标签的预测为核心，未明确是否覆盖只输出排序。 按预先确定的可选规则，选择或不选择均不计错。"
+            },
+            {
+              "keyword_id": "weakly-supervised-learning",
+              "decision": "accepted_required",
+              "exact_quote": "only subjective inconsistent rankings from multiple rankers are associated with each instance",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "原文以不一致主观排序替代客观排序，并从排序构建共同偏好分布；弱监督与标签间排序建模均为实质研究内容。多标签学习与标签分布学习仍保留定义边界。"
+            }
+          ],
+          "unique_issue_ids": [
+            "S01-A-FN-label-correlation-modeling"
+          ],
+          "unique_issue_count": 1,
+          "brief_reason_zh": "漏选：label-correlation-modeling。已选项与弃权未发现其他问题。"
+        },
+        "B": {
+          "selected_ids": [
+            "weakly-supervised-learning"
+          ],
+          "accepted_required_ids": [
+            "weakly-supervised-learning"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [
+            {
+              "issue_id": "S01-B-FN-label-correlation-modeling",
+              "keyword_id": "label-correlation-modeling",
+              "error_type": "substantive_method_omission",
+              "reason_zh": "遗漏实质方法：共同偏好分布被要求兼容各人的标签排序，显式建模标签间排序；词表定义明确包含排序，不要求出现相关性字样。",
+              "exact_quote": "IPDL generates a common preference distribution that is most compatible to all the personal rankings, and then learns a mapping from the instances to the preference distributions.",
+              "evidence_field": "abstract"
+            }
+          ],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [
+            {
+              "keyword_id": "multi-label-learning",
+              "status": "reasonable_optional_abstention",
+              "original_reason_zh": "标题和摘要明确研究多标记排序，但未明确预测多个同时成立的标记；仅凭排序任务不能确定符合该定义。",
+              "reason_zh": "词表边界歧义：多标签排序属于广义多标签研究，而定义以分类与识别、同时成立标签的预测为核心，未明确是否覆盖只输出排序。 该弃权合理，不计漏标。",
+              "is_error": false
+            },
+            {
+              "keyword_id": "label-distribution-learning",
+              "status": "reasonable_optional_abstention",
+              "original_reason_zh": "方法学习偏好分布，但未说明各标签对实例的相对描述程度，不能直接将偏好分布等同于标记分布。",
+              "reason_zh": "词表边界歧义：定义要求标签相对描述程度，文本给出排序对应的偏好分布，未明确二者语义关系。 该弃权合理，不计漏标。",
+              "is_error": false
+            },
+            {
+              "keyword_id": "noisy-label-learning",
+              "status": "reasonable_exclusion",
+              "original_reason_zh": "多人主观排序不一致不必然意味着错误类别或不准确的标签分布，摘要未明确该噪声标签条件。",
+              "reason_zh": "弃权理由准确指出定义所需证据缺失，与全文及词表相符；该项不属于必选，未构成漏标。",
+              "is_error": false
+            }
+          ],
+          "annotation_reviews": [
+            {
+              "keyword_id": "weakly-supervised-learning",
+              "decision": "accepted_required",
+              "exact_quote": "this paper deals with a more common case where only subjective inconsistent rankings from multiple rankers are associated with each instance.",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "原文以不一致主观排序替代客观排序，并从排序构建共同偏好分布；弱监督与标签间排序建模均为实质研究内容。多标签学习与标签分布学习仍保留定义边界。"
+            }
+          ],
+          "unique_issue_ids": [
+            "S01-B-FN-label-correlation-modeling"
+          ],
+          "unique_issue_count": 1,
+          "brief_reason_zh": "漏选：label-correlation-modeling。已选项与弃权未发现其他问题。"
+        },
+        "C": {
+          "selected_ids": [
+            "label-correlation-modeling",
+            "weakly-supervised-learning"
+          ],
+          "accepted_required_ids": [
+            "label-correlation-modeling",
+            "weakly-supervised-learning"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [
+            {
+              "keyword_id": "multi-label-learning",
+              "status": "reasonable_optional_abstention",
+              "original_reason_zh": "标题与摘要明确研究多标签排序，但未说明预测可同时成立的多个标签，不能仅凭多标签排序名称确认词表所定义的任务。",
+              "reason_zh": "词表边界歧义：多标签排序属于广义多标签研究，而定义以分类与识别、同时成立标签的预测为核心，未明确是否覆盖只输出排序。 该弃权合理，不计漏标。",
+              "is_error": false
+            },
+            {
+              "keyword_id": "label-distribution-learning",
+              "status": "reasonable_optional_abstention",
+              "original_reason_zh": "方法学习的是偏好分布，摘要未明确其数值表示各标签对实例的相对描述程度，不能将偏好分布直接等同标签分布。",
+              "reason_zh": "词表边界歧义：定义要求标签相对描述程度，文本给出排序对应的偏好分布，未明确二者语义关系。 该弃权合理，不计漏标。",
+              "is_error": false
+            }
+          ],
+          "annotation_reviews": [
+            {
+              "keyword_id": "label-correlation-modeling",
+              "decision": "accepted_required",
+              "exact_quote": "IPDL generates a common preference distribution that is most compatible to all the personal rankings, and then learns a mapping from the instances to the preference distributions.",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "原文以不一致主观排序替代客观排序，并从排序构建共同偏好分布；弱监督与标签间排序建模均为实质研究内容。多标签学习与标签分布学习仍保留定义边界。"
+            },
+            {
+              "keyword_id": "weakly-supervised-learning",
+              "decision": "accepted_required",
+              "exact_quote": "only subjective inconsistent rankings from multiple rankers are associated with each instance",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "原文以不一致主观排序替代客观排序，并从排序构建共同偏好分布；弱监督与标签间排序建模均为实质研究内容。多标签学习与标签分布学习仍保留定义边界。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "D": {
+          "selected_ids": [
+            "weakly-supervised-learning"
+          ],
+          "accepted_required_ids": [
+            "weakly-supervised-learning"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [
+            {
+              "issue_id": "S01-D-FN-label-correlation-modeling",
+              "keyword_id": "label-correlation-modeling",
+              "error_type": "substantive_method_omission",
+              "reason_zh": "遗漏实质方法：共同偏好分布被要求兼容各人的标签排序，显式建模标签间排序；词表定义明确包含排序，不要求出现相关性字样。",
+              "exact_quote": "IPDL generates a common preference distribution that is most compatible to all the personal rankings, and then learns a mapping from the instances to the preference distributions.",
+              "evidence_field": "abstract"
+            }
+          ],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [
+            {
+              "keyword_id": "multi-label-learning",
+              "status": "reasonable_optional_abstention",
+              "original_reason_zh": "标题称多标记排序，但摘要描述的是标签偏好排序与分布学习，未明确说明目标是为实例预测可同时成立的多个标记，难以确认符合词条定义。",
+              "reason_zh": "词表边界歧义：多标签排序属于广义多标签研究，而定义以分类与识别、同时成立标签的预测为核心，未明确是否覆盖只输出排序。 该弃权合理，不计漏标。",
+              "is_error": false
+            },
+            {
+              "keyword_id": "label-distribution-learning",
+              "status": "reasonable_optional_abstention",
+              "original_reason_zh": "摘要称学习潜在偏好分布，但未说明这是各标签对实例的相对描述程度分布；偏好排序分布不足以确认该任务。",
+              "reason_zh": "词表边界歧义：定义要求标签相对描述程度，文本给出排序对应的偏好分布，未明确二者语义关系。 该弃权合理，不计漏标。",
+              "is_error": false
+            }
+          ],
+          "annotation_reviews": [
+            {
+              "keyword_id": "weakly-supervised-learning",
+              "decision": "accepted_required",
+              "exact_quote": "only subjective inconsistent rankings from multiple rankers are associated with each instance",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "原文以不一致主观排序替代客观排序，并从排序构建共同偏好分布；弱监督与标签间排序建模均为实质研究内容。多标签学习与标签分布学习仍保留定义边界。"
+            }
+          ],
+          "unique_issue_ids": [
+            "S01-D-FN-label-correlation-modeling"
+          ],
+          "unique_issue_count": 1,
+          "brief_reason_zh": "漏选：label-correlation-modeling。已选项与弃权未发现其他问题。"
+        }
+      }
+    },
+    {
+      "sample_id": "S02",
+      "reference_required_ids": [
+        "low-rank-modeling",
+        "hyperspectral-images"
+      ],
+      "reference_optional_ids": [],
+      "reference_revisions": [],
+      "results": {
+        "A": {
+          "selected_ids": [
+            "low-rank-modeling",
+            "hyperspectral-images"
+          ],
+          "accepted_required_ids": [
+            "low-rank-modeling",
+            "hyperspectral-images"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "low-rank-modeling",
+              "decision": "accepted_required",
+              "exact_quote": "novel discriminative low-rank representation method",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "低秩表示是所提方法，高光谱图像是直接处理对象；各已选片段均得到完整摘要支持。"
+            },
+            {
+              "keyword_id": "hyperspectral-images",
+              "decision": "accepted_required",
+              "exact_quote": "hyperspectral image (HSI) clustering problem",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "低秩表示是所提方法，高光谱图像是直接处理对象；各已选片段均得到完整摘要支持。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "B": {
+          "selected_ids": [
+            "low-rank-modeling",
+            "hyperspectral-images"
+          ],
+          "accepted_required_ids": [
+            "low-rank-modeling",
+            "hyperspectral-images"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "low-rank-modeling",
+              "decision": "accepted_required",
+              "exact_quote": "this letter proposes a novel discriminative low-rank representation method to exploit the spatial and spectral information of HSIs.",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "低秩表示是所提方法，高光谱图像是直接处理对象；各已选片段均得到完整摘要支持。"
+            },
+            {
+              "keyword_id": "hyperspectral-images",
+              "decision": "accepted_required",
+              "exact_quote": "We exploit the hyperspectral image (HSI) clustering problem, which partitions an input HSI into several groups without relying on any supervision information.",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "低秩表示是所提方法，高光谱图像是直接处理对象；各已选片段均得到完整摘要支持。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "C": {
+          "selected_ids": [
+            "low-rank-modeling",
+            "hyperspectral-images"
+          ],
+          "accepted_required_ids": [
+            "low-rank-modeling",
+            "hyperspectral-images"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "low-rank-modeling",
+              "decision": "accepted_required",
+              "exact_quote": "this letter proposes a novel discriminative low-rank representation method to exploit the spatial and spectral information of HSIs",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "低秩表示是所提方法，高光谱图像是直接处理对象；各已选片段均得到完整摘要支持。"
+            },
+            {
+              "keyword_id": "hyperspectral-images",
+              "decision": "accepted_required",
+              "exact_quote": "We exploit the hyperspectral image (HSI) clustering problem, which partitions an input HSI into several groups without relying on any supervision information.",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "低秩表示是所提方法，高光谱图像是直接处理对象；各已选片段均得到完整摘要支持。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "D": {
+          "selected_ids": [
+            "low-rank-modeling",
+            "hyperspectral-images"
+          ],
+          "accepted_required_ids": [
+            "low-rank-modeling",
+            "hyperspectral-images"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "low-rank-modeling",
+              "decision": "accepted_required",
+              "exact_quote": "novel discriminative low-rank representation method",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "低秩表示是所提方法，高光谱图像是直接处理对象；各已选片段均得到完整摘要支持。"
+            },
+            {
+              "keyword_id": "hyperspectral-images",
+              "decision": "accepted_required",
+              "exact_quote": "exploit the spatial and spectral information of HSIs",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "低秩表示是所提方法，高光谱图像是直接处理对象；各已选片段均得到完整摘要支持。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        }
+      }
+    },
+    {
+      "sample_id": "S03",
+      "reference_required_ids": [
+        "partial-label-learning",
+        "weakly-supervised-learning"
+      ],
+      "reference_optional_ids": [
+        "pseudo-label-self-training"
+      ],
+      "reference_revisions": [],
+      "results": {
+        "A": {
+          "selected_ids": [
+            "partial-label-learning",
+            "weakly-supervised-learning"
+          ],
+          "accepted_required_ids": [
+            "partial-label-learning",
+            "weakly-supervised-learning"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [
+            {
+              "keyword_id": "sparse-representation",
+              "status": "reasonable_exclusion",
+              "original_reason_zh": "摘要明确采用字典学习，但未说明以少量字典原子或稀疏系数表达样本，不能仅由字典学习推断稀疏表示。",
+              "reason_zh": "弃权理由准确指出定义所需证据缺失，与全文及词表相符；该项不属于必选，未构成漏标。",
+              "is_error": false
+            }
+          ],
+          "annotation_reviews": [
+            {
+              "keyword_id": "partial-label-learning",
+              "decision": "accepted_required",
+              "exact_quote": "where each training sample has multiple labels and only one of them is the correct label.",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "一个候选标签为真的歧义监督明确支持偏标记与弱监督；没有严格父子关系。未证明字典表示稀疏。"
+            },
+            {
+              "keyword_id": "weakly-supervised-learning",
+              "decision": "accepted_required",
+              "exact_quote": "We propose a dictionary-based learning method for ambiguously labeled multiclass classification, where each training sample has multiple labels and only one of them is the correct label.",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "一个候选标签为真的歧义监督明确支持偏标记与弱监督；没有严格父子关系。未证明字典表示稀疏。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "B": {
+          "selected_ids": [
+            "partial-label-learning",
+            "weakly-supervised-learning"
+          ],
+          "accepted_required_ids": [
+            "partial-label-learning",
+            "weakly-supervised-learning"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "partial-label-learning",
+              "decision": "accepted_required",
+              "exact_quote": "where each training sample has multiple labels and only one of them is the correct label",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "一个候选标签为真的歧义监督明确支持偏标记与弱监督；没有严格父子关系。未证明字典表示稀疏。"
+            },
+            {
+              "keyword_id": "weakly-supervised-learning",
+              "decision": "accepted_required",
+              "exact_quote": "ambiguously labeled multiclass classification",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "一个候选标签为真的歧义监督明确支持偏标记与弱监督；没有严格父子关系。未证明字典表示稀疏。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "C": {
+          "selected_ids": [
+            "partial-label-learning",
+            "weakly-supervised-learning"
+          ],
+          "accepted_required_ids": [
+            "partial-label-learning",
+            "weakly-supervised-learning"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [
+            {
+              "keyword_id": "sparse-representation",
+              "status": "reasonable_exclusion",
+              "original_reason_zh": "摘要说明采用字典学习，但未明确以少量字典原子或稀疏系数表示样本，不能据此补出稀疏表示。",
+              "reason_zh": "弃权理由准确指出定义所需证据缺失，与全文及词表相符；该项不属于必选，未构成漏标。",
+              "is_error": false
+            }
+          ],
+          "annotation_reviews": [
+            {
+              "keyword_id": "partial-label-learning",
+              "decision": "accepted_required",
+              "exact_quote": "where each training sample has multiple labels and only one of them is the correct label",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "一个候选标签为真的歧义监督明确支持偏标记与弱监督；没有严格父子关系。未证明字典表示稀疏。"
+            },
+            {
+              "keyword_id": "weakly-supervised-learning",
+              "decision": "accepted_required",
+              "exact_quote": "We propose a dictionary-based learning method for ambiguously labeled multiclass classification, where each training sample has multiple labels and only one of them is the correct label.",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "一个候选标签为真的歧义监督明确支持偏标记与弱监督；没有严格父子关系。未证明字典表示稀疏。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "D": {
+          "selected_ids": [
+            "partial-label-learning",
+            "weakly-supervised-learning"
+          ],
+          "accepted_required_ids": [
+            "partial-label-learning",
+            "weakly-supervised-learning"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [
+            {
+              "keyword_id": "sparse-representation",
+              "status": "reasonable_exclusion",
+              "original_reason_zh": "摘要提到字典学习，但没有说明以少量字典原子或基向量表示样本，无法确认符合稀疏表示定义。",
+              "reason_zh": "弃权理由准确指出定义所需证据缺失，与全文及词表相符；该项不属于必选，未构成漏标。",
+              "is_error": false
+            }
+          ],
+          "annotation_reviews": [
+            {
+              "keyword_id": "partial-label-learning",
+              "decision": "accepted_required",
+              "exact_quote": "each training sample has multiple labels and only one of them is the correct label",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "一个候选标签为真的歧义监督明确支持偏标记与弱监督；没有严格父子关系。未证明字典表示稀疏。"
+            },
+            {
+              "keyword_id": "weakly-supervised-learning",
+              "decision": "accepted_required",
+              "exact_quote": "ambiguously labeled multiclass classification",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "一个候选标签为真的歧义监督明确支持偏标记与弱监督；没有严格父子关系。未证明字典表示稀疏。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        }
+      }
+    },
+    {
+      "sample_id": "S04",
+      "reference_required_ids": [
+        "multi-label-learning"
+      ],
+      "reference_optional_ids": [],
+      "reference_revisions": [],
+      "results": {
+        "A": {
+          "selected_ids": [
+            "multi-label-learning"
+          ],
+          "accepted_required_ids": [
+            "multi-label-learning"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "multi-label-learning",
+              "decision": "accepted_required",
+              "exact_quote": "multi-label learning",
+              "evidence_field": "title",
+              "quote_is_verbatim": true,
+              "reason_zh": "仅标题可用，明确多标记学习，未从方法名称补出实现。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "B": {
+          "selected_ids": [
+            "multi-label-learning"
+          ],
+          "accepted_required_ids": [
+            "multi-label-learning"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "multi-label-learning",
+              "decision": "accepted_required",
+              "exact_quote": "multi-label learning",
+              "evidence_field": "title",
+              "quote_is_verbatim": true,
+              "reason_zh": "仅标题可用，明确多标记学习，未从方法名称补出实现。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "C": {
+          "selected_ids": [
+            "multi-label-learning"
+          ],
+          "accepted_required_ids": [
+            "multi-label-learning"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "multi-label-learning",
+              "decision": "accepted_required",
+              "exact_quote": "multi-label learning",
+              "evidence_field": "title",
+              "quote_is_verbatim": true,
+              "reason_zh": "仅标题可用，明确多标记学习，未从方法名称补出实现。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "D": {
+          "selected_ids": [
+            "multi-label-learning"
+          ],
+          "accepted_required_ids": [
+            "multi-label-learning"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "multi-label-learning",
+              "decision": "accepted_required",
+              "exact_quote": "multi-label learning",
+              "evidence_field": "title",
+              "quote_is_verbatim": true,
+              "reason_zh": "仅标题可用，明确多标记学习，未从方法名称补出实现。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        }
+      }
+    },
+    {
+      "sample_id": "S05",
+      "reference_required_ids": [],
+      "reference_optional_ids": [],
+      "reference_revisions": [],
+      "results": {
+        "A": {
+          "selected_ids": [],
+          "accepted_required_ids": [],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [
+            {
+              "keyword_id": "nonnegative-matrix-factorization",
+              "status": "reasonable_exclusion",
+              "original_reason_zh": "标题称非负谱聚类，摘要描述对聚类指示矩阵的松弛解施加非负约束，但未明确以非负因子分解矩阵；是否属于该词定义不足以确认。",
+              "reason_zh": "弃权理由准确指出定义所需证据缺失，与全文及词表相符；该项不属于必选，未构成漏标。",
+              "is_error": false
+            }
+          ],
+          "annotation_reviews": [],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "B": {
+          "selected_ids": [],
+          "accepted_required_ids": [],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [
+            {
+              "keyword_id": "nonnegative-matrix-factorization",
+              "status": "reasonable_exclusion",
+              "original_reason_zh": "方案明确施加非负约束，但未描述用非负因子分解矩阵，不能据此认定非负矩阵分解。",
+              "reason_zh": "弃权理由准确指出定义所需证据缺失，与全文及词表相符；该项不属于必选，未构成漏标。",
+              "is_error": false
+            },
+            {
+              "keyword_id": "graph-manifold-regularization",
+              "status": "reasonable_exclusion",
+              "original_reason_zh": "判别正则化用于避免过拟合，但摘要未说明以邻域、图拉普拉斯或流形结构施加几何一致性约束。",
+              "reason_zh": "弃权理由准确指出定义所需证据缺失，与全文及词表相符；该项不属于必选，未构成漏标。",
+              "is_error": false
+            }
+          ],
+          "annotation_reviews": [],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "C": {
+          "selected_ids": [],
+          "accepted_required_ids": [],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [
+            {
+              "keyword_id": "nonnegative-matrix-factorization",
+              "status": "reasonable_exclusion",
+              "original_reason_zh": "标题提到非负谱聚类，摘要提到对聚类指示矩阵施加非负约束，但未说明采用非负因子分解，证据不足以确认该方法。",
+              "reason_zh": "弃权理由准确指出定义所需证据缺失，与全文及词表相符；该项不属于必选，未构成漏标。",
+              "is_error": false
+            }
+          ],
+          "annotation_reviews": [],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "D": {
+          "selected_ids": [],
+          "accepted_required_ids": [],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        }
+      }
+    },
+    {
+      "sample_id": "S06",
+      "reference_required_ids": [
+        "nonnegative-matrix-factorization",
+        "graph-manifold-regularization"
+      ],
+      "reference_optional_ids": [],
+      "reference_revisions": [],
+      "results": {
+        "A": {
+          "selected_ids": [
+            "low-rank-modeling",
+            "nonnegative-matrix-factorization",
+            "graph-manifold-regularization"
+          ],
+          "accepted_required_ids": [
+            "nonnegative-matrix-factorization",
+            "graph-manifold-regularization"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [
+            {
+              "issue_id": "S06-A-FP-low-rank-modeling",
+              "keyword_id": "low-rank-modeling",
+              "error_type": "unsupported_low_rank_inference",
+              "reason_zh": "标题仅明确非负矩阵分解，未明确低秩约束、低秩分解规模或低秩近似。理由将一般矩阵分解等同低秩建模，超出给定文本。不是父子重复问题：词表没有NMF与低秩的严格parent_id关系。",
+              "exact_quote": "Nonnegative Matrix Factorization",
+              "evidence_field": "title",
+              "quote_is_verbatim": true
+            }
+          ],
+          "false_negatives": [],
+          "invalid_evidence": [
+            {
+              "issue_id": "S06-A-FP-low-rank-modeling",
+              "keyword_id": "low-rank-modeling",
+              "kind": "semantic_support_insufficient",
+              "exact_quote": "Nonnegative Matrix Factorization",
+              "evidence_field": "title",
+              "quote_is_verbatim": true,
+              "reason_zh": "引用是逐字原文，但只证明非负矩阵分解，不能证明低秩；与false_positives同一问题，不另计数。"
+            }
+          ],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "low-rank-modeling",
+              "decision": "false_positive",
+              "exact_quote": "Nonnegative Matrix Factorization",
+              "evidence_field": "title",
+              "quote_is_verbatim": true,
+              "reason_zh": "标题仅明确非负矩阵分解，未明确低秩约束、低秩分解规模或低秩近似。理由将一般矩阵分解等同低秩建模，超出给定文本。不是父子重复问题：词表没有NMF与低秩的严格parent_id关系。"
+            },
+            {
+              "keyword_id": "nonnegative-matrix-factorization",
+              "decision": "accepted_required",
+              "exact_quote": "Nonnegative Matrix Factorization",
+              "evidence_field": "title",
+              "quote_is_verbatim": true,
+              "reason_zh": "标题已足以证明非负矩阵分解与超图正则的采用；无需是新贡献。是否低秩不能只凭矩阵分解推定。"
+            },
+            {
+              "keyword_id": "graph-manifold-regularization",
+              "decision": "accepted_required",
+              "exact_quote": "Mixed Hypergraph Regularization",
+              "evidence_field": "title",
+              "quote_is_verbatim": true,
+              "reason_zh": "标题已足以证明非负矩阵分解与超图正则的采用；无需是新贡献。是否低秩不能只凭矩阵分解推定。"
+            }
+          ],
+          "unique_issue_ids": [
+            "S06-A-FP-low-rank-modeling"
+          ],
+          "unique_issue_count": 1,
+          "brief_reason_zh": "多选低秩建模；引用逐字有效但不能支撑低秩语义。其余必选完整。"
+        },
+        "B": {
+          "selected_ids": [
+            "nonnegative-matrix-factorization",
+            "graph-manifold-regularization"
+          ],
+          "accepted_required_ids": [
+            "nonnegative-matrix-factorization",
+            "graph-manifold-regularization"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "nonnegative-matrix-factorization",
+              "decision": "accepted_required",
+              "exact_quote": "Nonnegative Matrix Factorization",
+              "evidence_field": "title",
+              "quote_is_verbatim": true,
+              "reason_zh": "标题已足以证明非负矩阵分解与超图正则的采用；无需是新贡献。是否低秩不能只凭矩阵分解推定。"
+            },
+            {
+              "keyword_id": "graph-manifold-regularization",
+              "decision": "accepted_required",
+              "exact_quote": "Mixed Hypergraph Regularization",
+              "evidence_field": "title",
+              "quote_is_verbatim": true,
+              "reason_zh": "标题已足以证明非负矩阵分解与超图正则的采用；无需是新贡献。是否低秩不能只凭矩阵分解推定。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "C": {
+          "selected_ids": [
+            "nonnegative-matrix-factorization",
+            "graph-manifold-regularization"
+          ],
+          "accepted_required_ids": [
+            "nonnegative-matrix-factorization",
+            "graph-manifold-regularization"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "nonnegative-matrix-factorization",
+              "decision": "accepted_required",
+              "exact_quote": "Nonnegative Matrix Factorization",
+              "evidence_field": "title",
+              "quote_is_verbatim": true,
+              "reason_zh": "标题已足以证明非负矩阵分解与超图正则的采用；无需是新贡献。是否低秩不能只凭矩阵分解推定。"
+            },
+            {
+              "keyword_id": "graph-manifold-regularization",
+              "decision": "accepted_required",
+              "exact_quote": "Mixed Hypergraph Regularization",
+              "evidence_field": "title",
+              "quote_is_verbatim": true,
+              "reason_zh": "标题已足以证明非负矩阵分解与超图正则的采用；无需是新贡献。是否低秩不能只凭矩阵分解推定。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "D": {
+          "selected_ids": [
+            "nonnegative-matrix-factorization",
+            "graph-manifold-regularization"
+          ],
+          "accepted_required_ids": [
+            "nonnegative-matrix-factorization",
+            "graph-manifold-regularization"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "nonnegative-matrix-factorization",
+              "decision": "accepted_required",
+              "exact_quote": "Nonnegative Matrix Factorization",
+              "evidence_field": "title",
+              "quote_is_verbatim": true,
+              "reason_zh": "标题已足以证明非负矩阵分解与超图正则的采用；无需是新贡献。是否低秩不能只凭矩阵分解推定。"
+            },
+            {
+              "keyword_id": "graph-manifold-regularization",
+              "decision": "accepted_required",
+              "exact_quote": "Mixed Hypergraph Regularization",
+              "evidence_field": "title",
+              "quote_is_verbatim": true,
+              "reason_zh": "标题已足以证明非负矩阵分解与超图正则的采用；无需是新贡献。是否低秩不能只凭矩阵分解推定。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        }
+      }
+    },
+    {
+      "sample_id": "S07",
+      "reference_required_ids": [
+        "ensemble-clustering",
+        "graph-structure-learning"
+      ],
+      "reference_optional_ids": [],
+      "reference_revisions": [],
+      "results": {
+        "A": {
+          "selected_ids": [
+            "ensemble-clustering"
+          ],
+          "accepted_required_ids": [
+            "ensemble-clustering"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [
+            {
+              "issue_id": "S07-A-FN-graph-structure-learning",
+              "keyword_id": "graph-structure-learning",
+              "error_type": "substantive_method_omission",
+              "reason_zh": "遗漏实质方法：通过信息传播及相互补充增强样本间共关联矩阵，明确修正亲和结构；词表不要求方法名称必须含图结构学习。",
+              "exact_quote": "By propagating the highly reliable information of the HC matrix to the CA matrix and complementing the HC matrix according to the CA matrix simultaneously, the proposed method generates an enhanced CA matrix for better clustering.",
+              "evidence_field": "abstract"
+            }
+          ],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "ensemble-clustering",
+              "decision": "accepted_required",
+              "exact_quote": "Ensemble clustering integrates a set of base clustering results to generate a stronger one.",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "共识聚类是研究任务，实质修正样本共关联亲和矩阵是采用方法。开头虽为任务定义，但全文明确以此为自身任务，引用该句不构成背景误标。"
+            }
+          ],
+          "unique_issue_ids": [
+            "S07-A-FN-graph-structure-learning"
+          ],
+          "unique_issue_count": 1,
+          "brief_reason_zh": "漏选：graph-structure-learning。已选项与弃权未发现其他问题。"
+        },
+        "B": {
+          "selected_ids": [
+            "ensemble-clustering"
+          ],
+          "accepted_required_ids": [
+            "ensemble-clustering"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [
+            {
+              "issue_id": "S07-B-FN-graph-structure-learning",
+              "keyword_id": "graph-structure-learning",
+              "error_type": "substantive_method_omission",
+              "reason_zh": "遗漏实质方法：通过信息传播及相互补充增强样本间共关联矩阵，明确修正亲和结构；词表不要求方法名称必须含图结构学习。",
+              "exact_quote": "By propagating the highly reliable information of the HC matrix to the CA matrix and complementing the HC matrix according to the CA matrix simultaneously, the proposed method generates an enhanced CA matrix for better clustering.",
+              "evidence_field": "abstract"
+            }
+          ],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "ensemble-clustering",
+              "decision": "accepted_required",
+              "exact_quote": "Ensemble clustering integrates a set of base clustering results to generate a stronger one.",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "共识聚类是研究任务，实质修正样本共关联亲和矩阵是采用方法。开头虽为任务定义，但全文明确以此为自身任务，引用该句不构成背景误标。"
+            }
+          ],
+          "unique_issue_ids": [
+            "S07-B-FN-graph-structure-learning"
+          ],
+          "unique_issue_count": 1,
+          "brief_reason_zh": "漏选：graph-structure-learning。已选项与弃权未发现其他问题。"
+        },
+        "C": {
+          "selected_ids": [
+            "ensemble-clustering",
+            "graph-structure-learning"
+          ],
+          "accepted_required_ids": [
+            "ensemble-clustering",
+            "graph-structure-learning"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "ensemble-clustering",
+              "decision": "accepted_required",
+              "exact_quote": "Ensemble clustering integrates a set of base clustering results to generate a stronger one.",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "共识聚类是研究任务，实质修正样本共关联亲和矩阵是采用方法。开头虽为任务定义，但全文明确以此为自身任务，引用该句不构成背景误标。"
+            },
+            {
+              "keyword_id": "graph-structure-learning",
+              "decision": "accepted_required",
+              "exact_quote": "By propagating the highly reliable information of the HC matrix to the CA matrix and complementing the HC matrix according to the CA matrix simultaneously, the proposed method generates an enhanced CA matrix for better clustering.",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "共识聚类是研究任务，实质修正样本共关联亲和矩阵是采用方法。开头虽为任务定义，但全文明确以此为自身任务，引用该句不构成背景误标。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "D": {
+          "selected_ids": [
+            "ensemble-clustering",
+            "graph-structure-learning"
+          ],
+          "accepted_required_ids": [
+            "ensemble-clustering",
+            "graph-structure-learning"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "ensemble-clustering",
+              "decision": "accepted_required",
+              "exact_quote": "Ensemble clustering integrates a set of base clustering results to generate a stronger one.",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "共识聚类是研究任务，实质修正样本共关联亲和矩阵是采用方法。开头虽为任务定义，但全文明确以此为自身任务，引用该句不构成背景误标。"
+            },
+            {
+              "keyword_id": "graph-structure-learning",
+              "decision": "accepted_required",
+              "exact_quote": "we propose a simple, yet effective CA matrix self-enhancement framework that can improve the CA matrix to achieve better clustering performance.",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "共识聚类是研究任务，实质修正样本共关联亲和矩阵是采用方法。开头虽为任务定义，但全文明确以此为自身任务，引用该句不构成背景误标。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        }
+      }
+    },
+    {
+      "sample_id": "S08",
+      "reference_required_ids": [],
+      "reference_optional_ids": [],
+      "reference_revisions": [],
+      "results": {
+        "A": {
+          "selected_ids": [],
+          "accepted_required_ids": [],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "B": {
+          "selected_ids": [],
+          "accepted_required_ids": [],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "C": {
+          "selected_ids": [],
+          "accepted_required_ids": [],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [
+            {
+              "keyword_id": "confidence-calibration",
+              "status": "reasonable_exclusion",
+              "original_reason_zh": "摘要称其能提供更准确的概率解释，但未说明使预测置信度与正确概率相符的校准目标或过程，难以判定为置信度校准。",
+              "reason_zh": "弃权理由准确指出定义所需证据缺失，与全文及词表相符；该项不属于必选，未构成漏标。",
+              "is_error": false
+            }
+          ],
+          "annotation_reviews": [],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "D": {
+          "selected_ids": [],
+          "accepted_required_ids": [],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        }
+      }
+    },
+    {
+      "sample_id": "S09",
+      "reference_required_ids": [
+        "deep-clustering",
+        "class-imbalance"
+      ],
+      "reference_optional_ids": [
+        "graph-neural-networks",
+        "pseudo-label-self-training"
+      ],
+      "reference_revisions": [],
+      "results": {
+        "A": {
+          "selected_ids": [
+            "deep-clustering",
+            "class-imbalance"
+          ],
+          "accepted_required_ids": [
+            "deep-clustering",
+            "class-imbalance"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [
+            {
+              "keyword_id": "graph-neural-networks",
+              "status": "reasonable_optional_abstention",
+              "original_reason_zh": "图卷积网络及消息传递出现在问题成因分析中；所提方案虽采用双频滤波，但未明确说明使用可学习图卷积或消息传递，不能由网络名称推断。",
+              "reason_zh": "文本歧义：GCN消息传递出现在背景批评中，本文方案只写双频滤波，不能确定具体实现满足GNN定义。 该弃权合理，不计漏标。",
+              "is_error": false
+            },
+            {
+              "keyword_id": "contrastive-learning",
+              "status": "reasonable_exclusion",
+              "original_reason_zh": "推离损失明确分离多数类和少数类表示，但摘要未交代对比样本、视图或中心及其对比学习目标，难以区分对比学习与普通距离正则。",
+              "reason_zh": "弃权理由准确指出定义所需证据缺失，与全文及词表相符；该项不属于必选，未构成漏标。",
+              "is_error": false
+            }
+          ],
+          "annotation_reviews": [
+            {
+              "keyword_id": "deep-clustering",
+              "decision": "accepted_required",
+              "exact_quote": "Our approach over-clusters data into fine-grained sub-clusters, applies dual-frequency filtering to preserve structural information, and merges them into target clusters via a learnable assignment.",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "可学习聚类分配及表示学习、处理多数/少数类不平衡均明确；问题陈述中的不平衡词组由后续实质方案支持。GNN与伪标签机制仍不唯一，缺选不计错。"
+            },
+            {
+              "keyword_id": "class-imbalance",
+              "decision": "accepted_required",
+              "exact_quote": "The resulting aggregation process provides guidance signals for representation learning, enabling reliable sample selection with class-balanced weights and an adaptive push-away loss that explicitly separates majority and minority representations.",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "可学习聚类分配及表示学习、处理多数/少数类不平衡均明确；问题陈述中的不平衡词组由后续实质方案支持。GNN与伪标签机制仍不唯一，缺选不计错。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "B": {
+          "selected_ids": [
+            "deep-clustering",
+            "class-imbalance"
+          ],
+          "accepted_required_ids": [
+            "deep-clustering",
+            "class-imbalance"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [
+            {
+              "keyword_id": "graph-neural-networks",
+              "status": "reasonable_optional_abstention",
+              "original_reason_zh": "GCN消息传递出现在问题分析中；所提方案仅明确双频滤波，未充分说明采用图卷积或可学习消息传递。",
+              "reason_zh": "文本歧义：GCN消息传递出现在背景批评中，本文方案只写双频滤波，不能确定具体实现满足GNN定义。 该弃权合理，不计漏标。",
+              "is_error": false
+            },
+            {
+              "keyword_id": "contrastive-learning",
+              "status": "reasonable_exclusion",
+              "original_reason_zh": "推开损失用于分离多数类和少数类表示，但未说明视图、样本或中心间的对比目标，难以排除普通距离正则。",
+              "reason_zh": "弃权理由准确指出定义所需证据缺失，与全文及词表相符；该项不属于必选，未构成漏标。",
+              "is_error": false
+            }
+          ],
+          "annotation_reviews": [
+            {
+              "keyword_id": "deep-clustering",
+              "decision": "accepted_required",
+              "exact_quote": "Our approach over-clusters data into fine-grained sub-clusters, applies dual-frequency filtering to preserve structural information, and merges them into target clusters via a learnable assignment. The resulting aggregation process provides guidance signals for representation learning",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "可学习聚类分配及表示学习、处理多数/少数类不平衡均明确；问题陈述中的不平衡词组由后续实质方案支持。GNN与伪标签机制仍不唯一，缺选不计错。"
+            },
+            {
+              "keyword_id": "class-imbalance",
+              "decision": "accepted_required",
+              "exact_quote": "enabling reliable sample selection with class-balanced weights and an adaptive push-away loss that explicitly separates majority and minority representations.",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "可学习聚类分配及表示学习、处理多数/少数类不平衡均明确；问题陈述中的不平衡词组由后续实质方案支持。GNN与伪标签机制仍不唯一，缺选不计错。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "C": {
+          "selected_ids": [
+            "deep-clustering",
+            "class-imbalance"
+          ],
+          "accepted_required_ids": [
+            "deep-clustering",
+            "class-imbalance"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "deep-clustering",
+              "decision": "accepted_required",
+              "exact_quote": "Our approach over-clusters data into fine-grained sub-clusters, applies dual-frequency filtering to preserve structural information, and merges them into target clusters via a learnable assignment.",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "可学习聚类分配及表示学习、处理多数/少数类不平衡均明确；问题陈述中的不平衡词组由后续实质方案支持。GNN与伪标签机制仍不唯一，缺选不计错。"
+            },
+            {
+              "keyword_id": "class-imbalance",
+              "decision": "accepted_required",
+              "exact_quote": "the pervasive challenge of class imbalance",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "可学习聚类分配及表示学习、处理多数/少数类不平衡均明确；问题陈述中的不平衡词组由后续实质方案支持。GNN与伪标签机制仍不唯一，缺选不计错。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "D": {
+          "selected_ids": [
+            "deep-clustering",
+            "class-imbalance"
+          ],
+          "accepted_required_ids": [
+            "deep-clustering",
+            "class-imbalance"
+          ],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [
+            {
+              "keyword_id": "deep-clustering",
+              "decision": "accepted_required",
+              "exact_quote": "merges them into target clusters via a learnable assignment",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "可学习聚类分配及表示学习、处理多数/少数类不平衡均明确；问题陈述中的不平衡词组由后续实质方案支持。GNN与伪标签机制仍不唯一，缺选不计错。"
+            },
+            {
+              "keyword_id": "class-imbalance",
+              "decision": "accepted_required",
+              "exact_quote": "the pervasive challenge of class imbalance",
+              "evidence_field": "abstract",
+              "quote_is_verbatim": true,
+              "reason_zh": "可学习聚类分配及表示学习、处理多数/少数类不平衡均明确；问题陈述中的不平衡词组由后续实质方案支持。GNN与伪标签机制仍不唯一，缺选不计错。"
+            }
+          ],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        }
+      }
+    },
+    {
+      "sample_id": "S10",
+      "reference_required_ids": [],
+      "reference_optional_ids": [],
+      "reference_revisions": [],
+      "results": {
+        "A": {
+          "selected_ids": [],
+          "accepted_required_ids": [],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "B": {
+          "selected_ids": [],
+          "accepted_required_ids": [],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "C": {
+          "selected_ids": [],
+          "accepted_required_ids": [],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [],
+          "annotation_reviews": [],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        },
+        "D": {
+          "selected_ids": [],
+          "accepted_required_ids": [],
+          "accepted_optional_ids": [],
+          "false_positives": [],
+          "false_negatives": [],
+          "invalid_evidence": [],
+          "role_boundary_issues": [],
+          "hierarchy_issues": [],
+          "schema_issues": [],
+          "abstention_review": [
+            {
+              "keyword_id": "sparse-representation",
+              "status": "reasonable_exclusion",
+              "original_reason_zh": "摘要将lasso、稀疏逻辑回归和basis pursuit列为分布式优化的应用，未明确以少量字典原子、基向量或潜在特征表达样本，不足以据此认定稀疏表示。",
+              "reason_zh": "弃权理由准确指出定义所需证据缺失，与全文及词表相符；该项不属于必选，未构成漏标。",
+              "is_error": false
+            }
+          ],
+          "annotation_reviews": [],
+          "unique_issue_ids": [],
+          "unique_issue_count": 0,
+          "brief_reason_zh": "必选完整；已选项及弃权符合文本/词表边界。可选项未选不计错。"
+        }
+      }
+    }
+  ]
+}

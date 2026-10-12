@@ -1,0 +1,32 @@
+{
+  "paper_id": "W2396298261",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral Imagery",
+      "evidence_field": "title",
+      "reason_zh": "标题与摘要均以高光谱影像/高光谱数据为处理对象，研究其分类，符合高光谱图像应用对象。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "we propose to use low-rank subspace representation (LRSR) as a preprocessing step for classification",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出低秩子空间表示并构造低秩矩阵用于分类，显式利用低秩约束/表示，符合低秩建模。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "dimensionality-reduction",
+      "reason_zh": "摘要提到高维度和低秩子空间预处理，但未明确以显式低维映射或维度压缩为目标，故证据不足。"
+    },
+    {
+      "keyword_id": "subspace-clustering",
+      "reason_zh": "摘要提到潜在多个子空间和聚类算法，但任务为分类且未说明按潜在子空间分组或自表达关系，不能确定。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "reason_zh": "摘要只提到离群点存在于稀疏矩阵中，未说明用少量字典原子/基向量表达样本，故证据不足。"
+    }
+  ],
+  "input_issues": []
+}

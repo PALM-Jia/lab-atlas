@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2884822772\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"effectively segment a wide range of concepts from images\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要说明该框架能对图像中广泛概念进行分割，属于像素级区域或类别划分的图像分割任务。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

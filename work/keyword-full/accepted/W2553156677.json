@@ -1,0 +1,37 @@
+{
+  "paper_id": "W2553156677",
+  "annotations": [
+    {
+      "keyword_id": "label-distribution-learning",
+      "exact_quote": "we convert the label of each image into a discrete label distribution, and learn the label distribution by minimizing a Kullback-Leibler divergence between the predicted and ground-truth label distributions",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将图像标签转换为离散标签分布并学习预测该分布，直接对应标记分布学习任务。"
+    },
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "it also improves recognition performance for multi-label classification and semantic segmentation tasks",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要将多标记分类列为方法改进的识别任务之一，表明论文涉及多标记学习设定。"
+    },
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "semantic segmentation tasks",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将语义分割作为改进识别性能的任务之一，属于图像分割中的语义分割。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "there is ambiguous information among labels",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要以标签间歧义信息作为研究出发点，将不精确监督作为实质研究条件，符合弱监督学习。"
+    },
+    {
+      "keyword_id": "label-enhancement",
+      "evidence_field": "abstract",
+      "exact_quote": "we convert the label of each image into a discrete label distribution",
+      "reason_zh": "方法从每张图像的标签构建离散标签分布，属于从逻辑标签恢复或构建更细致标签分布的标记增强。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

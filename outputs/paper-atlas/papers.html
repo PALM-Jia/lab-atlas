@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>论文索引 · Lab Atlas</title>
+  <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="papers.css"><link rel="stylesheet" href="theme.css">
+  <script defer src="data.js"></script><script defer src="search-match.js"></script><script defer src="papers.js"></script>
+</head>
+<body>
+  <header class="header atlas-header"><a class="brand atlas-brand" href="index.html"><span class="brand-mark">✳</span><span>Lab Atlas <small>论文索引</small></span></a><a id="return-network" class="quiet" href="index.html">返回网络</a></header>
+  <main class="index-workspace">
+    <aside class="index-filters" aria-label="论文筛选">
+      <h1>论文索引</h1>
+      <label class="search-label" for="index-search">搜索标题、作者或关键词</label><input id="index-search" type="search" placeholder="标题、作者、关键词…" autocomplete="off">
+      <label class="index-label" for="index-topic">论文关键词</label><select id="index-topic"><option value="">全部关键词</option></select>
+      <label class="index-label" for="index-from">年份区间</label><div class="index-years"><select id="index-from" aria-label="起始年份"></select><span>至</span><select id="index-to" aria-label="结束年份"></select></div>
+      <label class="check"><input id="index-unknown" type="checkbox" checked>包含年份未知</label>
+      <label class="index-label" for="index-status">数据情况</label><select id="index-status"><option value="">全部条目</option><option value="matched">已匹配 OpenAlex</option><option value="unmatched">未匹配 OpenAlex</option><option value="title">仅有标题</option></select>
+      <label class="check"><input id="index-external" type="checkbox">显示全部文献（含外部）</label><button id="index-reset" class="quiet" type="button">重置筛选</button>
+    </aside>
+    <section class="index-results" aria-label="论文条目"><div class="index-heading"><h2>论文列表</h2><output id="index-count" aria-live="polite"></output></div><div id="index-list" class="index-list"></div></section>
+  </main>
+</body>
+</html>

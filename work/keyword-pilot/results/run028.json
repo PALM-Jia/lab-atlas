@@ -1,0 +1,12 @@
+{
+  "sample_id": "S07",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "Ensemble clustering integrates a set of base clustering results to generate a stronger one.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文明确将融合一组基础聚类结果以生成更强聚类作为任务，并进一步增强共关联矩阵来实现该任务。"
+    }
+  ],
+  "abstentions": []
+}

@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2493084460",
+  "annotations": [
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "Multi-view clustering has become a hot topic since the past decade and nonnegative matrix factorization (NMF) based multi-view clustering algorithms have shown their superiorities.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文研究多视图聚类，并在方法中显式利用视图间关系，符合同一对象多视图联合学习的设定。"
+    },
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "symmetric nonnegative matrix factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以对称非负矩阵分解为核心方法，摘要也说明算法基于NMF。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "Moreover, to preserve the locally geometrical structure between views, graph regularization is utilized.",
+      "evidence_field": "abstract",
+      "reason_zh": "使用图正则化保持视图间局部几何结构，符合图与流形正则化定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

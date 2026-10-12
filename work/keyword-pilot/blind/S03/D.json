@@ -1,0 +1,23 @@
+{
+  "sample_id": "S03",
+  "annotations": [
+    {
+      "keyword_id": "partial-label-learning",
+      "exact_quote": "each training sample has multiple labels and only one of them is the correct label",
+      "evidence_field": "abstract",
+      "reason_zh": "每个样本提供多个候选标签且仅一个为真，符合偏标记学习设定。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "ambiguously labeled multiclass classification",
+      "evidence_field": "abstract",
+      "reason_zh": "研究以候选标签歧义作为实质监督条件，属于弱监督学习涵盖的候选歧义情形。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "sparse-representation",
+      "reason_zh": "摘要提到字典学习，但没有说明以少量字典原子或基向量表示样本，无法确认符合稀疏表示定义。"
+    }
+  ]
+}

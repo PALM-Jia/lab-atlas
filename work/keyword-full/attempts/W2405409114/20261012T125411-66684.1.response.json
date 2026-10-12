@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2405409114\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"we develop group sparsity regularization methods for nonnegative matrix factorization (NMF)\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以非负矩阵分解(NMF)为核心方法，并提出组稀疏正则化改进NMF，属于对NMF的研究与使用。\"},{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"we propose mixed-norm regularization to promote group sparsity in the factor matrices of NMF\",\"evidence_field\":\"abstract\",\"reason_zh\":\"通过混合范数正则化促使NMF因子矩阵产生组稀疏，使样本由少量潜在特征组表达，符合稀疏表示的实现形式。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

@@ -1,0 +1,39 @@
+{
+  "paper_id": "W2902200737",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "abstention",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "众包监督存在不可靠标签并专门设计EM过滤，属于词表明确包含的不准确监督；噪声标签学习并非弱监督的声明子词，不能据此弃权。",
+      "exact_quote": "then EM algorithm was designed to filter out unreliable labels",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "then EM algorithm was designed to filter out unreliable labels",
+        "evidence_field": "abstract",
+        "reason_zh": "众包监督存在不可靠标签并专门设计EM过滤，属于词表明确包含的不准确监督；噪声标签学习并非弱监督的声明子词，不能据此弃权。"
+      }
+    ],
+    "abstentions": [
+      {
+        "keyword_id": "label-distribution-learning",
+        "reason_zh": "有blended/ambiguity/continuity线索，但未说明预测各标签相对描述程度或标签分布，无法确认该任务。"
+      },
+      {
+        "keyword_id": "graph-structure-learning",
+        "reason_zh": "仅提到保持局部亲和与标签流形结构，未说明学习或修正样本间边、邻接或亲和矩阵。"
+      },
+      {
+        "keyword_id": "multi-objective-optimization",
+        "reason_zh": "联合保持局部亲和与标签流形不等于多个相互制约目标的帕累托优化。"
+      }
+    ],
+    "input_issues": []
+  }
+}

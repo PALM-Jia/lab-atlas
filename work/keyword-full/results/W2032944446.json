@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2032944446",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral Unmixing via $L_{1/2}$ Sparsity-Constrained Nonnegative Matrix Factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题明确研究高光谱解混，处理密集光谱波段的高光谱图像/数据。"
+    },
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "we extend the NMF method by incorporating the$L_{1/2}$sparsity constraint, which we name$L_{1/2}$-NMF.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明论文以NMF方法为基础并扩展其加入L1/2稀疏约束，属于非负矩阵分解方法。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "The$L_{1/2}$regularizer not only induces sparsity but is also a better choice among$L_{q}(0 < q < 1)$regularizers.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要强调L1/2正则诱导稀疏，用于NMF表示中的稀疏约束，满足稀疏表示方法。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

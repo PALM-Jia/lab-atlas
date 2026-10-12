@@ -1,0 +1,11 @@
+{
+  "paper_id": "W2166765763",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "bayesian-inference",
+      "reason_zh": "摘要仅说明EM、平均场和变分界算法可重述为CCCP，未明确涉及先验、后验估计或贝叶斯近似推断，无法确认贝叶斯推断是本篇实质方法。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2133223948",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "multilabel classification",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以多标记分类为研究任务，并提出相关度量与随机重采样算法。"
+    },
+    {
+      "keyword_id": "class-imbalance",
+      "exact_quote": "Addressing imbalance in multilabel classification",
+      "evidence_field": "title",
+      "reason_zh": "标题明确针对多标记分类中的不平衡问题，并研究随机重采样算法，符合显式处理类别或标签不平衡的研究设定。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

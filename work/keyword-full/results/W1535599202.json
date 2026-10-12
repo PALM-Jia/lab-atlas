@@ -1,0 +1,13 @@
+{
+  "paper_id": "W1535599202",
+  "annotations": [
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "This paper considers kernels for multi-instance problems - a class of concepts on individuals represented by sets. The main result of this paper is a kernel on multi-instance data that can be shown to separate positive and negative sets under natural assumptions.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要研究多示例问题，概念作用于由个体构成的集合，并以正/负集合为监督单位，属于包级粗粒度弱监督设定，且该设定是论文核心问题。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

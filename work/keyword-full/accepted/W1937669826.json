@@ -1,0 +1,19 @@
+{
+  "paper_id": "W1937669826",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral unmixing (HSU) plays an important role in hyperspectral image (HSI) analysis.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以高光谱图像分析中的高光谱解混为研究对象，直接处理HSI混合像元，符合高光谱图像应用对象定义。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "This paper presents a new weighted sparse regression problem for HSU",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出用于高光谱解混的加权稀疏回归问题，属于以稀疏基/字典方式表达混合像元的稀疏表示方法。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

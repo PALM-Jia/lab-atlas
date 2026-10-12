@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2003194818",
+  "annotations": [
+    {
+      "keyword_id": "subspace-clustering",
+      "exact_quote": "The resulting representations are then used as feature vectors to cluster the data in accordance with each signal's subspace membership.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文明确学习子空间并依据样本的子空间归属进行聚类，标题也直接表明研究任务为子空间聚类。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

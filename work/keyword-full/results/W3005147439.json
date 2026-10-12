@@ -1,0 +1,25 @@
+{
+  "paper_id": "W3005147439",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "Data limitations are addressed using the Schatten p-norm matrix completion algorithm",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确用矩阵补全处理数据缺失，恢复路网时空速度矩阵，属于对缺失观测的数据恢复任务。"
+    },
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "network-wide traffic speed estimation",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以路网交通速度估计为核心任务，并使用叫车车辆GPS轨迹等实际交通数据，交通数据是主要应用对象。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "Schatten p-norm matrix completion algorithm",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要称采用Schatten p-norm矩阵补全算法，该算法以奇异值范数约束或近似矩阵低秩结构来恢复缺失速度矩阵。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

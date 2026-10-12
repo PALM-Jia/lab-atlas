@@ -1,0 +1,52 @@
+{
+  "paper_id": "W4229080828",
+  "annotations": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "This article proposes a novel low-rank matrix factorization model for semisupervised image clustering.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确提出低秩矩阵分解模型作为聚类方案核心，满足显式低秩分解/表示相关结构。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "a constraint graph learning framework is proposed to adaptively learn the local structure of the data by considering the label information",
+      "evidence_field": "abstract",
+      "reason_zh": "提出约束图学习框架并自适应学习数据局部结构，属于学习样本间图/亲和结构。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "semisupervised image clustering",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确设定为半监督图像聚类，并利用标签信息改进聚类，符合有限监督与未标注样本结合。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "semisupervised image clustering",
+      "evidence_field": "abstract",
+      "reason_zh": "半监督图像聚类将有限标签信息用于聚类，属于词表明确覆盖的不完整监督条件；不应要求额外出现弱监督字样。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "subspace-clustering",
+      "reason_zh": "摘要仅说明低秩矩阵分解用于图像聚类，未说明按潜在子空间分组或使用自表达关系，证据不足。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "reason_zh": "低秩分解可能隐含降维，但摘要未将显式低维映射或维度压缩作为研究目标。"
+    },
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "reason_zh": "仅见低秩矩阵分解，未提及非负因子分解或非负约束。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "提出约束图学习，但未说明利用图拉普拉斯/流形等施加几何一致性正则。"
+    },
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "reason_zh": "有约束图与标签信息，但未说明must-link/cannot-link监督的扩展或传播。"
+    }
+  ],
+  "input_issues": []
+}

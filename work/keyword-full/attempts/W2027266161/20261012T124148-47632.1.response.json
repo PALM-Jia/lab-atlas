@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2027266161\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"Multi-instance multi-label learning\",\"evidence_field\":\"title\",\"reason_zh\":\"标题直接给出多标记学习任务，摘要进一步说明每个示例关联多个类别标记，学习为示例预测可同时成立的多个标记。\"},{\"keyword_id\":\"weakly-supervised-learning\",\"exact_quote\":\"an example is described by multiple instances and associated with multiple class labels\",\"evidence_field\":\"abstract\",\"reason_zh\":\"监督仅标注在由多个实例构成的示例（包）级，实例级真值不完整，属于包级粗粒度监督，且论文围绕从MIML示例学习提出算法。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

@@ -1,0 +1,2766 @@
+{
+  "summary": {
+    "total": 144,
+    "available": 116,
+    "missing": 28,
+    "available_rate": 80.6,
+    "identity_unmatched": 26,
+    "matched_empty_keywords": 2,
+    "reasons": {
+      "public_page_verified_no_openalex_match": 6,
+      "title_only_no_independent_locator": 4,
+      "possible_renamed_paper_without_version_identity": 1,
+      "spelling_variant_no_verified_match": 1,
+      "expanded_search_no_verified_record": 4,
+      "official_listing_no_openalex_match": 7,
+      "no_public_locator_for_future_year": 1,
+      "public_candidate_page_access_blocked": 1,
+      "openalex_keywords_empty": 2,
+      "title_variant_collides_with_another_lab_paper": 1
+    },
+    "status_checked": 28,
+    "status_categories": {
+      "formal_proceedings": 15,
+      "preprint_title_only": 6,
+      "recent_venue_without_locator": 4,
+      "formal_with_preprint": 1,
+      "conference_journal_version_link": 1,
+      "conference_without_fulltext": 1
+    }
+  },
+  "scope": "现有 OpenAlex 关键词缓存；另按个人主页和官方公开页逐篇核查发表状态。",
+  "missing": [
+    {
+      "id": "lab-5403cb1aad23",
+      "title": "Noise Separation guided Candidate Label Reconstruction for Noisy Partial Label Learning",
+      "year": 2025,
+      "venue": "ICLR",
+      "openalex": null,
+      "reason": "public_page_verified_no_openalex_match",
+      "detail": "贾育衡个人主页列为 ICLR 2025 会议论文；官方论文集页面已核对标题、作者和完整摘要。",
+      "assessment": "当前关键词采集只接入已匹配 OpenAlex 的记录；已确认的个人主页及官方摘要尚未用于补采。",
+      "next_action": "直接从官方摘要提取关键词，并标注为摘要提取；也可从正文补采作者关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "贾育衡个人主页 Conference Papers 将该文列为 ICLR 2025，不在 Preprint 分组；有完整作者名单。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a8b879590adff2b1874f97db59b65518-Abstract-Conference.html",
+          "result": "正式 ICLR 2025 Conference 论文集页面，核对标题、作者及完整摘要。页面没有单独 keywords 栏或 DOI 字段。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://palm.seu.edu.cn/homepage/pengxiaorui/index.html",
+          "result": "作者彭小锐个人主页确认其为东南大学 PALM 学生；主页未提供该论文书目。官方论文页和贾育衡个人主页均列出论文及一致作者。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://openreview.net/forum?id=TOahfjA3sP",
+          "result": "本轮直接打开跳转 OpenReview browser challenge，人机验证页面；改查 ICLR 官方论文集后成功取得摘要。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://api2.openreview.net/notes?id=TOahfjA3sP",
+          "result": "本轮网页检索工具无法访问该结构化 API URL，未取得响应正文；不归因为 HTTP 403。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3ANoise+Separation+guided+Candidate+Label+Reconstruction+for+Noisy+Partial+Label+Learning&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3ANoise+Separation+guided+Candidate+Label+Reconstruction+for&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=Noise+Separation+guided+Candidate+Label+Reconstruction+for+Noisy+Partial+Label+Learning&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Public paper page",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a8b879590adff2b1874f97db59b65518-Abstract-Conference.html",
+          "result": "已核对标题及作者"
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "public-paper-metadata.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。官方论文页面已核对标题和作者；OpenAlex 标题及作者文献集合查询未匹配。",
+      "prior_pipeline_assessment": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。",
+      "verified_status": "formal_proceedings",
+      "status_label": "ICLR 2025 · 正式论文集已公开",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "贾育衡个人主页 Conference Papers 将该文列为 ICLR 2025，不在 Preprint 分组；有完整作者名单。"
+        },
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a8b879590adff2b1874f97db59b65518-Abstract-Conference.html",
+          "fact": "正式 ICLR 2025 Conference 论文集页面，核对标题、作者及完整摘要。页面没有单独 keywords 栏或 DOI 字段。"
+        },
+        {
+          "url": "https://palm.seu.edu.cn/homepage/pengxiaorui/index.html",
+          "fact": "作者彭小锐个人主页确认其为东南大学 PALM 学生；主页未提供该论文书目。官方论文页和贾育衡个人主页均列出论文及一致作者。"
+        },
+        {
+          "url": "https://openreview.net/forum?id=TOahfjA3sP",
+          "fact": "本轮直接打开跳转 OpenReview browser challenge，人机验证页面；改查 ICLR 官方论文集后成功取得摘要。"
+        },
+        {
+          "url": "https://api2.openreview.net/notes?id=TOahfjA3sP",
+          "fact": "本轮网页检索工具无法访问该结构化 API URL，未取得响应正文；不归因为 HTTP 403。"
+        }
+      ]
+    },
+    {
+      "id": "lab-bb2d463fb71a",
+      "title": "Unsupervised Long-tailed Learning for Foundation Model",
+      "year": null,
+      "venue": null,
+      "openalex": null,
+      "reason": "title_only_no_independent_locator",
+      "detail": "贾育衡个人论文页将此条目放在 Preprint 区，未列作者、年份、投稿场所或论文链接。缺关键词首先是尚无可确认的公开论文身份和文本，而非 ICLR 早年无 DOI。 另查到 arXiv:2610.07903，题名为 Unsupervised Long-Tailed Adaptation of Vision-Language Models，作者含 Yuheng Jia，2026-10-06 首次公开。主页条目没有作者或链接，尚无两题版本对应证据，不能直接把候选关键词归给原条目。",
+      "assessment": "原主页条目只有标题；缺作者、时间和公开原文标识，当前未接入 OpenAlex 关键词。",
+      "next_action": "原条目先用标题提取；若后续主页更新链接确认改题，可用该公开版本摘要提取并标注来源。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "Preprint 区列出该题名；该条目只有标题。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://arxiv.org/abs/2610.07903",
+          "result": "v1 于 2026-10-06 提交；作者 Keliang Chen、Yaxin Hou、Hui Liu、Yuheng Jia；题名与主页不同。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AUnsupervised+Long-tailed+Learning+for+Foundation+Model&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=Unsupervised+Long-tailed+Learning+for+Foundation+Model&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。实验室列表仅有标题，无年份、作者或论文链接；标题查询未确认记录。",
+      "prior_pipeline_assessment": "OpenAlex 标题/作者文献集合、Crossref 和网页检索未确认身份；尚未核实公开日期、DOI 有无或数据库收录延迟。",
+      "verified_status": "preprint_title_only",
+      "status_label": "主页标为 Preprint · 原条目只有标题",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "Preprint 区列出该题名；该条目只有标题。"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.07903",
+          "fact": "v1 于 2026-10-06 提交；作者 Keliang Chen、Yaxin Hou、Hui Liu、Yuheng Jia；题名与主页不同。"
+        }
+      ]
+    },
+    {
+      "id": "lab-088383584e44",
+      "title": "PEEK: Partial Label Learning Empowered by External Knowledge",
+      "year": null,
+      "venue": null,
+      "openalex": null,
+      "reason": "title_only_no_independent_locator",
+      "detail": "贾育衡个人论文页将此条目放在 Preprint 区，未列作者、年份、投稿场所或论文链接。缺关键词首先是尚无可确认的公开论文身份和文本，而非 ICLR 早年无 DOI。",
+      "assessment": "原主页条目只有标题；缺作者、时间和公开原文标识，当前未接入 OpenAlex 关键词。",
+      "next_action": "暂可用标题提取关键词，标注“标题提取”；不能当作论文作者关键词或 OpenAlex keywords。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "Preprint 区列出该题名；该条目只有标题。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3APEEK%3A+Partial+Label+Learning+Empowered+by+External+Knowledge&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3APartial+Label+Learning+Empowered+by+External+Knowledge&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=PEEK%3A+Partial+Label+Learning+Empowered+by+External+Knowledge&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。实验室列表仅有标题，无年份、作者或论文链接；标题查询未确认记录。",
+      "prior_pipeline_assessment": "OpenAlex 标题/作者文献集合、Crossref 和网页检索未确认身份；尚未核实公开日期、DOI 有无或数据库收录延迟。",
+      "verified_status": "preprint_title_only",
+      "status_label": "主页标为 Preprint · 原条目只有标题",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "Preprint 区列出该题名；该条目只有标题。"
+        }
+      ]
+    },
+    {
+      "id": "lab-a07279b34373",
+      "title": "Hub for Outliers, Spokes for Inliers: Homeomorphic Latent Space Construction for Dual-Mismatched Semi-Supervised Learning",
+      "year": null,
+      "venue": null,
+      "openalex": null,
+      "reason": "possible_renamed_paper_without_version_identity",
+      "detail": "个人主页 Preprint 区题名为 Homeomorphic Latent Space，未列作者、年份或链接。arXiv:2610.07610 使用 Uniform Latent Space，作者 Li Yuan、Yaxin Hou、Jiawei Tang、Yongbiao Gao、Yuheng Jia，v1 于 2026-10-06 提交。arXiv 只有 v1；其 HTML 未出现 Homeomorphic，缺少原题和新题的版本对应记录。新候选确实刚公开，但原条目身份仍不能凭相似题名归并。",
+      "assessment": "原主页条目只有标题；缺作者、时间和公开原文标识，当前未接入 OpenAlex 关键词。",
+      "next_action": "先保留原题的标题关键词；候选摘要可读，身份确认后即可摘要提取，不必等待 OpenAlex 收录。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "Preprint 区列出该题名；该条目只有标题。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://arxiv.org/abs/2610.07610",
+          "result": "Uniform 题名；v1 2026-10-06；作者包括 Yuheng Jia。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://arxiv.org/html/2610.07610v1",
+          "result": "HTML 题名为 Uniform；全文查 Homeomorphic 无匹配。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AHub+for+Outliers%2C+Spokes+for+Inliers%3A+Homeomorphic+Latent+Space+Construction+for+Dual-Mismatched+Semi-Supervised+Learning&per_page=50",
+          "result": "http_400",
+          "attempts": [
+            {
+              "http": 400,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AHomeomorphic+Latent+Space+Construction+for+Dual-Mismatched+Semi-Supervised+Learning&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=Hub+for+Outliers%2C+Spokes+for+Inliers%3A+Homeomorphic+Latent+Space+Construction+for+Dual-Mismatched+Semi-Supervised+Learning&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AHub+for+Outliers&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "改题候选：Hub for Outliers, Spokes for Inliers: Uniform Latent Space Construction for Dual-Mismatched Semi-Supervised Learning",
+          "url": "https://arxiv.org/abs/2610.07610",
+          "result": "未找到原题与该题的版本对应证据"
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。找到 Uniform Latent Space 标题候选（arXiv:2610.07610），原题为 Homeomorphic Latent Space，缺少两题对应的版本证据。",
+      "prior_pipeline_assessment": "已找到 Uniform 标题候选；原始条目为 Homeomorphic，未找到连接两种题目的版本历史。",
+      "verified_status": "preprint_title_only",
+      "status_label": "主页标为 Preprint · 原条目只有标题",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "Preprint 区列出该题名；该条目只有标题。"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.07610",
+          "fact": "Uniform 题名；v1 2026-10-06；作者包括 Yuheng Jia。"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.07610v1",
+          "fact": "HTML 题名为 Uniform；全文查 Homeomorphic 无匹配。"
+        }
+      ]
+    },
+    {
+      "id": "lab-3af81cff7068",
+      "title": "Beyond Low-Rank: A Region-Aware Imputation Method for Traffic Data Recovery",
+      "year": null,
+      "venue": null,
+      "openalex": null,
+      "reason": "title_only_no_independent_locator",
+      "detail": "贾育衡个人论文页将此条目放在 Preprint 区，未列作者、年份、投稿场所或论文链接。缺关键词首先是尚无可确认的公开论文身份和文本，而非 ICLR 早年无 DOI。",
+      "assessment": "原主页条目只有标题；缺作者、时间和公开原文标识，当前未接入 OpenAlex 关键词。",
+      "next_action": "暂可用标题提取关键词，标注“标题提取”；不能当作论文作者关键词或 OpenAlex keywords。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "Preprint 区列出该题名；该条目只有标题。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3ABeyond+Low-Rank%3A+A+Region-Aware+Imputation+Method+for+Traffic+Data+Recovery&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AA+Region-Aware+Imputation+Method+for+Traffic+Data+Recovery&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=Beyond+Low-Rank%3A+A+Region-Aware+Imputation+Method+for+Traffic+Data+Recovery&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 429,
+              "curl": 0
+            },
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。实验室列表仅有标题，无年份、作者或论文链接；标题查询未确认记录。",
+      "prior_pipeline_assessment": "OpenAlex 标题/作者文献集合、Crossref 和网页检索未确认身份；尚未核实公开日期、DOI 有无或数据库收录延迟。",
+      "verified_status": "preprint_title_only",
+      "status_label": "主页标为 Preprint · 原条目只有标题",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "Preprint 区列出该题名；该条目只有标题。"
+        }
+      ]
+    },
+    {
+      "id": "lab-8ef4decb9b26",
+      "title": "Hyerspectral Image Clustering with Local Sparse Subspace guided Super-Graph Construction",
+      "year": null,
+      "venue": null,
+      "openalex": null,
+      "reason": "spelling_variant_no_verified_match",
+      "detail": "贾育衡个人论文页将此条目放在 Preprint 区，未列作者、年份、投稿场所或论文链接。缺关键词首先是尚无可确认的公开论文身份和文本，而非 ICLR 早年无 DOI。 个人主页原题确实写 Hyerspectral，不是采集时误写；Hyerspectral 与 Hyperspectral 两种标题查询均未找到带作者或公开论文链接的原文页。拼写错误可能影响检索，但不能作为唯一缺失原因。",
+      "assessment": "原主页条目只有标题；缺作者、时间和公开原文标识，当前未接入 OpenAlex 关键词。",
+      "next_action": "暂可用标题提取关键词，标注“标题提取”；不能当作论文作者关键词或 OpenAlex keywords。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "Preprint 区列出该题名；该条目只有标题。 原文拼写确为 Hyerspectral。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AHyperspectral+Image+Clustering+with+Local+Sparse+Subspace+guided+Super-Graph+Construction&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AHyperspectral+Image+Clustering+with+Local+Sparse+Subspace&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=Hyperspectral+Image+Clustering+with+Local+Sparse+Subspace+guided+Super-Graph+Construction&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 429,
+              "curl": 0
+            },
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。原题含 Hyerspectral 拼写，身份审计已尝试标题变体，仍未确认记录。",
+      "prior_pipeline_assessment": "OpenAlex 标题/作者文献集合、Crossref 和网页检索未确认身份；尚未核实公开日期、DOI 有无或数据库收录延迟。",
+      "verified_status": "preprint_title_only",
+      "status_label": "主页标为 Preprint · 原条目只有标题",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "Preprint 区列出该题名；该条目只有标题。 原文拼写确为 Hyerspectral。"
+        }
+      ]
+    },
+    {
+      "id": "lab-7af4622bbcc3",
+      "title": "Adaptive Graph Feedback Clustering Network",
+      "year": null,
+      "venue": null,
+      "openalex": null,
+      "reason": "title_only_no_independent_locator",
+      "detail": "贾育衡个人论文页将此条目放在 Preprint 区，未列作者、年份、投稿场所或论文链接。缺关键词首先是尚无可确认的公开论文身份和文本，而非 ICLR 早年无 DOI。",
+      "assessment": "原主页条目只有标题；缺作者、时间和公开原文标识，当前未接入 OpenAlex 关键词。",
+      "next_action": "暂可用标题提取关键词，标注“标题提取”；不能当作论文作者关键词或 OpenAlex keywords。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "Preprint 区列出该题名；该条目只有标题。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AAdaptive+Graph+Feedback+Clustering+Network&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=Adaptive+Graph+Feedback+Clustering+Network&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。实验室列表仅有标题，无年份、作者或论文链接；标题查询未确认记录。",
+      "prior_pipeline_assessment": "OpenAlex 标题/作者文献集合、Crossref 和网页检索未确认身份；尚未核实公开日期、DOI 有无或数据库收录延迟。",
+      "verified_status": "preprint_title_only",
+      "status_label": "主页标为 Preprint · 原条目只有标题",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "Preprint 区列出该题名；该条目只有标题。"
+        }
+      ]
+    },
+    {
+      "id": "lab-9ddc9ff7ce0c",
+      "title": "Towards Robust Models: Mitigating Adversarial Shifts in Feature Statistics with Uncertainty-Aware Reconstruction",
+      "year": 2026,
+      "venue": "PR",
+      "openalex": null,
+      "reason": "expanded_search_no_verified_record",
+      "detail": "主页列为 Pattern Recognition 2026；该条无 DOI、论文或预印本链接；精确标题网页检索只取得 PI 主页记录。当前缺 OpenAlex 身份匹配和官方论文定位。",
+      "assessment": "主页有场所、年份和作者；缺正式论文页/DOI链接，OpenAlex身份尚未匹配。",
+      "next_action": "定位出版社或会议摘要页后提取关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "PI 个人主页将本论文列于 Journal Papers，标注 PR 2026；不在 Preprint 栏。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3ATowards+Robust+Models%3A+Mitigating+Adversarial+Shifts+in+Feature+Statistics+with+Uncertainty-Aware+Reconstruction&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AMitigating+Adversarial+Shifts+in+Feature+Statistics+with+Uncertainty-Aware+Reconstruction&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=Towards+Robust+Models%3A+Mitigating+Adversarial+Shifts+in+Feature+Statistics+with+Uncertainty-Aware+Reconstruction&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 429,
+              "curl": 0
+            },
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。OpenAlex 标题、作者文献集合和 Crossref 标题查询未取得身份校验通过的记录。",
+      "prior_pipeline_assessment": "OpenAlex 标题/作者文献集合、Crossref 和网页检索未确认身份；尚未核实公开日期、DOI 有无或数据库收录延迟。",
+      "verified_status": "recent_venue_without_locator",
+      "status_label": "PR 2026 · 主页已列，缺论文链接",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "PI 个人主页将本论文列于 Journal Papers，标注 PR 2026；不在 Preprint 栏。"
+        }
+      ]
+    },
+    {
+      "id": "lab-dccd5bfa936b",
+      "title": "PGSB: Pretrained-Guided Shared Basis for LoRA Model Merging",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "openalex": null,
+      "reason": "official_listing_no_openalex_match",
+      "detail": "主页列为 NeurIPS 2026；官方详情已公开标题、作者和摘要，正常跟进地点跳转后 HTTP 200。缺 OpenAlex 身份匹配；此前摘要采集停在 HTTP 302。",
+      "assessment": "当前关键词采集只接入已匹配 OpenAlex 的记录；已确认的个人主页及官方摘要尚未用于补采。",
+      "next_action": "用官方摘要提取关键词并标注来源；OpenReview API 本轮 HTTP 403，未取得作者填写关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "PI 个人主页将本论文列于 Conference Papers，标注 NeurIPS 2026；不在 Preprint 栏。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://neurips.cc/virtual/2026/loc/sydney/poster/152671",
+          "result": "HTTP 200；标题及作者与主页一致；公开摘要可读取。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://api2.openreview.net/notes?id=RH9XxRniDK",
+          "result": "OpenReview API 返回 HTTP 403，本轮未取得作者填写关键词。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://kitschnada.github.io/",
+          "result": "检索到同名刘穆清、东南大学背景且研究 LoRA 的主页，但当前页面只链接 FlexLoRA，未列 PGSB；未将同名主页作为本论文身份凭据。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3APGSB%3A+Pretrained-Guided+Shared+Basis+for+LoRA+Model+Merging&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3APretrained-Guided+Shared+Basis+for+LoRA+Model+Merging&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=PGSB%3A+Pretrained-Guided+Shared+Basis+for+LoRA+Model+Merging&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 429,
+              "curl": 0
+            },
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "公开论文页面",
+          "url": "https://neurips.cc/Downloads/2026",
+          "result": "官方目录已核对标题"
+        },
+        {
+          "source": "Public paper page",
+          "url": "https://neurips.cc/virtual/2026/poster/152671",
+          "result": "HTTP 302，采集程序未继续跳转"
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。已有身份审计中，NeurIPS 2026 官方目录已列出标题；论文详情请求返回 HTTP 302，采集程序未继续跳转。",
+      "prior_pipeline_assessment": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。",
+      "verified_status": "formal_proceedings",
+      "status_label": "NeurIPS 2026 · 官方摘要已公开",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "PI 个人主页将本论文列于 Conference Papers，标注 NeurIPS 2026；不在 Preprint 栏。"
+        },
+        {
+          "url": "https://neurips.cc/virtual/2026/loc/sydney/poster/152671",
+          "fact": "HTTP 200；标题及作者与主页一致；公开摘要可读取。",
+          "abstract_excerpt": "Abstract Large pretrained models have achieved remarkable success across diverse domains, yet adapting them to multiple downstream tasks remains challenging: full fine-tuning is costly, while maintaining separate task-specific models is storage-inefficient and fails to produce a unified multi-task model. Low-Rank Adaptation (LoRA) offers an efficient alternative for Model Merging by representing each task adaptation as a low-rank update over frozen pretrained weights. However, existing LoRA merging methods often treat task-specific updates as directly comparable objects and merge them in their original low-rank parameter spaces. This overlooks two key factors: which update directions provide reliable shared support across tasks, and how these directions should be re-parameterized with respect to the pretrained weights before merging. To address this limitation, we propose Pretrained-Guided Shared Basis (PGSB), a two-stage framework for LoRA model merging. PGSB first identifies shared directions among task-specific LoRA updates, and then re-parameterizes these directions using their interaction with the pretrained weights, producing a more suitable basis for merging. Extensive experiments demonstrate that PGSB consistently outperforms state-of-the-art baselines across multiple benchmarks. Show more",
+          "openreview_urls": [
+            "https://openreview.net/forum?id=RH9XxRniDK"
+          ]
+        },
+        {
+          "url": "https://api2.openreview.net/notes?id=RH9XxRniDK",
+          "fact": "OpenReview API 返回 HTTP 403，本轮未取得作者填写关键词。"
+        },
+        {
+          "url": "https://kitschnada.github.io/",
+          "fact": "检索到同名刘穆清、东南大学背景且研究 LoRA 的主页，但当前页面只链接 FlexLoRA，未列 PGSB；未将同名主页作为本论文身份凭据。"
+        }
+      ]
+    },
+    {
+      "id": "lab-e73ac884ede0",
+      "title": "Exploiting Negative Multi-Cluster Structure in Class-Wise Embeddings for Weakly Supervised Multi-Label Learning",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "openalex": null,
+      "reason": "official_listing_no_openalex_match",
+      "detail": "主页列为 NeurIPS 2026；官方详情已公开标题、作者和摘要，正常跟进地点跳转后 HTTP 200。缺 OpenAlex 身份匹配；此前摘要采集停在 HTTP 302。",
+      "assessment": "当前关键词采集只接入已匹配 OpenAlex 的记录；已确认的个人主页及官方摘要尚未用于补采。",
+      "next_action": "用官方摘要提取关键词并标注来源；OpenReview API 本轮 HTTP 403，未取得作者填写关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "PI 个人主页将本论文列于 Conference Papers，标注 NeurIPS 2026；不在 Preprint 栏。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://neurips.cc/virtual/2026/loc/sydney/poster/153676",
+          "result": "HTTP 200；标题及作者与主页一致；公开摘要可读取。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://api2.openreview.net/notes?id=Jc0lO9zGdF",
+          "result": "OpenReview API 返回 HTTP 403，本轮未取得作者填写关键词。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AExploiting+Negative+Multi-Cluster+Structure+in+Class-Wise+Embeddings+for+Weakly+Supervised+Multi-Label+Learning&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AExploiting+Negative+Multi-Cluster+Structure+in+Class-Wise+Embeddings&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=Exploiting+Negative+Multi-Cluster+Structure+in+Class-Wise+Embeddings+for+Weakly+Supervised+Multi-Label+Learning&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "公开论文页面",
+          "url": "https://neurips.cc/Downloads/2026",
+          "result": "官方目录已核对标题"
+        },
+        {
+          "source": "Public paper page",
+          "url": "https://neurips.cc/virtual/2026/poster/153676",
+          "result": "HTTP 302，采集程序未继续跳转"
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。已有身份审计中，NeurIPS 2026 官方目录已列出标题；论文详情请求返回 HTTP 302，采集程序未继续跳转。",
+      "prior_pipeline_assessment": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。",
+      "verified_status": "formal_proceedings",
+      "status_label": "NeurIPS 2026 · 官方摘要已公开",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "PI 个人主页将本论文列于 Conference Papers，标注 NeurIPS 2026；不在 Preprint 栏。"
+        },
+        {
+          "url": "https://neurips.cc/virtual/2026/loc/sydney/poster/153676",
+          "fact": "HTTP 200；标题及作者与主页一致；公开摘要可读取。",
+          "abstract_excerpt": "Abstract Class-wise embeddings provide an effective strategy for multi-label learning (MLL) by capturing the distinct discriminative properties of each class. However, existing methods based on class-wise embeddings typically overlook the internal distribution of negative samples. We uncover a pivotal phenomenon: negative instances in class-wise spaces naturally organize into multiple semantically coherent sub-clusters, a structure that persists across diverse modalities even under extreme label sparsity. Leveraging this insight, we propose a Structure-Aware Pseudo-label mining framework for weakly supervised MLL (SaPu). The proposed framework mines positive pseudo-labels by aggregating cluster-level consistency across different class-wise embeddings and identifies negative pseudo-labels via neighborhood exclusion. These high-quality signals further guide class-wise contrastive learning, establishing a self-reinforcing loop that iteratively refines embeddings. Extensive experiments on image, text and audio benchmarks validate that SaPu outperforms state-of-the-art methods by an average of 4.46% in challenging single-label supervision scenarios. Code is available in the supplementary material . Show more",
+          "openreview_urls": [
+            "https://openreview.net/forum?id=Jc0lO9zGdF"
+          ]
+        },
+        {
+          "url": "https://api2.openreview.net/notes?id=Jc0lO9zGdF",
+          "fact": "OpenReview API 返回 HTTP 403，本轮未取得作者填写关键词。"
+        }
+      ]
+    },
+    {
+      "id": "lab-1025a6d4de24",
+      "title": "Individuals Matter: Improving Deep Multi-View Clustering via Explicit Single-View Enhancement",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "openalex": null,
+      "reason": "official_listing_no_openalex_match",
+      "detail": "主页列为 NeurIPS 2026；官方详情已公开标题、作者和摘要，正常跟进地点跳转后 HTTP 200。缺 OpenAlex 身份匹配；此前摘要采集停在 HTTP 302。",
+      "assessment": "当前关键词采集只接入已匹配 OpenAlex 的记录；已确认的个人主页及官方摘要尚未用于补采。",
+      "next_action": "用官方摘要提取关键词并标注来源；OpenReview API 本轮 HTTP 403，未取得作者填写关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "PI 个人主页将本论文列于 Conference Papers，标注 NeurIPS 2026；不在 Preprint 栏。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://neurips.cc/virtual/2026/loc/sydney/poster/148868",
+          "result": "HTTP 200；标题及作者与主页一致；公开摘要可读取。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://api2.openreview.net/notes?id=uZrL0n4Dqc",
+          "result": "OpenReview API 返回 HTTP 403，本轮未取得作者填写关键词。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AIndividuals+Matter%3A+Improving+Deep+Multi-View+Clustering+via+Explicit+Single-View+Enhancement&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AImproving+Deep+Multi-View+Clustering+via+Explicit+Single-View+Enhancement&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=Individuals+Matter%3A+Improving+Deep+Multi-View+Clustering+via+Explicit+Single-View+Enhancement&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 429,
+              "curl": 0
+            },
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "公开论文页面",
+          "url": "https://neurips.cc/Downloads/2026",
+          "result": "官方目录已核对标题"
+        },
+        {
+          "source": "Public paper page",
+          "url": "https://neurips.cc/virtual/2026/poster/148868",
+          "result": "HTTP 302，采集程序未继续跳转"
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。已有身份审计中，NeurIPS 2026 官方目录已列出标题；论文详情请求返回 HTTP 302，采集程序未继续跳转。",
+      "prior_pipeline_assessment": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。",
+      "verified_status": "formal_proceedings",
+      "status_label": "NeurIPS 2026 · 官方摘要已公开",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "PI 个人主页将本论文列于 Conference Papers，标注 NeurIPS 2026；不在 Preprint 栏。"
+        },
+        {
+          "url": "https://neurips.cc/virtual/2026/loc/sydney/poster/148868",
+          "fact": "HTTP 200；标题及作者与主页一致；公开摘要可读取。",
+          "abstract_excerpt": "Abstract Although existing deep multi-view clustering methods often achieve high performance, they predominantly focus on improving the fused representation while overlooking the enhancement of individual views, often resulting in stagnant or inconsistently improved view-specific representations that limit the final fusion quality. To address this, we propose Explicit single-View Enhancement (EVE), a novel deep multi-view clustering framework designed to explicitly optimize the clustering capability of each individual view. Specifically, EVE employs an attention-based module to generate a global consensus as a reliable anchor, which subsequently guides the refinement of individual views through two key components: feature-level selective alignment and structural-level neighborhood propagation. Crucially, the enhanced single views will further boost the fused representation, and finally leading to a mutually reinforcing closed-loop feedback process. Our method is also naturally applicable to incomplete deep multi-view clustering scenarios. Extensive experiments on multiple benchmark datasets demonstrate that EVE consistently outperforms state-of-the-art competitors, achieving substantial average improvements of 5.9% in ARI across all datasets. The code is available in the Supplementary Material . Show more",
+          "openreview_urls": [
+            "https://openreview.net/forum?id=uZrL0n4Dqc"
+          ]
+        },
+        {
+          "url": "https://api2.openreview.net/notes?id=uZrL0n4Dqc",
+          "fact": "OpenReview API 返回 HTTP 403，本轮未取得作者填写关键词。"
+        }
+      ]
+    },
+    {
+      "id": "lab-effcb20ed6d4",
+      "title": "AdapMatch: Adaptive Bias Decoupling for Semi-Supervised Partial Label Learning under Unknown Class Distributions",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "openalex": null,
+      "reason": "official_listing_no_openalex_match",
+      "detail": "主页列为 NeurIPS 2026；官方详情已公开标题、作者和摘要，正常跟进地点跳转后 HTTP 200。缺 OpenAlex 身份匹配；此前摘要采集停在 HTTP 302。",
+      "assessment": "当前关键词采集只接入已匹配 OpenAlex 的记录；已确认的个人主页及官方摘要尚未用于补采。",
+      "next_action": "用官方摘要提取关键词并标注来源；OpenReview API 本轮 HTTP 403，未取得作者填写关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "PI 个人主页将本论文列于 Conference Papers，标注 NeurIPS 2026；不在 Preprint 栏。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://neurips.cc/virtual/2026/loc/sydney/poster/150939",
+          "result": "HTTP 200；标题及作者与主页一致；公开摘要可读取。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://api2.openreview.net/notes?id=eAtYtntHfU",
+          "result": "OpenReview API 返回 HTTP 403，本轮未取得作者填写关键词。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AAdapMatch%3A+Adaptive+Bias+Decoupling+for+Semi-Supervised+Partial+Label+Learning+under+Unknown+Class+Distributions&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AAdaptive+Bias+Decoupling+for+Semi-Supervised+Partial+Label+Learning+under+Unknown+Class+Distributions&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=AdapMatch%3A+Adaptive+Bias+Decoupling+for+Semi-Supervised+Partial+Label+Learning+under+Unknown+Class+Distributions&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 429,
+              "curl": 0
+            },
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "公开论文页面",
+          "url": "https://neurips.cc/Downloads/2026",
+          "result": "官方目录已核对标题"
+        },
+        {
+          "source": "Public paper page",
+          "url": "https://neurips.cc/virtual/2026/poster/150939",
+          "result": "HTTP 302，采集程序未继续跳转"
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。已有身份审计中，NeurIPS 2026 官方目录已列出标题；论文详情请求返回 HTTP 302，采集程序未继续跳转。",
+      "prior_pipeline_assessment": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。",
+      "verified_status": "formal_proceedings",
+      "status_label": "NeurIPS 2026 · 官方摘要已公开",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "PI 个人主页将本论文列于 Conference Papers，标注 NeurIPS 2026；不在 Preprint 栏。"
+        },
+        {
+          "url": "https://neurips.cc/virtual/2026/loc/sydney/poster/150939",
+          "fact": "HTTP 200；标题及作者与主页一致；公开摘要可读取。",
+          "abstract_excerpt": "Abstract Partial Label Learning (PLL) trains models from instances with candidate label sets containing the ground-truth, while Semi-Supervised Partial Label Learning (SSPLL) further leverages the available unlabeled data to prompt the performance. The previous SSPLL methods implicitly assume the unlabeled data are class-balanced distributed. However, in realistic scenarios, the class distribution of unlabeled data is unknown, resulting in performance collapse on minority classes for the existing SSPLL methods. We identify two coupled biases behind this failure: (i) pseudo-label selection bias, where high-confidence filtering tends to over-select samples from dominant classes, causing the training data to become increasingly skewed toward these classes; and (ii) disambiguation bias, where dominant classes are more likely to win within candidate sets, even when they are incorrect. Theoretically, we show that these two biases reinforce each other over training, forming a feedback loop that degrades generalization performance. To weaken this loop, we propose AdapMatch, which uses DAS to reduce the skew in training data caused by pseudo-label selection bias via prior-aware pseudo-label admission and CAD to lower the disambiguation error by suppressing candidate-set domination. Across five benchmarks, AdapMatch yields gains up to 41.31\\% at most , showing strong robustness to varying scale, imbalance, and ambiguity. The code is available at \\url{https://anonymous.4open.science/r/AdapMatch-8BC5}. Show more",
+          "openreview_urls": [
+            "https://openreview.net/forum?id=eAtYtntHfU"
+          ]
+        },
+        {
+          "url": "https://api2.openreview.net/notes?id=eAtYtntHfU",
+          "fact": "OpenReview API 返回 HTTP 403，本轮未取得作者填写关键词。"
+        }
+      ]
+    },
+    {
+      "id": "lab-2110e10b1fd2",
+      "title": "Progressive Pseudo-label Self-balancing Towards Unsupervised Vision-Language Models Adaptation",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "openalex": null,
+      "reason": "official_listing_no_openalex_match",
+      "detail": "主页列为 NeurIPS 2026；官方详情已公开标题、作者和摘要，正常跟进地点跳转后 HTTP 200。缺 OpenAlex 身份匹配；此前摘要采集停在 HTTP 302。",
+      "assessment": "当前关键词采集只接入已匹配 OpenAlex 的记录；已确认的个人主页及官方摘要尚未用于补采。",
+      "next_action": "用官方摘要提取关键词并标注来源；OpenReview API 本轮 HTTP 403，未取得作者填写关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "PI 个人主页将本论文列于 Conference Papers，标注 NeurIPS 2026；不在 Preprint 栏。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://neurips.cc/virtual/2026/loc/sydney/poster/150525",
+          "result": "HTTP 200；标题及作者与主页一致；公开摘要可读取。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://api2.openreview.net/notes?id=hTSGBZBZyZ",
+          "result": "OpenReview API 返回 HTTP 403，本轮未取得作者填写关键词。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AProgressive+Pseudo-label+Self-balancing+Towards+Unsupervised+Vision-Language+Models+Adaptation&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 0,
+              "curl": 35
+            },
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AProgressive+Pseudo-label+Self-balancing+Towards+Unsupervised+Vision-Language+Models&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=Progressive+Pseudo-label+Self-balancing+Towards+Unsupervised+Vision-Language+Models+Adaptation&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "公开论文页面",
+          "url": "https://neurips.cc/Downloads/2026",
+          "result": "官方目录已核对标题"
+        },
+        {
+          "source": "Public paper page",
+          "url": "https://neurips.cc/virtual/2026/poster/150525",
+          "result": "HTTP 302，采集程序未继续跳转"
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。已有身份审计中，NeurIPS 2026 官方目录已列出标题；论文详情请求返回 HTTP 302，采集程序未继续跳转。",
+      "prior_pipeline_assessment": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。",
+      "verified_status": "formal_proceedings",
+      "status_label": "NeurIPS 2026 · 官方摘要已公开",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "PI 个人主页将本论文列于 Conference Papers，标注 NeurIPS 2026；不在 Preprint 栏。"
+        },
+        {
+          "url": "https://neurips.cc/virtual/2026/loc/sydney/poster/150525",
+          "fact": "HTTP 200；标题及作者与主页一致；公开摘要可读取。",
+          "abstract_excerpt": "Abstract Enhancing Vision-Language Models (VLMs) on downstream tasks with unlabeled data has attracted increasing attention. Constructing a pseudo-labeled dataset by pseudo-labeling is a common method. Nonetheless, owing to the inherent class-wise prediction bias in VLMs, they tend to generate long-tailed pseudo-labels that are inconsistent with the true label distribution. Motivated by this, we first divide all classes into pseudo-head, pseudo-middle, and pseudo-tail classes based on the pseudo-label quantity. Accordingly, we propose a P rogressive P seudo-label S elf- B alancing (PPSB) framework, which measures the class-wise prediction bias and calculates quantity upper bounds for certain classes to construct relatively balanced pseudo-labeled dataset, while introducing fewer incorrect pseudo-tail labels. In this way, the class-wise prediction bias is progressively corrected and the pseudo-label dataset scale increases autonomously during training. Furthermore, the confidence scores generated by VLMs are not entirely reliable. Therefore, we design a neighborhood consistency filtering mechanism and a visual classifier to improve the pseudo-label accuracy. We theoretically prove that our method can significantly reduce the generalization error under certain conditions. Extensive experiments across six benchmarks under three learning paradigms demonstrate that our method outperforms state-of-the-art methods by average 3.84 % in accuracy. Code is available in the supplementary materials. Show more",
+          "openreview_urls": [
+            "https://openreview.net/forum?id=hTSGBZBZyZ"
+          ]
+        },
+        {
+          "url": "https://api2.openreview.net/notes?id=hTSGBZBZyZ",
+          "fact": "OpenReview API 返回 HTTP 403，本轮未取得作者填写关键词。"
+        }
+      ]
+    },
+    {
+      "id": "lab-5dda1e979492",
+      "title": "LoCo: Selective Local Competition for Discriminative Open-Vocabulary Multi-Label Recognition",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "openalex": null,
+      "reason": "official_listing_no_openalex_match",
+      "detail": "主页列为 NeurIPS 2026；官方详情已公开标题、作者和摘要，正常跟进地点跳转后 HTTP 200。缺 OpenAlex 身份匹配；此前摘要采集停在 HTTP 302。",
+      "assessment": "当前关键词采集只接入已匹配 OpenAlex 的记录；已确认的个人主页及官方摘要尚未用于补采。",
+      "next_action": "用官方摘要提取关键词并标注来源；OpenReview API 本轮 HTTP 403，未取得作者填写关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "PI 个人主页将本论文列于 Conference Papers，标注 NeurIPS 2026；不在 Preprint 栏。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://neurips.cc/virtual/2026/loc/sydney/poster/155077",
+          "result": "HTTP 200；标题及作者与主页一致；公开摘要可读取。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://api2.openreview.net/notes?id=8eYxZ7Wn0X",
+          "result": "OpenReview API 返回 HTTP 403，本轮未取得作者填写关键词。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3ALoCo%3A+Selective+Local+Competition+for+Discriminative+Open-Vocabulary+Multi-Label+Recognition&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3ASelective+Local+Competition+for+Discriminative+Open-Vocabulary+Multi-Label+Recognition&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=LoCo%3A+Selective+Local+Competition+for+Discriminative+Open-Vocabulary+Multi-Label+Recognition&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "公开论文页面",
+          "url": "https://neurips.cc/Downloads/2026",
+          "result": "官方目录已核对标题"
+        },
+        {
+          "source": "Public paper page",
+          "url": "https://neurips.cc/virtual/2026/poster/155077",
+          "result": "HTTP 302，采集程序未继续跳转"
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。已有身份审计中，NeurIPS 2026 官方目录已列出标题；论文详情请求返回 HTTP 302，采集程序未继续跳转。",
+      "prior_pipeline_assessment": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。",
+      "verified_status": "formal_proceedings",
+      "status_label": "NeurIPS 2026 · 官方摘要已公开",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "PI 个人主页将本论文列于 Conference Papers，标注 NeurIPS 2026；不在 Preprint 栏。"
+        },
+        {
+          "url": "https://neurips.cc/virtual/2026/loc/sydney/poster/155077",
+          "fact": "HTTP 200；标题及作者与主页一致；公开摘要可读取。",
+          "abstract_excerpt": "Abstract Open-vocabulary multi-label recognition (OV-MLR) aims to identify all queried semantic concepts present in an image. Existing methods mainly improve global image-text matching or text-side representations, leaving local prediction largely under-explored. In this paper, we revisit local prediction and reveal that it can serve as a strong discriminative branch once two properties are properly handled: spatial consistency of local visual features and compatibility-aware local competition. This perspective is motivated by local semantic sparsity: each image region is related to only a small subset of queried concepts, while compatible concepts of different granularities or types may still coexist locally. We instantiate this perspective with LoCo, a selective Local Competition framework for OV-MLR. LoCo adopts a spatially consistent visual encoder to reduce local feature entanglement, and introduces Selective Softmax to impose competition only among locally incompatible categories while preserving compatible responses. It further combines multi-scale local aggregation with global prediction to handle objects at different scales and scene-level semantics. Experiments on four multi-label benchmarks show that LoCo achieves state-of-the-art performance, with average gains of +11.3\\% F1-score and +5.2\\% mAP. Our results suggest that local semantic sparsity offers a useful basis for developing more discriminative open-vocabulary multi-label recognition methods. Code is available in the supplementary material. Show more",
+          "openreview_urls": [
+            "https://openreview.net/forum?id=8eYxZ7Wn0X"
+          ]
+        },
+        {
+          "url": "https://api2.openreview.net/notes?id=8eYxZ7Wn0X",
+          "fact": "OpenReview API 返回 HTTP 403，本轮未取得作者填写关键词。"
+        }
+      ]
+    },
+    {
+      "id": "lab-deff0ac02cbd",
+      "title": "Attention Heads are Complementary Visual Units: Mitigating Hallucinations in LVLMs via Adaptive Visual Cues Focusing",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "openalex": null,
+      "reason": "official_listing_no_openalex_match",
+      "detail": "主页列为 NeurIPS 2026；官方详情已公开标题、作者和摘要，正常跟进地点跳转后 HTTP 200。缺 OpenAlex 身份匹配；此前摘要采集停在 HTTP 302。",
+      "assessment": "当前关键词采集只接入已匹配 OpenAlex 的记录；已确认的个人主页及官方摘要尚未用于补采。",
+      "next_action": "用官方摘要提取关键词并标注来源；OpenReview API 本轮 HTTP 403，未取得作者填写关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "PI 个人主页将本论文列于 Conference Papers，标注 NeurIPS 2026；不在 Preprint 栏。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://neurips.cc/virtual/2026/loc/sydney/poster/149428",
+          "result": "HTTP 200；标题及作者与主页一致；公开摘要可读取。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://api2.openreview.net/notes?id=q8PFA0lviK",
+          "result": "OpenReview API 返回 HTTP 403，本轮未取得作者填写关键词。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AAttention+Heads+are+Complementary+Visual+Units%3A+Mitigating+Hallucinations+in+LVLMs+via+Adaptive+Visual+Cues+Focusing&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AMitigating+Hallucinations+in+LVLMs+via+Adaptive+Visual+Cues+Focusing&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=Attention+Heads+are+Complementary+Visual+Units%3A+Mitigating+Hallucinations+in+LVLMs+via+Adaptive+Visual+Cues+Focusing&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "公开论文页面",
+          "url": "https://neurips.cc/Downloads/2026",
+          "result": "官方目录已核对标题"
+        },
+        {
+          "source": "Public paper page",
+          "url": "https://neurips.cc/virtual/2026/poster/149428",
+          "result": "HTTP 302，采集程序未继续跳转"
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。已有身份审计中，NeurIPS 2026 官方目录已列出标题；论文详情请求返回 HTTP 302，采集程序未继续跳转。",
+      "prior_pipeline_assessment": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。",
+      "verified_status": "formal_proceedings",
+      "status_label": "NeurIPS 2026 · 官方摘要已公开",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "PI 个人主页将本论文列于 Conference Papers，标注 NeurIPS 2026；不在 Preprint 栏。"
+        },
+        {
+          "url": "https://neurips.cc/virtual/2026/loc/sydney/poster/149428",
+          "fact": "HTTP 200；标题及作者与主页一致；公开摘要可读取。",
+          "abstract_excerpt": "Abstract Recent studies have explored attention dynamics in Large Vision-Language Models (LVLMs). However, most existing approaches aggregate attention across heads, potentially obscuring head-specific visual information and weakening visual grounding, leading to hallucinations. In this work, we revisit hallucination from the perspective of how visual information is distributed and utilized across attention heads. We observe that a small subset of visual tokens accounts for most of the attention within each attention head, with these tokens—defined as head-wise visual cues—being complementary across heads, suggesting that effective grounding requires preserving head-specific support. We further find that the proportion of visual cues within visual attention declines during generation, leading to key visual information loss and hallucination. In addition, hallucinated tokens show weaker utilization of long-range textual context compared to correctly generated tokens. Building on these findings, we propose V isual Cu e s R einforcement via Head-Adaptive D e-redundancy and Distance-Aware A ttenuation ( VerDA ), a training-free method to mitigate hallucinations. Specifically, we remove redundant visual tokens via head-adaptive de-redundancy, suppress local textual bias through distance-aware attenuation, and reinforce visual cues by redistributing attention. Experiments across multiple LVLMs and benchmarks demonstrate that VerDA consistently outperforms existing methods in mitigating hallucinations, with negligible inference overhead. Code is available in the supplementary materials. Show more",
+          "openreview_urls": [
+            "https://openreview.net/forum?id=q8PFA0lviK"
+          ]
+        },
+        {
+          "url": "https://api2.openreview.net/notes?id=q8PFA0lviK",
+          "fact": "OpenReview API 返回 HTTP 403，本轮未取得作者填写关键词。"
+        }
+      ]
+    },
+    {
+      "id": "lab-6757df585f08",
+      "title": "Mismatch-Free One-Step at Scale: Linear-Time Ensemble Clustering with Soft Balancing",
+      "year": 2027,
+      "venue": "ICDE",
+      "openalex": null,
+      "reason": "no_public_locator_for_future_year",
+      "detail": "主页列为 ICDE 2027；该条无 DOI、论文或预印本链接；精确标题网页检索只取得 PI 主页记录。当前缺 OpenAlex 身份匹配和官方论文定位。",
+      "assessment": "主页有场所、年份和作者；缺正式论文页/DOI链接，OpenAlex身份尚未匹配。",
+      "next_action": "定位出版社或会议摘要页后提取关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "PI 个人主页将本论文列于 Conference Papers，标注 ICDE 2027；不在 Preprint 栏。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AMismatch-Free+One-Step+at+Scale%3A+Linear-Time+Ensemble+Clustering+with+Soft+Balancing&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3ALinear-Time+Ensemble+Clustering+with+Soft+Balancing&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=Mismatch-Free+One-Step+at+Scale%3A+Linear-Time+Ensemble+Clustering+with+Soft+Balancing&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。实验室列表标注 2027 / ICDE；标题查询未确认公开记录，公开日期尚未核对。",
+      "prior_pipeline_assessment": "实验室列表标注 2027；当前搜索未找到独立记录。发表年份尚不足以确认公开日期或收录延迟。",
+      "verified_status": "recent_venue_without_locator",
+      "status_label": "ICDE 2027 · 主页已列，缺论文链接",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "PI 个人主页将本论文列于 Conference Papers，标注 ICDE 2027；不在 Preprint 栏。"
+        }
+      ]
+    },
+    {
+      "id": "lab-1a90fc2c3965",
+      "title": "KGFlow: Enhancing Large Language Model Reasoning with Multi-Graph Alignment for Knowledge-Intensive Medical Question Answering",
+      "year": 2026,
+      "venue": "EMNLP Findings",
+      "openalex": null,
+      "reason": "expanded_search_no_verified_record",
+      "detail": "主页列为 Findings EMNLP 2026；该条无 DOI、论文或预印本链接；精确标题网页检索只取得 PI 主页记录。当前缺 OpenAlex 身份匹配和官方论文定位。",
+      "assessment": "主页有场所、年份和作者；缺正式论文页/DOI链接，OpenAlex身份尚未匹配。",
+      "next_action": "定位出版社或会议摘要页后提取关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "PI 个人主页将本论文列于 Conference Papers，标注 EMNLP Findings 2026；不在 Preprint 栏。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://bdsc.szu.edu.cn/en/info/1219/1847.htm",
+          "result": "深圳大学教师朱田恬主页 HTTP 200；页面未检出 KGFlow 标题，未提供本论文链接。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://aclanthology.org/events/emnlp-2026/",
+          "result": "ACL Anthology EMNLP 2026 事件路径本轮 HTTP 404；未取得该论文摘要。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AKGFlow%3A+Enhancing+Large+Language+Model+Reasoning+with+Multi-Graph+Alignment+for+Knowledge-Intensive+Medical+Question+Answering&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AEnhancing+Large+Language+Model+Reasoning+with+Multi-Graph+Alignment+for+Knowledge-Intensive+Medical+Question+Answering&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=KGFlow%3A+Enhancing+Large+Language+Model+Reasoning+with+Multi-Graph+Alignment+for+Knowledge-Intensive+Medical+Question+Answering&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。OpenAlex 标题、作者文献集合和 Crossref 标题查询未取得身份校验通过的记录。",
+      "prior_pipeline_assessment": "OpenAlex 标题/作者文献集合、Crossref 和网页检索未确认身份；尚未核实公开日期、DOI 有无或数据库收录延迟。",
+      "verified_status": "recent_venue_without_locator",
+      "status_label": "EMNLP Findings 2026 · 主页已列，缺论文链接",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "PI 个人主页将本论文列于 Conference Papers，标注 EMNLP Findings 2026；不在 Preprint 栏。"
+        },
+        {
+          "url": "https://bdsc.szu.edu.cn/en/info/1219/1847.htm",
+          "fact": "深圳大学教师朱田恬主页 HTTP 200；页面未检出 KGFlow 标题，未提供本论文链接。",
+          "keyword_found": false
+        },
+        {
+          "url": "https://aclanthology.org/events/emnlp-2026/",
+          "fact": "ACL Anthology EMNLP 2026 事件路径本轮 HTTP 404；未取得该论文摘要。"
+        }
+      ]
+    },
+    {
+      "id": "lab-4dafc16e5fd8",
+      "title": "Question-Level Multimodal Fusion for Cognitive Ability Assessment in Asynchronous Video Interviews",
+      "year": 2026,
+      "venue": "ACM MM",
+      "openalex": null,
+      "reason": "expanded_search_no_verified_record",
+      "detail": "主页列为 ACM MM 2026；该条无 DOI、论文或预印本链接；精确标题网页检索只取得 PI 主页记录。当前缺 OpenAlex 身份匹配和官方论文定位。",
+      "assessment": "主页有场所、年份和作者；缺正式论文页/DOI链接，OpenAlex身份尚未匹配。",
+      "next_action": "定位出版社或会议摘要页后提取关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "PI 个人主页将本论文列于 Conference Papers，标注 ACM MM 2026；不在 Preprint 栏。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AQuestion-Level+Multimodal+Fusion+for+Cognitive+Ability+Assessment+in+Asynchronous+Video+Interviews&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AQuestion-Level+Multimodal+Fusion+for+Cognitive+Ability+Assessment&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=Question-Level+Multimodal+Fusion+for+Cognitive+Ability+Assessment+in+Asynchronous+Video+Interviews&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。OpenAlex 标题、作者文献集合和 Crossref 标题查询未取得身份校验通过的记录。",
+      "prior_pipeline_assessment": "OpenAlex 标题/作者文献集合、Crossref 和网页检索未确认身份；尚未核实公开日期、DOI 有无或数据库收录延迟。",
+      "verified_status": "recent_venue_without_locator",
+      "status_label": "ACM MM 2026 · 主页已列，缺论文链接",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "PI 个人主页将本论文列于 Conference Papers，标注 ACM MM 2026；不在 Preprint 栏。"
+        }
+      ]
+    },
+    {
+      "id": "lab-b4f457369e13",
+      "title": "One Coin Has Two Sides: Single Poistive Multi Label Learning from Salient Annotations",
+      "year": 2026,
+      "venue": "ICML",
+      "openalex": null,
+      "reason": "public_candidate_page_access_blocked",
+      "detail": "贾育衡主页列为 ICML 2026。ICML 官方 Poster 页面已公开作者和完整摘要；此前只走 OpenReview 路径遇到人机验证，漏用了可访问的 ICML 官方页。",
+      "assessment": "当前关键词采集只接入已匹配 OpenAlex 的记录；已确认的个人主页及官方摘要尚未用于补采。",
+      "next_action": "改用 ICML 官方摘要提取关键词；保留自动提取来源，不混称 OpenAlex 原始关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "Conference Papers 区列为 ICML 2026，含作者名单。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://rainywangxy.github.io/",
+          "result": "第一作者个人主页读取成功，邮箱 wang_xy@seu.edu.cn；该主页为个人介绍，没有本篇书目信息。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://github.com/RainyWangxy/PiSA",
+          "result": "第一作者公开代码仓标题对应本文，Positive 拼写与主页 Poistive 变体对应。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://icml.cc/virtual/2026/poster/64609",
+          "result": "本轮跟随普通跳转取得完整页面，论文标题、作者及摘要可读取。页面 meta keywords 是宽泛会议分类，不是具体论文关键词。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://openreview.net/forum?id=LhhFsfAzL6",
+          "result": "本轮仍跳转 Verifying your browser 页面。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AOne+Coin+Has+Two+Sides%3A+Single+Positive+Multi+Label+Learning+from+Salient+Annotations&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3ASingle+Positive+Multi+Label+Learning+from+Salient+Annotations&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=One+Coin+Has+Two+Sides%3A+Single+Positive+Multi+Label+Learning+from+Salient+Annotations&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 429,
+              "curl": 0
+            },
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenReview",
+          "url": "https://api2.openreview.net/notes?id=LhhFsfAzL6",
+          "result": "http_403",
+          "attempts": [
+            {
+              "http": 403,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenReview",
+          "url": "https://api2.openreview.net/notes?id=LhhFsfAzL6",
+          "result": "HTTP 403，人机验证"
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。候选 OpenReview API 请求返回 HTTP 403，要求人机验证；未取得正文元数据。",
+      "prior_pipeline_assessment": "OpenReview 对该候选的查询返回 403 人机验证要求，该请求被外部访问限制阻挡。",
+      "verified_status": "formal_proceedings",
+      "status_label": "ICML 2026 · 官方摘要已公开",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "Conference Papers 区列为 ICML 2026，含作者名单。"
+        },
+        {
+          "url": "https://rainywangxy.github.io/",
+          "fact": "第一作者个人主页读取成功，邮箱 wang_xy@seu.edu.cn；该主页为个人介绍，没有本篇书目信息。"
+        },
+        {
+          "url": "https://github.com/RainyWangxy/PiSA",
+          "fact": "第一作者公开代码仓标题对应本文，Positive 拼写与主页 Poistive 变体对应。"
+        },
+        {
+          "url": "https://icml.cc/virtual/2026/poster/64609",
+          "fact": "本轮跟随普通跳转取得完整页面，论文标题、作者及摘要可读取。页面 meta keywords 是宽泛会议分类，不是具体论文关键词。"
+        },
+        {
+          "url": "https://openreview.net/forum?id=LhhFsfAzL6",
+          "fact": "本轮仍跳转 Verifying your browser 页面。"
+        }
+      ]
+    },
+    {
+      "id": "lab-a1005f21ac76",
+      "title": "Trustworthy Federated Label Distribution Learning under Annotation Quality Disparity",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "openalex": "https://openalex.org/W7160516101",
+      "reason": "openalex_keywords_empty",
+      "detail": "贾育衡主页和 ICML 官方目录确认 ICML 2026；arXiv 预印本于 2026-05-06 首次公开，05-10 更新为 v2。正式会议页面已有完整摘要，但项目匹配的 OpenAlex arXiv 记录 keywords 返回空数组。",
+      "assessment": "已匹配 OpenAlex，缓存 keywords 为空；官方发表状态与数据库字段缺失分别记录。",
+      "next_action": "从 ICML 官方摘要或 arXiv 正文提取；更新身份匹配时优先寻找正式会议版。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "Conference Papers 区列为 ICML 2026，含作者名单。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://arxiv.org/abs/2605.04827",
+          "result": "v1 2026-05-06，v2 2026-05-10，摘要和 arXiv DOI 均已公开。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://icml.cc/virtual/2026/poster/64703",
+          "result": "本轮取得完整官方页面，标题、作者和摘要可读取。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://palm.seu.edu.cn/xgeng/",
+          "result": "合作者耿新个人主页可读取，其 Selected Publications 未列这篇；正式会议状态由 PI 主页和 ICML 官方页确认。"
+        },
+        {
+          "source": "OpenAlex work",
+          "url": "https://api.openalex.org/works/W7160516101",
+          "result": "keywords = []",
+          "cache_paths": [
+            "work/api-cache/1ab7282e7fa11ced5b8d420f47dddc6ec313bde8f41c90c4af9b9ce56f7452ab.json",
+            "work/api-cache/1efaf2bbebdb0a2d8d21e020a696a9422453c035ddcab68e2f9defe0999c5707.json",
+            "work/api-cache/4bdc83c1286c5d582eec5bcd02b6cb652b7fd1e1ef81b5d57bbe68e17aaf7a15.json"
+          ]
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "OpenAlex 记录已取得，所有已存响应的 keywords 字段均为 []。记录含 3 个主题；含摘要。",
+      "prior_pipeline_assessment": "关键词字段为空的具体数据库处理原因未记录。",
+      "verified_status": "formal_with_preprint",
+      "status_label": "ICML 2026 · 已公开会议页，另有 arXiv 版本",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "Conference Papers 区列为 ICML 2026，含作者名单。"
+        },
+        {
+          "url": "https://arxiv.org/abs/2605.04827",
+          "fact": "v1 2026-05-06，v2 2026-05-10，摘要和 arXiv DOI 均已公开。"
+        },
+        {
+          "url": "https://icml.cc/virtual/2026/poster/64703",
+          "fact": "本轮取得完整官方页面，标题、作者和摘要可读取。"
+        },
+        {
+          "url": "https://palm.seu.edu.cn/xgeng/",
+          "fact": "合作者耿新个人主页可读取，其 Selected Publications 未列这篇；正式会议状态由 PI 主页和 ICML 官方页确认。"
+        }
+      ]
+    },
+    {
+      "id": "lab-8a05dc1f7a41",
+      "title": "Discovering Attention Head Interactions in Vision Transformers",
+      "year": 2026,
+      "venue": null,
+      "openalex": "https://openalex.org/W7221042064",
+      "reason": "openalex_keywords_empty",
+      "detail": "贾育衡主页明确列为 CVPR Findings 2026。已有 DOI 和 OpenAlex 记录；缓存 keywords 与摘要字段均为空，属于已公开论文的数据库元数据不完整。",
+      "assessment": "已匹配 OpenAlex，缓存 keywords 为空；官方发表状态与数据库字段缺失分别记录。",
+      "next_action": "从 CVPR Findings/IEEE 正式论文页面或作者提供的正文补采关键词与摘要。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "Conference Papers 区列为 CVPR Findings 2026，作者为 Zhenyu Lu、Yuheng Jia、Wei You、Hao Chen。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf",
+          "result": "CVPR 2026 Program Guide Findings Posters 列出标题及四位作者。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://openalex.org/W7221042064",
+          "result": "已有匹配缓存；DOI 10.1109/cvprf71909.2026.00324，keywords=[]，abstract_inverted_index 为空。"
+        },
+        {
+          "source": "OpenAlex work",
+          "url": "https://api.openalex.org/works/W7221042064",
+          "result": "keywords = []",
+          "cache_paths": [
+            "work/api-cache/34fb2c67051994a82932be50e901847468a669b5305928618e8fb4e5727e3de6.json",
+            "work/api-cache/7a25fbb816e809b94bb3e9d1e89478dee6c7dd01aa4ed719f5d61d4817aef5f2.json",
+            "work/api-cache/abc498c59e4f30523ce682e71a5334703dcefb64d8f1afef9486f4fefe6b65e7.json",
+            "work/api-cache/afad9ea51b32edbd107a0b4c57f92dfdc3acfc4c5f8c9bc70911c499134b074d.json"
+          ]
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "OpenAlex 记录已取得，所有已存响应的 keywords 字段均为 []。记录含 3 个主题；摘要字段为空。",
+      "prior_pipeline_assessment": "关键词字段为空的具体数据库处理原因未记录。",
+      "verified_status": "formal_proceedings",
+      "status_label": "CVPR Findings 2026 · 已公开正式论文",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "Conference Papers 区列为 CVPR Findings 2026，作者为 Zhenyu Lu、Yuheng Jia、Wei You、Hao Chen。"
+        },
+        {
+          "url": "https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf",
+          "fact": "CVPR 2026 Program Guide Findings Posters 列出标题及四位作者。"
+        },
+        {
+          "url": "https://openalex.org/W7221042064",
+          "fact": "已有匹配缓存；DOI 10.1109/cvprf71909.2026.00324，keywords=[]，abstract_inverted_index 为空。"
+        }
+      ]
+    },
+    {
+      "id": "lab-77b725acea33",
+      "title": "Mini-cluster Guided Long-tailed Deep Clustering",
+      "year": 2026,
+      "venue": "ICLR",
+      "openalex": null,
+      "reason": "public_page_verified_no_openalex_match",
+      "detail": "贾育衡个人主页列为 ICLR 2026 会议论文；官方论文集页面已核对标题、作者和完整摘要。",
+      "assessment": "当前关键词采集只接入已匹配 OpenAlex 的记录；已确认的个人主页及官方摘要尚未用于补采。",
+      "next_action": "直接从官方摘要提取关键词，并标注为摘要提取；也可从正文补采作者关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "贾育衡个人主页 Conference Papers 将该文列为 ICLR 2026，不在 Preprint 分组；有完整作者名单。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/813ed01a11220fcdeed10e0d7da2de25-Abstract-Conference.html",
+          "result": "正式 ICLR 2026 Conference 论文集页面，核对标题、作者及完整摘要。页面没有单独 keywords 栏或 DOI 字段。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://github.com/LZX-001",
+          "result": "第一作者公开 GitHub 账号由官方论文页的代码链接定位；账号列有 MiniClustering、LFSS、ConMix。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AMini-cluster+Guided+Long-tailed+Deep+Clustering&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=Mini-cluster+Guided+Long-tailed+Deep+Clustering&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Public paper page",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/813ed01a11220fcdeed10e0d7da2de25-Abstract-Conference.html",
+          "result": "已核对标题及作者"
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "public-paper-metadata.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。官方论文页面已核对标题和作者；OpenAlex 标题及作者文献集合查询未匹配。",
+      "prior_pipeline_assessment": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。",
+      "verified_status": "formal_proceedings",
+      "status_label": "ICLR 2026 · 正式论文集已公开",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "贾育衡个人主页 Conference Papers 将该文列为 ICLR 2026，不在 Preprint 分组；有完整作者名单。"
+        },
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/813ed01a11220fcdeed10e0d7da2de25-Abstract-Conference.html",
+          "fact": "正式 ICLR 2026 Conference 论文集页面，核对标题、作者及完整摘要。页面没有单独 keywords 栏或 DOI 字段。"
+        },
+        {
+          "url": "https://github.com/LZX-001",
+          "fact": "第一作者公开 GitHub 账号由官方论文页的代码链接定位；账号列有 MiniClustering、LFSS、ConMix。"
+        }
+      ]
+    },
+    {
+      "id": "lab-918df170a3ad",
+      "title": "Samples Are Not Equal: A Sample Selection Approach for Deep Clustering",
+      "year": 2026,
+      "venue": "ICLR",
+      "openalex": null,
+      "reason": "public_page_verified_no_openalex_match",
+      "detail": "贾育衡个人主页列为 ICLR 2026 会议论文；官方论文集页面已核对标题、作者和完整摘要。",
+      "assessment": "当前关键词采集只接入已匹配 OpenAlex 的记录；已确认的个人主页及官方摘要尚未用于补采。",
+      "next_action": "直接从官方摘要提取关键词，并标注为摘要提取；也可从正文补采作者关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "贾育衡个人主页 Conference Papers 将该文列为 ICLR 2026，不在 Preprint 分组；有完整作者名单。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/63ef323523f3be8b58ed9277cc747485-Abstract-Conference.html",
+          "result": "正式 ICLR 2026 Conference 论文集页面，核对标题、作者及完整摘要。页面没有单独 keywords 栏或 DOI 字段。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://github.com/notoaudrey",
+          "result": "官方论文代码链接定位的作者 GitHub 页面把代码仓库明确标注为 ICLR 2026 论文实现。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3ASamples+Are+Not+Equal%3A+A+Sample+Selection+Approach+for+Deep+Clustering&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AA+Sample+Selection+Approach+for+Deep+Clustering&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=Samples+Are+Not+Equal%3A+A+Sample+Selection+Approach+for+Deep+Clustering&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Public paper page",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/63ef323523f3be8b58ed9277cc747485-Abstract-Conference.html",
+          "result": "已核对标题及作者"
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "public-paper-metadata.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。官方论文页面已核对标题和作者；OpenAlex 标题及作者文献集合查询未匹配。",
+      "prior_pipeline_assessment": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。",
+      "verified_status": "formal_proceedings",
+      "status_label": "ICLR 2026 · 正式论文集已公开",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "贾育衡个人主页 Conference Papers 将该文列为 ICLR 2026，不在 Preprint 分组；有完整作者名单。"
+        },
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/63ef323523f3be8b58ed9277cc747485-Abstract-Conference.html",
+          "fact": "正式 ICLR 2026 Conference 论文集页面，核对标题、作者及完整摘要。页面没有单独 keywords 栏或 DOI 字段。"
+        },
+        {
+          "url": "https://github.com/notoaudrey",
+          "fact": "官方论文代码链接定位的作者 GitHub 页面把代码仓库明确标注为 ICLR 2026 论文实现。"
+        }
+      ]
+    },
+    {
+      "id": "lab-82a7992c094e",
+      "title": "Learning from Sample Stability for Deep Clustering",
+      "year": 2025,
+      "venue": "ICML",
+      "openalex": null,
+      "reason": "public_page_verified_no_openalex_match",
+      "detail": "贾育衡个人主页列为 ICML 2025 会议论文；官方论文集页面已核对标题、作者和完整摘要。",
+      "assessment": "当前关键词采集只接入已匹配 OpenAlex 的记录；已确认的个人主页及官方摘要尚未用于补采。",
+      "next_action": "直接从官方摘要提取关键词，并标注为摘要提取；也可从正文补采作者关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "贾育衡个人主页 Conference Papers 将该文列为 ICML 2025，不在 Preprint 分组；有完整作者名单。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://proceedings.mlr.press/v267/li25am.html",
+          "result": "正式 ICML 2025 论文集页面，PMLR 267:34904–34919，日期 13–19 Jul 2025，含完整摘要和 BibTeX；未列 DOI 或单独 keywords 栏。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://github.com/LZX-001",
+          "result": "第一作者公开 GitHub 账号由官方摘要的代码链接定位，列有 LFSS 项目。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3ALearning+from+Sample+Stability+for+Deep+Clustering&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=Learning+from+Sample+Stability+for+Deep+Clustering&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Public paper page",
+          "url": "https://proceedings.mlr.press/v267/li25am.html",
+          "result": "已核对标题及作者"
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "public-paper-metadata.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。官方论文页面已核对标题和作者；OpenAlex 标题及作者文献集合查询未匹配。",
+      "prior_pipeline_assessment": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。",
+      "verified_status": "formal_proceedings",
+      "status_label": "ICML 2025 · 正式论文集已公开",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "贾育衡个人主页 Conference Papers 将该文列为 ICML 2025，不在 Preprint 分组；有完整作者名单。"
+        },
+        {
+          "url": "https://proceedings.mlr.press/v267/li25am.html",
+          "fact": "正式 ICML 2025 论文集页面，PMLR 267:34904–34919，日期 13–19 Jul 2025，含完整摘要和 BibTeX；未列 DOI 或单独 keywords 栏。"
+        },
+        {
+          "url": "https://github.com/LZX-001",
+          "fact": "第一作者公开 GitHub 账号由官方摘要的代码链接定位，列有 LFSS 项目。"
+        }
+      ]
+    },
+    {
+      "id": "lab-bddb535117ca",
+      "title": "ConMix: Contrastive Mixup at Representation Level for Long-tailed Deep Clustering",
+      "year": 2025,
+      "venue": "ICLR",
+      "openalex": null,
+      "reason": "public_page_verified_no_openalex_match",
+      "detail": "贾育衡个人主页列为 ICLR 2025 会议论文；官方论文集页面已核对标题、作者和完整摘要。",
+      "assessment": "当前关键词采集只接入已匹配 OpenAlex 的记录；已确认的个人主页及官方摘要尚未用于补采。",
+      "next_action": "直接从官方摘要提取关键词，并标注为摘要提取；也可从正文补采作者关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "贾育衡个人主页 Conference Papers 将该文列为 ICLR 2025，不在 Preprint 分组；有完整作者名单。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/0a1f690b558591412b5bddaf10de3b19-Abstract-Conference.html",
+          "result": "正式 ICLR 2025 Conference 论文集页面，核对标题、作者及完整摘要。页面没有单独 keywords 栏或 DOI 字段。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://github.com/LZX-001",
+          "result": "第一作者公开 GitHub 账号由官方摘要的代码链接定位，列有 ConMix 项目。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://openreview.net/forum?id=3lH8WT0fhu",
+          "result": "本轮直接打开跳转 OpenReview browser challenge，人机验证页面；改查 ICLR 官方论文集后成功取得摘要。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://api2.openreview.net/notes?id=3lH8WT0fhu",
+          "result": "本轮网页检索工具无法访问该结构化 API URL，未取得响应正文；不归因为 HTTP 403。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AConMix%3A+Contrastive+Mixup+at+Representation+Level+for+Long-tailed+Deep+Clustering&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AContrastive+Mixup+at+Representation+Level+for+Long-tailed+Deep+Clustering&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=ConMix%3A+Contrastive+Mixup+at+Representation+Level+for+Long-tailed+Deep+Clustering&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Public paper page",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/0a1f690b558591412b5bddaf10de3b19-Abstract-Conference.html",
+          "result": "已核对标题及作者"
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "public-paper-metadata.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。官方论文页面已核对标题和作者；OpenAlex 标题及作者文献集合查询未匹配。",
+      "prior_pipeline_assessment": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。",
+      "verified_status": "formal_proceedings",
+      "status_label": "ICLR 2025 · 正式论文集已公开",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "贾育衡个人主页 Conference Papers 将该文列为 ICLR 2025，不在 Preprint 分组；有完整作者名单。"
+        },
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/0a1f690b558591412b5bddaf10de3b19-Abstract-Conference.html",
+          "fact": "正式 ICLR 2025 Conference 论文集页面，核对标题、作者及完整摘要。页面没有单独 keywords 栏或 DOI 字段。"
+        },
+        {
+          "url": "https://github.com/LZX-001",
+          "fact": "第一作者公开 GitHub 账号由官方摘要的代码链接定位，列有 ConMix 项目。"
+        },
+        {
+          "url": "https://openreview.net/forum?id=3lH8WT0fhu",
+          "fact": "本轮直接打开跳转 OpenReview browser challenge，人机验证页面；改查 ICLR 官方论文集后成功取得摘要。"
+        },
+        {
+          "url": "https://api2.openreview.net/notes?id=3lH8WT0fhu",
+          "fact": "本轮网页检索工具无法访问该结构化 API URL，未取得响应正文；不归因为 HTTP 403。"
+        }
+      ]
+    },
+    {
+      "id": "lab-2c640db3fd61",
+      "title": "Complementary Label Learning with Positive Label Guessing and Negative Label Enhancement",
+      "year": 2025,
+      "venue": "ICLR",
+      "openalex": null,
+      "reason": "public_page_verified_no_openalex_match",
+      "detail": "贾育衡个人主页列为 ICLR 2025 会议论文；官方论文集页面已核对标题、作者和完整摘要。",
+      "assessment": "当前关键词采集只接入已匹配 OpenAlex 的记录；已确认的个人主页及官方摘要尚未用于补采。",
+      "next_action": "直接从官方摘要提取关键词，并标注为摘要提取；也可从正文补采作者关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "贾育衡个人主页 Conference Papers 将该文列为 ICLR 2025，不在 Preprint 分组；有完整作者名单。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/95b6e2ff961580e03c0a662a63a71812-Abstract-Conference.html",
+          "result": "正式 ICLR 2025 Conference 论文集页面，核对标题、作者及完整摘要。页面没有单独 keywords 栏或 DOI 字段。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://github.com/yhli-ml",
+          "result": "Yuhang Li 公开 GitHub 主页列有 PLNL，明确写为 ICLR 2025 正式论文实现；仓库同时公开摘要。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://openreview.net/forum?id=LPRxGZ7Oax",
+          "result": "本轮直接打开跳转 OpenReview browser challenge，人机验证页面；改查 ICLR 官方论文集后成功取得摘要。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://api2.openreview.net/notes?id=LPRxGZ7Oax",
+          "result": "本轮网页检索工具无法访问该结构化 API URL，未取得响应正文；不归因为 HTTP 403。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AComplementary+Label+Learning+with+Positive+Label+Guessing+and+Negative+Label+Enhancement&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AComplementary+Label+Learning+with+Positive+Label+Guessing&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=Complementary+Label+Learning+with+Positive+Label+Guessing+and+Negative+Label+Enhancement&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Public paper page",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/95b6e2ff961580e03c0a662a63a71812-Abstract-Conference.html",
+          "result": "已核对标题及作者"
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "public-paper-metadata.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。官方论文页面已核对标题和作者；OpenAlex 标题及作者文献集合查询未匹配。",
+      "prior_pipeline_assessment": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。",
+      "verified_status": "formal_proceedings",
+      "status_label": "ICLR 2025 · 正式论文集已公开",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "贾育衡个人主页 Conference Papers 将该文列为 ICLR 2025，不在 Preprint 分组；有完整作者名单。"
+        },
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/95b6e2ff961580e03c0a662a63a71812-Abstract-Conference.html",
+          "fact": "正式 ICLR 2025 Conference 论文集页面，核对标题、作者及完整摘要。页面没有单独 keywords 栏或 DOI 字段。"
+        },
+        {
+          "url": "https://github.com/yhli-ml",
+          "fact": "Yuhang Li 公开 GitHub 主页列有 PLNL，明确写为 ICLR 2025 正式论文实现；仓库同时公开摘要。"
+        },
+        {
+          "url": "https://openreview.net/forum?id=LPRxGZ7Oax",
+          "fact": "本轮直接打开跳转 OpenReview browser challenge，人机验证页面；改查 ICLR 官方论文集后成功取得摘要。"
+        },
+        {
+          "url": "https://api2.openreview.net/notes?id=LPRxGZ7Oax",
+          "fact": "本轮网页检索工具无法访问该结构化 API URL，未取得响应正文；不归因为 HTTP 403。"
+        }
+      ]
+    },
+    {
+      "id": "lab-cafae06c3f4f",
+      "title": "Efficient and Robust Freeway Traffic State Estimation under Oblique Grid using Vehicle Trajectory Data",
+      "year": 2024,
+      "venue": "TRB",
+      "openalex": null,
+      "reason": "title_variant_collides_with_another_lab_paper",
+      "detail": "贾育衡主页列 State/TRB 2024；第一作者 Yang He 主页把同一 State 题名同时列为 TRB、WTC 和 TITS 2024，代码仓明确期刊正式题名为 Speed。原采集因候选 ID 与期刊条目重复而拒绝，漏核对了这条版本关联。期刊公开 HTML 已列4个作者关键词。",
+      "assessment": "已有版本关联和期刊关键词；采集程序仍未接入带版本来源的关键词补采。",
+      "next_action": "会议节点和期刊节点分别保留，先建立“会议—期刊版本关联”。可从对应期刊公开 HTML 补取上述作者关键词，来源明确标注“关联期刊版本关键词”，不直接冒称会议原文关键词。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "Conference Papers 区列 State/TRB 2024；Journal Papers 区另列 Speed/TITS 2024，25(11):16193–16206。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://heyang49.github.io/publications/",
+          "result": "State 题名在 Featured T-ITS 2024、WTC2024、TRB2024 三处列出；六名作者一致。Featured T-ITS 的 Code 链接指向 TW-LSMC。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://github.com/heyang49/TW-LSMC",
+          "result": "第一作者代码仓库明确其已接收 TITS 正式论文题名为 Speed。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://arxiv.org/html/2411.05842v1",
+          "result": "公开期刊版本为 Speed；Index Terms 明确列 Traffic state estimation、kinematic wave theory、low-rank representation、vehicle trajectory data。"
+        },
+        {
+          "source": "冲突候选：Efficient and Robust Freeway Traffic Speed Estimation under Oblique Grid using Vehicle Trajectory Data",
+          "url": "https://openalex.org/W4404390751",
+          "result": "https://doi.org/10.48550/arxiv.2411.05842"
+        },
+        {
+          "source": "冲突候选：Efficient and Robust Freeway Traffic Speed Estimation Under Oblique Grid Using Vehicle Trajectory Data",
+          "url": "https://openalex.org/W4400525194",
+          "result": "https://doi.org/10.1109/tits.2024.3422246"
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。State / TRB 条目候选为 Speed / TITS，且与另一个实验室条目共用 OpenAlex ID；身份归并被拒绝。",
+      "prior_pipeline_assessment": "State/TRB 条目与 Speed/TITS 条目将共用同一 OpenAlex ID；拒绝自动合并有题目、场所及 ID 冲突证据。",
+      "verified_status": "conference_journal_version_link",
+      "status_label": "TRB 2024 · 作者主页已支持会议—期刊关联",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "Conference Papers 区列 State/TRB 2024；Journal Papers 区另列 Speed/TITS 2024，25(11):16193–16206。"
+        },
+        {
+          "url": "https://heyang49.github.io/publications/",
+          "fact": "State 题名在 Featured T-ITS 2024、WTC2024、TRB2024 三处列出；六名作者一致。Featured T-ITS 的 Code 链接指向 TW-LSMC。"
+        },
+        {
+          "url": "https://github.com/heyang49/TW-LSMC",
+          "fact": "第一作者代码仓库明确其已接收 TITS 正式论文题名为 Speed。"
+        },
+        {
+          "url": "https://arxiv.org/html/2411.05842v1",
+          "fact": "公开期刊版本为 Speed；Index Terms 明确列 Traffic state estimation、kinematic wave theory、low-rank representation、vehicle trajectory data。"
+        }
+      ]
+    },
+    {
+      "id": "lab-60280e69a6e3",
+      "title": "When Missingness Meets Anomalies: A Tailored Low-rank Tensor Completion Approach for Traffic Data Recovery",
+      "year": 2024,
+      "venue": "TRB",
+      "openalex": null,
+      "reason": "expanded_search_no_verified_record",
+      "detail": "贾育衡主页及第一作者胡里阳的北京工业大学教师主页均列 TRB 2024；该条目未附 DOI 或正文链接。另篇 TITS 2024 题名、作者列表不同，主页没有版本对应声明。",
+      "assessment": "会议发表状态已确认；会议稿关键词和摘要尚未取得。",
+      "next_action": "补采 TRB 会议稿或作者公开稿的关键词；目前可用标题提取，并标注来源。",
+      "sources": [
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://jyh-learning.github.io/papers.html",
+          "result": "列六名作者及 TRB Annual Meeting 2024；无论文链接。另一期刊条目的题名、完整作者列表不同。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://cmt.bjut.edu.cn/info/1125/1799.htm",
+          "result": "第一作者胡里阳官方教师页成果[15]明确该题名、103rd TRB Annual Meeting 2024；无正文链接。[3]另列 TITS 2024，不声明与[15]为同一版本。"
+        },
+        {
+          "source": "本轮主页/公开页核查",
+          "url": "https://research.chalmers.se/en/person/liyangh",
+          "result": "官方作者页只有三项2025成果，未提供该TRB2024条目或正文。"
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AWhen+Missingness+Meets+Anomalies%3A+A+Tailored+Low-rank+Tensor+Completion+Approach+for+Traffic+Data+Recovery&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=title.search%3AA+Tailored+Low-rank+Tensor+Completion+Approach+for+Traffic+Data+Recovery&per_page=50",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=When+Missingness+Meets+Anomalies%3A+A+Tailored+Low-rank+Tensor+Completion+Approach+for+Traffic+Data+Recovery&rows=10",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        {
+          "source": "OpenAlex",
+          "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+          "result": "请求成功；无身份校验通过的匹配",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        }
+      ],
+      "evidence_files": [
+        "data.json",
+        "acceptance.json",
+        "identity-search-audit.json",
+        "keyword-status-review.json"
+      ],
+      "prior_pipeline_detail": "未确认 OpenAlex 论文 ID，未取得该论文的 keywords 字段。OpenAlex 标题、作者文献集合和 Crossref 标题查询未取得身份校验通过的记录。",
+      "prior_pipeline_assessment": "OpenAlex 标题/作者文献集合、Crossref 和网页检索未确认身份；尚未核实公开日期、DOI 有无或数据库收录延迟。",
+      "verified_status": "conference_without_fulltext",
+      "status_label": "TRB 2024 · 作者主页已确认，缺会议正文链接",
+      "checked_date": "2026-10-10",
+      "verified_sources": [
+        {
+          "url": "https://jyh-learning.github.io/papers.html",
+          "fact": "列六名作者及 TRB Annual Meeting 2024；无论文链接。另一期刊条目的题名、完整作者列表不同。"
+        },
+        {
+          "url": "https://cmt.bjut.edu.cn/info/1125/1799.htm",
+          "fact": "第一作者胡里阳官方教师页成果[15]明确该题名、103rd TRB Annual Meeting 2024；无正文链接。[3]另列 TITS 2024，不声明与[15]为同一版本。"
+        },
+        {
+          "url": "https://research.chalmers.se/en/person/liyangh",
+          "fact": "官方作者页只有三项2025成果，未提供该TRB2024条目或正文。"
+        }
+      ]
+    }
+  ]
+}

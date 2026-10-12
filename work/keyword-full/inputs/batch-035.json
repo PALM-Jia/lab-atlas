@@ -1,0 +1,54 @@
+{
+  "papers": [
+    {
+      "paper_id": "W1987839426",
+      "title": "Double Selection Based Semi-Supervised Clustering Ensemble for Tumor Clustering from Gene Expression Profiles",
+      "abstract": "Tumor clustering is one of the important techniques for tumor discovery from cancer gene expression profiles, which is useful for the diagnosis and treatment of cancer. While different algorithms have been proposed for tumor clustering, few make use of the expert's knowledge to better the performance of tumor discovery. In this paper, we first view the expert's knowledge as constraints in the process of clustering, and propose a feature selection based semi-supervised cluster ensemble framework (FS-SSCE) for tumor clustering from bio-molecular data. Compared with traditional tumor clustering approaches, the proposed framework FS-SSCE is featured by two properties: (1) The adoption of feature selection techniques to dispel the effect of noisy genes. (2) The employment of the binate constraint based K-means algorithm to take into account the effect of experts' knowledge. Then, a double selection based semi-supervised cluster ensemble framework (DS-SSCE) which not only applies the feature selection technique to perform gene selection on the gene dimension, but also selects an optimal subset of representative clustering solutions in the ensemble and improve the performance of tumor clustering using the normalized cut algorithm. DS-SSCE also introduces a confidence factor into the process of constructing the consensus matrix by considering the prior knowledge of the data set. Finally, we design a modified double selection based semi-supervised cluster ensemble framework (MDS-SSCE) which adopts multiple clustering solution selection strategies and an aggregated solution selection function to choose an optimal subset of clustering solutions. The results in the experiments on cancer gene expression profiles show that (i) FS-SSCE, DS-SSCE and MDS-SSCE are suitable for performing tumor clustering from bio-molecular data. (ii) MDS-SSCE outperforms a number of state-of-the-art tumor clustering approaches on most of the data sets."
+    },
+    {
+      "paper_id": "W1988452864",
+      "title": "Pattern Classification with Compact Distribution Maps",
+      "abstract": null
+    },
+    {
+      "paper_id": "W1988649016",
+      "title": "Automatic Contrast Enhancement Technology With Saliency Preservation",
+      "abstract": "In this paper, we investigate the problem of image contrast enhancement. Most existing relevant technologies often suffer from the drawback of excessive enhancement, thereby introducing noise/artifacts and changing visual attention regions. One frequently used solution is manual parameter tuning, which is, however, impractical for most applications since it is labor intensive and time consuming. In this research, we find that saliency preservation can help produce appropriately enhanced images, i.e., improved contrast without annoying artifacts. We therefore design an automatic contrast enhancement technology with a complete histogram modification framework and an automatic parameter selector. This framework combines the original image, its histogram equalized product, and its visually pleasing version created by a sigmoid transfer function that was developed in our recent work. Then, a visual quality judging criterion is developed based on the concept of saliency preservation, which assists the automatic parameters selection, and finally properly enhanced image can be generated accordingly. We test the proposed scheme on Kodak and Video Quality Experts Group databases, and compare with the classical histogram equalization technique and its variations as well as state-of-the-art contrast enhancement approaches. The experimental results demonstrate that our technique has superior saliency preservation ability and outstanding enhancement effect."
+    },
+    {
+      "paper_id": "W1989145535",
+      "title": "Construction of a blog emotion corpus for Chinese emotional expression analysis",
+      "abstract": "There is plenty of evidence that emotion analysis has many valuable applications. In this study a blog emotion corpus is constructed for Chinese emotional expression analysis. This corpus contains manual annotation of eight emotional categories (expect, joy, love, surprise, anxiety, sorrow, angry and hate), emotion intensity, emotion holder/target, emotional word/phrase, degree word, negative word, conjunction, rhetoric, punctuation and other linguistic expressions that indicate emotion. Annotation agreement analyses for emotion classes and emotional words and phrases are described. Then, using this corpus, we explore emotion expressions in Chinese and present the analyses on them."
+    },
+    {
+      "paper_id": "W1990938413",
+      "title": "Enhanced random search based incremental extreme learning machine",
+      "abstract": null
+    },
+    {
+      "paper_id": "W1990979046",
+      "title": "Fatigue crack growth estimation by relevance vector machine",
+      "abstract": null
+    },
+    {
+      "paper_id": "W1991003630",
+      "title": "Hyperspectral Image Denoising via Noise-Adjusted Iterative Low-Rank Matrix Approximation",
+      "abstract": "Due to the low-dimensional property of clean hyperspectral images (HSIs), many low-rank-based methods have been proposed to denoise HSIs. However, in an HSI, the noise intensity in different bands is often different, and most of the existing methods do not take this fact into consideration. In this paper, a noise-adjusted iterative low-rank matrix approximation (NAILRMA) method is proposed for HSI denoising. Based on the low-rank property of HSIs, the patchwise low-rank matrix approximation (LRMA) is established. To further separate the noise from the signal subspaces, an iterative regularization framework is proposed. Considering that the noise intensity in different bands is different, an adaptive iteration factor selection based on the noise variance of each HSI band is adopted. This noise-adjusted iteration strategy can effectively preserve the high-SNR bands and denoise the low-SNR bands. The randomized singular value decomposition (RSVD) method is then utilized to solve the NAILRMA optimization problem. A number of experiments were conducted in both simulated and real data conditions to illustrate the performance of the proposed NAILRMA method for HSI denoising."
+    },
+    {
+      "paper_id": "W1991527172",
+      "title": "Generalized k-Labelsets Ensemble for Multi-Label and Cost-Sensitive Classification",
+      "abstract": "Label powerset (LP) method is one category of multi-label learning algorithm. This paper presents a basis expansions model for multi-label classification, where a basis function is an LP classifier trained on a random k-labelset. The expansion coefficients are learned to minimize the global error between the prediction and the ground truth. We derive an analytic solution to learn the coefficients efficiently. We further extend this model to handle the cost-sensitive multi-label classification problem, and apply it in social tagging to handle the issue of the noisy training set by treating the tag counts as the misclassification costs. We have conducted experiments on several benchmark datasets and compared our method with other state-of-the-art multi-label learning methods. Experimental results on both multi-label classification and cost-sensitive social tagging demonstrate that our method has better performance than other methods."
+    },
+    {
+      "paper_id": "W1992081487",
+      "title": "Subjective and objective quality assessment for images with contrast change",
+      "abstract": "It is widely known that, for most natural images, appropriate contrast enhancement can usually lead to improved subjective quality. Despite of its importance to image processing, contrast change has largely been overlooked in the current research of image quality assessment (IQA). To fill this void, in this paper we first report a new and dedicated contrast-changed image database (CID2013). The CID2013 database is composed of four hundred contrast-changed images of fifteen original natural images and the mean opinion scores (MOSs) recorded from twenty-two inexperienced viewers. We then proposed a novel reduced-reference image quality metric for contrast-changed images (RIQMC) using entropies and order statistics of the image histograms. Experimental results on the CID2013, TID2008, and CSIQ databases demonstrate that the proposed RIQMC metric outperforms some mainstream image quality assessment methods."
+    },
+    {
+      "paper_id": "W1992190284",
+      "title": "Identification of overlapping and non-overlapping community structure by fuzzy clustering in complex networks",
+      "abstract": null
+    }
+  ]
+}

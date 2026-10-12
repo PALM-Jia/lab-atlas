@@ -1,0 +1,54 @@
+{
+  "papers": [
+    {
+      "paper_id": "W2095343758",
+      "title": "Minimum Volume Simplex Analysis: A Fast Algorithm for Linear Hyperspectral Unmixing",
+      "abstract": "Linear spectral unmixing aims at estimating the number of pure spectral substances, also calledendmembers, their spectral signatures, and their abundance fractions in remotely sensed hyperspectral images. This paper describes a method for unsupervised hyperspectral unmixing called minimum volume simplex analysis (MVSA) and introduces a new computationally efficient implementation. MVSA approaches hyperspectral unmixing by fitting a minimum volume simplex to the hyperspectral data, constraining the abundance fractions to belong to the probability simplex. The resulting optimization problem, which is computationally complex, is solved in this paper by implementing a sequence of quadratically constrained subproblems using the interior point method, which is particularly effective from the computational viewpoint. The proposed implementation (available online: www.lx.it.pt/%7ejun/DemoMVSA.zip) is shown to exhibit state-of-the-art performance not only in terms of unmixing accuracy, particularly in nonpure pixel scenarios, but also in terms of computational performance. Our experiments have been conducted using both synthetic and real data sets. An important assumption of MVSA is that pure pixels may not be present in the hyperspectral data, thus addressing a common situation in real scenarios which are often dominated by highly mixed pixels. In our experiments, we observe that MVSA yields competitive performance when compared with other available algorithms that work under the nonpure pixel regime. Our results also demonstrate that MVSA is well suited to problems involving a high number of endmembers (i.e., complex scenes) and also for problems involving a high number of pixels (i.e., large scenes)."
+    },
+    {
+      "paper_id": "W2096100960",
+      "title": "Integrating constraints and metric learning in semi-supervised clustering",
+      "abstract": "Semi-supervised clustering employs a small amount of labeled data to aid unsupervised learning. Previous work in the area has utilized supervised data in one of two approaches: 1) constraint-based methods that guide the clustering algorithm towards a better grouping of the data, and 2) distance-function learning methods that adapt the underlying similarity metric used by the clustering algorithm. This paper provides new methods for the two approaches as well as presents a new semi-supervised clustering algorithm that integrates both of these techniques in a uniform, principled framework. Experimental results demonstrate that the unified approach produces better clusters than both individual approaches as well as previously proposed semi-supervised clustering algorithms."
+    },
+    {
+      "paper_id": "W2096175520",
+      "title": "A maximum entropy approach to natural language processing",
+      "abstract": "The concept of maximum entropy can be traced back along multiple threads to Biblical times. Only recently, however, have computers become powerful enough to permit the widescale application of this concept to real world problems in statistical estimation and pattern recognition. In this paper we describe a method for statistical modeling based on maximum entropy. We present a maximum-likelihood approach for automatically constructing maximum entropy models and describe how to implement this approach efficiently, using as examples several problems in natural language processing."
+    },
+    {
+      "paper_id": "W2096465161",
+      "title": "GENCODE: The reference human genome annotation for The ENCODE Project",
+      "abstract": "The GENCODE Consortium aims to identify all gene features in the human genome using a combination of computational analysis, manual annotation, and experimental validation. Since the first public release of this annotation data set, few new protein-coding loci have been added, yet the number of alternative splicing transcripts annotated has steadily increased. The GENCODE 7 release contains 20,687 protein-coding and 9640 long noncoding RNA loci and has 33,977 coding transcripts not represented in UCSC genes and RefSeq. It also has the most comprehensive annotation of long noncoding RNA (lncRNA) loci publicly available with the predominant transcript form consisting of two exons. We have examined the completeness of the transcript annotation and found that 35% of transcriptional start sites are supported by CAGE clusters and 62% of protein-coding genes have annotated polyA sites. Over one-third of GENCODE protein-coding genes are supported by peptide hits derived from mass spectrometry spectra submitted to Peptide Atlas. New models derived from the Illumina Body Map 2.0 RNA-seq data identify 3689 new loci not currently in GENCODE, of which 3127 consist of two exon models indicating that they are possibly unannotated long noncoding loci. GENCODE 7 is publicly available from gencodegenes.org and via the Ensembl and UCSC Genome Browsers."
+    },
+    {
+      "paper_id": "W2096663164",
+      "title": "Fuzzy objective functions for robust pattern recognition",
+      "abstract": "In this paper, we consider the issue of fuzzy objective functions when outliers exist. The outlier set is defined as the complement of the data set. Following this concept, a specially designed fuzzy membership weighted objective function is proposed and the corresponding optimal membership is derived. Based on the proposed robust objective functions, algorithms for clustering are implemented. Artificially generated data are used for comparison."
+    },
+    {
+      "paper_id": "W2096725584",
+      "title": "RASCAL: Calculation of Graph Similarity using Maximum Common Edge Subgraphs",
+      "abstract": "A new graph similarity calculation procedure is introduced for comparing labeled graphs. Given a minimum similarity threshold, the procedure consists of an initial screening process to determine whether it is possible for the measure of similarity between the two graphs to exceed the minimum threshold, followed by a rigorous maximum common edge subgraph (MCES) detection algorithm to compute the exact degree and composition of similarity. The proposed MCES algorithm is based on a maximum clique formulation of the problem and is a significant improvement over other published algorithms. It presents new approaches to both lower and upper bounding as well as vertex selection."
+    },
+    {
+      "paper_id": "W2096729078",
+      "title": "Chemical Similarity Searching",
+      "abstract": "This paper reviews the use of similarity searching in chemical databases. It begins by introducing the concept of similarity searching, differentiating it from the more common substructure searching, and then discusses the current generation of fragment-based measures that are used for searching chemical structure databases. The next sections focus upon two of the principal characteristics of a similarity measure: the coefficient that is used to quantify the degree of structural resemblance between pairs of molecules and the structural representations that are used to characterize molecules that are being compared in a similarity calculation. New types of similarity measure are then compared with current approaches, and examples are given of several applications that are related to similarity searching."
+    },
+    {
+      "paper_id": "W2096942043",
+      "title": "Adaptive Intra-Frame Assignment and Bit-Rate Estimation for Variable GOP Length in H.264",
+      "abstract": "Video sequences usually have many scene changes and contain rapid motion. The coding efficiency of such sequences is generally low, and the image quality fluctuates. If the rapid motion and scene changes are taken into consideration for video compression, the compression performance can be improved and the fluctuation of image quality can be reduced. An adaptive group of picture (GOP)-length structure is proposed here to consider the scene changes and rapid motion in video sequences. Our proposed algorithm for this adaptive GOP-length structure is composed of three steps. First, a correlation measure is proposed to estimate the scene changes. Second, a new intra-frame assignment method is proposed. Third, an intra-quantization parameter rule for avoiding buffer overflow and image quality fluctuation is also suggested. Our proposed algorithm has an initial delay of one-GOP length, which makes it difficult to apply for real-time communication, but this type of short initial delay is acceptable in a streaming service"
+    },
+    {
+      "paper_id": "W2096943734",
+      "title": "Transfer Feature Learning with Joint Distribution Adaptation",
+      "abstract": "Transfer learning is established as an effective technology in computer vision for leveraging rich labeled data in the source domain to build an accurate classifier for the target domain. However, most prior methods have not simultaneously reduced the difference in both the marginal distribution and conditional distribution between domains. In this paper, we put forward a novel transfer learning approach, referred to as Joint Distribution Adaptation (JDA). Specifically, JDA aims to jointly adapt both the marginal distribution and conditional distribution in a principled dimensionality reduction procedure, and construct new feature representation that is effective and robust for substantial distribution difference. Extensive experiments verify that JDA can significantly outperform several state-of-the-art methods on four types of cross-domain image classification problems."
+    },
+    {
+      "paper_id": "W2097482982",
+      "title": "Discriminative Clustering by Regularized Information Maximization",
+      "abstract": "Is there a principled way to learn a probabilistic discriminative classifier from an unlabeled data set? We present a framework that simultaneously clusters the data and trains a discriminative classifier. We call it Regularized Information Maximization (RIM). RIM optimizes an intuitive information-theoretic objective function which balances class separation, class balance and classifier complexity. The approach can flexibly incorporate different likelihood functions, express prior assumptions about the relative size of different classes and incorporate partial labels for semi-supervised learning. In particular, we instantiate the framework to un-supervised, multi-class kernelized logistic regression. Our empirical evaluation indicates that RIM outperforms existing methods on several real data sets, and demonstrates that RIM is an effective model selection method."
+    }
+  ]
+}

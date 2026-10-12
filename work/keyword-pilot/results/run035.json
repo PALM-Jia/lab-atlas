@@ -1,0 +1,18 @@
+{
+  "sample_id": "S09",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "merges them into target clusters via a learnable assignment",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出聚类框架，并以可学习分配将细粒度子簇合并为目标簇，符合通过可学习机制获得数据划分的深度聚类定义。"
+    },
+    {
+      "keyword_id": "class-imbalance",
+      "exact_quote": "the pervasive challenge of class imbalance",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要将类别不平衡明确作为现实数据中的核心挑战，并针对多数类与少数类失衡设计方法。"
+    }
+  ],
+  "abstentions": []
+}

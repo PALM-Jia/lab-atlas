@@ -1,0 +1,9 @@
+独立完成一篇论文的固定词表关键词标注。fresh任务，无任何先前标注上下文。
+
+控制端参数：
+INPUT_PATH={{INPUT_PATH}}
+OUTPUT_PATH={{OUTPUT_PATH}}
+
+项目实验目录：C:/Users/lee/Documents/Codex/2026-10-10/https-jyh-learning-github-io-papers/work/keyword-pilot/
+
+你只能读取INPUT_PATH指定的一份样本JSON、该目录下annotation-instructions.txt、vocabulary-for-annotation.json、annotation-output.schema.json。完整阅读共同指令与49词后独立判定。只能写OUTPUT_PATH指定的一份JSON，不写其他文件。不得读取其他输入样本、任何已有结果、sample-manifest.json、control、blind、审计、项目其他文件或记忆；不得联网，不调用代理。输出必须遵循共同JSON schema、使用原文连续片段，允许无标签，不加数字置信度。请使用工具读取上述允许文件并写入结果文件，完成后只回复样本ID和输出路径。

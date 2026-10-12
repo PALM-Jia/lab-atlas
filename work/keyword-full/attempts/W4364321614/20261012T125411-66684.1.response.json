@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W4364321614\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"Stereo superpixel segmentation aims at grouping the discretizing pixels into perceptual regions\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文任务为立体超像素分割，将像素分组为感知区域，属于超像素级图像分割。\"},{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"fusing the features of stereo image pairs\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文使用左右立体视图作为同一场景的多观测，并显式融合立体图像对特征，符合多视图数据设定。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

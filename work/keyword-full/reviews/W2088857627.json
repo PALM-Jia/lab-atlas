@@ -1,0 +1,31 @@
+{
+  "paper_id": "W2088857627",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "以有限的成对关系及其可信度约束指导聚类，属于不完整、关系级监督，符合弱监督学习定义，不能因已有半监督标签而漏标。",
+      "exact_quote": "it can encode the degree of belief (weight) in Must-Link and Cannot-Link constraints",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "it can encode the degree of belief (weight) in Must-Link and Cannot-Link constraints",
+        "evidence_field": "abstract",
+        "reason_zh": "以有限的成对关系及其可信度约束指导聚类，属于不完整、关系级监督，符合弱监督学习定义，不能因已有半监督标签而漏标。"
+      }
+    ],
+    "abstentions": [
+      {
+        "keyword_id": "pairwise-constraint-propagation",
+        "reason_zh": "摘要只提及显式编码Must-Link/Cannot-Link约束，未说明对这些成对约束进行扩展或传播，无法确认满足成对约束传播定义。"
+      }
+    ],
+    "input_issues": []
+  }
+}

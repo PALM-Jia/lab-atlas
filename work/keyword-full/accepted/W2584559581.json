@@ -1,0 +1,22 @@
+{
+  "paper_id": "W2584559581",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "Multi-label learning is widely applied in many tasks, where an object possesses multiple concepts with each represented by a class label.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将任务界定为多标记学习：一个对象同时具有多个概念，每个概念由类别标签表示，并研究其在新标签出现环境下的预测。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "open-vocabulary-recognition",
+      "reason_zh": "摘要提到新标签出现且标签集非固定，但未提供类别可由词语指定或开放词表识别的证据。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "训练时已知标签监督完整，新标签属于新类别而非实例级监督不完整；摘要未将弱监督作为实质研究条件。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,21 @@
+{
+  "paper_id": "W2061901927",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "input_problem",
+      "keyword_id": null,
+      "reason_zh": "摘要字段是元数据占位文字，并非论文摘要；应记录该输入问题，仍只凭标题判断。",
+      "exact_quote": "Metadata only record",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [],
+    "abstentions": [],
+    "input_issues": [
+      "摘要字段为“Metadata only record”元数据占位文字，无可用摘要内容；仅依据标题。"
+    ]
+  }
+}

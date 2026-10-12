@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2037248153",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "Multi-Instance Multi-Label Learning",
+      "evidence_field": "title",
+      "reason_zh": "标题直接表明研究任务为多标记学习；蛋白质功能预测需为同一对象预测多个可同时成立的功能标记。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "Multi-Instance Multi-Label (MIML) learning tasks",
+      "evidence_field": "abstract",
+      "reason_zh": "MIML设定中以包/蛋白质级标签替代实例/结构域级完整真值，属于包级不完整监督，并被作为核心学习任务。"
+    },
+    {
+      "keyword_id": "classifier-ensemble",
+      "exact_quote": "propose a novel ensemble MIML learning framework EnMIMLNN",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要提出集成式MIML学习框架EnMIMLNN，用于蛋白质功能分类，属于结合多个分类器或分类算法完成分类。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

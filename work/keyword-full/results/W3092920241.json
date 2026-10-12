@@ -1,0 +1,19 @@
+{
+  "paper_id": "W3092920241",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "we employ multi-parallel projection layers to project snippet-level video features into multiple discriminate feature spaces. Each of these feature spaces is corresponding to a cluster which captures distinct subcategory of normality, respectively.",
+      "evidence_field": "abstract",
+      "reason_zh": "用可学习的多层投影把片段特征映射到多个特征空间，每个特征空间对应一个正常性子类簇，形成神经表示下的聚类划分。"
+    },
+    {
+      "keyword_id": "contrastive-learning",
+      "exact_quote": "maximize the agreement of the representations from the same snippet under random data augmentations via momentum contrast",
+      "evidence_field": "abstract",
+      "reason_zh": "通过随机数据增强下同一片段表示的一致性最大化和动量对比学习表示，满足视图/样本间吸引与区分的对比学习目标。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

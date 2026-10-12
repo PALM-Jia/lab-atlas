@@ -1,0 +1,14 @@
+{
+  "paper_id": "W1528905581",
+  "verdict": "needs_review",
+  "issues": [
+    {
+      "kind": "input_problem",
+      "keyword_id": null,
+      "reason_zh": "摘要只提供抑郁项目和新生儿黄疸费用的预测案例，未明确广义线性模型方法；可能是书籍应用示例片段，也可能错配。现有输入无法可靠确定归属，不能确认或消除首轮的疑似输入问题。",
+      "exact_quote": "Predictors of the cost include race, gestational age, and birthweight",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": null
+}

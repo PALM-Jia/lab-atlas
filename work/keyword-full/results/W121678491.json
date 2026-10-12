@@ -1,0 +1,24 @@
+{
+  "paper_id": "W121678491",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "based on non-negative matrix factorization (NMF)",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以非负矩阵分解作为监督分类框架的基础，属于论文实质采用的方法。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "expansions of non-negative matrix factorization to multiview learning",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要将方法扩展到多视图学习，并联合利用多种图像模态/辅助信息，符合同一对象多个视图的设定。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "label-correlation-modeling",
+      "reason_zh": "摘要提到“learn co-occurrences”，但未明确是标签间共现、依赖或局部相关结构；证据不足以判定为标签相关性建模。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,14 @@
+{
+  "paper_id": "W1975172027",
+  "verdict": "needs_review",
+  "issues": [
+    {
+      "kind": "input_problem",
+      "keyword_id": null,
+      "reason_zh": "首轮已正确记录错配，但标题为线性变换特征值定理，摘要为果蝇遗传实验，无法仅凭本篇输入确认摘要归属或恢复可靠内容；该真实未解输入问题应交人工处理。",
+      "exact_quote": "Breeding tests were conducted on all flies showing conspicuous, symmetrical altera- tions in phenotype",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": null
+}

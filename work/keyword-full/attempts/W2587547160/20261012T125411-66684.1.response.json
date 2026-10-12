@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2587547160\",\"annotations\":[{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"recover the missing entries and identify errors from the partial direct measurements\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将恢复缺失条目并识别错误作为核心任务，输出为补全/恢复后的数据，符合数据补全与恢复定义。\"},{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"The traffic volumes between a set of Origins and Destinations (OD) pairs within a network\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要以网络OD对间流量作为研究对象，说明其时空特征，属于以实际交通流量数据为应用对象。\"}],\"abstentions\":[{\"keyword_id\":\"low-rank-modeling\",\"reason_zh\":\"摘要仅称张量恢复和利用结构，未明确低秩约束、分解或近似表示，无法确认满足低秩建模定义。\"}],\"input_issues\":[]}"
+}

@@ -1,0 +1,40 @@
+{
+  "paper_id": "W4284894875",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "Consistency regularization for deep semi-supervised clustering with pairwise constraints",
+      "evidence_field": "title",
+      "reason_zh": "标题明确为深度半监督聚类，属于利用可学习神经表示进行聚类划分的研究任务。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "deep semi-supervised clustering with pairwise constraints",
+      "evidence_field": "title",
+      "reason_zh": "标题表明以成对约束作为有限监督，结合未标注数据进行半监督聚类。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "To leverage the additional structure of unlabeled data and to uncover more information hidden by pairwise constraints, we add a consistency regularization loss, calculated on unlabeled data and pairwise constraints, to our objective function.",
+      "evidence_field": "abstract",
+      "reason_zh": "监督信号仅为成对约束而非完整实例标签，属于不完整监督并作为核心训练条件。"
+    },
+    {
+      "keyword_id": "contrastive-learning",
+      "exact_quote": "After consistency training, the connected data can be closer in the learned feature space, while the disconnected data can be far away.",
+      "evidence_field": "abstract",
+      "reason_zh": "通过成对约束使相连样本在学得特征空间靠近、不相连样本远离，体现样本对吸引与区分表示学习。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "reason_zh": "仅见将成对约束直接用于一致性正则损失，未见扩展或传播must-link/cannot-link监督关系的证据。"
+    },
+    {
+      "keyword_id": "pseudo-label-self-training",
+      "reason_zh": "有一致性训练利用未标注数据，但摘要未明确模型预测作为伪标签或后续训练信号。"
+    }
+  ],
+  "input_issues": []
+}

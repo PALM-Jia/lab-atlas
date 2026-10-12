@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W1603933131\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"we propose SS-NMF: a semi-supervised non-negative matrix factorization framework for data clustering\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确提出SS-NMF，采用非负矩阵分解框架进行数据聚类，属于论文核心方法。\"},{\"keyword_id\":\"semi-supervised-learning\",\"exact_quote\":\"users are able to provide supervision for clustering in terms of pairwise constraints on a few data objects specifying whether they “must” or “cannot” be clustered together.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"利用少量数据对象上的must/cannot成对约束作为有限监督来指导聚类，符合半监督学习以有限成对约束指导全部样本的设定。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

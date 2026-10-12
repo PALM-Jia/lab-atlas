@@ -1,0 +1,37 @@
+{
+  "paper_id": "W4399618125",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "this article presents a global and local topology-aware contrastive graph clustering network (GLAC-GCN) for attributed graph clustering",
+      "evidence_field": "abstract",
+      "reason_zh": "提出带GCN管线和聚类分布输出的图聚类网络，属于利用可学习神经表示获得数据划分的深度聚类。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "the local topology structure, and global semantic information are simultaneously utilized to refine the graph",
+      "evidence_field": "abstract",
+      "reason_zh": "显式利用局部拓扑与全局语义信息修正图结构，符合学习或修正样本间边/拓扑结构的定义。"
+    },
+    {
+      "keyword_id": "graph-neural-networks",
+      "exact_quote": "two pipelines of GCNs are jointly and interactively utilized",
+      "evidence_field": "abstract",
+      "reason_zh": "方法以GCN管线作为主要学习组件，通过图卷积获取表示，满足图神经网络定义。"
+    },
+    {
+      "keyword_id": "contrastive-learning",
+      "exact_quote": "the contrastive learning is enforced by minimizing the mismatch of the cluster distributions obtained from different GCN pipelines",
+      "evidence_field": "abstract",
+      "reason_zh": "通过最小化不同GCN管线聚类分布间的不一致来实施对比学习，属于视图/管线间的区分性表示学习目标。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "both the original graph and the globally and locally refined graph are treated as input graphs",
+      "evidence_field": "abstract",
+      "reason_zh": "同一图数据的原始图与全局/局部修正图作为多个拓扑输入，并被两条管线联合交互学习，符合多视图/多观测联合利用设定。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

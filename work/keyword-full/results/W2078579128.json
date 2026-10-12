@@ -1,0 +1,18 @@
+{
+  "paper_id": "W2078579128",
+  "annotations": [
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "multiple-instance learning concerns the problem of classifying a bag of instances, given bags that are labeled by a teacher as being overall positive or negative.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要以包级整体正负标签替代实例级真值，并将多示例分类作为核心研究问题，属于用粗粒度/不完整监督信号替代充分准确实例级监督的学习设定。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "bayesian-inference",
+      "reason_zh": "仅出现算法名Bayesian-KNN，未说明先验、后验估计或概率模型推断，无法确认满足贝叶斯推断定义。"
+    }
+  ],
+  "input_issues": []
+}

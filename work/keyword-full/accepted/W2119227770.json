@@ -1,0 +1,30 @@
+{
+  "paper_id": "W2119227770",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "completely positive factorization under a doubly stochastic constraint",
+      "evidence_field": "abstract",
+      "reason_zh": "核心将聚类目标等价为完全正分解，即以非负因子表示的矩阵分解（对称非负矩阵分解）问题，并以双随机约束求解。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "extend the basic clustering scheme to situations where partial label information is available",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明将基本聚类方案扩展到部分标签信息可用的情形，即以有限监督信息辅助未标注聚类。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "extend the basic clustering scheme to situations where partial label information is available",
+      "evidence_field": "abstract",
+      "reason_zh": "论文将聚类方案扩展至仅有部分标签信息的条件，明确以不完整监督辅助聚类，符合弱监督定义；该词与半监督没有词表声明的父子排斥关系。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "partial-label-learning",
+      "reason_zh": "仅有“partial label information”措辞，未说明每实例候选标签集合或仅一个真标签，无法确认是偏标记学习设定。"
+    }
+  ],
+  "input_issues": []
+}

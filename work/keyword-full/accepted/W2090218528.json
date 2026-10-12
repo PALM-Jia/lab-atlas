@@ -1,0 +1,18 @@
+{
+  "paper_id": "W2090218528",
+  "annotations": [
+    {
+      "keyword_id": "multi-objective-optimization",
+      "exact_quote": "solving multiobjective optimization problems",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以多目标优化问题为求解对象，研究标量化函数及其在交互方法中的理论性质和数值表现，符合以多个相互制约目标求解的定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "value-preference-alignment",
+      "reason_zh": "交互方法与参考点可能涉及决策者偏好，但摘要未说明将模型输出对齐至人类/教师表达的价值或偏好排序，缺乏定义所需的对齐对象与过程证据。"
+    }
+  ],
+  "input_issues": []
+}

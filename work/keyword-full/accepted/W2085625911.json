@@ -1,0 +1,22 @@
+{
+  "paper_id": "W2085625911",
+  "annotations": [
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "a novel WSL approach is presented to object detection where the training sets require only binary labels indicating whether an image contains the target object or not",
+      "evidence_field": "abstract",
+      "reason_zh": "论文明确采用弱监督学习，仅用图像级二值标签作为不完整/粗粒度监督来训练目标检测器。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "bayesian-inference",
+      "reason_zh": "摘要仅称在贝叶斯框架中整合显著性、类内紧致性和类间可分性，未说明先验、后验估计或近似推断，无法确认贝叶斯推断。"
+    },
+    {
+      "keyword_id": "pseudo-label-self-training",
+      "reason_zh": "摘要提到从弱标注图像初始化训练样例并迭代学习检测器，但未明确模型预测被用作后续训练信号，无法确认伪标签/自训练。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,13 @@
+{
+  "paper_id": "lab-bbbc3701492a",
+  "annotations": [
+    {
+      "keyword_id": "adversarial-robustness",
+      "exact_quote": "enhance the adversarial robustness of DNNs",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确提出两阶段训练防御方法，目标是提升深度神经网络的对抗鲁棒性，符合对抗鲁棒性研究任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

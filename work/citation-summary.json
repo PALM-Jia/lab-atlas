@@ -1,0 +1,86 @@
+{
+  "lab": {
+    "total": 144,
+    "openalex": {
+      "success": 118,
+      "zero": 33,
+      "missing": 26,
+      "not_requested": 0,
+      "failure_reasons": {
+        "public_page_verified_no_openalex_match": 6,
+        "title_only_no_independent_locator": 4,
+        "possible_renamed_paper_without_version_identity": 1,
+        "spelling_variant_no_verified_match": 1,
+        "expanded_search_no_verified_record": 4,
+        "official_listing_no_openalex_match": 7,
+        "no_public_locator_for_future_year": 1,
+        "public_candidate_page_access_blocked": 1,
+        "title_variant_collides_with_another_lab_paper": 1
+      }
+    },
+    "semantic_scholar": {
+      "success": 116,
+      "zero": 10,
+      "missing": 28,
+      "not_requested": 0,
+      "failure_reasons": {
+        "Semantic Scholar returned null for identifier": 4,
+        "Bulk title search returned no identity-validated record": 4,
+        "HTTP 404": 18,
+        "Candidate failed title/author identity validation": 1,
+        "Unresolved State/TRB versus Speed/TITS version identity; candidate count not adopted": 1
+      },
+      "comparison": {
+        "paired": 112,
+        "equal": 22,
+        "higher": 52,
+        "lower": 38,
+        "newly_available": 4
+      }
+    },
+    "crossref": {
+      "success": 100,
+      "zero": 15,
+      "missing": 44,
+      "not_requested": 0,
+      "failure_reasons": {
+        "DOI registered with DataCite; Crossref works endpoint HTTP 404": 17,
+        "No verified DOI; Crossref DOI lookup unavailable": 27
+      },
+      "comparison": {
+        "paired": 100,
+        "equal": 41,
+        "higher": 9,
+        "lower": 50,
+        "newly_available": 0
+      }
+    }
+  },
+  "external": {
+    "total": 1529,
+    "openalex": {
+      "success": 1529,
+      "zero": 81,
+      "missing": 0,
+      "not_requested": 0,
+      "failure_reasons": {}
+    },
+    "semantic_scholar": {
+      "success": 1344,
+      "zero": 60,
+      "missing": 185,
+      "not_requested": 0,
+      "failure_reasons": {
+        "No Semantic Scholar ID, DOI or arXiv ID": 73,
+        "Semantic Scholar returned null for identifier": 112
+      }
+    },
+    "crossref": {
+      "success": 0,
+      "zero": 0,
+      "missing": 0,
+      "not_requested": 1529,
+      "failure_reasons": {}
+    }
+  }
+}

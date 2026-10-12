@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2338068721",
+  "annotations": [
+    {
+      "keyword_id": "partial-label-learning",
+      "exact_quote": "Partial label learning aims to learn from training examples each associated with a set of candidate labels, among which only one label is valid for the training example.",
+      "evidence_field": "abstract",
+      "reason_zh": "标题与摘要明确研究偏标记学习：每个样本给出候选标签集合且仅一个有效，符合定义。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "Partial label learning aims to learn from training examples each associated with a set of candidate labels, among which only one label is valid for the training example.",
+      "evidence_field": "abstract",
+      "reason_zh": "候选标签集合构成不精确监督并作为核心研究设定，符合弱监督学习定义中的候选歧义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

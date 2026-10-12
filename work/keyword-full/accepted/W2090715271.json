@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2090715271",
+  "annotations": [
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "collects the associated traffic and geographical information",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确服务器收集相关交通与地理信息并用于沿路线求解最优速度轨迹，交通/路线数据是实际处理对象。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

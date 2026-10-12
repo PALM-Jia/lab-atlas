@@ -1,0 +1,30 @@
+{
+  "paper_id": "W4312209802",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "symmetric nonnegative matrix factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题明确采用对称非负矩阵分解，满足以非负因子分解矩阵的方法定义。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "semi-supervised",
+      "evidence_field": "title",
+      "reason_zh": "标题标明半监督设定，即结合有限监督信息与未标注样本指导学习，符合半监督学习定义。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "semi-supervised",
+      "evidence_field": "title",
+      "reason_zh": "标题将半监督条件作为方法核心，有限监督属于不完整监督，亦符合弱监督定义；两词无父子关系。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "标题只有超图基础方法描述，无法确认是否施加几何一致性正则。"
+    }
+  ],
+  "input_issues": []
+}

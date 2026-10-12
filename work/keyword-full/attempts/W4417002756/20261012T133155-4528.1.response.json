@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W4417002756\",\"annotations\":[{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"Multi-view clustering (MVC), as an important machine learning task, aims to group data into distinct groups by leveraging complementary and consistent information across multiple views.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要将多视图聚类作为任务，明确利用多个视图间互补且一致的信息进行分组，符合多视图学习设定。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

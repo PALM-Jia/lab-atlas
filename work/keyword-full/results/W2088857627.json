@@ -1,0 +1,24 @@
+{
+  "paper_id": "W2088857627",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "it can encode the degree of belief (weight) in Must-Link and Cannot-Link constraints",
+      "evidence_field": "abstract",
+      "reason_zh": "Must-Link/Cannot-Link成对约束提供有限监督信息，用于指导对未标注样本的谱聚类划分，符合半监督学习设定。"
+    },
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "with applications to constrained image segmentation and clustering benchmark data sets with both binary and degree-of-belief constraints.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将方法应用于受限图像分割，属于像素级图像区域划分任务。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "reason_zh": "摘要只提及显式编码Must-Link/Cannot-Link约束，未说明对这些成对约束进行扩展或传播，无法确认满足成对约束传播定义。"
+    }
+  ],
+  "input_issues": []
+}

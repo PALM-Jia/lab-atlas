@@ -1,0 +1,54 @@
+{
+  "papers": [
+    {
+      "paper_id": "W2002767255",
+      "title": "A SURVEY OF CLUSTERING ENSEMBLE ALGORITHMS",
+      "abstract": "Cluster ensemble has proved to be a good alternative when facing cluster analysis problems. It consists of generating a set of clusterings from the same dataset and combining them into a final clustering. The goal of this combination process is to improve the quality of individual data clusterings. Due to the increasing appearance of new methods, their promising results and the great number of applications, we consider that it is necessary to make a critical analysis of the existing techniques and future projections. This paper presents an overview of clustering ensemble methods that can be very useful for the community of clustering practitioners. The characteristics of several methods are discussed, which may help in the selection of the most appropriate one to solve a problem at hand. We also present a taxonomy of these techniques and illustrate some important applications."
+    },
+    {
+      "paper_id": "W2003088946",
+      "title": "Structure-Sensitive Superpixels via Geodesic Distance",
+      "abstract": "Segmenting images into superpixels as supporting regions for feature vectors and primitives to reduce computational complexity has been commonly used as a fundamental step in various image analysis and computer vision tasks. In this paper, we describe the structure-sensitive superpixel technique by exploiting Lloyd’s algorithm with the geodesic distance. Our method generates smaller superpixels to achieve relatively low under-segmentation in structure-dense regions with high intensity or color variation, and produces larger segments to increase computational efficiency in structure-sparse regions with homogeneous appearance. We adopt geometric flows to compute geodesic distances amongst pixels. In the segmentation procedure, the density of over-segments is automatically adjusted through iteratively optimizing an energy functional that embeds color homogeneity, structure density. Comparative experiments with the Berkeley database show that the proposed algorithm outperforms the prior arts while offering a comparable computational efficiency as TurboPixels. Further applications in image compression, object closure extraction and video segmentation demonstrate the effective extensions of our approach."
+    },
+    {
+      "paper_id": "W2003187705",
+      "title": "DBASS3 and DBASS5: databases of aberrant 3'- and 5'-splice sites",
+      "abstract": "DBASS3 and DBASS5 provide comprehensive repositories of new exon boundaries that were induced by pathogenic mutations in human disease genes. Aberrant 5'- and 3'-splice sites were activated either by mutations in the consensus sequences of natural exon-intron junctions (cryptic sites) or elsewhere ('de novo' sites). DBASS3 and DBASS5 currently contain approximately 900 records of cryptic and de novo 3'- and 5'-splice sites that were produced by over a thousand different mutations in approximately 360 genes. DBASS3 and DBASS5 data can be searched by disease phenotype, gene, mutation, location of aberrant splice sites in introns and exons and their distance from authentic counterparts, by bibliographic references and by the splice-site strength estimated with several prediction algorithms. The user can also retrieve reference sequences of both aberrant and authentic splice sites with the underlying mutation. These data will facilitate identification of introns or exons frequently involved in aberrant splicing, mutation analysis of human disease genes and study of germline or somatic mutations that impair RNA processing. Finally, this resource will be useful for fine-tuning splice-site prediction algorithms, better definition of auxiliary splicing signals and design of new reporter assays. DBASS3 and DBASS5 are freely available at http://www.dbass.org.uk/."
+    },
+    {
+      "paper_id": "W2003194818",
+      "title": "Subspace clustering with dense representations",
+      "abstract": "Unions of subspaces have recently been shown to provide a compact nonlinear signal model for collections of high-dimensional data, such as large collections of images or videos. In this paper, we introduce a novel data-driven algorithm for learning unions of subspaces directly from a collection of data; our approach is based upon forming minimum ℓ2-norm (least-squares) representations of a signal with respect to other signals in the collection. The resulting representations are then used as feature vectors to cluster the data in accordance with each signal's subspace membership. We demonstrate that the proposed least-squares approach leads to improved classification performance when compared to state-of-the-art subspace clustering methods on both synthetic and real-world experiments. This study provides evidence that using least-squares methods to form data-driven representations of collections of data provide significant advantages over current methods that rely upon sparse representations."
+    },
+    {
+      "paper_id": "W2003217181",
+      "title": "Sparse subspace clustering",
+      "abstract": "We propose a method based on sparse representation (SR) to cluster data drawn from multiple low-dimensional linear or affine subspaces embedded in a high-dimensional space. Our method is based on the fact that each point in a union of subspaces has a SR with respect to a dictionary formed by all other data points. In general, finding such a SR is NP hard. Our key contribution is to show that, under mild assumptions, the SR can be obtained `exactly' by using l1optimization. The segmentation of the data is obtained by applying spectral clustering to a similarity matrix built from this SR. Our method can handle noise, outliers as well as missing data. We apply our subspace clustering algorithm to the problem of segmenting multiple motions in video. Experiments on 167 video sequences show that our approach significantly outperforms state-of-the-art methods."
+    },
+    {
+      "paper_id": "W2004049668",
+      "title": "Identifying the role that animals play in their social networks",
+      "abstract": "Techniques recently developed for the analysis of human social networks are applied to the social network of bottlenose dolphins living in Doubtful Sound, New Zealand. We identify communities and subcommunities within the dolphin population and present evidence that sex- and age-related homophily play a role in the formation of clusters of preferred companionship. We also identify brokers who act as links between sub-communities and who appear to be crucial to the social cohesion of the population as a whole. The network is found to be similar to human social networks in some respects but different in some others, such as the level of assortative mixing by degree within the population. This difference elucidates some of the means by which the network forms and evolves."
+    },
+    {
+      "paper_id": "W2006492951",
+      "title": "Efficient voting prediction for pairwise multilabel classification",
+      "abstract": null
+    },
+    {
+      "paper_id": "W2006696725",
+      "title": "Multiplicative Update Rules for Concurrent Nonnegative Matrix Factorization and Maximum Margin Classification",
+      "abstract": "The state-of-the-art classification methods which employ nonnegative matrix factorization (NMF) employ two consecutive independent steps. The first one performs data transformation (dimensionality reduction) and the second one classifies the transformed data using classification methods, such as nearest neighbor/centroid or support vector machines (SVMs). In the following, we focus on using NMF factorization followed by SVM classification. Typically, the parameters of these two steps, e.g., the NMF bases/coefficients and the support vectors, are optimized independently, thus leading to suboptimal classification performance. In this paper, we merge these two steps into one by incorporating maximum margin classification constraints into the standard NMF optimization. The notion behind the proposed framework is to perform NMF, while ensuring that the margin between the projected data of the two classes is maximal. The concurrent NMF factorization and support vector optimization are performed through a set of multiplicative update rules. In the same context, the maximum margin classification constraints are imposed on the NMF problem with additional discriminant constraints and respective multiplicative update rules are extracted. The impact of the maximum margin classification constraints on the NMF factorization problem is addressed in Section VI. Experimental results in several databases indicate that the incorporation of the maximum margin classification constraints into the NMF and discriminant NMF objective functions improves the accuracy of the classification."
+    },
+    {
+      "paper_id": "W2006793117",
+      "title": "The CMU pose, illumination, and expression database",
+      "abstract": "In the Fall of 2000, we collected a database of more than 40,000 facial images of 68 people. Using the Carnegie Mellon University 3D Room, we imaged each person across 13 different poses, under 43 different illumination conditions, and with four different expressions. We call this the CMU pose, illumination, and expression (PIE) database. We describe the imaging hardware, the collection procedure, the organization of the images, several possible uses, and how to obtain the database."
+    },
+    {
+      "paper_id": "W2007042673",
+      "title": "Approximate clustering via the mountain method",
+      "abstract": "We develop a simple and effective approach for approximate estimation of the cluster centers on the basis of the concept of a mountain function. We call the procedure the mountain method. It can be useful for obtaining the initial values of the clusters that are required by more complex cluster algorithms. It also can be used as a stand alone simple approximate clustering technique. The method is based upon a griding on the space, the construction of a mountain function from the data and then a destruction of the mountains to obtain the cluster centers.>"
+    }
+  ]
+}

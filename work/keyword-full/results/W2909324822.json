@@ -1,0 +1,31 @@
+{
+  "paper_id": "W2909324822",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Non-Negative Matrix Factorization With Locality Constrained Adaptive Graph",
+      "evidence_field": "title",
+      "reason_zh": "标题直接给出论文以非负矩阵分解为核心方法，摘要也提出NMF-LCAG算法。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "two locality constraint terms are employed in our NMF-LCAG to adaptively optimize the graph",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确通过局部约束项自适应优化图，并同时学习图的权重矩阵，符合学习或修正样本间亲和图结构。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "the proposed algorithm introduces a locality constrained graph to discover the latent manifold structure of the data",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明引入局部约束图以发现数据潜在流形结构，并用图正则化NMF施加几何一致性约束。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "low dimensional features of data can be simultaneously learned by our algorithm",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确算法同时学习数据的低维特征，属于显式低维嵌入与维度压缩。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

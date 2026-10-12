@@ -1,0 +1,21 @@
+{
+  "paper_id": "W7208779958",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "input_problem",
+      "keyword_id": null,
+      "reason_zh": "摘要的目标生成公式缺失逻辑标签值与采样区间；其余文字足以归属标记增强等已选概念，但应记录这一局部输入损坏。",
+      "exact_quote": "for a logical , the target is drawn from ; for a logical , from .",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [],
+    "abstentions": [],
+    "input_issues": [
+      "摘要中逻辑标签值、采样区间及离散极值公式缺失，目标生成的具体数值机制无法从该文本恢复。"
+    ]
+  }
+}

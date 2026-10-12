@@ -1,0 +1,13 @@
+{
+  "paper_id": "W4385453047",
+  "annotations": [
+    {
+      "keyword_id": "label-distribution-learning",
+      "exact_quote": "In this article, we design two novel LDL methods based on the k -nearest neighbors ( k NNs) approach without assuming any form of label distribution.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文明确提出设计两种LDL方法，研究任务为学习/预测标签分布，符合标记分布学习定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

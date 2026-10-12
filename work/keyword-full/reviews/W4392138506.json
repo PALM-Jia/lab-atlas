@@ -1,0 +1,35 @@
+{
+  "paper_id": "W4392138506",
+  "verdict": "revise",
+  "issues": [
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "kind": "false_negative",
+      "exact_quote": "semi-supervised subspace clustering",
+      "evidence_field": "title",
+      "reason_zh": "标题明确半监督子空间聚类，以有限监督与未标注样本构成不完整监督条件；该条件为研究设定，符合弱监督学习定义。"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "semi-supervised subspace clustering",
+        "evidence_field": "title",
+        "reason_zh": "标题明确半监督子空间聚类，以有限监督与未标注样本构成不完整监督条件；该条件为研究设定，符合弱监督学习定义。"
+      }
+    ],
+    "abstentions": [
+      {
+        "keyword_id": "pseudo-label-self-training",
+        "reason_zh": "标题仅有 label learning，未说明模型预测被用作后续训练信号，无法确认伪标签或自训练。"
+      },
+      {
+        "keyword_id": "multi-objective-optimization",
+        "reason_zh": "game model 可能涉及博弈或多目标，但标题未说明帕累托多目标求解，证据不足。"
+      }
+    ],
+    "input_issues": []
+  }
+}

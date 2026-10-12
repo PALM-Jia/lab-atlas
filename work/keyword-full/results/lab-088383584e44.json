@@ -1,0 +1,19 @@
+{
+  "paper_id": "lab-088383584e44",
+  "annotations": [
+    {
+      "keyword_id": "partial-label-learning",
+      "exact_quote": "PEEK: Partial Label Learning Empowered by External Knowledge",
+      "evidence_field": "title",
+      "reason_zh": "标题直接指出研究任务为偏标记学习，即每个实例由候选标签集合监督、通常仅一个标签为真。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "PEEK: Partial Label Learning Empowered by External Knowledge",
+      "evidence_field": "title",
+      "reason_zh": "偏标记学习用候选标签集合替代唯一真值，属于候选歧义式不精确监督，标题将其作为研究问题。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

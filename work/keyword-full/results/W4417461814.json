@@ -1,0 +1,13 @@
+{
+  "paper_id": "W4417461814",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "Ensemble clustering has become a widely used technique for improving robustness and accuracy by combining multiple clustering results.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出公平集成聚类方法，融合多个基聚类结果以形成共识划分，符合集成聚类定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

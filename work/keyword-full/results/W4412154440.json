@@ -1,0 +1,19 @@
+{
+  "paper_id": "W4412154440",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "Multi-label learning aims to exploit label correlation for prediction.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以多标记预测为研究任务，并利用标签相关性，符合多标记学习定义。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "we learn operator-valued kernels from multi-label dataset to achieve finer-grained characterization of label correlation",
+      "evidence_field": "abstract",
+      "reason_zh": "论文通过从多标记数据学习算子值核来更细粒度刻画标签相关性，显式建模标签间相关结构。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

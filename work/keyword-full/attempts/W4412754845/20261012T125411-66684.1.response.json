@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W4412754845\",\"annotations\":[{\"keyword_id\":\"label-distribution-learning\",\"exact_quote\":\"Label distribution learning quantifies the label space for each instance\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要首句明确以标记分布学习为研究任务，量化每个实例的标签空间。\"},{\"keyword_id\":\"label-correlation-modeling\",\"exact_quote\":\"instance correlation and label correlation are identified by an optimization function and Pearson correlation coefficient, respectively.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确提出通过Pearson相关系数识别标签相关性并纳入所提方法，属于显式标签相关性建模。\"}],\"abstentions\":[{\"keyword_id\":\"graph-structure-learning\",\"reason_zh\":\"摘要仅称用优化函数识别实例相关性，未说明学习或修正样本间的边、邻接或亲和矩阵，机制证据不足。\"}],\"input_issues\":[]}"
+}

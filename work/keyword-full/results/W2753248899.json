@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2753248899",
+  "annotations": [
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "Joint sparse representation (JSR) has been a popular technique for hyperspectral image classification, where a testing pixel and its spatial neighbors are simultaneously approximated by a sparse linear combination of all training samples",
+      "evidence_field": "abstract",
+      "reason_zh": "论文核心方法是联合稀疏表示，用训练样本的稀疏线性组合逼近测试像素及其空间邻居，满足稀疏表示定义且为实质方案。"
+    },
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral Image Classification",
+      "evidence_field": "title",
+      "reason_zh": "标题明确研究对象为高光谱图像分类，满足高光谱图像应用对象定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

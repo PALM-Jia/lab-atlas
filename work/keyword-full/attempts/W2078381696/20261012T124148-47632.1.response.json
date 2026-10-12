@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2078381696\",\"annotations\":[{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"Adopting a Bayesian approach and using Gaussian priors\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确采用贝叶斯方法和Gaussian先验进行稀疏模型学习，属于通过先验与概率模型进行贝叶斯推断/学习。\"},{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"the learned model by RSFM is sparse in both sample and feature domains\",\"evidence_field\":\"abstract\",\"reason_zh\":\"模型在样本域和特征域均稀疏，通过选择相关样本与相关特征以少量基/特征表达并分类，符合稀疏表示。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

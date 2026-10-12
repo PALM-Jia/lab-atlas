@@ -1,0 +1,13 @@
+{
+  "paper_id": "lab-9004d11ae525",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "Superpixel segmentation aims at grouping discretizing pixels into high-level correlative units",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以超像素分割为核心任务，将像素分组为高层相关单元，属于图像分割中的超像素分割。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

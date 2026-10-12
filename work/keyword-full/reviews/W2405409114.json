@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2405409114",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "semi-supervised-learning",
+      "reason_zh": "摘要明确实际展示所提方法在半监督聚类中的应用，属于实质采用的半监督设定，不只是一般背景。",
+      "exact_quote": "Application examples of the proposed method in factor recovery, semi-supervised clustering, and multilingual text analysis are demonstrated.",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "semi-supervised-learning",
+        "exact_quote": "Application examples of the proposed method in factor recovery, semi-supervised clustering, and multilingual text analysis are demonstrated.",
+        "evidence_field": "abstract",
+        "reason_zh": "摘要明确实际展示所提方法在半监督聚类中的应用，属于实质采用的半监督设定，不只是一般背景。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

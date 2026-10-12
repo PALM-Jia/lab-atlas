@@ -1,0 +1,204 @@
+{
+  "papers": [
+    {
+      "paper_id": "W1968886642",
+      "title": "Sparse Bayesian extreme learning machine and its application to biofuel engine performance prediction",
+      "abstract": null
+    },
+    {
+      "paper_id": "W1968970305",
+      "title": "Semi-Supervised Nonnegative Matrix Factorization via Constraint Propagation",
+      "abstract": "As is well known, nonnegative matrix factorization (NMF) is a popular nonnegative dimensionality reduction method which has been widely used in computer vision, document clustering, and image analysis. However, traditional NMF is an unsupervised learning mode which cannot fully utilize the priori or supervised information. To this end, semi-supervised NMF methods have been proposed by incorporating the given supervised information. Nevertheless, when little supervised information is available, the improved performance will be limited. To effectively utilize the limited supervised information, this paper proposed a novel semi-supervised NMF method (CPSNMF) with pairwise constraints. The method propagates both the must-link and cannot-link constraints from the constrained samples to unconstrained samples, so that we can get the constraint information of the entire data set. Then, this information is reflected to the adjustment of data weight matrix. Finally, the weight matrix is incorporated as a regularization term to the NMF objective function. Therefore, the proposed method can fully utilize the constraint information to keep the geometry of the data distribution. Furthermore, the proposed CPSNMF is explored with two formulations and corresponding update rules are provided to solve the optimization problems. Thorough experiments on standard databases show the superior performance of the proposed method."
+    },
+    {
+      "paper_id": "W1969014310",
+      "title": "Constrained Clustering and Its Application to Face Clustering in Videos",
+      "abstract": "In this paper, we focus on face clustering in videos. Given the detected faces from real-world videos, we partition all faces into K disjoint clusters. Different from clustering on a collection of facial images, the faces from videos are organized as face tracks and the frame index of each face is also provided. As a result, many pair wise constraints between faces can be easily obtained from the temporal and spatial knowledge of the face tracks. These constraints can be effectively incorporated into a generative clustering model based on the Hidden Markov Random Fields (HMRFs). Within the HMRF model, the pair wise constraints are augmented by label-level and constraint-level local smoothness to guide the clustering process. The parameters for both the unary and the pair wise potential functions are learned by the simulated field algorithm, and the weights of constraints can be easily adjusted. We further introduce an efficient clustering framework specially for face clustering in videos, considering that faces in adjacent frames of the same face track are very similar. The framework is applicable to other clustering algorithms to significantly reduce the computational cost. Experiments on two face data sets from real-world videos demonstrate the significantly improved performance of our algorithm over state-of-the art algorithms."
+    },
+    {
+      "paper_id": "W1969395855",
+      "title": "Fusing Multiple Independent Estimates via Spectral Clustering for Robust Visual Tracking",
+      "abstract": "One fundamental problem of object tracking is the convergence of estimates to local maxima not corresponding to target objects. To mitigate this problem, constructing a good posterior distribution of the target state is important. In this letter, we propose a robust tracking approach by building a new posterior distribution model from multiple independent estimates of a target state. For each candidate of the target state, we compute a confidence score based on its spatial consistency with other estimates and photometric similarities with target models. Our posterior distribution model reflects tracking uncertainties well and adaptively defines the search region for the next frame. We validate the robustness of our approach on a number of challenging datasets."
+    },
+    {
+      "paper_id": "W1969698720",
+      "title": "Fast and Accurate Matrix Completion via Truncated Nuclear Norm Regularization",
+      "abstract": "Recovering a large matrix from a small subset of its entries is a challenging problem arising in many real applications, such as image inpainting and recommender systems. Many existing approaches formulate this problem as a general low-rank matrix approximation problem. Since the rank operator is nonconvex and discontinuous, most of the recent theoretical studies use the nuclear norm as a convex relaxation. One major limitation of the existing approaches based on nuclear norm minimization is that all the singular values are simultaneously minimized, and thus the rank may not be well approximated in practice. In this paper, we propose to achieve a better approximation to the rank of matrix by truncated nuclear norm, which is given by the nuclear norm subtracted by the sum of the largest few singular values. In addition, we develop a novel matrix completion algorithm by minimizing the Truncated Nuclear Norm. We further develop three efficient iterative procedures, TNNR-ADMM, TNNR-APGL, and TNNR-ADMMAP, to solve the optimization problem. TNNR-ADMM utilizes the alternating direction method of multipliers (ADMM), while TNNR-AGPL applies the accelerated proximal gradient line search method (APGL) for the final optimization. For TNNR-ADMMAP, we make use of an adaptive penalty according to a novel update rule for ADMM to achieve a faster convergence rate. Our empirical study shows encouraging results of the proposed algorithms in comparison to the state-of-the-art matrix completion algorithms on both synthetic and real visual datasets."
+    },
+    {
+      "paper_id": "W1969954882",
+      "title": "Learning Low-Rank Label Correlations for Multi-label Classification with Missing Labels",
+      "abstract": "Multi-label learning deals with the problem where each training example is associated with a set of labels simultaneously, with the set of labels corresponding to multiple concepts or semantic meanings. Intuitively, the multiple labels are usually correlated in some semantic space while sharing the same input space. As a consequence, the multi-label learning process can be augmented significantly by exploiting the label correlations effectively. Most of the existing approaches share the limitations in that the label correlations are typically taken as prior knowledge, which may not depict the true dependencies among labels correctly, or they do not adequately address the issue of missing labels. In this paper, we propose an integrated framework that learns the correlations among labels while training the multi-label model simultaneously. Specifically, a low rank structure is adopted to capture the complex correlations among labels. In addition, we incorporate a supplementary label matrix which augments the possibly incomplete label matrix by exploiting the label correlations. An alternating algorithm is then developed to solve the optimization problem. Extensive experiments are conducted on a number of image and text data sets to demonstrate the effectiveness of the proposed approach."
+    },
+    {
+      "paper_id": "W1970099214",
+      "title": "Anomaly detection from hyperspectral imagery",
+      "abstract": "We develop anomaly detectors, i.e., detectors that do not presuppose a signature model of one or more dimensions, for three clutter models: the local normal model, the global normal mixture model, and the global linear mixture model. The local normal model treats the neighborhood of a pixel as having a normal probability distribution. The normal mixture model considers the observation from each pixel as arising from one of several possible classes such that each class has a normal probability distribution. The linear mixture model considers each observation to be a linear combination of fixed spectra, known as endmembers, that are, or may be, associated with materials in the scene, and the coefficients, interpreted as fractional abundance, are constrained to be nonnegative and sum to one. We show how the generalized likelihood ratio test (GLRT) may be used to derive anomaly detectors for the local normal and global normal mixture models. The anomaly detector applied with the linear mixture approach proceeds by identifying target like endmembers based on properties of the histogram of the abundance estimates and employing a matched filter in the space of abundance estimates. To overcome the limitations of the individual models, we develop a joint decision logic, based on a maximum entropy probability model and the GLRT, that utilizes multiple decision statistics, and we apply this approach using the detection statistics derived from the three clutter models. Examples demonstrate that the joint decision logic can improve detection performance in comparison with the individual anomaly detectors. We also describe the application of linear prediction filters to repeated images of the same area to detect changes that occur within the scene over time."
+    },
+    {
+      "paper_id": "W1971014006",
+      "title": "The Analysis of Image Contrast: From Quality Assessment to Automatic Enhancement",
+      "abstract": "Proper contrast change can improve the perceptual quality of most images, but it has largely been overlooked in the current research of image quality assessment (IQA). To fill this void, we in this paper first report a new large dedicated contrast-changed image database (CCID2014), which includes 655 images and associated subjective ratings recorded from 22 inexperienced observers. We then present a novel reduced-reference image quality metric for contrast change (RIQMC) using phase congruency and statistics information of the image histogram. Validation of the proposed model is conducted on contrast related CCID2014, TID2008, CSIQ and TID2013 databases, and results justify the superiority and efficiency of RIQMC over a majority of classical and state-of-the-art IQA methods. Furthermore, we combine aforesaid subjective and objective assessments to derive the RIQMC based Optimal HIstogram Mapping (ROHIM) for automatic contrast enhancement, which is shown to outperform recently developed enhancement technologies."
+    },
+    {
+      "paper_id": "W1971421925",
+      "title": "Community structure in social and biological networks",
+      "abstract": "A number of recent studies have focused on the statistical properties of networked systems such as social networks and the Worldwide Web. Researchers have concentrated particularly on a few properties that seem to be common to many networks: the small-world property, power-law degree distributions, and network transitivity. In this article, we highlight another property that is found in many networks, the property of community structure, in which network nodes are joined together in tightly knit groups, between which there are only looser connections. We propose a method for detecting such communities, built around the idea of using centrality indices to find community boundaries. We test our method on computer-generated and real-world graphs whose community structure is already known and find that the method detects this known structure with high sensitivity and reliability. We also apply the method to two networks whose community structure is not well known--a collaboration network and a food web--and find that it detects significant and informative community divisions in both cases."
+    },
+    {
+      "paper_id": "W1971454348",
+      "title": "Efficient monte carlo optimization for multi-label classifier chains",
+      "abstract": "Multi-label classification (MLC) is the supervised learning problem where an instance may be associated with multiple labels. Modeling dependencies between labels allows MLC methods to improve their performance at the expense of an increased computational cost. In this paper we focus on the classifier chains (CC) approach for modeling dependencies. On the one hand, the original CC algorithm makes a greedy approximation, and is fast but tends to propagate errors down the chain. On the other hand, a recent Bayes-optimal method improves the performance, but is computationally intractable in practice. Here we present a novel double-Monte Carlo scheme (M2CC), both for finding a good chain sequence and performing efficient inference. The M2CC algorithm remains tractable for high-dimensional data sets and obtains the best overall accuracy, as shown on several real data sets with input dimension as high as 1449 and up to 103 labels."
+    },
+    {
+      "paper_id": "W1971729008",
+      "title": "Multiresolution community detection for megascale networks by information-based replica correlations",
+      "abstract": "We use a Potts model community detection algorithm to accurately and quantitatively evaluate the hierarchical or multiresolution structure of a graph. Our multiresolution algorithm calculates correlations among multiple copies (\"replicas\") of the same graph over a range of resolutions. Significant multiresolution structures are identified by strongly correlated replicas. The average normalized mutual information, the variation in information, and other measures, in principle, give a quantitative estimate of the \"best\" resolutions and indicate the relative strength of the structures in the graph. Because the method is based on information comparisons, it can, in principle, be used with any community detection model that can examine multiple resolutions. Our approach may be extended to other optimization problems. As a local measure, our Potts model avoids the \"resolution limit\" that affects other popular models. With this model, our community detection algorithm has an accuracy that ranks among the best of currently available methods. Using it, we can examine graphs over 40 x10;{6} nodes and more than 1 x10;{9} edges. We further report that the multiresolution variant of our algorithm can solve systems of at least 200 000 nodes and 10 x 10;{6} edges on a single processor with exceptionally high accuracy. For typical cases, we find a superlinear scaling O(L1.3) for community detection and O(L1.3 log N) for the multiresolution algorithm, where L is the number of edges and N is the number of nodes in the system."
+    },
+    {
+      "paper_id": "W1971891445",
+      "title": "Spatial-Spectral Kernel Sparse Representation for Hyperspectral Image Classification",
+      "abstract": "Kernel sparse representation classification (KSRC), a nonlinear extension of sparse representation classification, shows its good performance for hyperspectral image classification. However, KSRC only considers the spectra of unordered pixels, without incorporating information on the spatially adjacent data. This paper proposes a neighboring filtering kernel to spatial-spectral kernel sparse representation for enhanced classification of hyperspectral images. The novelty of this work consists in: 1) presenting a framework of spatial-spectral KSRC; and 2) measuring the spatial similarity by means of neighborhood filtering in the kernel feature space. Experiments on several hyperspectral images demonstrate the effectiveness of the presented method, and the proposed neighboring filtering kernel outperforms the existing spatial-spectral kernels. In addition, the proposed spatial-spectral KSRC opens a wide field for future developments in which filtering methods can be easily incorporated."
+    },
+    {
+      "paper_id": "W1971967146",
+      "title": "Estimation of flow and density using probe vehicles with spacing measurement equipment",
+      "abstract": null
+    },
+    {
+      "paper_id": "W1972174659",
+      "title": "Text Clustering via Constrained Nonnegative Matrix Factorization",
+      "abstract": "Semi-supervised nonnegative matrix factorization (NMF)receives more and more attention in text mining field. The semi-supervised NMF methods can be divided into two types, one is based on the explicit category labels, the other is based on the pair wise constraints including must-link and cannot-link. As it is hard to obtain the category labels in some tasks, the latter one is more widely used in real applications. To date, all the constrained NMF methods treat the must-link and cannot-link constraints in a same way. However, these two kinds of constraints play different roles in NMF clustering. Thus a novel constrained NMF method is proposed in this paper. In the new method, must-link constraints are used to control the distance of the data in the compressed form, and cannot-ink constraints are used to control the encoding factor. Experimental results on real-world text data sets have shown the good performance of the proposed method."
+    },
+    {
+      "paper_id": "W1972490990",
+      "title": "Multilabel dimensionality reduction via dependence maximization",
+      "abstract": "Multilabel learning deals with data associated with multiple labels simultaneously. Like other data mining and machine learning tasks, multilabel learning also suffers from thecurse of dimensionality. Dimensionality reduction has been studied for many years, however, multilabel dimensionality reduction remains almost untouched. In this article, we propose a multilabel dimensionality reduction method, MDDM, with two kinds of projection strategies, attempting to project the original data into a lower-dimensional feature space maximizing the dependence between the original feature description and the associated class labels. Based on the Hilbert-Schmidt Independence Criterion, we derive a eigen-decomposition problem which enables the dimensionality reduction process to be efficient. Experiments validate the performance of MDDM."
+    },
+    {
+      "paper_id": "W1973178976",
+      "title": "Active Semi-Supervised Community Detection Based on Must-Link and Cannot-Link Constraints",
+      "abstract": "Community structure detection is of great importance because it can help in discovering the relationship between the function and the topology structure of a network. Many community detection algorithms have been proposed, but how to incorporate the prior knowledge in the detection process remains a challenging problem. In this paper, we propose a semi-supervised community detection algorithm, which makes full utilization of the must-link and cannot-link constraints to guide the process of community detection and thereby extracts high-quality community structures from networks. To acquire the high-quality must-link and cannot-link constraints, we also propose a semi-supervised component generation algorithm based on active learning, which actively selects nodes with maximum utility for the proposed semi-supervised community detection algorithm step by step, and then generates the must-link and cannot-link constraints by accessing a noiseless oracle. Extensive experiments were carried out, and the experimental results show that the introduction of active learning into the problem of community detection makes a success. Our proposed method can extract high-quality community structures from networks, and significantly outperforms other comparison methods."
+    },
+    {
+      "paper_id": "W1973326769",
+      "title": "The One-Hidden Layer Non-parametric Bayesian Kernel Machine",
+      "abstract": "In this paper, we present a nonparametric Bayesian approach towards one-hidden-layer feed forward neural networks. Our approach is based on a random selection of the weights of the synapses between the input and the hidden layer neurons, and a Bayesian marginalization over the weights of the connections between the hidden layer neurons and the output neurons, giving rise to a kernel-based nonparametric Bayesian inference procedure for feed forward neural networks. Compared to existing approaches, our method presents a number of advantages, with the most significant being: (i) it offers a significant improvement in terms of the obtained generalization capabilities, (ii) being a nonparametric Bayesian learning approach, it entails inference instead of fitting to data, thus resolving the over fitting issues of non-Bayesian approaches, and (iii) it yields a full predictive posterior distribution, thus naturally providing a measure of uncertainty on the generated predictions (expressed by means of the variance of the predictive distribution), without the need of applying computationally intensive methods, e.g., bootstrap. We exhibit the merits of our approach by investigating its application to two difficult multimedia content classification applications: semantic characterization of audio scenes based on content, and yearly song classification, as well as a set of benchmark classification and regression tasks."
+    },
+    {
+      "paper_id": "W1973650920",
+      "title": "Fast cross-validation algorithms for least squares support vector machine and kernel ridge regression",
+      "abstract": null
+    },
+    {
+      "paper_id": "W1973880112",
+      "title": "Fuzzy c-means clustering with spatial information for image segmentation",
+      "abstract": null
+    },
+    {
+      "paper_id": "W1973880717",
+      "title": "Flexible and Robust Multi-Network Clustering",
+      "abstract": "Integrating multiple graphs (or networks) has been shown to be a promising approach to improve the graph clustering accuracy. Various multi-view and multi-domain graph clustering methods have recently been developed to integrate multiple networks. In these methods, a network is treated as a view or domain.The key assumption is that there is a common clustering structure shared across all views (domains), and different views (domains) provide compatible and complementary information on this underlying clustering structure. However, in many emerging real-life applications, different networks have different data distributions, where the assumption that all networks share a single common clustering structure does not hold. In this paper, we propose a flexible and robust framework that allows multiple underlying clustering structures across different networks. Our method models the domain similarity as a network, which can be utilized to regularize the clustering structures in different networks. We refer to such a data model as a network of networks (NoN). We develop NoNClus, a novel method based on non-negative matrix factorization (NMF), to cluster an NoN. We provide rigorous theoretical analysis of NoNClus in terms of its correctness, convergence and complexity. Extensive experimental results on synthetic and real-life datasets show the effectiveness of our method."
+    },
+    {
+      "paper_id": "W1974042113",
+      "title": "RASL: Robust Alignment by Sparse and Low-Rank Decomposition for Linearly Correlated Images",
+      "abstract": "This paper studies the problem of simultaneously aligning a batch of linearly correlated images despite gross corruption (such as occlusion). Our method seeks an optimal set of image domain transformations such that the matrix of transformed images can be decomposed as the sum of a sparse matrix of errors and a low-rank matrix of recovered aligned images. We reduce this extremely challenging optimization problem to a sequence of convex programs that minimize the sum of l1-norm and nuclear norm of the two component matrices, which can be efficiently solved by scalable convex optimization techniques. We verify the efficacy of the proposed robust alignment algorithm with extensive experiments on both controlled and uncontrolled real data, demonstrating higher accuracy and efficiency than existing methods over a wide range of realistic misalignments and corruptions."
+    },
+    {
+      "paper_id": "W1974387747",
+      "title": "Sense beauty via face, dressing, and/or voice",
+      "abstract": "Discovering the secret of beauty has been the pursuit of artists and philosophers for centuries. Nowadays, the computational model for beauty estimation has been actively explored in computer science community, yet with the focus mainly on facial features. In this work, we perform a comprehensive study of female attractiveness conveyed by single/multiple modalities of cues, i.e., face, dressing and/or voice, and aim to uncover how different modalities individually and collectively affect the human sense of beauty. To this end, we collect the first Multi-Modality Beauty (M2B) dataset in the world for female attractiveness study, which is thoroughly annotated with attractiveness levels converted from manual k-wise ratings and semantic attributes of different modalities. A novel Dual-supervised Feature-Attribute-Task (DFAT) network is proposed to jointly learn the beauty estimation models of single/multiple modalities as well as the attribute estimation models. The DFAT network differentiates itself by its supervision in both attribute and task layers. Several interesting beauty-sense observations over single/multiple modalities are reported, and the extensive experimental evaluations on the collected M2B dataset well demonstrate the effectiveness of the proposed DFAT network for female attractiveness estimation."
+    },
+    {
+      "paper_id": "W1974451338",
+      "title": "Image clustering by hyper-graph regularized non-negative matrix factorization",
+      "abstract": null
+    },
+    {
+      "paper_id": "W1974528911",
+      "title": "Application of relevance vector machine and logistic regression for machine degradation assessment",
+      "abstract": null
+    },
+    {
+      "paper_id": "W1974596106",
+      "title": "Ambiguously Labeled Learning Using Dictionaries",
+      "abstract": "We propose a dictionary-based learning method for ambiguously labeled multiclass classification, where each training sample has multiple labels and only one of them is the correct label. The dictionary learning problem is solved using an iterative alternating algorithm. At each iteration of the algorithm, two alternating steps are performed: 1) a confidence update and 2) a dictionary update. The confidence of each sample is defined as the probability distribution on its ambiguous labels. The dictionaries are updated using either soft or hard decision rules. Furthermore, using the kernel methods, we make the dictionary learning framework nonlinear based on the soft decision rule. Extensive evaluations on four unconstrained face recognition datasets demonstrate that the proposed method performs significantly better than state-of-the-art ambiguously labeled learning approaches."
+    },
+    {
+      "paper_id": "W1974774078",
+      "title": "Algorithms for simultaneous sparse approximation. Part I: Greedy pursuit",
+      "abstract": null
+    },
+    {
+      "paper_id": "W1975172027",
+      "title": "On a Theorem of Weyl Concerning Eigenvalues of Linear Transformations I",
+      "abstract": "11 No attempt was made to detect autosomal recessives.12 The F2 progenies derived from X YY males and C1B females were examined micro- scopically in order to eliminate the possibility that patroclinous sons resulting from secondary non-disjunction might mask a lethal.13 Breeding tests were conducted on all flies showing conspicuous, symmetrical altera- tions in phenotype, and such changes were scored as mutants even in those cases where inviability or sterility prevented actual progeny counts.14 It should be noted that it was not possible to compare the recessive lethal rates in the two kinds of sperm (X and X Y) from X YY males, as was possible in the case of visibles."
+    },
+    {
+      "paper_id": "W1975283078",
+      "title": "Cellular stress and RNA splicing",
+      "abstract": null
+    },
+    {
+      "paper_id": "W1976033797",
+      "title": "An Improvement of Kernel-Based Object Tracking Based on Human Perception",
+      "abstract": "The objective of the paper is to embed perception rules into the kernel-based target tracking algorithm and to evaluate to what extent these rules are able to improve the original tracking algorithm, without any additional computational cost. To this aim, the target is represented through features that are related to its visual appearance; then, it is tracked in subsequent frames using a metric that, again, correlates well with the human visual perception (HVP). The use of HVP rules are twofold advantageous: it allows us to both increase tracking efficacy and considerably reduce the computational cost of the tracking process-thanks to the reduced size of the perceptual feature space. Various tests on video sequences have shown the stability and the robustness of the proposed framework, also in the presence of both other moving objects and partial or complete target occlusion in a limited number of subsequent frames."
+    },
+    {
+      "paper_id": "W1977556410",
+      "title": "Algorithm AS 136: A K-Means Clustering Algorithm",
+      "abstract": null
+    },
+    {
+      "paper_id": "W1977713568",
+      "title": "Overlapping Community Detection in Networks: the State of the Art and Comparative Study",
+      "abstract": "This paper reviews the state of the art in overlapping community detection algorithms, quality measures, and benchmarks. A thorough comparison of different algorithms (a total of fourteen) is provided. In addition to community level evaluation, we propose a framework for evaluating algorithms' ability to detect overlapping nodes, which helps to assess over-detection and under-detection. After considering community level detection performance measured by Normalized Mutual Information, the Omega index, and node level detection performance measured by F-score, we reached the following conclusions. For low overlapping density networks, SLPA, OSLOM, Game and COPRA offer better performance than the other tested algorithms. For networks with high overlapping density and high overlapping diversity, both SLPA and Game provide relatively stable performance. However, test results also suggest that the detection in such networks is still not yet fully resolved. A common feature observed by various algorithms in real-world networks is the relatively small fraction of overlapping nodes (typically less than 30%), each of which belongs to only 2 or 3 communities."
+    },
+    {
+      "paper_id": "W1977949977",
+      "title": "Hyperspectral Image Analysis in Environmental Monitoring: Setup of a New Tunable Filter Platform",
+      "abstract": "Nowadays, acquisition and analysis of hyperspectral images represent a new frontier among environmental monitoring techniques. Tunable filters and spectrometers, coupled to appropriate sensors, can be used to acquire the spectral information of large areas (more than 10 km2) with great accuracy. The analysis of hyperspectral images provides the spatial distribution (maps) of terrain physical and ecological characteristics. The maps are created by processing the fraction of the incident solar radiation reflected by each object located on the terrain as a function of the wavelength. This feature is known as to “spectral signature”. The aim of the research conducted at DICEA - Sapienza University of Rome is to test the applicability and potentiality of these novel instrumentations to applications in natural and artificial systems. In particular, the environmental status of the region crossed by the Sacco river (Latium, Italy) was investigated by analyzing the spectral response given by tree samples located upstream and downstream an industrial area interested by assessed contamination episodes. Data acquired were synthesized in two reflectance indices related to the chlorophyll content: the normalized difference vegetation index and a modified version. The acquisition campaigns described here have helped the set-up and improvement of the hyperspectral image system based on the use of tunable interference filters. Reflectance values and indices suggest tree samples located upstream the contaminated area are ‘healthier’ than those downstream."
+    },
+    {
+      "paper_id": "W1978479866",
+      "title": "Saliency-Aware Video Compression",
+      "abstract": "In region-of-interest (ROI)-based video coding, ROI parts of the frame are encoded with higher quality than non-ROI parts. At low bit rates, such encoding may produce attention-grabbing coding artifacts, which may draw viewer's attention away from ROI, thereby degrading visual quality. In this paper, we present a saliency-aware video compression method for ROI-based video coding. The proposed method aims at reducing salient coding artifacts in non-ROI parts of the frame in order to keep user's attention on ROI. Further, the method allows saliency to increase in high quality parts of the frame, and allows saliency to reduce in non-ROI parts. Experimental results indicate that the proposed method is able to improve visual quality of encoded video relative to conventional rate distortion optimized video coding, as well as two state-of-the art perceptual video coding methods."
+    },
+    {
+      "paper_id": "W1979089718",
+      "title": "Clustering and projected clustering with adaptive neighbors",
+      "abstract": "Many clustering methods partition the data groups based on the input data similarity matrix. Thus, the clustering results highly depend on the data similarity learning. Because the similarity measurement and data clustering are often conducted in two separated steps, the learned data similarity may not be the optimal one for data clustering and lead to the suboptimal results. In this paper, we propose a novel clustering model to learn the data similarity matrix and clustering structure simultaneously. Our new model learns the data similarity matrix by assigning the adaptive and optimal neighbors for each data point based on the local distances. Meanwhile, the new rank constraint is imposed to the Laplacian matrix of the data similarity matrix, such that the connected components in the resulted similarity matrix are exactly equal to the cluster number. We derive an efficient algorithm to optimize the proposed challenging problem, and show the theoretical analysis on the connections between our method and the K-means clustering, and spectral clustering. We also further extend the new clustering model for the projected clustering to handle the high-dimensional data. Extensive empirical results on both synthetic data and real-world benchmark data sets show that our new clustering methods consistently outperforms the related clustering approaches."
+    },
+    {
+      "paper_id": "W1979646154",
+      "title": "Missing traffic data: comparison of imputation methods",
+      "abstract": "Many traffic management and control applications require highly complete and accurate data of traffic flow. However, because of various reasons such as sensor failure or transmission error, it is common that some traffic flow data are lost. As a result, various methods were proposed by using a wide spectrum of techniques to estimate missing traffic data in the last two decades. Generally, these missing data imputation methods can be categorised into three kinds: prediction methods, interpolation methods and statistical learning methods. To assess their performance, these methods are compared from different aspects in this paper, including reconstruction errors, statistical behaviours and running speeds. Results show that statistical learning methods are more effective than the other two kinds of imputation methods when data of a single detector is utilised. Among various methods, the probabilistic principal component analysis (PPCA) yields best performance in all aspects. Numerical tests demonstrate that PPCA can be used to impute data online before making further analysis (e.g. make traffic prediction) and is robust to weather changes."
+    },
+    {
+      "paper_id": "W1979896859",
+      "title": "Online multiple instance gradient feature selection for robust visual tracking",
+      "abstract": null
+    },
+    {
+      "paper_id": "W1980677368",
+      "title": "Parallel numerical linear algebra",
+      "abstract": "We survey general techniques and open problems in numerical linear algebra on parallel architectures. We first discuss basic principles of paralled processing, describing the costs of basic operations on parallel machines, including general principles for constructing efficient algorithms. We illustrate these principles using current architectures and software systems, and by showing how one would implement matrix multiplication. Then, we present direct and iterative algorithms for solving linear systems of equations, linear least squares problems, the symmetric eigenvalue problem, the nonsymmetric eigenvalue problem, and the singular value decomposition. We consider dense, band and sparse matrices."
+    },
+    {
+      "paper_id": "W1981458038",
+      "title": "Low rank subspace clustering (LRSC)",
+      "abstract": null
+    },
+    {
+      "paper_id": "W1983069960",
+      "title": "Label propagation based semi-supervised non-negative matrix factorization for feature extraction",
+      "abstract": null
+    },
+    {
+      "paper_id": "W1983320747",
+      "title": "Semi-Supervised Learning (Chapelle, O. et al., Eds.; 2006) [Book reviews]",
+      "abstract": "This book addresses some theoretical aspects of semisupervised learning (SSL). The book is organized as a collection of different contributions of authors who are experts on this topic. The objectives of this book are to present a large overview of the SSL methods and to classify these methods into four classes that correspond to the first four main parts of the book (this would include generative models; low-density separation methods; graph-based methods; and algorithms). The last two parts are devoted to applications and perspectives of SSL. The book responds to its major objectives and could serve as a basis for an intermediate level graduate course on SSL. It may also serve as a useful self study and reference source for practicing engineers."
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2384646165\",\"annotations\":[{\"keyword_id\":\"classifier-ensemble\",\"exact_quote\":\"An AdaBoost-based extreme learning machine was presented.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要提出基于 AdaBoost 的极端学习机分类方法；AdaBoost 属于通过调整样本权重组合基分类器完成分类的集成方法，符合分类器集成这一方法维度。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

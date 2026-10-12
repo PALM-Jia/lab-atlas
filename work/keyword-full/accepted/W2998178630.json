@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2998178630",
+  "annotations": [
+    {
+      "keyword_id": "bayesian-inference",
+      "exact_quote": "Then, we use a Dirichlet process based mixture, that is useful for handling proportional data such as our soft-assignment vectors, to determine if an action is normal or not.",
+      "evidence_field": "abstract",
+      "reason_zh": "使用 Dirichlet 过程混合模型对软分配比例数据建模并判定正常/异常，属于基于先验与概率模型的后验/近似推断。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-neural-networks",
+      "reason_zh": "摘要提及姿态图和图嵌入，但未说明使用图卷积或图上可学习消息传递，无法确认是否为图神经网络。"
+    },
+    {
+      "keyword_id": "class-imbalance",
+      "reason_zh": "摘要提到粗粒度数据集中正常动作少、其他动作异常，但未说明显式处理类别或簇样本量不均衡，无法判定。"
+    },
+    {
+      "keyword_id": "deep-clustering",
+      "reason_zh": "摘要说明图嵌入后聚类，但未交代神经表示或神经聚类头，无法确定深度聚类。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,26 @@
+{
+  "verdict": "revise",
+  "patch": {
+    "upsert_annotations": [],
+    "input_issues": [],
+    "abstentions": [
+      {
+        "reason_zh": "仅说明深层矩阵分解与层次语义，未给出神经表示或神经聚类头证据，无法确认满足深度聚类定义。",
+        "keyword_id": "deep-clustering"
+      }
+    ],
+    "remove_ids": [
+      "deep-clustering"
+    ]
+  },
+  "issues": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "semi-nonnegative matrix factorization is adopted to learn the hierarchical semantics of multi-view data in a layer-wise fashion.",
+      "evidence_field": "abstract",
+      "kind": "unsupported_evidence",
+      "reason_zh": "原文明确采用逐层半非负矩阵分解，但未说明可学习神经表示或神经聚类头；层次矩阵分解本身不足以满足词表的深度聚类定义。"
+    }
+  ],
+  "paper_id": "W2605146283"
+}

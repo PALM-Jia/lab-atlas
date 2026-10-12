@@ -1,0 +1,20 @@
+{
+  "paper_id": "W2153320597",
+  "annotations": [
+    {
+      "keyword_id": "subspace-clustering",
+      "exact_quote": "A Unified Framework for Representation-Based Subspace Clustering of Out-of-Sample and Large-Scale Data",
+      "evidence_field": "title",
+      "reason_zh": "标题明确研究基于表示的子空间聚类，摘要进一步说明其面向样本外与大规模数据聚类；符合按潜在子空间分组的研究任务。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "sparse-representation",
+      "reason_zh": "摘要开头截断，仅见'-norm-based representation'，无法确认是否为稀疏表示且是否为本篇实质机制。"
+    }
+  ],
+  "input_issues": [
+    "摘要开头疑似截断，起始文本为'-norm-based representation'，缺少前文内容。"
+  ]
+}

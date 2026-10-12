@@ -1,0 +1,28 @@
+{
+  "paper_id": "W2145725490",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "A variant of nonnegative matrix factorization (NMF) which was proposed earlier is analyzed here.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确论文分析非负矩阵分解（NMF）的变体PNMF，属于非负因子分解矩阵这一核心方法。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "into a positive low-rank matrix and its transpose",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明将投影矩阵近似分解为正的低秩矩阵及其转置，显式采用矩阵低秩分解/近似表示相关结构。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "dimensionality-reduction",
+      "reason_zh": "摘要提到投影矩阵与低秩分解，但未明确将低维映射或维度压缩作为研究目标；仅凭低秩分解不足以确认满足降维任务定义。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "reason_zh": "摘要仅指出推导揭示重建与稀疏性之间的关系，未说明以少量字典原子、基向量或潜在特征表达样本，证据不足。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2029517229",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "Multilabel learning has become a relevant learning paradigm",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确指出本文介绍多标记学习范式及其主要贡献，属于多标记学习任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

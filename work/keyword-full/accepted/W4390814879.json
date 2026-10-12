@@ -1,0 +1,30 @@
+{
+  "paper_id": "W4390814879",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral Image Classification",
+      "evidence_field": "title",
+      "reason_zh": "标题和摘要明确以高光谱图像分类为任务，高光谱图像是直接处理的数据对象。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "global and local data structures are maintained by low-rank and sparsity constraints",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明用低秩约束维持全局与局部数据结构，属于显式低秩建模。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "Low-Rank and Sparse Representation With Discriminative Incremental Dictionary",
+      "evidence_field": "title",
+      "reason_zh": "标题表明核心方法为稀疏表示，并结合判别增量字典原子，满足稀疏表示定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "subspace-clustering",
+      "reason_zh": "摘要仅提到subspace segmentation性能/能力，但论文任务为高光谱分类，未明确按潜在子空间对样本分组或聚类，定义证据不足。"
+    }
+  ],
+  "input_issues": []
+}

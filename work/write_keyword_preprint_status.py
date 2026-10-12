@@ -1,0 +1,39 @@
+import json
+from pathlib import Path
+
+root = Path(__file__).resolve().parent.parent
+missing = json.loads((root / 'outputs/paper-atlas/keyword-missing.json').read_text(encoding='utf8'))['missing']
+ids = ['lab-bb2d463fb71a', 'lab-088383584e44', 'lab-a07279b34373', 'lab-3af81cff7068', 'lab-8ef4decb9b26', 'lab-7af4622bbcc3', 'lab-cafae06c3f4f', 'lab-60280e69a6e3']
+rows = []
+for p in missing:
+    if p['id'] not in ids:
+        continue
+    rows.append({'id': p['id'], 'title': p['title'], 'classification': '主页明确 Preprint，仅标题', 'detail': '贾育衡个人论文页将此条目放在 Preprint 区，未列作者、年份、投稿场所或论文链接。缺关键词首先是尚无可确认的公开论文身份和文本，而非 ICLR 早年无 DOI。', 'verified_sources': [{'url': 'https://jyh-learning.github.io/papers.html', 'fact': 'Preprint 区列出该题名；该条目只有标题。'}], 'checked_date': '2026-10-10', 'keyword_remedy': '暂可用标题提取关键词，标注“标题提取”；不能当作论文作者关键词或 OpenAlex keywords。'})
+byid = {p['id']: p for p in rows}
+p = byid['lab-bb2d463fb71a']
+p['classification'] = '主页 Preprint；2026-10-06 刚公开的改题候选'
+p['detail'] += ' 另查到 arXiv:2610.07903，题名为 Unsupervised Long-Tailed Adaptation of Vision-Language Models，作者含 Yuheng Jia，2026-10-06 首次公开。主页条目没有作者或链接，尚无两题版本对应证据，不能直接把候选关键词归给原条目。'
+p['verified_sources'].append({'url': 'https://arxiv.org/abs/2610.07903', 'fact': 'v1 于 2026-10-06 提交；作者 Keliang Chen、Yaxin Hou、Hui Liu、Yuheng Jia；题名与主页不同。'})
+p['keyword_remedy'] = '原条目先用标题提取；若后续主页更新链接确认改题，可用该公开版本摘要提取并标注来源。'
+p = byid['lab-a07279b34373']
+p['classification'] = '主页 Preprint；2026-10-06 刚公开的改题候选'
+p['detail'] = '个人主页 Preprint 区题名为 Homeomorphic Latent Space，未列作者、年份或链接。arXiv:2610.07610 使用 Uniform Latent Space，作者 Li Yuan、Yaxin Hou、Jiawei Tang、Yongbiao Gao、Yuheng Jia，v1 于 2026-10-06 提交。arXiv 只有 v1；其 HTML 未出现 Homeomorphic，缺少原题和新题的版本对应记录。新候选确实刚公开，但原条目身份仍不能凭相似题名归并。'
+p['verified_sources'] += [{'url': 'https://arxiv.org/abs/2610.07610', 'fact': 'Uniform 题名；v1 2026-10-06；作者包括 Yuheng Jia。'}, {'url': 'https://arxiv.org/html/2610.07610v1', 'fact': 'HTML 题名为 Uniform；全文查 Homeomorphic 无匹配。'}]
+p['keyword_remedy'] = '先保留原题的标题关键词；候选摘要可读，身份确认后即可摘要提取，不必等待 OpenAlex 收录。'
+p = byid['lab-8ef4decb9b26']
+p['classification'] = '主页 Preprint，仅标题；原主页也有拼写错误'
+p['detail'] += ' 个人主页原题确实写 Hyerspectral，不是采集时误写；Hyerspectral 与 Hyperspectral 两种标题查询均未找到带作者或公开论文链接的原文页。拼写错误可能影响检索，但不能作为唯一缺失原因。'
+p['verified_sources'][0]['fact'] += ' 原文拼写确为 Hyerspectral。'
+p = byid['lab-cafae06c3f4f']
+p['classification'] = 'TRB 2024 会议条目；作者主页支持与 TITS 2024 正式版的版本关联'
+p['detail'] = '不是 ICLR 或 2026 新论文。贾育衡主页列为 TRB 2024、State 题名。第一作者 Yang He 主页将完全相同的 State 题名及同一六人作者顺序同时列在 TRB 2024、WTC 2024 和 TITS 2024；TITS 的 Code 链接指向 TW-LSMC 仓库，仓库说明正式论文为 Speed 题名。因此原先仅因与另一实验室 TITS 条目共享候选 ID 就拒绝关联过严：已有作者主页支持会议到期刊的关联，缺的是会议原文而不是完全无法识别研究。'
+p['verified_sources'] = [{'url': 'https://jyh-learning.github.io/papers.html', 'fact': 'Conference Papers 区列 State/TRB 2024；Journal Papers 区另列 Speed/TITS 2024，25(11):16193–16206。'}, {'url': 'https://heyang49.github.io/publications/', 'fact': 'State 题名在 Featured T-ITS 2024、WTC2024、TRB2024 三处列出；六名作者一致。Featured T-ITS 的 Code 链接指向 TW-LSMC。'}, {'url': 'https://github.com/heyang49/TW-LSMC', 'fact': '第一作者代码仓库明确其已接收 TITS 正式论文题名为 Speed。'}, {'url': 'https://arxiv.org/html/2411.05842v1', 'fact': '公开期刊版本为 Speed；Index Terms 明确列 Traffic state estimation、kinematic wave theory、low-rank representation、vehicle trajectory data。'}]
+p['keyword_remedy'] = '会议节点和期刊节点分别保留，先建立“会议—期刊版本关联”。可从对应期刊公开 HTML 补取上述作者关键词，来源明确标注“关联期刊版本关键词”，不直接冒称会议原文关键词。'
+p['related_public_version'] = {'title': 'Efficient and Robust Freeway Traffic Speed Estimation under Oblique Grid using Vehicle Trajectory Data', 'doi': '10.1109/TITS.2024.3422246', 'arxiv': '2411.05842', 'relation': 'author_homepage_supported_conference_journal', 'author_keywords': ['Traffic state estimation', 'kinematic wave theory', 'low-rank representation', 'vehicle trajectory data']}
+p = byid['lab-60280e69a6e3']
+p['classification'] = '作者官方主页确认 TRB 2024 会议；无会议正文链接'
+p['detail'] = '不是 ICLR 或 2026 新论文。贾育衡主页明确列 TRB 2024；第一作者胡里阳的北京工业大学教师主页成果[15]也列完整题名及 The 103rd Annual Meeting of TRB, 2024，确认发表状态。该条目没有 DOI、论文页或正文链接，无法补取会议原文关键词。教师主页另列 TITS 2024 的 A flexible and robust tensor completion approach...，但没有声明它是本会议论文的期刊版；两题作者列表也不同：会议含 Dongjie Liu、Jianke Cheng，期刊含 Longhui Wen。不能直接复用后者关键词。'
+p['verified_sources'] = [{'url': 'https://jyh-learning.github.io/papers.html', 'fact': '列六名作者及 TRB Annual Meeting 2024；无论文链接。另一期刊条目的题名、完整作者列表不同。'}, {'url': 'https://cmt.bjut.edu.cn/info/1125/1799.htm', 'fact': '第一作者胡里阳官方教师页成果[15]明确该题名、103rd TRB Annual Meeting 2024；无正文链接。[3]另列 TITS 2024，不声明与[15]为同一版本。'}, {'url': 'https://research.chalmers.se/en/person/liyangh', 'fact': '官方作者页只有三项2025成果，未提供该TRB2024条目或正文。'}]
+p['keyword_remedy'] = '发表状态已核实；先使用标题提取并标注来源。继续按完整题名查询 TRB 原文或作者公开稿，不能用另篇 TITS 关键词兜底。'
+(root / 'work/keyword-status-preprint.json').write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding='utf8')
+print(len(rows), 'records written')

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2950579627\",\"annotations\":[{\"keyword_id\":\"subspace-clustering\",\"exact_quote\":\"Robust Subspace Clustering With Compressed Data\",\"evidence_field\":\"title\",\"reason_zh\":\"标题直接表明研究任务是带压缩数据的鲁棒子空间聚类；摘要进一步说明在压缩数据上获得正确聚类结果。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

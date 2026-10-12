@@ -1,0 +1,31 @@
+{
+  "paper_id": "lab-fc69e7eb5613",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "Semi-supervised learning faces significant challenges in realistic scenarios where labeled data is scarce and unlabeled data follows unknown, arbitrary distributions.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以有限标注和未知分布未标注数据为设定，并形式化为Universal Semi-supervised Learning。"
+    },
+    {
+      "keyword_id": "pseudo-label-self-training",
+      "exact_quote": "Finally, we introduce a weighting strategy based on distribution-agnostic metrics to prioritize reliable pseudo-labels and an auxiliary branch to isolate potentially erroneous pseudo-labels.",
+      "evidence_field": "abstract",
+      "reason_zh": "将伪标签作为训练信号，通过权重筛选可靠伪标签并用辅助分支隔离错误伪标签。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "we propose Simplex Anchored Graph-state Equipartition (SAGE), which captures high-order inter-sample dependencies to establish structural consensus for guiding representation learning.",
+      "evidence_field": "abstract",
+      "reason_zh": "SAGE捕获高阶样本间依赖并建立结构共识，学习或推断样本间结构关系以引导表示学习。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "which captures high-order inter-sample dependencies to establish structural consensus for guiding representation learning.",
+      "evidence_field": "abstract",
+      "reason_zh": "以高阶样本间依赖形成的结构共识约束表示学习，体现图结构一致性正则化。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,24 @@
+{
+  "paper_id": "W1973178976",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "we propose a semi-supervised community detection algorithm, which makes full utilization of the must-link and cannot-link constraints to guide the process of community detection",
+      "evidence_field": "abstract",
+      "reason_zh": "明确提出半监督社区检测算法，利用must-link与cannot-link成对约束作为有限监督指导全部节点的社区划分，符合半监督学习设定。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "we propose a semi-supervised community detection algorithm, which makes full utilization of the must-link and cannot-link constraints to guide the process of community detection",
+      "evidence_field": "abstract",
+      "reason_zh": "有限标注或成对约束构成不完整监督，并作为本文实质研究设定；词表中弱监督与半监督没有父子关系，应补充弱监督标签。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "reason_zh": "摘要仅说明利用must-link与cannot-link约束指导社区检测，未说明对成对约束进行传播或扩展，无法确认满足传播定义。"
+    }
+  ],
+  "input_issues": []
+}

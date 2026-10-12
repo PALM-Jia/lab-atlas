@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2767854248",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "incomplete data recovery",
+      "evidence_field": "title",
+      "reason_zh": "标题明确将不完整数据恢复作为研究任务，输出为恢复后的交通速度数据，符合数据补全与恢复定义。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "SVD-combined tensor decomposition",
+      "evidence_field": "title",
+      "reason_zh": "标题明确采用 SVD 与张量分解组合，属于显式矩阵/张量分解与低秩近似表示相关结构的方法。"
+    },
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "traffic speed",
+      "evidence_field": "title",
+      "reason_zh": "研究对象为交通速度这一实际道路交通时空状态数据，符合交通数据对象定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

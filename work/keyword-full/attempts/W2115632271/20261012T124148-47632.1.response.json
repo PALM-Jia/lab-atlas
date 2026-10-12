@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2115632271\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"based on the matrix factorization approach, we propose a method called bounded nonnegative matrix tri-factorization (BNMTF)\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以非负矩阵三因子分解BNMTF为核心方法，用非负因子分解网络矩阵，明确满足非负矩阵分解定义。\"}],\"abstentions\":[{\"keyword_id\":\"low-rank-modeling\",\"reason_zh\":\"仅提及矩阵三因子分解，未显式给出低秩约束或低秩近似目标，不能仅由非负矩阵分解推断低秩建模。\"}],\"input_issues\":[]}"
+}

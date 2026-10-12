@@ -1,0 +1,13 @@
+{
+  "paper_id": "W4386783335",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "Ensemble clustering via fusing global and local structure information",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以集成聚类为研究任务，通过融合信息获得共识聚类划分。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

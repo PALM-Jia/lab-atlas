@@ -1,0 +1,24 @@
+{
+  "paper_id": "W2018990310",
+  "annotations": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "nonconvex log det ( X) as a smooth surrogate function for the rank instead of the convex nuclear norm",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出用非凸log det作为秩的平滑替代，显式进行低秩约束/近似表示，属于低秩建模。"
+    },
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "exact reconstruction of a signal from a small number of random measurements",
+      "evidence_field": "abstract",
+      "reason_zh": "论文目标是从少量随机测量中精确重建原始信号/图像，输出为恢复后的数据，属于数据补全与恢复任务。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "sparse-representation",
+      "reason_zh": "摘要提及稀疏与结构稀疏，但未说明以字典原子、基向量或潜在稀疏特征表达样本的具体稀疏表示机制；所提方法为低秩正则化，无法确定其属于稀疏表示。"
+    }
+  ],
+  "input_issues": []
+}

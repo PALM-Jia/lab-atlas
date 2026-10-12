@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2153959628",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "reason_zh": "摘要只讨论网络节点分类与推理算法，未说明利用未标注样本或有限监督信息指导学习，无法确定半监督设定。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "摘要未说明学习或修正节点间边、邻接或亲和矩阵，仅将网络数据用于节点分类。"
+    },
+    {
+      "keyword_id": "classifier-ensemble",
+      "reason_zh": "摘要只介绍并经验比较四种推理算法，未说明结合多个分类器预测进行集成。"
+    }
+  ],
+  "input_issues": []
+}

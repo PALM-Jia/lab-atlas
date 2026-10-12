@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2037984690",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "data-imputation-recovery",
+      "reason_zh": "将部分观测的相似度矩阵补全，显式估计缺失矩阵元素，数据补全是聚类方案的实质组成。",
+      "exact_quote": "It then deploys the matrix completion algorithm to complete the similarity matrix.",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "data-imputation-recovery",
+        "exact_quote": "It then deploys the matrix completion algorithm to complete the similarity matrix.",
+        "evidence_field": "abstract",
+        "reason_zh": "将部分观测的相似度矩阵补全，显式估计缺失矩阵元素，数据补全是聚类方案的实质组成。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2137393925\",\"annotations\":[{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"In Bayesian analysis the Markov chain Monte Carlo method is used to solve the posterior integration problem in high dimension.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文采用贝叶斯方法估计SARIMA参数，并用MCMC求解高维后验积分，满足通过先验与概率模型进行后验估计或近似推断的定义。\"},{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"short-term traffic flow forecasting\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文面向短时交通流预测，并使用实际路口交通流量时间序列数据，属于交通数据对象。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

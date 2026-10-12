@@ -1,0 +1,1 @@
+{"sample_id":"S05","annotations":[],"abstentions":[{"keyword_id":"nonnegative-matrix-factorization","reason_zh":"方案明确施加非负约束，但未描述用非负因子分解矩阵，不能据此认定非负矩阵分解。"},{"keyword_id":"graph-manifold-regularization","reason_zh":"判别正则化用于避免过拟合，但摘要未说明以邻域、图拉普拉斯或流形结构施加几何一致性约束。"}]}

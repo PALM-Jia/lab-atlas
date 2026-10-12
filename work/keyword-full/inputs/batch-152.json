@@ -1,0 +1,54 @@
+{
+  "papers": [
+    {
+      "paper_id": "W4392138506",
+      "title": "A game model for semi-supervised subspace clustering with dynamic affinity and label learning",
+      "abstract": null
+    },
+    {
+      "paper_id": "W4392236925",
+      "title": "UISS-Net: Underwater Image Semantic Segmentation Network for improving boundary segmentation accuracy of underwater images",
+      "abstract": "Image semantic segmentation is widely used in aquatic product measurement, aquatic biological cell segmentation, and aquatic biological classifications. However, underwater image segmentation has low accuracy and poor robustness because of turbid underwater environments and insufficient light. Therefore, this paper proposes an Underwater Image Semantic Segmentation Network (UISS-Net) for underwater scenes. Firstly, the backbone network uses an auxiliary feature extraction network to improve the extraction of semantic features for the backbone network. Secondly, the channel attention mechanism enhances the vital attention information during feature fusion. Then, multi-stage feature input up-sampling is used to recover better semantic features in the network during up-sampling. Finally, the cross-entropy loss function and dice loss function are used to focus on the boundary semantic information of the target. The experimental results show that the network effectively improves the boundary of the target object after segmentation, avoids aliasing with other classes of pixels, improves the segmentation accuracy of the target boundary, and retains more feature information. The mean intersection over union (mIoU) and mPA of UISS-Net in the semantic Segmentation of Underwater IMagery (SUIM) dataset achieve 72.09% and 80.37%, respectively, 9.68% and 7.63% higher than the baseline model. In the Deep Fish dataset, UISS-Net achieved 95.05% mIoU, 12.3% higher than the traditional model."
+    },
+    {
+      "paper_id": "W4392729077",
+      "title": "Semi-supervised nonnegative matrix factorization with label propagation and constraint propagation",
+      "abstract": null
+    },
+    {
+      "paper_id": "W4392903067",
+      "title": "Adaptive Gaussian Regularization Constrained Sparse Subspace Clustering for Image Segmentation",
+      "abstract": "Sparse Subspace Clustering (SSC) is integral to image processing, drawing from spectral clustering foundations. However, prevalent methods, relying on an l1-norm constraint, fail to capture nuanced inter-region correlations, affecting segmentation efficacy. To remedy this, we introduce an Adaptive Gaussian Regularization Constrained SSC for enhanced image segmentation. This method begins with superpixel preprocessing to enrich local information. Given the Gaussian nature of the SSC’s sparse coefficient matrix, a Gaussian probability density function is infused as a regularization term, reinforcing regional image ties and facilitating similarity matrix creation. Using spectral clustering, we then define superpixel clusters leading to the final segmentation. When tested against the BSDS500 and SBD datasets and other leading algorithms, our model showcases marked improvements in natural image segmentation."
+    },
+    {
+      "paper_id": "W4393058164",
+      "title": "The rise of nonnegative matrix factorization: Algorithms and applications",
+      "abstract": null
+    },
+    {
+      "paper_id": "W4393157113",
+      "title": "Enhancing Ensemble Clustering with Adaptive High-Order Topological Weights",
+      "abstract": "Ensemble clustering learns more accurate consensus results from a set of weak base clustering results. This technique is more challenging than other clustering algorithms due to the base clustering result set's randomness and the inaccessibility of data features. Existing ensemble clustering methods rely on the Co-association (CA) matrix quality but lack the capability to handle missing connections in base clustering. Inspired by the neighborhood high-order and topological similarity theories, this paper proposes a topological ensemble model based on high-order information. Specifically, this paper compensates for missing connections by mining neighborhood high-order connection information in the CA matrix and learning optimal connections with adaptive weights. Afterward, the learned excellent connections are embedded into topology learning to capture the topology of the base clustering. Finally, we incorporate adaptive high-order connection representation and topology learning into a unified learning framework. To our knowledge, this is the first ensemble clustering work based on topological similarity and high-order connectivity relations. Extensive experiments on multiple datasets demonstrate the effectiveness of the proposed method. The source code of the proposed approach is available at https://github.com/ltyong/awec."
+    },
+    {
+      "paper_id": "W4393186105",
+      "title": "Multi-View Super Resolution for Underwater Images Utilizing Atmospheric Light Scattering Model",
+      "abstract": "The underwater environment is complex and the underwater light propagation undergoes absorption, scattering and reflection. This leads to the fact that the underwater light imaging cannot be generalized from land-based. How to use these imaging features to work better with super-resolution tasks for underwater imagery applications is still rarely studied. In this paper, we introduce the medium transmission (MT) maps to advance super-resolution tasks for underwater images. A multi-view network is designed to fuse information from the original underwater images and the MT maps, which provides information on the underlying physical properties of the water, such as the attenuation coefficients in different parts of water. By integrating information from multiple views, the proposed network can capture more of the underlying structure and features of the scene, leading to higher-quality super-resolved images. Besides, a new loss function, namely MT Loss, is developed according to the lack of details in special region of the underwater images. This loss function emphasizes the regions with less influence from the underwater environment during the underwater imaging process and therefore the network outputs a more detailed image. Finally, we compare our algorithm with state-of-the-art methods, and extensive results show that our network achieves better qualitative and quantitative performance."
+    },
+    {
+      "paper_id": "W4393186146",
+      "title": "LDVNet: Lightweight and Detail-Aware Vision Network for Image Recognition Tasks in Resource-Constrained Environments",
+      "abstract": "In many underwater application scenarios, recognition tasks need to be executed promptly on computationally limited platforms. However, models designed for this field often exhibit spatial locality, and existing works lack the ability to capture crucial details in images. Therefore, a lightweight and detail-aware vision network (LDVNet) for resource-constrained environments is proposed to overcome the limitations of these approaches. Firstly, in order to enhance the accuracy of target image recognition, we introduce transformer modules to acquire global information, thus addressing the issue of spatial locality inherent in traditional convolutional neural networks (CNNs). Secondly, to maintain the network’s lightweight nature, we integrate the transformer module with convolutional operations, thereby mitigating the substantial parameter and floating point operations (FLOPs) overhead. Thirdly, for the efficient extraction of crucial fine-grained details from feature maps, we have devised a channel and spatial attention module (C&SA). This module aids in recognizing intricate and fine-grained visual tasks and enhances image understanding. It is seamlessly integrated into LDVNet with nearly negligible parameter overhead. The experimental results demonstrate that LDVNet outperforms other lightweight networks and hybrid networks in different recognition tasks, while being suitable for resource-constrained environments."
+    },
+    {
+      "paper_id": "W4394769928",
+      "title": "Adaptive weighted ensemble clustering via kernel learning and local information preservation",
+      "abstract": null
+    },
+    {
+      "paper_id": "W4394862701",
+      "title": "SDAC-DA: Semi-Supervised Deep Attributed Clustering Using Dual Autoencoder",
+      "abstract": "Attributed graph clustering aims to group nodes into disjoint categories using deep learning to represent node embeddings and has shown promising performance across various applications. However, two main challenges hinder further performance improvement. Firstly, reliance on unsupervised methods impedes the learning of low-dimensional, clustering-specific features in the representation layer, thus impacting clustering performance. Secondly, the predominant use of separate approaches leads to suboptimal learned embeddings that are insufficient for subsequent clustering steps. To address these limitations, we propose a novel method called Semi-supervised Deep Attributed Clustering using Dual Autoencoder (SDAC-DA). This approach enables semi-supervised deep end-to-end clustering in attributed networks, promoting high structural cohesiveness and attribute homogeneity. SDAC-DA transforms the attribute network into a dual-view network, applies a semi-supervised autoencoder layering approach to each view, and integrates dimensionality reduction matrices by considering complementary views. The resulting representation layer contains high clustering-friendly embeddings, which are optimized through a unified end-to-end clustering process for effectively identifying clusters. Extensive experiments on both synthetic and real networks demonstrate the superiority of our proposed method over seven state-of-the-art approaches."
+    }
+  ]
+}

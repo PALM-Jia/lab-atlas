@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W1581034630\",\"annotations\":[{\"keyword_id\":\"weakly-supervised-learning\",\"exact_quote\":\"The multiple-instance learning model has received much attention recently\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要以多示例学习模型为研究对象，监督信息为包级标签而非实例级标签，属于以粗粒度/不完整监督替代实例级真值的弱监督学习。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

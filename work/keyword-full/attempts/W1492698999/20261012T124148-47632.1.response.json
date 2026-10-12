@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W1492698999\",\"annotations\":[{\"keyword_id\":\"weakly-supervised-learning\",\"exact_quote\":\"the problem of supervised multiple-instance learning\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要将监督式多示例学习作为要解决的研究问题；对象由多个替代配置/实例表示，监督不提供充分实例级真值，属于包级不完整监督的弱监督设定。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

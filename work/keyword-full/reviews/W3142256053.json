@@ -1,0 +1,26 @@
+{
+  "paper_id": "W3142256053",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_positive",
+      "keyword_id": "multi-label-learning",
+      "reason_zh": "本文学习标签偏好排序及偏好分布，未描述预测单实例可同时成立的多个相关标签；仅凭multilabel ranking不能将排序任务等同于词表中的多标记分类。",
+      "exact_quote": "IPDL generates a common preference distribution that is most compatible to all the personal rankings, and then learns a mapping from the instances to the preference distributions.",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "multi-label-learning"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "multi-label-learning",
+        "reason_zh": "文本仅说明标签排序及偏好分布学习，未说明多个标签同时成立的预测任务，无法确认多标记学习。"
+      }
+    ],
+    "input_issues": []
+  }
+}

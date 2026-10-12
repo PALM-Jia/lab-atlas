@@ -1,0 +1,13 @@
+{
+  "paper_id": "W136278976",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "we develop a semi-supervised spin-glass model that enables current community detection methods to incorporate background knowledge in the forms of individual labels and pairwise constraints.",
+      "evidence_field": "abstract",
+      "reason_zh": "提出半监督自旋玻璃模型，利用个体标签与成对约束等有限监督信息，符合结合有限监督与未标注样本的半监督学习定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

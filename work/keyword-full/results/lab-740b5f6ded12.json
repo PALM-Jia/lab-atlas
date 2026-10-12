@@ -1,0 +1,31 @@
+{
+  "paper_id": "lab-740b5f6ded12",
+  "annotations": [
+    {
+      "keyword_id": "partial-label-learning",
+      "exact_quote": "In partial label learning (PLL), each sample is annotated with a group of candidate labels, among which only one label is correct.",
+      "evidence_field": "abstract",
+      "reason_zh": "明确研究偏标记学习设定：每个样本有候选标签集合且仅一个正确。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "In partial label learning (PLL), each sample is annotated with a group of candidate labels, among which only one label is correct.",
+      "evidence_field": "abstract",
+      "reason_zh": "候选标签集合仅一个正确，属于不精确/不完整监督，论文以该弱监督条件为实质研究问题。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "we propose a novel graph construction model that is tailored to PLL.",
+      "evidence_field": "abstract",
+      "reason_zh": "提出面向PLL的图构建模型，学习样本相似/不相似关系并修正相似矩阵，属于图结构学习。"
+    },
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "exact_quote": "we design a dissimilarity matrix to specify the highly dissimilar samples according to the available partial labels, and further enhance it by dissimilarity propagation.",
+      "evidence_field": "abstract",
+      "reason_zh": "利用偏标签指定高度不相似样本并做不相似关系传播，属于扩展/只传播不相似成对约束。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

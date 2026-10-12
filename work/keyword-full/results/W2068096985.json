@@ -1,0 +1,15 @@
+{
+  "paper_id": "W2068096985",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "adversarial-robustness",
+      "reason_zh": "摘要讨论社区结构对随机因素和错误边的鲁棒性，但未涉及刻意构造的对抗攻击或对抗扰动，定义不满足。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "摘要涉及复杂网络与社区结构，但未学习或修正样本间边、邻接或亲和矩阵，仅度量社区结构鲁棒性。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,210 @@
+人员归一分类名单
+范围：已收集的144篇实验室论文。201个归一人员条目；Hao Chen两条记录单独待确认，人数最终为202或203。
+6组姓名变体已合并；Xiaoyu Wang按Monash与SEU分列。分类按用户标注：已毕业作者14人（另有黄驰、何沐尚无对应署名）、在读名册30人（当前论文作者中18人），其余为其他。
+
+编号	姓名／身份区分	论文数	原始姓名变体	分类	备注
+1	Yuheng Jia	138	Yuheng Jia	其他	
+2	Junhui Hou	50	Junhui Hou	其他	
+3	Hui Liu	39	Hui Liu / Hui LIU	其他	
+4	Sam Kwong	28	Sam Kwong	其他	
+5	Ran Wang	21	Ran Wang	其他	
+6	Wenhui Wu	14	Wenhui Wu	其他	
+7	Zhiqiang Kou	14	Zhiqiang Kou	已毕业学生	
+8	Xin Geng	13	Xin Geng	其他	
+9	Yaxin Hou	11	Yaxin Hou	在读学生	
+10	Jing Wang	10	Jing Wang / Jingq Wang	其他	
+11	Bo Han	9	Bo Han	在读学生	东南大学计算机学院，hanbo@seu.edu.cn；不与HKBU同名作者合并。
+12	Qingfu Zhang	9	Qingfu Zhang	其他	
+13	Shujun Yang	7	Shujun Yang	其他	
+14	Fuchao Yang	6	Fuchao Yang	已毕业学生	
+15	Haiyun Guo	6	Haiyun Guo	其他	
+16	Jiawei Tang	6	Jiawei Tang	在读学生	
+17	Zhihao Peng	6	Zhihao Peng	其他	
+18	Zhuoming Li	6	Zhuoming Li	在读学生	
+19	Jiahao Jiang	5	Jiahao Jiang	已毕业学生	
+20	Ming-Kun Xie	5	Ming-Kun Xie / Mingkun Xie	其他	
+21	Wei Gao	5	Wei Gao	已毕业学生	
+22	Xiaoyu Wang	5	Xiaoyu Wang	在读学生	DiCaP：东南软件学院，wang_xy@seu.edu.cn；CuMA：东南计算机学院，结合单位与合作关系归一；其余3篇仅署名，归入实验室多标签合作组。
+23	Xu Zhang	5	Xu Zhang / Zhang, Xu	已毕业学生	
+24	Zhixin Li	5	Zhixin Li	在读学生	
+25	Chengchuan An	4	Chengchuan An	其他	
+26	Chongjie Si	4	Chongjie Si	已毕业学生	
+27	Hua Li	4	Hua Li	其他	
+28	Jinqiao Wang	4	Jinqiao Wang	其他	
+29	Min-Ling Zhang	4	Min-Ling Zhang	其他	
+30	Yang He	4	Yang He	其他	
+31	Yongqiang Dong	4	Yongqiang Dong	其他	
+32	Zhenglin Hua	4	Zhenglin Hua	在读学生	
+33	Biao Liu	3	Biao Liu	其他	
+34	Di Jiang	3	Di Jiang	其他	
+35	Hailin Wang	3	Hailin Wang	其他	
+36	Hanyang Li	3	Hanyang Li	已毕业学生	
+37	Haoye Qiu	3	Haoye Qiu	在读学生	
+38	Jinghan He	3	Jinghan He	其他	
+39	Jingxin Xia	3	Jingxin Xia	其他	
+40	Jun Ma	3	Jun Ma	在读学生	
+41	Junfeng Fang	3	Junfeng Fang	其他	
+42	Qian Du	3	Qian Du	其他	
+43	Runmin Cong	3	Runmin Cong	其他	
+44	Shaohui Mei	3	Shaohui Mei	其他	
+45	Wing W. Y. Ng	3	Wing W. Y. Ng	其他	
+46	Xizhao Wang	3	Xizhao Wang	其他	
+47	Yutong Xie	3	Yutong Xie	在读学生	
+48	Zhengxing Jiao	3	Zhengxing Jiao	在读学生	
+49	Changwei Wang	2	Changwei Wang	其他	
+50	Chuanbo Chen	2	Chuanbo Chen	其他	
+51	Debby D. Wang	2	Debby D. Wang	其他	
+52	Ding Ding	2	Ding Ding	其他	
+53	Dong-Dong Wu	2	Dong-Dong Wu	其他	
+54	Hanlin Gu	2	Hanlin Gu	其他	
+55	Jiachao Liu	2	Jiachao Liu / Jiaochao Liu	其他	
+56	Jianhan Qi	2	Jianhan Qi	已毕业学生	
+57	Jianhong Cheng	2	Jianhong Cheng	已毕业学生	
+58	Jianhui Lv	2	Jianhui Lv	其他	
+59	Junxiang Wu	2	Junxiang Wu	其他	
+60	Junyang Chen	2	Junyang Chen	其他	
+61	Liyang Hu	2	Liyang Hu	其他	
+62	Masashi Sugiyama	2	Masashi Sugiyama	其他	
+63	Meng Hu	2	Meng Hu	其他	
+64	Muqing Liu	2	Muqing Liu	其他	
+65	Qirui Lin	2	Qirui Lin	已毕业学生	
+66	Shiqi Wang	2	Shiqi Wang	其他	
+67	Shuo Chen	2	Shuo Chen	其他	
+68	Si Qin	2	Si Qin	在读学生	
+69	Tat‐Seng Chua	2	Tat‐Seng Chua	其他	
+70	Tongliang Liu	2	Tongliang Liu	其他	
+71	Weijie Chen	2	Weijie Chen	其他	
+72	Wenke Huang	2	Wenke Huang	其他	
+73	Wenlong Lyu	2	Wenlong Lyu	在读学生	
+74	Xiaorui Peng	2	Xiaorui Peng	已毕业学生	
+75	Xinlei Zhou	2	Xinlei Zhou	其他	
+76	Yang Liu	2	Yang Liu / Yang Liu (4829)	其他	
+77	Yao Ding	2	Yao Ding	其他	
+78	Yongheng Wang	2	Yongheng Wang	其他	
+79	Yu Zhou	2	Yu Zhou	其他	
+80	Yuhang Li	2	Yuhang Li	已毕业学生	
+81	Zhenbo Lu	2	Zhenbo Lu	其他	东南大学交通中心，luzhenbo@seu.edu.cn；不与Zhenyu Lu合并。
+82	Zhirui Ye	2	Zhirui Ye	其他	
+83	Zhuying Li	2	Zhuying Li	其他	
+84	Ao Sun	1	Ao Sun	其他	
+85	Boyu Shi	1	Boyu Shi	其他	
+86	Chaoyang Zhao	1	Chaoyang Zhao	其他	
+87	Chen Li	1	Chen Li	其他	
+88	ChenWei He	1	ChenWei He	其他	
+89	Chi Zhang	1	Chi Zhang	其他	
+90	Chongxiao Qu	1	Chongxiao Qu	其他	
+91	Danfeng Hong	1	Danfeng Hong	其他	
+92	Dengyong Zhang	1	Dengyong Zhang	其他	
+93	Dongjie Liu	1	Dongjie Liu	其他	
+94	Erliang Lin	1	Erliang Lin	其他	
+95	Feng Li	1	Feng Li	其他	
+96	Fengmin Su	1	Fengmin Su	其他	
+97	Fuyi Li	1	Fuyi Li	其他	
+98	Guanliang Chen	1	Guanliang Chen	其他	
+99	Guanxing Lu	1	Guanxing Lu	其他	
+100	Haojie Pu	1	Haojie Pu	其他	
+101	Haokai Ma	1	Haokai Ma	其他	
+102	Haopeng Ke	1	Haopeng Ke	其他	
+103	Haoyuan Xuan	1	Haoyuan Xuan	其他	
+104	Hongfei Fan	1	Hongfei Fan	其他	
+105	Hongwei Zeng	1	Hongwei Zeng	其他	
+106	Hongyan An	1	Hongyan An	其他	
+107	Horace H. S. Ip	1	Horace H. S. Ip	其他	
+108	Huan Liu	1	Huan Liu	其他	
+109	Jia Zhang	1	Jia Zhang	其他	
+110	Jiachen Zhu	1	Jiachen Zhu	其他	
+111	Jianan Li	1	Jianan Li	其他	
+112	Jiangning Song	1	Jiangning Song	其他	
+113	Jianke Cheng	1	Jianke Cheng	其他	
+114	Jiao Zhang	1	Jiao Zhang	其他	
+115	Jie Li	1	Jie Li	其他	
+116	Jie Wang	1	Jie Wang	其他	
+117	Jie Yu	1	Jie Yu	其他	
+118	Jiecheng Jiang	1	Jiecheng Jiang	其他	
+119	Jing Guo	1	Jing Guo	其他	
+120	Jingchao Cao	1	Jingchao Cao	其他	
+121	Jingcheng Duan	1	Jingcheng Duan	其他	
+122	Jingwei Fang	1	Jingwei Fang	在读学生	
+123	Jingyu Xiong	1	Jingyu Xiong	其他	
+124	Jingyu Zhu	1	Jingyu Zhu	其他	
+125	Jinzhu Peng	1	Jinzhu Peng	其他	
+126	Jueyu Chen	1	Jueyu Chen	其他	
+127	Jun Zhang	1	Jun Zhang	其他	
+128	Ka‐Chun Wong	1	Ka‐Chun Wong	其他	
+129	Kangning Cui	1	Kangning Cui	其他	
+130	Ke Li	1	Ke Li	其他	
+131	Ke Xia	1	Ke Xia	已毕业学生	
+132	Kuan Zhu	1	Kuan Zhu	其他	
+133	Lang Wu	1	Lang Wu	其他	
+134	Liangjian Cai	1	Liangjian Cai	其他	
+135	Lingxiang Wu	1	Lingxiang Wu	其他	
+136	Longhui Wen	1	Longhui Wen	其他	
+137	Mengyuan Wu	1	Mengyuan Wu	其他	
+138	Ming Tang	1	Ming Tang	其他	
+139	Mingyuan Xu	1	Mingyuan Xu	其他	
+140	Mofei Song	1	Mofei Song	其他	
+141	Qiang Yang	1	Qiang Yang	其他	
+142	Qinran Hu	1	Qinran Hu	其他	
+143	Renxiang Guan	1	Renxiang Guan	其他	
+144	Rihao Li	1	Rihao Li	其他	
+145	Seiya Imoto	1	Seiya Imoto	其他	
+146	Shi Xiao	1	Shi Xiao	其他	
+147	Shu Su	1	Shu Su	其他	
+148	Shuyue Chen	1	Shuyue Chen	其他	
+149	Simeng Zeng	1	Simeng Zeng	其他	
+150	Sirui Tao	1	Sirui Tao	其他	
+151	Taowei Wang	1	Taowei Wang	其他	
+152	Te Qi	1	Te Qi	已毕业学生	
+153	Tiantian Zhu	1	Tiantian Zhu	其他	
+154	Tianxu Han	1	Tianxu Han	其他	
+155	Tianyu Yang	1	Tianyu Yang	其他	
+156	Wantao Wen	1	Wantao Wen	其他	
+157	Wei Wang	1	Wei Wang	其他	
+158	Wei You	1	Wei You	其他	
+159	Weihua Zhang	1	Weihua Zhang	其他	
+160	Weijia Zhang	1	Weijia Zhang	其他	
+161	Weixuan Liang	1	Weixuan Liang	其他	
+162	Weizhen Wang	1	Weizhen Wang	其他	
+163	Wenwen He	1	Wenwen He	其他	
+164	Xiangdong Kong	1	Xiangdong Kong	其他	
+165	Xiangzhao Hao	1	Xiangzhao Hao	其他	
+166	Xiaobo Xia	1	Xiaobo Xia	其他	
+167	Xiaoyu Wang — Monash	1	Xiaoyu Wang	其他	Monash生物化学与分子生物学；ORCID 0000-0003-4444-6197；与东南作者分列。
+168	Xin Wu	1	Xin Wu	其他	
+169	Xin-Qiang Cai	1	Xin-Qiang Cai	其他	
+170	Xinfeng Zhang	1	Xinfeng Zhang	其他	
+171	Xinying Zhang	1	Xinying Zhang	其他	
+172	Xinyue Wang	1	Xinyue Wang	其他	
+173	Xu Wang	1	Xu Wang	其他	
+174	Yan Li	1	Yan Li	其他	
+175	Yandu Sun	1	Yandu Sun	在读学生	
+176	Yanghe Feng	1	Yanghe Feng	其他	
+177	Yanzheng Wang	1	Yanzheng Wang	在读学生	
+178	Yaodong Shen	1	Yaodong Shen	在读学生	
+179	Yemin Wang	1	Yemin Wang	其他	
+180	Yeqiang Wang	1	Yeqiang Wang	其他	
+181	Yijie Lin	1	Yijie Lin	其他	
+182	Yinuo Sun	1	Yinuo Sun	其他	
+183	Yongbiao Gao	1	Yongbiao Gao	其他	
+184	Yu Li	1	Yu Li	其他	
+185	Yu Mi	1	Yu Mi	其他	
+186	Yu Zhang	1	Yu Zhang	其他	
+187	Yucheng Xie	1	Yucheng Xie	其他	
+188	Yun Ding	1	Yun Ding	其他	
+189	Yunqing Jia	1	Yunqing Jia	其他	
+190	Yutong Li	1	Yutong Li	其他	
+191	Yuwen Deng	1	Yuwen Deng	其他	
+192	Yuxiang Ma	1	Yuxiang Ma	在读学生	
+193	Zexuan Zhu	1	Zexuan Zhu	其他	
+194	Zhe Tan	1	Zhe Tan	其他	
+195	Zhenyu Lu	1	Zhenyu Lu	其他	CVPR官方署名Zhenyu Lu；与交通作者Zhenbo Lu分列。
+196	Zhiqi Huang	1	Zhiqi Huang	其他	
+197	Zhitao Dai	1	Zhitao Dai	其他	
+198	Zhiyan Hou	1	Zhiyan Hou	其他	
+199	Zhuoya Liu	1	Zhuoya Liu	其他	
+200	Zicong Miao	1	Zicong Miao	其他	
+201	Zijun Yao	1	Zijun Yao	其他	
+
+待确认：以下两条Hao Chen是否同一人
+H1	Hao Chen	Individuals Matter: Improving Deep Multi-View Clustering via Explicit Single-View Enhancement	分类：其他	备注：
+H2	Hao Chen	Discovering Attention Head Interactions in Vision Transformers	分类：其他	备注：

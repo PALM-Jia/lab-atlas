@@ -1,0 +1,39 @@
+{
+  "paper_id": "W2938059573",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "abstention",
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "联合学习子空间结构并结合成对约束构造聚类相似度矩阵，明确学习样本亲和关系，已有证据足以支持图结构学习。",
+      "exact_quote": "We learn the subspace structure while simultaneously incorporating the pairwise constraints to construct a similarity matrix needed for clustering.",
+      "evidence_field": "abstract"
+    },
+    {
+      "kind": "abstention",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "以局部时间跟踪获得的成对关系指导人脸聚类而非完整实例身份真值，且传播初始约束以补充监督，属于不完整监督的实质设定；半监督与弱监督没有声明父子关系。",
+      "exact_quote": "pairwise sample constraints (must-link and cannot-link sample pairs) are available in the processing pipeline since detected faces can be tracked locally in time",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "graph-structure-learning",
+        "exact_quote": "We learn the subspace structure while simultaneously incorporating the pairwise constraints to construct a similarity matrix needed for clustering.",
+        "evidence_field": "abstract",
+        "reason_zh": "联合学习子空间结构并结合成对约束构造聚类相似度矩阵，明确学习样本亲和关系，已有证据足以支持图结构学习。"
+      },
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "pairwise sample constraints (must-link and cannot-link sample pairs) are available in the processing pipeline since detected faces can be tracked locally in time",
+        "evidence_field": "abstract",
+        "reason_zh": "以局部时间跟踪获得的成对关系指导人脸聚类而非完整实例身份真值，且传播初始约束以补充监督，属于不完整监督的实质设定；半监督与弱监督没有声明父子关系。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

@@ -1,0 +1,50 @@
+const fs=require('node:fs');const dir='outputs/paper-atlas/';
+let css=fs.readFileSync(dir+'workflow.css','utf8').replace('width:142px;background:#f7f8fb','width:112px;background:#f7f8fb').replace('left:14px;top:50%;transform:translateY(-50%);width:112px','left:12px;top:50%;transform:translateY(-50%);width:88px').replace('line-height:20px;text-align:left;font-weight:600','line-height:20px;text-align:center;font-weight:600').replace('pointer-events:stroke;cursor:help','pointer-events:stroke;cursor:pointer');fs.writeFileSync(dir+'workflow.css',css);
+let flow=fs.readFileSync(dir+'workflow-flow.js','utf8').replace('const left=142,gap=','const left=112,gap=');
+flow=flow.replace('data-flow-edge="${e.id}" d=', 'data-flow-edge="${e.id}" role="button" tabindex="0" aria-pressed="false" aria-label="${esc(e.fromNode.label)} → ${esc(e.toNode.label)}" d=');
+flow=flow.replace('n.process?`data-stage="${map.stages[n.stage].id}"`','n.process?`data-action="${n.id}"`');
+fs.writeFileSync(dir+'workflow-flow.js',flow);
+let js=fs.readFileSync(dir+'workflow.js','utf8');
+js=js.replace("if(kind==='info'&&!information.has(id))return;","if(kind==='info'&&!information.has(id))return;\n if(kind==='action'&&!flow.nodes.get(id)?.process)return;\n if(kind==='edge'&&!flow.edges.has(id))return;");
+js=js.replace("const matches=n=>kind==='group'?n.row===id:kind==='info'?n.info===id:kind==='stage'?n.stage===stage:true;",`const edge=kind==='edge'?flow.edges.get(id):null;
+ const matches=n=>kind==='group'?n.row===id:kind==='info'?n.info===id:kind==='stage'?n.stage===stage:kind==='action'?n.id===id:kind==='edge'?[edge.from,edge.to].includes(n.id):true;`);
+js=js.replace("const relatedEdges=new Set([...flow.edges.values()].filter(e=>seeds.has(e.from)||seeds.has(e.to)).map(e=>e.id));","const relatedEdges=kind==='edge'?new Set([id]):new Set([...flow.edges.values()].filter(e=>seeds.has(e.from)||seeds.has(e.to)).map(e=>e.id));");
+js=js.replace("document.querySelectorAll('[data-flow-trace]').forEach(p=>p.style.opacity=kind==='all'||relatedEdges.has(p.dataset.flowTrace)?'1':'.12');",`document.querySelectorAll('[data-flow-trace]').forEach(p=>{p.style.opacity=kind==='all'||relatedEdges.has(p.dataset.flowTrace)?'1':'.12';p.style.strokeWidth=kind==='edge'&&p.dataset.flowTrace===id?'2.5':'1.5';});
+ document.querySelectorAll('[data-flow-edge]').forEach(p=>p.setAttribute('aria-pressed',String(kind==='edge'&&p.dataset.flowEdge===id)));`);
+js=js.replace("kind==='stage'?data.stages[stage].label:'';", "kind==='stage'?data.stages[stage].label:kind==='action'?flow.nodes.get(id).label:kind==='edge'?flow.nodes.get(edge.from).label+' → '+flow.nodes.get(edge.to).label:'';");
+js=js.replace("['group','stage','info']","['group','stage','info','action','edge']");
+const old="$('lifecycle-board').onclick=e=>{const b=e.target.closest('[data-flow-group],[data-info],[data-stage]');if(b)choose(b.dataset.flowGroup?'group':b.dataset.info?'info':'stage',b.dataset.flowGroup||b.dataset.info||b.dataset.stage);};";
+if(!js.includes(old))throw Error('Click handler missing');
+js=js.replace(old,`$('lifecycle-board').onclick=e=>{
+ const b=e.target.closest('[data-flow-group],[data-flow-node],[data-stage],[data-flow-edge]');if(!b)return;
+ if(b.dataset.flowGroup)choose('group',b.dataset.flowGroup);
+ else if(b.dataset.flowNode){const n=flow.nodes.get(b.dataset.flowNode);choose(n.process?'action':'info',n.process?n.id:n.info);}
+ else if(b.dataset.stage)choose('stage',b.dataset.stage);
+ else choose('edge',b.dataset.flowEdge);
+};
+$('lifecycle-board').addEventListener('keydown',e=>{if(!['Enter',' '].includes(e.key))return;const b=e.target.closest('[data-flow-edge]');if(b){e.preventDefault();choose('edge',b.dataset.flowEdge);}});`);
+js=js.replace("e.target.closest('[data-flow-group],[data-stage],[data-info]')","e.target.closest('[data-flow-group],[data-flow-node],[data-stage],[data-flow-edge]')");
+fs.writeFileSync(dir+'workflow.js',js);
+let t=fs.readFileSync('work/check_workflow_flow.cjs','utf8');
+t=t.replace("return Math.abs(b.y+b.height/2-r.y-r.height/2)<1;", "return Math.abs(b.y+b.height/2-r.y-r.height/2)<1&&Math.abs(b.x+b.width/2-e.parentElement.getBoundingClientRect().x-e.parentElement.getBoundingClientRect().width/2)<1&&getComputedStyle(e).textAlign==='center';");
+const anchor=" const labels=await page.locator('.flow-node').evaluateAll";
+const offset=t.indexOf(anchor);if(offset<0)throw Error('Test anchor missing');
+const checks=`
+ // Every element type selects its documented scope, without changing page position.
+ await page.locator('[data-flow-node="lab-title"]').click();
+ for(const n of d.nodes.filter(n=>n.info==='title'))assert.equal(await page.locator(\`[data-flow-node="\${n.id}"]\`).getAttribute('aria-pressed'),'true');
+ await page.locator('.stage-header[data-stage="collect"]').click();
+ for(const n of [...d.nodes,...d.processes].filter(n=>n.stage===2))assert.equal(await page.locator(\`[data-flow-node="\${n.id}"]\`).getAttribute('aria-pressed'),'true');
+ await page.locator('[data-flow-node="collect"]').click();
+ assert.equal(await page.locator('.flow-node[aria-pressed="true"]').count(),1);
+ assert.equal(await page.locator('[data-flow-node="collect"]').getAttribute('aria-pressed'),'true');
+ const firstEdge=page.locator('[data-flow-edge="flow-edge-0"]');
+ const point=await firstEdge.evaluate(e=>{const p=e.getPointAtLength(10),r=e.ownerSVGElement.getBoundingClientRect();return{x:r.x+p.x,y:r.y+p.y};});
+ await page.mouse.click(point.x,point.y);
+ assert.equal(await firstEdge.getAttribute('aria-pressed'),'true');assert.equal(await page.locator('.flow-node[aria-pressed="true"]').count(),2);
+ assert.equal(await page.locator('[data-flow-node="home-title"]').getAttribute('aria-pressed'),'true');assert.equal(await page.locator('[data-flow-node="locate"]').getAttribute('aria-pressed'),'true');
+ await page.keyboard.press('Escape');assert.equal(await page.locator('.flow-node.dimmed').count(),0);assert(await page.locator('#clear').isHidden());
+ await firstEdge.focus();await page.keyboard.press('Enter');assert.equal(await firstEdge.getAttribute('aria-pressed'),'true');
+ await page.locator('h1').click();assert.equal(await firstEdge.getAttribute('aria-pressed'),'false');assert(await page.locator('#clear').isHidden());
+`;
+t=t.slice(0,offset)+checks+t.slice(offset);fs.writeFileSync('work/check_workflow_flow.cjs',t);

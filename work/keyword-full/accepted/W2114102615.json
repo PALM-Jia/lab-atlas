@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2114102615",
+  "annotations": [
+    {
+      "keyword_id": "bayesian-inference",
+      "exact_quote": "We propose a fully Bayesian methodology for generalized kernel mixed models (GKMMs)",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确提出全贝叶斯方法，包含先验、MCMC与后验预测，属于通过先验和概率模型进行后验估计/近似推断。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "This mixture prior allows a fraction of the components of the regression vector to be zero. Thus, it serves for sparse modeling",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明混合先验使回归向量部分分量为零以实现稀疏建模，符合以少量特征/基分量表达相关结构的稀疏表示机制。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

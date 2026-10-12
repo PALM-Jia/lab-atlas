@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"lab-60280e69a6e3\",\"annotations\":[{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"Traffic Data Recovery\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以交通数据恢复为目标，并结合缺失与异常场景，符合从缺失或污染观测恢复原始数据的研究任务。\"},{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"Low-rank Tensor Completion\",\"evidence_field\":\"title\",\"reason_zh\":\"标题直接提出低秩张量补全方法，显式利用低秩结构进行建模与恢复。\"},{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"Traffic Data Recovery\",\"evidence_field\":\"title\",\"reason_zh\":\"标题将交通数据恢复作为具体应用对象，属于实际交通数据对象的研究。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

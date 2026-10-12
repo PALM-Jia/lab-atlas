@@ -1,0 +1,18 @@
+{
+  "sample_id": "S07",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "Ensemble clustering integrates a set of base clustering results to generate a stronger one.",
+      "evidence_field": "abstract",
+      "reason_zh": "主任务是融合多个基础聚类结果得到更强的共识聚类。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "By propagating the highly reliable information of the HC matrix to the CA matrix and complementing the HC matrix according to the CA matrix simultaneously, the proposed method generates an enhanced CA matrix for better clustering.",
+      "evidence_field": "abstract",
+      "reason_zh": "方案通过信息传播与相互补充修正样本间共关联矩阵，实质学习更好的亲和关系。"
+    }
+  ],
+  "abstentions": []
+}

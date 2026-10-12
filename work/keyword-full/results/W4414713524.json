@@ -1,0 +1,40 @@
+{
+  "paper_id": "W4414713524",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "nonnegative matrix factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题明确采用非负矩阵分解作为核心方法。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "semi-supervised",
+      "evidence_field": "title",
+      "reason_zh": "标题明确为半监督设定，结合有限监督与未标注数据/约束传播。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "Hypergraph induced",
+      "evidence_field": "title",
+      "reason_zh": "标题以 Hypergraph induced 表明利用超图结构对NMF学习施加几何一致性约束，符合图与流形正则化（含超图）。"
+    },
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "exact_quote": "label and constraint propagation",
+      "evidence_field": "title",
+      "reason_zh": "标题明确标签与约束传播，指向在半监督NMF中扩展成对约束监督关系。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "标题仅称 Hypergraph induced，无法确定是否学习或修正超图边/亲和结构，可能只是使用固定超图正则。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "标题只写 semi-supervised，未明确以不完整、不精确、粗粒度或不准确监督替代实例级真值，不能由半监督直接推定为弱监督。"
+    }
+  ],
+  "input_issues": []
+}

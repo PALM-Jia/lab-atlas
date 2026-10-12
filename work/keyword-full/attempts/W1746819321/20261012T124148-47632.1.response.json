@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W1746819321\",\"annotations\":[],\"abstentions\":[{\"keyword_id\":\"bayesian-inference\",\"reason_zh\":\"摘要仅称概率方法与核机器学习，未明确先验、后验估计或近似推断，证据不足以判定为贝叶斯推断。\"}],\"input_issues\":[]}"
+}

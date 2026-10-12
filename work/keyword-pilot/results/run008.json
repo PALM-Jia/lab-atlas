@@ -1,0 +1,18 @@
+{
+  "sample_id": "S02",
+  "annotations": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "novel discriminative low-rank representation method",
+      "evidence_field": "abstract",
+      "reason_zh": "该方法明确以低秩表示建模为核心方法。"
+    },
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "hyperspectral image (HSI) clustering problem",
+      "evidence_field": "abstract",
+      "reason_zh": "研究对象是高光谱图像上的聚类问题。"
+    }
+  ],
+  "abstentions": []
+}

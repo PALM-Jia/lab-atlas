@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2763673051",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral Image Classification",
+      "evidence_field": "title",
+      "reason_zh": "标题明确研究高光谱图像分类，高光谱图像是论文的研究对象与数据对象。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,46 @@
+{
+  "paper_id": "W3133128010",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "Partial Multi-Label Learning with Noisy Label Identification",
+      "evidence_field": "title",
+      "reason_zh": "标题直接表明研究部分多标记学习（PML），属于多标记学习任务。"
+    },
+    {
+      "keyword_id": "noisy-label-learning",
+      "exact_quote": "Under the supervision of the observed noise-corrupted label matrix, the multi-label classifier and noisy label identifier are jointly optimized",
+      "evidence_field": "abstract",
+      "reason_zh": "在噪声污染标签矩阵监督下联合优化多标记分类器与噪声标签识别器，显式处理并识别错误标签。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "candidate label set, which contains multiple relevant labels and some noisy labels",
+      "evidence_field": "abstract",
+      "reason_zh": "以含噪声标签的候选标签集作为不精确/不完整监督信号，并将该弱监督条件作为实质研究问题。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "incorporating the label correlation exploitation",
+      "evidence_field": "abstract",
+      "reason_zh": "明确引入标签相关性利用，显式建模标签间依赖结构。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "trace norm",
+      "evidence_field": "abstract",
+      "reason_zh": "使用迹范数（核范数）正则化施加低秩约束，属于低秩建模。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "reason_zh": "摘要提到恢复真实信息，但未明确是对缺失观测或污染数值的数据补全/恢复，可能是标签去噪而非数据补全与恢复，证据不足以确定满足定义。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "reason_zh": "仅出现ℓ1范数正则化，未说明以少量字典原子、基向量或潜在特征表达样本，可能是对噪声矩阵的稀疏惩罚，定义不充分。"
+    }
+  ],
+  "input_issues": []
+}

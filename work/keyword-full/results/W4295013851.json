@@ -1,0 +1,19 @@
+{
+  "paper_id": "W4295013851",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "Parallel semantic segmentation network for detecting marine animals in underwater scene",
+      "evidence_field": "title",
+      "reason_zh": "标题表明本文提出并行语义分割网络，对水下场景中的海洋动物进行像素级区域分割，符合图像分割定义。"
+    },
+    {
+      "keyword_id": "underwater-images",
+      "exact_quote": "underwater scene",
+      "evidence_field": "title",
+      "reason_zh": "标题明确研究对象为水下场景图像，摘要也围绕海水低光与海洋动物分割，属于直接研究水下采集图像感知问题。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

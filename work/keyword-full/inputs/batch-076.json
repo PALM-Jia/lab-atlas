@@ -1,0 +1,54 @@
+{
+  "papers": [
+    {
+      "paper_id": "W2135046866",
+      "title": "Regression Shrinkage and Selection Via the Lasso",
+      "abstract": "SUMMARY We propose a new method for estimation in linear models. The ‘lasso’ minimizes the residual sum of squares subject to the sum of the absolute value of the coefficients being less than a constant. Because of the nature of this constraint it tends to produce some coefficients that are exactly 0 and hence gives interpretable models. Our simulation studies suggest that the lasso enjoys some of the favourable properties of both subset selection and ridge regression. It produces interpretable models like subset selection and exhibits the stability of ridge regression. There is also an interesting relationship with recent work in adaptive function estimation by Donoho and Johnstone. The lasso idea is quite general and can be applied in a variety of statistical models: extensions to generalized regression models and tree-based models are briefly described."
+    },
+    {
+      "paper_id": "W2135076825",
+      "title": "Semi-Supervised Kernel Mean Shift Clustering",
+      "abstract": "Mean shift clustering is a powerful nonparametric technique that does not require prior knowledge of the number of clusters and does not constrain the shape of the clusters. However, being completely unsupervised, its performance suffers when the original distance metric fails to capture the underlying cluster structure. Despite recent advances in semi-supervised clustering methods, there has been little effort towards incorporating supervision into mean shift. We propose a semi-supervised framework for kernel mean shift clustering (SKMS) that uses only pairwise constraints to guide the clustering procedure. The points are first mapped to a high-dimensional kernel space where the constraints are imposed by a linear transformation of the mapped points. This is achieved by modifying the initial kernel matrix by minimizing a log det divergence-based objective function. We show the advantages of SKMS by evaluating its performance on various synthetic and real datasets while comparing with state-of-the-art semi-supervised clustering algorithms."
+    },
+    {
+      "paper_id": "W2135346934",
+      "title": "Introduction to Statistical Pattern Recognition",
+      "abstract": null
+    },
+    {
+      "paper_id": "W2135431554",
+      "title": "Entropy rate superpixel segmentation",
+      "abstract": "We propose a new objective function for superpixel segmentation. This objective function consists of two components: entropy rate of a random walk on a graph and a balancing term. The entropy rate favors formation of compact and homogeneous clusters, while the balancing function encourages clusters with similar sizes. We present a novel graph construction for images and show that this construction induces a matroid - a combinatorial structure that generalizes the concept of linear independence in vector spaces. The segmentation is then given by the graph topology that maximizes the objective function under the matroid constraint. By exploiting submodular and mono-tonic properties of the objective function, we develop an efficient greedy algorithm. Furthermore, we prove an approximation bound of ½ for the optimality of the solution. Extensive experiments on the Berkeley segmentation benchmark show that the proposed algorithm outperforms the state of the art in all the standard evaluation metrics."
+    },
+    {
+      "paper_id": "W2135488357",
+      "title": "Integrated hyperspectral remote sensing, geochemical and isotopic studies for understanding hydrocarbon-induced rock alterations",
+      "abstract": null
+    },
+    {
+      "paper_id": "W2135533176",
+      "title": "Multi-Instance Multi-Label Learning with Application to Scene Classification",
+      "abstract": "In this paper, we formalize multi-instance multi-label learning, where each training example is associated with not only multiple instances but also multiple class labels. Such a problem can occur in many real-world tasks, e.g. an image usually contains multiple patches each of which can be described by a feature vector, and the image can belong to multiple categories since its semantics can be recognized in different ways. We analyze the relationship between multi-instance multi-label learning and the learning frameworks of traditional supervised learning, multiinstance learning and multi-label learning. Then, we propose the MIMLBOOST and MIMLSVM algorithms which achieve good performance in an application to scene classification. 1"
+    },
+    {
+      "paper_id": "W2135730159",
+      "title": "Mixture decomposition for distributions from the exponential family using a generalized method of moments",
+      "abstract": "A finite mixture distribution consists of the superposition of a finite number of component probability densities, and is typically used to model a population composed of two or more subpopulations. Mixture models find utility in situations where there is a difficulty in directly observing the underlying components of the population of interest. This paper examines the method of moments as a general estimation technique for estimating the parameters of the component distributions and their mixing proportions. It is shown that the same basic solution can be applied to any continuous or discrete density from the exponential family with a known common shape parameter. Results of an empirical study of the method are also presented.>"
+    },
+    {
+      "paper_id": "W2135957164",
+      "title": "Graph-Based Visual Saliency",
+      "abstract": "A new bottom-up visual saliency model, Graph-Based Visual Saliency (GBVS), is proposed. It consists of two steps: first forming activation maps on certain feature \\nchannels, and then normalizing them in a way which highlights conspicuity and admits combination with other maps. The model is simple, and biologically plausible \\ninsofar as it is naturally parallelized. This model powerfully predicts human fixations on 749 variations of 108 natural images, achieving 98% of the ROC area \\nof a human-based control, whereas the classical algorithms of Itti & Koch ([2], [3], [4]) achieve only 84%."
+    },
+    {
+      "paper_id": "W2135980307",
+      "title": "Lane Change Intent Analysis Using Robust Operators and Sparse Bayesian Learning",
+      "abstract": "In this paper we demonstrate a driver intent inference system (DIIS) based on lane positional information, vehicle parameters, and driver head motion. We present robust computer vision methods for identifying and tracking freeway lanes and driver head motion. These algorithms are then applied and evaluated on real-world data collected in a modular intelligent vehicle test-bed. Analysis of the data for lane change intent is performed using a sparse Bayesian learning methodology. Finally, the system as a whole is evaluated using a novel metric and real-world data of vehicle parameters, lane position, and driver head motion."
+    },
+    {
+      "paper_id": "W2136251662",
+      "title": "Classification of hyperspectral remote sensing images with support vector machines",
+      "abstract": "This paper addresses the problem of the classification of hyperspectral remote sensing images by support vector machines (SVMs). First, we propose a theoretical discussion and experimental analysis aimed at understanding and assessing the potentialities of SVM classifiers in hyperdimensional feature spaces. Then, we assess the effectiveness of SVMs with respect to conventional feature-reduction-based approaches and their performances in hypersubspaces of various dimensionalities. To sustain such an analysis, the performances of SVMs are compared with those of two other nonparametric classifiers (i.e., radial basis function neural networks and the K-nearest neighbor classifier). Finally, we study the potentially critical issue of applying binary SVMs to multiclass problems in hyperspectral data. In particular, four different multiclass strategies are analyzed and compared: the one-against-all, the one-against-one, and two hierarchical tree-based strategies. Different performance indicators have been used to support our experimental studies in a detailed and accurate way, i.e., the classification accuracy, the computational time, the stability to parameter setting, and the complexity of the multiclass architecture. The results obtained on a real Airborne Visible/Infrared Imaging Spectroradiometer hyperspectral dataset allow to conclude that, whatever the multiclass strategy adopted, SVMs are a valid and effective alternative to conventional pattern recognition approaches (feature-reduction procedures combined with a classification method) for the classification of hyperspectral remote sensing data."
+    }
+  ]
+}

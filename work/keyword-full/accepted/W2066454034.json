@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2066454034",
+  "annotations": [
+    {
+      "keyword_id": "label-distribution-learning",
+      "exact_quote": "The label distribution covers a certain number of class labels, representing the degree that each label describes the instance.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确用标签分布表示各标签对实例的描述程度，并以该分布进行学习。"
+    },
+    {
+      "keyword_id": "label-enhancement",
+      "exact_quote": "instead of considering each face image as an instance with one label (age), this paper regards each face image as an instance associated with a label distribution",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要将单一年龄标签改为覆盖多个类标签且表示描述程度的标签分布，属于从逻辑标签构建更细致标签分布。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "Through this way, one face image can contribute to not only the learning of its chronological age, but also the learning of its adjacent ages.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明通过标签分布使样本同时学习真实年龄和相邻年龄，显式利用相邻标签的局部相关/排序结构。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

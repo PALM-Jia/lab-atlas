@@ -1,0 +1,49 @@
+{
+  "paper_id": "lab-51397954ce4d",
+  "annotations": [
+    {
+      "keyword_id": "label-distribution-learning",
+      "exact_quote": "Label distribution learning (LDL) trains a model to predict the relevance of a set of labels (called label distribution (LD)) to an instance.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以标签分布学习为任务，训练模型预测标签分布。"
+    },
+    {
+      "keyword_id": "noisy-label-learning",
+      "exact_quote": "This paper first investigates the inaccurate LDL (ILDL) problem—learn an LDL method from the inaccurate LDs.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文将不准确的标签分布作为训练监督条件并作为核心研究问题。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "learn an LDL method from the inaccurate LDs",
+      "evidence_field": "abstract",
+      "reason_zh": "以不准确的标签分布监督替代充分准确的实例级真值，构成弱监督设定。"
+    },
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "whose objective is to recover the ground-truth LD and noise from the inaccurate LD.",
+      "evidence_field": "abstract",
+      "reason_zh": "将问题视为逆问题，目标是从受污染的不准确标签分布恢复真实标签分布。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "We hypothesize that the ground-truth LD exhibits low rank due to label correlations.",
+      "evidence_field": "abstract",
+      "reason_zh": "显式假设真实标签分布具有低秩结构，并用于低秩分解建模。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "we leverage the local geometric structure of instances (represented as graph) to further recover the ground-truth LD.",
+      "evidence_field": "abstract",
+      "reason_zh": "利用实例的局部几何结构（图）对恢复过程施加图正则化约束。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "We hypothesize that the ground-truth LD exhibits low rank due to label correlations.",
+      "evidence_field": "abstract",
+      "reason_zh": "以标签相关性解释并建模真实标签分布的低秩结构。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

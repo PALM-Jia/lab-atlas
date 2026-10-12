@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2087263574\",\"annotations\":[{\"keyword_id\":\"hyperspectral-images\",\"exact_quote\":\"Hyperspectral Remote Sensing Data Analysis and Future Challenges\",\"evidence_field\":\"title\",\"reason_zh\":\"标题与摘要均以高光谱遥感数据分析为对象，摘要所述数据融合、解混、分类等主题属于高光谱图像处理范围。\"}],\"abstentions\":[{\"keyword_id\":\"dimensionality-reduction\",\"reason_zh\":\"摘要仅将高维性列为高光谱数据困难来源，未说明显式低维映射/嵌入或降维任务，定义与机制证据不足。\"}],\"input_issues\":[]}"
+}

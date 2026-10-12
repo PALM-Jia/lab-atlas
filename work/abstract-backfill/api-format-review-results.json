@@ -1,0 +1,380 @@
+{
+  "summary": {
+    "success": 7,
+    "unresolved": 10
+  },
+  "results": [
+    {
+      "id": "W1528905581",
+      "title": "Generalized Linear Models",
+      "status": "success",
+      "abstract": "A new program for depression is instituted in the hopes of reducing the number of visits to the emergency room in the year following treatment. Predictors include (among many others) treatment (yes/no), race, and drug, and alcohol usage indices. A common and minimally invasive treatment for jaundice in newborns is exposure to light. Yet the cost of this (mainly because of longer hospital stays) was estimated as long ago as 1984 at over $600 per infant. Predictors of the cost include race, gestational age, and birthweight",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/0-387-27255-0_9",
+          "http": 200,
+          "status": "received",
+          "file": "api-page-e93b6750a16b94f2d2036bd49bca91cdf47cc71a035c5447fa0f8c346bbf2320.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "Generalized Linear Models",
+          "abstract": "A new program for depression is instituted in the hopes of reducing the number of visits to the emergency room in the year following treatment. Predictors include (among many others) treatment (yes/no), race, and drug, and alcohol usage indices. A common and minimally invasive treatment for jaundice in newborns is exposure to light. Yet the cost of this (mainly because of longer hospital stays) was estimated as long ago as 1984 at over $600 per infant. Predictors of the cost include race, gestational age, and birthweight",
+          "authors": [],
+          "doi": "10.1007/0-387-27255-0_9",
+          "source_url": "https://link.springer.com/chapter/10.1007/0-387-27255-0_9",
+          "accepted": true,
+          "reason": "exact_title_at_canonical_DOI_publication_page"
+        }
+      ],
+      "reason": "exact_title_at_canonical_DOI_publication_page",
+      "source_url": "https://link.springer.com/chapter/10.1007/0-387-27255-0_9"
+    },
+    {
+      "id": "W4206445139",
+      "title": "Graph Neural Networks: Foundations, Frontiers, and Applications",
+      "status": "unresolved",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://link.springer.com/book/10.1007/978-981-16-6054-2",
+          "http": 200,
+          "status": "received",
+          "file": "api-page-bf0601bc32c83160fdaa336974bff3e6580ac63d17c01dbbb0ca135871161084.html"
+        }
+      ],
+      "candidates": [],
+      "reason": "canonical_publisher_route_did_not_yield_verified_abstract"
+    },
+    {
+      "id": "W4301014524",
+      "title": "Numerical Optimization",
+      "status": "unresolved",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://link.springer.com/book/10.1007/978-0-387-40065-5",
+          "http": 200,
+          "status": "received",
+          "file": "api-page-9ffd84e0bdb959ebb6c852aa5dc0abf84622f1885c508b75b81abbcf5bf4d76a.html"
+        }
+      ],
+      "candidates": [],
+      "reason": "canonical_publisher_route_did_not_yield_verified_abstract"
+    },
+    {
+      "id": "W4301861531",
+      "title": "Generalized Linear Models",
+      "status": "unresolved",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://link.springer.com/book/10.1007/978-1-4899-3242-6",
+          "http": 404,
+          "status": "query_failed",
+          "reason": "http_404"
+        }
+      ],
+      "candidates": [],
+      "reason": "canonical_publisher_route_did_not_yield_verified_abstract"
+    },
+    {
+      "id": "W1489499640",
+      "title": "Non-negative Matrix Factorization for Face Recognition",
+      "status": "success",
+      "abstract": "The computer vision problem of face classification under several ambient and unfavorable conditions is considered in this study. Changes in expression, different lighting conditions and occlusions are the relevant factors that are studied in this present contribution. Non-negative Matrix Factorization (NMF) technique is introduced in the context of face classification and a direct comparison with Principal Component Analysis (PCA) is also analyzed. Two leading techniques in face recognition are also considered in this study noticing that NMF is able to improve these techniques when a high dimensional feature space is used. Finally, different distance metrics (L1, L2 and correlation) are evaluated in the feature space defined by NMF in order to determine the best one for this specific problem. Experiments demonstrate that the correlation is the most suitable metric for this problem.",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/3-540-36079-4_29",
+          "http": 200,
+          "status": "received",
+          "file": "api-page-10d0a0c2ab0d3a240a4e73fcba160fd18d37675152ed12be9de810bfdf7ae823.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "Non-negative Matrix Factorization for Face Recognition",
+          "abstract": "The computer vision problem of face classification under several ambient and unfavorable conditions is considered in this study. Changes in expression, different lighting conditions and occlusions are the relevant factors that are studied in this present contribution. Non-negative Matrix Factorization (NMF) technique is introduced in the context of face classification and a direct comparison with Principal Component Analysis (PCA) is also analyzed. Two leading techniques in face recognition are also considered in this study noticing that NMF is able to improve these techniques when a high dimensional feature space is used. Finally, different distance metrics (L1, L2 and correlation) are evaluated in the feature space defined by NMF in order to determine the best one for this specific problem. Experiments demonstrate that the correlation is the most suitable metric for this problem.",
+          "authors": [
+            "Guillamet, David",
+            "Vitrià, Jordi"
+          ],
+          "doi": "10.1007/3-540-36079-4_29",
+          "source_url": "https://link.springer.com/chapter/10.1007/3-540-36079-4_29",
+          "accepted": true,
+          "reason": "exact_title_at_canonical_DOI_publication_page"
+        }
+      ],
+      "reason": "exact_title_at_canonical_DOI_publication_page",
+      "source_url": "https://link.springer.com/chapter/10.1007/3-540-36079-4_29"
+    },
+    {
+      "id": "W1492698999",
+      "title": "Solving Multiple-Instance and Multiple-Part Learning Problems with Decision Trees and Rule Sets. Application to the Mutagenesis Problem",
+      "status": "success",
+      "abstract": "In recent work, Dietterich et al. (1997) have presented the problem of supervised multiple-instance learning and how to solve it by building axis-parallel rectangles. This problem is encountered in contexts where an object may have different possible alternative configurations, each of which is described by a vector. This paper introduces the multiple-part problem, which is related to the multiple-instance problem, and shows how it can be solved using the multiple-instance algorithms. These two so-called “multiple“ problems could play a key role both in the development of efficient algorithms for learning the relations between the activity of a structured object and its structural properties and in relational learning. This paper analyzes and tries to clarify multiple-problem solving. It goes on to propose multiple-instance extensions of classical learning algorithms to solve multiple-problems by learning multiple-decision trees ( Id3-Mi ) and multiple-decision rules (Ripper- Mi). In particular, it suggests a new multiple-instance entropy function and a multiple-instance coverage function. Finally, it successfully applies the multiple-part framework on the well-known mutagenesis prediction problem.",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/3-540-45153-6_20",
+          "http": 200,
+          "status": "received",
+          "file": "api-page-201538424a4050ee224adb95d97e4fa18c06cb8a4f0b6edc7cefe27a7708daf1.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "Solving Multiple-Instance and Multiple-Part Learning Problems with Decision Trees and Rule Sets. Application to the Mutagenesis Problem",
+          "abstract": "In recent work, Dietterich et al. (1997) have presented the problem of supervised multiple-instance learning and how to solve it by building axis-parallel rectangles. This problem is encountered in contexts where an object may have different possible alternative configurations, each of which is described by a vector. This paper introduces the multiple-part problem, which is related to the multiple-instance problem, and shows how it can be solved using the multiple-instance algorithms. These two so-called “multiple“ problems could play a key role both in the development of efficient algorithms for learning the relations between the activity of a structured object and its structural properties and in relational learning. This paper analyzes and tries to clarify multiple-problem solving. It goes on to propose multiple-instance extensions of classical learning algorithms to solve multiple-problems by learning multiple-decision trees ( Id3-Mi ) and multiple-decision rules (Ripper- Mi). In particular, it suggests a new multiple-instance entropy function and a multiple-instance coverage function. Finally, it successfully applies the multiple-part framework on the well-known mutagenesis prediction problem.",
+          "authors": [
+            "Chevaleyre, Yann",
+            "Zucker, Jean-Daniel"
+          ],
+          "doi": "10.1007/3-540-45153-6_20",
+          "source_url": "https://link.springer.com/chapter/10.1007/3-540-45153-6_20",
+          "accepted": true,
+          "reason": "exact_title_at_canonical_DOI_publication_page"
+        }
+      ],
+      "reason": "exact_title_at_canonical_DOI_publication_page",
+      "source_url": "https://link.springer.com/chapter/10.1007/3-540-45153-6_20"
+    },
+    {
+      "id": "W1501500081",
+      "title": "A Survey of Clustering Data Mining Techniques",
+      "status": "success",
+      "abstract": "Clustering is the division of data into groups of similar objects. In clustering, some details are disregarded in exchange for data simplification. Clustering can be viewed as a data modeling technique that provides for concise summaries of the data. Clustering is therefore related to many disciplines and plays an important role in a broad range of applications. The applications of clustering usually deal with large datasets and data with many attributes. Exploration of such data is a subject of data mining. This survey concentrates on clustering algorithms from a data mining perspective.",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/3-540-28349-8_2",
+          "http": 200,
+          "status": "received",
+          "file": "api-page-22768a2992fd9f08c55497a92579f4eb4f7edd7735500a398e5380c782e35d4d.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "A Survey of Clustering Data Mining Techniques",
+          "abstract": "Clustering is the division of data into groups of similar objects. In clustering, some details are disregarded in exchange for data simplification. Clustering can be viewed as a data modeling technique that provides for concise summaries of the data. Clustering is therefore related to many disciplines and plays an important role in a broad range of applications. The applications of clustering usually deal with large datasets and data with many attributes. Exploration of such data is a subject of data mining. This survey concentrates on clustering algorithms from a data mining perspective.",
+          "authors": [
+            "Berkhin, P."
+          ],
+          "doi": "10.1007/3-540-28349-8_2",
+          "source_url": "https://link.springer.com/chapter/10.1007/3-540-28349-8_2",
+          "accepted": true,
+          "reason": "exact_title_at_canonical_DOI_publication_page"
+        }
+      ],
+      "reason": "exact_title_at_canonical_DOI_publication_page",
+      "source_url": "https://link.springer.com/chapter/10.1007/3-540-28349-8_2"
+    },
+    {
+      "id": "W1567512734",
+      "title": "Bayesian Learning for Neural Networks",
+      "status": "unresolved",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://link.springer.com/book/10.1007/978-1-4612-0745-0",
+          "http": 200,
+          "status": "received",
+          "file": "api-page-28abf988e716317f13ec08a98b09dfa589f23f67f611935cd08820de33d3971a.html"
+        }
+      ],
+      "candidates": [],
+      "reason": "canonical_publisher_route_did_not_yield_verified_abstract"
+    },
+    {
+      "id": "W1587294646",
+      "title": "Multi-dimensional Function Approximation and Regression Estimation",
+      "status": "success",
+      "abstract": "In this communication, we generalize the Support Vector Machines (SVM) for regression estimation and function approximation to multi-dimensional problems. We propose a multi-dimensional Support Vector Regressor (MSVR) that uses a cost function with a hyperspherical insensitive zone, capable of obtaining better predictions than using an SVM independently for each dimension. The resolution of the MSVR is achieved by an iterative procedure over the Karush-Kuhn-Tucker conditions. The proposed algorithm is illustrated by computers experiments.",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/3-540-46084-5_123",
+          "http": 200,
+          "status": "received",
+          "file": "api-page-ad7b3f3ffa5001e3e810438d2d92a0d8e0cdf14ae4ae4b842fafd4f1cddc4a50.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "Multi-dimensional Function Approximation and Regression Estimation",
+          "abstract": "In this communication, we generalize the Support Vector Machines (SVM) for regression estimation and function approximation to multi-dimensional problems. We propose a multi-dimensional Support Vector Regressor (MSVR) that uses a cost function with a hyperspherical insensitive zone, capable of obtaining better predictions than using an SVM independently for each dimension. The resolution of the MSVR is achieved by an iterative procedure over the Karush-Kuhn-Tucker conditions. The proposed algorithm is illustrated by computers experiments.",
+          "authors": [
+            "Pérez-Cruz, Fernando",
+            "Camps-Valls, Gustavo",
+            "Soria-Olivas, Emilio",
+            "Pérez-Ruixo, Juan José",
+            "Figueiras-Vidal, Aníbal R.",
+            "Artés-Rodríguez, Antonio"
+          ],
+          "doi": "10.1007/3-540-46084-5_123",
+          "source_url": "https://link.springer.com/chapter/10.1007/3-540-46084-5_123",
+          "accepted": true,
+          "reason": "exact_title_at_canonical_DOI_publication_page"
+        }
+      ],
+      "reason": "exact_title_at_canonical_DOI_publication_page",
+      "source_url": "https://link.springer.com/chapter/10.1007/3-540-46084-5_123"
+    },
+    {
+      "id": "W1638081485",
+      "title": "Measuring Statistical Dependence with Hilbert-Schmidt Norms",
+      "status": "success",
+      "abstract": "We propose an independence criterion based on the eigenspectrum of covariance operators in reproducing kernel Hilbert spaces (RKHSs), consisting of an empirical estimate of the Hilbert-Schmidt norm of the cross-covariance operator (we term this a Hilbert-Schmidt Independence Criterion, or HSIC). This approach has several advantages, compared with previous kernel-based independence criteria. First, the empirical estimate is simpler than any other kernel dependence test, and requires no user-defined regularisation. Second, there is a clearly defined population quantity which the empirical estimate approaches in the large sample limit, with exponential convergence guaranteed between the two: this ensures that independence tests based on HSIC do not suffer from slow learning rates. Finally, we show in the context of independent component analysis (ICA) that the performance of HSIC is competitive with that of previously published kernel-based criteria, and of other recently published ICA methods.",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/11564089_7",
+          "http": 200,
+          "status": "received",
+          "file": "api-page-81970933b65bca6243d558fb9d785837159079a42fedd778b58139f051297eb7.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "Measuring Statistical Dependence with Hilbert-Schmidt Norms",
+          "abstract": "We propose an independence criterion based on the eigenspectrum of covariance operators in reproducing kernel Hilbert spaces (RKHSs), consisting of an empirical estimate of the Hilbert-Schmidt norm of the cross-covariance operator (we term this a Hilbert-Schmidt Independence Criterion, or HSIC). This approach has several advantages, compared with previous kernel-based independence criteria. First, the empirical estimate is simpler than any other kernel dependence test, and requires no user-defined regularisation. Second, there is a clearly defined population quantity which the empirical estimate approaches in the large sample limit, with exponential convergence guaranteed between the two: this ensures that independence tests based on HSIC do not suffer from slow learning rates. Finally, we show in the context of independent component analysis (ICA) that the performance of HSIC is competitive with that of previously published kernel-based criteria, and of other recently published ICA methods.",
+          "authors": [
+            "Gretton, Arthur",
+            "Bousquet, Olivier",
+            "Smola, Alex",
+            "Schölkopf, Bernhard"
+          ],
+          "doi": "10.1007/11564089_7",
+          "source_url": "https://link.springer.com/chapter/10.1007/11564089_7",
+          "accepted": true,
+          "reason": "exact_title_at_canonical_DOI_publication_page"
+        }
+      ],
+      "reason": "exact_title_at_canonical_DOI_publication_page",
+      "source_url": "https://link.springer.com/chapter/10.1007/11564089_7"
+    },
+    {
+      "id": "W2008499862",
+      "title": "Nonlinear Multiobjective Optimization",
+      "status": "unresolved",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://link.springer.com/book/10.1007/978-1-4615-5563-6",
+          "http": 200,
+          "status": "received",
+          "file": "api-page-6d09a233696e6f839a2b89e9da8bf74c1a7f4bee617414439471a0ab296e4b88.html"
+        }
+      ],
+      "candidates": [],
+      "reason": "canonical_publisher_route_did_not_yield_verified_abstract"
+    },
+    {
+      "id": "W2113076747",
+      "title": "Pattern Recognition with Fuzzy Objective Function Algorithms",
+      "status": "unresolved",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://link.springer.com/book/10.1007/978-1-4757-0450-1",
+          "http": 200,
+          "status": "received",
+          "file": "api-page-b2b57cf7fbb7575a2f2278d8e80b97bd4ae6161f3a687341b76455a7e0e59fc2.html"
+        }
+      ],
+      "candidates": [],
+      "reason": "canonical_publisher_route_did_not_yield_verified_abstract"
+    },
+    {
+      "id": "W2146111596",
+      "title": "Learning from Ambiguously Labeled Examples",
+      "status": "success",
+      "abstract": "Inducing a classification function from a set of examples in the form of labeled instances is a standard problem in supervised machine learning. In this paper, we are concerned with ambiguous label classification (ALC), an extension of this setting in which several candidate labels may be assigned to a single example. By extending three concrete classification methods to the ALC setting and evaluating their performance on benchmark data sets, we show that appropriately designed learning algorithms can successfully exploit the information contained in ambiguously labeled examples. Our results indicate that the fundamental idea of the extended methods, namely to disambiguate the label information by means of the inductive bias underlying (heuristic) machine learning methods, works well in practice.",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/11552253_16",
+          "http": 200,
+          "status": "received",
+          "file": "api-page-d3abb8971436ac80a1cbc8685bfddc7d3e01fb4f4577488e5e1b589b480afeae.html"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "Learning from Ambiguously Labeled Examples",
+          "abstract": "Inducing a classification function from a set of examples in the form of labeled instances is a standard problem in supervised machine learning. In this paper, we are concerned with ambiguous label classification (ALC), an extension of this setting in which several candidate labels may be assigned to a single example. By extending three concrete classification methods to the ALC setting and evaluating their performance on benchmark data sets, we show that appropriately designed learning algorithms can successfully exploit the information contained in ambiguously labeled examples. Our results indicate that the fundamental idea of the extended methods, namely to disambiguate the label information by means of the inductive bias underlying (heuristic) machine learning methods, works well in practice.",
+          "authors": [
+            "Hüllermeier, Eyke",
+            "Beringer, Jürgen"
+          ],
+          "doi": "10.1007/11552253_16",
+          "source_url": "https://link.springer.com/chapter/10.1007/11552253_16",
+          "accepted": true,
+          "reason": "exact_title_at_canonical_DOI_publication_page"
+        }
+      ],
+      "reason": "exact_title_at_canonical_DOI_publication_page",
+      "source_url": "https://link.springer.com/chapter/10.1007/11552253_16"
+    },
+    {
+      "id": "W2171103562",
+      "title": "Handbook of Combinatorial Optimization",
+      "status": "unresolved",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://link.springer.com/book/10.1007/978-1-4757-3023-4",
+          "http": 200,
+          "status": "received",
+          "file": "api-page-260f90ba47bbf8316eb43123419fe29319d56a71ea1391d172b6af4fc211b227.html"
+        }
+      ],
+      "candidates": [],
+      "reason": "canonical_publisher_route_did_not_yield_verified_abstract"
+    },
+    {
+      "id": "W2506082243",
+      "title": "Introduction to Modern Traffic Flow Theory and Control",
+      "status": "unresolved",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://link.springer.com/book/10.1007/978-3-642-02605-8",
+          "http": 200,
+          "status": "received",
+          "file": "api-page-b38e13cf2dac1ad4192c20dceff7289c289795644ebc4a8f1cfbe578b87af02d.html"
+        }
+      ],
+      "candidates": [],
+      "reason": "canonical_publisher_route_did_not_yield_verified_abstract"
+    },
+    {
+      "id": "W2715319929",
+      "title": "Multilabel Classification: Problem Analysis, Metrics and Techniques",
+      "status": "unresolved",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://link.springer.com/book/10.1007/978-3-319-41111-8",
+          "http": 200,
+          "status": "received",
+          "file": "api-page-beb43990013c03a3bc218864e33c595d4cb71ffa39cc976fb018e908cf426e88.html"
+        }
+      ],
+      "candidates": [],
+      "reason": "canonical_publisher_route_did_not_yield_verified_abstract"
+    },
+    {
+      "id": "W2770265749",
+      "title": "Fundamentals of Probability and Stochastic Processes with Applications to Communications",
+      "status": "unresolved",
+      "abstract": null,
+      "attempts": [
+        {
+          "url": "https://link.springer.com/book/10.1007/978-3-319-68075-0",
+          "http": 200,
+          "status": "received",
+          "file": "api-page-210c29add7bc38b7b8dc00b9ff3fe9372c833b39ecdb361d6ff595a183635626.html"
+        }
+      ],
+      "candidates": [],
+      "reason": "canonical_publisher_route_did_not_yield_verified_abstract"
+    }
+  ]
+}

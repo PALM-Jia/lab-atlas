@@ -1,0 +1,110 @@
+{
+  "seed": 20261012,
+  "frozen": true,
+  "sampling": "Python random.Random; fixed stratum order lab-with-abstract, lab-title-only, external-with-abstract, external-title-only; pools sorted by paper id; sample then shuffle",
+  "abstract_availability_rule": "Current all-papers-with-abstracts abstract is nonempty and quality is existing_abstract_not_individually_reverified or source_abstract_verified_title_and_identifier; vocabulary metadata does not determine availability",
+  "external_duplicate_exclusion": {
+    "normalization": "Unicode NFKC then casefold, keep alphanumeric characters only; external normalized title identical to any internal title is excluded",
+    "count": 3,
+    "with_abstract": 3,
+    "title_only": 0
+  },
+  "strata": [
+    {
+      "lab": true,
+      "abstract_available": true,
+      "population": 126,
+      "sample_count": 4
+    },
+    {
+      "lab": true,
+      "abstract_available": false,
+      "population": 18,
+      "sample_count": 1
+    },
+    {
+      "lab": false,
+      "abstract_available": true,
+      "population": 1335,
+      "sample_count": 4
+    },
+    {
+      "lab": false,
+      "abstract_available": false,
+      "population": 191,
+      "sample_count": 1
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "S01",
+      "paper_id": "W3142256053",
+      "title": "Multilabel Ranking with Inconsistent Rankers",
+      "lab": false,
+      "abstract_available": true
+    },
+    {
+      "sample_id": "S02",
+      "paper_id": "lab-0f498c8f864f",
+      "title": "Discriminative Low-Rank Representation for HSI Clustering",
+      "lab": true,
+      "abstract_available": true
+    },
+    {
+      "sample_id": "S03",
+      "paper_id": "W1974596106",
+      "title": "Ambiguously Labeled Learning Using Dictionaries",
+      "lab": false,
+      "abstract_available": true
+    },
+    {
+      "sample_id": "S04",
+      "paper_id": "W2052684427",
+      "title": "ML-KNN: A lazy learning approach to multi-label learning",
+      "lab": false,
+      "abstract_available": false
+    },
+    {
+      "sample_id": "S05",
+      "paper_id": "W18701524",
+      "title": "Nonnegative Spectral Clustering with Discriminative Regularization",
+      "lab": false,
+      "abstract_available": true
+    },
+    {
+      "sample_id": "S06",
+      "paper_id": "lab-0529638ee44a",
+      "title": "Nonnegative Matrix Factorization with Mixed Hypergraph Regularization for Community Detection",
+      "lab": true,
+      "abstract_available": false
+    },
+    {
+      "sample_id": "S07",
+      "paper_id": "lab-05c8a4098fe0",
+      "title": "Ensemble Clustering via Co-Association Matrix Self-Enhancement",
+      "lab": true,
+      "abstract_available": true
+    },
+    {
+      "sample_id": "S08",
+      "paper_id": "lab-d08ff32d883d",
+      "title": "Applying Exponential Family Distribution to Generalized Extreme Learning Machine",
+      "lab": true,
+      "abstract_available": true
+    },
+    {
+      "sample_id": "S09",
+      "paper_id": "lab-7647c3b38f71",
+      "title": "SAGENet: Sub-cluster Aggregation Guided Enhancement for Imbalanced Attributed Graph Clustering",
+      "lab": true,
+      "abstract_available": true
+    },
+    {
+      "sample_id": "S10",
+      "paper_id": "W4292363360",
+      "title": "Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers",
+      "lab": false,
+      "abstract_available": true
+    }
+  ]
+}

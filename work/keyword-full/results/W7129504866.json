@@ -1,0 +1,13 @@
+{
+  "paper_id": "W7129504866",
+  "annotations": [
+    {
+      "keyword_id": "subspace-clustering",
+      "exact_quote": "Subspace Clustering in Wavelet Packets Domain",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以子空间聚类为研究任务，研究在小波包域中的子空间聚类。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

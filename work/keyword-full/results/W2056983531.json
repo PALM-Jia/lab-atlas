@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2056983531",
+  "annotations": [
+    {
+      "keyword_id": "confidence-calibration",
+      "exact_quote": "posterior class probabilities",
+      "evidence_field": "abstract",
+      "reason_zh": "论文研究SVM概率输出，目标是为应用提供后验类别概率；改进算法使概率输出理论收敛并避免数值困难，属于预测置信度/概率与正确概率相符的校准问题。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

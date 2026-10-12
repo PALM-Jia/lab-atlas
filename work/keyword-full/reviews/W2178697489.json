@@ -1,0 +1,35 @@
+{
+  "paper_id": "W2178697489",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "we propose to decompose these two types of constraint propagation into semi-supervised learning subproblems so that they can be uniformly solved based on the traditional label propagation techniques.",
+      "evidence_field": "abstract",
+      "reason_zh": "视图内与视图间成对关系监督被传播并分解为半监督子问题，以不完整关系监督替代充分实例标签；该条件构成实质研究问题，首轮遗漏弱监督设定。"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "we propose to decompose these two types of constraint propagation into semi-supervised learning subproblems so that they can be uniformly solved based on the traditional label propagation techniques.",
+        "evidence_field": "abstract",
+        "reason_zh": "视图内与视图间成对关系监督被传播并分解为半监督子问题，以不完整关系监督替代充分实例标签；该条件构成实质研究问题，首轮遗漏弱监督设定。"
+      }
+    ],
+    "abstentions": [
+      {
+        "keyword_id": "multimodal-retrieval",
+        "reason_zh": "摘要仅说明在 cross-view retrieval 上做实验，未明确不同模态查询与候选映射到可比较检索空间，多模态检索证据不足。"
+      },
+      {
+        "keyword_id": "graph-manifold-regularization",
+        "reason_zh": "虽提到标签传播和相似矩阵调整，但未明确使用图拉普拉斯或流形几何一致性约束，无法确认图与流形正则化。"
+      }
+    ],
+    "input_issues": []
+  }
+}

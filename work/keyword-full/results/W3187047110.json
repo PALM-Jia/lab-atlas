@@ -1,0 +1,19 @@
+{
+  "paper_id": "W3187047110",
+  "annotations": [
+    {
+      "keyword_id": "label-distribution-learning",
+      "exact_quote": "Label distribution learning by maintaining label ranking relation",
+      "evidence_field": "title",
+      "reason_zh": "标题与摘要明确以标签分布学习为研究任务，并提出新的LDL算法以维持标签排序关系。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "the distribution implicitly gives the relevance intensities relation of different labels to a particular instance in qualitative terms, i.e., the label ranking relation.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确利用标签分布隐含的标签排序关系，并引入排序损失保持该关系，属于显式建模标签间排序相关结构。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

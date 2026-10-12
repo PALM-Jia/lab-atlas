@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2018849884\",\"annotations\":[{\"keyword_id\":\"dimensionality-reduction\",\"exact_quote\":\"Semi-Supervised Nonlinear Dimensionality Reduction\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以非线性降维为研究任务，面向流形可视化，满足显式低维映射与维度压缩目标。\"},{\"keyword_id\":\"semi-supervised-learning\",\"exact_quote\":\"This paper considers the semi-supervised manifold learning problems.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将问题设定为半监督流形学习，并使用成对 Cannot-Link/Must-Link 约束指导学习，符合有限监督与未标注/成对约束的半监督学习定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

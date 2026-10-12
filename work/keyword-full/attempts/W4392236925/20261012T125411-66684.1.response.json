@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W4392236925\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"UISS-Net: Underwater Image Semantic Segmentation Network for improving boundary segmentation accuracy of underwater images\",\"evidence_field\":\"title\",\"reason_zh\":\"标题和摘要均表明论文提出并研究水下图像语义分割网络，属于像素级图像区域或类别划分任务。\"},{\"keyword_id\":\"underwater-images\",\"exact_quote\":\"However, underwater image segmentation has low accuracy and poor robustness because of turbid underwater environments and insufficient light.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要直接指出研究水下图像分割及其浑浊环境、光照不足导致的退化问题，水下图像是本文直接处理的对象。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2626361187\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"multilabel image classification\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以多标签图像分类为研究任务，构建DCNN多标签分类器，预测单幅图像中可同时成立的多个标签。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

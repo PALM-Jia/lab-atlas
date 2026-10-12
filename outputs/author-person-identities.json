@@ -1,0 +1,3838 @@
+{
+  "summary": {
+    "lab_papers": 144,
+    "original_distinct_names": 207,
+    "alias_groups_merged": 6,
+    "homonym_groups_split": 1,
+    "normalized_person_entries": 201,
+    "pending_name_groups": 1,
+    "possible_total_people": [
+      202,
+      203
+    ],
+    "authors_unavailable_papers": [
+      {
+        "id": "lab-bb2d463fb71a",
+        "title": "Unsupervised Long-tailed Learning for Foundation Model"
+      },
+      {
+        "id": "lab-088383584e44",
+        "title": "PEEK: Partial Label Learning Empowered by External Knowledge"
+      },
+      {
+        "id": "lab-a07279b34373",
+        "title": "Hub for Outliers, Spokes for Inliers: Homeomorphic Latent Space Construction for Dual-Mismatched Semi-Supervised Learning"
+      },
+      {
+        "id": "lab-3af81cff7068",
+        "title": "Beyond Low-Rank: A Region-Aware Imputation Method for Traffic Data Recovery"
+      },
+      {
+        "id": "lab-8ef4decb9b26",
+        "title": "Hyerspectral Image Clustering with Local Sparse Subspace guided Super-Graph Construction"
+      },
+      {
+        "id": "lab-7af4622bbcc3",
+        "title": "Adaptive Graph Feedback Clustering Network"
+      }
+    ]
+  },
+  "alias_rules": {
+    "Hui LIU": "Hui Liu",
+    "Mingkun Xie": "Ming-Kun Xie",
+    "Zhang, Xu": "Xu Zhang",
+    "Jingq Wang": "Jing Wang",
+    "Yang Liu (4829)": "Yang Liu",
+    "Jiaochao Liu": "Jiachao Liu"
+  },
+  "scope": "已收集的实验室论文作者；数据库ID按具体论文中的出现记录映射，不作全库身份绑定。除有专门查证的冲突项外，结合本地署名与合作关系归一。",
+  "people": [
+    {
+      "person_id": "person-ed67380bc492",
+      "name": "Yuheng Jia",
+      "aliases": [
+        "Yuheng Jia"
+      ],
+      "paper_ids": [
+        "lab-d50fd9c219f7",
+        "lab-a9d5b70ee03a",
+        "lab-9bd585a26235",
+        "lab-af85f8a01211",
+        "lab-5403cb1aad23",
+        "lab-efed21f0ba73",
+        "lab-a7cf765d0111",
+        "lab-dec46f74923a",
+        "lab-1ba64af37485",
+        "lab-62249197b63f",
+        "lab-56209c579874",
+        "lab-6e4e588f3743",
+        "lab-9ddc9ff7ce0c",
+        "lab-bf934091a903",
+        "lab-4f00a8eb8a7d",
+        "lab-cb0529713b81",
+        "lab-fe676cbbfafd",
+        "lab-4f3942c218c8",
+        "lab-3f9060fdcde7",
+        "lab-c42096082d68",
+        "lab-8a85b44117f4",
+        "lab-6a0a4e2737ec",
+        "lab-c0cf7adb052a",
+        "lab-fdadc630f8db",
+        "lab-94f819e13bbe",
+        "lab-bc765488bcf7",
+        "lab-50d02eb604b9",
+        "lab-0f498c8f864f",
+        "lab-1f9013eb2f8b",
+        "lab-5db2d9f26022",
+        "lab-d162a6829a75",
+        "lab-2b357d849d9d",
+        "lab-0c8c61ff348e",
+        "lab-51397954ce4d",
+        "lab-9d85eae3a12f",
+        "lab-825376eac3f8",
+        "lab-a6dff26af1aa",
+        "lab-de8760c3355c",
+        "lab-054cd66669d7",
+        "lab-05c8a4098fe0",
+        "lab-6c33c0d49221",
+        "lab-27ee33bde0ac",
+        "lab-25256b9dda22",
+        "lab-8258de75e36e",
+        "lab-762e9d6f5eae",
+        "lab-b98b32a37a21",
+        "lab-11e9d626e8d9",
+        "lab-b613f6b0fb67",
+        "lab-e407c5f18da5",
+        "lab-1ff59dd4a58f",
+        "lab-b653a194f324",
+        "lab-3af1c95693ac",
+        "lab-f46fa8731916",
+        "lab-def7c80ee1d1",
+        "lab-9dab3341b9f1",
+        "lab-719455bd7125",
+        "lab-cf4dec41fda2",
+        "lab-5a1fffb8e6b7",
+        "lab-8238ab546031",
+        "lab-89613a019dfd",
+        "lab-67bf125aef54",
+        "lab-d08ff32d883d",
+        "lab-42c1bb186393",
+        "lab-b84d85c3683d",
+        "lab-9004d11ae525",
+        "lab-458c61eb7de8",
+        "lab-89a32c865fd0",
+        "lab-f121e8ed99c9",
+        "lab-36466e9ba385",
+        "lab-0529638ee44a",
+        "lab-97a46fe9b0c3",
+        "lab-a74d054aa5d2",
+        "lab-0f41d99e2574",
+        "lab-dccd5bfa936b",
+        "lab-061b9da6e2d3",
+        "lab-e73ac884ede0",
+        "lab-1025a6d4de24",
+        "lab-effcb20ed6d4",
+        "lab-2110e10b1fd2",
+        "lab-5dda1e979492",
+        "lab-deff0ac02cbd",
+        "lab-6757df585f08",
+        "lab-532faa4a2fc2",
+        "lab-1a90fc2c3965",
+        "lab-ec6acdec9eea",
+        "lab-4dafc16e5fd8",
+        "lab-80376da04947",
+        "lab-7647c3b38f71",
+        "lab-b4f457369e13",
+        "lab-a1005f21ac76",
+        "lab-a6e1c503e9fd",
+        "lab-fc69e7eb5613",
+        "lab-57c2d8cba676",
+        "lab-9c41930c1897",
+        "lab-8a05dc1f7a41",
+        "lab-914c3b9e7d06",
+        "lab-fc483a521424",
+        "lab-77b725acea33",
+        "lab-918df170a3ad",
+        "lab-084cf1572406",
+        "lab-7fa0af6e345c",
+        "lab-855923053355",
+        "lab-24effaa314d4",
+        "lab-9728948569cd",
+        "lab-d7d729a798a9",
+        "lab-11e2dfe6e2ee",
+        "lab-cfe1c0f8487f",
+        "lab-740b5f6ded12",
+        "lab-d99ee9ba4a13",
+        "lab-82a7992c094e",
+        "lab-22cc955daee0",
+        "lab-305494044431",
+        "lab-d93ee5aa7a9a",
+        "lab-c0b4fa3ab5d5",
+        "lab-bddb535117ca",
+        "lab-2c640db3fd61",
+        "lab-6f75913bf673",
+        "lab-e91390053be5",
+        "lab-e9f08a9f6baf",
+        "lab-624e1914aeb8",
+        "lab-b8edb24bba59",
+        "lab-b15f2540bde4",
+        "lab-f6916a1b1d89",
+        "lab-aa44a48ac9a1",
+        "lab-cafae06c3f4f",
+        "lab-60280e69a6e3",
+        "lab-10ec9a4b941d",
+        "lab-df79e6b90766",
+        "lab-684cd82c2176",
+        "lab-bbbc3701492a",
+        "lab-3d396fcbdc50",
+        "lab-ed665f8e6c6f",
+        "lab-5111c5177048",
+        "lab-1eb268aa7f49",
+        "lab-a27b9589d697",
+        "lab-7d1305d1760e",
+        "lab-761fa50033a3",
+        "lab-bba08ca100fc"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5013880628",
+        "https://openalex.org/A5154060305",
+        "https://openalex.org/A5139056747",
+        "https://openalex.org/A5035903159",
+        "https://openalex.org/A5130681278",
+        "https://openalex.org/A5128259781",
+        "https://openalex.org/A5151043204",
+        "https://openalex.org/A5151882921",
+        "https://openalex.org/A5135598511",
+        "https://openalex.org/A5135876551",
+        "https://openalex.org/A5136628146",
+        "https://openalex.org/A5139730201",
+        "https://openalex.org/A5134969218",
+        "https://openalex.org/A5124822679",
+        "https://openalex.org/A5129706196",
+        "https://openalex.org/A5152031663"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-27d178331f81",
+      "name": "Junhui Hou",
+      "aliases": [
+        "Junhui Hou"
+      ],
+      "paper_ids": [
+        "lab-d50fd9c219f7",
+        "lab-a9d5b70ee03a",
+        "lab-9bd585a26235",
+        "lab-af85f8a01211",
+        "lab-efed21f0ba73",
+        "lab-a7cf765d0111",
+        "lab-dec46f74923a",
+        "lab-1ba64af37485",
+        "lab-cb0529713b81",
+        "lab-3f9060fdcde7",
+        "lab-d162a6829a75",
+        "lab-a6dff26af1aa",
+        "lab-6c33c0d49221",
+        "lab-27ee33bde0ac",
+        "lab-762e9d6f5eae",
+        "lab-11e9d626e8d9",
+        "lab-b613f6b0fb67",
+        "lab-1ff59dd4a58f",
+        "lab-b653a194f324",
+        "lab-3af1c95693ac",
+        "lab-def7c80ee1d1",
+        "lab-cf4dec41fda2",
+        "lab-5a1fffb8e6b7",
+        "lab-8238ab546031",
+        "lab-89613a019dfd",
+        "lab-67bf125aef54",
+        "lab-42c1bb186393",
+        "lab-458c61eb7de8",
+        "lab-89a32c865fd0",
+        "lab-f121e8ed99c9",
+        "lab-36466e9ba385",
+        "lab-061b9da6e2d3",
+        "lab-e73ac884ede0",
+        "lab-effcb20ed6d4",
+        "lab-80376da04947",
+        "lab-b4f457369e13",
+        "lab-77b725acea33",
+        "lab-918df170a3ad",
+        "lab-084cf1572406",
+        "lab-7fa0af6e345c",
+        "lab-855923053355",
+        "lab-24effaa314d4",
+        "lab-82a7992c094e",
+        "lab-e91390053be5",
+        "lab-624e1914aeb8",
+        "lab-b8edb24bba59",
+        "lab-3d396fcbdc50",
+        "lab-ed665f8e6c6f",
+        "lab-5111c5177048",
+        "lab-1eb268aa7f49"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5031957432",
+        "https://openalex.org/A5154022415",
+        "https://openalex.org/A5128710831",
+        "https://openalex.org/A5129667806"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-29db4f6c57b5",
+      "name": "Hui Liu",
+      "aliases": [
+        "Hui Liu",
+        "Hui LIU"
+      ],
+      "paper_ids": [
+        "lab-d50fd9c219f7",
+        "lab-a9d5b70ee03a",
+        "lab-9bd585a26235",
+        "lab-af85f8a01211",
+        "lab-efed21f0ba73",
+        "lab-a7cf765d0111",
+        "lab-dec46f74923a",
+        "lab-1ba64af37485",
+        "lab-cb0529713b81",
+        "lab-3f9060fdcde7",
+        "lab-d162a6829a75",
+        "lab-a6dff26af1aa",
+        "lab-6c33c0d49221",
+        "lab-27ee33bde0ac",
+        "lab-762e9d6f5eae",
+        "lab-11e9d626e8d9",
+        "lab-1ff59dd4a58f",
+        "lab-b653a194f324",
+        "lab-3af1c95693ac",
+        "lab-def7c80ee1d1",
+        "lab-89613a019dfd",
+        "lab-061b9da6e2d3",
+        "lab-e73ac884ede0",
+        "lab-effcb20ed6d4",
+        "lab-80376da04947",
+        "lab-b4f457369e13",
+        "lab-77b725acea33",
+        "lab-918df170a3ad",
+        "lab-084cf1572406",
+        "lab-7fa0af6e345c",
+        "lab-855923053355",
+        "lab-24effaa314d4",
+        "lab-82a7992c094e",
+        "lab-e91390053be5",
+        "lab-624e1914aeb8",
+        "lab-b8edb24bba59",
+        "lab-3d396fcbdc50",
+        "lab-ed665f8e6c6f",
+        "lab-5111c5177048"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100387652",
+        "https://openalex.org/A5047851681",
+        "https://openalex.org/A5101725143",
+        "https://openalex.org/A5100387672",
+        "https://openalex.org/A5153816963",
+        "https://openalex.org/A5104298138",
+        "https://openalex.org/A5130689737",
+        "https://openalex.org/A5148155997",
+        "https://openalex.org/A5129714133",
+        "https://openalex.org/A5104076512"
+      ],
+      "sources": [
+        "https://cis.sfu.edu.hk/people-jianti.html",
+        "https://arxiv.org/abs/2511.21193"
+      ],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-586bc5d79b46",
+      "name": "Sam Kwong",
+      "aliases": [
+        "Sam Kwong"
+      ],
+      "paper_ids": [
+        "lab-d50fd9c219f7",
+        "lab-a9d5b70ee03a",
+        "lab-9bd585a26235",
+        "lab-4f00a8eb8a7d",
+        "lab-11e9d626e8d9",
+        "lab-e407c5f18da5",
+        "lab-f46fa8731916",
+        "lab-def7c80ee1d1",
+        "lab-9dab3341b9f1",
+        "lab-719455bd7125",
+        "lab-5a1fffb8e6b7",
+        "lab-8238ab546031",
+        "lab-89613a019dfd",
+        "lab-d08ff32d883d",
+        "lab-42c1bb186393",
+        "lab-b84d85c3683d",
+        "lab-9004d11ae525",
+        "lab-458c61eb7de8",
+        "lab-f121e8ed99c9",
+        "lab-36466e9ba385",
+        "lab-0529638ee44a",
+        "lab-97a46fe9b0c3",
+        "lab-a74d054aa5d2",
+        "lab-1eb268aa7f49",
+        "lab-a27b9589d697",
+        "lab-7d1305d1760e",
+        "lab-761fa50033a3",
+        "lab-bba08ca100fc"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5008386708"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-fd4115f83457",
+      "name": "Ran Wang",
+      "aliases": [
+        "Ran Wang"
+      ],
+      "paper_ids": [
+        "lab-5403cb1aad23",
+        "lab-6e4e588f3743",
+        "lab-9ddc9ff7ce0c",
+        "lab-4f3942c218c8",
+        "lab-8a85b44117f4",
+        "lab-50d02eb604b9",
+        "lab-1f9013eb2f8b",
+        "lab-825376eac3f8",
+        "lab-05c8a4098fe0",
+        "lab-e407c5f18da5",
+        "lab-f46fa8731916",
+        "lab-719455bd7125",
+        "lab-5a1fffb8e6b7",
+        "lab-d08ff32d883d",
+        "lab-b84d85c3683d",
+        "lab-57c2d8cba676",
+        "lab-e9f08a9f6baf",
+        "lab-aa44a48ac9a1",
+        "lab-bbbc3701492a",
+        "lab-a27b9589d697",
+        "lab-7d1305d1760e"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5114377922",
+        "https://openalex.org/A5136701697",
+        "https://openalex.org/A5114348344",
+        "https://openalex.org/A5107209342",
+        "https://openalex.org/A5115595561"
+      ],
+      "sources": [
+        "https://dblp.org/pid/12/6277-1.html",
+        "https://math.szu.edu.cn/en/info/1092/1290.htm",
+        "https://arxiv.org/html/2605.20965v1"
+      ],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-a376271a6040",
+      "name": "Wenhui Wu",
+      "aliases": [
+        "Wenhui Wu"
+      ],
+      "paper_ids": [
+        "lab-9ddc9ff7ce0c",
+        "lab-50d02eb604b9",
+        "lab-9dab3341b9f1",
+        "lab-719455bd7125",
+        "lab-5a1fffb8e6b7",
+        "lab-42c1bb186393",
+        "lab-b84d85c3683d",
+        "lab-458c61eb7de8",
+        "lab-36466e9ba385",
+        "lab-0529638ee44a",
+        "lab-e9f08a9f6baf",
+        "lab-1eb268aa7f49",
+        "lab-7d1305d1760e",
+        "lab-bba08ca100fc"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5081114494",
+        "https://openalex.org/A5048212986"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-beb8176cbc0a",
+      "name": "Zhiqiang Kou",
+      "aliases": [
+        "Zhiqiang Kou"
+      ],
+      "paper_ids": [
+        "lab-56209c579874",
+        "lab-6a0a4e2737ec",
+        "lab-fdadc630f8db",
+        "lab-bc765488bcf7",
+        "lab-5db2d9f26022",
+        "lab-51397954ce4d",
+        "lab-de8760c3355c",
+        "lab-4dafc16e5fd8",
+        "lab-a1005f21ac76",
+        "lab-a6e1c503e9fd",
+        "lab-914c3b9e7d06",
+        "lab-d7d729a798a9",
+        "lab-c0b4fa3ab5d5",
+        "lab-b15f2540bde4"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5089186967"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "graduated"
+    },
+    {
+      "person_id": "person-14fe190c250f",
+      "name": "Xin Geng",
+      "aliases": [
+        "Xin Geng"
+      ],
+      "paper_ids": [
+        "lab-56209c579874",
+        "lab-6a0a4e2737ec",
+        "lab-fdadc630f8db",
+        "lab-bc765488bcf7",
+        "lab-5db2d9f26022",
+        "lab-51397954ce4d",
+        "lab-de8760c3355c",
+        "lab-a1005f21ac76",
+        "lab-a6e1c503e9fd",
+        "lab-914c3b9e7d06",
+        "lab-d7d729a798a9",
+        "lab-c0b4fa3ab5d5",
+        "lab-b15f2540bde4"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5074742406",
+        "https://openalex.org/A5135919764"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-da79de2fa7ad",
+      "name": "Yaxin Hou",
+      "aliases": [
+        "Yaxin Hou"
+      ],
+      "paper_ids": [
+        "lab-dec46f74923a",
+        "lab-061b9da6e2d3",
+        "lab-e73ac884ede0",
+        "lab-1025a6d4de24",
+        "lab-2110e10b1fd2",
+        "lab-deff0ac02cbd",
+        "lab-80376da04947",
+        "lab-fc69e7eb5613",
+        "lab-918df170a3ad",
+        "lab-7fa0af6e345c",
+        "lab-22cc955daee0"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5110623026",
+        "https://openalex.org/A5130640253",
+        "https://openalex.org/A5129658901",
+        "https://openalex.org/A5125693958",
+        "https://openalex.org/A5004317152"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "current"
+    },
+    {
+      "person_id": "person-41a488370358",
+      "name": "Jing Wang",
+      "aliases": [
+        "Jing Wang",
+        "Jingq Wang"
+      ],
+      "paper_ids": [
+        "lab-56209c579874",
+        "lab-6a0a4e2737ec",
+        "lab-fdadc630f8db",
+        "lab-bc765488bcf7",
+        "lab-5db2d9f26022",
+        "lab-51397954ce4d",
+        "lab-de8760c3355c",
+        "lab-d7d729a798a9",
+        "lab-c0b4fa3ab5d5",
+        "lab-b15f2540bde4"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100378682",
+        "https://openalex.org/A5144854472",
+        "https://openalex.org/A5152042788"
+      ],
+      "sources": [
+        "https://wangjing4research.github.io/"
+      ],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-a78db55df438",
+      "name": "Bo Han",
+      "aliases": [
+        "Bo Han"
+      ],
+      "paper_ids": [
+        "lab-efed21f0ba73",
+        "lab-dec46f74923a",
+        "lab-0f498c8f864f",
+        "lab-e73ac884ede0",
+        "lab-5dda1e979492",
+        "lab-80376da04947",
+        "lab-b4f457369e13",
+        "lab-fc69e7eb5613",
+        "lab-7fa0af6e345c"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5047240103",
+        "https://openalex.org/A5101539877",
+        "https://openalex.org/A5150918641",
+        "https://openalex.org/A5135830492",
+        "https://openalex.org/A5129642879"
+      ],
+      "sources": [
+        "https://arxiv.org/html/2410.18388v2",
+        "https://arxiv.org/pdf/2605.07557",
+        "https://ojs.aaai.org/index.php/AAAI/article/download/39302/43263"
+      ],
+      "identity_note": "东南大学计算机学院，hanbo@seu.edu.cn；不与HKBU同名作者合并。",
+      "group": "current"
+    },
+    {
+      "person_id": "person-d6c2f320d6c1",
+      "name": "Qingfu Zhang",
+      "aliases": [
+        "Qingfu Zhang"
+      ],
+      "paper_ids": [
+        "lab-d50fd9c219f7",
+        "lab-a9d5b70ee03a",
+        "lab-11e9d626e8d9",
+        "lab-1ff59dd4a58f",
+        "lab-b653a194f324",
+        "lab-3af1c95693ac",
+        "lab-ed665f8e6c6f",
+        "lab-5111c5177048",
+        "lab-761fa50033a3"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5000546219"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-a71d4b5d5f5d",
+      "name": "Shujun Yang",
+      "aliases": [
+        "Shujun Yang"
+      ],
+      "paper_ids": [
+        "lab-fe676cbbfafd",
+        "lab-9d85eae3a12f",
+        "lab-8258de75e36e",
+        "lab-b98b32a37a21",
+        "lab-b613f6b0fb67",
+        "lab-67bf125aef54",
+        "lab-89a32c865fd0"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5127858245",
+        "https://openalex.org/A5060403874"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-685abfa4953b",
+      "name": "Fuchao Yang",
+      "aliases": [
+        "Fuchao Yang"
+      ],
+      "paper_ids": [
+        "lab-5403cb1aad23",
+        "lab-740b5f6ded12",
+        "lab-d93ee5aa7a9a",
+        "lab-e91390053be5",
+        "lab-624e1914aeb8",
+        "lab-10ec9a4b941d"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5106708724",
+        "https://openalex.org/A5127861937"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "graduated"
+    },
+    {
+      "person_id": "person-6c22f850ed38",
+      "name": "Haiyun Guo",
+      "aliases": [
+        "Haiyun Guo"
+      ],
+      "paper_ids": [
+        "lab-25256b9dda22",
+        "lab-deff0ac02cbd",
+        "lab-532faa4a2fc2",
+        "lab-ec6acdec9eea",
+        "lab-11e2dfe6e2ee",
+        "lab-d99ee9ba4a13"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5085707125",
+        "https://openalex.org/A5126125864",
+        "https://openalex.org/A5132876941"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-978697b6e982",
+      "name": "Jiawei Tang",
+      "aliases": [
+        "Jiawei Tang"
+      ],
+      "paper_ids": [
+        "lab-2110e10b1fd2",
+        "lab-deff0ac02cbd",
+        "lab-855923053355",
+        "lab-305494044431",
+        "lab-b15f2540bde4",
+        "lab-f6916a1b1d89"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5129692295",
+        "https://openalex.org/A5101788255",
+        "https://openalex.org/A5137147476"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "current"
+    },
+    {
+      "person_id": "person-1b0a788d400b",
+      "name": "Zhihao Peng",
+      "aliases": [
+        "Zhihao Peng"
+      ],
+      "paper_ids": [
+        "lab-a6dff26af1aa",
+        "lab-27ee33bde0ac",
+        "lab-762e9d6f5eae",
+        "lab-b653a194f324",
+        "lab-cf4dec41fda2",
+        "lab-3d396fcbdc50"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5058628552"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-863a16bc0f43",
+      "name": "Zhuoming Li",
+      "aliases": [
+        "Zhuoming Li"
+      ],
+      "paper_ids": [
+        "lab-1ba64af37485",
+        "lab-e73ac884ede0",
+        "lab-5dda1e979492",
+        "lab-b4f457369e13",
+        "lab-7fa0af6e345c",
+        "lab-6f75913bf673"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5153536292",
+        "https://openalex.org/A5129695834",
+        "https://openalex.org/A5016393931"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "current"
+    },
+    {
+      "person_id": "person-d23bd4220ea3",
+      "name": "Jiahao Jiang",
+      "aliases": [
+        "Jiahao Jiang"
+      ],
+      "paper_ids": [
+        "lab-effcb20ed6d4",
+        "lab-855923053355",
+        "lab-b8edb24bba59",
+        "lab-f6916a1b1d89",
+        "lab-684cd82c2176"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5129713785",
+        "https://openalex.org/A5101901303",
+        "https://openalex.org/A5101931191"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "graduated"
+    },
+    {
+      "person_id": "person-76d70fbc8164",
+      "name": "Ming-Kun Xie",
+      "aliases": [
+        "Ming-Kun Xie",
+        "Mingkun Xie"
+      ],
+      "paper_ids": [
+        "lab-6a0a4e2737ec",
+        "lab-a6e1c503e9fd",
+        "lab-914c3b9e7d06",
+        "lab-d7d729a798a9",
+        "lab-c0b4fa3ab5d5"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5085720255",
+        "https://openalex.org/A5124289986",
+        "https://openalex.org/A5145182537"
+      ],
+      "sources": [
+        "https://xiemk.github.io/"
+      ],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-7ae3b71df386",
+      "name": "Wei Gao",
+      "aliases": [
+        "Wei Gao"
+      ],
+      "paper_ids": [
+        "lab-b84d85c3683d",
+        "lab-0529638ee44a",
+        "lab-97a46fe9b0c3",
+        "lab-7d1305d1760e",
+        "lab-bba08ca100fc"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5050309466",
+        "https://openalex.org/A5017175424"
+      ],
+      "sources": [
+        "https://gaowei262.github.io/pubs-full.html"
+      ],
+      "identity_note": "",
+      "group": "graduated"
+    },
+    {
+      "person_id": "person-e2c6956bf522",
+      "name": "Xiaoyu Wang — SEU",
+      "aliases": [
+        "Xiaoyu Wang"
+      ],
+      "paper_ids": [
+        "lab-e73ac884ede0",
+        "lab-5dda1e979492",
+        "lab-b4f457369e13",
+        "lab-9c41930c1897",
+        "lab-7fa0af6e345c"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5139826686",
+        "https://openalex.org/A5129737140"
+      ],
+      "sources": [
+        "https://ojs.aaai.org/index.php/AAAI/article/download/39302/43263",
+        "https://aclanthology.org/2026.acl-long.1265.pdf"
+      ],
+      "identity_note": "DiCaP：东南软件学院，wang_xy@seu.edu.cn；CuMA：东南计算机学院，结合单位与合作关系归一；其余3篇仅署名，归入实验室多标签合作组。",
+      "group": "current"
+    },
+    {
+      "person_id": "person-a8d245854ae1",
+      "name": "Xu Zhang",
+      "aliases": [
+        "Xu Zhang",
+        "Zhang, Xu"
+      ],
+      "paper_ids": [
+        "lab-a7cf765d0111",
+        "lab-8a85b44117f4",
+        "lab-061b9da6e2d3",
+        "lab-6757df585f08",
+        "lab-80376da04947"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5101869306",
+        "https://openalex.org/A5130715276",
+        "https://openalex.org/A5150875220"
+      ],
+      "sources": [
+        "https://xuz2019.github.io/publications/"
+      ],
+      "identity_note": "",
+      "group": "graduated"
+    },
+    {
+      "person_id": "person-fd26f5991b91",
+      "name": "Zhixin Li",
+      "aliases": [
+        "Zhixin Li"
+      ],
+      "paper_ids": [
+        "lab-0f498c8f864f",
+        "lab-7647c3b38f71",
+        "lab-77b725acea33",
+        "lab-82a7992c094e",
+        "lab-bddb535117ca"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5151896540"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "current"
+    },
+    {
+      "person_id": "person-5b95b7c5af8e",
+      "name": "Chengchuan An",
+      "aliases": [
+        "Chengchuan An"
+      ],
+      "paper_ids": [
+        "lab-c42096082d68",
+        "lab-2b357d849d9d",
+        "lab-0c8c61ff348e",
+        "lab-cafae06c3f4f"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5046347144"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-d28a39ec4e81",
+      "name": "Chongjie Si",
+      "aliases": [
+        "Chongjie Si"
+      ],
+      "paper_ids": [
+        "lab-825376eac3f8",
+        "lab-dccd5bfa936b",
+        "lab-fc483a521424",
+        "lab-df79e6b90766"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5122015677",
+        "https://openalex.org/A5100493819"
+      ],
+      "sources": [
+        "https://chongjiesi.site/"
+      ],
+      "identity_note": "",
+      "group": "graduated"
+    },
+    {
+      "person_id": "person-c58f00e871cb",
+      "name": "Hua Li",
+      "aliases": [
+        "Hua Li"
+      ],
+      "paper_ids": [
+        "lab-4f00a8eb8a7d",
+        "lab-c0cf7adb052a",
+        "lab-9dab3341b9f1",
+        "lab-9004d11ae525"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5078094074"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-fa82c4e2e671",
+      "name": "Jinqiao Wang",
+      "aliases": [
+        "Jinqiao Wang"
+      ],
+      "paper_ids": [
+        "lab-25256b9dda22",
+        "lab-532faa4a2fc2",
+        "lab-ec6acdec9eea",
+        "lab-d99ee9ba4a13"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5058420913",
+        "https://openalex.org/A5151699674"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-6b07075816ba",
+      "name": "Min-Ling Zhang",
+      "aliases": [
+        "Min-Ling Zhang"
+      ],
+      "paper_ids": [
+        "lab-5403cb1aad23",
+        "lab-825376eac3f8",
+        "lab-aa44a48ac9a1",
+        "lab-df79e6b90766"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5079083101"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-93ba74d2e01b",
+      "name": "Yang He",
+      "aliases": [
+        "Yang He"
+      ],
+      "paper_ids": [
+        "lab-c42096082d68",
+        "lab-2b357d849d9d",
+        "lab-0c8c61ff348e",
+        "lab-cafae06c3f4f"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5061054219",
+        "https://openalex.org/A5085087785"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-ddd5513e34ef",
+      "name": "Yongqiang Dong",
+      "aliases": [
+        "Yongqiang Dong"
+      ],
+      "paper_ids": [
+        "lab-740b5f6ded12",
+        "lab-e91390053be5",
+        "lab-624e1914aeb8",
+        "lab-10ec9a4b941d"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5101079661",
+        "https://openalex.org/A5146709240"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-f573f1be0155",
+      "name": "Zhenglin Hua",
+      "aliases": [
+        "Zhenglin Hua"
+      ],
+      "paper_ids": [
+        "lab-deff0ac02cbd",
+        "lab-57c2d8cba676",
+        "lab-11e2dfe6e2ee",
+        "lab-d99ee9ba4a13"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5128225198"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "current"
+    },
+    {
+      "person_id": "person-e62b7516de89",
+      "name": "Biao Liu",
+      "aliases": [
+        "Biao Liu"
+      ],
+      "paper_ids": [
+        "lab-de8760c3355c",
+        "lab-a1005f21ac76",
+        "lab-a6e1c503e9fd"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5128271220"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-8eb38d3f8fda",
+      "name": "Di Jiang",
+      "aliases": [
+        "Di Jiang"
+      ],
+      "paper_ids": [
+        "lab-4dafc16e5fd8",
+        "lab-a1005f21ac76",
+        "lab-914c3b9e7d06"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5128219769"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-483b00d1f32e",
+      "name": "Hailin Wang",
+      "aliases": [
+        "Hailin Wang"
+      ],
+      "paper_ids": [
+        "lab-6a0a4e2737ec",
+        "lab-d7d729a798a9",
+        "lab-c0b4fa3ab5d5"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100330277",
+        "https://openalex.org/A5145584763",
+        "https://openalex.org/A5100330272"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-d32a5b6468e6",
+      "name": "Hanyang Li",
+      "aliases": [
+        "Hanyang Li"
+      ],
+      "paper_ids": [
+        "lab-1025a6d4de24",
+        "lab-fc69e7eb5613",
+        "lab-24effaa314d4"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5135838889",
+        "https://openalex.org/A5101420384"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "graduated"
+    },
+    {
+      "person_id": "person-26ad692518cc",
+      "name": "Haoye Qiu",
+      "aliases": [
+        "Haoye Qiu"
+      ],
+      "paper_ids": [
+        "lab-a7cf765d0111",
+        "lab-6e4e588f3743",
+        "lab-6757df585f08"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5050899711"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "current"
+    },
+    {
+      "person_id": "person-42faa8b25a78",
+      "name": "Jinghan He",
+      "aliases": [
+        "Jinghan He"
+      ],
+      "paper_ids": [
+        "lab-deff0ac02cbd",
+        "lab-11e2dfe6e2ee",
+        "lab-d99ee9ba4a13"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5114654047",
+        "https://openalex.org/A5100601606"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-34db2630e4dc",
+      "name": "Jingxin Xia",
+      "aliases": [
+        "Jingxin Xia"
+      ],
+      "paper_ids": [
+        "lab-c42096082d68",
+        "lab-2b357d849d9d",
+        "lab-0c8c61ff348e"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5052152970"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-5760d3ade861",
+      "name": "Jun Ma",
+      "aliases": [
+        "Jun Ma"
+      ],
+      "paper_ids": [
+        "lab-061b9da6e2d3",
+        "lab-fc69e7eb5613",
+        "lab-918df170a3ad"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5130705720",
+        "https://openalex.org/A5135908183"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "current"
+    },
+    {
+      "person_id": "person-08b75224ad4d",
+      "name": "Junfeng Fang",
+      "aliases": [
+        "Junfeng Fang"
+      ],
+      "paper_ids": [
+        "lab-deff0ac02cbd",
+        "lab-11e2dfe6e2ee",
+        "lab-d99ee9ba4a13"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5041233180"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-c30b0165a956",
+      "name": "Qian Du",
+      "aliases": [
+        "Qian Du"
+      ],
+      "paper_ids": [
+        "lab-b613f6b0fb67",
+        "lab-67bf125aef54",
+        "lab-89a32c865fd0"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5033017179"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-0196fa60a739",
+      "name": "Runmin Cong",
+      "aliases": [
+        "Runmin Cong"
+      ],
+      "paper_ids": [
+        "lab-4f00a8eb8a7d",
+        "lab-9dab3341b9f1",
+        "lab-9004d11ae525"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5091558139"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-77b5b3e4ab3e",
+      "name": "Shaohui Mei",
+      "aliases": [
+        "Shaohui Mei"
+      ],
+      "paper_ids": [
+        "lab-b613f6b0fb67",
+        "lab-67bf125aef54",
+        "lab-89a32c865fd0"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5067207818"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-8affd97ee9db",
+      "name": "Wing W. Y. Ng",
+      "aliases": [
+        "Wing W. Y. Ng"
+      ],
+      "paper_ids": [
+        "lab-1a90fc2c3965",
+        "lab-57c2d8cba676",
+        "lab-e9f08a9f6baf"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5136645995",
+        "https://openalex.org/A5105759393"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-1c8f3b921522",
+      "name": "Xizhao Wang",
+      "aliases": [
+        "Xizhao Wang"
+      ],
+      "paper_ids": [
+        "lab-1a90fc2c3965",
+        "lab-57c2d8cba676",
+        "lab-e9f08a9f6baf"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5136722719",
+        "https://openalex.org/A5108859263"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-f83a80ae8fb1",
+      "name": "Yutong Xie",
+      "aliases": [
+        "Yutong Xie"
+      ],
+      "paper_ids": [
+        "lab-deff0ac02cbd",
+        "lab-57c2d8cba676",
+        "lab-d93ee5aa7a9a"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5136628994",
+        "https://openalex.org/A5101756484"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "current"
+    },
+    {
+      "person_id": "person-08c3c3111b55",
+      "name": "Zhengxing Jiao",
+      "aliases": [
+        "Zhengxing Jiao"
+      ],
+      "paper_ids": [
+        "lab-061b9da6e2d3",
+        "lab-1025a6d4de24",
+        "lab-918df170a3ad"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5090432008"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "current"
+    },
+    {
+      "person_id": "person-193839e06752",
+      "name": "Changwei Wang",
+      "aliases": [
+        "Changwei Wang"
+      ],
+      "paper_ids": [
+        "lab-6a0a4e2737ec",
+        "lab-914c3b9e7d06"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5020628396",
+        "https://openalex.org/A5125702492"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-f5f98e8e9ce9",
+      "name": "Chuanbo Chen",
+      "aliases": [
+        "Chuanbo Chen"
+      ],
+      "paper_ids": [
+        "lab-9dab3341b9f1",
+        "lab-9004d11ae525"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5109953350"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-7789bf9c3b3f",
+      "name": "Debby D. Wang",
+      "aliases": [
+        "Debby D. Wang"
+      ],
+      "paper_ids": [
+        "lab-1f9013eb2f8b",
+        "lab-bbbc3701492a"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5032665783"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-ee87dadbfb55",
+      "name": "Ding Ding",
+      "aliases": [
+        "Ding Ding"
+      ],
+      "paper_ids": [
+        "lab-6757df585f08",
+        "lab-918df170a3ad"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-16e48c907c3c",
+      "name": "Dong-Dong Wu",
+      "aliases": [
+        "Dong-Dong Wu"
+      ],
+      "paper_ids": [
+        "lab-4dafc16e5fd8",
+        "lab-a6e1c503e9fd"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5124245842"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-09df9ef09596",
+      "name": "Hanlin Gu",
+      "aliases": [
+        "Hanlin Gu"
+      ],
+      "paper_ids": [
+        "lab-4dafc16e5fd8",
+        "lab-a1005f21ac76"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5046115188"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-c4aac63c271f",
+      "name": "Jiachao Liu",
+      "aliases": [
+        "Jiachao Liu",
+        "Jiaochao Liu"
+      ],
+      "paper_ids": [
+        "lab-0c8c61ff348e",
+        "lab-cafae06c3f4f"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5069708701"
+      ],
+      "sources": [
+        "https://heyang49.github.io/publications/",
+        "https://arxiv.org/pdf/2411.05842"
+      ],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-7c86b9f48616",
+      "name": "Jianhan Qi",
+      "aliases": [
+        "Jianhan Qi"
+      ],
+      "paper_ids": [
+        "lab-3f9060fdcde7",
+        "lab-d162a6829a75"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5039520782"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "graduated"
+    },
+    {
+      "person_id": "person-66fc38aec3b8",
+      "name": "Jianhong Cheng",
+      "aliases": [
+        "Jianhong Cheng"
+      ],
+      "paper_ids": [
+        "lab-af85f8a01211",
+        "lab-e91390053be5"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5045637179"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "graduated"
+    },
+    {
+      "person_id": "person-91239352b6c7",
+      "name": "Jianhui Lv",
+      "aliases": [
+        "Jianhui Lv"
+      ],
+      "paper_ids": [
+        "lab-fdadc630f8db",
+        "lab-5db2d9f26022"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5089781142"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-bfa9b8d5f9b1",
+      "name": "Junxiang Wu",
+      "aliases": [
+        "Junxiang Wu"
+      ],
+      "paper_ids": [
+        "lab-a1005f21ac76",
+        "lab-914c3b9e7d06"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5134940881"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-8b53c025d776",
+      "name": "Junyang Chen",
+      "aliases": [
+        "Junyang Chen"
+      ],
+      "paper_ids": [
+        "lab-a6e1c503e9fd",
+        "lab-d7d729a798a9"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5137080541",
+        "https://openalex.org/A5145483362"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-7621c226e78e",
+      "name": "Liyang Hu",
+      "aliases": [
+        "Liyang Hu"
+      ],
+      "paper_ids": [
+        "lab-054cd66669d7",
+        "lab-60280e69a6e3"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5023397764"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-7dcf61551c3e",
+      "name": "Masashi Sugiyama",
+      "aliases": [
+        "Masashi Sugiyama"
+      ],
+      "paper_ids": [
+        "lab-a6e1c503e9fd",
+        "lab-c0b4fa3ab5d5"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5072744508"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-fcc58b8d857b",
+      "name": "Meng Hu",
+      "aliases": [
+        "Meng Hu"
+      ],
+      "paper_ids": [
+        "lab-9ddc9ff7ce0c",
+        "lab-4f3942c218c8"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-d6b111e68c66",
+      "name": "Muqing Liu",
+      "aliases": [
+        "Muqing Liu"
+      ],
+      "paper_ids": [
+        "lab-dccd5bfa936b",
+        "lab-fc483a521424"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5124788330"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-674e940af9bb",
+      "name": "Qirui Lin",
+      "aliases": [
+        "Qirui Lin"
+      ],
+      "paper_ids": [
+        "lab-4f00a8eb8a7d",
+        "lab-c0cf7adb052a"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5133622574"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "graduated"
+    },
+    {
+      "person_id": "person-cd814406e220",
+      "name": "Shiqi Wang",
+      "aliases": [
+        "Shiqi Wang"
+      ],
+      "paper_ids": [
+        "lab-e407c5f18da5",
+        "lab-719455bd7125"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100385178"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-06848a9a5601",
+      "name": "Shuo Chen",
+      "aliases": [
+        "Shuo Chen"
+      ],
+      "paper_ids": [
+        "lab-d7d729a798a9",
+        "lab-c0b4fa3ab5d5"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5145333065",
+        "https://openalex.org/A5100366889"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-4859f9e5d124",
+      "name": "Si Qin",
+      "aliases": [
+        "Si Qin"
+      ],
+      "paper_ids": [
+        "lab-2110e10b1fd2",
+        "lab-c0b4fa3ab5d5"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "current"
+    },
+    {
+      "person_id": "person-d2a98a15d3b2",
+      "name": "Tat‐Seng Chua",
+      "aliases": [
+        "Tat‐Seng Chua"
+      ],
+      "paper_ids": [
+        "lab-a6e1c503e9fd",
+        "lab-d99ee9ba4a13"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5089404640"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-1a651431174f",
+      "name": "Tongliang Liu",
+      "aliases": [
+        "Tongliang Liu"
+      ],
+      "paper_ids": [
+        "lab-d7d729a798a9",
+        "lab-c0b4fa3ab5d5"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5145503469",
+        "https://openalex.org/A5065250332"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-cbe0a82ea2ef",
+      "name": "Weijie Chen",
+      "aliases": [
+        "Weijie Chen"
+      ],
+      "paper_ids": [
+        "lab-054cd66669d7",
+        "lab-60280e69a6e3"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5017849949"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-d938e92e0dc4",
+      "name": "Wenke Huang",
+      "aliases": [
+        "Wenke Huang"
+      ],
+      "paper_ids": [
+        "lab-a1005f21ac76",
+        "lab-914c3b9e7d06"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5125772807",
+        "https://openalex.org/A5018298375"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-231fa795720d",
+      "name": "Wenlong Lyu",
+      "aliases": [
+        "Wenlong Lyu"
+      ],
+      "paper_ids": [
+        "lab-62249197b63f",
+        "lab-cb0529713b81"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5076411825"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "current"
+    },
+    {
+      "person_id": "person-cc0fa6a42662",
+      "name": "Xiaorui Peng",
+      "aliases": [
+        "Xiaorui Peng"
+      ],
+      "paper_ids": [
+        "lab-5403cb1aad23",
+        "lab-aa44a48ac9a1"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5024022802"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "graduated"
+    },
+    {
+      "person_id": "person-d2a607650b5a",
+      "name": "Xinlei Zhou",
+      "aliases": [
+        "Xinlei Zhou"
+      ],
+      "paper_ids": [
+        "lab-9ddc9ff7ce0c",
+        "lab-4f3942c218c8"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-fd8d7b55d31e",
+      "name": "Yang Liu",
+      "aliases": [
+        "Yang Liu",
+        "Yang Liu (4829)"
+      ],
+      "paper_ids": [
+        "lab-a1005f21ac76",
+        "lab-914c3b9e7d06"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5135628601",
+        "https://openalex.org/A5134984677"
+      ],
+      "sources": [
+        "https://arxiv.org/html/2604.28024v1",
+        "https://arxiv.org/html/2605.04827v1"
+      ],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-f7ead40ce927",
+      "name": "Yao Ding",
+      "aliases": [
+        "Yao Ding"
+      ],
+      "paper_ids": [
+        "lab-fe676cbbfafd",
+        "lab-9d85eae3a12f"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5090470209"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-b9b1adfa66a7",
+      "name": "Yongheng Wang",
+      "aliases": [
+        "Yongheng Wang"
+      ],
+      "paper_ids": [
+        "lab-05c8a4098fe0",
+        "lab-684cd82c2176"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5057416382"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-32fed0039944",
+      "name": "Yu Zhou",
+      "aliases": [
+        "Yu Zhou"
+      ],
+      "paper_ids": [
+        "lab-0529638ee44a",
+        "lab-bba08ca100fc"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5048421704"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-124db5411fed",
+      "name": "Yuhang Li",
+      "aliases": [
+        "Yuhang Li"
+      ],
+      "paper_ids": [
+        "lab-918df170a3ad",
+        "lab-2c640db3fd61"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "graduated"
+    },
+    {
+      "person_id": "person-403b09094219",
+      "name": "Zhenbo Lu",
+      "aliases": [
+        "Zhenbo Lu"
+      ],
+      "paper_ids": [
+        "lab-2b357d849d9d",
+        "lab-0c8c61ff348e"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5015331503"
+      ],
+      "sources": [],
+      "identity_note": "东南大学交通中心，luzhenbo@seu.edu.cn；不与Zhenyu Lu合并。",
+      "group": "other"
+    },
+    {
+      "person_id": "person-eecace2fea3a",
+      "name": "Zhirui Ye",
+      "aliases": [
+        "Zhirui Ye"
+      ],
+      "paper_ids": [
+        "lab-054cd66669d7",
+        "lab-60280e69a6e3"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5045733036"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-ab6f349ec767",
+      "name": "Zhuying Li",
+      "aliases": [
+        "Zhuying Li"
+      ],
+      "paper_ids": [
+        "lab-cfe1c0f8487f",
+        "lab-2c640db3fd61"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5135280271"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-d5236dd49ba9",
+      "name": "Ao Sun",
+      "aliases": [
+        "Ao Sun"
+      ],
+      "paper_ids": [
+        "lab-9c41930c1897"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5139786289"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-320b75e27a2f",
+      "name": "Boyu Shi",
+      "aliases": [
+        "Boyu Shi"
+      ],
+      "paper_ids": [
+        "lab-b15f2540bde4"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5135882060"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-e77b635a3e6e",
+      "name": "Chaoyang Zhao",
+      "aliases": [
+        "Chaoyang Zhao"
+      ],
+      "paper_ids": [
+        "lab-ec6acdec9eea"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5121156085"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-bcef7eb9e07b",
+      "name": "Chen Li",
+      "aliases": [
+        "Chen Li"
+      ],
+      "paper_ids": [
+        "lab-bf934091a903"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100369818"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-9f752cbcc063",
+      "name": "ChenWei He",
+      "aliases": [
+        "ChenWei He"
+      ],
+      "paper_ids": [
+        "lab-ec6acdec9eea"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5124918265"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-1f2cfa994d0a",
+      "name": "Chi Zhang",
+      "aliases": [
+        "Chi Zhang"
+      ],
+      "paper_ids": [
+        "lab-94f819e13bbe"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-c82719b449a3",
+      "name": "Chongxiao Qu",
+      "aliases": [
+        "Chongxiao Qu"
+      ],
+      "paper_ids": [
+        "lab-825376eac3f8"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5063172035"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-6ebb0871be50",
+      "name": "Danfeng Hong",
+      "aliases": [
+        "Danfeng Hong"
+      ],
+      "paper_ids": [
+        "lab-9d85eae3a12f"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5075013625"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-813990b9de33",
+      "name": "Dengyong Zhang",
+      "aliases": [
+        "Dengyong Zhang"
+      ],
+      "paper_ids": [
+        "lab-8258de75e36e"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5085673014"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-03a987fdb0f1",
+      "name": "Dongjie Liu",
+      "aliases": [
+        "Dongjie Liu"
+      ],
+      "paper_ids": [
+        "lab-60280e69a6e3"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-c2a501848d4b",
+      "name": "Erliang Lin",
+      "aliases": [
+        "Erliang Lin"
+      ],
+      "paper_ids": [
+        "lab-9728948569cd"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5145598117"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-06584687817d",
+      "name": "Feng Li",
+      "aliases": [
+        "Feng Li"
+      ],
+      "paper_ids": [
+        "lab-8258de75e36e"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100376073"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-0fa02433d258",
+      "name": "Fengmin Su",
+      "aliases": [
+        "Fengmin Su"
+      ],
+      "paper_ids": [
+        "lab-94f819e13bbe"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5081627605"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-f867b747a9b3",
+      "name": "Fuyi Li",
+      "aliases": [
+        "Fuyi Li"
+      ],
+      "paper_ids": [
+        "lab-bf934091a903"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5063409460"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-c215ba35a8fb",
+      "name": "Guanliang Chen",
+      "aliases": [
+        "Guanliang Chen"
+      ],
+      "paper_ids": [
+        "lab-77b725acea33"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-340d7701c29b",
+      "name": "Guanxing Lu",
+      "aliases": [
+        "Guanxing Lu"
+      ],
+      "paper_ids": [
+        "lab-6c33c0d49221"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5006203231"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-09a453d88180",
+      "name": "Haojie Pu",
+      "aliases": [
+        "Haojie Pu"
+      ],
+      "paper_ids": [
+        "lab-1ba64af37485"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5128555619"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-0f0b02c69d2e",
+      "name": "Haokai Ma",
+      "aliases": [
+        "Haokai Ma"
+      ],
+      "paper_ids": [
+        "lab-532faa4a2fc2"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5006833163"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-60d6179c6ca8",
+      "name": "Haopeng Ke",
+      "aliases": [
+        "Haopeng Ke"
+      ],
+      "paper_ids": [
+        "lab-bbbc3701492a"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5102775218"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-614fc12152b2",
+      "name": "Haoyuan Xuan",
+      "aliases": [
+        "Haoyuan Xuan"
+      ],
+      "paper_ids": [
+        "lab-6a0a4e2737ec"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5110023244"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-63f29f4515af",
+      "name": "Hongfei Fan",
+      "aliases": [
+        "Hongfei Fan"
+      ],
+      "paper_ids": [
+        "lab-719455bd7125"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5102740478"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-4c3493ad2c7b",
+      "name": "Hongwei Zeng",
+      "aliases": [
+        "Hongwei Zeng"
+      ],
+      "paper_ids": [
+        "lab-a1005f21ac76"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5128671999"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-4ad7af58904d",
+      "name": "Hongyan An",
+      "aliases": [
+        "Hongyan An"
+      ],
+      "paper_ids": [
+        "lab-532faa4a2fc2"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5012249897"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-cb8c38ad3e6e",
+      "name": "Horace H. S. Ip",
+      "aliases": [
+        "Horace H. S. Ip"
+      ],
+      "paper_ids": [
+        "lab-458c61eb7de8"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5020304898"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-aa2546d2452b",
+      "name": "Huan Liu",
+      "aliases": [
+        "Huan Liu"
+      ],
+      "paper_ids": [
+        "lab-c42096082d68"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100338958"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-b1da6e89941e",
+      "name": "Jia Zhang",
+      "aliases": [
+        "Jia Zhang"
+      ],
+      "paper_ids": [
+        "lab-bba08ca100fc"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5080617991"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-f88f0ba38889",
+      "name": "Jiachen Zhu",
+      "aliases": [
+        "Jiachen Zhu"
+      ],
+      "paper_ids": [
+        "lab-9c41930c1897"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5018375001"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-4e58f12de211",
+      "name": "Jianan Li",
+      "aliases": [
+        "Jianan Li"
+      ],
+      "paper_ids": [
+        "lab-50d02eb604b9"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100448292"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-33471e25cebc",
+      "name": "Jiangning Song",
+      "aliases": [
+        "Jiangning Song"
+      ],
+      "paper_ids": [
+        "lab-bf934091a903"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5012709797"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-e61893df53cb",
+      "name": "Jianke Cheng",
+      "aliases": [
+        "Jianke Cheng"
+      ],
+      "paper_ids": [
+        "lab-60280e69a6e3"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-4629f2aa57ad",
+      "name": "Jiao Zhang",
+      "aliases": [
+        "Jiao Zhang"
+      ],
+      "paper_ids": [
+        "lab-a74d054aa5d2"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100317587"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-e23e40346fb4",
+      "name": "Jie Li",
+      "aliases": [
+        "Jie Li"
+      ],
+      "paper_ids": [
+        "lab-94f819e13bbe"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100428183"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-29cc1bc4bdf1",
+      "name": "Jie Wang",
+      "aliases": [
+        "Jie Wang"
+      ],
+      "paper_ids": [
+        "lab-0f41d99e2574"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100739253"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-04f50ed96067",
+      "name": "Jie Yu",
+      "aliases": [
+        "Jie Yu"
+      ],
+      "paper_ids": [
+        "lab-fc69e7eb5613"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5135889856"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-f232563e2cdb",
+      "name": "Jiecheng Jiang",
+      "aliases": [
+        "Jiecheng Jiang"
+      ],
+      "paper_ids": [
+        "lab-855923053355"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5109760009"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-9a893ce0b52e",
+      "name": "Jing Guo",
+      "aliases": [
+        "Jing Guo"
+      ],
+      "paper_ids": [
+        "lab-4dafc16e5fd8"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-cdd07fd7b419",
+      "name": "Jingchao Cao",
+      "aliases": [
+        "Jingchao Cao"
+      ],
+      "paper_ids": [
+        "lab-e407c5f18da5"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5082088474"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-50c8e11c8b8e",
+      "name": "Jingcheng Duan",
+      "aliases": [
+        "Jingcheng Duan"
+      ],
+      "paper_ids": [
+        "lab-4dafc16e5fd8"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-82ddc9c36e1f",
+      "name": "Jingwei Fang",
+      "aliases": [
+        "Jingwei Fang"
+      ],
+      "paper_ids": [
+        "lab-80376da04947"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5150902772"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "current"
+    },
+    {
+      "person_id": "person-5ecb36611a8e",
+      "name": "Jingyu Xiong",
+      "aliases": [
+        "Jingyu Xiong"
+      ],
+      "paper_ids": [
+        "lab-bbbc3701492a"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-f5fc39bf27a2",
+      "name": "Jingyu Zhu",
+      "aliases": [
+        "Jingyu Zhu"
+      ],
+      "paper_ids": [
+        "lab-6a0a4e2737ec"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5101527629"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-569d8fe410b9",
+      "name": "Jinzhu Peng",
+      "aliases": [
+        "Jinzhu Peng"
+      ],
+      "paper_ids": [
+        "lab-0f41d99e2574"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5081142499"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-28e18ddacc10",
+      "name": "Jueyu Chen",
+      "aliases": [
+        "Jueyu Chen"
+      ],
+      "paper_ids": [
+        "lab-9728948569cd"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5144574307"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-73ae379fac6c",
+      "name": "Jun Zhang",
+      "aliases": [
+        "Jun Zhang"
+      ],
+      "paper_ids": [
+        "lab-1a90fc2c3965"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-1a5fa9a2b050",
+      "name": "Ka‐Chun Wong",
+      "aliases": [
+        "Ka‐Chun Wong"
+      ],
+      "paper_ids": [
+        "lab-a74d054aa5d2"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5030015771"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-2e196de84d67",
+      "name": "Kangning Cui",
+      "aliases": [
+        "Kangning Cui"
+      ],
+      "paper_ids": [
+        "lab-fe676cbbfafd"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5146529162"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-2d199c6cad9f",
+      "name": "Ke Li",
+      "aliases": [
+        "Ke Li"
+      ],
+      "paper_ids": [
+        "lab-761fa50033a3"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100343450"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-60e165cb9e80",
+      "name": "Ke Xia",
+      "aliases": [
+        "Ke Xia"
+      ],
+      "paper_ids": [
+        "lab-7647c3b38f71"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5151884569"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "graduated"
+    },
+    {
+      "person_id": "person-96c7a3520117",
+      "name": "Kuan Zhu",
+      "aliases": [
+        "Kuan Zhu"
+      ],
+      "paper_ids": [
+        "lab-d99ee9ba4a13"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5027279261"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-1b06ddeb021a",
+      "name": "Lang Wu",
+      "aliases": [
+        "Lang Wu"
+      ],
+      "paper_ids": [
+        "lab-a27b9589d697"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5101504730"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-37a38b5278a3",
+      "name": "Liangjian Cai",
+      "aliases": [
+        "Liangjian Cai"
+      ],
+      "paper_ids": [
+        "lab-0f41d99e2574"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5076739495"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-d3e5e09476bc",
+      "name": "Lingxiang Wu",
+      "aliases": [
+        "Lingxiang Wu"
+      ],
+      "paper_ids": [
+        "lab-ec6acdec9eea"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5132916320"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-254e5a45f16b",
+      "name": "Longhui Wen",
+      "aliases": [
+        "Longhui Wen"
+      ],
+      "paper_ids": [
+        "lab-054cd66669d7"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5109735032"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-a4f1eacc4bff",
+      "name": "Mengyuan Wu",
+      "aliases": [
+        "Mengyuan Wu"
+      ],
+      "paper_ids": [
+        "lab-761fa50033a3"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5009745732"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-04c3de36322e",
+      "name": "Ming Tang",
+      "aliases": [
+        "Ming Tang"
+      ],
+      "paper_ids": [
+        "lab-d99ee9ba4a13"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5110938150"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-a7a890e6d816",
+      "name": "Mingyuan Xu",
+      "aliases": [
+        "Mingyuan Xu"
+      ],
+      "paper_ids": [
+        "lab-25256b9dda22"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5101639578"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-7ed0ea0a9f5a",
+      "name": "Mofei Song",
+      "aliases": [
+        "Mofei Song"
+      ],
+      "paper_ids": [
+        "lab-8a85b44117f4"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5037738070"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-510a828cd5aa",
+      "name": "Qiang Yang",
+      "aliases": [
+        "Qiang Yang"
+      ],
+      "paper_ids": [
+        "lab-914c3b9e7d06"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5134935342"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-3bfb8c6993e3",
+      "name": "Qinran Hu",
+      "aliases": [
+        "Qinran Hu"
+      ],
+      "paper_ids": [
+        "lab-94f819e13bbe"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5069913666"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-9aa6f0d93d9e",
+      "name": "Renxiang Guan",
+      "aliases": [
+        "Renxiang Guan"
+      ],
+      "paper_ids": [
+        "lab-fe676cbbfafd"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5007770497"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-c9c708b3cff8",
+      "name": "Rihao Li",
+      "aliases": [
+        "Rihao Li"
+      ],
+      "paper_ids": [
+        "lab-9ddc9ff7ce0c"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-0dee1ca69c1e",
+      "name": "Seiya Imoto",
+      "aliases": [
+        "Seiya Imoto"
+      ],
+      "paper_ids": [
+        "lab-bf934091a903"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5090788230"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-0cbc3c089c93",
+      "name": "Shi Xiao",
+      "aliases": [
+        "Shi Xiao"
+      ],
+      "paper_ids": [
+        "lab-6e4e588f3743"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5102967066"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-8f55d8f7fb9a",
+      "name": "Shu Su",
+      "aliases": [
+        "Shu Su"
+      ],
+      "paper_ids": [
+        "lab-9c41930c1897"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5122525655"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-c29cb5f0f97f",
+      "name": "Shuyue Chen",
+      "aliases": [
+        "Shuyue Chen"
+      ],
+      "paper_ids": [
+        "lab-1f9013eb2f8b"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5103124877"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-00be117777dd",
+      "name": "Simeng Zeng",
+      "aliases": [
+        "Simeng Zeng"
+      ],
+      "paper_ids": [
+        "lab-e9f08a9f6baf"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-bd4b1d020697",
+      "name": "Sirui Tao",
+      "aliases": [
+        "Sirui Tao"
+      ],
+      "paper_ids": [
+        "lab-05c8a4098fe0"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5060197084"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-d4626df63353",
+      "name": "Taowei Wang",
+      "aliases": [
+        "Taowei Wang"
+      ],
+      "paper_ids": [
+        "lab-8258de75e36e"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5027426304"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-ccb2bf6baeed",
+      "name": "Te Qi",
+      "aliases": [
+        "Te Qi"
+      ],
+      "paper_ids": [
+        "lab-6e4e588f3743"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5150921333"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "graduated"
+    },
+    {
+      "person_id": "person-5a6c2f9aff16",
+      "name": "Tiantian Zhu",
+      "aliases": [
+        "Tiantian Zhu"
+      ],
+      "paper_ids": [
+        "lab-1a90fc2c3965"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-cc875313d4ed",
+      "name": "Tianxu Han",
+      "aliases": [
+        "Tianxu Han"
+      ],
+      "paper_ids": [
+        "lab-11e2dfe6e2ee"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-abd433bec14f",
+      "name": "Tianyu Yang",
+      "aliases": [
+        "Tianyu Yang"
+      ],
+      "paper_ids": [
+        "lab-ec6acdec9eea"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5132871422"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-eb65b8fb5da0",
+      "name": "Wantao Wen",
+      "aliases": [
+        "Wantao Wen"
+      ],
+      "paper_ids": [
+        "lab-9728948569cd"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5125350125"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-2428769dbcb2",
+      "name": "Wei Wang",
+      "aliases": [
+        "Wei Wang"
+      ],
+      "paper_ids": [
+        "lab-94f819e13bbe"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5010465141"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-a4cf8e90ef97",
+      "name": "Wei You",
+      "aliases": [
+        "Wei You"
+      ],
+      "paper_ids": [
+        "lab-8a05dc1f7a41"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-68c11e1eae03",
+      "name": "Weihua Zhang",
+      "aliases": [
+        "Weihua Zhang"
+      ],
+      "paper_ids": [
+        "lab-c42096082d68"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100370300"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-258f8e3385aa",
+      "name": "Weijia Zhang",
+      "aliases": [
+        "Weijia Zhang"
+      ],
+      "paper_ids": [
+        "lab-b98b32a37a21"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100457938"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-878ed6f9a3f8",
+      "name": "Weixuan Liang",
+      "aliases": [
+        "Weixuan Liang"
+      ],
+      "paper_ids": [
+        "lab-a7cf765d0111"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5060806053"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-bad739738d34",
+      "name": "Weizhen Wang",
+      "aliases": [
+        "Weizhen Wang"
+      ],
+      "paper_ids": [
+        "lab-532faa4a2fc2"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5145958588"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-29b2df0e5837",
+      "name": "Wenwen He",
+      "aliases": [
+        "Wenwen He"
+      ],
+      "paper_ids": [
+        "lab-914c3b9e7d06"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5134943942"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-881dbad1a477",
+      "name": "Xiangdong Kong",
+      "aliases": [
+        "Xiangdong Kong"
+      ],
+      "paper_ids": [
+        "lab-1a90fc2c3965"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-20a3e9064837",
+      "name": "Xiangzhao Hao",
+      "aliases": [
+        "Xiangzhao Hao"
+      ],
+      "paper_ids": [
+        "lab-ec6acdec9eea"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5124900824"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-2c58813f3b97",
+      "name": "Xiaobo Xia",
+      "aliases": [
+        "Xiaobo Xia"
+      ],
+      "paper_ids": [
+        "lab-a6e1c503e9fd"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5114803721"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-e6da050b2d62",
+      "name": "Xiaoyu Wang — Monash",
+      "aliases": [
+        "Xiaoyu Wang"
+      ],
+      "paper_ids": [
+        "lab-bf934091a903"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5092121691"
+      ],
+      "sources": [
+        "https://academic.oup.com/bib/article/27/3/bbag329/8712665"
+      ],
+      "identity_note": "Monash生物化学与分子生物学；ORCID 0000-0003-4444-6197；与东南作者分列。",
+      "group": "other"
+    },
+    {
+      "person_id": "person-663e1f1effe4",
+      "name": "Xin Wu",
+      "aliases": [
+        "Xin Wu"
+      ],
+      "paper_ids": [
+        "lab-9d85eae3a12f"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100761149"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-b70b209a37a3",
+      "name": "Xin-Qiang Cai",
+      "aliases": [
+        "Xin-Qiang Cai"
+      ],
+      "paper_ids": [
+        "lab-a6e1c503e9fd"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5029197051"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-4b57ef578c5a",
+      "name": "Xinfeng Zhang",
+      "aliases": [
+        "Xinfeng Zhang"
+      ],
+      "paper_ids": [
+        "lab-e407c5f18da5"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5055937409"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-22e2de5e256f",
+      "name": "Xinying Zhang",
+      "aliases": [
+        "Xinying Zhang"
+      ],
+      "paper_ids": [
+        "lab-1f9013eb2f8b"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100689717"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-eaae26e24858",
+      "name": "Xinyue Wang",
+      "aliases": [
+        "Xinyue Wang"
+      ],
+      "paper_ids": [
+        "lab-084cf1572406"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5129711729"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-b609fd2b3c8a",
+      "name": "Xu Wang",
+      "aliases": [
+        "Xu Wang"
+      ],
+      "paper_ids": [
+        "lab-f46fa8731916"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100407860"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-147385593bfd",
+      "name": "Yan Li",
+      "aliases": [
+        "Yan Li"
+      ],
+      "paper_ids": [
+        "lab-cfe1c0f8487f"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5089035386"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-bea7c0f57db2",
+      "name": "Yandu Sun",
+      "aliases": [
+        "Yandu Sun"
+      ],
+      "paper_ids": [
+        "lab-532faa4a2fc2"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5123528359"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "current"
+    },
+    {
+      "person_id": "person-4eab9307d7bb",
+      "name": "Yanghe Feng",
+      "aliases": [
+        "Yanghe Feng"
+      ],
+      "paper_ids": [
+        "lab-825376eac3f8"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5081897060"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-51a80773e089",
+      "name": "Yanzheng Wang",
+      "aliases": [
+        "Yanzheng Wang"
+      ],
+      "paper_ids": [
+        "lab-1025a6d4de24"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "current"
+    },
+    {
+      "person_id": "person-2a94163a16b9",
+      "name": "Yaodong Shen",
+      "aliases": [
+        "Yaodong Shen"
+      ],
+      "paper_ids": [
+        "lab-effcb20ed6d4"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "current"
+    },
+    {
+      "person_id": "person-4353c096c965",
+      "name": "Yemin Wang",
+      "aliases": [
+        "Yemin Wang"
+      ],
+      "paper_ids": [
+        "lab-9728948569cd"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5144490251"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-43c41313a8cd",
+      "name": "Yeqiang Wang",
+      "aliases": [
+        "Yeqiang Wang"
+      ],
+      "paper_ids": [
+        "lab-9728948569cd"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5144760745"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-c0ec091b9e15",
+      "name": "Yijie Lin",
+      "aliases": [
+        "Yijie Lin"
+      ],
+      "paper_ids": [
+        "lab-4dafc16e5fd8"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-5406c458b4cd",
+      "name": "Yinuo Sun",
+      "aliases": [
+        "Yinuo Sun"
+      ],
+      "paper_ids": [
+        "lab-bf934091a903"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5122985291"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-85657c9e719f",
+      "name": "Yongbiao Gao",
+      "aliases": [
+        "Yongbiao Gao"
+      ],
+      "paper_ids": [
+        "lab-1ba64af37485"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5044768328"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-2040a04012df",
+      "name": "Yu Li",
+      "aliases": [
+        "Yu Li"
+      ],
+      "paper_ids": [
+        "lab-9c41930c1897"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5139790867"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-3af0634ff2d2",
+      "name": "Yu Mi",
+      "aliases": [
+        "Yu Mi"
+      ],
+      "paper_ids": [
+        "lab-6f75913bf673"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100308181"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-765b7d35ec1a",
+      "name": "Yu Zhang",
+      "aliases": [
+        "Yu Zhang"
+      ],
+      "paper_ids": [
+        "lab-b98b32a37a21"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5100433691"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-f305d9f46320",
+      "name": "Yucheng Xie",
+      "aliases": [
+        "Yucheng Xie"
+      ],
+      "paper_ids": [
+        "lab-d7d729a798a9"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5145097491"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-d2fafd923ba6",
+      "name": "Yun Ding",
+      "aliases": [
+        "Yun Ding"
+      ],
+      "paper_ids": [
+        "lab-fe676cbbfafd"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5044032571"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-2e31bbb2b35c",
+      "name": "Yunqing Jia",
+      "aliases": [
+        "Yunqing Jia"
+      ],
+      "paper_ids": [
+        "lab-2b357d849d9d"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5081098749"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-e43b9b8b2f31",
+      "name": "Yutong Li",
+      "aliases": [
+        "Yutong Li"
+      ],
+      "paper_ids": [
+        "lab-4f00a8eb8a7d"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5023766388"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-80b23b7a2fda",
+      "name": "Yuwen Deng",
+      "aliases": [
+        "Yuwen Deng"
+      ],
+      "paper_ids": [
+        "lab-94f819e13bbe"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5064163016"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-5d55e6281349",
+      "name": "Yuxiang Ma",
+      "aliases": [
+        "Yuxiang Ma"
+      ],
+      "paper_ids": [
+        "lab-ec6acdec9eea"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5101620831"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "current"
+    },
+    {
+      "person_id": "person-86d4c42fcde7",
+      "name": "Zexuan Zhu",
+      "aliases": [
+        "Zexuan Zhu"
+      ],
+      "paper_ids": [
+        "lab-1a90fc2c3965"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-b6124e331bc1",
+      "name": "Zhe Tan",
+      "aliases": [
+        "Zhe Tan"
+      ],
+      "paper_ids": [
+        "lab-9c41930c1897"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5122493791"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-67d863a8a921",
+      "name": "Zhenyu Lu",
+      "aliases": [
+        "Zhenyu Lu"
+      ],
+      "paper_ids": [
+        "lab-8a05dc1f7a41"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "CVPR官方署名Zhenyu Lu；与交通作者Zhenbo Lu分列。",
+      "group": "other"
+    },
+    {
+      "person_id": "person-3b0d3f6a22f7",
+      "name": "Zhiqi Huang",
+      "aliases": [
+        "Zhiqi Huang"
+      ],
+      "paper_ids": [
+        "lab-a27b9589d697"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-d902f3273b55",
+      "name": "Zhitao Dai",
+      "aliases": [
+        "Zhitao Dai"
+      ],
+      "paper_ids": [
+        "lab-25256b9dda22"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-b3f59a3f2caf",
+      "name": "Zhiyan Hou",
+      "aliases": [
+        "Zhiyan Hou"
+      ],
+      "paper_ids": [
+        "lab-532faa4a2fc2"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5123477302"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-7c703b501741",
+      "name": "Zhuoya Liu",
+      "aliases": [
+        "Zhuoya Liu"
+      ],
+      "paper_ids": [
+        "lab-dccd5bfa936b"
+      ],
+      "openalex_ids": [],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-eadfb63416d5",
+      "name": "Zicong Miao",
+      "aliases": [
+        "Zicong Miao"
+      ],
+      "paper_ids": [
+        "lab-6f75913bf673"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5113195152"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    },
+    {
+      "person_id": "person-94eac305f75b",
+      "name": "Zijun Yao",
+      "aliases": [
+        "Zijun Yao"
+      ],
+      "paper_ids": [
+        "lab-11e2dfe6e2ee"
+      ],
+      "openalex_ids": [
+        "https://openalex.org/A5040604135"
+      ],
+      "sources": [],
+      "identity_note": "",
+      "group": "other"
+    }
+  ],
+  "pending": [
+    {
+      "name": "Hao Chen",
+      "paper_id": "lab-1025a6d4de24",
+      "title": "Individuals Matter: Improving Deep Multi-View Clustering via Explicit Single-View Enhancement",
+      "links": [],
+      "reason": "两篇论文的同名作者尚无共同邮箱、ORCID或本人论文表可以核验，暂不合并。",
+      "group": "other"
+    },
+    {
+      "name": "Hao Chen",
+      "paper_id": "lab-8a05dc1f7a41",
+      "title": "Discovering Attention Head Interactions in Vision Transformers",
+      "links": [
+        "https://doi.org/10.1109/cvprf71909.2026.00324"
+      ],
+      "reason": "两篇论文的同名作者尚无共同邮箱、ORCID或本人论文表可以核验，暂不合并。",
+      "group": "other"
+    }
+  ]
+}

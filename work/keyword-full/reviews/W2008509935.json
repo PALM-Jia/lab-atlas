@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2008509935",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "论文将有限标注作为半监督高光谱分类的实质研究设定，符合不完整监督的弱监督学习定义，应补充该标签。",
+      "exact_quote": "it can achieve accurate and rapid classification with a small number of labeled data",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "it can achieve accurate and rapid classification with a small number of labeled data",
+        "evidence_field": "abstract",
+        "reason_zh": "论文将有限标注作为半监督高光谱分类的实质研究设定，符合不完整监督的弱监督学习定义，应补充该标签。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

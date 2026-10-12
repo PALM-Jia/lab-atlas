@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2142890639",
+  "annotations": [
+    {
+      "keyword_id": "multi-objective-optimization",
+      "exact_quote": "recover the Pareto front of a multiobjective optimization problem",
+      "evidence_field": "abstract",
+      "reason_zh": "论文目标是恢复多目标优化问题的帕累托前沿，属于以多个相互制约目标求解帕累托解集的研究。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,42 @@
+{
+  "paper_id": "W4406629467",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "Deep subspace clustering networks (DSC-Nets), which combine deep autoencoders and self-expressive modules",
+      "evidence_field": "abstract",
+      "reason_zh": "论文将深度自编码器与自表达模块结合，学习潜在表示并完成聚类，符合深度聚类定义。"
+    },
+    {
+      "keyword_id": "subspace-clustering",
+      "exact_quote": "Deep subspace clustering via latent representation learning",
+      "evidence_field": "title",
+      "reason_zh": "标题直接表明研究深度子空间聚类，摘要中自表达层学习亲和矩阵并引导谱聚类。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "the self-expressive layer learns an affinity matrix based on these latent representations",
+      "evidence_field": "abstract",
+      "reason_zh": "自表达层基于潜在表示学习样本间亲和矩阵，满足图结构学习对亲和/邻接矩阵学习的要求。"
+    },
+    {
+      "keyword_id": "contrastive-learning",
+      "exact_quote": "we propose learning dissimilar relationships between samples using a classification module, and similar relationships using the self-expressive module",
+      "evidence_field": "abstract",
+      "reason_zh": "利用样本间不相似与相似关系的区分和吸引目标来学习潜在表示，符合对比学习机制。"
+    },
+    {
+      "keyword_id": "pseudo-label-self-training",
+      "exact_quote": "we introduce a pseudo-label supervision module to guide the learning of higher-level similarities in the latent representations",
+      "evidence_field": "abstract",
+      "reason_zh": "引入伪标签监督模块，将模型预测的伪标签作为后续表示学习信号，符合伪标签与自训练。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "摘要提到构建图并嵌入自编码器，但未说明图拉普拉斯、邻域或流形一致性约束，证据不足以判定。"
+    }
+  ],
+  "input_issues": []
+}

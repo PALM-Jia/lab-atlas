@@ -1,0 +1,28 @@
+{
+  "paper_id": "W2125201264",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "In this paper, we propose a new method to combine labeled and unlabeled pixels to increase classification reliability and accuracy.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确结合已标注与未标注像素进行学习，并提出半监督SVM，符合半监督学习设定。"
+    },
+    {
+      "keyword_id": "domain-adaptation",
+      "exact_quote": "However, when training and test samples follow even slightly different distributions, classification is very difficult. This problem is known assample selection bias.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要指出训练与测试分布不同并称其为样本选择偏差，方法利用其他图像标注、结合未标注像素并筛选可靠样本来提升目标场景分类，符合跨域适配设定。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "摘要提到同簇同类一致性与样本/簇相似度，但未明确使用图、流形、拉普拉斯或超图结构进行几何正则化，无法判定。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "摘要仅说明标注像素很少并采用半监督学习，未将不完整/不精确监督本身作为弱监督研究问题，证据不足以判定。"
+    }
+  ],
+  "input_issues": []
+}

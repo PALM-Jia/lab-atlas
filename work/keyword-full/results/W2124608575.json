@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2124608575",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "perfectly recover all of the missing entries",
+      "evidence_field": "abstract",
+      "reason_zh": "论文研究从不完整观测中恢复缺失条目，输出为被恢复的数据值，属于数据补全与恢复任务。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "selected from a low-rank matrix",
+      "evidence_field": "abstract",
+      "reason_zh": "论文显式假设观测来自低秩矩阵，并用核范数最小化恢复矩阵，属于利用低秩约束的建模。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

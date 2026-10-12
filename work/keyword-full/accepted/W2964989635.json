@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2964989635",
+  "annotations": [
+    {
+      "keyword_id": "label-distribution-learning",
+      "exact_quote": "This novel paradigm focuses on the relative importance of different labels to a particular instance.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确该文研究标签分布学习，关注不同标签对特定实例的相对重要性。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "In particular, a label correlation matrix based on low-rank approximation is applied to capture the global label correlations. In addition, the label correlation among local samples are adopted to modify the label correlation matrix.",
+      "evidence_field": "abstract",
+      "reason_zh": "显式建模全局与局部标签相关性，并用局部标签相关修正标签相关矩阵，满足定义。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "In particular, a label correlation matrix based on low-rank approximation is applied to capture the global label correlations.",
+      "evidence_field": "abstract",
+      "reason_zh": "以低秩近似表示标签相关矩阵，显式利用低秩近似建模相关结构。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

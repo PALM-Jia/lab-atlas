@@ -1,0 +1,18 @@
+{
+  "paper_id": "W2169658215",
+  "annotations": [
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "the documents can be projected into a lower-dimensional semantic space",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以LPI将文档投影到低维语义空间，核心是显式低维映射与维度压缩。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "摘要仅提及locality preserving indexing与discover geometric structure，未明确说明图拉普拉斯/邻域结构或几何一致性正则化，无法确认符合图与流形正则化定义。"
+    }
+  ],
+  "input_issues": []
+}

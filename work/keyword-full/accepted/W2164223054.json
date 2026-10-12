@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2164223054",
+  "annotations": [
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "vehicle motion trajectories in real traffic video",
+      "evidence_field": "abstract",
+      "reason_zh": "论文直接以真实交通视频中的车辆运动轨迹为研究数据对象，进行轨迹聚类与异常检测，符合交通数据这一定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

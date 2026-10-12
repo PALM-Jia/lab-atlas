@@ -1,0 +1,1062 @@
+{
+  "scope": "Only these 10 samples and Astra final blind-audit judgments",
+  "precision_definition": "micro acceptable selected / all selected; required and optional are acceptable",
+  "recall_definition": "micro covered required / all required opportunities; optional omission is not FN",
+  "empty_selection_policy": "No automatic error; evaluate against required/optional sets",
+  "formal_results": 40,
+  "fresh_independent_contexts": true,
+  "failed_cli_probes_included": false,
+  "keyword_count": 49,
+  "audit_set_consistency": true,
+  "abstract_coverage": {
+    "new_abstracts": 128,
+    "abstracts": 1464,
+    "total": 1673,
+    "lab_abstracts": 126,
+    "lab_total": 144,
+    "external_abstracts": 1338,
+    "external_total": 1529,
+    "provenance": "Task-confirmed abstract enrichment snapshot; not annotation quality denominator"
+  },
+  "reference_initial_sha256": "264bff0c762a410730b62f000fbca5ffa1d1f500e1d4939bc260dce0493f8c56",
+  "reference_revisions": [
+    {
+      "sample_id": "S01",
+      "keyword_id": "weakly-supervised-learning",
+      "change": "excluded_to_required",
+      "initial_judgment_zh": "初始参考集认为主观不一致未明确构成弱监督设定。",
+      "final_judgment_zh": "必选弱监督学习。",
+      "exact_quote": "While most existing multilabel ranking methods assume the availability of a single objective label ranking for each instance in the training set, this paper deals with a more common case where only subjective inconsistent rankings from multiple rankers are associated with each instance.",
+      "evidence_field": "abstract",
+      "reason_zh": "重新对照完整首句与词表后，客观标签排序被仅有的主观不一致多人排序替代，且全文方法专门处理该条件，已明确满足不精确监督作为实质问题。初审把是否存在错误类别真值的较窄噪声标签条件误用于弱监督，导致漏项。此修订由原文和定义支持，与匿名结果的一致率无关。"
+    }
+  ],
+  "models": [
+    {
+      "model": "gpt-6-luna",
+      "result_count": 20,
+      "acceptable_selected": 23,
+      "all_selected": 24,
+      "micro_precision": 0.9583333333333334,
+      "covered_required": 22,
+      "required_opportunities": 26,
+      "micro_recall": 0.8461538461538461,
+      "false_positives": 1,
+      "false_negatives": 4,
+      "problem_free_results": 15,
+      "unique_problems": 5,
+      "identical_set_samples": 8,
+      "repeatability_sample_count": 10,
+      "mean_jaccard": 0.9166666666666667
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "result_count": 20,
+      "acceptable_selected": 25,
+      "all_selected": 25,
+      "micro_precision": 1.0,
+      "covered_required": 25,
+      "required_opportunities": 26,
+      "micro_recall": 0.9615384615384616,
+      "false_positives": 0,
+      "false_negatives": 1,
+      "problem_free_results": 19,
+      "unique_problems": 1,
+      "identical_set_samples": 9,
+      "repeatability_sample_count": 10,
+      "mean_jaccard": 0.95
+    }
+  ],
+  "results": [
+    {
+      "sample_id": "S01",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "run_id": "run001",
+      "blind_label": "B",
+      "output_path": "results/run001.json",
+      "selected_ids": [
+        "weakly-supervised-learning"
+      ],
+      "selected_zh": [
+        "弱监督学习"
+      ],
+      "accepted_count": 1,
+      "selected_count": 1,
+      "covered_required_count": 1,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [
+        "label-correlation-modeling"
+      ],
+      "false_positive_zh": [],
+      "false_negative_zh": [
+        "标签相关性建模"
+      ],
+      "unique_issue_ids": [
+        "S01-B-FN-label-correlation-modeling"
+      ],
+      "problem_free": false
+    },
+    {
+      "sample_id": "S01",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "run_id": "run002",
+      "blind_label": "C",
+      "output_path": "results/run002.json",
+      "selected_ids": [
+        "label-correlation-modeling",
+        "weakly-supervised-learning"
+      ],
+      "selected_zh": [
+        "标签相关性建模",
+        "弱监督学习"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S01",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "run_id": "run003",
+      "blind_label": "A",
+      "output_path": "results/run003.json",
+      "selected_ids": [
+        "multi-label-learning",
+        "weakly-supervised-learning"
+      ],
+      "selected_zh": [
+        "多标记学习",
+        "弱监督学习"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 1,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [
+        "label-correlation-modeling"
+      ],
+      "false_positive_zh": [],
+      "false_negative_zh": [
+        "标签相关性建模"
+      ],
+      "unique_issue_ids": [
+        "S01-A-FN-label-correlation-modeling"
+      ],
+      "problem_free": false
+    },
+    {
+      "sample_id": "S01",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "run_id": "run004",
+      "blind_label": "D",
+      "output_path": "results/run004.json",
+      "selected_ids": [
+        "weakly-supervised-learning"
+      ],
+      "selected_zh": [
+        "弱监督学习"
+      ],
+      "accepted_count": 1,
+      "selected_count": 1,
+      "covered_required_count": 1,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [
+        "label-correlation-modeling"
+      ],
+      "false_positive_zh": [],
+      "false_negative_zh": [
+        "标签相关性建模"
+      ],
+      "unique_issue_ids": [
+        "S01-D-FN-label-correlation-modeling"
+      ],
+      "problem_free": false
+    },
+    {
+      "sample_id": "S02",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "run_id": "run005",
+      "blind_label": "B",
+      "output_path": "results/run005.json",
+      "selected_ids": [
+        "hyperspectral-images",
+        "low-rank-modeling"
+      ],
+      "selected_zh": [
+        "高光谱图像",
+        "低秩建模"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S02",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "run_id": "run006",
+      "blind_label": "C",
+      "output_path": "results/run006.json",
+      "selected_ids": [
+        "hyperspectral-images",
+        "low-rank-modeling"
+      ],
+      "selected_zh": [
+        "高光谱图像",
+        "低秩建模"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S02",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "run_id": "run007",
+      "blind_label": "D",
+      "output_path": "results/run007.json",
+      "selected_ids": [
+        "hyperspectral-images",
+        "low-rank-modeling"
+      ],
+      "selected_zh": [
+        "高光谱图像",
+        "低秩建模"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S02",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "run_id": "run008",
+      "blind_label": "A",
+      "output_path": "results/run008.json",
+      "selected_ids": [
+        "hyperspectral-images",
+        "low-rank-modeling"
+      ],
+      "selected_zh": [
+        "高光谱图像",
+        "低秩建模"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S03",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "run_id": "run009",
+      "blind_label": "C",
+      "output_path": "results/run009.json",
+      "selected_ids": [
+        "partial-label-learning",
+        "weakly-supervised-learning"
+      ],
+      "selected_zh": [
+        "偏标记学习",
+        "弱监督学习"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S03",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "run_id": "run010",
+      "blind_label": "A",
+      "output_path": "results/run010.json",
+      "selected_ids": [
+        "partial-label-learning",
+        "weakly-supervised-learning"
+      ],
+      "selected_zh": [
+        "偏标记学习",
+        "弱监督学习"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S03",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "run_id": "run011",
+      "blind_label": "D",
+      "output_path": "results/run011.json",
+      "selected_ids": [
+        "partial-label-learning",
+        "weakly-supervised-learning"
+      ],
+      "selected_zh": [
+        "偏标记学习",
+        "弱监督学习"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S03",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "run_id": "run012",
+      "blind_label": "B",
+      "output_path": "results/run012.json",
+      "selected_ids": [
+        "partial-label-learning",
+        "weakly-supervised-learning"
+      ],
+      "selected_zh": [
+        "偏标记学习",
+        "弱监督学习"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S04",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "run_id": "run013",
+      "blind_label": "D",
+      "output_path": "results/run013.json",
+      "selected_ids": [
+        "multi-label-learning"
+      ],
+      "selected_zh": [
+        "多标记学习"
+      ],
+      "accepted_count": 1,
+      "selected_count": 1,
+      "covered_required_count": 1,
+      "required_opportunities": 1,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S04",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "run_id": "run014",
+      "blind_label": "C",
+      "output_path": "results/run014.json",
+      "selected_ids": [
+        "multi-label-learning"
+      ],
+      "selected_zh": [
+        "多标记学习"
+      ],
+      "accepted_count": 1,
+      "selected_count": 1,
+      "covered_required_count": 1,
+      "required_opportunities": 1,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S04",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "run_id": "run015",
+      "blind_label": "A",
+      "output_path": "results/run015.json",
+      "selected_ids": [
+        "multi-label-learning"
+      ],
+      "selected_zh": [
+        "多标记学习"
+      ],
+      "accepted_count": 1,
+      "selected_count": 1,
+      "covered_required_count": 1,
+      "required_opportunities": 1,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S04",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "run_id": "run016",
+      "blind_label": "B",
+      "output_path": "results/run016.json",
+      "selected_ids": [
+        "multi-label-learning"
+      ],
+      "selected_zh": [
+        "多标记学习"
+      ],
+      "accepted_count": 1,
+      "selected_count": 1,
+      "covered_required_count": 1,
+      "required_opportunities": 1,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S05",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "run_id": "run017",
+      "blind_label": "D",
+      "output_path": "results/run017.json",
+      "selected_ids": [],
+      "selected_zh": [],
+      "accepted_count": 0,
+      "selected_count": 0,
+      "covered_required_count": 0,
+      "required_opportunities": 0,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S05",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "run_id": "run018",
+      "blind_label": "B",
+      "output_path": "results/run018.json",
+      "selected_ids": [],
+      "selected_zh": [],
+      "accepted_count": 0,
+      "selected_count": 0,
+      "covered_required_count": 0,
+      "required_opportunities": 0,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S05",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "run_id": "run019",
+      "blind_label": "C",
+      "output_path": "results/run019.json",
+      "selected_ids": [],
+      "selected_zh": [],
+      "accepted_count": 0,
+      "selected_count": 0,
+      "covered_required_count": 0,
+      "required_opportunities": 0,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S05",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "run_id": "run020",
+      "blind_label": "A",
+      "output_path": "results/run020.json",
+      "selected_ids": [],
+      "selected_zh": [],
+      "accepted_count": 0,
+      "selected_count": 0,
+      "covered_required_count": 0,
+      "required_opportunities": 0,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S06",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "run_id": "run021",
+      "blind_label": "B",
+      "output_path": "results/run021.json",
+      "selected_ids": [
+        "graph-manifold-regularization",
+        "nonnegative-matrix-factorization"
+      ],
+      "selected_zh": [
+        "图与流形正则化",
+        "非负矩阵分解"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S06",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "run_id": "run022",
+      "blind_label": "C",
+      "output_path": "results/run022.json",
+      "selected_ids": [
+        "graph-manifold-regularization",
+        "nonnegative-matrix-factorization"
+      ],
+      "selected_zh": [
+        "图与流形正则化",
+        "非负矩阵分解"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S06",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "run_id": "run023",
+      "blind_label": "A",
+      "output_path": "results/run023.json",
+      "selected_ids": [
+        "graph-manifold-regularization",
+        "low-rank-modeling",
+        "nonnegative-matrix-factorization"
+      ],
+      "selected_zh": [
+        "图与流形正则化",
+        "低秩建模",
+        "非负矩阵分解"
+      ],
+      "accepted_count": 2,
+      "selected_count": 3,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [
+        "low-rank-modeling"
+      ],
+      "false_negative_ids": [],
+      "false_positive_zh": [
+        "低秩建模"
+      ],
+      "false_negative_zh": [],
+      "unique_issue_ids": [
+        "S06-A-FP-low-rank-modeling"
+      ],
+      "problem_free": false
+    },
+    {
+      "sample_id": "S06",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "run_id": "run024",
+      "blind_label": "D",
+      "output_path": "results/run024.json",
+      "selected_ids": [
+        "graph-manifold-regularization",
+        "nonnegative-matrix-factorization"
+      ],
+      "selected_zh": [
+        "图与流形正则化",
+        "非负矩阵分解"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S07",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "run_id": "run025",
+      "blind_label": "D",
+      "output_path": "results/run025.json",
+      "selected_ids": [
+        "ensemble-clustering",
+        "graph-structure-learning"
+      ],
+      "selected_zh": [
+        "集成聚类",
+        "图结构学习"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S07",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "run_id": "run026",
+      "blind_label": "C",
+      "output_path": "results/run026.json",
+      "selected_ids": [
+        "ensemble-clustering",
+        "graph-structure-learning"
+      ],
+      "selected_zh": [
+        "集成聚类",
+        "图结构学习"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S07",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "run_id": "run027",
+      "blind_label": "B",
+      "output_path": "results/run027.json",
+      "selected_ids": [
+        "ensemble-clustering"
+      ],
+      "selected_zh": [
+        "集成聚类"
+      ],
+      "accepted_count": 1,
+      "selected_count": 1,
+      "covered_required_count": 1,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [
+        "graph-structure-learning"
+      ],
+      "false_positive_zh": [],
+      "false_negative_zh": [
+        "图结构学习"
+      ],
+      "unique_issue_ids": [
+        "S07-B-FN-graph-structure-learning"
+      ],
+      "problem_free": false
+    },
+    {
+      "sample_id": "S07",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "run_id": "run028",
+      "blind_label": "A",
+      "output_path": "results/run028.json",
+      "selected_ids": [
+        "ensemble-clustering"
+      ],
+      "selected_zh": [
+        "集成聚类"
+      ],
+      "accepted_count": 1,
+      "selected_count": 1,
+      "covered_required_count": 1,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [
+        "graph-structure-learning"
+      ],
+      "false_positive_zh": [],
+      "false_negative_zh": [
+        "图结构学习"
+      ],
+      "unique_issue_ids": [
+        "S07-A-FN-graph-structure-learning"
+      ],
+      "problem_free": false
+    },
+    {
+      "sample_id": "S08",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "run_id": "run029",
+      "blind_label": "B",
+      "output_path": "results/run029.json",
+      "selected_ids": [],
+      "selected_zh": [],
+      "accepted_count": 0,
+      "selected_count": 0,
+      "covered_required_count": 0,
+      "required_opportunities": 0,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S08",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "run_id": "run030",
+      "blind_label": "A",
+      "output_path": "results/run030.json",
+      "selected_ids": [],
+      "selected_zh": [],
+      "accepted_count": 0,
+      "selected_count": 0,
+      "covered_required_count": 0,
+      "required_opportunities": 0,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S08",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "run_id": "run031",
+      "blind_label": "C",
+      "output_path": "results/run031.json",
+      "selected_ids": [],
+      "selected_zh": [],
+      "accepted_count": 0,
+      "selected_count": 0,
+      "covered_required_count": 0,
+      "required_opportunities": 0,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S08",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "run_id": "run032",
+      "blind_label": "D",
+      "output_path": "results/run032.json",
+      "selected_ids": [],
+      "selected_zh": [],
+      "accepted_count": 0,
+      "selected_count": 0,
+      "covered_required_count": 0,
+      "required_opportunities": 0,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S09",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "run_id": "run033",
+      "blind_label": "B",
+      "output_path": "results/run033.json",
+      "selected_ids": [
+        "class-imbalance",
+        "deep-clustering"
+      ],
+      "selected_zh": [
+        "类别不平衡学习",
+        "深度聚类"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S09",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "run_id": "run034",
+      "blind_label": "A",
+      "output_path": "results/run034.json",
+      "selected_ids": [
+        "class-imbalance",
+        "deep-clustering"
+      ],
+      "selected_zh": [
+        "类别不平衡学习",
+        "深度聚类"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S09",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "run_id": "run035",
+      "blind_label": "D",
+      "output_path": "results/run035.json",
+      "selected_ids": [
+        "class-imbalance",
+        "deep-clustering"
+      ],
+      "selected_zh": [
+        "类别不平衡学习",
+        "深度聚类"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S09",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "run_id": "run036",
+      "blind_label": "C",
+      "output_path": "results/run036.json",
+      "selected_ids": [
+        "class-imbalance",
+        "deep-clustering"
+      ],
+      "selected_zh": [
+        "类别不平衡学习",
+        "深度聚类"
+      ],
+      "accepted_count": 2,
+      "selected_count": 2,
+      "covered_required_count": 2,
+      "required_opportunities": 2,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S10",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "run_id": "run037",
+      "blind_label": "D",
+      "output_path": "results/run037.json",
+      "selected_ids": [],
+      "selected_zh": [],
+      "accepted_count": 0,
+      "selected_count": 0,
+      "covered_required_count": 0,
+      "required_opportunities": 0,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S10",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "run_id": "run038",
+      "blind_label": "C",
+      "output_path": "results/run038.json",
+      "selected_ids": [],
+      "selected_zh": [],
+      "accepted_count": 0,
+      "selected_count": 0,
+      "covered_required_count": 0,
+      "required_opportunities": 0,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S10",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "run_id": "run039",
+      "blind_label": "B",
+      "output_path": "results/run039.json",
+      "selected_ids": [],
+      "selected_zh": [],
+      "accepted_count": 0,
+      "selected_count": 0,
+      "covered_required_count": 0,
+      "required_opportunities": 0,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    },
+    {
+      "sample_id": "S10",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "run_id": "run040",
+      "blind_label": "A",
+      "output_path": "results/run040.json",
+      "selected_ids": [],
+      "selected_zh": [],
+      "accepted_count": 0,
+      "selected_count": 0,
+      "covered_required_count": 0,
+      "required_opportunities": 0,
+      "false_positive_ids": [],
+      "false_negative_ids": [],
+      "false_positive_zh": [],
+      "false_negative_zh": [],
+      "unique_issue_ids": [],
+      "problem_free": true
+    }
+  ]
+}

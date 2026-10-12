@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2028302281\",\"annotations\":[{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"low-rank matrix factorization\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文提出新的低秩矩阵分解模型，显式利用低秩分解/近似表示相关结构，属于低秩建模。\"},{\"keyword_id\":\"graph-manifold-regularization\",\"exact_quote\":\"incorporates manifold regularization to the matrix factorization\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文将流形正则化加入矩阵分解，以几何一致性约束学习结果，满足图与流形正则化定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

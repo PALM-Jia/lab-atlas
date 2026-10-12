@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2168103112",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "theme of nonnegative matrix factorization (NMF)",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要开篇明确以非负矩阵分解为主题，并提出多种新变体，属于该方法的实质研究对象。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "consider the implications for sparseness of solutions",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确讨论解的稀疏性，涉及用少量基向量或潜在特征表达样本，符合稀疏表示方法。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

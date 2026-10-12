@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2143385470\",\"annotations\":[{\"keyword_id\":\"semi-supervised-learning\",\"exact_quote\":\"In this paper, we propose to incorporate additional side-information, which is in the form of pairwise constraints, into MMC to further improve its performance.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文在无监督最大间隔聚类中引入成对约束作为有限监督信息来指导全部样本的聚类，符合半监督学习定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

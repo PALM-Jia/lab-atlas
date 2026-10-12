@@ -1,0 +1,13 @@
+{
+  "paper_id": "W4377990871",
+  "annotations": [
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "Integrating the traffic science with representation learning for city-wide network congestion prediction",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以城市路网拥堵预测为研究任务，交通科学与交通网络状态是研究对象，符合交通数据对象。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

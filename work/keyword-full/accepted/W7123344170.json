@@ -1,0 +1,18 @@
+{
+  "paper_id": "W7123344170",
+  "annotations": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "A ‘low-rank + sparse’ model is established to formulate the received signal via a Joint Space-Time (JST)-Stable Principal Component Pursuit (SPCP)-decomposition framework.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文显式建立‘低秩+稀疏’模型，并利用信号矩阵的低秩结构/分解来表示接收信号，满足低秩建模定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "sparse-representation",
+      "reason_zh": "仅见‘low-rank + sparse’模型与SPCP分解，未说明以字典原子、基向量或潜在特征表达样本，稀疏项角色不足，难以确定满足稀疏表示定义。"
+    }
+  ],
+  "input_issues": []
+}

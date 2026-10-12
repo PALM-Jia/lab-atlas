@@ -1,0 +1,788 @@
+{
+  "papers": [
+    {
+      "paper_id": "lab-0529638ee44a",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Nonnegative Matrix Factorization with Mixed Hypergraph Regularization for Community Detection",
+          "score": 1
+        }
+      ],
+      "reason_zh": "社区发现是图上的群组划分任务。"
+    },
+    {
+      "paper_id": "lab-054cd66669d7",
+      "primary": "recovery",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "recovery",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "A Flexible and Robust Tensor Completion Approach for Trafﬁc Data Recovery with Low-rankness",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究交通数据缺失补全及受损数据恢复。"
+    },
+    {
+      "paper_id": "lab-05c8a4098fe0",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Ensemble Clustering via Co-Association Matrix Self-Enhancement",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究集成聚类及其共关联矩阵增强。"
+    },
+    {
+      "paper_id": "lab-061b9da6e2d3",
+      "primary": "clustering",
+      "secondary": [
+        "foundation"
+      ],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Language-Assisted Image Clustering Guided by Discriminative Relational Signals and Adaptive Semantic Centers",
+          "score": 1
+        },
+        {
+          "field_id": "foundation",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "Language-Assisted Image Clustering (LAIC) augments the input images with additional texts with the help of vision-language models (VLMs) to promote clustering performance.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要目标是改善语言辅助图像聚类。"
+    },
+    {
+      "paper_id": "lab-084cf1572406",
+      "primary": "clustering",
+      "secondary": [
+        "foundation"
+      ],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "ESMC: MLLM-Based Embedding Selection for Explainable Multiple Clustering",
+          "score": 1
+        },
+        {
+          "field_id": "foundation",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "Our work investigates how multi-modal large language models (MLLMs) can be leveraged to achieve user-driven clustering, emphasizing their adaptability to user-specified semantic requirements.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要目标是满足用户语义要求的多重聚类。"
+    },
+    {
+      "paper_id": "lab-088383584e44",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "PEEK: Partial Label Learning Empowered by External Knowledge",
+          "score": 1
+        }
+      ],
+      "reason_zh": "标题明确以偏标记学习为研究问题。"
+    },
+    {
+      "paper_id": "lab-0c8c61ff348e",
+      "primary": "recovery",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "recovery",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "a low-rank matrix completion method is tailored to explicitly capture spatiotemporal traffic propagation characteristics and precisely reconstruct traffic states.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要通过矩阵补全重建交通速度状态。"
+    },
+    {
+      "paper_id": "lab-0f41d99e2574",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "As a learning paradigm, MIL is different from traditional supervised learning that handles the classification of bags comprising unlabeled instances.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要解决包级弱监督下的多示例分类问题。"
+    },
+    {
+      "paper_id": "lab-0f498c8f864f",
+      "primary": "clustering",
+      "secondary": [
+        "vision"
+      ],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Discriminative Low-Rank Representation for HSI Clustering",
+          "score": 1
+        },
+        {
+          "field_id": "vision",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Discriminative Low-Rank Representation for HSI Clustering",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要目标是高光谱图像聚类和判别表示学习。"
+    },
+    {
+      "paper_id": "lab-1025a6d4de24",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Individuals Matter: Improving Deep Multi-View Clustering via Explicit Single-View Enhancement",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究多视图深度聚类中的单视图增强。"
+    },
+    {
+      "paper_id": "lab-10ec9a4b941d",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Partial Label Learning with Dissimilarity Propagation guided Candidate Label Shrinkage",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要解决偏标记学习中的候选标签消歧。"
+    },
+    {
+      "paper_id": "lab-11e2dfe6e2ee",
+      "primary": "trust",
+      "secondary": [
+        "foundation"
+      ],
+      "evidence": [
+        {
+          "field_id": "trust",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Steering LVLMs via Sparse Autoencoder for Hallucination Mitigation",
+          "score": 1
+        },
+        {
+          "field_id": "foundation",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "Large vision-language models (LVLMs) have achieved remarkable performance on multimodal tasks.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要目标是抑制视觉语言大模型幻觉。"
+    },
+    {
+      "paper_id": "lab-11e9d626e8d9",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "Extensive experiments on benchmark datasets demonstrate the significant superiority of our method over state-of-the-art ones when used for constrained clustering and dimensionality reduction.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要学习用于约束聚类和降维的亲和关系表示。"
+    },
+    {
+      "paper_id": "lab-1a90fc2c3965",
+      "primary": "foundation",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "foundation",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "KGFlow: Enhancing Large Language Model Reasoning with Multi-Graph Alignment for Knowledge-Intensive Medical Question Answering",
+          "score": 1
+        }
+      ],
+      "reason_zh": "标题明确研究大语言模型推理与医学问答。"
+    },
+    {
+      "paper_id": "lab-1ba64af37485",
+      "primary": "vision",
+      "secondary": [
+        "foundation"
+      ],
+      "evidence": [
+        {
+          "field_id": "vision",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "Generative zero-shot learning (ZSL) synthesizes visual features for unseen classes by learning a semantic-conditioned generator from seen classes.",
+          "score": 1
+        },
+        {
+          "field_id": "foundation",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Attribute Distribution Modeling and Semantic-Visual Alignment for Generative Zero-shot Learning",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要解决未见视觉类别的生成式零样本学习。"
+    },
+    {
+      "paper_id": "lab-1eb268aa7f49",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Convex Constrained Clustering with Graph-Laplacian PCA",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究约束聚类和低维表示。"
+    },
+    {
+      "paper_id": "lab-1f9013eb2f8b",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "AME-LSIFT: Attention-Aware Multi-Label Ensemble with Label Subset-SpecIfic FeaTures",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究多标记学习的集成分类框架。"
+    },
+    {
+      "paper_id": "lab-1ff59dd4a58f",
+      "primary": "vision",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "vision",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Global-Local Balanced Low-Rank Approximation of Hyperspectral Images for Classification",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要目标是提高高光谱图像分类性能。"
+    },
+    {
+      "paper_id": "lab-2110e10b1fd2",
+      "primary": "foundation",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "foundation",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Progressive Pseudo-label Self-balancing Towards Unsupervised Vision-Language Models Adaptation",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究无标签数据上的视觉语言模型适应。"
+    },
+    {
+      "paper_id": "lab-22cc955daee0",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "This paper studies the long-tailed semi-supervised learning (LTSSL) with distribution mismatch, where the class distribution of the labeled training data follows a long-tailed distribution and mismatches with that of the unlabeled training data.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要解决有限标注及长尾标签分布不匹配下的分类学习。"
+    },
+    {
+      "paper_id": "lab-24effaa314d4",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "You Can Trust Your Clustering Model: A Parameter-free Self-Boosting Plug-in for Deep Clustering",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要增强深度聚类的特征结构与聚类性能。"
+    },
+    {
+      "paper_id": "lab-25256b9dda22",
+      "primary": "vision",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "vision",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Pseudo Label Rectification With Joint Camera Shift Adaptation and Outlier Progressive Recycling for Unsupervised Person Re-Identification",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要任务是无监督行人重识别。"
+    },
+    {
+      "paper_id": "lab-27ee33bde0ac",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Deep Attention-guided Graph Clustering with Dual Self-supervision",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究双重自监督的深度图聚类。"
+    },
+    {
+      "paper_id": "lab-2b357d849d9d",
+      "primary": "recovery",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "recovery",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "An Integrated Intra-view and Inter-view Framework for Multiple Traffic Variable Data Simultaneous Recovery",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究多个交通变量的缺失数据联合恢复。"
+    },
+    {
+      "paper_id": "lab-2c640db3fd61",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Complementary Label Learning with Positive Label Guessing and Negative Label Enhancement",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究互补标签学习与标签信息增强。"
+    },
+    {
+      "paper_id": "lab-305494044431",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Concentration Distribution Learning from Label Distributions",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要从标签分布学习相对与绝对标签描述强度。"
+    },
+    {
+      "paper_id": "lab-36466e9ba385",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "we propose a novel SNMF-based semisupervised clustering method",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究成对约束指导的半监督聚类。"
+    },
+    {
+      "paper_id": "lab-3af1c95693ac",
+      "primary": null,
+      "secondary": [],
+      "evidence": [],
+      "reason_zh": "主要研究用于一般分类的图构建，未明确以聚类、降维或表示学习为任务。"
+    },
+    {
+      "paper_id": "lab-3af81cff7068",
+      "primary": "recovery",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "recovery",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Beyond Low-Rank: A Region-Aware Imputation Method for Traffic Data Recovery",
+          "score": 1
+        }
+      ],
+      "reason_zh": "标题明确以交通数据插补恢复为目标。"
+    },
+    {
+      "paper_id": "lab-3d396fcbdc50",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Attention-driven graph clustering network",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究注意力驱动的图聚类网络。"
+    },
+    {
+      "paper_id": "lab-3f9060fdcde7",
+      "primary": "clustering",
+      "secondary": [
+        "vision"
+      ],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Structural-Spectral Graph Convolution with Evidential Edge Learning for Hyperspectral Image Clustering",
+          "score": 1
+        },
+        {
+          "field_id": "vision",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "Hyperspectral image (HSI) clustering groups pixels into clusters without labeled data, which is an important yet challenging task.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要目标是高光谱图像无监督聚类。"
+    },
+    {
+      "paper_id": "lab-42c1bb186393",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "The proposed model is capable of generating discriminable low-dimensional representations to improve clustering performance.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要学习提高聚类性能的低维判别表示。"
+    },
+    {
+      "paper_id": "lab-458c61eb7de8",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Simultaneous Dimensionality Reduction and Classification via Dual Embedding Regularized Nonnegative Matrix Factorization",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要联合学习低维表示与分类，降维为核心任务。"
+    },
+    {
+      "paper_id": "lab-4dafc16e5fd8",
+      "primary": "foundation",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "foundation",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Question-Level Multimodal Fusion for Cognitive Ability Assessment in Asynchronous Video Interviews",
+          "score": 1
+        }
+      ],
+      "reason_zh": "标题明确以视频面试中的多模态融合为主要研究手段和问题。"
+    },
+    {
+      "paper_id": "lab-4f00a8eb8a7d",
+      "primary": "vision",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "vision",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "ViT-UWA: Vision Transformer Underwater-Adapter for Dense Predictions Beneath the Water Surface",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究水下图像的密集预测任务。"
+    },
+    {
+      "paper_id": "lab-4f3942c218c8",
+      "primary": "trust",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "trust",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "DPtSTrip: Adversarially Robust Learning with Distance-Aware Point-to-Set Triplet Loss",
+          "score": 1
+        }
+      ],
+      "reason_zh": "标题明确以对抗鲁棒学习为目标。"
+    },
+    {
+      "paper_id": "lab-50d02eb604b9",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "Semi-supervised symmetric non-negative matrix factorization (SNMF) utilizes the available supervisory information (usually in the form of pairwise constraints) to improve the clustering ability of SNMF.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要增强半监督非负矩阵分解的聚类能力。"
+    },
+    {
+      "paper_id": "lab-5111c5177048",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "the augmented PCs by our method produce higher accuracy than state-of-the-art semi-supervised clustering methods when applied to constrained clustering.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要传播成对约束以增强约束聚类。"
+    },
+    {
+      "paper_id": "lab-51397954ce4d",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Inaccurate Label Distribution Learning",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究不准确标签分布下的标签分布学习。"
+    },
+    {
+      "paper_id": "lab-532faa4a2fc2",
+      "primary": "foundation",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "foundation",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "ResMerge: Residual-based Spectral Merging of Large Language Models",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究大语言模型的参数合并。"
+    },
+    {
+      "paper_id": "lab-5403cb1aad23",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Noise Separation guided Candidate Label Reconstruction for Noisy Partial Label Learning",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要解决噪声偏标记学习及候选标签重建。"
+    },
+    {
+      "paper_id": "lab-56209c579874",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Inaccurate Label Distribution Learning with Dependency Noise",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要解决依赖噪声影响下的标签分布学习。"
+    },
+    {
+      "paper_id": "lab-57c2d8cba676",
+      "primary": "trust",
+      "secondary": [
+        "foundation"
+      ],
+      "evidence": [
+        {
+          "field_id": "trust",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Finding the Correct Visual Evidence Without Forgetting: Mitigating Hallucination in LVLMs via Inter-Layer Visual Attention Discrepancy",
+          "score": 1
+        },
+        {
+          "field_id": "foundation",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "Large Vision-Language Models (LVLMs) have shown remarkable performance on a wide range of vision-language tasks.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要目标是通过视觉证据增强抑制模型幻觉。"
+    },
+    {
+      "paper_id": "lab-5a1fffb8e6b7",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "we propose a joint PCP model for constrained SC by simultaneously learning a propagation matrix and an affinity matrix.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要联合优化成对约束传播与亲和矩阵以改善约束谱聚类。"
+    },
+    {
+      "paper_id": "lab-5db2d9f26022",
+      "primary": "labels",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "Label Distribution Learning by Exploiting Fuzzy Label Correlation",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究模糊标签相关性指导的标签分布学习。"
+    },
+    {
+      "paper_id": "lab-5dda1e979492",
+      "primary": "labels",
+      "secondary": [
+        "vision"
+      ],
+      "evidence": [
+        {
+          "field_id": "labels",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "LoCo: Selective Local Competition for Discriminative Open-Vocabulary Multi-Label Recognition",
+          "score": 1
+        },
+        {
+          "field_id": "vision",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "Open-vocabulary multi-label recognition (OV-MLR) aims to identify all queried semantic concepts present in an image.",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要研究开放词表条件下的多标记识别。"
+    },
+    {
+      "paper_id": "lab-60280e69a6e3",
+      "primary": "recovery",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "recovery",
+          "keyword_id": null,
+          "kind": "title",
+          "text": "When Missingness Meets Anomalies: A Tailored Low-rank Tensor Completion Approach for Traffic Data Recovery",
+          "score": 1
+        }
+      ],
+      "reason_zh": "标题明确研究同时有缺失和异常的交通数据恢复。"
+    },
+    {
+      "paper_id": "lab-62249197b63f",
+      "primary": "clustering",
+      "secondary": [],
+      "evidence": [
+        {
+          "field_id": "clustering",
+          "keyword_id": null,
+          "kind": "abstract",
+          "text": "Symmetric nonnegative matrix factorization (SymNMF) is a powerful tool for clustering",
+          "score": 1
+        }
+      ],
+      "reason_zh": "主要学习相似与相异关系以改进聚类。"
+    }
+  ]
+}

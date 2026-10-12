@@ -1,0 +1,1 @@
+const fs=require('node:fs'),vm=require('node:vm');const c={window:{}};vm.createContext(c);vm.runInContext(fs.readFileSync('outputs/paper-atlas/data.js','utf8'),c);console.log(JSON.stringify(Object.keys(c.window)));for(const v of Object.values(c.window))if(v?.meta)console.log(JSON.stringify(v.meta.limits));

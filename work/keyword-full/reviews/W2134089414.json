@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2134089414",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "In experiments with arti cial constraints on six data sets, we observe improvements in clustering accuracy.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以人工约束提供背景监督而非完整实例级聚类真值，并以该约束条件指导聚类，遗漏不完整监督的弱监督设定。"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "In experiments with arti cial constraints on six data sets, we observe improvements in clustering accuracy.",
+        "evidence_field": "abstract",
+        "reason_zh": "论文以人工约束提供背景监督而非完整实例级聚类真值，并以该约束条件指导聚类，遗漏不完整监督的弱监督设定。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

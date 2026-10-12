@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2337762808",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_positive",
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "该句仅说明把深度信息用于图构造，未说明学习或修正边、邻接或亲和矩阵；把图构造直接当作图结构学习缺乏充分证据。",
+      "exact_quote": "the input image is represented as a graph, and the depth information is introduced into graph construction",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "graph-structure-learning"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "graph-structure-learning",
+        "reason_zh": "原文仅说明引入深度信息构造图，没有交代学习或修正边、邻接或亲和矩阵的机制，故图结构学习弃权。"
+      }
+    ],
+    "input_issues": []
+  }
+}

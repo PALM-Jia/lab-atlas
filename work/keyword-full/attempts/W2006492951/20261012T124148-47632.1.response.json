@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2006492951\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"pairwise multilabel classification\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确将 pairwise multilabel classification 作为研究任务，符合多标记分类/多标记学习定义。\"}],\"abstentions\":[{\"keyword_id\":\"classifier-ensemble\",\"reason_zh\":\"标题仅有 voting prediction，未明确是由多个分类器预测聚合完成分类，证据不足。\"},{\"keyword_id\":\"label-correlation-modeling\",\"reason_zh\":\"标题的 pairwise 可能指标签成对关系，但未明确建模标签间相关性或依赖，证据不足。\"}],\"input_issues\":[]}"
+}

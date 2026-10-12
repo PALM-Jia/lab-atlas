@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2091449379",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "we propose an algorithm to estimate missing values in tensors of visual data",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确任务为估计视觉数据张量中的缺失值，输出为补全后的数据，符合数据补全与恢复定义。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "simple low rank tensor completion (SiLRTC)",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出低秩张量补全算法并求解张量迹范数最小化，显式利用张量低秩约束/表示。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

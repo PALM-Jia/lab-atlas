@@ -1,0 +1,5 @@
+{
+  "sample_id": "S03",
+  "title": "Ambiguously Labeled Learning Using Dictionaries",
+  "abstract": "We propose a dictionary-based learning method for ambiguously labeled multiclass classification, where each training sample has multiple labels and only one of them is the correct label. The dictionary learning problem is solved using an iterative alternating algorithm. At each iteration of the algorithm, two alternating steps are performed: 1) a confidence update and 2) a dictionary update. The confidence of each sample is defined as the probability distribution on its ambiguous labels. The dictionaries are updated using either soft or hard decision rules. Furthermore, using the kernel methods, we make the dictionary learning framework nonlinear based on the soft decision rule. Extensive evaluations on four unconstrained face recognition datasets demonstrate that the proposed method performs significantly better than state-of-the-art ambiguously labeled learning approaches."
+}

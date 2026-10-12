@@ -1,0 +1,25 @@
+{
+  "paper_id": "W3034951560",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "spatiotemporal traffic data imputation",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以时空交通数据缺失值插补为任务，属于估计缺失观测的数据补全与恢复。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "nonconvex low-rank tensor completion model",
+      "evidence_field": "title",
+      "reason_zh": "标题与摘要提出低秩张量补全框架并在交通张量上定义截断核范数，显式利用张量低秩结构。"
+    },
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "four spatiotemporal traffic data sets",
+      "evidence_field": "abstract",
+      "reason_zh": "研究对象为时空交通数据，并在四个时空交通数据集上实验，属于实际交通数据对象。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

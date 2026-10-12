@@ -1,0 +1,13 @@
+{
+  "paper_id": "W1902027874",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Here we demonstrate an algorithm for non-negative matrix factorization that is able to learn parts of faces and semantic features of text.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确提出本文提出并演示非负矩阵分解算法，以其非负约束学习部件表示，是论文核心方法。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

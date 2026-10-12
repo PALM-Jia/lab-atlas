@@ -1,0 +1,13 @@
+{
+  "paper_id": "W3035524453",
+  "annotations": [
+    {
+      "keyword_id": "contrastive-learning",
+      "exact_quote": "From a perspective on contrastive learning as dictionary look-up",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以对比学习为方法视角，用动态字典与动量编码器进行无监督视觉表示学习，满足对比学习定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

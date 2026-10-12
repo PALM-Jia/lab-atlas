@@ -1,0 +1,42 @@
+{
+  "paper_id": "lab-89a32c865fd0",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral Image Classification",
+      "evidence_field": "title",
+      "reason_zh": "标题明确论文任务为高光谱图像分类，高光谱图像是研究对象。"
+    },
+    {
+      "keyword_id": "pseudo-label-self-training",
+      "exact_quote": "we first employ support vector machine (SVM) classifiers to predict pseudolabels independently for each unlabeled sample, and consistency voting is applied to the resulting pseudolabels to select and add a few unlabeled samples to the training set. Then, we refine the kernels to improve their discriminability with the augmented training set and a typical kernel learning method. Such phases are repeated until stable.",
+      "evidence_field": "abstract",
+      "reason_zh": "用SVM为未标注样本预测伪标签，经一致性投票筛选后加入训练集并迭代精炼核，模型预测成为后续训练信号。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "fully utilizing unlabeled samples, making it very effective to handle the task with extremely limited training samples",
+      "evidence_field": "abstract",
+      "reason_zh": "同时利用未标注样本与极有限标注训练样本，属于半监督学习设定。"
+    },
+    {
+      "keyword_id": "classifier-ensemble",
+      "exact_quote": "with multiple initial kernels and labeled samples, we first employ support vector machine (SVM) classifiers to predict pseudolabels independently for each unlabeled sample, and consistency voting is applied to the resulting pseudolabels",
+      "evidence_field": "abstract",
+      "reason_zh": "多个SVM分类器独立预测并通过一致性投票融合预测结果，属于结合多个分类器预测的集成分类方法。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "The proposed framework is capable of fully utilizing unlabeled samples, making it very effective to handle the task with extremely limited training samples.",
+      "evidence_field": "abstract",
+      "reason_zh": "极有限标注与未标注数据构成不完整监督，并且利用未标注样本是框架核心；词表弱监督明确包含有限标注，原弃权与该定义不符，应补选并删除对应弃权。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "multi-view-learning",
+      "reason_zh": "多个初始核可能对应多个表示，但摘要未说明同一对象的互补特征视图或视图间关系的显式联合利用，证据不足。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2183341477",
+  "annotations": [
+    {
+      "keyword_id": "classifier-ensemble",
+      "exact_quote": "With an ensemble of 4 models and multi-crop evaluation",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要报告在ILSVRC分类任务中使用4个模型的集成并结合多裁剪评估，符合结合多个分类器预测完成分类的集成分类方法。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

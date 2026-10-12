@@ -1,0 +1,195 @@
+{
+  "samples": [
+    {
+      "sample_id": "S01",
+      "required": [
+        {
+          "keyword_id": "label-correlation-modeling",
+          "exact_quote": "IPDL generates a common preference distribution that is most compatible to all the personal rankings, and then learns a mapping from the instances to the preference distributions.",
+          "evidence_field": "abstract",
+          "reason_zh": "方法显式利用标签排序学习共同偏好分布，属于词条包含的标签排序结构建模。"
+        }
+      ],
+      "optional": [
+        {
+          "keyword_id": "multi-label-learning",
+          "exact_quote": "Multilabel Ranking with Inconsistent Rankers",
+          "evidence_field": "title",
+          "reason_zh": "标题明确为多标记排序，但定义要求预测可同时成立的多个标记；排序是否用于这样的标记预测未明确，因此多标记排序与词条所述多标记分类的任务边界存在歧义。"
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "exact_quote": "then learns a mapping from the instances to the preference distributions",
+          "evidence_field": "abstract",
+          "reason_zh": "明确预测标签偏好分布，但定义指各标签对实例的相对描述程度；偏好程度是否可视为描述程度存在真实语义边界，不能仅凭Distribution Learning名称判定。"
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "exact_quote": "only subjective inconsistent rankings from multiple rankers are associated with each instance",
+          "evidence_field": "abstract",
+          "reason_zh": "训练仅有相互不一致的主观排序而非单一客观排序，可理解为不准确监督；但也可能是各排序者均有效的主观偏好，是否属于弱监督而非偏好多样性存在边界。"
+        }
+      ],
+      "notes_zh": "逐项考虑固定49词。标签排序不是可直接等同于候选单真标签、错误类别标签或模型行为价值对齐的证据；个人模型的统一也不是参数空间模型合并的证据。"
+    },
+    {
+      "sample_id": "S02",
+      "required": [
+        {
+          "keyword_id": "low-rank-modeling",
+          "exact_quote": "this letter proposes a novel discriminative low-rank representation method to exploit the spatial and spectral information of HSIs",
+          "evidence_field": "abstract",
+          "reason_zh": "所提方法直接学习低秩表示，是实质采用的低秩建模。"
+        },
+        {
+          "keyword_id": "hyperspectral-images",
+          "exact_quote": "We exploit the hyperspectral image (HSI) clustering problem",
+          "evidence_field": "abstract",
+          "reason_zh": "高光谱图像是明确研究对象。"
+        }
+      ],
+      "optional": [
+        {
+          "keyword_id": "image-segmentation",
+          "exact_quote": "partitions an input HSI into several groups without relying on any supervision information",
+          "evidence_field": "abstract",
+          "reason_zh": "将输入高光谱图像划为若干组可能对应像素分割，但原文未明确被分组单元是像素或区域，图像聚类与像素分割之间存在文本边界。"
+        }
+      ],
+      "notes_zh": "逐项考虑固定49词。明确纯无监督，不能据此选半监督或弱监督；低秩表示本身不证明潜在子空间分组、显式降维目标或非负矩阵分解。"
+    },
+    {
+      "sample_id": "S03",
+      "required": [
+        {
+          "keyword_id": "partial-label-learning",
+          "exact_quote": "each training sample has multiple labels and only one of them is the correct label",
+          "evidence_field": "abstract",
+          "reason_zh": "候选集合中仅一个标签为真，直接符合标准偏标记设定。"
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "exact_quote": "each training sample has multiple labels and only one of them is the correct label",
+          "evidence_field": "abstract",
+          "reason_zh": "候选标签歧义代替准确实例真值，且为本文研究条件；词表没有将偏标记学习设为本词子节点，因此两者可共选。"
+        }
+      ],
+      "optional": [],
+      "notes_zh": "逐项考虑固定49词。字典学习未说明少量原子或稀疏编码，不据常见实现补出稀疏表示；候选标签上的置信概率不等于标记描述度分布，也不等于置信度校准；没有真标签遗漏或错误监督证据。"
+    },
+    {
+      "sample_id": "S04",
+      "required": [
+        {
+          "keyword_id": "multi-label-learning",
+          "exact_quote": "multi-label learning",
+          "evidence_field": "title",
+          "reason_zh": "标题直接明确多标记学习研究任务。"
+        }
+      ],
+      "optional": [],
+      "notes_zh": "逐项考虑固定49词。摘要缺失，仅依标题；ML-KNN或lazy learning名称不能补出贝叶斯推断、标签相关性等实现细节。"
+    },
+    {
+      "sample_id": "S05",
+      "required": [],
+      "optional": [],
+      "notes_zh": "逐项考虑固定49词。词表没有一般谱聚类词条。提出非负约束不等于以非负因子分解矩阵；既有算法的特征值分解、normalized cut及k-means是背景描述，不可补出低秩、图流形正则或降维标签。本文的判别正则未说明以图或流形结构施加几何一致性。"
+    },
+    {
+      "sample_id": "S06",
+      "required": [
+        {
+          "keyword_id": "nonnegative-matrix-factorization",
+          "exact_quote": "Nonnegative Matrix Factorization",
+          "evidence_field": "title",
+          "reason_zh": "标题直接说明实质采用非负矩阵分解。"
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "exact_quote": "Mixed Hypergraph Regularization",
+          "evidence_field": "title",
+          "reason_zh": "标题直接说明采用超图正则化，符合以超图结构约束学习结果的定义。"
+        }
+      ],
+      "optional": [
+        {
+          "keyword_id": "low-rank-modeling",
+          "exact_quote": "Nonnegative Matrix Factorization",
+          "evidence_field": "title",
+          "reason_zh": "非负矩阵分解常以低秩因子表示矩阵，但词条要求明确低秩结构；标题未说明分解秩或压缩维度，矩阵分解是否足以同时认定低秩存在边界。"
+        }
+      ],
+      "notes_zh": "逐项考虑固定49词。摘要缺失，仅依标题；社团检测不自造新词，超图正则不证明图结构被学习，也不证明使用图神经网络。"
+    },
+    {
+      "sample_id": "S07",
+      "required": [
+        {
+          "keyword_id": "ensemble-clustering",
+          "exact_quote": "Ensemble clustering integrates a set of base clustering results to generate a stronger one.",
+          "evidence_field": "abstract",
+          "reason_zh": "明确融合多个基础聚类结果，且是本文实际研究任务。"
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "exact_quote": "By propagating the highly reliable information of the HC matrix to the CA matrix and complementing the HC matrix according to the CA matrix simultaneously, the proposed method generates an enhanced CA matrix for better clustering.",
+          "evidence_field": "abstract",
+          "reason_zh": "CA矩阵表示样本对共同归簇关系，本文通过优化传播修正该亲和关系矩阵，符合学习或修正样本间亲和矩阵。"
+        }
+      ],
+      "optional": [],
+      "notes_zh": "逐项考虑固定49词。HC关系来自基础聚类，没有must-link/cannot-link监督信息，不能等同成对监督约束传播或半监督；稀疏HC矩阵不是以少量字典原子表达样本。"
+    },
+    {
+      "sample_id": "S08",
+      "required": [],
+      "optional": [],
+      "notes_zh": "逐项考虑固定49词。固定词表未覆盖ELM、指数族分布或核方法。概率输出及指数族建模未描述先验后验推断，不等于贝叶斯推断；更准确概率解释没有将置信度与正确概率进行校准的实质过程；随机非线性变换没有以维度压缩为目标。"
+    },
+    {
+      "sample_id": "S09",
+      "required": [
+        {
+          "keyword_id": "deep-clustering",
+          "exact_quote": "we propose the Sub-cluster Aggregation Guided Enhancement Network (SAGENet), a framework that leverages sub-cluster aggregation to guide representation enhancement",
+          "evidence_field": "abstract",
+          "reason_zh": "提出聚类网络并以子簇聚合指导表示学习，后续以可学习分配获得目标簇，符合可学习神经表示与聚类头获得划分。"
+        },
+        {
+          "keyword_id": "class-imbalance",
+          "exact_quote": "enabling reliable sample selection with class-balanced weights and an adaptive push-away loss that explicitly separates majority and minority representations",
+          "evidence_field": "abstract",
+          "reason_zh": "方法明确以类别平衡权重及多数/少数表示分离处理类别或簇不平衡。"
+        }
+      ],
+      "optional": [
+        {
+          "keyword_id": "graph-neural-networks",
+          "exact_quote": "Our approach over-clusters data into fine-grained sub-clusters, applies dual-frequency filtering to preserve structural information, and merges them into target clusters via a learnable assignment.",
+          "evidence_field": "abstract",
+          "reason_zh": "本文图聚类网络实质使用双频过滤并学习簇分配，但未明确过滤本身是否为可学习图卷积或消息传递；GCN明示片段属于问题背景，因此图网络定义边界尚存。"
+        },
+        {
+          "keyword_id": "contrastive-learning",
+          "exact_quote": "an adaptive push-away loss that explicitly separates majority and minority representations",
+          "evidence_field": "abstract",
+          "reason_zh": "该损失通过区分多数与少数表示学习表示，可落入对比定义；但未说明对比样本/中心构造或吸引关系，也可能仅为普通距离分离正则，存在定义边界。"
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "exact_quote": "The resulting aggregation process provides guidance signals for representation learning, enabling reliable sample selection with class-balanced weights",
+          "evidence_field": "abstract",
+          "reason_zh": "学习到的聚类聚合结果反向指导表示学习并筛选样本，接近预测作为后续训练信号；但未明确该指导信号是伪标签还是结构性聚合信号，因此可选而非必选。"
+        }
+      ],
+      "notes_zh": "逐项考虑固定49词。子簇聚合并非融合多个已有聚类结果的共识任务；类别不平衡不是域适应；样本筛选不是置信度校准；没有外部有限监督证据，不标半监督或弱监督。"
+    },
+    {
+      "sample_id": "S10",
+      "required": [],
+      "optional": [],
+      "notes_zh": "逐项考虑固定49词。主旨是ADMM及分布式优化综述，词表无此词。分布式存储、MPI和MapReduce不足以证明客户端保留原始数据的联邦学习；列举lasso与basis pursuit等应用不明确以少量原子表达样本的实质采用过程，也不补出其他未描述方法。"
+    }
+  ]
+}

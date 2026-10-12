@@ -1,0 +1,18 @@
+{
+  "paper_id": "W2024165284",
+  "annotations": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "CANDECOMP/PARAFAC (CP) decomposes a tensor as a sum of rank-one tensors, and the Tucker decomposition is a higher-order form of principal component analysis.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要以CP张量分解为秩一张量之和、Tucker分解为高阶主成分分析为核心内容，属于显式张量低秩分解/近似表示，满足低秩建模定义且为全文核心主题。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "reason_zh": "摘要仅称“nonnegative variants of all of the above”，可指非负张量分解，未明确是非负矩阵分解，按定义证据不足。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,19 @@
+{
+  "paper_id": "W3112585751",
+  "annotations": [
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "By combining convolution sparse decomposition with multiscale analysis, MCSD can efficiently approximate the spatial and spectral information in images.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以多尺度卷积稀疏分解为核心，用卷积稀疏分解表示图像并生成低频与特征图，满足稀疏表示利用少量基/字典原子表达样本的定义。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "A unified framework based on MCSD is first utilized to decompose panchromatic (PAN) image and the spatial component of upsampled low spatial resolution multispectral (LR MS) images, which can produce the corresponding low frequencies and feature maps.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要将全色图像与低分辨率多光谱图像作为同一场景的互补观测，并在统一框架中联合分解与融合，符合多视图学习设定。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2733555913",
+  "annotations": [
+    {
+      "keyword_id": "partial-label-learning",
+      "exact_quote": "In partial label learning, each training example is associated with a set of candidate labels among which only one is the ground-truth label.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确给出偏标记学习设定：每个训练示例对应候选标签集合，其中仅一个为真实标签，是该论文的核心研究任务。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "In partial label learning, each training example is associated with a set of candidate labels among which only one is the ground-truth label.",
+      "evidence_field": "abstract",
+      "reason_zh": "候选标签集合仅一个为真，属于不精确/不完整的监督信号，且论文以此监督条件为实质研究问题，满足弱监督学习定义。"
+    },
+    {
+      "keyword_id": "classifier-ensemble",
+      "exact_quote": "During testing phase, class label for the unseen instance is determined via loss-based decoding which considers binary classifiers' empirical performance and predictive margin.",
+      "evidence_field": "abstract",
+      "reason_zh": "PL-ECOC基于ECOC为各编码列构建二分类器，并在测试时通过损失解码综合多个二分类器的经验性能与预测间隔完成分类。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

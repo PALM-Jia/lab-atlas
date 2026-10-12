@@ -1,0 +1,22 @@
+{
+  "paper_id": "W1516407653",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "The book presents various types of constraints for clustering and describes useful variations of the standard problem of clustering under constraints.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明该书呈现多种聚类约束并讨论带约束聚类问题，约束作为监督信息与聚类结合，符合半监督学习以监督信息指导未标注样本聚类的核心设定。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "摘要仅称带约束聚类，未说明约束是不完整、不精确或粗粒度等弱监督信号及其替代实例级真值的方式，无法确认弱监督设定。"
+    },
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "reason_zh": "摘要提到约束用于聚类，但未说明must-link/cannot-link成对约束或其传播扩展机制，无法确认该具体方法。"
+    }
+  ],
+  "input_issues": []
+}

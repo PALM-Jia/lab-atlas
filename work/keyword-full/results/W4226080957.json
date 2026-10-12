@@ -1,0 +1,30 @@
+{
+  "paper_id": "W4226080957",
+  "annotations": [
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "Multi-view clustering has received widespread attention owing to its effectiveness by integrating multi-view data appropriately",
+      "evidence_field": "abstract",
+      "reason_zh": "论文面向多视图聚类并显式整合多视图数据，同一对象有多个视图且联合利用，符合多视图学习设定。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "a novel anchor graph regularization (ARG) is designed to improve the quality of the learned embedded anchor graph (EAG)",
+      "evidence_field": "abstract",
+      "reason_zh": "提出锚图正则化改进嵌入锚图质量，并对比传统图正则化需构建大尺度拉普拉斯矩阵，符合图与流形正则化。"
+    },
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "the obtained EAG is decomposed by nonnegative matrix factorization (NMF) under correntropy criterion to acquire clustering results directly",
+      "evidence_field": "abstract",
+      "reason_zh": "使用非负矩阵分解分解嵌入锚图，并将因子矩阵约束为簇指示矩阵以直接获得聚类结果，符合非负矩阵分解方法。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "摘要提到 learned embedded anchor graph，但未明确说明学习或修正样本间边、邻接或亲和矩阵；主要机制是 anchor graph regularization，难以确定是否满足图结构学习定义。"
+    }
+  ],
+  "input_issues": []
+}

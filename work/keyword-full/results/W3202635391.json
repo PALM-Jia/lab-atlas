@@ -1,0 +1,25 @@
+{
+  "paper_id": "W3202635391",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "Missing data imputation has been a long-standing research topic and critical application for real-world intelligent transportation systems.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以缺失数据填补为研究任务，目标是估计并恢复不完整的时空交通时间序列观测。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "we propose a low-rank autoregressive tensor completion (LATC) framework",
+      "evidence_field": "abstract",
+      "reason_zh": "该文显式采用低秩矩阵/张量完成模型，并提出低秩自回归张量完成框架，符合低秩建模的方法定义。"
+    },
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "Spatiotemporal traffic time series (e.g., traffic volume/speed) collected from sensing systems",
+      "evidence_field": "abstract",
+      "reason_zh": "研究对象是实际采集的时空交通时间序列（交通流量/速度），并在真实交通数据集上实验。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

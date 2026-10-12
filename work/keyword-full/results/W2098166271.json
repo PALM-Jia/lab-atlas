@@ -1,0 +1,18 @@
+{
+  "paper_id": "W2098166271",
+  "annotations": [
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "training class labels are attached to sets of samples (named bags), instead of individual samples within each bag (called instances).",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以包级标签而非实例级标签作为监督，属于包级粗粒度弱监督设定，直接满足弱监督学习定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "noisy-label-learning",
+      "reason_zh": "摘要仅在结果比较中提到 robustness to labeling uncertainty，未说明训练标签含错误类别或以此不准确监督为实质研究条件，故无法确认满足噪声标签学习定义。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2579318141\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"The region proposal based and fully convolutional networks based approaches for semantic segmentation are introduced respectively.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将基于深度学习的语义分割方法作为综述内容，语义分割属于对图像进行像素级区域划分的任务。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

@@ -1,0 +1,24 @@
+{
+  "paper_id": "W2751810713",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "hyperspectral image (HSI) classification",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以高光谱图像分类为应用对象，并在三个高光谱图像数据集上评估，直接满足高光谱图像处理定义。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "sparse representation of pixels within every spatial region is computed to construct a histogram",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确使用稀疏编码与逐区域稀疏表示来构建像素表示，属于方案实质采用的稀疏表示方法。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "image-segmentation",
+      "reason_zh": "摘要出现超像素图与超像素下采样，但仅将其作为空间引导/区域划分组件，未表明图像分割本身为研究任务或提出分割方法。"
+    }
+  ],
+  "input_issues": []
+}

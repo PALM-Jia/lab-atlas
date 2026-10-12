@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>检索汇总 · Lab Atlas</title>
+  <link rel="stylesheet" href="retrieval.css"><link rel="stylesheet" href="theme.css">
+  <script defer src="retrieval-data.js"></script><script defer src="search-match.js"></script><script defer src="retrieval.js"></script>
+</head>
+<body class="retrieval-page">
+  <header class="atlas-header"><a class="brand atlas-brand" href="index.html"><span class="brand-mark">✳</span><span>Lab Atlas <small>检索汇总</small></span></a><h1 class="sr-only">检索汇总</h1><a class="button" href="workflow.html">处理流程</a><a class="button" href="index.html">返回网络</a></header>
+  <main>
+    <section id="coverage" class="coverage" aria-label="数据收集情况"></section>
+    <div class="controls">
+      <div class="tabs" role="group" aria-label="数据表"><button data-view="papers">论文</button><button data-view="authors">作者</button><button data-view="external">外部文献</button></div>
+      <label class="search"><span class="sr-only">搜索</span><input id="search" type="search" placeholder="标题、姓名、关键词…"></label>
+      <label>字段 <select id="field"></select></label>
+      <label>状态 <select id="status"><option value="all">全部</option><option value="gaps">有字段缺口</option><option value="ready">已取得值</option><option value="partial">部分详情缺失</option><option value="empty">来源返回空</option><option value="missing">无可用值</option><option value="excluded">标注未采用</option><option value="review">身份待核对</option><option value="different">来源差异</option><option value="unlinked">未关联论文</option></select></label>
+      <label id="source-label">来源 <select id="source"><option value="all">全部</option></select></label>
+      <label id="group-label" hidden>分类 <select id="group"><option value="all">全部</option><option value="current">在读学生</option><option value="graduated">已毕业学生</option><option value="other">其他</option></select></label>
+      <button id="reset">重置</button><button id="export">导出筛选结果</button>
+    </div>
+    <div id="workspace" class="workspace">
+      <div class="table-scroll" id="table-scroll"><table id="data-table"><colgroup id="columns"></colgroup><thead id="table-head"></thead><tbody id="table-body"></tbody></table><p id="empty" hidden>没有符合筛选条件的条目。</p></div>
+      <aside id="detail" hidden aria-label="证据详情"><div class="detail-bar"><b>证据详情</b><button id="close-detail" aria-label="关闭详情">×</button></div><div id="detail-content"></div></aside>
+    </div>
+    <footer><span id="page-count"></span><button id="prev">上一页</button><button id="next">下一页</button><label>每页 <select id="page-size"><option value="25">25</option><option value="50">50</option><option value="100">100</option><option value="0">全部</option></select></label></footer>
+  </main>
+</body>
+</html>

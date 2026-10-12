@@ -1,0 +1,13 @@
+{
+  "paper_id": "W4385245566",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "large-language-models",
+      "reason_zh": "标题提及Generative AI，但摘要内容为Mizar自动定理证明与ATP系统实验，未说明大规模预训练语言模型作为研究对象或组件，且标题与摘要明显不一致，无法确认该词。"
+    }
+  ],
+  "input_issues": [
+    "标题与摘要明显不一致：标题为生成式AI扩展智能辅导系统，摘要却描述Mizar定理自动证明与ATP系统实验。"
+  ]
+}

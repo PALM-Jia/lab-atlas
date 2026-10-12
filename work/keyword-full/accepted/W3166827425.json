@@ -1,0 +1,24 @@
+{
+  "paper_id": "W3166827425",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "The internet traffic data completion is an important and challenging task in network engineering.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以互联网流量数据补全为核心任务，目标是从不完整观测恢复缺失数据。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "we introduce two tensor train (TT) based optimization models with temporal regularization to recover the data from an incomplete observation",
+      "evidence_field": "abstract",
+      "reason_zh": "采用张量列分解构造优化模型，利用张量分解结构从不完整观测中恢复数据。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "traffic-data",
+      "reason_zh": "原文为 internet traffic（网络流量）数据，定义限定道路交通速度、流量、轨迹等实际数据对象，无法确认属于该数据对象。"
+    }
+  ],
+  "input_issues": []
+}

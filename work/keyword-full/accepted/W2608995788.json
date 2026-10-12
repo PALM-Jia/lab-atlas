@@ -1,0 +1,11 @@
+{
+  "paper_id": "W2608995788",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "confidence-calibration",
+      "reason_zh": "摘要讨论分类器输出的不确定性/模糊性及其与泛化的统计关系，但未提出或研究使预测置信度与正确概率相符的校准方法，证据不足。"
+    }
+  ],
+  "input_issues": []
+}

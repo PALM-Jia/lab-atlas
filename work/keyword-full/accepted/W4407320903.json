@@ -1,0 +1,22 @@
+{
+  "paper_id": "W4407320903",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "clustering ensemble",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以“clustering ensemble”为研究任务，即融合多个已有聚类结果获得共识划分，符合集成聚类定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "标题仅有“graph model”和“self-embedding”，无法确定是否学习或修正样本间边/邻接/亲和矩阵，可能只是使用图模型或嵌入。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "reason_zh": "“self-embedding”提示嵌入，但标题未说明以显式低维映射或维度压缩为目标，无法确定满足降维定义。"
+    }
+  ],
+  "input_issues": []
+}

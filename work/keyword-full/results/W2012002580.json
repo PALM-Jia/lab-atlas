@@ -1,0 +1,43 @@
+{
+  "paper_id": "W2012002580",
+  "annotations": [
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "exact_quote": "Matrix Completion for Cross-view Pairwise Constraint Propagation",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以跨视图成对约束传播为研究任务，扩展must-link/cannot-link监督关系。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "With low rank requirement and graph regularization, our MCPCP can preserve local and global consistency simultaneously.",
+      "evidence_field": "abstract",
+      "reason_zh": "方法显式引入低秩要求，将传播问题建模为低秩矩阵补全。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "With low rank requirement and graph regularization, our MCPCP can preserve local and global consistency simultaneously.",
+      "evidence_field": "abstract",
+      "reason_zh": "使用图正则化对学习结果施加几何一致性约束，以保持局部和全局一致性。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "pairwise constraint propagation attracts more and more attention in semi-supervised learning",
+      "evidence_field": "abstract",
+      "reason_zh": "论文在semi-supervised learning中利用成对约束作为有限监督信号指导传播。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "cross-view pairwise constraint propagation",
+      "evidence_field": "abstract",
+      "reason_zh": "跨视图设置表明同一对象有多个视图，并显式联合利用视图间成对约束关系。"
+    },
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "we cast cross-view pairwise constraint propagation into a problem of low rank matrix completion",
+      "evidence_field": "abstract",
+      "reason_zh": "将传播问题转化为低秩矩阵补全，估计缺失的成对约束矩阵元素并输出补全结果。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

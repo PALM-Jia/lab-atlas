@@ -1,0 +1,31 @@
+{
+  "paper_id": "W4413677349",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "the unlabeled dataset contains new categories not appearing in the labeled set",
+      "evidence_field": "abstract",
+      "reason_zh": "旧类有标注、未标注数据含新类，属于有限监督与未标注样本联合学习的半监督设定。"
+    },
+    {
+      "keyword_id": "parameter-efficient-fine-tuning",
+      "exact_quote": "we propose a novel adapter-tuning-based method named AdaptGCD, which is the first work to introduce the adapter tuning into the GCD task",
+      "evidence_field": "abstract",
+      "reason_zh": "方法核心是适配器调优，仅训练少量适配参数以适配预训练模型，属于参数高效微调。"
+    },
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "aims to not only classify old categories but also discover new categories in the unlabeled data",
+      "evidence_field": "abstract",
+      "reason_zh": "GCD需在未标注数据中发现新类别，即对未标注样本进行可学习表示驱动的类别划分，符合深度聚类任务。"
+    },
+    {
+      "keyword_id": "classifier-ensemble",
+      "exact_quote": "a multi-expert adapter structure equipped with a route assignment constraint is elaborately devised, such that the data from old and new classes are separated into different expert groups",
+      "evidence_field": "abstract",
+      "reason_zh": "多专家适配器结构通过路由分配将样本分到不同专家组，属于按样本分配专家以完成分类/识别的集成机制。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

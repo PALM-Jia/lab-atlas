@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2242858139",
+  "annotations": [
+    {
+      "keyword_id": "multi-objective-optimization",
+      "exact_quote": "Stable matching-based selection models the selection process in MOEA/D as a stable marriage problem.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以MOEA/D中的选择过程为对象，通过稳定匹配在子问题与解之间分配以平衡收敛性和多样性，属于多目标优化研究。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

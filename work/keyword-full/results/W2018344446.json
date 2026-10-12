@@ -1,0 +1,11 @@
+{
+  "paper_id": "W2018344446",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "multi-objective-optimization",
+      "reason_zh": "标题仅出现“偏好启发”和“权重向量”，未明确多个相互制约目标、帕累托解集或多目标优化任务，无法确认满足定义。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"lab-3af81cff7068\",\"annotations\":[{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"Imputation Method for Traffic Data Recovery\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以交通数据恢复/插补为任务，估计并恢复缺失或受污染观测。\"},{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"Traffic Data Recovery\",\"evidence_field\":\"title\",\"reason_zh\":\"标题将交通数据作为恢复与插补方法处理的实际数据对象。\"}],\"abstentions\":[{\"keyword_id\":\"low-rank-modeling\",\"reason_zh\":\"标题只出现“Beyond Low-Rank”，未说明是否显式使用低秩约束或分解，可能仅为背景或对比项，无法确认其研究角色。\"}],\"input_issues\":[]}"
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2003088946\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"Segmenting images into superpixels as supporting regions for feature vectors and primitives to reduce computational complexity\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以图像超像素分割为核心任务，明确将图像分割为超像素区域，符合图像分割包含超像素分割的定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

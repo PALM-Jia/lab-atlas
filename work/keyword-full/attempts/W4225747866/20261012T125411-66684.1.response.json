@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W4225747866\",\"annotations\":[{\"keyword_id\":\"parameter-efficient-fine-tuning\",\"exact_quote\":\"VPT introduces only a small amount (less than 1% of model parameters) of trainable parameters in the input space while keeping the model backbone frozen.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要表明VPT仅向输入空间引入少量可训练参数并冻结模型骨干，属于参数高效微调，因此选为方法。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

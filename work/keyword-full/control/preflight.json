@@ -1,0 +1,426 @@
+{
+  "mode": "prepared_not_started",
+  "paper_count": 1673,
+  "valid_titles": 1673,
+  "valid_abstracts": 1464,
+  "missing_abstracts": 209,
+  "empty_title_ids": [],
+  "lab_count": 144,
+  "external_count": 1529,
+  "quality_distribution": {
+    "existing_abstract_not_individually_reverified": 1336,
+    "missing_or_unverified_candidate": 209,
+    "source_abstract_verified_title_and_identifier": 128
+  },
+  "status_distribution": {
+    "backfilled_verified": 128,
+    "existing_unverified": 1336,
+    "missing": 209
+  },
+  "abstract_source_distribution": {
+    "None": 209,
+    "OpenAlex": 1253,
+    "Semantic Scholar 03104f9e0586e43611f648af1132064cadc5cc07": 1,
+    "Semantic Scholar 0aeb37039d4adcf19d59776ae0d57b753af28371": 1,
+    "Semantic Scholar 0e0568cdd77c8276b5f427bb1f64e94783e2bea0": 1,
+    "Semantic Scholar 0efb7ba8237580bfd2d6a3f397a5bb3173e14bc7": 1,
+    "Semantic Scholar 11c9c31dff70de92ada9160c78ff8bb46b2912d6": 1,
+    "Semantic Scholar 121c2d4019ca1caa1bc14374b85608d053af62e7": 1,
+    "Semantic Scholar 132cb1a8e66e570fc35cc8b99233c83bf048eefa": 1,
+    "Semantic Scholar 1856a168eec5b47c5cfed57b7722765679e11bcf": 1,
+    "Semantic Scholar 1884dc1c69680247961bdfc38b9b599792b7e20e": 1,
+    "Semantic Scholar 192150ae85278c86d04eef6689fde33d5c0fdc5e": 1,
+    "Semantic Scholar 1ae97c6ee6854526a85770b6683fbdcca75a2b29": 1,
+    "Semantic Scholar 1e884033bec57cb79e2ae8c80de02134a53e0dac": 1,
+    "Semantic Scholar 1fe01aee03fa2858def7cc458b59fbf14f6b7884": 1,
+    "Semantic Scholar 2615097c06a257afc7b488147995feea06e242f3": 1,
+    "Semantic Scholar 2765d366ed4ae7e5fc38a3f53ce80b3525b3d511": 1,
+    "Semantic Scholar 29308c1bcccbdd5fd5d008b92d45bc04f0338a59": 1,
+    "Semantic Scholar 2d03fa493713be985f10779ec0d1f9035260ec98": 1,
+    "Semantic Scholar 352e453427df858b7b659c5fd24604fb7d1a96ef": 1,
+    "Semantic Scholar 374b4409f6a1d2d853af31e329f025da239d375f": 1,
+    "Semantic Scholar 385f265af862754be219b8925d81062dc5b1b999": 1,
+    "Semantic Scholar 38d1012b2aa847a3e7b5af0f0208e08665174b74": 1,
+    "Semantic Scholar 3f891afc0fb98b0f69fd6a3077bf3a723383e2f5": 1,
+    "Semantic Scholar 462bf8c0dbaa75ee36232eb4e93124d91ea48d5b": 1,
+    "Semantic Scholar 57e8b5130be5ebfeb25a113ec39a9dd4b2a0d99a": 1,
+    "Semantic Scholar 59c786eee6e9514b765fec365df4cdc3050d6f73": 1,
+    "Semantic Scholar 5a3bab0a20e5adbf5659acf4f1349a72212dbc8a": 1,
+    "Semantic Scholar 600f06d9b16772053a984cbe257a7375d92ee52b": 1,
+    "Semantic Scholar 611a4e80a1ff450dad58b071b0f010d0abde1ac4": 1,
+    "Semantic Scholar 614327b0a3242ea5226b4caf0a16b87eee70a2ee": 1,
+    "Semantic Scholar 657ae1548cc926a82e811f4287d800acd837fcff": 1,
+    "Semantic Scholar 65b0ffbab1ae29deff6dee7d401bf14b4edf8477": 1,
+    "Semantic Scholar 6b40c3357c645000f284ab12cf24cc56860d4b2c": 1,
+    "Semantic Scholar 6bce4f37fd606b90730c621247e029645cdca99f": 1,
+    "Semantic Scholar 6d431f8731044826b555523fe2f082ccce5b8357": 1,
+    "Semantic Scholar 71b7178df5d2b112d07e45038cb5637208659ff7": 1,
+    "Semantic Scholar 71d18438f021c89ac7d16e4dec2c7f7aba673c6e": 1,
+    "Semantic Scholar 776d2294507d470ee2f2108a24777235ce971e42": 1,
+    "Semantic Scholar 79ab749dfe7e595f3da2e173e80cdadf2a7989bd": 1,
+    "Semantic Scholar 7b213a9716b2ac00ef656ddc6228cc349311d4a0": 1,
+    "Semantic Scholar 7eee728318ab9d04e3228193ce7697695ba63669": 1,
+    "Semantic Scholar 85aefde69e916523d9587b6abd01419420039474": 1,
+    "Semantic Scholar 8b47a2d47e4122d56e213909591418bbb6894cf2": 1,
+    "Semantic Scholar 8e0be569ea77b8cb29bb0e8b031887630fe7a96c": 1,
+    "Semantic Scholar 90d2dec13e15985f9da08a657190e0661d0c7d12": 1,
+    "Semantic Scholar 929fbb5720124b6528b8a19d8edc555e5ea178ae": 1,
+    "Semantic Scholar 93a73327e9f07c75e408bbae11f01fb87586bc4f": 1,
+    "Semantic Scholar 98adfd5bf78e64f44e93304fd58ee8513e607391": 1,
+    "Semantic Scholar 99594b83714f9ff581fba5685a2d65694342b165": 1,
+    "Semantic Scholar 99f284a81dfd6a73ecba7fe1a8e498419107b102": 1,
+    "Semantic Scholar 9ae9e13c0a27131e06854965a83d694d64f6f8e9": 1,
+    "Semantic Scholar a2980244aa9131828d273251785cbb512872f48f": 1,
+    "Semantic Scholar a2d3947fba4ed83b3f7a53aa193c07d622aca854": 1,
+    "Semantic Scholar a5f91516bcabc9a48eff295aca5d83737d1e05e0": 1,
+    "Semantic Scholar aaab0bd4d79d4f19109bab0fbcdb05070fb0edd1": 1,
+    "Semantic Scholar afc3a4ce6f2aedfc91a0408547d894e3cf04e4d2": 1,
+    "Semantic Scholar b0a278e9da129a510754587dc65bdab5cc979fcc": 1,
+    "Semantic Scholar bcf906c60c5ef16a9c1278bc120948c0e4fbeccb": 1,
+    "Semantic Scholar bdfbd79240eaa937b4d3ee53fad35e4382dcdf49": 1,
+    "Semantic Scholar bf35ac697a43be092538edd9404f95f8941f7da1": 1,
+    "Semantic Scholar c04067f03fba2df0c14ea51a170f213eb2983708": 1,
+    "Semantic Scholar c3391c07248835ab4b3861bc4ef3c4e9053beeb9": 1,
+    "Semantic Scholar cf7edea4f538f8a8fb4ab6da82472ee98092238e": 1,
+    "Semantic Scholar d3f433a86869a3ea6558ab7cd4145ac1da0d6414": 1,
+    "Semantic Scholar d5c3f95beadb765cda3721abffbce77b0b7b2a4a": 1,
+    "Semantic Scholar d6e3127414cc980b25a3e918bb1d770cb29df174": 1,
+    "Semantic Scholar d914661c8ec7e5146ddfb16fb0e92c45bad5c6f5": 1,
+    "Semantic Scholar de1357c395d1d0c9ab63250bbb7f0ee85765a373": 1,
+    "Semantic Scholar e91aa0c66e9f32114d128c1eb736ccf8698a2625": 1,
+    "Semantic Scholar eaffef2e8d56d454e77f5b67ecd85ce69e8cc511": 1,
+    "Semantic Scholar ed9db7b20e019cdb1c7db8b7921221ee2d9f36e2": 1,
+    "Semantic Scholar eda90bd43f4256986688e525b45b833a3addab97": 1,
+    "Semantic Scholar ef2dbd484b0760210afbec0bece17d6960d045c1": 1,
+    "Semantic Scholar f307058f80f7011f6f585cade21b777444df4fe2": 1,
+    "Semantic Scholar f3baf389683014c22b002a8d7a802fe8dc646ff9": 1,
+    "Semantic Scholar f4d62a0c053da65ad5888547b3c9e3b18361cb44": 1,
+    "Semantic Scholar fae4506bd003b597fab3291e89fd25b6e3f56bad": 1,
+    "Semantic Scholar ffa4e6793ed6592ca8e9f778a6d3fe7b917d81af": 1,
+    "https://proceedings.iclr.cc/paper_files/paper/2025/hash/0a1f690b558591412b5bddaf10de3b19-Abstract-Conference.html": 1,
+    "https://proceedings.iclr.cc/paper_files/paper/2025/hash/95b6e2ff961580e03c0a662a63a71812-Abstract-Conference.html": 1,
+    "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a8b879590adff2b1874f97db59b65518-Abstract-Conference.html": 1,
+    "https://proceedings.iclr.cc/paper_files/paper/2026/hash/63ef323523f3be8b58ed9277cc747485-Abstract-Conference.html": 1,
+    "https://proceedings.iclr.cc/paper_files/paper/2026/hash/813ed01a11220fcdeed10e0d7da2de25-Abstract-Conference.html": 1,
+    "https://proceedings.mlr.press/v267/li25am.html": 1,
+    "{\"archive\": \"api-page-011fbfb3daa8b113dfb2af3bc70459590073da20e4059fb9e8ae6022e647b48b.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-540-30217-9_84\"}": 1,
+    "{\"archive\": \"api-page-025fb5bfdcf38397d75431945a9706802264dbf1c7108bb0f924a953d5e4bd79.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s00521-009-0277-8\"}": 1,
+    "{\"archive\": \"api-page-057c9eb15e00eec6857480d97ba31966b2b29d788913176e6098e4198004c83a.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s11704-017-7031-7\"}": 1,
+    "{\"archive\": \"api-page-0874197e8710c69a534b9b4b362a8e5044543189986eee9f6580d356ffaec4f3.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10115-015-0885-9\"}": 1,
+    "{\"archive\": \"api-page-0906b83a187975dac136f9bc329479862c20ba79f38f1cf223dc016754460224.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s11263-016-0930-5\"}": 1,
+    "{\"archive\": \"api-page-097cf09a20ae8cc35749c8e83f87da4aa1e4ac40d9ea0a7eb7274fb5e589da1a.html\", \"extractor\": \"conference_abstract-text-inner\", \"url_or_cache\": \"https://neurips.cc/virtual/2026/poster/150939\"}": 1,
+    "{\"archive\": \"api-page-0b33165f8723f35a726f6f301814b1b0d54c0fbd6f5439d73f91faf41fe19401.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-642-72201-1_25\"}": 1,
+    "{\"archive\": \"api-page-0c8a96f7895d91b2e55785d475b09f69d11a34f7d7d4fb43f6d95e6b16cc90bb.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-642-34475-6_54\"}": 1,
+    "{\"archive\": \"api-page-0ccf0108bfffb7e13f51c780e32f801f78430a16053006885f724fe0e52f4ff1.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-642-15567-3_1\"}": 1,
+    "{\"archive\": \"api-page-10089cccb10cb2d88d4d24995cefe80b2e5d5a01e2749bb59e6ab01a93f9e156.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10915-013-9740-x\"}": 1,
+    "{\"archive\": \"api-page-10d0a0c2ab0d3a240a4e73fcba160fd18d37675152ed12be9de810bfdf7ae823.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/3-540-36079-4_29\"}": 1,
+    "{\"archive\": \"api-page-132f18a600363c5a563a82687f15216532c835717c4065f0bf674cbeec53fcef.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10107-014-0826-5\"}": 1,
+    "{\"archive\": \"api-page-14ea1de8a8e9e1b447adf744077269a153d961566ea4f11565215d8895f5adc1.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-981-92-2494-4_5\"}": 1,
+    "{\"archive\": \"api-page-1970e21abcd5187ae068999bc9672d3dd70f4ed549c936a47d4eaa05ef851aeb.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10994-007-5018-6\"}": 1,
+    "{\"archive\": \"api-page-1dd236fcb1799f5cf04690169350967ad0b6ecb18892eaf9028a0050a02ea126.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10994-008-5084-4\"}": 1,
+    "{\"archive\": \"api-page-1fa518a594a159780b746b194645f5d984cbad6b5192c7a5fb7fff4d251e19fd.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-981-95-3320-6_3\"}": 1,
+    "{\"archive\": \"api-page-1fc3a8eeabc5497eadef026d683066afeb57a7d9ae69e4c9a3ca54af8df9f963.html\", \"extractor\": \"conference_abstract-text-inner\", \"url_or_cache\": \"https://neurips.cc/virtual/2026/poster/155077\"}": 1,
+    "{\"archive\": \"api-page-201538424a4050ee224adb95d97e4fa18c06cb8a4f0b6edc7cefe27a7708daf1.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/3-540-45153-6_20\"}": 1,
+    "{\"archive\": \"api-page-2197b9f2d6143e5115cf421a3a8f92051f793e4ef96aaaeaeb81df78aece74d8.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-642-42054-2_58\"}": 1,
+    "{\"archive\": \"api-page-22768a2992fd9f08c55497a92579f4eb4f7edd7735500a398e5380c782e35d4d.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/3-540-28349-8_2\"}": 1,
+    "{\"archive\": \"api-page-230d5ffd02f7652da7cc326273b481d84940a220a2a52dbea4a9f2a9efc2b369.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10618-010-0181-y\"}": 1,
+    "{\"archive\": \"api-page-258a9b30ff2b9764ed87c1fea2816eb5a250bed3588233e58d8909689be0f2fe.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-032-37624-4_23\"}": 1,
+    "{\"archive\": \"api-page-28ad3572e75b8272f974403569a12a36a76bdfcfb86f81ea1be002ec68b85967.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-981-96-7714-6_4\"}": 1,
+    "{\"archive\": \"api-page-2a78bfecceda3234ae66bb9fcd47fd1c9f8245127a12284ee4deb9ca9e4c5b10.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-981-96-7714-6_12\"}": 1,
+    "{\"archive\": \"api-page-2a8897816e1d05e195aa0be665ab3a5366b40aab351cbf4fb0c367f56967371b.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-540-89689-0_33\"}": 1,
+    "{\"archive\": \"api-page-2ca3613810761386a14b0a312f2a149d69c43adc753d479d2688dbe2845b8b11.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-031-16437-8_29\"}": 1,
+    "{\"archive\": \"api-page-2e178db5231c846b303cddf37460be67b2b7debee71fbd90d59480596fffcc89.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-1-4939-2291-8_23\"}": 1,
+    "{\"archive\": \"api-page-2f94d9508e92585fbe3a7115ba0785eda5b419a752a48c153f676855048dfc37.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-981-96-7714-6_5\"}": 1,
+    "{\"archive\": \"api-page-33dde3074d02868ff8e2ea10cae4f9f36b92536a6f0363fce7910ff5e528753a.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s11263-018-1131-1\"}": 1,
+    "{\"archive\": \"api-page-356d29ba7a863cdff84e0ee1c20865fb4af88ab7a4b20c0808d4b7b3f543d64f.html\", \"extractor\": \"publisher_abstract_section\", \"url_or_cache\": \"https://www.nature.com/articles/nrg3031\"}": 1,
+    "{\"archive\": \"api-page-3721c6723280801094bb674de0fbbc9c59af1b6770dbf3a35ecad1bcaa2428da.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-981-10-2915-8_7\"}": 1,
+    "{\"archive\": \"api-page-3df6e24814c73e83f81290f7f1d8e93bba09d2a4f62a59045cafb9d7664d41e5.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-319-26532-2_14\"}": 1,
+    "{\"archive\": \"api-page-3ef735f4911990f76d207192bd7e490b63d199fbb600ac1c407a68e518792f9c.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/bf01588971\"}": 1,
+    "{\"archive\": \"api-page-3f4e5ac55bb229c915ccd082f503c8d06c356030004b257142d445d30267afac.html\", \"extractor\": \"publisher_abstract_section\", \"url_or_cache\": \"https://www.nature.com/articles/nbt1196\"}": 1,
+    "{\"archive\": \"api-page-474e7ad113f2110cf35f7a0893aa893b20290c559dc9f966feae555be141afa9.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-1-4612-0723-8_6\"}": 1,
+    "{\"archive\": \"api-page-47bd4a49776ce71fa50679569f2223bf051916355eca71bca0421d133fe06a0f.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s11390-013-1374-9\"}": 1,
+    "{\"archive\": \"api-page-4a20d69baa0983c34c47b7b643b96273aec5bb31155fe9e2576957819e965af6.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-642-35139-6_29\"}": 1,
+    "{\"archive\": \"api-page-4b9cd4c82687bd8b0bf125f2d9d27880be109df9b93f17c29fd4aa676bfaa691.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-642-12200-2_14\"}": 1,
+    "{\"archive\": \"api-page-4bd89b9838ba34fb383d0bfe98464b0e13d095725f1d480bb6dd4e6999f2f43a.html\", \"extractor\": \"conference_abstract-text-inner\", \"url_or_cache\": \"https://neurips.cc/virtual/2026/poster/153676\"}": 1,
+    "{\"archive\": \"api-page-557c15bf85784c0882a6d24fab21bb76aca30ac1745a587e1013775781c7e81a.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s13042-025-02914-4\"}": 1,
+    "{\"archive\": \"api-page-55b5e529435ec660c4fc490b9d82af6de9adf55c673a630382f77ca34f6e18a9.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10489-025-06282-y\"}": 1,
+    "{\"archive\": \"api-page-5b1a744863fdbbb154af38bf9aa935ae046230286777c48db65cd2554f002e62.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-030-58592-1_23\"}": 1,
+    "{\"archive\": \"api-page-5bb1c5e488ecd7a01662d281f3c7a65aae02233b6193d5643cb9012a16d85b1b.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-981-96-0116-5_27\"}": 1,
+    "{\"archive\": \"api-page-5e0940d37fe2d55b8f1c550bbcc736fef6b50234bbfb371eab4e7220fba17a22.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-031-43412-9_38\"}": 1,
+    "{\"archive\": \"api-page-62e6720faf6fbe1069ed9913682492a3aa0de6fe2b7baddc261874192b50cb94.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10589-013-9593-0\"}": 1,
+    "{\"archive\": \"api-page-63779d4a083933011c5fe8fbb3b0b8190638a7c8f0c8b5cd2165bf0f647ee3f5.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s00291-001-0092-9\"}": 1,
+    "{\"archive\": \"api-page-6740949e93d99fd9f99b16f92040666bc9ab45265a79c9fa225610bb216ba153.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s13042-025-02732-8\"}": 1,
+    "{\"archive\": \"api-page-68822f5b4583b9170057d5aee14eb12ef58ac81544bc26be210a99e375a89c13.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s13042-017-0746-9\"}": 1,
+    "{\"archive\": \"api-page-6a79470971d36230b523d15895da4a7b415a83660f803fe7746b22a932ea3ee1.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10940-008-9048-4\"}": 1,
+    "{\"archive\": \"api-page-6e607ffd30a138961a68edd7ad065feb0f681a65bc5bc74ce68b7d0753bea486.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10898-014-0247-2\"}": 1,
+    "{\"archive\": \"api-page-70a5ca7296f9c8f7524168c6abf098143b353b05abd878eea7139734629697e4.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10994-008-5064-8\"}": 1,
+    "{\"archive\": \"api-page-74cbade4dd187386c3002c08858b3a79d3070ac0431b33eb5480abef6537a2f3.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10618-010-0175-9\"}": 1,
+    "{\"archive\": \"api-page-765d24188f3823a065c94acb058197d308a1fd0b5aeadf87a2ec239f22711acb.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-032-37252-9_8\"}": 1,
+    "{\"archive\": \"api-page-785e7c5c8bd0873566f6a4c71812e2c06c60f4cf962f9d368c6122f52155b59f.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10479-021-04147-4\"}": 1,
+    "{\"archive\": \"api-page-7aaae50ab3a336381d302c22e29580709b6d4deb1a264184d8adefa6ecc7a974.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10489-024-05745-y\"}": 1,
+    "{\"archive\": \"api-page-7dae876b5dd9701cbddd9b40d19813035c0338db66f1ed5a6964ae26c9df9b51.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-981-92-2879-9_18\"}": 1,
+    "{\"archive\": \"api-page-7dcbb34d97f316d75357db6eb10ffd6ed2605397fc1c96a2371c4fcc66602e7e.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-981-96-7714-6_9\"}": 1,
+    "{\"archive\": \"api-page-7e730271750e1b4e93138eae82db245250c3720a8cfc6ac07f49057c4d94f74d.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s11042-017-4642-9\"}": 1,
+    "{\"archive\": \"api-page-813439962df3e8c5bc4b0bcdfea21c76d35a0ae41de1a42410bd925285ad105a.html\", \"extractor\": \"conference_abstract-text-inner\", \"url_or_cache\": \"https://neurips.cc/virtual/2026/poster/152671\"}": 1,
+    "{\"archive\": \"api-page-81970933b65bca6243d558fb9d785837159079a42fedd778b58139f051297eb7.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/11564089_7\"}": 1,
+    "{\"archive\": \"api-page-81b7e43beed8da6238eb3a3f47a65f8c24448c60fa98e6cf57986c61d8262e49.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s00530-025-01961-9\"}": 1,
+    "{\"archive\": \"api-page-840647ac5d5c663ff428b2a33833fd7351085d337ba5f52a9247d500b22468ff.html\", \"extractor\": \"conference_abstract-text-inner\", \"url_or_cache\": \"https://icml.cc/virtual/2026/poster/64609\"}": 1,
+    "{\"archive\": \"api-page-865252337a7e32dfa933d163de3ef8c4bde3d4aefebd8952ce90e9e1149d177b.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s11277-018-5389-y\"}": 1,
+    "{\"archive\": \"api-page-88aeaabe689d173a9291ce333f47ef477ad34e526fd23a6001f3cb8ccd3b6625.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-642-33715-4_54\"}": 1,
+    "{\"archive\": \"api-page-8a53e2933db7e164df3b7a3d409d1d8e9c6c506ab33b2887eb03e5ba06fc1132.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s11263-012-0588-6\"}": 1,
+    "{\"archive\": \"api-page-8bb29ff7591d0b146770f1f5f01bf51252be098fee4cd36e9b222943ec3f6d67.html\", \"extractor\": \"publisher_abstract_section\", \"url_or_cache\": \"https://www.nature.com/articles/nature09000\"}": 1,
+    "{\"archive\": \"api-page-8c74cad0a6da9a14b7fc6d31c72cfcd293c1eb4d479b7a295564bae341fa01f5.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s13042-022-01658-9\"}": 1,
+    "{\"archive\": \"api-page-90b79a87ca01a4080733b5f51a557cd840d84c5b5410b1dcad37cd4a9f525390.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s40745-015-0040-1\"}": 1,
+    "{\"archive\": \"api-page-91f93d551628823ebcdd830543ea8564e6f29a14e9060998870afde0bf9dd6f6.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1023/a:1022627411411\"}": 1,
+    "{\"archive\": \"api-page-9240c83e631104135d9d96835226ea83a3fd2d3535d8a2574ba40df665523c79.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-981-95-3456-2_8\"}": 1,
+    "{\"archive\": \"api-page-98fc0b63d35ff312e050a7072d6ad55f89744bfe7ce84bd13030d1aed621f2e4.html\", \"extractor\": \"proceedings_paper-abstract\", \"url_or_cache\": \"https://papers.neurips.cc/paper_files/paper/2023/hash/6b97236d90d945be7c58268207a14f4f-Abstract-Conference.html\"}": 1,
+    "{\"archive\": \"api-page-997488def0b1e8db07b5a5d38fd3a39f6d9df3562b3e2077615e9547d88b4e7a.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10489-024-05791-6\"}": 1,
+    "{\"archive\": \"api-page-9b5b6962d01a185cbc14acb35a1bf02fcf786709b2ab3030c4f83aea3085d161.html\", \"extractor\": \"acl-abstract\", \"url_or_cache\": \"https://aclanthology.org/2025.acl-long.175/\"}": 1,
+    "{\"archive\": \"api-page-9fe8d25a07682b4e89ad62e23101b99610a743fd4827da2135155ba765bacf2f.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/bf00994018\"}": 1,
+    "{\"archive\": \"api-page-a0ab6218bd68cf0b81bcb523d6894ab2a86bc94cb65923d5e5804363a8bfef7c.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-981-96-7714-6_11\"}": 1,
+    "{\"archive\": \"api-page-a14a4520b72ea9e19fb60d80dc39ebc2f003f24a89beb6e04406da214529afa3.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-032-37592-6_27\"}": 1,
+    "{\"archive\": \"api-page-a33e83d549e9da4a0c711109c16b2c973a96e81f1188200dc2e639d538d63a4e.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-319-16181-5_56\"}": 1,
+    "{\"archive\": \"api-page-a633ef27c4b522b5dbd1f1fd92f9173a75254d6b970157bb977bdf5f1235cb8d.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s13042-022-01599-3\"}": 1,
+    "{\"archive\": \"api-page-a67615290fdefbb04219351b24775cb8e85f5eac615903ec3c1de8d14c80435a.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-1-4757-1904-8_7\"}": 1,
+    "{\"archive\": \"api-page-a69255e44ae9659325b0af1ab75c979ab22c8723a863e12a235c0b8983df8de8.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-642-15567-3_3\"}": 1,
+    "{\"archive\": \"api-page-a9c0181078e11d44eb3ea8906a8a7aa7d4b40e0c85a04d820eece739f8022d33.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-031-19827-4_41\"}": 1,
+    "{\"archive\": \"api-page-ac12602f7edc352e8befa9aae7c2d89d329fb05ebc1ba1ea959ec210638132a8.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s11633-017-1053-3\"}": 1,
+    "{\"archive\": \"api-page-ad7b3f3ffa5001e3e810438d2d92a0d8e0cdf14ae4ae4b842fafd4f1cddc4a50.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/3-540-46084-5_123\"}": 1,
+    "{\"archive\": \"api-page-b0d9568a64c54bdacf8838568cf1328c4c4d6bb9274d3f8d2205519aa83e7582.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s00500-012-0829-1\"}": 1,
+    "{\"archive\": \"api-page-b0d98a623d44a6f80d2de0685efd04cd38bb04dafdf8a8f380022199f127dbc3.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-1-4899-7502-7_910-1\"}": 1,
+    "{\"archive\": \"api-page-b26395c37b40838a52dd81b4eb8f72d43fe59cbc52db5fec9e0c10071d63931f.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-981-96-7710-8_5\"}": 1,
+    "{\"archive\": \"api-page-b2e3c2fe27017675e000dcbb937df37e030a3c53188f97ec3bba43a2945de6c9.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10489-025-06769-8\"}": 1,
+    "{\"archive\": \"api-page-b40c1a7f924d6896e7eeb365ec763ab6a28db3e221f3a696ba4a881ed98636b1.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-642-40602-7_7\"}": 1,
+    "{\"archive\": \"api-page-b68ced60e608e1a10bc5b1508dd5a5c8a69b36c8ddea0dc916a3fbd5f0e530bf.html\", \"extractor\": \"conference_abstract-text-inner\", \"url_or_cache\": \"https://neurips.cc/virtual/2026/poster/148868\"}": 1,
+    "{\"archive\": \"api-page-b7f7b5edae9554929a48ec2b516606d5e5e6f4ff102e825f84252b2d2df4408a.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-642-15561-1_16\"}": 1,
+    "{\"archive\": \"api-page-b886b21781b4afd7be9ec5ea81f5ba019968e86395a5692316617c2b17cfe9ac.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1023/a:1022821128753\"}": 1,
+    "{\"archive\": \"api-page-ba7d1e0414e234bbf4e41df747ba2826f45db2e97265f0bfc3f23c007b4ce1e1.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-981-95-8262-4_14\"}": 1,
+    "{\"archive\": \"api-page-bcca0aa81d26fb326571ad52c5fe461311866bb433f609338c37866ea9182832.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-032-37023-5_26\"}": 1,
+    "{\"archive\": \"api-page-bec216b92d95426c711abd083fd9bdbb039ac92ff47371f02d6255dbee46d44e.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-642-28460-1_6\"}": 1,
+    "{\"archive\": \"api-page-c1e48903e0eb9738a69902c8c8e5fe38702246abd5155fb834c606e3e570167e.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10479-005-5724-z\"}": 1,
+    "{\"archive\": \"api-page-c3bc8b3690e6a11ce59c72a07d05b5c77ac406beb47e7381058efedc23ebdd67.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1023/b:visi.0000022288.19776.77\"}": 1,
+    "{\"archive\": \"api-page-c9d89615327c80706fcbb47788bf81531eb1073afbf528c4b712edb2d5f87876.html\", \"extractor\": \"publisher_abstract_section\", \"url_or_cache\": \"https://www.nature.com/articles/44565\"}": 1,
+    "{\"archive\": \"api-page-cbad4ef9d8bda39f538cbfb7f9116b9a83c8498ac2f3ed5d7f3aecd6875ad06c.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-319-18038-0_32\"}": 1,
+    "{\"archive\": \"api-page-d1984146dcac6558d3f4d6a34544849ea6a3750256a9ab23188c68a77677514d.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-981-96-7714-6_8\"}": 1,
+    "{\"archive\": \"api-page-d292d2da392c3c8733ce9b24e9f5550bb9ddcd8e76fcf5d7f001cfd5e6dff6d0.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10489-024-05535-6\"}": 1,
+    "{\"archive\": \"api-page-d3abb8971436ac80a1cbc8685bfddc7d3e01fb4f4577488e5e1b589b480afeae.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/11552253_16\"}": 1,
+    "{\"archive\": \"api-page-d560b64867b1a56f9bdf1e496bef4883505f66c963c02fc96e60a90739849fbd.html\", \"extractor\": \"conference_abstract-text-inner\", \"url_or_cache\": \"https://neurips.cc/virtual/2026/poster/149428\"}": 1,
+    "{\"archive\": \"api-page-d94221621fc6f1ad01fa255a5e7d99a60f6699f6238acc2552c6fee989078010.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-540-87481-2_8\"}": 1,
+    "{\"archive\": \"api-page-db0abf03d2d79846af31ade34a87fd02b9f5708ce4628b15791ce5da8ce53179.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10499-024-01439-x\"}": 1,
+    "{\"archive\": \"api-page-db242a790e0021f2c1803a542e2d659a88198374e1b81296758d72aef8dd768b.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-642-15549-9_46\"}": 1,
+    "{\"archive\": \"api-page-ded1d7027eb36e5375b77511e7f6e1e4615e417a9e37ef18ecdeba7deb29ad14.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10994-016-5606-4\"}": 1,
+    "{\"archive\": \"api-page-e0a75454035750c0eb0132ef1427af0d0dd597b43f65f01b8bdfac938e7410ed.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-981-96-7714-6_3\"}": 1,
+    "{\"archive\": \"api-page-e109c3e7af845739ef844312b64789e6b8cf2921aa81ff01feff2ffde256b86e.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-981-96-7714-6_6\"}": 1,
+    "{\"archive\": \"api-page-e1fc1a539b7c36f34d61279515a788ae8d491003d13fa6a91a9ae44890508ed6.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10115-008-0134-6\"}": 1,
+    "{\"archive\": \"api-page-e2708d3c9d3ddf895abd69a3e4e15d0e7ecd0125eb1c6f400efb9631fc18263e.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10618-012-0291-9\"}": 1,
+    "{\"archive\": \"api-page-e3dbbc2faeba41c7939b71007ed3a09e233537e3a69de60ef779fc6f8ac30e36.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10489-026-07250-w\"}": 1,
+    "{\"archive\": \"api-page-e451962b0f5342b365bb6aed343bfcc5ffad64d95272d4e808006c2ef0488c38.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-981-96-7714-6_1\"}": 1,
+    "{\"archive\": \"api-page-e93b6750a16b94f2d2036bd49bca91cdf47cc71a035c5447fa0f8c346bbf2320.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/0-387-27255-0_9\"}": 1,
+    "{\"archive\": \"api-page-ead2728640a8be9968c9328d89b88d7d2b346fb5f2f7fa7303a6428155c4597c.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s11760-016-0895-4\"}": 1,
+    "{\"archive\": \"api-page-ebc2826dd4bd2626d5adfac7693fea9f24253b1344481f917b7a4fe8122e7ac7.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1023/a:1022673506211\"}": 1,
+    "{\"archive\": \"api-page-eec5c1e569bb824ec8411d006681a204662c7dbf07fd9eb7f223f27353406307.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-031-72390-2_14\"}": 1,
+    "{\"archive\": \"api-page-efec81269398cfe6ed17eac9786d4d7e1c97cdb03637cc44a75f7f95b10add17.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-319-20248-8_7\"}": 1,
+    "{\"archive\": \"api-page-f623a19ba133a0f33a300deba1f8305db645a336c0c1ed75f7f3b6d1fa5ff47e.html\", \"extractor\": \"conference_abstract-text-inner\", \"url_or_cache\": \"https://neurips.cc/virtual/2026/poster/150525\"}": 1,
+    "{\"archive\": \"api-page-f817825fdfa63859e207c4a07c211e4456d940bc4522c31226bd2c8ff6c2e5cf.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10489-025-06255-1\"}": 1,
+    "{\"archive\": \"api-page-f9678c2c3ae429dd8a629af136a741c397720acd9842decc7c2c6a37c7b737a1.html\", \"extractor\": \"cvf_abstract\", \"url_or_cache\": \"https://openaccess.thecvf.com/content/ICCV2025/html/Li_Boosting_Class_Representation_via_Semantically_Related_Instances_for_Robust_Long-Tailed_ICCV_2025_paper.html\"}": 1,
+    "{\"archive\": \"api-page-f9d5e54a5c68545b9f4fe9a56709bad07bd10aa094d70121d12239fd9893f2c7.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10489-025-07018-8\"}": 1,
+    "{\"archive\": \"api-page-fbbf2cbc86a8b7b4f1c34e06372017a3e8a712a3b700a1422fb2cabc78b41c00.html\", \"extractor\": \"publisher_abstract_section\", \"url_or_cache\": \"https://www.nature.com/articles/323533a0\"}": 1,
+    "{\"archive\": \"api-page-fbf0e63a833266023142585d2184d2a5ced2f64bddbf4a53f58ecbf2fb2c66ed.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s10044-026-01653-8\"}": 1,
+    "{\"archive\": \"api-page-fd4972020c78d14e3387a28d235f2b76dfc3089e7f903e0d47df53e12aa010a6.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-3-540-70887-2_31\"}": 1,
+    "{\"archive\": \"api-page-fe3c548522af20399815b84509a254d2a58def8f70efd2ed5e0d8552fb58b268.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/chapter/10.1007/978-981-96-7714-6_10\"}": 1,
+    "{\"archive\": \"api-page-fe6e681e41e4e61601c54383f147bd16fd192d3f8fcb4703d5eb96902cd999bf.html\", \"extractor\": \"publisher_abstract_section_Abs1-content\", \"url_or_cache\": \"https://link.springer.com/article/10.1007/s13042-011-0019-y\"}": 1,
+    "{\"archive\": \"api-response-1aa36887ab0bfd3d6cc256eaef2eff66923e5bd37a50290aee9de8bc677455ea.json\", \"extractor\": \"api_original_abstract_or_inverted_index\", \"url_or_cache\": \"https://api.semanticscholar.org/graph/v1/paper/batch?fields=paperId,title,abstract,year,externalIds\"}": 1,
+    "{\"archive\": \"work/api-cache/3eaf59f73b5cad4cdb1c56fa1fd65fdf72bdbdf4d8ed582afb7c4807a83a8abe.json\", \"extractor\": \"api_original_abstract_or_inverted_index\", \"url_or_cache\": \"work/api-cache/3eaf59f73b5cad4cdb1c56fa1fd65fdf72bdbdf4d8ed582afb7c4807a83a8abe.json\"}": 1
+  },
+  "oversized_entries": [],
+  "maximum_paper_chars": 6315,
+  "duplicate_title_normalization": "NFKC + casefold + isalnum only; candidates only, IDs retained",
+  "duplicate_title_groups": [
+    {
+      "normalized_title": "adaptivegraphguideddisambiguationforpartiallabellearning",
+      "paper_ids": [
+        "W2951821459",
+        "W3207000850"
+      ]
+    },
+    {
+      "normalized_title": "algorithmsfornonnegativematrixfactorization",
+      "paper_ids": [
+        "W2135029798",
+        "W3143596294"
+      ]
+    },
+    {
+      "normalized_title": "amathematicaltheoryofcommunication",
+      "paper_ids": [
+        "W1995875735",
+        "W2041404167"
+      ]
+    },
+    {
+      "normalized_title": "clusteringawaregraphconstructionajointlearningperspective",
+      "paper_ids": [
+        "lab-89613a019dfd",
+        "W2947716341"
+      ]
+    },
+    {
+      "normalized_title": "combinatorialoptimizationalgorithmsandcomplexity",
+      "paper_ids": [
+        "W2053913299",
+        "W2069323107"
+      ]
+    },
+    {
+      "normalized_title": "correlationguidedlabelpropagationandlabelspecificfeaturesforpartialmultilabellearning",
+      "paper_ids": [
+        "W4412086309",
+        "W4412086461"
+      ]
+    },
+    {
+      "normalized_title": "deepattentionguidedgraphclusteringwithdualselfsupervision",
+      "paper_ids": [
+        "lab-27ee33bde0ac",
+        "W3213755394"
+      ]
+    },
+    {
+      "normalized_title": "distributedoptimizationandstatisticallearningviathealternatingdirectionmethodofmultipliers",
+      "paper_ids": [
+        "W2164278908",
+        "W4292363360"
+      ]
+    },
+    {
+      "normalized_title": "generalizedlinearmodels",
+      "paper_ids": [
+        "W1528905581",
+        "W4301861531"
+      ]
+    },
+    {
+      "normalized_title": "headposeestimationbasedonmultivariatelabeldistribution",
+      "paper_ids": [
+        "W2022566595",
+        "W3092285484"
+      ]
+    },
+    {
+      "normalized_title": "learningfromambiguouslylabeledexamples",
+      "paper_ids": [
+        "W2146111596",
+        "W3000424784"
+      ]
+    },
+    {
+      "normalized_title": "multilabelrankingwithinconsistentrankers",
+      "paper_ids": [
+        "W2028851602",
+        "W3142256053"
+      ]
+    },
+    {
+      "normalized_title": "multiplecomparisonsamongmeans",
+      "paper_ids": [
+        "W2061554433",
+        "W4248855359"
+      ]
+    },
+    {
+      "normalized_title": "nonlinearmultiobjectiveoptimization",
+      "paper_ids": [
+        "W2008499862",
+        "W2493109494"
+      ]
+    },
+    {
+      "normalized_title": "nonnegativematrixfactorizationforfacerecognition",
+      "paper_ids": [
+        "W1489499640",
+        "W2749035964"
+      ]
+    },
+    {
+      "normalized_title": "partialmultilabellearningwithfeatureselectionbydualguidance",
+      "paper_ids": [
+        "W4408112056",
+        "W7124828790"
+      ]
+    },
+    {
+      "normalized_title": "selfsupervisedsymmetricnonnegativematrixfactorization",
+      "paper_ids": [
+        "lab-d50fd9c219f7",
+        "W3135648280"
+      ]
+    },
+    {
+      "normalized_title": "sparsesubspaceclustering",
+      "paper_ids": [
+        "W2003217181",
+        "W4243967044"
+      ]
+    },
+    {
+      "normalized_title": "statisticalcomparisonsofclassifiersovermultipledatasets",
+      "paper_ids": [
+        "W1565746575",
+        "W2997546679"
+      ]
+    },
+    {
+      "normalized_title": "supportvectornetworks",
+      "paper_ids": [
+        "W2119821739",
+        "W4239510810"
+      ]
+    },
+    {
+      "normalized_title": "tensorizedgraphlearningforspectralensembleclustering",
+      "paper_ids": [
+        "W4399400619",
+        "W4404102597"
+      ]
+    },
+    {
+      "normalized_title": "unfoldedistafordeepsparsesubspaceclustering",
+      "paper_ids": [
+        "W4417203594",
+        "W7160133883"
+      ]
+    }
+  ],
+  "batch_count": 168,
+  "batch_size_distribution": {
+    "10": 166,
+    "4": 1,
+    "9": 1
+  },
+  "cohort_batch_counts": {
+    "external": 153,
+    "lab": 15
+  },
+  "annotation_models": {
+    "lab": "deepseek-flash",
+    "external": "deepseek-flash"
+  },
+  "annotation_scope": "all",
+  "annotation_model_name": "DeepSeek V4.1 Flash",
+  "api_concurrency": 100,
+  "review_concurrency": 3,
+  "review_model": "gpt-6.1-sol",
+  "review_scope": "all",
+  "batch_chars": {
+    "min": 4721,
+    "max": 18521,
+    "total": 1867262,
+    "mean": 11114.654761904761,
+    "distribution": {
+      "12000": 53,
+      "16000": 1,
+      "4000": 14,
+      "8000": 100
+    }
+  }
+}

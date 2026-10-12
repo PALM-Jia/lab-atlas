@@ -1,0 +1,28 @@
+{
+  "paper_id": "W4210758414",
+  "annotations": [
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "multi-view non-negative matrix factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以多视图非负矩阵分解为研究对象，显式联合利用同一对象的多视图数据。"
+    },
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "non-negative matrix factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题直接给出非负矩阵分解作为聚类方法，符合以非负因子分解矩阵的定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "标题仅含非负矩阵分解，未说明显式低秩约束或低秩近似建模；非负约束不自动支持低秩。"
+    },
+    {
+      "keyword_id": "adversarial-robustness",
+      "reason_zh": "标题仅出现 Robust，未说明模型面对刻意构造的对抗攻击或对抗扰动，证据不足。"
+    }
+  ],
+  "input_issues": []
+}

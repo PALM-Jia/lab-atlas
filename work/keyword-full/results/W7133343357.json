@@ -1,0 +1,18 @@
+{
+  "paper_id": "W7133343357",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "Deep Graph Clustering",
+      "evidence_field": "title",
+      "reason_zh": "标题明确本文为深度图聚类的综述，主题属于利用可学习神经表示和/或聚类头进行数据划分的深度聚类领域。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-neural-networks",
+      "reason_zh": "摘要仅泛称深度学习和网络架构分类，未明确提及图卷积或图上消息传递，无法确认综述对象实质采用GNN机制。"
+    }
+  ],
+  "input_issues": []
+}

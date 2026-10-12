@@ -1,0 +1,207 @@
+{
+  "formal_result_count": 40,
+  "input_count": 10,
+  "set_definition": "Selected annotations.keyword_id; abstentions excluded; order ignored",
+  "jaccard_definition": "|intersection| / |union|; empty/empty = 1",
+  "mean_definition": "Unweighted mean across 10 samples",
+  "models": [
+    {
+      "model": "gpt-6-luna",
+      "sample_count": 10,
+      "identical_set_samples": 8,
+      "mean_jaccard": 0.9166666666666667,
+      "items": [
+        {
+          "sample_id": "S01",
+          "identical_keyword_sets": false,
+          "replicate1_keyword_count": 2,
+          "replicate2_keyword_count": 1,
+          "intersection_count": 1,
+          "union_count": 2,
+          "jaccard": 0.5
+        },
+        {
+          "sample_id": "S02",
+          "identical_keyword_sets": true,
+          "replicate1_keyword_count": 2,
+          "replicate2_keyword_count": 2,
+          "intersection_count": 2,
+          "union_count": 2,
+          "jaccard": 1.0
+        },
+        {
+          "sample_id": "S03",
+          "identical_keyword_sets": true,
+          "replicate1_keyword_count": 2,
+          "replicate2_keyword_count": 2,
+          "intersection_count": 2,
+          "union_count": 2,
+          "jaccard": 1.0
+        },
+        {
+          "sample_id": "S04",
+          "identical_keyword_sets": true,
+          "replicate1_keyword_count": 1,
+          "replicate2_keyword_count": 1,
+          "intersection_count": 1,
+          "union_count": 1,
+          "jaccard": 1.0
+        },
+        {
+          "sample_id": "S05",
+          "identical_keyword_sets": true,
+          "replicate1_keyword_count": 0,
+          "replicate2_keyword_count": 0,
+          "intersection_count": 0,
+          "union_count": 0,
+          "jaccard": 1.0
+        },
+        {
+          "sample_id": "S06",
+          "identical_keyword_sets": false,
+          "replicate1_keyword_count": 3,
+          "replicate2_keyword_count": 2,
+          "intersection_count": 2,
+          "union_count": 3,
+          "jaccard": 0.6666666666666666
+        },
+        {
+          "sample_id": "S07",
+          "identical_keyword_sets": true,
+          "replicate1_keyword_count": 1,
+          "replicate2_keyword_count": 1,
+          "intersection_count": 1,
+          "union_count": 1,
+          "jaccard": 1.0
+        },
+        {
+          "sample_id": "S08",
+          "identical_keyword_sets": true,
+          "replicate1_keyword_count": 0,
+          "replicate2_keyword_count": 0,
+          "intersection_count": 0,
+          "union_count": 0,
+          "jaccard": 1.0
+        },
+        {
+          "sample_id": "S09",
+          "identical_keyword_sets": true,
+          "replicate1_keyword_count": 2,
+          "replicate2_keyword_count": 2,
+          "intersection_count": 2,
+          "union_count": 2,
+          "jaccard": 1.0
+        },
+        {
+          "sample_id": "S10",
+          "identical_keyword_sets": true,
+          "replicate1_keyword_count": 0,
+          "replicate2_keyword_count": 0,
+          "intersection_count": 0,
+          "union_count": 0,
+          "jaccard": 1.0
+        }
+      ]
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "sample_count": 10,
+      "identical_set_samples": 9,
+      "mean_jaccard": 0.95,
+      "items": [
+        {
+          "sample_id": "S01",
+          "identical_keyword_sets": false,
+          "replicate1_keyword_count": 1,
+          "replicate2_keyword_count": 2,
+          "intersection_count": 1,
+          "union_count": 2,
+          "jaccard": 0.5
+        },
+        {
+          "sample_id": "S02",
+          "identical_keyword_sets": true,
+          "replicate1_keyword_count": 2,
+          "replicate2_keyword_count": 2,
+          "intersection_count": 2,
+          "union_count": 2,
+          "jaccard": 1.0
+        },
+        {
+          "sample_id": "S03",
+          "identical_keyword_sets": true,
+          "replicate1_keyword_count": 2,
+          "replicate2_keyword_count": 2,
+          "intersection_count": 2,
+          "union_count": 2,
+          "jaccard": 1.0
+        },
+        {
+          "sample_id": "S04",
+          "identical_keyword_sets": true,
+          "replicate1_keyword_count": 1,
+          "replicate2_keyword_count": 1,
+          "intersection_count": 1,
+          "union_count": 1,
+          "jaccard": 1.0
+        },
+        {
+          "sample_id": "S05",
+          "identical_keyword_sets": true,
+          "replicate1_keyword_count": 0,
+          "replicate2_keyword_count": 0,
+          "intersection_count": 0,
+          "union_count": 0,
+          "jaccard": 1.0
+        },
+        {
+          "sample_id": "S06",
+          "identical_keyword_sets": true,
+          "replicate1_keyword_count": 2,
+          "replicate2_keyword_count": 2,
+          "intersection_count": 2,
+          "union_count": 2,
+          "jaccard": 1.0
+        },
+        {
+          "sample_id": "S07",
+          "identical_keyword_sets": true,
+          "replicate1_keyword_count": 2,
+          "replicate2_keyword_count": 2,
+          "intersection_count": 2,
+          "union_count": 2,
+          "jaccard": 1.0
+        },
+        {
+          "sample_id": "S08",
+          "identical_keyword_sets": true,
+          "replicate1_keyword_count": 0,
+          "replicate2_keyword_count": 0,
+          "intersection_count": 0,
+          "union_count": 0,
+          "jaccard": 1.0
+        },
+        {
+          "sample_id": "S09",
+          "identical_keyword_sets": true,
+          "replicate1_keyword_count": 2,
+          "replicate2_keyword_count": 2,
+          "intersection_count": 2,
+          "union_count": 2,
+          "jaccard": 1.0
+        },
+        {
+          "sample_id": "S10",
+          "identical_keyword_sets": true,
+          "replicate1_keyword_count": 0,
+          "replicate2_keyword_count": 0,
+          "intersection_count": 0,
+          "union_count": 0,
+          "jaccard": 1.0
+        }
+      ]
+    }
+  ],
+  "semantic_quality_evaluated": false,
+  "failed_cli_probes_included": false
+}

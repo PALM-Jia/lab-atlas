@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2621123603",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "Reconstructing the spatio-temporal traffic dynamics from stationary detector data",
+      "evidence_field": "title",
+      "reason_zh": "标题表明从固定检测器数据重建时空交通动态，属于估计/恢复待恢复数据的研究任务。"
+    },
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "spatio-temporal traffic dynamics",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以时空交通动态为研究对象，属于实际交通数据对象。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

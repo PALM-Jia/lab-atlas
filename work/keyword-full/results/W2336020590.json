@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2336020590",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "multilabel classification aims to learn a set of labels simultaneously",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以多标签分类为任务，目标是为单个实例同时学习一组标签，符合多标记学习定义。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "a linear dimensionality reduction matrix is added into the framework of multilabel classification",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要提出线性降维矩阵并纳入多标签分类框架联合优化，是显式的低维映射/降维研究。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "it can take both labeled and unlabeled instances into consideration",
+      "evidence_field": "abstract",
+      "reason_zh": "该句表明模型同时利用已标注与未标注实例，结合全文半监督多标签分类设定，符合半监督学习定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

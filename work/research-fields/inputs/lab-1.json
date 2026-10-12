@@ -1,0 +1,976 @@
+{
+  "papers": [
+    {
+      "paper_id": "lab-0529638ee44a",
+      "title": "Nonnegative Matrix Factorization with Mixed Hypergraph Regularization for Community Detection",
+      "abstract": null,
+      "keywords": [
+        {
+          "id": "nonnegative-matrix-factorization",
+          "name": "非负矩阵分解"
+        },
+        {
+          "id": "graph-manifold-regularization",
+          "name": "图与流形正则化"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-054cd66669d7",
+      "title": "A Flexible and Robust Tensor Completion Approach for Trafﬁc Data Recovery with Low-rankness",
+      "abstract": "Data missing phenomena and random anomalies are ubiquitous in intelligent transportation systems (ITS), resulting in poor data quality and usability, which is a major impediment to real-world ITS applications. Most studies regarding traffic data recovery either assume that the original data are clean or complete, while such two issues often coexist in reality due to inevitable data measurement errors like detector malfunctions. In this paper, we fully exploit the algebraically low-rank property of traffic spatiotemporal data and develop an innovative tensor completion approach (termed SCPN) based on the tensor Schatten capped$ p $norm, a unified representation of tensor norms with a high flexibility. Furthermore, we extend the proposed method to a robust form (termed RSCPN) by leveraging the sparsity of unstructured outliers, with the aim to reconstruct ground-truth values from corrupted and incomplete observations. Finally, associated optimization solutions based on the alternating direction multiplier method are derived. Extensive experiments on four datasets substantiate the significant superiority of our proposed models over other state-of-the-art methods on both missing data imputation and corrupted data recovery tasks with miscellaneous simulated scenarios.",
+      "keywords": [
+        {
+          "id": "data-imputation-recovery",
+          "name": "数据补全与恢复"
+        },
+        {
+          "id": "low-rank-modeling",
+          "name": "低秩建模"
+        },
+        {
+          "id": "traffic-data",
+          "name": "交通数据"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-05c8a4098fe0",
+      "title": "Ensemble Clustering via Co-Association Matrix Self-Enhancement",
+      "abstract": "Ensemble clustering integrates a set of base clustering results to generate a stronger one. Existing methods usually rely on a co-association (CA) matrix that measures how many times two samples are grouped into the same cluster according to the base clusterings to achieve ensemble clustering. However, when the constructed CA matrix is of low quality, the performance will degrade. In this article, we propose a simple, yet effective CA matrix self-enhancement framework that can improve the CA matrix to achieve better clustering performance. Specifically, we first extract the high-confidence (HC) information from the base clusterings to form a sparse HC matrix. By propagating the highly reliable information of the HC matrix to the CA matrix and complementing the HC matrix according to the CA matrix simultaneously, the proposed method generates an enhanced CA matrix for better clustering. Technically, the proposed model is formulated as a symmetric constrained convex optimization problem, which is efficiently solved by an alternating iterative algorithm with convergence and global optimum theoretically guaranteed. Extensive experimental comparisons with 12 state-of-the-art methods on ten benchmark datasets substantiate the effectiveness, flexibility, and efficiency of the proposed model in ensemble clustering. The codes and datasets can be downloaded at https://github.com/Siritao/EC-CMS.",
+      "keywords": [
+        {
+          "id": "ensemble-clustering",
+          "name": "集成聚类"
+        },
+        {
+          "id": "graph-structure-learning",
+          "name": "图结构学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-061b9da6e2d3",
+      "title": "Language-Assisted Image Clustering Guided by Discriminative Relational Signals and Adaptive Semantic Centers",
+      "abstract": "Language-Assisted Image Clustering (LAIC) augments the input images with additional texts with the help of vision-language models (VLMs) to promote clustering performance. Despite recent progress, existing LAIC methods often overlook two issues: (i) textual features constructed for each image are highly similar, leading to weak inter-class discriminability; (ii) the clustering step is restricted to pre-built image-text alignments, limiting the potential for better utilization of the text modality. To address these issues, we propose a new LAIC framework with two complementary components. First, we exploit cross-modal relations to produce more discriminative self-supervision signals for clustering, as it compatible with most VLMs training mechanisms. Second, we learn category-wise continuous semantic centers via prompt learning to produce the final clustering assignments. Extensive experiments on eight benchmark datasets demonstrate that our method achieves an average improvement of 2.6% over state-of-the-art methods, and the learned semantic centers exhibit strong interpretability. Code is available in the supplementary material.",
+      "keywords": [
+        {
+          "id": "deep-clustering",
+          "name": "深度聚类"
+        },
+        {
+          "id": "multi-view-learning",
+          "name": "多视图学习"
+        },
+        {
+          "id": "parameter-efficient-fine-tuning",
+          "name": "参数高效微调"
+        },
+        {
+          "id": "vision-language-models",
+          "name": "视觉语言模型"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-084cf1572406",
+      "title": "ESMC: MLLM-Based Embedding Selection for Explainable Multiple Clustering",
+      "abstract": "Typical deep clustering methods, while achieving notable progress, can only provide one clustering result per dataset. This limitation arises from their assumption of a fixed underlying data distribution, which may fail to meet user needs and provide unsatisfactory clustering outcomes. Our work investigates how multi-modal large language models (MLLMs) can be leveraged to achieve user-driven clustering, emphasizing their adaptability to user-specified semantic requirements. However, directly using MLLM output for clustering has risks for producing unstructured and generic image descriptions instead of feature-specific and concrete ones. To address these issues, our method first discovers that MLLMs' hidden states of text tokens are strongly related to the corresponding features, and leverages these embeddings to perform clusterings from any user-defined criteria. We also employ a lightweight clustering head augmented with pseudo-label learning, significantly enhancing clustering accuracy. Extensive experiments demonstrate its competitive performance on diverse datasets and metrics.",
+      "keywords": [
+        {
+          "id": "deep-clustering",
+          "name": "深度聚类"
+        },
+        {
+          "id": "pseudo-label-self-training",
+          "name": "伪标签与自训练"
+        },
+        {
+          "id": "large-vision-language-models",
+          "name": "视觉语言大模型"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-088383584e44",
+      "title": "PEEK: Partial Label Learning Empowered by External Knowledge",
+      "abstract": null,
+      "keywords": [
+        {
+          "id": "partial-label-learning",
+          "name": "偏标记学习"
+        },
+        {
+          "id": "weakly-supervised-learning",
+          "name": "弱监督学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-0c8c61ff348e",
+      "title": "Efficient and Robust Freeway Traffic Speed Estimation under Oblique Grid using Vehicle Trajectory Data",
+      "abstract": "Accurately estimating spatiotemporal traffic states on freeways is a significant challenge due to limited sensor deployment and potential data corruption. In this study, we propose an efficient and robust low-rank model for precise spatiotemporal traffic speed state estimation (TSE) using low-penetration vehicle trajectory data. Leveraging traffic wave priors, an oblique grid-based matrix is first designed to transform the inherent dependencies of spatiotemporal traffic states into the algebraic low-rankness of a matrix. Then, with the enhanced traffic state low-rankness in the oblique matrix, a low-rank matrix completion method is tailored to explicitly capture spatiotemporal traffic propagation characteristics and precisely reconstruct traffic states. In addition, an anomaly-tolerant module based on a sparse matrix is developed to accommodate corrupted data input and thereby improve the TSE model robustness. Notably, driven by the understanding of traffic waves, the computational complexity of the proposed efficient method is only correlated with the problem size itself, not with dataset size and hyperparameter selection prevalent in existing studies. Extensive experiments demonstrate the effectiveness, robustness, and efficiency of the proposed model. The performance of the proposed method achieves up to a 12% improvement in Root Mean Squared Error (RMSE) in the TSE scenarios and an 18% improvement in RMSE in the robust TSE scenarios, and it runs more than 20 times faster than the state-of-the-art (SOTA) methods.",
+      "keywords": [
+        {
+          "id": "low-rank-modeling",
+          "name": "低秩建模"
+        },
+        {
+          "id": "traffic-data",
+          "name": "交通数据"
+        },
+        {
+          "id": "data-imputation-recovery",
+          "name": "数据补全与恢复"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-0f41d99e2574",
+      "title": "A Novel Multiple Instance Learning Method Based on Extreme Learning Machine",
+      "abstract": "Since real-world data sets usually contain large instances, it is meaningful to develop efficient and effective multiple instance learning (MIL) algorithm. As a learning paradigm, MIL is different from traditional supervised learning that handles the classification of bags comprising unlabeled instances. In this paper, a novel efficient method based on extreme learning machine (ELM) is proposed to address MIL problem. First, the most qualified instance is selected in each bag through a single hidden layer feedforward network (SLFN) whose input and output weights are both initialed randomly, and the single selected instance is used to represent every bag. Second, the modified ELM model is trained by using the selected instances to update the output weights. Experiments on several benchmark data sets and multiple instance regression data sets show that the ELM-MIL achieves good performance; moreover, it runs several times or even hundreds of times faster than other similar MIL algorithms.",
+      "keywords": [
+        {
+          "id": "weakly-supervised-learning",
+          "name": "弱监督学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-0f498c8f864f",
+      "title": "Discriminative Low-Rank Representation for HSI Clustering",
+      "abstract": "We exploit the hyperspectral image (HSI) clustering problem, which partitions an input HSI into several groups without relying on any supervision information. The previous methods mainly focus on developing an HSI clustering technique, which neglects learning a discriminative representation. To this end, this letter proposes a novel discriminative low-rank representation method to exploit the spatial and spectral information of HSIs. The proposed method is formulated as a concave-convex optimization problem and solved by alternating direction method of multipliers. By applying a simple clustering technique (such as K-means) on the obtained discriminative low-rank representation, our method can produce better clustering performance than the state-of-the-art HSI clustering methods. Experiments on four benchmark datasets confirm the superior clustering performance of the proposed method. The code of this letter is available at:https://github.com/LZX-001/Discriminative_Low_Rank_Representation_for _HSI_Clustering.",
+      "keywords": [
+        {
+          "id": "hyperspectral-images",
+          "name": "高光谱图像"
+        },
+        {
+          "id": "low-rank-modeling",
+          "name": "低秩建模"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-1025a6d4de24",
+      "title": "Individuals Matter: Improving Deep Multi-View Clustering via Explicit Single-View Enhancement",
+      "abstract": "Although existing deep multi-view clustering methods often achieve high performance, they predominantly focus on improving the fused representation while overlooking the enhancement of individual views, often resulting in stagnant or inconsistently improved view-specific representations that limit the final fusion quality. To address this, we propose Explicit single-View Enhancement (EVE), a novel deep multi-view clustering framework designed to explicitly optimize the clustering capability of each individual view. Specifically, EVE employs an attention-based module to generate a global consensus as a reliable anchor, which subsequently guides the refinement of individual views through two key components: feature-level selective alignment and structural-level neighborhood propagation. Crucially, the enhanced single views will further boost the fused representation, and finally leading to a mutually reinforcing closed-loop feedback process. Our method is also naturally applicable to incomplete deep multi-view clustering scenarios. Extensive experiments on multiple benchmark datasets demonstrate that EVE consistently outperforms state-of-the-art competitors, achieving substantial average improvements of 5.9% in ARI across all datasets. The code is available in the Supplementary Material .",
+      "keywords": [
+        {
+          "id": "deep-clustering",
+          "name": "深度聚类"
+        },
+        {
+          "id": "multi-view-learning",
+          "name": "多视图学习"
+        },
+        {
+          "id": "graph-manifold-regularization",
+          "name": "图与流形正则化"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-10ec9a4b941d",
+      "title": "Partial Label Learning with Dissimilarity Propagation guided Candidate Label Shrinkage",
+      "abstract": "In partial label learning (PLL), each sample is associated with a group of candidate labels, among which only one label is correct. The key of PLL is to disambiguate the candidate label set to find the ground-truth label. To this end, we first construct a constrained regression model to capture the confidence of the candidate labels, and multiply the label confidence matrix by its transpose to build a second-order similarity matrix, whose elements indicate the pairwise similarity relationships of samples globally. Then we develop a semantic dissimilarity matrix by considering the complement of the intersection of the candidate label set, and further propagate the initial dissimilarity relationships to the whole data set by leveraging the local geometric structure of samples. The similarity and dissimilarity matrices form an adversarial relationship, which is further utilized to shrink the solution space of the label confidence matrix and promote the dissimilarity matrix. We finally extend the proposed model to a kernel version to exploit the non-linear structure of samples and solve the proposed model by the inexact augmented Lagrange multiplier method. By exploiting the adversarial prior, the proposed method can significantly outperformstate-of-the-art PLL algorithms when evaluated on 10 artificial and 7 real-world partial label data sets. We also prove the effectiveness of our method with some theoretical guarantees. The code is publicly available at https://github.com/Yangfc-ML/DPCLS.",
+      "keywords": [
+        {
+          "id": "partial-label-learning",
+          "name": "偏标记学习"
+        },
+        {
+          "id": "weakly-supervised-learning",
+          "name": "弱监督学习"
+        },
+        {
+          "id": "pairwise-constraint-propagation",
+          "name": "成对约束传播"
+        },
+        {
+          "id": "graph-structure-learning",
+          "name": "图结构学习"
+        },
+        {
+          "id": "graph-manifold-regularization",
+          "name": "图与流形正则化"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-11e2dfe6e2ee",
+      "title": "Steering LVLMs via Sparse Autoencoder for Hallucination Mitigation",
+      "abstract": "Large vision-language models (LVLMs) have achieved remarkable performance on multimodal tasks.However, they still suffer from hallucinations, generating text inconsistent with visual input, posing significant risks in real-world applications.Existing approaches to address this issue focus on incorporating external knowledge bases, alignment training, or decoding strategies, all of which require substantial computational cost and time.Recent works try to explore more efficient alternatives by adjusting LVLMs' internal representations.Although promising, these methods may cause hallucinations to be insufficiently suppressed or lead to excessive interventions that negatively affect normal semantics.In this work, we leverage sparse autoencoders (SAEs) to identify semantic directions closely associated with faithfulness or hallucination, extracting more precise and disentangled hallucination-related representations.Our analysis demonstrates that interventions along the identified faithful direction can mitigate hallucinations, while those along the hallucinatory direction can exacerbate them.Building on these insights, we propose Steering LVLMs via SAE Latent Directions (SSL), a plug-and-play method based on SAE-derived latent directions to mitigate hallucinations in LVLMs.Extensive experiments demonstrate that SSL significantly outperforms existing decoding approaches in mitigating hallucinations, while maintaining transferability across different model architectures with negligible additional time overhead.The code is available at https://github.com/huazhenglin2003/SSL.",
+      "keywords": [
+        {
+          "id": "hallucination-mitigation",
+          "name": "幻觉抑制"
+        },
+        {
+          "id": "large-vision-language-models",
+          "name": "视觉语言大模型"
+        },
+        {
+          "id": "sparse-representation",
+          "name": "稀疏表示"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-11e9d626e8d9",
+      "title": "Semisupervised Affinity Matrix Learning via Dual-Channel Information Recovery",
+      "abstract": "This article explores the problem of semisupervised affinity matrix learning, that is, learning an affinity matrix of data samples under the supervision of a small number of pairwise constraints (PCs). By observing that both the matrix encoding PCs, called pairwise constraint matrix (PCM) and the empirically constructed affinity matrix (EAM), express the similarity between samples, we assume that both of them are generated from a latent affinity matrix (LAM) that can depict the ideal pairwise relation between samples. Specifically, the PCM can be thought of as a partial observation of the LAM, while the EAM is a fully observed one but corrupted with noise/outliers. To this end, we innovatively cast the semisupervised affinity matrix learning as the recovery of the LAM guided by the PCM and EAM, which is technically formulated as a convex optimization problem. We also provide an efficient algorithm for solving the resulting model numerically. Extensive experiments on benchmark datasets demonstrate the significant superiority of our method over state-of-the-art ones when used for constrained clustering and dimensionality reduction. The code is publicly available at https://github.com/jyh-learning/LAM.",
+      "keywords": [
+        {
+          "id": "semi-supervised-learning",
+          "name": "半监督学习"
+        },
+        {
+          "id": "graph-structure-learning",
+          "name": "图结构学习"
+        },
+        {
+          "id": "pairwise-constraint-propagation",
+          "name": "成对约束传播"
+        },
+        {
+          "id": "data-imputation-recovery",
+          "name": "数据补全与恢复"
+        },
+        {
+          "id": "weakly-supervised-learning",
+          "name": "弱监督学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-1a90fc2c3965",
+      "title": "KGFlow: Enhancing Large Language Model Reasoning with Multi-Graph Alignment for Knowledge-Intensive Medical Question Answering",
+      "abstract": null,
+      "keywords": [
+        {
+          "id": "large-language-models",
+          "name": "大语言模型"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-1ba64af37485",
+      "title": "Attribute Distribution Modeling and Semantic-Visual Alignment for Generative Zero-shot Learning",
+      "abstract": "Generative zero-shot learning (ZSL) synthesizes visual features for unseen classes by learning a semantic-conditioned generator from seen classes. Since semantic conditions determine the knowledge transfer from seen to unseen classes, their effectiveness is critical for generating plausible features. However, existing class-level semantic prototypes lack semantic diversity to capture intra-class variations, while exhibiting inconsistent inter-class structures with the visual space due to the semantic-visual gap. To address these issues, we propose Adaptive Attribute Distribution and Visual Structure Alignment (AAVS), a unified semantic condition learning framework for generative ZSL. Specifically, the Adaptive Attribute Distribution (AAD) learns dimension-adaptive attribute distributions with discriminability-guided variation calibration to capture transferable semantic diversity, while Visual Structure Alignment (VSA) aligns the diverse attributes with refined visual prototypes to learn visual inter-class structures. By jointly modeling semantic diversity and visual structural consistency, AAVS provides more effective generation conditions for unseen classes to generate visual features. Extensive quantitative and qualitative evaluations on three benchmarks demonstrate that AAVS outperforms existing generative ZSL methods and validate the effectiveness of the learned generation conditions.",
+      "keywords": [
+        {
+          "id": "zero-shot-learning",
+          "name": "零样本学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-1eb268aa7f49",
+      "title": "Convex Constrained Clustering with Graph-Laplacian PCA",
+      "abstract": "In this paper, we propose a new algorithm for constrained clustering, in which a new regularizer elegantly incorporates a small amount of weakly supervisory information in the form of pair-wise constraints to regularize the similarity between the low-dimensional representations of a set of data samples. By exploring both the local and global structures of the data samples with the guidance of the supervisory information, the proposed algorithm is capable of learning the low-dimensional representations with strong separability. Technically, the proposed algorithm is formulated and relaxed as a convex optimization model, which is further efficiently solved with the global convergence guaranteed. Experimental results on multiple benchmark data sets show that our proposed model can produce higher clustering accuracy than state-of-the-art algorithms.",
+      "keywords": [
+        {
+          "id": "semi-supervised-learning",
+          "name": "半监督学习"
+        },
+        {
+          "id": "weakly-supervised-learning",
+          "name": "弱监督学习"
+        },
+        {
+          "id": "graph-manifold-regularization",
+          "name": "图与流形正则化"
+        },
+        {
+          "id": "dimensionality-reduction",
+          "name": "降维"
+        },
+        {
+          "id": "low-rank-modeling",
+          "name": "低秩建模"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-1f9013eb2f8b",
+      "title": "AME-LSIFT: Attention-Aware Multi-Label Ensemble with Label Subset-SpecIfic FeaTures",
+      "abstract": "Multi-label ensemble can achieve superior performance on multi-label learning problems by integrating a number of base classifiers. In existing multi-label ensemble methods, the base classifiers are usually trained with the same original features; it is difficult for each base classifier to capture label-relevant or label subset-relevant information. Meanwhile, the manually designed integrating strategies cannot automatically distinguish the importance of the base classifiers, which also lack flexibility and scalability. In order to resolve these problems, this paper proposes a new multi-label ensemble framework, named Attention-aware Multi-label Ensemble with Label Subset-specIfic FeaTures (AME-LSIFT). It utilizes$c$-means clustering to produce Label Subset-specIfic FeaTures (LSIFT), constructs a neural network based model for each label subset, and integrates the base models with a dynamic and automatic attention-aware mechanism. Moreover, an objective function that considers both the label subset accuracy and ensemble accuracy is developed for training the proposed AME-LSIFT. Experiments conducted on ten benchmark datasets demonstrate the superior performance of the proposed method compared with state-of-the-art approaches.",
+      "keywords": [
+        {
+          "id": "multi-label-learning",
+          "name": "多标记学习"
+        },
+        {
+          "id": "classifier-ensemble",
+          "name": "分类器集成"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-1ff59dd4a58f",
+      "title": "Global-Local Balanced Low-Rank Approximation of Hyperspectral Images for Classification",
+      "abstract": "This paper explores the problem of recovering the discriminative representation of a hyperspectral remote sensing image (HRSI), which suffers from spectral variations, to boost its classification accuracy. To tackle this challenge, we propose a new method, namely local-global balanced low-rank approximation (GLB-LRA), which can increase the similarity between pixels belonging to an identical category while promoting the discriminability between pixels of different categories. Specifically, by taking advantage of the particular structural spatial information of HRSIs, we exploit the low-rankness of an HRSI robustly in both spatial and spectral domains from the perspective of local and global balance. We mathematically formulate GLB-LRA as an explicit optimization problem and propose an iterative algorithm to solve it efficiently. Experimental results over three commonly-used benchmark datasets demonstrate the significant superiority of our method over state-of-the-art methods.",
+      "keywords": [
+        {
+          "id": "low-rank-modeling",
+          "name": "低秩建模"
+        },
+        {
+          "id": "hyperspectral-images",
+          "name": "高光谱图像"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-2110e10b1fd2",
+      "title": "Progressive Pseudo-label Self-balancing Towards Unsupervised Vision-Language Models Adaptation",
+      "abstract": "Enhancing Vision-Language Models (VLMs) on downstream tasks with unlabeled data has attracted increasing attention. Constructing a pseudo-labeled dataset by pseudo-labeling is a common method. Nonetheless, owing to the inherent class-wise prediction bias in VLMs, they tend to generate long-tailed pseudo-labels that are inconsistent with the true label distribution. Motivated by this, we first divide all classes into pseudo-head, pseudo-middle, and pseudo-tail classes based on the pseudo-label quantity. Accordingly, we propose a P rogressive P seudo-label S elf- B alancing (PPSB) framework, which measures the class-wise prediction bias and calculates quantity upper bounds for certain classes to construct relatively balanced pseudo-labeled dataset, while introducing fewer incorrect pseudo-tail labels. In this way, the class-wise prediction bias is progressively corrected and the pseudo-label dataset scale increases autonomously during training. Furthermore, the confidence scores generated by VLMs are not entirely reliable. Therefore, we design a neighborhood consistency filtering mechanism and a visual classifier to improve the pseudo-label accuracy. We theoretically prove that our method can significantly reduce the generalization error under certain conditions. Extensive experiments across six benchmarks under three learning paradigms demonstrate that our method outperforms state-of-the-art methods by average 3.84 % in accuracy. Code is available in the supplementary materials.",
+      "keywords": [
+        {
+          "id": "pseudo-label-self-training",
+          "name": "伪标签与自训练"
+        },
+        {
+          "id": "class-imbalance",
+          "name": "类别不平衡学习"
+        },
+        {
+          "id": "vision-language-models",
+          "name": "视觉语言模型"
+        },
+        {
+          "id": "graph-manifold-regularization",
+          "name": "图与流形正则化"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-22cc955daee0",
+      "title": "A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning",
+      "abstract": "This paper studies the long-tailed semi-supervised learning (LTSSL) with distribution mismatch, where the class distribution of the labeled training data follows a long-tailed distribution and mismatches with that of the unlabeled training data. Most existing methods introduce auxiliary classifiers (experts) to model various unlabeled data distributions and produce pseudo-labels, but the expertises of various experts are not fully utilized. We observe that different experts are good at predicting different intervals of samples, e.g., long-tailed expert is skilled in samples located in the head interval and uniform expert excels in samples located in the medium interval. Therefore, we propose a dynamic expert assignment module that can estimate the class membership (i.e., head, medium, or tail class) of samples, and dynamically assigns suitable expert to each sample based on the estimated membership to produce high-quality pseudo-label in the training phase and produce prediction in the testing phase. We also theoretically reveal that integrating different experts' strengths will lead to a smaller generalization error bound. Moreover, we find that the deeper features are more biased toward the head class but with more discriminative ability, while the shallower features are less biased but also with less discriminative ability. We, therefore, propose a multi-depth feature fusion module to utilize different depth features to mitigate the model bias. Our method demonstrates its effectiveness through comprehensive experiments on the CIFAR-10-LT, STL-10-LT, and SVHN-LT datasets across various settings.",
+      "keywords": [
+        {
+          "id": "semi-supervised-learning",
+          "name": "半监督学习"
+        },
+        {
+          "id": "weakly-supervised-learning",
+          "name": "弱监督学习"
+        },
+        {
+          "id": "class-imbalance",
+          "name": "类别不平衡学习"
+        },
+        {
+          "id": "pseudo-label-self-training",
+          "name": "伪标签与自训练"
+        },
+        {
+          "id": "classifier-ensemble",
+          "name": "分类器集成"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-24effaa314d4",
+      "title": "You Can Trust Your Clustering Model: A Parameter-free Self-Boosting Plug-in for Deep Clustering",
+      "abstract": "Recent deep clustering models have produced impressive clustering performance. However, a common issue with existing methods is the disparity between global and local feature structures. While local structures typically show strong consistency and compactness within class samples, global features often present intertwined boundaries and poorly separated clusters. Motivated by this observation, we propose DCBoost, a parameter-free plug-in designed to enhance the global feature structures of current deep clustering models. By harnessing reliable local structural cues, our method aims to elevate clustering performance effectively. Specifically, we first identify high-confidence samples through adaptive $k$-nearest neighbors-based consistency filtering, aiming to select a sufficient number of samples with high label reliability to serve as trustworthy anchors for self-supervision. Subsequently, these samples are utilized to compute a discriminative loss, which promotes both intra-class compactness and inter-class separability, to guide network optimization. Extensive experiments across various benchmark datasets showcase that our DCBoost significantly improves the clustering performance of diverse existing deep clustering models. Notably, our method improves the performance of current state-of-the-art baselines (e.g., ProPos) by more than 3% and amplifies the silhouette coefficient by over $7\\times$. Code is available at .",
+      "keywords": [
+        {
+          "id": "deep-clustering",
+          "name": "深度聚类"
+        },
+        {
+          "id": "pseudo-label-self-training",
+          "name": "伪标签与自训练"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-25256b9dda22",
+      "title": "Pseudo Label Rectification With Joint Camera Shift Adaptation and Outlier Progressive Recycling for Unsupervised Person Re-Identification",
+      "abstract": "Person re-identification (re-ID) has many applications in intelligent transportation systems. Clustering-based methods, which alternate between the generation of pseudo labels via clustering and the optimization of the feature extractor, have obtained leading performance in unsupervised person re-ID. But there are still two issues not well addressed: 1) Most methods measure the feature similarity without considering the domain shift between cameras, degrading the clustering performance. 2) Outliers, which usually correspond to hard samples with large discrepancy from other images of the identical person, are in most cases directly excluded from the network training. To tackle the above issues, this paper proposes a plug-and-play pseudo label rectification framework, which jointly utilizes CAmera Shift adapTation module and Outlier progressive Recycling strategy ($CASTOR$) to improve the quality of pseudo labels from both pre-clustering and post-clustering. Specifically, we first compute the camera similarity of two samples by utilizing a pretrained camera classification network and subtract the feature similarity by the camera similarity, the value of which is weighted in an exponential decay manner throughout the network training, in order to adaptively remedy the adverse impact of inter-camera distribution shift upon clustering. Besides, we carefully design an outlier progressive recycling strategy to reassign part of the outliers into the clustered groups to make full use of the useful information of outliers. Extensive experiments on three large scale unsupervised and unsupervised domain adaptive (UDA) person re-ID benchmarks validate the effectiveness of$CASTOR$and its wide compatibility with the state-of-the-art clustering-based methods.",
+      "keywords": [
+        {
+          "id": "person-reidentification",
+          "name": "行人重识别"
+        },
+        {
+          "id": "deep-clustering",
+          "name": "深度聚类"
+        },
+        {
+          "id": "pseudo-label-self-training",
+          "name": "伪标签与自训练"
+        },
+        {
+          "id": "domain-adaptation",
+          "name": "域适应"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-27ee33bde0ac",
+      "title": "Deep Attention-guided Graph Clustering with Dual Self-supervision",
+      "abstract": "Existing deep embedding clustering methods fail to sufficiently utilize the available off-the-shelf information from feature embeddings and cluster assignments, limiting their performance. To this end, we propose a novel method, namely deep attention-guided graph clustering with dual self-supervision (DAGC). Specifically, DAGC first utilizes a heterogeneity-wise fusion module to adaptively integrate the features of the auto-encoder and the graph convolutional network in each layer and then uses a scale-wise fusion module to dynamically concatenate the multi-scale features in different layers. Such modules are capable of learning an informative feature embedding via an attention-based mechanism. In addition, we design a distribution-wise fusion module that leverages cluster assignments to acquire clustering results directly. To better explore the off-the-shelf information from the cluster assignments, we develop a dual self-supervision solution consisting of a soft self-supervision strategy with a Kullback-Leibler divergence loss and a hard self-supervision strategy with a pseudo supervision loss. Extensive experiments on nine benchmark datasets validate that our method consistently outperforms state-of-the-art methods. Especially, our method improves the ARI by more than 10.29% over the best baseline. The code will be publicly available athttps://github.com/ZhihaoPENG-CityU/DAGC.",
+      "keywords": [
+        {
+          "id": "deep-clustering",
+          "name": "深度聚类"
+        },
+        {
+          "id": "graph-neural-networks",
+          "name": "图神经网络"
+        },
+        {
+          "id": "pseudo-label-self-training",
+          "name": "伪标签与自训练"
+        },
+        {
+          "id": "multi-view-learning",
+          "name": "多视图学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-2b357d849d9d",
+      "title": "An Integrated Intra-view and Inter-view Framework for Multiple Traffic Variable Data Simultaneous Recovery",
+      "abstract": "Rapid advancements in traffic monitoring and sensing technologies have permitted the multiplex and democratized gathering of numerous traffic data (e.g. speed, volume), depicting identical traffic dynamics from various but complementary views. Incomplete values are ubiquitous in these data, which undermines their utility in subsequent applications. In order to manage and enhance traffic data quality, most existing methods recover single traffic variable data independently based on intra-view spatiotemporal correlations, while the inter-view complementarities are ignored. In this paper, we leverage both intra-view and inter-view correlations for multiple traffic variable data simultaneous recovery. To explore the inter-view relationships, a multi-view subspace consistency learning module is developed to bridge connections and activate complementarities among multi-view traffic data. Specifically, the latent subspace features of each data view are extracted and organized as a multi-view subspace tensor with low-rank regularization. The multi-view low-rank tensor captures the consistent subspace structure across multiple data views while reserving unique features within each data view. To characterize the intra-view dependencies, a tensor-based low-rank representation is presented to explore the distinct spatiotemporal patterns within single-view traffic data. For model validation, we additionally design a nonrandom missing pattern to simulate sensor permanent failure cases in practice. Extensive experiments implemented on three real-world multi-view traffic datasets demonstrate the effectiveness and robustness of the proposed model.",
+      "keywords": [
+        {
+          "id": "data-imputation-recovery",
+          "name": "数据补全与恢复"
+        },
+        {
+          "id": "multi-view-learning",
+          "name": "多视图学习"
+        },
+        {
+          "id": "low-rank-modeling",
+          "name": "低秩建模"
+        },
+        {
+          "id": "traffic-data",
+          "name": "交通数据"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-2c640db3fd61",
+      "title": "Complementary Label Learning with Positive Label Guessing and Negative Label Enhancement",
+      "abstract": "Complementary label learning (CLL) is a weakly supervised learning paradigm that constructs a multi-class classifier only with complementary labels, specifying classes that the instance does not belong to. We reformulate CLL as an inverse problem that infers the full label information from the output space information. To be specific, we propose to split the inverse problem into two subtasks: positive label guessing (PLG) and negative label enhancement (NLE), collectively called PLNL. Specifically, we use well-designed criteria for evaluating the confidence of the model output, accordingly divide the training instances into three categories: highly-confident, moderately-confident and under-confident. For highly-confident instances, we perform PLG to assign them pseudo labels for supervised training. For moderately-confident and under-confident instances, we perform NLE by enhancing their complementary label set at different levels and train them with the augmented complementary labels iteratively. In addition, we unify PLG and NLE into a consistent framework, in which we can view all the pseudo-labeling-based methods from the perspective of negative label recovery. We prove that the error rates of both PLG and NLE are upper bounded, and based on that we can construct a classifier consistent with that learned by clean full labels. Extensive experiments demonstrate the superiority of PLNL over the state-of-the-art CLL methods, e.g., on STL-10, we increase the classification accuracy from 34.96\\% to 55.25\\%. The source code is available at https://github.com/yhli-ml/PLNL.",
+      "keywords": [
+        {
+          "id": "weakly-supervised-learning",
+          "name": "弱监督学习"
+        },
+        {
+          "id": "pseudo-label-self-training",
+          "name": "伪标签与自训练"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-305494044431",
+      "title": "Concentration Distribution Learning from Label Distributions",
+      "abstract": "Label distribution learning (LDL) is an effective method to predict the relative label description degree (a.k.a. label distribution) of a sample. However, the label distribution is not a complete representation of an instance because it overlooks the absolute intensity of each label. Specifically, it's impossible to obtain the total description degree of hidden labels that not in the label space, which leads to the loss of information and confusion in instances. To solve the above problem, we come up with a new concept named background concentration to serve as the absolute description degree term of the label distribution and introduce it into the LDL process, forming the improved paradigm of concentration distribution learning. Moreover, we propose a novel model by probabilistic methods and neural networks to learn label distributions and background concentrations from existing LDL datasets. Extensive experiments prove that the proposed approach is able to extract background concentrations from label distributions while producing more accurate prediction results than the state-of-the-art LDL methods. The code is available in https://github.com/seutjw/CDL-LD.",
+      "keywords": [
+        {
+          "id": "label-distribution-learning",
+          "name": "标记分布学习"
+        },
+        {
+          "id": "weakly-supervised-learning",
+          "name": "弱监督学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-36466e9ba385",
+      "title": "Pairwise Constraint Propagation-Induced Symmetric Nonnegative Matrix Factorization",
+      "abstract": "As a variant of nonnegative matrix factorization (NMF), symmetric NMF (SNMF) has shown to be effective for capturing the cluster structure embedded in the graph representation. In contrast to the existing SNMF-based clustering methods that empirically construct the similarity matrix and rigidly introduce the supervisory information to the assignment matrix, in this paper, we propose a novel SNMF-based semisupervised clustering method, namely, pairwise constraint propagation-induced SNMF (PCPSNMF). By formulating a single-constrained optimization problem, PCPSNMF is capable of learning the similarity and assignment matrices adaptively and simultaneously, in which a small amount of supervisory information in the form of pairwise constraints is introduced in a flexible way to guide the construction of the similarity matrix, and the two matrices communicate with each other to achieve mutual refinement until convergence. In addition, we propose an efficient alternating iterative algorithm to solve the optimization problem, whose convergence is theoretically proven. Experimental results over several benchmark image data sets demonstrate that PCPSNMF is less sensitive to initialization and produces higher clustering performance, compared with the state-of-the-art methods.",
+      "keywords": [
+        {
+          "id": "nonnegative-matrix-factorization",
+          "name": "非负矩阵分解"
+        },
+        {
+          "id": "graph-structure-learning",
+          "name": "图结构学习"
+        },
+        {
+          "id": "pairwise-constraint-propagation",
+          "name": "成对约束传播"
+        },
+        {
+          "id": "semi-supervised-learning",
+          "name": "半监督学习"
+        },
+        {
+          "id": "weakly-supervised-learning",
+          "name": "弱监督学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-3af1c95693ac",
+      "title": "Learning Low-rank Graph with Enhanced Supervision",
+      "abstract": "In this paper, we propose a new semi-supervised graph construction method, which is capable of adaptively learning the similarity relationship between data samples by fully exploiting the potential of pairwise constraints, a kind of weakly supervisory information. Specifically, to adaptively learn the similarity relationship, we linearly approximate each sample with others under the regularization of the low-rankness of the matrix formed by the approximation coefficient vectors of all the samples. In the meanwhile, by taking advantage of the underlying local geometric structure of data samples that is empirically obtained, we enhance the dissimilarity information of the available pairwise constraints via propagation. We seamlessly combine the two adversarial learning processes to achieve mutual guidance. We cast our method as a constrained optimization problem and provide an efficient alternating iterative algorithm to solve it. Experimental results on five commonly-used benchmark datasets demonstrate that our method produces much higher classification accuracy than state-of-the-art methods, while running faster.",
+      "keywords": [
+        {
+          "id": "semi-supervised-learning",
+          "name": "半监督学习"
+        },
+        {
+          "id": "graph-structure-learning",
+          "name": "图结构学习"
+        },
+        {
+          "id": "low-rank-modeling",
+          "name": "低秩建模"
+        },
+        {
+          "id": "pairwise-constraint-propagation",
+          "name": "成对约束传播"
+        },
+        {
+          "id": "weakly-supervised-learning",
+          "name": "弱监督学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-3af81cff7068",
+      "title": "Beyond Low-Rank: A Region-Aware Imputation Method for Traffic Data Recovery",
+      "abstract": null,
+      "keywords": [
+        {
+          "id": "data-imputation-recovery",
+          "name": "数据补全与恢复"
+        },
+        {
+          "id": "traffic-data",
+          "name": "交通数据"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-3d396fcbdc50",
+      "title": "Attention-driven graph clustering network",
+      "abstract": "The combination of the traditional convolutional network (i.e., an auto-encoder) and the graph convolutional network has attracted much attention in clustering, in which the auto-encoder extracts the node attribute feature and the graph convolutional network captures the topological graph feature. However, the existing works (i) lack a flexible combination mechanism to adaptively fuse those two kinds of features for learning the discriminative representation and (ii) overlook the multi-scale information embedded at different layers for subsequent cluster assignment, leading to inferior clustering results. To this end, we propose a novel deep clustering method named Attention-driven Graph Clustering Network (AGCN). Specifically, AGCN exploits a heterogeneity-wise fusion module to dynamically fuse the node attribute feature and the topological graph feature. Moreover, AGCN develops a scale-wise fusion module to adaptively aggregate the multi-scale features embedded at different layers. Based on a unified optimization framework, AGCN can jointly perform feature learning and cluster assignment in an unsupervised fashion. Compared with the existing deep clustering methods, our method is more flexible and effective since it comprehensively considers the numerous and discriminative information embedded in the network and directly produces the clustering results. Extensive quantitative and qualitative results on commonly used benchmark datasets validate that our AGCN consistently outperforms state-of-the-art methods.",
+      "keywords": [
+        {
+          "id": "deep-clustering",
+          "name": "深度聚类"
+        },
+        {
+          "id": "graph-neural-networks",
+          "name": "图神经网络"
+        },
+        {
+          "id": "multi-view-learning",
+          "name": "多视图学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-3f9060fdcde7",
+      "title": "Structural-Spectral Graph Convolution with Evidential Edge Learning for Hyperspectral Image Clustering",
+      "abstract": "Hyperspectral image (HSI) clustering groups pixels into clusters without labeled data, which is an important yet challenging task. For large-scale HSIs, most methods rely on superpixel segmentation and perform superpixel-level clustering based on graph neural networks (GNNs). However, existing GNNs cannot fully exploit the spectral information of the input HSI, and the inaccurate superpixel topological graph may lead to the confusion of different class semantics during information aggregation. To address these challenges, we first propose a structural-spectral graph convolutional operator (SSGCO) tailored for graph-structured HSI superpixels to improve their representation quality through the co-extraction of spatial and spectral features. Second, we propose an evidence-guided adaptive edge learning (EGAEL) module that adaptively predicts and refines edge weights in the superpixel topological graph. We integrate the proposed method into a contrastive learning framework to achieve clustering, where representation learning and clustering are simultaneously conducted. Experiments demonstrate that the proposed method improves clustering accuracy by 2.61%, 6.06%, 4.96% and 3.15% over the best compared methods on four HSI datasets. Our code is available at https://github.com/jhqi/SSGCO-EGAEL.",
+      "keywords": [
+        {
+          "id": "deep-clustering",
+          "name": "深度聚类"
+        },
+        {
+          "id": "graph-neural-networks",
+          "name": "图神经网络"
+        },
+        {
+          "id": "graph-structure-learning",
+          "name": "图结构学习"
+        },
+        {
+          "id": "contrastive-learning",
+          "name": "对比学习"
+        },
+        {
+          "id": "hyperspectral-images",
+          "name": "高光谱图像"
+        },
+        {
+          "id": "multi-view-learning",
+          "name": "多视图学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-42c1bb186393",
+      "title": "Semi-Supervised Non-Negative Matrix Factorization with Dissimilarity and Similarity Regularization",
+      "abstract": "In this article, we propose a semi-supervised non-negative matrix factorization (NMF) model by means of elegantly modeling the label information. The proposed model is capable of generating discriminable low-dimensional representations to improve clustering performance. Specifically, a pair of complementary regularizers, i.e., similarity and dissimilarity regularizers, is incorporated into the conventional NMF to guide the factorization. And, they impose restrictions on both the similarity and dissimilarity of the low-dimensional representations of data samples with labels as well as a small number of unlabeled ones. The proposed model is formulated as a well-posed constrained optimization problem and further solved with an efficient alternating iterative algorithm. Moreover, we theoretically prove that the proposed algorithm can converge to a limiting point that meets the Karush-Kuhn-Tucker conditions. Extensive experiments as well as comprehensive analysis demonstrate that the proposed model outperforms the state-of-the-art NMF methods to a large extent over five benchmark data sets, i.e., the clustering accuracy increases to 82.2% from 57.0%.",
+      "keywords": [
+        {
+          "id": "nonnegative-matrix-factorization",
+          "name": "非负矩阵分解"
+        },
+        {
+          "id": "semi-supervised-learning",
+          "name": "半监督学习"
+        },
+        {
+          "id": "dimensionality-reduction",
+          "name": "降维"
+        },
+        {
+          "id": "weakly-supervised-learning",
+          "name": "弱监督学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-458c61eb7de8",
+      "title": "Simultaneous Dimensionality Reduction and Classification via Dual Embedding Regularized Nonnegative Matrix Factorization",
+      "abstract": "Nonnegative matrix factorization (NMF) is a well-known paradigm for data representation. Traditional NMF-based classification methods first perform NMF or one of its variants on input data samples to obtain their low-dimensional representations, which are successively classified by means of a typical classifier [e.g., k -nearest neighbors (KNN) and support vector machine (SVM)]. Such a stepwise manner may overlook the dependency between the two processes, resulting in the compromise of the classification accuracy. In this paper, we elegantly unify the two processes by formulating a novel constrained optimization model, namely dual embedding regularized NMF (DENMF), which is semi-supervised. Our DENMF solution simultaneously finds the low-dimensional representations and assignment matrix via joint optimization for better classification. Specifically, input data samples are projected onto a couple of low-dimensional spaces (i.e., feature and label spaces), and locally linear embedding is employed to preserve the identical local geometric structure in different spaces. Moreover, we propose an alternating iteration algorithm to solve the resulting DENMF, whose convergence is theoretically proven. Experimental results over five benchmark datasets demonstrate that DENMF can achieve higher classification accuracy than state-of-the-art algorithms.",
+      "keywords": [
+        {
+          "id": "dimensionality-reduction",
+          "name": "降维"
+        },
+        {
+          "id": "nonnegative-matrix-factorization",
+          "name": "非负矩阵分解"
+        },
+        {
+          "id": "graph-manifold-regularization",
+          "name": "图与流形正则化"
+        },
+        {
+          "id": "semi-supervised-learning",
+          "name": "半监督学习"
+        },
+        {
+          "id": "weakly-supervised-learning",
+          "name": "弱监督学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-4dafc16e5fd8",
+      "title": "Question-Level Multimodal Fusion for Cognitive Ability Assessment in Asynchronous Video Interviews",
+      "abstract": null,
+      "keywords": [
+        {
+          "id": "multi-view-learning",
+          "name": "多视图学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-4f00a8eb8a7d",
+      "title": "ViT-UWA: Vision Transformer Underwater-Adapter for Dense Predictions Beneath the Water Surface",
+      "abstract": "Vision Transformer (ViT) and its variants have witnessed a significant success in computer vision. However, their performance may degrade in underwater dense prediction tasks due to challenges like complex underwater environments, quality degradation, and light scattering in underwater images. To solve this problem, we propose the Vision Transformer Underwater-Adapter (ViT-UWA), the first detail-focused and adapted ViT backbone for underwater dense prediction tasks, without requiring task-specific pretraining. In ViT-UWA, we first introduce High-frequency Components Prior (HFCP) to add high-frequency information of underwater images to the plain ViT, which can help recover and capture lost high-frequency information of underwater images. Then, we propose a Detail Aware Module (DAM) to obtain a detail-focused multi-scale convolutional feature pyramid, which can be used in kinds of dense prediction tasks. Through the ViT-DAM Cross Fusion (VDCF), we achieve bidirectional feature cross fusion between ViT and DAM. We evaluate ViT-UWA on multiple underwater dense prediction tasks, including semantic segmentation, instance segmentation, and object detection. With only ImageNet-22K pretraining, our ViT-UWA-B yields state-of-the-art 46.4 box AP and 44.2 mask AP on USIS10K dataset, which demonstrates the superiority of our method. Our code is available at https://github.com/Linqirui/ViT-UWA.",
+      "keywords": [
+        {
+          "id": "image-segmentation",
+          "name": "图像分割"
+        },
+        {
+          "id": "underwater-images",
+          "name": "水下图像"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-4f3942c218c8",
+      "title": "DPtSTrip: Adversarially Robust Learning with Distance-Aware Point-to-Set Triplet Loss",
+      "abstract": null,
+      "keywords": [
+        {
+          "id": "adversarial-robustness",
+          "name": "对抗鲁棒性"
+        },
+        {
+          "id": "contrastive-learning",
+          "name": "对比学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-50d02eb604b9",
+      "title": "Semi-supervised Symmetric Non-negative Matrix Factorization with Low-Rank Tensor Representation",
+      "abstract": "Semi-supervised symmetric non-negative matrix factorization (SNMF) utilizes the available supervisory information (usually in the form of pairwise constraints) to improve the clustering ability of SNMF. The previous methods introduce the pairwise constraints from the local perspective, i.e., they either directly refine the similarity matrix element-wisely or restrain the distance of the decomposed vectors in pairs according to the pairwise constraints, which overlook the global perspective, i.e., in the ideal case, the pairwise constraint matrix and the ideal similarity matrix possess the same low-rank structure. To this end, we first propose a novel semi-supervised SNMF model by seeking low-rank representation for the tensor synthesized by the pairwise constraint matrix and a similarity matrix obtained by the product of the embedding matrix and its transpose, which could strengthen those two matrices simultaneously from a global perspective. We then propose an enhanced SNMF model, making the embedding matrix tailored to the above tensor low-rank representation. We finally refine the similarity matrix by the strengthened pairwise constraints. We repeat the above steps to continuously boost the similarity matrix and pairwise constraint matrix, leading to a high-quality embedding matrix. Extensive experiments substantiate the superiority of our method. The code is available athttps://github.com/JinaLeejnl/TSNMF.",
+      "keywords": [
+        {
+          "id": "semi-supervised-learning",
+          "name": "半监督学习"
+        },
+        {
+          "id": "nonnegative-matrix-factorization",
+          "name": "非负矩阵分解"
+        },
+        {
+          "id": "low-rank-modeling",
+          "name": "低秩建模"
+        },
+        {
+          "id": "graph-structure-learning",
+          "name": "图结构学习"
+        },
+        {
+          "id": "pairwise-constraint-propagation",
+          "name": "成对约束传播"
+        },
+        {
+          "id": "weakly-supervised-learning",
+          "name": "弱监督学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-5111c5177048",
+      "title": "Imbalance-aware pairwise constraint propagation",
+      "abstract": "Pairwise constraint propagation (PCP) aims to propagate a limited number of initial pairwise constraints (PCs, including must-link and cannot-link constraints) from the constrained data samples to the unconstrained ones to boost subsequent PC-based applications. The existing PCP approaches always suffer from the imbalance characteristic of PCs, which limits their performance significantly. To this end, we propose a novel imbalance-aware PCP method, by comprehensively and theoretically exploring the intrinsic structures of the underlying PCs. Specifically, different from the existing methods that adopt a single representation, we propose to use two separate carriers to represent the two types of links. And the propagation is driven by the structure embedded in data samples and the regularization of the local, global, and complementary structures of the two carries. Our method is elegantly cast as a well-posed constrained optimization model, which can be efficiently solved. Experimental results demonstrate that the proposed PCP method is capable of generating more high-fidelity PCs than the recent PCP algorithms. In addition, the augmented PCs by our method produce higher accuracy than state-of-the-art semi-supervised clustering methods when applied to constrained clustering. To the best of our knowledge, this is the first PCP method taking the imbalance property of PCs into account.",
+      "keywords": [
+        {
+          "id": "pairwise-constraint-propagation",
+          "name": "成对约束传播"
+        },
+        {
+          "id": "semi-supervised-learning",
+          "name": "半监督学习"
+        },
+        {
+          "id": "graph-structure-learning",
+          "name": "图结构学习"
+        },
+        {
+          "id": "graph-manifold-regularization",
+          "name": "图与流形正则化"
+        },
+        {
+          "id": "weakly-supervised-learning",
+          "name": "弱监督学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-51397954ce4d",
+      "title": "Inaccurate Label Distribution Learning",
+      "abstract": "Label distribution learning (LDL) trains a model to predict the relevance of a set of labels (called label distribution (LD)) to an instance. The previous LDL methods all assumed the LDs of the training instances are accurate. However, annotating highly accurate LDs for training instances is time-consuming and extremely expensive, and in reality the collected LDs are often inaccurate. This paper first investigates the inaccurate LDL (ILDL) problem—learn an LDL method from the inaccurate LDs. We assume that the inaccurate LD blends the ground-truth LD and sparse noise. Consequently, the ILDL problem becomes an inverse problem, whose objective is to recover the ground-truth LD and noise from the inaccurate LD. We hypothesize that the ground-truth LD exhibits low rank due to label correlations. Besides, we leverage the local geometric structure of instances (represented as graph) to further recover the ground-truth LD. Finally, the proposed method is formulated as a graph-regularized low-rank and sparse decomposition problem. Next, we induce an LDL predictive method by learning from recovered LD. Extensive experiments conducted on multiple datasets demonstrate the better performance of our method, especially for ILDL problem.",
+      "keywords": [
+        {
+          "id": "label-distribution-learning",
+          "name": "标记分布学习"
+        },
+        {
+          "id": "noisy-label-learning",
+          "name": "噪声标签学习"
+        },
+        {
+          "id": "weakly-supervised-learning",
+          "name": "弱监督学习"
+        },
+        {
+          "id": "data-imputation-recovery",
+          "name": "数据补全与恢复"
+        },
+        {
+          "id": "low-rank-modeling",
+          "name": "低秩建模"
+        },
+        {
+          "id": "graph-manifold-regularization",
+          "name": "图与流形正则化"
+        },
+        {
+          "id": "label-correlation-modeling",
+          "name": "标签相关性建模"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-532faa4a2fc2",
+      "title": "ResMerge: Residual-based Spectral Merging of Large Language Models",
+      "abstract": "Model merging offers a training-free way to combine multiple post-trained expert models, but merging experts obtained through reinforcement learning (RL) remains challenging. Existing spectral merging methods often assume that leading singular directions contain the main task signal, while lower-energy residual components can be compressed, selected, or attenuated to reduce interference. We find that this assumption does not hold for RL task vectors: after decomposing each task vector into a leading spectral head and a residual component, both parts can independently recover substantial behavior knowledge, while exhibiting different merging properties. The head is highly concentrated and informative but more prone to sharp cross-expert conflicts, whereas the residual component is more dispersed and provides a more stable basis for aggregation. Based on this observation, we propose ResMerge, a residual-based spectral merging framework for RL experts. ResMerge first constructs a stable residual backbone with Spherical Residual Consensus Adaptation, which estimates a reliability-weighted consensus direction on the Frobenius sphere. It then reintroduces leading-head information through a Lightweight Head Correction module gated by positive cross-expert agreement. Experiments across multiple RL expert groups and capability domains show that ResMerge better preserves expert capabilities than representative task-vector and spectral merging baselines.",
+      "keywords": [
+        {
+          "id": "model-merging",
+          "name": "模型合并"
+        },
+        {
+          "id": "large-language-models",
+          "name": "大语言模型"
+        },
+        {
+          "id": "low-rank-modeling",
+          "name": "低秩建模"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-5403cb1aad23",
+      "title": "Noise Separation guided Candidate Label Reconstruction for Noisy Partial Label Learning",
+      "abstract": "Partial label learning is a weakly supervised learning problem in which an instance is annotated with a set of candidate labels, among which only one is the correct label. However, in practice the correct label is not always in the candidate label set, leading to the noisy partial label learning (NPLL) problem. In this paper, we theoretically prove that the generalization error of the classifier constructed under NPLL paradigm is bounded by the noise rate and the average length of the candidate label set. Motivated by the theoretical guide, we propose a novel NPLL framework that can separate the noisy samples from the normal samples to reduce the noise rate and reconstruct the shorter candidate label sets for both of them. Extensive experiments on multiple benchmark datasets confirm the efficacy of the proposed method in addressing NPLL. For example, on CIFAR100 dataset with severe noise, our method improves the classification accuracy of the state-of-the-art one by 11.57%. The code is available at: https://github.com/pruirui/PLRC.",
+      "keywords": [
+        {
+          "id": "partial-label-learning",
+          "name": "偏标记学习"
+        },
+        {
+          "id": "noisy-label-learning",
+          "name": "噪声标签学习"
+        },
+        {
+          "id": "weakly-supervised-learning",
+          "name": "弱监督学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-56209c579874",
+      "title": "Inaccurate Label Distribution Learning with Dependency Noise",
+      "abstract": "In this paper, we introduce the Dependent Noise-based Inaccurate Label Distribution Learning (DN-ILDL) framework to tackle the challenges posed by noise in label distribution learning, which arise from dependencies on instances and labels. We start by modeling the inaccurate label distribution matrix as a combination of the true label distribution and a noise matrix influenced by specific instances and labels. To address this, we develop a linear mapping from instances to their true label distributions, incorporating label correlations, and decompose the noise matrix using feature and label representations, applying group sparsity constraints to accurately capture the noise. Furthermore, we employ graph regularization to align the topological structures of the input and output spaces, ensuring accurate reconstruction of the true label distribution matrix. Utilizing the Alternating Direction Method of Multipliers (ADMM) for efficient optimization, we validate our method's capability to recover true labels accurately and establish a generalization error bound. Extensive experiments demonstrate that DN-ILDL effectively addresses the ILDL problem and outperforms existing LDL methods.",
+      "keywords": [
+        {
+          "id": "label-distribution-learning",
+          "name": "标记分布学习"
+        },
+        {
+          "id": "noisy-label-learning",
+          "name": "噪声标签学习"
+        },
+        {
+          "id": "weakly-supervised-learning",
+          "name": "弱监督学习"
+        },
+        {
+          "id": "label-correlation-modeling",
+          "name": "标签相关性建模"
+        },
+        {
+          "id": "graph-manifold-regularization",
+          "name": "图与流形正则化"
+        },
+        {
+          "id": "data-imputation-recovery",
+          "name": "数据补全与恢复"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-57c2d8cba676",
+      "title": "Finding the Correct Visual Evidence Without Forgetting: Mitigating Hallucination in LVLMs via Inter-Layer Visual Attention Discrepancy",
+      "abstract": "Large Vision-Language Models (LVLMs) have shown remarkable performance on a wide range of vision-language tasks. Despite this progress, they are still prone to hallucination, generating responses that are inconsistent with visual content. In this work, we find that LVLMs tend to hallucinate when they pay insufficient attention to the correct visual evidence and gradually forget it during the generation process. We empirically find that although LVLMs overall attend insufficiently to visual evidence, they exhibit sensitivity to the correct visual evidence in specific layers, with notable inter-layer discrepancy. Motivated by this observation, we propose a novel hallucination mitigation method that enhances visual evidence based on Inter-Layer Visual Attention Discrepancy (ILVAD). Specifically, we obtain the attention weights from early generated tokens to visual tokens across layers and identify the tokens that are repeatedly activated as visual evidence, forming a saliency map. We then enhance attention to visual evidence during generation through the saliency map to reduce visual forgetting. In addition, we leverage the saliency map to obtain attention scores of generated text to visual evidence, in order to select and emphasize text tokens that are strongly grounded in visual evidence. Our method is training-free and plug-and-play. Multiple benchmark evaluations conducted on five recently released models show that our method can consistently mitigate hallucinations in different LVLMs over various architectures. Code is available at https://github.com/ytx-ML/ILVAD.",
+      "keywords": [
+        {
+          "id": "hallucination-mitigation",
+          "name": "幻觉抑制"
+        },
+        {
+          "id": "large-vision-language-models",
+          "name": "视觉语言大模型"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-5a1fffb8e6b7",
+      "title": "Joint Optimization for Pairwise Constraint Propagation",
+      "abstract": "Constrained spectral clustering (SC) based on pairwise constraint propagation has attracted much attention due to the good performance. All the existing methods could be generally cast as the following two steps, i.e., a small number of pairwise constraints are first propagated to the whole data under the guidance of a predefined affinity matrix, and the affinity matrix is then refined in accordance with the resulting propagation and finally adopted for SC. Such a stepwise manner, however, overlooks the fact that the two steps indeed depend on each other, i.e., the two steps form a \"chicken-egg\" problem, leading to suboptimal performance. To this end, we propose a joint PCP model for constrained SC by simultaneously learning a propagation matrix and an affinity matrix. Especially, it is formulated as a bounded symmetric graph regularized low-rank matrix completion problem. We also show that the optimized affinity matrix by our model exhibits an ideal appearance under some conditions. Extensive experimental results in terms of constrained SC, semisupervised classification, and propagation behavior validate the superior performance of our model compared with state-of-the-art methods.",
+      "keywords": [
+        {
+          "id": "pairwise-constraint-propagation",
+          "name": "成对约束传播"
+        },
+        {
+          "id": "semi-supervised-learning",
+          "name": "半监督学习"
+        },
+        {
+          "id": "graph-structure-learning",
+          "name": "图结构学习"
+        },
+        {
+          "id": "low-rank-modeling",
+          "name": "低秩建模"
+        },
+        {
+          "id": "graph-manifold-regularization",
+          "name": "图与流形正则化"
+        },
+        {
+          "id": "weakly-supervised-learning",
+          "name": "弱监督学习"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-5db2d9f26022",
+      "title": "Label Distribution Learning by Exploiting Fuzzy Label Correlation",
+      "abstract": "Researchers have proposed to exploit label correlation to alleviate the exponential-size output space of label distribution learning (LDL). In particular, some have designed LDL methods to consider local label correlation. These methods roughly partition the training set into clusters and then exploit local label correlation on each one. Each sample belongs to one cluster and therefore has only one local label correlation. However, in real-world scenarios, the training samples may have fuzziness and belong to multiple clusters with blended local label correlations, which challenge these works. To solve this problem, we propose in LDL fuzzy label correlation (FLC)-each sample blends, with fuzzy membership, multiple local label correlations. First, we propose two types of FLCs, i.e., fuzzy membership-induced label correlation (FC) and joint fuzzy clustering and label correlation (FCC). Then, we put forward LDL-FC and LDL-FCC to exploit these two FLCs, respectively. Finally, we conduct extensive experiments to justify that LDL-FC and LDL-FCC statistically outperform state-of-the-art LDL methods.",
+      "keywords": [
+        {
+          "id": "label-distribution-learning",
+          "name": "标记分布学习"
+        },
+        {
+          "id": "label-correlation-modeling",
+          "name": "标签相关性建模"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-5dda1e979492",
+      "title": "LoCo: Selective Local Competition for Discriminative Open-Vocabulary Multi-Label Recognition",
+      "abstract": "Open-vocabulary multi-label recognition (OV-MLR) aims to identify all queried semantic concepts present in an image. Existing methods mainly improve global image-text matching or text-side representations, leaving local prediction largely under-explored. In this paper, we revisit local prediction and reveal that it can serve as a strong discriminative branch once two properties are properly handled: spatial consistency of local visual features and compatibility-aware local competition. This perspective is motivated by local semantic sparsity: each image region is related to only a small subset of queried concepts, while compatible concepts of different granularities or types may still coexist locally. We instantiate this perspective with LoCo, a selective Local Competition framework for OV-MLR. LoCo adopts a spatially consistent visual encoder to reduce local feature entanglement, and introduces Selective Softmax to impose competition only among locally incompatible categories while preserving compatible responses. It further combines multi-scale local aggregation with global prediction to handle objects at different scales and scene-level semantics.  Experiments on four multi-label benchmarks show that LoCo achieves state-of-the-art performance, with average gains of +11.3\\% F1-score and +5.2\\% mAP.  Our results suggest that local semantic sparsity offers a useful basis for developing more discriminative open-vocabulary multi-label recognition methods. Code is available in the supplementary material.",
+      "keywords": [
+        {
+          "id": "multi-label-learning",
+          "name": "多标记学习"
+        },
+        {
+          "id": "open-vocabulary-recognition",
+          "name": "开放词表识别"
+        },
+        {
+          "id": "label-correlation-modeling",
+          "name": "标签相关性建模"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-60280e69a6e3",
+      "title": "When Missingness Meets Anomalies: A Tailored Low-rank Tensor Completion Approach for Traffic Data Recovery",
+      "abstract": null,
+      "keywords": [
+        {
+          "id": "data-imputation-recovery",
+          "name": "数据补全与恢复"
+        },
+        {
+          "id": "low-rank-modeling",
+          "name": "低秩建模"
+        },
+        {
+          "id": "traffic-data",
+          "name": "交通数据"
+        }
+      ]
+    },
+    {
+      "paper_id": "lab-62249197b63f",
+      "title": "Learnable Similarity and Dissimilarity Guided Symmetric Non-Negative Matrix Factorization",
+      "abstract": "Symmetric nonnegative matrix factorization (SymNMF) is a powerful tool for clustering, which typically uses the $k$-nearest neighbor ($k$-NN) method to construct similarity matrix. However, $k$-NN may mislead clustering since the neighbors may belong to different clusters, and its reliability generally decreases as $k$ grows. In this paper, we construct the similarity matrix as a weighted $k$-NN graph with learnable weight that reflects the reliability of each $k$-th NN. This approach reduces the search space of the similarity matrix learning to $n - 1$ dimension, as opposed to the $\\mathcal{O}(n^2)$ dimension of existing methods, where $n$ represents the number of samples. Moreover, to obtain a discriminative similarity matrix, we introduce a dissimilarity matrix with a dual structure of the similarity matrix, and propose a new form of orthogonality regularization with discussions on its geometric interpretation and numerical stability. An efficient alternative optimization algorithm is designed to solve the proposed model, with theoretically guarantee that the variables converge to a stationary point that satisfies the KKT conditions. The advantage of the proposed model is demonstrated by the comparison with nine state-of-the-art clustering methods on eight datasets. The code is available at \\url{https://github.com/lwl-learning/LSDGSymNMF}.",
+      "keywords": [
+        {
+          "id": "nonnegative-matrix-factorization",
+          "name": "非负矩阵分解"
+        },
+        {
+          "id": "graph-structure-learning",
+          "name": "图结构学习"
+        }
+      ]
+    }
+  ]
+}

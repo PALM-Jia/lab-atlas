@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2604773025\",\"annotations\":[{\"keyword_id\":\"label-distribution-learning\",\"exact_quote\":\"we address the sentiment ambiguity by label distribution learning (LDL)\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确以标签分布学习建模情感歧义，预测图像的多情感标签分布，属于本文核心研究任务。\"}],\"abstentions\":[{\"keyword_id\":\"label-correlation-modeling\",\"reason_zh\":\"摘要提到图像常激发多种情绪且数据集含多情感标签，但未说明显式建模标签间共现、依赖或排序结构，证据不足。\"}],\"input_issues\":[]}"
+}

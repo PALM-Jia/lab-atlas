@@ -1,0 +1,24 @@
+{
+  "paper_id": "W2179076887",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "missing traffic data completion",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以缺失交通数据补全为任务，估计缺失观测并恢复完整数据，符合数据补全与恢复定义。"
+    },
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "traffic data",
+      "evidence_field": "title",
+      "reason_zh": "标题的研究对象为交通数据，并针对其缺失值进行补全，属于实际交通数据对象。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "标题仅称Tensor based，未明确说明低秩约束、张量分解或低秩近似，无法按定义确认低秩建模。"
+    }
+  ],
+  "input_issues": []
+}

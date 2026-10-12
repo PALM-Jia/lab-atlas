@@ -1,0 +1,37 @@
+{
+  "paper_id": "lab-b8edb24bba59",
+  "annotations": [
+    {
+      "keyword_id": "partial-label-learning",
+      "exact_quote": "This paper studies the semi-supervised partial label learning (SSPLL) problem, which aims to improve the partial label learning (PLL) by leveraging unlabeled samples.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文明确研究部分标签学习PLL，并以半监督方式利用未标注样本提升PLL。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "This paper studies the semi-supervised partial label learning (SSPLL) problem, which aims to improve the partial label learning (PLL) by leveraging unlabeled samples.",
+      "evidence_field": "abstract",
+      "reason_zh": "研究半监督部分标签学习，结合有限监督信息与未标注样本，符合半监督学习设定。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "the scarcity of labeled samples and the ambiguity from partial labels",
+      "evidence_field": "abstract",
+      "reason_zh": "以有限标注和部分标签的候选歧义作为监督条件，属于不完整、不精确监督的弱监督学习。"
+    },
+    {
+      "keyword_id": "pseudo-label-self-training",
+      "exact_quote": "adopts a learning state aware self-adaptive threshold for selecting the same number of high-confidence samples on each class, and uses augmentation consistency to incorporate the unlabeled samples to promote PLL.",
+      "evidence_field": "abstract",
+      "reason_zh": "方法通过自适应阈值筛选高置信未标注样本并纳入训练，前文说明这类样本作为伪标签，属于伪标签自训练。"
+    },
+    {
+      "keyword_id": "class-imbalance",
+      "exact_quote": "selecting the same number of high-confidence samples on each class",
+      "evidence_field": "abstract",
+      "reason_zh": "方法显式在每类选择相同数量的高置信样本，以处理各类被选样本数量不均衡的问题。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

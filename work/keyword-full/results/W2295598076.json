@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2295598076",
+  "annotations": [
+    {
+      "keyword_id": "classifier-ensemble",
+      "exact_quote": "Tree boosting is a highly effective and widely used machine learning method.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要以树提升为核心方法；树提升通过组合多个树模型进行预测，属于集成方法，可对应分类器集成。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

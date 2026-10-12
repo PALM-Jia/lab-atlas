@@ -1,0 +1,31 @@
+{
+  "paper_id": "W2792823099",
+  "annotations": [
+    {
+      "keyword_id": "subspace-clustering",
+      "exact_quote": "subspace clustering, which aims to partition the data into several low dimensional subspaces",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将子空间聚类作为研究任务，目标是把数据划分到多个低维子空间。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "utilizing relatively limited labeled data and sufficient unlabeled data, the semi-supervised subspace clustering",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明利用有限标注数据和充足未标注数据进行半监督子空间聚类，符合结合有限监督与未标注样本的设定。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "the manifold smoothing term of the existing methods and the Gaussian fields and harmonic functions method",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将流形平滑项与高斯场调和函数方法结合进统一优化框架，属于图与流形正则化。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "a new regularity combing the labels and the affinity to ensure the coherence of the affinity between data points from the same subspace",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要提出新正则项，将标签与亲和度结合，以确保同一子空间内数据点亲和度一致，即对亲和矩阵进行学习或修正。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

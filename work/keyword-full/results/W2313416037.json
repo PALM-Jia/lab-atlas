@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2313416037",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Nonnegative matrix factorization (NMF), which aims at obtaining the nonnegative low-dimensional representation of data",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要以非负矩阵分解获得数据的非负低维表示，并在此基础上提出NDMF，属于实质使用方法。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "obtaining the nonnegative low-dimensional representation of data",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将获得数据的非负低维表示作为NMF目标，构成显式低维嵌入与维度压缩。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

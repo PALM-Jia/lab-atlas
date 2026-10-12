@@ -1,0 +1,24 @@
+{
+  "paper_id": "W2104819583",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Constrained Nonnegative Matrix Factorization for Image Representation",
+      "evidence_field": "title",
+      "reason_zh": "标题直接提出CNMF，摘要说明以非负矩阵分解为基础并给出两种代价函数及优化更新。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "we propose a novel semi-supervised matrix decomposition method",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将方法定位为半监督矩阵分解，利用标签信息作为额外约束，属于有限监督与未标注数据结合的设定。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "dimensionality-reduction",
+      "reason_zh": "摘要仅提到线性表示和矩阵分解，未明确低维映射或维度压缩目标，难以判定为降维任务。"
+    }
+  ],
+  "input_issues": []
+}

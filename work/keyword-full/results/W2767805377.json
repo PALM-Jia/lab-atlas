@@ -1,0 +1,34 @@
+{
+  "paper_id": "W2767805377",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral Image Classification",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以高光谱图像分类为核心主题，属于处理具有密集光谱波段的图像。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "we develop a concept of spatial dependency system that involves pixel dependency and label dependency",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确提出标签依赖（label dependency）并纳入空间依赖系统，属于显式建模标签间依赖结构。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "utilizes not only the information of spectral signature but also that from spatial domain",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明光谱-空间分类同时利用光谱签名与空间域两类互补信息，属于多视图联合利用。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "摘要提到邻域覆盖与邻域重要性，但未明确用图/流形结构对学习结果施加几何一致性约束，证据不足。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "摘要提出空间依赖系统涉及像素与标签依赖，但未说明学习或修正样本间边、邻接或亲和矩阵，无法确定。"
+    }
+  ],
+  "input_issues": []
+}

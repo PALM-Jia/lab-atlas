@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2147339185",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "The NMF and its extensions, sparse NMF and NMF with sparseness constraint, are then used for tumor clustering on the selected genes.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确说明NMF及其扩展被用于在所选基因上进行肿瘤聚类，NMF是论文的核心方法而非仅背景。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "gene selection and explicitly enforcing sparseness are introduced into the factorization process.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明在分解过程中显式引入稀疏性，并使用稀疏NMF和带稀疏约束的NMF，以稀疏基向量或系数表达样本，符合稀疏表示机制。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

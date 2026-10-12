@@ -1,0 +1,25 @@
+{
+  "paper_id": "W7211914980",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "deep clustering has significantly improved the unsupervised feature modeling capability for HSI by combining deep representation learning with clustering analysis",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将深度聚类作为综述核心主题，并说明其结合深度表示学习与聚类分析获得无监督特征建模与聚类划分。"
+    },
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral image (HSI) contains rich spectral information as well as spatial structural information",
+      "evidence_field": "abstract",
+      "reason_zh": "标题和摘要均以高光谱图像为处理对象，围绕其高维、波段冗余与聚类展开综述。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "from single-view modeling to multiview collaborative modeling",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要指出该领域从单视图建模发展到多视图协同建模，并以多视图聚类为基本概念和重要研究趋势。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

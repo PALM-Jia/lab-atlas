@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2761683629",
+  "annotations": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "low-rank and sparse representation classifier",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出低秩与稀疏表示分类器，明确对低秩项施加自适应谱约束并基于秩等价优化，属于显式低秩约束建模。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "sparse representation classifier",
+      "evidence_field": "abstract",
+      "reason_zh": "方法以稀疏表示分类器为核心，联合重建样本并包含稀疏项，符合以少量基或字典原子表达样本的机制。"
+    },
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral Image Classification",
+      "evidence_field": "title",
+      "reason_zh": "论文研究高光谱图像分类，并在两个高光谱数据集上验证，高光谱图像是直接处理对象。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

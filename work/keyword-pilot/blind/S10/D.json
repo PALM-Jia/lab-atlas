@@ -1,0 +1,10 @@
+{
+  "sample_id": "S10",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "sparse-representation",
+      "reason_zh": "摘要将lasso、稀疏逻辑回归和basis pursuit列为分布式优化的应用，未明确以少量字典原子、基向量或潜在特征表达样本，不足以据此认定稀疏表示。"
+    }
+  ]
+}

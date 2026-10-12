@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2118246710",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "improves segmentation performance",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要提出SLIC超像素算法并说明其提升分割性能，涉及超像素分割这一图像分割任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

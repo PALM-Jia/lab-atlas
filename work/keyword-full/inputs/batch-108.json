@@ -1,0 +1,54 @@
+{
+  "papers": [
+    {
+      "paper_id": "W2545881481",
+      "title": "Modeling Boston: A workflow for the efficient generation and maintenance of urban building energy models from existing geospatial datasets",
+      "abstract": null
+    },
+    {
+      "paper_id": "W2550999023",
+      "title": "A Survey on semi-supervised feature selection methods",
+      "abstract": null
+    },
+    {
+      "paper_id": "W2551480915",
+      "title": "Ideal Regularized Composite Kernel for Hyperspectral Image Classification",
+      "abstract": "This paper proposes an ideal regularized composite kernel (IRCK) framework for hyperspectral image (HSI) classification. In learning a composite kernel, IRCK exploits spectral information, spatial information, and label information simultaneously. It incorporates the labels into standard spectral and spatial kernels by means of the ideal kernel according to a regularization kernel learning framework, which captures both the sample similarity and label similarity and makes the resulting kernel more appropriate for specific HSI classification tasks. With the ideal regularization, the kernel learning problem has a simple analytical solution and is very easy to implement. The ideal regularization can be used to improve and to refine state-of-the-art kernels, including spectral kernels, spatial kernels, and spectral-spatial composite kernels. The effectiveness of the proposed IRCK is validated on three benchmark hyperspectral datasets. Experimental results show the superiority of our IRCK method over the classical kernel methods and state-of-the-art HSI classification methods."
+    },
+    {
+      "paper_id": "W2552092782",
+      "title": "Enhancing multi-label classification based on local label constraints and classifier chains",
+      "abstract": "In the multi-label classification issue, some implicit constraints and dependencies are always existed among labels. Exploring the correlation information among different labels is important for many applications. It not only can enhance the classifier performance but also can help to interpret the classification results for some specific applications. This paper presents an improved multi-label classification method based on local label constraints and classifier chains for solving multi-label tasks with large number of labels. Firstly, in order to exploit local label constraints in multi-label problem with large number of labels, clustering approach is utilized to segment training label set into several subsets. Secondly, for each label subset, local tree-structure constraints among different labels are mined based on mutual information metric. Thirdly, based on the mined local tree-structure label constraints, a variant of classifier chain strategy is implemented to enhance the multi-label learning system. Experiment results on five multi-label benchmark datasets show that the proposed method is a competitive approach for solving multi-label classification tasks with large number of labels."
+    },
+    {
+      "paper_id": "W2552987523",
+      "title": "Unsupervised transfer learning via Low-Rank Coding for image clustering",
+      "abstract": "Unsupervised transfer learning has attracted a lot of attention in the big data era, due to its capability of extracting knowledge from large-scale unlabeled samples in multiple data domains. Existing unsupervised transfer learning methods mainly focus on learning a common latent space for source and target domains, while the data representation and subspace structure in target domain are usually ignored. In this paper, we develop an Unsupervised Transfer learning approach based on Low-Rank Coding (UTLRC), in order to take advantages of the high-level structural information in the target domain. A dictionary is shared by samples from source domain and target domain, which contains bases vectors for low-level visual patterns. By utilizing the cross-domain dictionary, UTLRC is able to effectively encode the samples in target domain. In addition, a low-rank constraint is incorporated to model the subspace structure in target domain, and a sparse constraint is introduced in the source domain. We formulate UTLRC as a rank-minimization problem, and design an effective optimization algorithm based on the alternating direction method of multipliers (ADMM) to solve it. Existing evidence already indicates the connections between neural mechanisms and sparse coding, the low-rank coding strategy studied in this work would further inspire the understanding of the neural mechanisms of cognition. We apply UTLRC to image clustering, and evaluate its performance on several benchmark datasets. Extensive experimental results demonstrate the effectiveness of UTLRC, compared to some representative subspace clustering methods."
+    },
+    {
+      "paper_id": "W2553156677",
+      "title": "Deep Label Distribution Learning With Label Ambiguity",
+      "abstract": "Convolutional neural networks (ConvNets) have achieved excellent recognition performance in various visual recognition tasks. A large labeled training set is one of the most important factors for its success. However, it is difficult to collect sufficient training images with precise labels in some domains, such as apparent age estimation, head pose estimation, multilabel classification, and semantic segmentation. Fortunately, there is ambiguous information among labels, which makes these tasks different from traditional classification. Based on this observation, we convert the label of each image into a discrete label distribution, and learn the label distribution by minimizing a Kullback-Leibler divergence between the predicted and ground-truth label distributions using deep ConvNets. The proposed deep label distribution learning (DLDL) method effectively utilizes the label ambiguity in both feature learning and classifier learning, which help prevent the network from overfitting even when the training set is small. Experimental results show that the proposed approach produces significantly better results than the state-of-the-art methods for age estimation and head pose estimation. At the same time, it also improves recognition performance for multi-label classification and semantic segmentation tasks."
+    },
+    {
+      "paper_id": "W2553871738",
+      "title": "Learning sparse graphs under smoothness prior",
+      "abstract": "In this paper, we are interested in learning the underlying graph structure behind training data. Solving this basic problem is essential to carry out any graph signal processing or machine learning task. To realize this, we assume that the data is smooth with respect to the graph topology, and we parameterize the graph topology using an edge sampling function. That is, the graph Laplacian is expressed in terms of a sparse edge selection vector, which provides an explicit handle to control the sparsity level of the graph. We solve the sparse graph learning problem given some training data in both the noiseless and noisy settings. Given the true smooth data, the posed sparse graph learning problem can be solved optimally and is based on simple rank ordering. Given the noisy data, we show that the joint sparse graph learning and denoising problem can be simplified to designing only the sparse edge selection vector, which can be solved using convex optimization."
+    },
+    {
+      "paper_id": "W2554952599",
+      "title": "Variational Graph Auto-Encoders",
+      "abstract": "We introduce the variational graph auto-encoder (VGAE), a framework for unsupervised learning on graph-structured data based on the variational auto-encoder (VAE). This model makes use of latent variables and is capable of learning interpretable latent representations for undirected graphs. We demonstrate this model using a graph convolutional network (GCN) encoder and a simple inner product decoder. Our model achieves competitive results on a link prediction task in citation networks. In contrast to most existing models for unsupervised learning on graph-structured data and link prediction, our model can naturally incorporate node features, which significantly improves predictive performance on a number of benchmark datasets."
+    },
+    {
+      "paper_id": "W2557385283",
+      "title": "The Human Phenotype Ontology in 2017",
+      "abstract": "Deep phenotyping has been defined as the precise and comprehensive analysis of phenotypic abnormalities in which the individual components of the phenotype are observed and described. The three components of the Human Phenotype Ontology (HPO; www.human-phenotype-ontology.org) project are the phenotype vocabulary, disease-phenotype annotations and the algorithms that operate on these. These components are being used for computational deep phenotyping and precision medicine as well as integration of clinical data into translational research. The HPO is being increasingly adopted as a standard for phenotypic abnormalities by diverse groups such as international rare disease organizations, registries, clinical labs, biomedical resources, and clinical software tools and will thereby contribute toward nascent efforts at global data exchange for identifying disease etiologies. This update article reviews the progress of the HPO project since the debut Nucleic Acids Research database article in 2014, including specific areas of expansion such as common (complex) disease, new algorithms for phenotype driven genomic discovery and diagnostics, integration of cross-species mapping efforts with the Mammalian Phenotype Ontology, an improved quality control pipeline, and the addition of patient-friendly terminology."
+    },
+    {
+      "paper_id": "W2557489574",
+      "title": "Semi-supervised community detection based on non-negative matrix factorization with node popularity",
+      "abstract": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2083138589",
+  "annotations": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "Many problems can be characterized by the task of recovering the low-rank and sparse components of a given matrix.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以恢复矩阵的低秩分量、用核范数诱导低秩为核心建模，属于显式低秩分解/约束。"
+    },
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "This paper studies the recovery task in the general settings that only a fraction of entries of the matrix can be observed and the observation is corrupted by both impulsive and Gaussian noise.",
+      "evidence_field": "abstract",
+      "reason_zh": "研究从不完整且含脉冲与高斯噪声的观测中恢复矩阵分量，符合数据补全与恢复任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

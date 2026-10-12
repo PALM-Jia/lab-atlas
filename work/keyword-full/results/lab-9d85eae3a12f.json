@@ -1,0 +1,37 @@
+{
+  "paper_id": "lab-9d85eae3a12f",
+  "annotations": [
+    {
+      "keyword_id": "partial-label-learning",
+      "exact_quote": "This paper proposes a novel framework for partial label learning in HSI classification, namely unlabeled data guided partial label learning (UPLL).",
+      "evidence_field": "abstract",
+      "reason_zh": "论文明确提出偏标记学习任务：每个HSI像素的候选标签集合包含真标签，仅一个候选为真。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "we conduct the semi-supervised label propagation",
+      "evidence_field": "abstract",
+      "reason_zh": "方法利用半监督标签传播，结合少量已标注样本与未标注测试样本来学习。"
+    },
+    {
+      "keyword_id": "pseudo-label-self-training",
+      "exact_quote": "we select qualified original training samples and unlabeled testing samples with high confident predictions to disambiguate and expand the original training set",
+      "evidence_field": "abstract",
+      "reason_zh": "将高置信预测样本筛选后加入/扩展训练集，作为后续训练信号，属于伪标签与自训练。"
+    },
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral Image Classification",
+      "evidence_field": "title",
+      "reason_zh": "研究对象为高光谱图像分类。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "partial label learning often provides a candidate label set that contains the ground-truth label for each pixel in an HSI",
+      "evidence_field": "abstract",
+      "reason_zh": "每个像素仅给出含真标签的候选标签集合，属于候选歧义/不精确监督，并作为核心研究条件。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

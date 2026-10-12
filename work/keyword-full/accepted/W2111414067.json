@@ -1,0 +1,36 @@
+{
+  "paper_id": "W2111414067",
+  "annotations": [
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "This paper proposes to use the block sparse Bayesian learning framework to compress/reconstruct nonsparse raw FECG recordings.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文采用块稀疏贝叶斯学习框架进行压缩/重建，核心方法基于稀疏表示/稀疏先验。"
+    },
+    {
+      "keyword_id": "bayesian-inference",
+      "exact_quote": "This paper proposes to use the block sparse Bayesian learning framework to compress/reconstruct nonsparse raw FECG recordings.",
+      "evidence_field": "abstract",
+      "reason_zh": "块稀疏贝叶斯学习框架以贝叶斯概率模型与先验进行学习，属于贝叶斯推断方法。"
+    },
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "Experimental results show that the framework can reconstruct the raw recordings with high quality.",
+      "evidence_field": "abstract",
+      "reason_zh": "任务目标是从压缩观测恢复原始FECG记录，输出为待恢复的原始数据。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "the framework allows the use of a sparse binary sensing matrix with much fewer nonzero entries to compress recordings",
+      "evidence_field": "abstract",
+      "reason_zh": "使用稀疏二值感知矩阵将记录压缩为更少测量，属于显式低维映射与维度压缩目标。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "multi-view-learning",
+      "reason_zh": "多通道记录提示可能的多观测变量，但摘要只说明重建未破坏通道间相互依赖关系，未明确将该关系作为多视图联合建模的研究设定。"
+    }
+  ],
+  "input_issues": []
+}

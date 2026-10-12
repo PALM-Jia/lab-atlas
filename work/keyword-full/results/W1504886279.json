@@ -1,0 +1,19 @@
+{
+  "paper_id": "W1504886279",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Symmetric Nonnegative Matrix Factorization for Graph Clustering",
+      "evidence_field": "title",
+      "reason_zh": "标题直接给出对称非负矩阵分解用于图聚类；摘要进一步提出SymNMF并通过对聚类分配矩阵施加非负约束继承NMF，满足非负矩阵分解（含对称NMF）定义。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "Nonnegative matrix factorization (NMF) provides a lower rank approximation of a nonnegative matrix",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明NMF提供非负矩阵的低秩近似，且SymNMF对相似度矩阵进行因子分解，属于显式利用矩阵低秩分解或近似表示相关结构。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

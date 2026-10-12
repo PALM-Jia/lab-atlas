@@ -1,0 +1,19 @@
+{
+  "paper_id": "W4416993175",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "this paper proposes a deep symmetric non-negative matrix factorization (DSNMF) representation algorithm for clustering",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出面向聚类的深度表示算法，基于深度网络与非线性约束学习表示并用于聚类，符合深度聚类定义。"
+    },
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Symmetric non-negative matrix factorization (SNMF) has attracted considerable interest for its capacity to inherently capture the clustering structure prevalent in graph representation.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以对称非负矩阵分解为核心方法基础，将深度非线性策略与SNMF优化结合，属于非负矩阵分解方法。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

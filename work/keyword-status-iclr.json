@@ -1,0 +1,194 @@
+[
+  {
+    "id": "lab-5403cb1aad23",
+    "title": "Noise Separation guided Candidate Label Reconstruction for Noisy Partial Label Learning",
+    "classification": "2025_formal_conference",
+    "detail": "已核实为 ICLR 2025 正式论文。不属于早年 ICLR 或仅有预印本的情况。缺失的是本项目尚未匹配到 OpenAlex ID 后的 OpenAlex keywords；官方摘要已能读取，因而这类条目不应归为论文信息不可公开获取。页面未列 DOI 只能说明 DOI 检索入口不足，不能作为本次未匹配原因。",
+    "verified_sources": [
+      {
+        "url": "https://jyh-learning.github.io/papers.html",
+        "fact": "贾育衡个人主页 Conference Papers 将该文列为 ICLR 2025，不在 Preprint 分组；有完整作者名单。"
+      },
+      {
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a8b879590adff2b1874f97db59b65518-Abstract-Conference.html",
+        "fact": "正式 ICLR 2025 Conference 论文集页面，核对标题、作者及完整摘要。页面没有单独 keywords 栏或 DOI 字段。"
+      },
+      {
+        "url": "https://palm.seu.edu.cn/homepage/pengxiaorui/index.html",
+        "fact": "作者彭小锐个人主页确认其为东南大学 PALM 学生；主页未提供该论文书目。官方论文页和贾育衡个人主页均列出论文及一致作者。"
+      },
+      {
+        "url": "https://openreview.net/forum?id=TOahfjA3sP",
+        "fact": "本轮直接打开跳转 OpenReview browser challenge，人机验证页面；改查 ICLR 官方论文集后成功取得摘要。"
+      },
+      {
+        "url": "https://api2.openreview.net/notes?id=TOahfjA3sP",
+        "fact": "本轮网页检索工具无法访问该结构化 API URL，未取得响应正文；不归因为 HTTP 403。"
+      }
+    ],
+    "checked_date": "2026-10-10",
+    "publication_status": "正式会议论文",
+    "is_preprint_only": false,
+    "is_early_iclr": false,
+    "doi_page_status": "官方页面未列出 DOI",
+    "abstract_status": "官方摘要页面可直接获取",
+    "explicit_keywords_status": "官方摘要页面未列单独 keywords 字段；尚未读取 PDF 内作者关键词",
+    "keyword_remedy": "可以直接从已公开的官方摘要抽取术语，标注为摘要提取；不必等待 OpenAlex 收录。若需要作者提供的原始关键词，后续另查官方 PDF 或 OpenReview 结构化字段。"
+  },
+  {
+    "id": "lab-77b725acea33",
+    "title": "Mini-cluster Guided Long-tailed Deep Clustering",
+    "classification": "2026_new_formal_conference",
+    "detail": "已核实为 ICLR 2026 正式论文。属于 2026 年新作，但正式论文集和摘要已经公开。缺失的是本项目尚未匹配到 OpenAlex ID 后的 OpenAlex keywords；官方摘要已能读取，因而这类条目不应归为论文信息不可公开获取。页面未列 DOI 只能说明 DOI 检索入口不足，不能作为本次未匹配原因。",
+    "verified_sources": [
+      {
+        "url": "https://jyh-learning.github.io/papers.html",
+        "fact": "贾育衡个人主页 Conference Papers 将该文列为 ICLR 2026，不在 Preprint 分组；有完整作者名单。"
+      },
+      {
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/813ed01a11220fcdeed10e0d7da2de25-Abstract-Conference.html",
+        "fact": "正式 ICLR 2026 Conference 论文集页面，核对标题、作者及完整摘要。页面没有单独 keywords 栏或 DOI 字段。"
+      },
+      {
+        "url": "https://github.com/LZX-001",
+        "fact": "第一作者公开 GitHub 账号由官方论文页的代码链接定位；账号列有 MiniClustering、LFSS、ConMix。"
+      }
+    ],
+    "checked_date": "2026-10-10",
+    "publication_status": "正式会议论文",
+    "is_preprint_only": false,
+    "is_early_iclr": false,
+    "doi_page_status": "官方页面未列出 DOI",
+    "abstract_status": "官方摘要页面可直接获取",
+    "explicit_keywords_status": "官方摘要页面未列单独 keywords 字段；尚未读取 PDF 内作者关键词",
+    "keyword_remedy": "可以直接从已公开的官方摘要抽取术语，标注为摘要提取；不必等待 OpenAlex 收录。若需要作者提供的原始关键词，后续另查官方 PDF 或 OpenReview 结构化字段。"
+  },
+  {
+    "id": "lab-918df170a3ad",
+    "title": "Samples Are Not Equal: A Sample Selection Approach for Deep Clustering",
+    "classification": "2026_new_formal_conference",
+    "detail": "已核实为 ICLR 2026 正式论文。属于 2026 年新作，但正式论文集和摘要已经公开。缺失的是本项目尚未匹配到 OpenAlex ID 后的 OpenAlex keywords；官方摘要已能读取，因而这类条目不应归为论文信息不可公开获取。页面未列 DOI 只能说明 DOI 检索入口不足，不能作为本次未匹配原因。",
+    "verified_sources": [
+      {
+        "url": "https://jyh-learning.github.io/papers.html",
+        "fact": "贾育衡个人主页 Conference Papers 将该文列为 ICLR 2026，不在 Preprint 分组；有完整作者名单。"
+      },
+      {
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/63ef323523f3be8b58ed9277cc747485-Abstract-Conference.html",
+        "fact": "正式 ICLR 2026 Conference 论文集页面，核对标题、作者及完整摘要。页面没有单独 keywords 栏或 DOI 字段。"
+      },
+      {
+        "url": "https://github.com/notoaudrey",
+        "fact": "官方论文代码链接定位的作者 GitHub 页面把代码仓库明确标注为 ICLR 2026 论文实现。"
+      }
+    ],
+    "checked_date": "2026-10-10",
+    "publication_status": "正式会议论文",
+    "is_preprint_only": false,
+    "is_early_iclr": false,
+    "doi_page_status": "官方页面未列出 DOI",
+    "abstract_status": "官方摘要页面可直接获取",
+    "explicit_keywords_status": "官方摘要页面未列单独 keywords 字段；尚未读取 PDF 内作者关键词",
+    "keyword_remedy": "可以直接从已公开的官方摘要抽取术语，标注为摘要提取；不必等待 OpenAlex 收录。若需要作者提供的原始关键词，后续另查官方 PDF 或 OpenReview 结构化字段。"
+  },
+  {
+    "id": "lab-82a7992c094e",
+    "title": "Learning from Sample Stability for Deep Clustering",
+    "classification": "2025_formal_conference",
+    "detail": "已核实为 ICML 2025 正式论文。不属于早年 ICLR 或仅有预印本的情况。缺失的是本项目尚未匹配到 OpenAlex ID 后的 OpenAlex keywords；官方摘要已能读取，因而这类条目不应归为论文信息不可公开获取。页面未列 DOI 只能说明 DOI 检索入口不足，不能作为本次未匹配原因。",
+    "verified_sources": [
+      {
+        "url": "https://jyh-learning.github.io/papers.html",
+        "fact": "贾育衡个人主页 Conference Papers 将该文列为 ICML 2025，不在 Preprint 分组；有完整作者名单。"
+      },
+      {
+        "url": "https://proceedings.mlr.press/v267/li25am.html",
+        "fact": "正式 ICML 2025 论文集页面，PMLR 267:34904–34919，日期 13–19 Jul 2025，含完整摘要和 BibTeX；未列 DOI 或单独 keywords 栏。"
+      },
+      {
+        "url": "https://github.com/LZX-001",
+        "fact": "第一作者公开 GitHub 账号由官方摘要的代码链接定位，列有 LFSS 项目。"
+      }
+    ],
+    "checked_date": "2026-10-10",
+    "publication_status": "正式会议论文",
+    "is_preprint_only": false,
+    "is_early_iclr": false,
+    "doi_page_status": "官方页面未列出 DOI",
+    "abstract_status": "官方摘要页面可直接获取",
+    "explicit_keywords_status": "官方摘要页面未列单独 keywords 字段；尚未读取 PDF 内作者关键词",
+    "keyword_remedy": "可以直接从已公开的官方摘要抽取术语，标注为摘要提取；不必等待 OpenAlex 收录。若需要作者提供的原始关键词，后续另查官方 PDF 或 OpenReview 结构化字段。"
+  },
+  {
+    "id": "lab-bddb535117ca",
+    "title": "ConMix: Contrastive Mixup at Representation Level for Long-tailed Deep Clustering",
+    "classification": "2025_formal_conference",
+    "detail": "已核实为 ICLR 2025 正式论文。不属于早年 ICLR 或仅有预印本的情况。缺失的是本项目尚未匹配到 OpenAlex ID 后的 OpenAlex keywords；官方摘要已能读取，因而这类条目不应归为论文信息不可公开获取。页面未列 DOI 只能说明 DOI 检索入口不足，不能作为本次未匹配原因。",
+    "verified_sources": [
+      {
+        "url": "https://jyh-learning.github.io/papers.html",
+        "fact": "贾育衡个人主页 Conference Papers 将该文列为 ICLR 2025，不在 Preprint 分组；有完整作者名单。"
+      },
+      {
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/0a1f690b558591412b5bddaf10de3b19-Abstract-Conference.html",
+        "fact": "正式 ICLR 2025 Conference 论文集页面，核对标题、作者及完整摘要。页面没有单独 keywords 栏或 DOI 字段。"
+      },
+      {
+        "url": "https://github.com/LZX-001",
+        "fact": "第一作者公开 GitHub 账号由官方摘要的代码链接定位，列有 ConMix 项目。"
+      },
+      {
+        "url": "https://openreview.net/forum?id=3lH8WT0fhu",
+        "fact": "本轮直接打开跳转 OpenReview browser challenge，人机验证页面；改查 ICLR 官方论文集后成功取得摘要。"
+      },
+      {
+        "url": "https://api2.openreview.net/notes?id=3lH8WT0fhu",
+        "fact": "本轮网页检索工具无法访问该结构化 API URL，未取得响应正文；不归因为 HTTP 403。"
+      }
+    ],
+    "checked_date": "2026-10-10",
+    "publication_status": "正式会议论文",
+    "is_preprint_only": false,
+    "is_early_iclr": false,
+    "doi_page_status": "官方页面未列出 DOI",
+    "abstract_status": "官方摘要页面可直接获取",
+    "explicit_keywords_status": "官方摘要页面未列单独 keywords 字段；尚未读取 PDF 内作者关键词",
+    "keyword_remedy": "可以直接从已公开的官方摘要抽取术语，标注为摘要提取；不必等待 OpenAlex 收录。若需要作者提供的原始关键词，后续另查官方 PDF 或 OpenReview 结构化字段。"
+  },
+  {
+    "id": "lab-2c640db3fd61",
+    "title": "Complementary Label Learning with Positive Label Guessing and Negative Label Enhancement",
+    "classification": "2025_formal_conference",
+    "detail": "已核实为 ICLR 2025 正式论文。不属于早年 ICLR 或仅有预印本的情况。缺失的是本项目尚未匹配到 OpenAlex ID 后的 OpenAlex keywords；官方摘要已能读取，因而这类条目不应归为论文信息不可公开获取。页面未列 DOI 只能说明 DOI 检索入口不足，不能作为本次未匹配原因。",
+    "verified_sources": [
+      {
+        "url": "https://jyh-learning.github.io/papers.html",
+        "fact": "贾育衡个人主页 Conference Papers 将该文列为 ICLR 2025，不在 Preprint 分组；有完整作者名单。"
+      },
+      {
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/95b6e2ff961580e03c0a662a63a71812-Abstract-Conference.html",
+        "fact": "正式 ICLR 2025 Conference 论文集页面，核对标题、作者及完整摘要。页面没有单独 keywords 栏或 DOI 字段。"
+      },
+      {
+        "url": "https://github.com/yhli-ml",
+        "fact": "Yuhang Li 公开 GitHub 主页列有 PLNL，明确写为 ICLR 2025 正式论文实现；仓库同时公开摘要。"
+      },
+      {
+        "url": "https://openreview.net/forum?id=LPRxGZ7Oax",
+        "fact": "本轮直接打开跳转 OpenReview browser challenge，人机验证页面；改查 ICLR 官方论文集后成功取得摘要。"
+      },
+      {
+        "url": "https://api2.openreview.net/notes?id=LPRxGZ7Oax",
+        "fact": "本轮网页检索工具无法访问该结构化 API URL，未取得响应正文；不归因为 HTTP 403。"
+      }
+    ],
+    "checked_date": "2026-10-10",
+    "publication_status": "正式会议论文",
+    "is_preprint_only": false,
+    "is_early_iclr": false,
+    "doi_page_status": "官方页面未列出 DOI",
+    "abstract_status": "官方摘要页面可直接获取",
+    "explicit_keywords_status": "官方摘要页面未列单独 keywords 字段；尚未读取 PDF 内作者关键词",
+    "keyword_remedy": "可以直接从已公开的官方摘要抽取术语，标注为摘要提取；不必等待 OpenAlex 收录。若需要作者提供的原始关键词，后续另查官方 PDF 或 OpenReview 结构化字段。"
+  }
+]

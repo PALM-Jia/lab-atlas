@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2158146385",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "non-negative matrix factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题直接给出非负矩阵分解工具箱，摘要说明其用于生物数据挖掘，属于论文核心方法。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "dimension reduction",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要结论把降维列为该工具箱可执行的 NMF 分析之一，属于显式低维表示/压缩任务。"
+    },
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "missing values imputation",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要结果明确将缺失值插补列为工具箱实现的 NMF 数据挖掘方法，符合估计缺失观测的任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

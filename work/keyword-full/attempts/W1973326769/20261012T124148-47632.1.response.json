@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W1973326769\",\"annotations\":[{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"a Bayesian marginalization over the weights of the connections between the hidden layer neurons and the output neurons\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确采用非参数贝叶斯方法，对隐层到输出层权重进行贝叶斯边缘化并形成核化非参数贝叶斯推断，符合通过先验与概率模型进行后验或近似推断的定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

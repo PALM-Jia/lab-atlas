@@ -1,0 +1,28 @@
+{
+  "paper_id": "W2135980307",
+  "annotations": [
+    {
+      "keyword_id": "bayesian-inference",
+      "exact_quote": "sparse Bayesian learning methodology",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确使用稀疏贝叶斯学习进行换道意图分析，属于通过先验与概率模型进行后验估计或推断的方法。"
+    },
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "real-world data of vehicle parameters, lane position, and driver head motion",
+      "evidence_field": "abstract",
+      "reason_zh": "论文基于真实车辆参数、车道位置等数据开展换道意图分析，属于道路交通/车辆状态实际数据对象。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "multi-view-learning",
+      "reason_zh": "摘要列出车道位置、车辆参数和驾驶员头动等多个信息源，但未说明多视图间关系或显式多视图联合学习设定，证据不足。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "reason_zh": "“sparse Bayesian learning”提示稀疏性，但未说明用少量字典原子、基向量或潜在特征表示样本，无法确认稀疏表示任务。"
+    }
+  ],
+  "input_issues": []
+}

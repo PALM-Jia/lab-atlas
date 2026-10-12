@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2514846838\",\"annotations\":[{\"keyword_id\":\"semi-supervised-learning\",\"exact_quote\":\"This paper extends the state-of-the-art label propagation (LP) framework in the propagation of negative labels.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以标签传播框架为核心扩展负标签传播；标签传播通常结合有限监督信息与未标注样本，正负标签信息用于引导分类学习，符合半监督学习设定。\"}],\"abstentions\":[{\"keyword_id\":\"pairwise-constraint-propagation\",\"reason_zh\":\"摘要只提正/负标签传播，未说明 must-link/cannot-link 成对约束或传播不相似关系，无法确认符合成对约束传播定义。\"}],\"input_issues\":[]}"
+}

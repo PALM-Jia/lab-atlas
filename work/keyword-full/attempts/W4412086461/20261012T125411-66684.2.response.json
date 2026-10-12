@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W4412086461\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"Partial Multi-Label Learning\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确任务为Partial Multi-Label Learning，即为实例预测多个可同时成立的相关标记，属于多标记学习。\"},{\"keyword_id\":\"weakly-supervised-learning\",\"exact_quote\":\"Partial Multi-Label Learning\",\"evidence_field\":\"title\",\"reason_zh\":\"该任务使用部分或不完整多标记监督作为研究条件，符合弱监督学习对不完整或不精确监督的定义。\"},{\"keyword_id\":\"label-correlation-modeling\",\"exact_quote\":\"Correlation-Guided Label Propagation\",\"evidence_field\":\"title\",\"reason_zh\":\"标题以Correlation-Guided Label Propagation表明显式利用标签间相关性引导传播，符合标签相关性建模。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

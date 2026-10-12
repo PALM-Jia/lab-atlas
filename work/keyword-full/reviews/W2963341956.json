@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2963341956",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "input_problem",
+      "keyword_id": null,
+      "reason_zh": "摘要字段实际为文献著录而非摘要内容，属于输入字段内容异常；应在input_issues说明，保留基于标题的原有弃权。",
+      "exact_quote": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova. Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers). 2019.",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "large-language-models",
+        "reason_zh": "标题只表明预训练深度双向 Transformer 用于语言理解，未明确其为“大规模”预训练语言模型或作为何种对象；摘要仅为会议著录信息，缺少规模与模型类型证据，无法确定满足定义。"
+      }
+    ],
+    "input_issues": [
+      "摘要字段仅含作者、会议和年份等著录信息，没有论文摘要内容；仅据标题判断。"
+    ]
+  }
+}

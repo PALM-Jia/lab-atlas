@@ -1,0 +1,31 @@
+{
+  "paper_id": "W125678093",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "Multi-Instance Multi-Label (MIML) is a learning framework where an example is associated with multiple labels and represented by a set of feature vectors (multiple instances).",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确MIML中一个示例关联多个同时成立的标签，并评估示例与实例的标注，符合多标记学习任务。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "To leverage multiple information sources (multi-view), we develop a multi-view MIML framework",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确利用多个信息源（multi-view）并构建多视图MIML框架，显式联合利用视图间关系，符合多视图学习设定。"
+    },
+    {
+      "keyword_id": "bayesian-inference",
+      "exact_quote": "based on hierarchical Bayesian Network, and derive an effective learning algorithm based on variational inference.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明模型基于层次贝叶斯网络，并用变分推断导出学习算法，符合先验概率模型与后验近似推断。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "an example is associated with multiple labels and represented by a set of feature vectors (multiple instances)",
+      "evidence_field": "abstract",
+      "reason_zh": "MIML将多个标签关联在示例（包）层面，示例由多个实例表示，属于包级粗粒度监督而非实例级真值，符合弱监督定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

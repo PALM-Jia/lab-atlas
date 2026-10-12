@@ -1,0 +1,36 @@
+{
+  "paper_id": "W4413966890",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "Partial Multilabel Learning via Dynamic Fuzzy Aggregations of Multigranularity Features",
+      "evidence_field": "title",
+      "reason_zh": "标题明确任务为部分多标记学习，需在候选标签中预测多个相关标记，属多标记学习设定。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "tackles scenarios where training instances are annotated with a set of candidate labels, only a subset of which is relevant.",
+      "evidence_field": "abstract",
+      "reason_zh": "训练实例仅用候选标签集合标注且只有子集相关，属不精确/候选歧义弱监督，并将其作为核心研究条件。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "the dynamic coarse-granularity graph learns adaptive label representations by identifying feature-aware correlations of labels and suppressing noise.",
+      "evidence_field": "abstract",
+      "reason_zh": "显式通过 feature-aware correlations of labels 建模标签间相关性，以学习自适应标签表示。"
+    },
+    {
+      "keyword_id": "noisy-label-learning",
+      "exact_quote": "Extensive experiments conducted on benchmark datasets under varying noise conditions demonstrate that the proposed method consistently outperforms state-of-the-art approaches in partial multilabel classification.",
+      "evidence_field": "abstract",
+      "reason_zh": "候选标签仅子集相关且实验在 varying noise conditions 下评估，方法亦显式抑制噪声，表明监督中的噪声/错误标签是研究条件之一。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "摘要提到动态细/粗粒度图，但未说明其学习或修正的是样本间边/邻接/亲和矩阵，无法确定满足样本间图结构学习定义。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W4416997644\",\"annotations\":[{\"keyword_id\":\"ensemble-clustering\",\"exact_quote\":\"Ensemble Clustering Method via Robust Consensus Learning\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确为集成聚类方法，摘要也围绕共关联矩阵与共识矩阵融合多个聚类结果展开。\"},{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"a theoretical rank constraint with a block-diagonal enhancement property is imposed on the consensus matrix\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确在共识矩阵上施加秩约束，属于显式利用矩阵秩约束/低秩结构建模。\"}],\"abstentions\":[{\"keyword_id\":\"graph-structure-learning\",\"reason_zh\":\"摘要仅称多阶图结构被引入特征空间，未说明是否学习或修正样本间边、邻接或亲和矩阵。\"},{\"keyword_id\":\"graph-manifold-regularization\",\"reason_zh\":\"多阶图结构用于增强共识矩阵表达力，但未明确图拉普拉斯、邻域或几何一致性正则约束。\"}],\"input_issues\":[]}"
+}

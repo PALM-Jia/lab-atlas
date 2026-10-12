@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2137559179\",\"annotations\":[{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"By deriving approximate inference algorithms for the generalized GP model, we are able to easily apply the same algorithm to all other GP models.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要提出为广义高斯过程模型推导近似推断算法；该模型含观测似然，属于对概率模型进行近似推断的贝叶斯推断方法。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

@@ -1,0 +1,34 @@
+{
+  "paper_id": "W4407169891",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "we propose a network named Structural Attention-based Graph Clustering Network (SAGC)",
+      "evidence_field": "abstract",
+      "reason_zh": "提出名为SAGC的图聚类网络，摘要同时说明用自编码器与GCN学习节点特征表示并完成聚类，符合利用可学习神经表示获得数据划分的深度聚类。"
+    },
+    {
+      "keyword_id": "graph-neural-networks",
+      "exact_quote": "combining auto encoders and Graph Convolutional Network (GCN) to learn feature representation",
+      "evidence_field": "abstract",
+      "reason_zh": "明确使用图卷积网络GCN学习节点特征表示，属于图上可学习消息传递/图卷积的图神经网络。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "dynamically allocate the contribution of node attribute features and structural features",
+      "evidence_field": "abstract",
+      "reason_zh": "同一节点对象同时具有属性特征与结构特征两种互补信息，并显式联合优化，注意力动态分配二者贡献，符合多视图学习设定。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "pseudo-label-self-training",
+      "reason_zh": "仅提“dual self-supervised mechanism”，未说明是否将模型预测作为后续训练信号或迭代更新，证据不足。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "提及结构特征与注意力系数，但未说明学习或修正样本间边/邻接/亲和矩阵，无法判定。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W1692247819\",\"annotations\":[{\"keyword_id\":\"class-imbalance\",\"exact_quote\":\"particularly in cases where community sizes are unbalanced\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确该谱算法在社区规模不均衡时结果更优，说明研究/评估显式涉及簇样本量不均衡。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

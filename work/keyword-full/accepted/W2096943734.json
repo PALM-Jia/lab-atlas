@@ -1,0 +1,24 @@
+{
+  "paper_id": "W2096943734",
+  "annotations": [
+    {
+      "keyword_id": "domain-adaptation",
+      "exact_quote": "leveraging rich labeled data in the source domain to build an accurate classifier for the target domain",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以源域标注数据帮助目标域分类，并研究域间边缘与条件分布差异，属于跨域知识迁移的域适应设定。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "JDA aims to jointly adapt both the marginal distribution and conditional distribution in a principled dimensionality reduction procedure",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明 JDA 在降维过程中联合适配分布并构造新特征表示，明确以维度压缩/低维嵌入为方案环节。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "multi-objective-optimization",
+      "reason_zh": "摘要仅称联合适配边缘分布与条件分布，未说明以多个相互制约目标求解帕累托解集，证据不足。"
+    }
+  ],
+  "input_issues": []
+}

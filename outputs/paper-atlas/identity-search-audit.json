@@ -1,0 +1,5858 @@
+[
+  {
+    "id": "lab-5403cb1aad23",
+    "title": "Noise Separation guided Candidate Label Reconstruction for Noisy Partial Label Learning",
+    "status": "failure",
+    "reason": "public_page_verified_no_openalex_match",
+    "source_authors": [
+      "Xiaorui Peng",
+      "Yuheng Jia",
+      "Fuchao Yang",
+      "Ran Wang",
+      "Min-Ling Zhang"
+    ],
+    "source_year": 2025,
+    "source_links": [
+      "https://openreview.net/forum?id=TOahfjA3sP"
+    ],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W4401857453",
+        "title": "Noisy Label Removal for Partial Multi-Label Learning",
+        "score": 0.5738,
+        "authors": [
+          "fuchaoyang",
+          "huiliu",
+          "junhuihou",
+          "yongqiangdong",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1145/3637528.3671677",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W4404350883",
+        "title": "Similarity and Dissimilarity Guided Co-association Matrix Construction for Ensemble Clustering",
+        "score": 0.5466,
+        "authors": [
+          "mofeisong",
+          "ranwang",
+          "yuhengjia",
+          "zhangxu"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2411.00904",
+        "type": "preprint"
+      },
+      {
+        "id": "https://openalex.org/W4409364541",
+        "title": "Calibrated Disambiguation for Partial Multi-label Learning",
+        "score": 0.5426,
+        "authors": [
+          "yuhengjia",
+          "yumi",
+          "zhuomingli",
+          "zicongmiao"
+        ],
+        "doi": "https://doi.org/10.1609/aaai.v39i17.34049",
+        "type": "conference-paper"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Noise-Resistant Label Reconstruction Feature Selection for Partial Multi-Label Learning",
+        "doi": "10.24963/ijcai.2025/576",
+        "authors": [
+          "hanlinpan",
+          "kunpengliu",
+          "qingqihan",
+          "wanfugao"
+        ],
+        "score": 0.6753
+      },
+      {
+        "title": "ALIM: Adjusting Label Importance Mechanism for Noisy Partial Label Learning",
+        "doi": "10.52202/075280-1678",
+        "authors": [
+          "binliu",
+          "jianhuatao",
+          "leifeng",
+          "mingyuxu",
+          "zhenglian"
+        ],
+        "score": 0.6197
+      },
+      {
+        "title": "Negative Label and Noise Information Guided Disambiguation for Partial Multi-Label Learning",
+        "doi": "10.1109/tmm.2024.3402534",
+        "authors": [
+          "fengzhao",
+          "jingyuzhong",
+          "ronghuashang",
+          "songhuaxu",
+          "weitongzhang"
+        ],
+        "score": 0.6115
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3ANoise+Separation+guided+Candidate+Label+Reconstruction+for+Noisy+Partial+Label+Learning&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3ANoise+Separation+guided+Candidate+Label+Reconstruction+for&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Noise+Separation+guided+Candidate+Label+Reconstruction+for+Noisy+Partial+Label+Learning&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [],
+    "public_evidence": [
+      {
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a8b879590adff2b1874f97db59b65518-Abstract-Conference.html",
+        "event": {
+          "provider": "Public paper page",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a8b879590adff2b1874f97db59b65518-Abstract-Conference.html",
+          "status": "success",
+          "reason": "received",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        "title_present": true,
+        "listed_source_authors_present": [
+          "Xiaorui Peng",
+          "Yuheng Jia",
+          "Fuchao Yang",
+          "Ran Wang",
+          "Min-Ling Zhang"
+        ]
+      }
+    ],
+    "web_search_query": "\"Noise Separation guided Candidate Label Reconstruction for Noisy Partial Label Learning\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-bb2d463fb71a",
+    "title": "Unsupervised Long-tailed Learning for Foundation Model",
+    "status": "failure",
+    "reason": "title_only_no_independent_locator",
+    "source_authors": [],
+    "source_year": null,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W3118456158",
+        "title": "Semisupervised Affinity Matrix Learning via Dual-Channel Information Recovery",
+        "score": 0.547,
+        "authors": [
+          "huiliu",
+          "junhuihou",
+          "qingfuzhang",
+          "samkwong",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/tcyb.2020.3041493",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W3217690000",
+        "title": "Self-Supervised Symmetric Nonnegative Matrix Factorization",
+        "score": 0.4752,
+        "authors": [
+          "huiliu",
+          "junhuihou",
+          "qingfuzhang",
+          "samkwong",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/tcsvt.2021.3129365",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W3135648280",
+        "title": "Self-supervised Symmetric Nonnegative Matrix Factorization",
+        "score": 0.4752,
+        "authors": [
+          "huiliu",
+          "junhuihou",
+          "qingfuzhang",
+          "samkwong",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2103.01689",
+        "type": "preprint"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Deep Long-Tailed Learning: A Survey",
+        "doi": "10.1109/tpami.2023.3268118",
+        "authors": [
+          "bingyikang",
+          "bryanhooi",
+          "jiashifeng",
+          "shuichengyan",
+          "yifanzhang"
+        ],
+        "score": 0.5455
+      },
+      {
+        "title": "Curricular-balanced long-tailed learning",
+        "doi": "10.1016/j.neucom.2023.127121",
+        "authors": [
+          "xiangxiang",
+          "xilinchen",
+          "zihanzhang"
+        ],
+        "score": 0.5238
+      },
+      {
+        "title": "Unsupervised Foundation Model-Agnostic Slide-Level Representation Learning",
+        "doi": "10.1109/cvpr52734.2025.02869",
+        "authors": [
+          "georgwolflein",
+          "jakobnkather",
+          "markovantreeck",
+          "martaligero",
+          "peterneidlinger",
+          "timlenz"
+        ],
+        "score": 0.4696
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AUnsupervised+Long-tailed+Learning+for+Foundation+Model&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Unsupervised+Long-tailed+Learning+for+Foundation+Model&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [],
+    "public_evidence": [],
+    "web_search_query": "\"Unsupervised Long-tailed Learning for Foundation Model\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-088383584e44",
+    "title": "PEEK: Partial Label Learning Empowered by External Knowledge",
+    "status": "failure",
+    "reason": "title_only_no_independent_locator",
+    "source_authors": [],
+    "source_year": null,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W4415034327",
+        "title": "Partial Label Learning Tailored Graph Construction",
+        "score": 0.5567,
+        "authors": [
+          "fuchaoyang",
+          "yongqiangdong",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/mlmc65154.2025.11189307",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W4401863484",
+        "title": "FairMatch: Promoting Partial Label Learning by Unlabeled Samples",
+        "score": 0.5185,
+        "authors": [
+          "huiliu",
+          "jiahaojiang",
+          "junhuihou",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1145/3637528.3671685",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W4391936158",
+        "title": "Unlabeled Data Guided Partial Label Learning for Hyperspectral Image Classification",
+        "score": 0.5079,
+        "authors": [
+          "danfenghong",
+          "shujunyang",
+          "xinwu",
+          "yaoding",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/lgrs.2024.3367114",
+        "type": "article"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Partial Label Learning with Batch Label Correction",
+        "doi": "10.1609/aaai.v34i04.6132",
+        "authors": [
+          "yanyan",
+          "yuhongguo"
+        ],
+        "score": 0.5417
+      },
+      {
+        "title": "Online Partial Label Learning",
+        "doi": "10.1007/978-3-030-67661-2_27",
+        "authors": [
+          "chenchen",
+          "gangchen",
+          "haobowang",
+          "tianleihu",
+          "weiweiliu",
+          "yuzhouqiang",
+          "zhaoli"
+        ],
+        "score": 0.5385
+      },
+      {
+        "title": "Partial Label Learning via Label Enhancement",
+        "doi": "10.1609/aaai.v33i01.33015557",
+        "authors": [
+          "jiaqilv",
+          "ningxu",
+          "xingeng"
+        ],
+        "score": 0.5275
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3APEEK%3A+Partial+Label+Learning+Empowered+by+External+Knowledge&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3APartial+Label+Learning+Empowered+by+External+Knowledge&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=PEEK%3A+Partial+Label+Learning+Empowered+by+External+Knowledge&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [],
+    "public_evidence": [],
+    "web_search_query": "\"PEEK: Partial Label Learning Empowered by External Knowledge\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-1ba64af37485",
+    "title": "Attribute Distribution Modeling and Semantic-Visual Alignment for Generative Zero-shot Learning",
+    "status": "success",
+    "reason": "versioned_title_identity",
+    "source_authors": [],
+    "source_year": null,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W4411867224",
+        "title": "Large Model Guided Semantic Segment Anything for Underwater Consumer Electronics",
+        "score": 0.529,
+        "authors": [
+          "huali",
+          "qiruilin",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/tce.2025.3584537",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W7138385686",
+        "title": "DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning",
+        "score": 0.475,
+        "authors": [
+          "bohan",
+          "huiliu",
+          "junhuihou",
+          "xiaoyuwang",
+          "yaxinhou",
+          "yuhengjia",
+          "zhuomingli"
+        ],
+        "doi": "https://doi.org/10.1609/aaai.v40i26.39302",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W2791618981",
+        "title": "Applying Exponential Family Distribution to Generalized Extreme Learning Machine",
+        "score": 0.4359,
+        "authors": [
+          "ranwang",
+          "samkwong",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/tsmc.2017.2788005",
+        "type": "article"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Learning Discriminative Projection With Visual Semantic Alignment for Generalized Zero Shot Learning",
+        "doi": "10.1109/access.2020.3022805",
+        "authors": [
+          "haofengzhang",
+          "jianfenglu",
+          "pengzhendu"
+        ],
+        "score": 0.659
+      },
+      {
+        "title": "Attribute alignment networks for generalized zero-shot learning",
+        "doi": "10.1016/j.patrec.2025.09.010",
+        "authors": [
+          "jianshengqian",
+          "mingkaiqiu",
+          "nannanlu"
+        ],
+        "score": 0.6429
+      },
+      {
+        "title": "Attribute-Modulated Generative Meta Learning for Zero-Shot Learning",
+        "doi": "10.1109/tmm.2021.3139211",
+        "authors": [
+          "linayao",
+          "xiaojunchang",
+          "yunli",
+          "zheliu"
+        ],
+        "score": 0.5874
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AAttribute+Distribution+Modeling+and+Semantic-Visual+Alignment+for+Generative+Zero-shot+Learning&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AAttribute+Distribution+Modeling+and+Semantic-Visual+Alignment+for&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Attribute+Distribution+Modeling+and+Semantic-Visual+Alignment+for+Generative+Zero-shot+Learning&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 429,
+            "curl": 0
+          },
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ],
+        "detail": ""
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [],
+    "public_evidence": [
+      {
+        "url": "https://arxiv.org/abs/2603.06281v1",
+        "event": {
+          "provider": "Public paper page",
+          "url": "https://arxiv.org/abs/2603.06281v1",
+          "status": "success",
+          "reason": "received",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        "title_present": true,
+        "listed_source_authors_present": []
+      }
+    ],
+    "web_search_query": "\"Attribute Distribution Modeling and Semantic-Visual Alignment for Generative Zero-shot Learning\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found",
+    "arxiv_lookup": {
+      "record_id": "https://openalex.org/W7134273068",
+      "title": "Learning Adaptive and Visually Aligned Conditions for Generative Zero-Shot Learning",
+      "event": {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works/https%3A%2F%2Fdoi.org%2F10.48550%2Farxiv.2603.06281",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "lab-a07279b34373",
+    "title": "Hub for Outliers, Spokes for Inliers: Homeomorphic Latent Space Construction for Dual-Mismatched Semi-Supervised Learning",
+    "status": "failure",
+    "reason": "possible_renamed_paper_without_version_identity",
+    "source_authors": [],
+    "source_year": null,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W7221014350",
+        "title": "Hub for Outliers, Spokes for Inliers: Uniform Latent Space Construction for Dual-Mismatched Semi-Supervised Learning",
+        "score": 0.9261,
+        "authors": [
+          "Li Yuan",
+          "Yaxin Hou",
+          "Jiawei Tang",
+          "Yongbiao Gao",
+          "Yuheng Jia"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2610.07610",
+        "type": "preprint"
+      },
+      {
+        "id": "https://openalex.org/W4416373225",
+        "title": "Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning",
+        "score": 0.5025,
+        "authors": [
+          "bohan",
+          "huiliu",
+          "junhuihou",
+          "yaxinhou",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.52202/085713-3953",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W4404350883",
+        "title": "Similarity and Dissimilarity Guided Co-association Matrix Construction for Ensemble Clustering",
+        "score": 0.4362,
+        "authors": [
+          "mofeisong",
+          "ranwang",
+          "yuhengjia",
+          "zhangxu"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2411.00904",
+        "type": "preprint"
+      },
+      {
+        "id": "https://openalex.org/W7138385686",
+        "title": "DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning",
+        "score": 0.4111,
+        "authors": [
+          "bohan",
+          "huiliu",
+          "junhuihou",
+          "xiaoyuwang",
+          "yaxinhou",
+          "yuhengjia",
+          "zhuomingli"
+        ],
+        "doi": "https://doi.org/10.1609/aaai.v40i26.39302",
+        "type": "conference-paper"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Latent Space Virtual Adversarial Training for Supervised and Semi-Supervised Learning",
+        "doi": "10.1587/transinf.2021edp7161",
+        "authors": [
+          "budrulahsan",
+          "genkiosada",
+          "revotiprasadbora",
+          "takashinishide"
+        ],
+        "score": 0.514
+      },
+      {
+        "title": "Class-mismatched semi-supervised learning from a new perspective",
+        "doi": "10.1016/j.patcog.2025.112562",
+        "authors": [
+          "qiwei",
+          "rundonghe",
+          "xiushannie",
+          "yilongyin",
+          "yimingzhu",
+          "zhongyihan"
+        ],
+        "score": 0.4625
+      },
+      {
+        "title": "Dual-Space Contrastive Learning for Open-World Semi-Supervised Classification",
+        "doi": "10.1109/tnnls.2025.3544405",
+        "authors": [
+          "chenyangzhang",
+          "wenshengzhang",
+          "xiangruicai",
+          "xiaojieyuan",
+          "yongqiangtang",
+          "yuxunqu"
+        ],
+        "score": 0.4302
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AHub+for+Outliers%2C+Spokes+for+Inliers%3A+Homeomorphic+Latent+Space+Construction+for+Dual-Mismatched+Semi-Supervised+Learning&per_page=50",
+        "status": "failure",
+        "reason": "http_400",
+        "attempts": [
+          {
+            "http": 400,
+            "curl": 0
+          }
+        ],
+        "detail": "{\"error\":\"Invalid query parameters error.\",\"message\":\" Spokes for Inliers is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.sea"
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AHomeomorphic+Latent+Space+Construction+for+Dual-Mismatched+Semi-Supervised+Learning&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Hub+for+Outliers%2C+Spokes+for+Inliers%3A+Homeomorphic+Latent+Space+Construction+for+Dual-Mismatched+Semi-Supervised+Learning&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AHub+for+Outliers&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [],
+    "public_evidence": [],
+    "web_search_query": "\"Hub for Outliers, Spokes for Inliers: Homeomorphic Latent Space Construction for Dual-Mismatched Semi-Supervised Learning\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found",
+    "arxiv_lookup": {
+      "record_id": "https://openalex.org/W7221014350",
+      "title": "Hub for Outliers, Spokes for Inliers: Uniform Latent Space Construction for Dual-Mismatched Semi-Supervised Learning",
+      "event": {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works/https%3A%2F%2Fdoi.org%2F10.48550%2Farxiv.2610.07610",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    },
+    "related_public_candidate": {
+      "url": "https://arxiv.org/abs/2610.07610",
+      "title": "Hub for Outliers, Spokes for Inliers: Uniform Latent Space Construction for Dual-Mismatched Semi-Supervised Learning",
+      "authors": [
+        "Li Yuan",
+        "Yaxin Hou",
+        "Jiawei Tang",
+        "Yongbiao Gao",
+        "Yuheng Jia"
+      ],
+      "identity_confirmed": false
+    }
+  },
+  {
+    "id": "lab-3af81cff7068",
+    "title": "Beyond Low-Rank: A Region-Aware Imputation Method for Traffic Data Recovery",
+    "status": "failure",
+    "reason": "title_only_no_independent_locator",
+    "source_authors": [],
+    "source_year": null,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W4298052098",
+        "title": "A Parameter-free Nonconvex Low-rank Tensor Completion Model for Spatiotemporal Traffic Data Recovery",
+        "score": 0.5733,
+        "authors": [
+          "chengchuanan",
+          "huliyang",
+          "jingxinxia",
+          "yanghe",
+          "yuhengjia",
+          "zhenbolu"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2209.13786",
+        "type": "preprint"
+      },
+      {
+        "id": "https://openalex.org/W4415686844",
+        "title": "Adaptive and robust low-rank tensor completion for missing and corrupted traffic data recovery",
+        "score": 0.5556,
+        "authors": [
+          "chengchuanan",
+          "huanliu",
+          "jingxinxia",
+          "weihuazhang",
+          "yanghe",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1080/15472450.2025.2576933",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W4387385713",
+        "title": "A Flexible and Robust Tensor Completion Approach for Traffic Data Recovery With Low-Rankness",
+        "score": 0.4789,
+        "authors": [
+          "liyanghu",
+          "longhuiwen",
+          "weijiechen",
+          "yuhengjia",
+          "zhiruiye"
+        ],
+        "doi": "https://doi.org/10.1109/tits.2023.3319033",
+        "type": "article"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Low-rank representation based traffic data completion method",
+        "doi": "10.1109/ijcnn.2016.7727876",
+        "authors": [
+          "baocaiyin",
+          "boyuewang",
+          "guangleiqi",
+          "haoliu",
+          "rongdu",
+          "yongzhang"
+        ],
+        "score": 0.569
+      },
+      {
+        "title": "Low-Rank Autoregressive Tucker Decomposition for Traffic Data Imputation",
+        "doi": "10.1109/icac61394.2024.10718844",
+        "authors": [
+          "jiaxinlu",
+          "liliyang",
+          "wenwugong"
+        ],
+        "score": 0.5512
+      },
+      {
+        "title": "Mode-wise low-rank autoregressive tensor completion for traffic data imputation",
+        "doi": "10.1016/j.apm.2026.117098",
+        "authors": [
+          "haozhang",
+          "leizuo",
+          "maodeyan",
+          "yongchaoshi"
+        ],
+        "score": 0.5455
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3ABeyond+Low-Rank%3A+A+Region-Aware+Imputation+Method+for+Traffic+Data+Recovery&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AA+Region-Aware+Imputation+Method+for+Traffic+Data+Recovery&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Beyond+Low-Rank%3A+A+Region-Aware+Imputation+Method+for+Traffic+Data+Recovery&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 429,
+            "curl": 0
+          },
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ],
+        "detail": ""
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [],
+    "public_evidence": [],
+    "web_search_query": "\"Beyond Low-Rank: A Region-Aware Imputation Method for Traffic Data Recovery\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-8ef4decb9b26",
+    "title": "Hyerspectral Image Clustering with Local Sparse Subspace guided Super-Graph Construction",
+    "status": "failure",
+    "reason": "spelling_variant_no_verified_match",
+    "source_authors": [],
+    "source_year": null,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W4415034327",
+        "title": "Partial Label Learning Tailored Graph Construction",
+        "score": 0.5691,
+        "authors": [
+          "fuchaoyang",
+          "yongqiangdong",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/mlmc65154.2025.11189307",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W2988006627",
+        "title": "Hyperspectral Image Classification via Sparse Representation With Incremental Dictionaries",
+        "score": 0.525,
+        "authors": [
+          "junhuihou",
+          "qiandu",
+          "shaohuimei",
+          "shujunyang",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/lgrs.2019.2949721",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W3080470624",
+        "title": "Constrained Clustering With Dissimilarity Propagation-Guided Graph-Laplacian PCA",
+        "score": 0.52,
+        "authors": [
+          "junhuihou",
+          "samkwong",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/tnnls.2020.3016397",
+        "type": "article"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Hyperspectral image super-resolution through clustering-based sparse representation",
+        "doi": "10.1007/s11042-020-09952-w",
+        "authors": [
+          "caimingzhang",
+          "fenghuaguo",
+          "minglizhang"
+        ],
+        "score": 0.5325
+      },
+      {
+        "title": "Graph Convolutional Subspace Clustering of Subspaces for Hyperspectral Image Clustering",
+        "doi": "10.1109/whispers69515.2025.11501630",
+        "authors": [
+          "nicholasdsidiropoulos",
+          "parisakarakasis"
+        ],
+        "score": 0.3567
+      },
+      {
+        "title": "Graph Regularized Residual Subspace Clustering Network for hyperspectral image clustering",
+        "doi": "10.1016/j.ins.2021.07.003",
+        "authors": [
+          "mengzeng",
+          "xiaoboliu",
+          "yaomingcai",
+          "zhihuacai",
+          "zijiazhang"
+        ],
+        "score": 0.3522
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AHyperspectral+Image+Clustering+with+Local+Sparse+Subspace+guided+Super-Graph+Construction&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AHyperspectral+Image+Clustering+with+Local+Sparse+Subspace&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Hyperspectral+Image+Clustering+with+Local+Sparse+Subspace+guided+Super-Graph+Construction&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 429,
+            "curl": 0
+          },
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ],
+        "detail": ""
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [],
+    "public_evidence": [],
+    "web_search_query": "\"Hyerspectral Image Clustering with Local Sparse Subspace guided Super-Graph Construction\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-7af4622bbcc3",
+    "title": "Adaptive Graph Feedback Clustering Network",
+    "status": "failure",
+    "reason": "title_only_no_independent_locator",
+    "source_authors": [],
+    "source_year": null,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W3191600673",
+        "title": "Attention-driven Graph Clustering Network",
+        "score": 0.72,
+        "authors": [
+          "huiliu",
+          "junhuihou",
+          "yuhengjia",
+          "zhihaopeng"
+        ],
+        "doi": "https://doi.org/10.1145/3474085.3475276",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W4392538633",
+        "title": "Towards Calibrated Deep Clustering Network",
+        "score": 0.6579,
+        "authors": [
+          "huiliu",
+          "jianhongcheng",
+          "junhuihou",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2403.02998",
+        "type": "preprint"
+      },
+      {
+        "id": "https://openalex.org/W3204134187",
+        "title": "Adaptive Attribute and Structure Subspace Clustering Network",
+        "score": 0.6522,
+        "authors": [
+          "huiliu",
+          "junhuihou",
+          "yuhengjia",
+          "zhihaopeng"
+        ],
+        "doi": "https://doi.org/10.1109/tip.2022.3171421",
+        "type": "article"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Adaptive Magnetic-Graph Clustering",
+        "doi": "10.1109/tkde.2025.3594622",
+        "authors": [
+          "ruizhang",
+          "xiangshi",
+          "xuelongli",
+          "yuelongcheng"
+        ],
+        "score": 0.6667
+      },
+      {
+        "title": "Adaptive graph prompting for graph clustering",
+        "doi": "10.1016/j.knosys.2026.116485",
+        "authors": [
+          "jinkewang",
+          "qiangao",
+          "yaliangzhao",
+          "yangcheng",
+          "yingxinlong",
+          "zhaominzhang"
+        ],
+        "score": 0.641
+      },
+      {
+        "title": "Adaptive graph convolutional clustering network with optimal probabilistic graph",
+        "doi": "10.1016/j.neunet.2022.09.017",
+        "authors": [
+          "baocaiyin",
+          "jiayizhao",
+          "jipengguo",
+          "junbingao",
+          "shaofanwang",
+          "yanfengsun"
+        ],
+        "score": 0.5636
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AAdaptive+Graph+Feedback+Clustering+Network&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Adaptive+Graph+Feedback+Clustering+Network&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [],
+    "public_evidence": [],
+    "web_search_query": "\"Adaptive Graph Feedback Clustering Network\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-9ddc9ff7ce0c",
+    "title": "Towards Robust Models: Mitigating Adversarial Shifts in Feature Statistics with Uncertainty-Aware Reconstruction",
+    "status": "failure",
+    "reason": "expanded_search_no_verified_record",
+    "source_authors": [
+      "Ran Wang",
+      "Xinlei Zhou",
+      "Meng Hu",
+      "Rihao Li",
+      "Wenhui Wu",
+      "Yuheng Jia"
+    ],
+    "source_year": 2026,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W4409047600",
+        "title": "Feature Statistics with Uncertainty Help Adversarial Robustness",
+        "score": 0.5128,
+        "authors": [
+          "menghu",
+          "ranwang",
+          "rongnili",
+          "wenhuiwu",
+          "xinleizhou",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2503.20583",
+        "type": "preprint"
+      },
+      {
+        "id": "https://openalex.org/W4417184362",
+        "title": "DPtSTrip: Adversarially robust learning with distance-aware point-to-set triplet loss",
+        "score": 0.4186,
+        "authors": [
+          "menghu",
+          "ranwang",
+          "xinleizhou",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1016/j.patcog.2025.112840",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W2988006627",
+        "title": "Hyperspectral Image Classification via Sparse Representation With Incremental Dictionaries",
+        "score": 0.3978,
+        "authors": [
+          "junhuihou",
+          "qiandu",
+          "shaohuimei",
+          "shujunyang",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/lgrs.2019.2949721",
+        "type": "article"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Towards Robust 3d Human Reconstruction with Uncertainty-Aware Low-Rank Adaptation",
+        "doi": "10.2139/ssrn.5047893",
+        "authors": [
+          "inhochang",
+          "juhongyoon",
+          "jumikang",
+          "mingyupark",
+          "yonghoonkwon"
+        ],
+        "score": 0.5412
+      },
+      {
+        "title": "Towards robust 3D human reconstruction with uncertainty-aware low-rank adaptation",
+        "doi": "10.1016/j.cviu.2026.104813",
+        "authors": [
+          "inhochang",
+          "juhongyoon",
+          "jumikang",
+          "mingyupark",
+          "yonghoonkwon"
+        ],
+        "score": 0.5412
+      },
+      {
+        "title": "Mitigating Optimization Conflict in Domain Adversarial Neural Network via Uncertainty-Aware",
+        "doi": "10.1109/icassp48485.2024.10447864",
+        "authors": [
+          "guangpengwang",
+          "jiapengzhang",
+          "xiaomingwang",
+          "yongxiongwang",
+          "zhiqunpan"
+        ],
+        "score": 0.4889
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3ATowards+Robust+Models%3A+Mitigating+Adversarial+Shifts+in+Feature+Statistics+with+Uncertainty-Aware+Reconstruction&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AMitigating+Adversarial+Shifts+in+Feature+Statistics+with+Uncertainty-Aware+Reconstruction&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Towards+Robust+Models%3A+Mitigating+Adversarial+Shifts+in+Feature+Statistics+with+Uncertainty-Aware+Reconstruction&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 429,
+            "curl": 0
+          },
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ],
+        "detail": ""
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [],
+    "public_evidence": [],
+    "web_search_query": "\"Towards Robust Models: Mitigating Adversarial Shifts in Feature Statistics with Uncertainty-Aware Reconstruction\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-054cd66669d7",
+    "title": "A Flexible and Robust Tensor Completion Approach for Trafﬁc Data Recovery with Low-rankness",
+    "status": "success",
+    "reason": "broad_search_verified",
+    "source_authors": [
+      "Liyang Hu",
+      "Yuheng Jia",
+      "Weijie Chen",
+      "Longhui Wen",
+      "Zhirui Ye"
+    ],
+    "source_year": 2024,
+    "source_links": [
+      "https://ieeexplore.ieee.org/abstract/document/10273205"
+    ],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W4387385713",
+        "title": "A Flexible and Robust Tensor Completion Approach for Traffic Data Recovery With Low-Rankness",
+        "score": 1.0,
+        "authors": [
+          "liyanghu",
+          "longhuiwen",
+          "weijiechen",
+          "yuhengjia",
+          "zhiruiye"
+        ],
+        "doi": "https://doi.org/10.1109/tits.2023.3319033",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W4415686844",
+        "title": "Adaptive and robust low-rank tensor completion for missing and corrupted traffic data recovery",
+        "score": 0.625,
+        "authors": [
+          "chengchuanan",
+          "huanliu",
+          "jingxinxia",
+          "weihuazhang",
+          "yanghe",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1080/15472450.2025.2576933",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W4298052098",
+        "title": "A Parameter-free Nonconvex Low-rank Tensor Completion Model for Spatiotemporal Traffic Data Recovery",
+        "score": 0.5542,
+        "authors": [
+          "chengchuanan",
+          "huliyang",
+          "jingxinxia",
+          "yanghe",
+          "yuhengjia",
+          "zhenbolu"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2209.13786",
+        "type": "preprint"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "A Flexible and Robust Tensor Completion Approach for Traffic Data Recovery With Low-Rankness",
+        "doi": "10.1109/tits.2023.3319033",
+        "authors": [
+          "liyanghu",
+          "longhuiwen",
+          "weijiechen",
+          "yuhengjia",
+          "zhiruiye"
+        ],
+        "score": 1.0
+      },
+      {
+        "title": "A Regularized Tensor Completion Approach for PMU Data Recovery",
+        "doi": "10.1109/tsg.2020.3030566",
+        "authors": [
+          "amirghasemkhani",
+          "haniflivani",
+          "imanniazazari",
+          "leiyang",
+          "virgilioacenteno",
+          "yunchuanliu"
+        ],
+        "score": 0.6466
+      },
+      {
+        "title": "Adaptive and robust low-rank tensor completion for missing and corrupted traffic data recovery",
+        "doi": "10.1080/15472450.2025.2576933",
+        "authors": [
+          "chengchuanan",
+          "huanliu",
+          "jingxinxia",
+          "weihuazhang",
+          "yanghe",
+          "yuhengjia"
+        ],
+        "score": 0.625
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AA+Flexible+and+Robust+Tensor+Completion+Approach+for+Traf%EF%AC%81c+Data+Recovery+with+Low-rankness&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AA+Flexible+and+Robust+Tensor+Completion+Approach&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=A+Flexible+and+Robust+Tensor+Completion+Approach+for+Traf%EF%AC%81c+Data+Recovery+with+Low-rankness&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 429,
+            "curl": 0
+          },
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ],
+        "detail": ""
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works/https%3A%2F%2Fdoi.org%2F10.1109%2Ftits.2023.3319033",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": {
+      "id": "https://openalex.org/W4387385713",
+      "doi": "https://doi.org/10.1109/tits.2023.3319033",
+      "title": "A Flexible and Robust Tensor Completion Approach for Traffic Data Recovery With Low-Rankness",
+      "display_name": "A Flexible and Robust Tensor Completion Approach for Traffic Data Recovery With Low-Rankness",
+      "publication_year": 2023,
+      "publication_date": "2023-10-05",
+      "ids": {
+        "openalex": "https://openalex.org/W4387385713",
+        "doi": "https://doi.org/10.1109/tits.2023.3319033"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1109/tits.2023.3319033",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tits.2023.3319033",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S144771191",
+          "display_name": "IEEE Transactions on Intelligent Transportation Systems",
+          "issn_l": "1524-9050",
+          "issn": [
+            "1524-9050",
+            "1558-0016"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "cwts-core",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Intelligent Transportation Systems",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5023397764",
+            "display_name": "Liyang Hu",
+            "orcid": "https://orcid.org/0000-0003-4631-6062",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-4631-6062"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I76569877",
+              "display_name": "Southeast University",
+              "ror": "https://ror.org/04ct4d772",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I76569877"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Liyang Hu",
+          "raw_affiliation_strings": [
+            "Jiangsu Key Laboratory of Urban ITS, Jiangsu Province Collaborative Innovation Center of Modern Urban Traffic Technologies, School of Transportation, Southeast University, Nanjing, China",
+            "Jiangsu Province Collaborative Innovation Center of Modern Urban Traffic Technologies, School of Transportation, Jiangsu Key Laboratory of Urban ITS, Southeast University, Nanjing, China"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0003-4631-6062",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Jiangsu Key Laboratory of Urban ITS, Jiangsu Province Collaborative Innovation Center of Modern Urban Traffic Technologies, School of Transportation, Southeast University, Nanjing, China",
+              "institution_ids": [
+                "https://openalex.org/I76569877"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Jiangsu Province Collaborative Innovation Center of Modern Urban Traffic Technologies, School of Transportation, Jiangsu Key Laboratory of Urban ITS, Southeast University, Nanjing, China",
+              "institution_ids": [
+                "https://openalex.org/I76569877"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5013880628",
+            "display_name": "Yuheng Jia",
+            "orcid": "https://orcid.org/0000-0002-3907-6550",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3907-6550"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I76569877",
+              "display_name": "Southeast University",
+              "ror": "https://ror.org/04ct4d772",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I76569877"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Yuheng Jia",
+          "raw_affiliation_strings": [
+            "Key Laboratory of New Generation Artificial Intelligence Technology and Its Interdisciplinary Applications, Ministry of Education, and the School of Computer Science and Engineering, Southeast University, Nanjing, China"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-3907-6550",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Key Laboratory of New Generation Artificial Intelligence Technology and Its Interdisciplinary Applications, Ministry of Education, and the School of Computer Science and Engineering, Southeast University, Nanjing, China",
+              "institution_ids": [
+                "https://openalex.org/I76569877"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5017849949",
+            "display_name": "Weijie Chen",
+            "orcid": "https://orcid.org/0000-0002-4774-4758",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4774-4758"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I76569877",
+              "display_name": "Southeast University",
+              "ror": "https://ror.org/04ct4d772",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I76569877"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Weijie Chen",
+          "raw_affiliation_strings": [
+            "Jiangsu Key Laboratory of Urban ITS, Jiangsu Province Collaborative Innovation Center of Modern Urban Traffic Technologies, School of Transportation, Southeast University, Nanjing, China",
+            "Jiangsu Province Collaborative Innovation Center of Modern Urban Traffic Technologies, School of Transportation, Jiangsu Key Laboratory of Urban ITS, Southeast University, Nanjing, China"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-4774-4758",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Jiangsu Key Laboratory of Urban ITS, Jiangsu Province Collaborative Innovation Center of Modern Urban Traffic Technologies, School of Transportation, Southeast University, Nanjing, China",
+              "institution_ids": [
+                "https://openalex.org/I76569877"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Jiangsu Province Collaborative Innovation Center of Modern Urban Traffic Technologies, School of Transportation, Jiangsu Key Laboratory of Urban ITS, Southeast University, Nanjing, China",
+              "institution_ids": [
+                "https://openalex.org/I76569877"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5109735032",
+            "display_name": "Longhui Wen",
+            "orcid": "https://orcid.org/0009-0008-2621-6578",
+            "observed_orcids": [
+              "https://orcid.org/0009-0008-2621-6578"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I76569877",
+              "display_name": "Southeast University",
+              "ror": "https://ror.org/04ct4d772",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I76569877"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Longhui Wen",
+          "raw_affiliation_strings": [
+            "Intelligent Transportation System Research Center, Southeast University, Nanjing, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Intelligent Transportation System Research Center, Southeast University, Nanjing, China",
+              "institution_ids": [
+                "https://openalex.org/I76569877"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5045733036",
+            "display_name": "Zhirui Ye",
+            "orcid": "https://orcid.org/0000-0002-8869-8161",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-8869-8161"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I76569877",
+              "display_name": "Southeast University",
+              "ror": "https://ror.org/04ct4d772",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I76569877"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Zhirui Ye",
+          "raw_affiliation_strings": [
+            "Jiangsu Key Laboratory of Urban ITS, Jiangsu Province Collaborative Innovation Center of Modern Urban Traffic Technologies, School of Transportation, Southeast University, Nanjing, China",
+            "Jiangsu Province Collaborative Innovation Center of Modern Urban Traffic Technologies, School of Transportation, Jiangsu Key Laboratory of Urban ITS, Southeast University, Nanjing, China"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-8869-8161",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Jiangsu Key Laboratory of Urban ITS, Jiangsu Province Collaborative Innovation Center of Modern Urban Traffic Technologies, School of Transportation, Southeast University, Nanjing, China",
+              "institution_ids": [
+                "https://openalex.org/I76569877"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Jiangsu Province Collaborative Innovation Center of Modern Urban Traffic Technologies, School of Transportation, Jiangsu Key Laboratory of Urban ITS, Southeast University, Nanjing, China",
+              "institution_ids": [
+                "https://openalex.org/I76569877"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I76569877"
+      ],
+      "apc_list": {
+        "value": 2345,
+        "currency": "USD",
+        "value_usd": 2345
+      },
+      "apc_paid": null,
+      "fwci": 4.7277,
+      "has_fulltext": false,
+      "cited_by_count": 35,
+      "citation_normalized_percentile": {
+        "value": 0.96969697,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 98,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "25",
+        "issue": "3",
+        "first_page": "2558",
+        "last_page": "2572"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12303",
+        "display_name": "Tensor decomposition and applications",
+        "score": 0.9887999892234802,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2605",
+          "display_name": "Computational Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12303",
+          "display_name": "Tensor decomposition and applications",
+          "score": 0.9887999892234802,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2605",
+            "display_name": "Computational Mathematics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/26",
+            "display_name": "Mathematics"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11344",
+          "display_name": "Traffic Prediction and Management Techniques",
+          "score": 0.007400000002235174,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2215",
+            "display_name": "Building and Construction"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10500",
+          "display_name": "Sparse and Compressive Sensing Techniques",
+          "score": 0.0007999999797903001,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2206",
+            "display_name": "Computational Mechanics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/tensor-completion",
+          "display_name": "tensor completion",
+          "score": 0.8899999856948853
+        },
+        {
+          "id": "https://openalex.org/keywords/missing-data-imputation",
+          "display_name": "missing data imputation",
+          "score": 0.8970000147819519
+        },
+        {
+          "id": "https://openalex.org/keywords/low-rank-tensor",
+          "display_name": "low-rank tensor",
+          "score": 0.6700000166893005
+        },
+        {
+          "id": "https://openalex.org/keywords/spatiotemporal-traffic-data",
+          "display_name": "spatiotemporal traffic data",
+          "score": 0.8190000057220459
+        },
+        {
+          "id": "https://openalex.org/keywords/intelligent-transportation-systems",
+          "display_name": "intelligent transportation systems",
+          "score": 0.6819999814033508
+        },
+        {
+          "id": "https://openalex.org/keywords/alternating-direction-method",
+          "display_name": "alternating direction method",
+          "score": 0.800000011920929
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C165696696",
+          "wikidata": "https://www.wikidata.org/wiki/Q11287",
+          "display_name": "Exploit",
+          "level": 2,
+          "score": 0.6006958484649658
+        },
+        {
+          "id": "https://openalex.org/C9357733",
+          "wikidata": "https://www.wikidata.org/wiki/Q6878417",
+          "display_name": "Missing data",
+          "level": 2,
+          "score": 0.6001451015472412
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5983717441558838
+        },
+        {
+          "id": "https://openalex.org/C170130773",
+          "wikidata": "https://www.wikidata.org/wiki/Q216378",
+          "display_name": "Usability",
+          "level": 2,
+          "score": 0.5118452906608582
+        },
+        {
+          "id": "https://openalex.org/C155281189",
+          "wikidata": "https://www.wikidata.org/wiki/Q3518150",
+          "display_name": "Tensor (intrinsic definition)",
+          "level": 2,
+          "score": 0.5116291642189026
+        },
+        {
+          "id": "https://openalex.org/C79337645",
+          "wikidata": "https://www.wikidata.org/wiki/Q779824",
+          "display_name": "Outlier",
+          "level": 2,
+          "score": 0.5053558945655823
+        },
+        {
+          "id": "https://openalex.org/C58041806",
+          "wikidata": "https://www.wikidata.org/wiki/Q1660484",
+          "display_name": "Imputation (statistics)",
+          "level": 3,
+          "score": 0.4952334463596344
+        },
+        {
+          "id": "https://openalex.org/C124101348",
+          "wikidata": "https://www.wikidata.org/wiki/Q172491",
+          "display_name": "Data mining",
+          "level": 1,
+          "score": 0.48972538113594055
+        },
+        {
+          "id": "https://openalex.org/C80444323",
+          "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+          "display_name": "Theoretical computer science",
+          "level": 1,
+          "score": 0.42812901735305786
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.3433060646057129
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.316672146320343
+        },
+        {
+          "id": "https://openalex.org/C119857082",
+          "wikidata": "https://www.wikidata.org/wiki/Q2539",
+          "display_name": "Machine learning",
+          "level": 1,
+          "score": 0.2379378378391266
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.21535462141036987
+        },
+        {
+          "id": "https://openalex.org/C38652104",
+          "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+          "display_name": "Computer security",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C202444582",
+          "wikidata": "https://www.wikidata.org/wiki/Q837863",
+          "display_name": "Pure mathematics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C107457646",
+          "wikidata": "https://www.wikidata.org/wiki/Q207434",
+          "display_name": "Human–computer interaction",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1109/tits.2023.3319033",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/tits.2023.3319033",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S144771191",
+            "display_name": "IEEE Transactions on Intelligent Transportation Systems",
+            "issn_l": "1524-9050",
+            "issn": [
+              "1524-9050",
+              "1558-0016"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "abdc-a",
+              "cwts-core",
+              "jufo-2",
+              "ki-jl-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Transactions on Intelligent Transportation Systems",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "display_name": "Sustainable cities and communities",
+          "id": "https://metadata.un.org/sdg/11",
+          "score": 0.7250000238418579
+        },
+        {
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.7207000255584717
+        }
+      ],
+      "sustainable_development_goals_aurora": [],
+      "study_designs": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G103277725",
+          "display_name": null,
+          "funder_award_id": "62106044",
+          "funder_id": "https://openalex.org/F4320321001",
+          "funder_display_name": "National Natural Science Foundation of China"
+        },
+        {
+          "id": "https://openalex.org/G5508951709",
+          "display_name": null,
+          "funder_award_id": "2022YFB4300300",
+          "funder_id": "https://openalex.org/F4320335777",
+          "funder_display_name": "National Key Research and Development Program of China"
+        },
+        {
+          "id": "https://openalex.org/G7573516140",
+          "display_name": null,
+          "funder_award_id": "BK20210221",
+          "funder_id": "https://openalex.org/F4320322769",
+          "funder_display_name": "Natural Science Foundation of Jiangsu Province"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320321001",
+          "display_name": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        },
+        {
+          "id": "https://openalex.org/F4320322769",
+          "display_name": "Natural Science Foundation of Jiangsu Province",
+          "ror": "https://ror.org/01h0zpd94"
+        },
+        {
+          "id": "https://openalex.org/F4320335777",
+          "display_name": "National Key Research and Development Program of China",
+          "ror": null
+        }
+      ],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 46,
+      "referenced_works": [
+        "https://openalex.org/W1606533552",
+        "https://openalex.org/W1798398164",
+        "https://openalex.org/W1969698720",
+        "https://openalex.org/W1974042113",
+        "https://openalex.org/W1992841740",
+        "https://openalex.org/W2020641160",
+        "https://openalex.org/W2083138589",
+        "https://openalex.org/W2083797062",
+        "https://openalex.org/W2085040216",
+        "https://openalex.org/W2091449379",
+        "https://openalex.org/W2153919224",
+        "https://openalex.org/W2163150789",
+        "https://openalex.org/W2334686861",
+        "https://openalex.org/W2342643507",
+        "https://openalex.org/W2529827714",
+        "https://openalex.org/W2587547160",
+        "https://openalex.org/W2604964345",
+        "https://openalex.org/W2742001166",
+        "https://openalex.org/W2762874775",
+        "https://openalex.org/W2767854248",
+        "https://openalex.org/W2801262348",
+        "https://openalex.org/W2902048196",
+        "https://openalex.org/W2903706803",
+        "https://openalex.org/W2906988372",
+        "https://openalex.org/W2930208852",
+        "https://openalex.org/W2951927893",
+        "https://openalex.org/W2962853966",
+        "https://openalex.org/W2963328634",
+        "https://openalex.org/W2964214749",
+        "https://openalex.org/W2980537499",
+        "https://openalex.org/W2996451395",
+        "https://openalex.org/W3006180391",
+        "https://openalex.org/W3009462366",
+        "https://openalex.org/W3034951560",
+        "https://openalex.org/W3080850015",
+        "https://openalex.org/W3117280498",
+        "https://openalex.org/W3122870122",
+        "https://openalex.org/W3137769352",
+        "https://openalex.org/W3188900617",
+        "https://openalex.org/W3196788510",
+        "https://openalex.org/W3202635391",
+        "https://openalex.org/W4214827269",
+        "https://openalex.org/W4281257454",
+        "https://openalex.org/W4292363360",
+        "https://openalex.org/W6636206708",
+        "https://openalex.org/W6679272984"
+      ],
+      "related_works": [
+        "https://openalex.org/W2181530120",
+        "https://openalex.org/W4211215373",
+        "https://openalex.org/W2024529227",
+        "https://openalex.org/W2055961818",
+        "https://openalex.org/W2903115227",
+        "https://openalex.org/W1574575415",
+        "https://openalex.org/W3144172081",
+        "https://openalex.org/W3179858851",
+        "https://openalex.org/W3028371478",
+        "https://openalex.org/W2081476516"
+      ],
+      "abstract_inverted_index": {
+        "Data": [
+          0
+        ],
+        "missing": [
+          1,
+          166
+        ],
+        "phenomena": [
+          2
+        ],
+        "and": [
+          3,
+          18,
+          76,
+          131,
+          169
+        ],
+        "random": [
+          4
+        ],
+        "anomalies": [
+          5
+        ],
+        "are": [
+          6,
+          41,
+          145
+        ],
+        "ubiquitous": [
+          7
+        ],
+        "in": [
+          8,
+          14,
+          51
+        ],
+        "intelligent": [
+          9
+        ],
+        "transportation": [
+          10
+        ],
+        "systems": [
+          11
+        ],
+        "(ITS),": [
+          12
+        ],
+        "resulting": [
+          13
+        ],
+        "poor": [
+          15
+        ],
+        "data": [
+          16,
+          33,
+          40,
+          56,
+          75,
+          167,
+          171
+        ],
+        "quality": [
+          17
+        ],
+        "usability,": [
+          19
+        ],
+        "which": [
+          20
+        ],
+        "is": [
+          21
+        ],
+        "a": [
+          22,
+          93,
+          100,
+          110
+        ],
+        "major": [
+          23
+        ],
+        "impediment": [
+          24
+        ],
+        "to": [
+          25,
+          54,
+          109,
+          125
+        ],
+        "real-world": [
+          26
+        ],
+        "ITS": [
+          27
+        ],
+        "applications.": [
+          28
+        ],
+        "Most": [
+          29
+        ],
+        "studies": [
+          30
+        ],
+        "regarding": [
+          31
+        ],
+        "traffic": [
+          32,
+          73
+        ],
+        "recovery": [
+          34,
+          172
+        ],
+        "either": [
+          35
+        ],
+        "assume": [
+          36
+        ],
+        "that": [
+          37
+        ],
+        "the": [
+          38,
+          68,
+          87,
+          106,
+          117,
+          123,
+          140,
+          153
+        ],
+        "original": [
+          39
+        ],
+        "clean": [
+          42
+        ],
+        "or": [
+          43
+        ],
+        "complete,": [
+          44
+        ],
+        "while": [
+          45
+        ],
+        "such": [
+          46
+        ],
+        "two": [
+          47
+        ],
+        "issues": [
+          48
+        ],
+        "often": [
+          49
+        ],
+        "coexist": [
+          50
+        ],
+        "reality": [
+          52
+        ],
+        "due": [
+          53
+        ],
+        "inevitable": [
+          55
+        ],
+        "measurement": [
+          57
+        ],
+        "errors": [
+          58
+        ],
+        "like": [
+          59
+        ],
+        "detector": [
+          60
+        ],
+        "malfunctions.": [
+          61
+        ],
+        "In": [
+          62
+        ],
+        "this": [
+          63
+        ],
+        "paper,": [
+          64
+        ],
+        "we": [
+          65,
+          104
+        ],
+        "fully": [
+          66
+        ],
+        "exploit": [
+          67
+        ],
+        "algebraically": [
+          69
+        ],
+        "low-rank": [
+          70
+        ],
+        "property": [
+          71
+        ],
+        "of": [
+          72,
+          96,
+          119,
+          156
+        ],
+        "spatiotemporal": [
+          74
+        ],
+        "develop": [
+          77
+        ],
+        "an": [
+          78
+        ],
+        "innovative": [
+          79
+        ],
+        "tensor": [
+          80,
+          88,
+          97
+        ],
+        "completion": [
+          81
+        ],
+        "approach": [
+          82
+        ],
+        "(termed": [
+          83,
+          113
+        ],
+        "SCPN)": [
+          84
+        ],
+        "based": [
+          85,
+          138
+        ],
+        "on": [
+          86,
+          139,
+          149,
+          164
+        ],
+        "Schatten": [
+          89
+        ],
+        "capped$": [
+          90
+        ],
+        "p": [
+          91
+        ],
+        "$norm,": [
+          92
+        ],
+        "unified": [
+          94
+        ],
+        "representation": [
+          95
+        ],
+        "norms": [
+          98
+        ],
+        "with": [
+          99,
+          122,
+          174
+        ],
+        "high": [
+          101
+        ],
+        "flexibility.": [
+          102
+        ],
+        "Furthermore,": [
+          103
+        ],
+        "extend": [
+          105
+        ],
+        "proposed": [
+          107,
+          158
+        ],
+        "method": [
+          108,
+          144
+        ],
+        "robust": [
+          111
+        ],
+        "form": [
+          112
+        ],
+        "RSCPN)": [
+          114
+        ],
+        "by": [
+          115
+        ],
+        "leveraging": [
+          116
+        ],
+        "sparsity": [
+          118
+        ],
+        "unstructured": [
+          120
+        ],
+        "outliers,": [
+          121
+        ],
+        "aim": [
+          124
+        ],
+        "reconstruct": [
+          126
+        ],
+        "ground-truth": [
+          127
+        ],
+        "values": [
+          128
+        ],
+        "from": [
+          129
+        ],
+        "corrupted": [
+          130,
+          170
+        ],
+        "incomplete": [
+          132
+        ],
+        "observations.": [
+          133
+        ],
+        "Finally,": [
+          134
+        ],
+        "associated": [
+          135
+        ],
+        "optimization": [
+          136
+        ],
+        "solutions": [
+          137
+        ],
+        "alternating": [
+          141
+        ],
+        "direction": [
+          142
+        ],
+        "multiplier": [
+          143
+        ],
+        "derived.": [
+          146
+        ],
+        "Extensive": [
+          147
+        ],
+        "experiments": [
+          148
+        ],
+        "four": [
+          150
+        ],
+        "datasets": [
+          151
+        ],
+        "substantiate": [
+          152
+        ],
+        "significant": [
+          154
+        ],
+        "superiority": [
+          155
+        ],
+        "our": [
+          157
+        ],
+        "models": [
+          159
+        ],
+        "over": [
+          160
+        ],
+        "other": [
+          161
+        ],
+        "state-of-the-art": [
+          162
+        ],
+        "methods": [
+          163
+        ],
+        "both": [
+          165
+        ],
+        "imputation": [
+          168
+        ],
+        "tasks": [
+          173
+        ],
+        "miscellaneous": [
+          175
+        ],
+        "simulated": [
+          176
+        ],
+        "scenarios.": [
+          177
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 19
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 6
+        }
+      ],
+      "updated_date": "2026-09-21T07:43:02.447757",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    "official_listing_urls": [],
+    "public_evidence": [],
+    "web_search_query": "\"A Flexible and Robust Tensor Completion Approach for Trafﬁc Data Recovery with Low-rankness\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-dccd5bfa936b",
+    "title": "PGSB: Pretrained-Guided Shared Basis for LoRA Model Merging",
+    "status": "failure",
+    "reason": "official_listing_no_openalex_match",
+    "source_authors": [
+      "Muqing Liu",
+      "Chongjie Si",
+      "Zhuoya Liu",
+      "Yuheng Jia"
+    ],
+    "source_year": 2026,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W7213399343",
+        "title": "SAGENet: Sub-cluster Aggregation Guided Enhancement for Imbalanced Attributed Graph Clustering",
+        "score": 0.4361,
+        "authors": [
+          "kexia",
+          "yuhengjia",
+          "zhixinli"
+        ],
+        "doi": "https://doi.org/10.1109/mlmc69743.2026.11686797",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W7148660380",
+        "title": "PLUME: Latent Reasoning Based Universal Multimodal Embedding",
+        "score": 0.4272,
+        "authors": [
+          "chaoyangzhao",
+          "chenweihe",
+          "haiyunguo",
+          "jinqiaowang",
+          "lingxiangwu",
+          "tianyuyang",
+          "xiangzhaohao",
+          "yuhengjia",
+          "yuxiangma"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2604.02073",
+        "type": "preprint"
+      },
+      {
+        "id": "https://openalex.org/W7212009217",
+        "title": "Reliable Co-Occurrence Guided Partial Clustering Ensemble",
+        "score": 0.396,
+        "authors": [
+          "haoyeqiu",
+          "ranwang",
+          "shixiao",
+          "teqi",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/tnnls.2026.3727651",
+        "type": "article"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Training-Free Pretrained Model Merging",
+        "doi": "10.1109/cvpr52733.2024.00565",
+        "authors": [
+          "huiqiongwang",
+          "jiesong",
+          "keyuan",
+          "minglisong",
+          "yongwang",
+          "zhengqixu"
+        ],
+        "score": 0.5476
+      },
+      {
+        "title": "Unraveling LoRA Interference: Orthogonal Subspaces for Robust Model Merging",
+        "doi": "10.18653/v1/2025.acl-long.1284",
+        "authors": [
+          "haobozhang",
+          "jiayuzhou"
+        ],
+        "score": 0.4828
+      },
+      {
+        "title": "On the Representation Geometry of LoRA Model Merging",
+        "doi": "10.18653/v1/2026.findings-acl.261",
+        "authors": [
+          "chaohe",
+          "chenyanglu",
+          "jiaruli",
+          "jinmanzhao",
+          "renyicai",
+          "xinranchen",
+          "yiningwang",
+          "yuchenli"
+        ],
+        "score": 0.4632
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3APGSB%3A+Pretrained-Guided+Shared+Basis+for+LoRA+Model+Merging&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3APretrained-Guided+Shared+Basis+for+LoRA+Model+Merging&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=PGSB%3A+Pretrained-Guided+Shared+Basis+for+LoRA+Model+Merging&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 429,
+            "curl": 0
+          },
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ],
+        "detail": ""
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [
+      "https://neurips.cc/virtual/2026/poster/152671"
+    ],
+    "public_evidence": [
+      {
+        "url": "https://neurips.cc/Downloads/2026",
+        "title_present": true,
+        "evidence_type": "official_title_listing",
+        "event": {
+          "status": "success",
+          "reason": "received"
+        }
+      },
+      {
+        "url": "https://neurips.cc/virtual/2026/poster/152671",
+        "event": {
+          "provider": "Public paper page",
+          "url": "https://neurips.cc/virtual/2026/poster/152671",
+          "status": "failure",
+          "reason": "http_302",
+          "attempts": [
+            {
+              "http": 302,
+              "curl": 0
+            }
+          ],
+          "detail": ""
+        }
+      }
+    ],
+    "web_search_query": "\"PGSB: Pretrained-Guided Shared Basis for LoRA Model Merging\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-e73ac884ede0",
+    "title": "Exploiting Negative Multi-Cluster Structure in Class-Wise Embeddings for Weakly Supervised Multi-Label Learning",
+    "status": "failure",
+    "reason": "official_listing_no_openalex_match",
+    "source_authors": [
+      "Bo Han",
+      "Zhuoming Li",
+      "Yaxin Hou",
+      "Xiaoyu Wang",
+      "Hui Liu",
+      "Junhui Hou",
+      "Yuheng Jia"
+    ],
+    "source_year": 2026,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W4409149462",
+        "title": "Mixed Blessing: Class-Wise Embedding guided Instance-Dependent Partial Label Learning",
+        "score": 0.5029,
+        "authors": [
+          "fuchaoyang",
+          "huiliu",
+          "jianhongcheng",
+          "junhuihou",
+          "yongqiangdong",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1145/3690624.3709276",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W4405174014",
+        "title": "Mixed Blessing: Class-Wise Embedding guided Instance-Dependent Partial Label Learning",
+        "score": 0.5029,
+        "authors": [
+          "fuchaoyang",
+          "huiliu",
+          "jianhongcheng",
+          "junhuihou",
+          "yongqiangdong",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2412.05029",
+        "type": "preprint"
+      },
+      {
+        "id": "https://openalex.org/W7160825223",
+        "title": "Beyond Distribution Estimation: Simplex Anchored Structural Inference Towards Universal Semi-Supervised Learning",
+        "score": 0.4772,
+        "authors": [
+          "bohan",
+          "hanyangli",
+          "jieyu",
+          "junma",
+          "yaxinhou",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2605.07557",
+        "type": "preprint"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Robust semantic reconstruction for weakly supervised multi-label learning",
+        "doi": "10.1016/j.neucom.2026.133422",
+        "authors": [
+          "daweizhao",
+          "dezhu",
+          "dongsun",
+          "hongli",
+          "likanghong",
+          "qingweigao",
+          "yixianglu"
+        ],
+        "score": 0.6543
+      },
+      {
+        "title": "Robust Semantic Reconstruction for Weakly Supervised Multi-Label Learning",
+        "doi": "10.2139/ssrn.5588053",
+        "authors": [
+          "daweizhao",
+          "dezhu",
+          "dongsun",
+          "hongli",
+          "likanghong",
+          "qingweigao",
+          "yixianglu"
+        ],
+        "score": 0.6543
+      },
+      {
+        "title": "Addressing Imbalance in Weakly Supervised Multi-Label Learning",
+        "doi": "10.1109/access.2019.2906409",
+        "authors": [
+          "fangfangluo",
+          "guolongchen",
+          "wenzhongguo"
+        ],
+        "score": 0.5658
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AExploiting+Negative+Multi-Cluster+Structure+in+Class-Wise+Embeddings+for+Weakly+Supervised+Multi-Label+Learning&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AExploiting+Negative+Multi-Cluster+Structure+in+Class-Wise+Embeddings&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Exploiting+Negative+Multi-Cluster+Structure+in+Class-Wise+Embeddings+for+Weakly+Supervised+Multi-Label+Learning&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [
+      "https://neurips.cc/virtual/2026/poster/153676"
+    ],
+    "public_evidence": [
+      {
+        "url": "https://neurips.cc/Downloads/2026",
+        "title_present": true,
+        "evidence_type": "official_title_listing",
+        "event": {
+          "status": "success",
+          "reason": "received"
+        }
+      },
+      {
+        "url": "https://neurips.cc/virtual/2026/poster/153676",
+        "event": {
+          "provider": "Public paper page",
+          "url": "https://neurips.cc/virtual/2026/poster/153676",
+          "status": "failure",
+          "reason": "http_302",
+          "attempts": [
+            {
+              "http": 302,
+              "curl": 0
+            }
+          ],
+          "detail": ""
+        }
+      }
+    ],
+    "web_search_query": "\"Exploiting Negative Multi-Cluster Structure in Class-Wise Embeddings for Weakly Supervised Multi-Label Learning\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-1025a6d4de24",
+    "title": "Individuals Matter: Improving Deep Multi-View Clustering via Explicit Single-View Enhancement",
+    "status": "failure",
+    "reason": "official_listing_no_openalex_match",
+    "source_authors": [
+      "Hanyang Li",
+      "Yanzheng Wang",
+      "Yaxin Hou",
+      "Zhengxing Jiao",
+      "Hao Chen",
+      "Yuheng Jia"
+    ],
+    "source_year": 2026,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W4323345772",
+        "title": "Ensemble Clustering via Co-Association Matrix Self-Enhancement",
+        "score": 0.4706,
+        "authors": [
+          "ranwang",
+          "siruitao",
+          "yonghengwang",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/tnnls.2023.3249207",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W4280576534",
+        "title": "Ensemble Clustering via Co-association Matrix Self-enhancement",
+        "score": 0.4706,
+        "authors": [
+          "ranwang",
+          "siruitao",
+          "yonghengwang",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2205.05937",
+        "type": "preprint"
+      },
+      {
+        "id": "https://openalex.org/W3122870122",
+        "title": "Multi-View Spectral Clustering Tailored Tensor Low-Rank Representation",
+        "score": 0.4196,
+        "authors": [
+          "huiliu",
+          "junhuihou",
+          "qingfuzhang",
+          "samkwong",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/tcsvt.2021.3055039",
+        "type": "article"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Fusion-Augmented Deep Multi-view Clustering via Contrastive View Expansion",
+        "doi": "10.1145/3743093.3771026",
+        "authors": [
+          "xiaoruijiang",
+          "yongliao",
+          "zhongyima"
+        ],
+        "score": 0.5753
+      },
+      {
+        "title": "Scalable multi-view clustering via explicit kernel features maps",
+        "doi": "10.1007/s10618-026-01187-x",
+        "authors": [
+          "chakibfettal",
+          "lazharlabiod",
+          "mohamednadif"
+        ],
+        "score": 0.5255
+      },
+      {
+        "title": "Deep Multi-View Clustering via Cluster-Semantic Guidance",
+        "doi": "10.1109/tip.2026.3684763",
+        "authors": [
+          "jiewen",
+          "jinrongcui",
+          "linlintang",
+          "senxu",
+          "waikeungwong",
+          "xiaohuangwu"
+        ],
+        "score": 0.5231
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AIndividuals+Matter%3A+Improving+Deep+Multi-View+Clustering+via+Explicit+Single-View+Enhancement&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AImproving+Deep+Multi-View+Clustering+via+Explicit+Single-View+Enhancement&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Individuals+Matter%3A+Improving+Deep+Multi-View+Clustering+via+Explicit+Single-View+Enhancement&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 429,
+            "curl": 0
+          },
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ],
+        "detail": ""
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [
+      "https://neurips.cc/virtual/2026/poster/148868"
+    ],
+    "public_evidence": [
+      {
+        "url": "https://neurips.cc/Downloads/2026",
+        "title_present": true,
+        "evidence_type": "official_title_listing",
+        "event": {
+          "status": "success",
+          "reason": "received"
+        }
+      },
+      {
+        "url": "https://neurips.cc/virtual/2026/poster/148868",
+        "event": {
+          "provider": "Public paper page",
+          "url": "https://neurips.cc/virtual/2026/poster/148868",
+          "status": "failure",
+          "reason": "http_302",
+          "attempts": [
+            {
+              "http": 302,
+              "curl": 0
+            }
+          ],
+          "detail": ""
+        }
+      }
+    ],
+    "web_search_query": "\"Individuals Matter: Improving Deep Multi-View Clustering via Explicit Single-View Enhancement\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-effcb20ed6d4",
+    "title": "AdapMatch: Adaptive Bias Decoupling for Semi-Supervised Partial Label Learning under Unknown Class Distributions",
+    "status": "failure",
+    "reason": "official_listing_no_openalex_match",
+    "source_authors": [
+      "Yuheng Jia",
+      "Yaodong Shen",
+      "Jiahao Jiang",
+      "Hui Liu",
+      "Junhui Hou"
+    ],
+    "source_year": 2026,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W7138385686",
+        "title": "DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning",
+        "score": 0.4943,
+        "authors": [
+          "bohan",
+          "huiliu",
+          "junhuihou",
+          "xiaoyuwang",
+          "yaxinhou",
+          "yuhengjia",
+          "zhuomingli"
+        ],
+        "doi": "https://doi.org/10.1609/aaai.v40i26.39302",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W4401863484",
+        "title": "FairMatch: Promoting Partial Label Learning by Unlabeled Samples",
+        "score": 0.4805,
+        "authors": [
+          "huiliu",
+          "jiahaojiang",
+          "junhuihou",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1145/3637528.3671685",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W4393147300",
+        "title": "Long-Tailed Partial Label Learning by Head Classifier and Tail Classifier Cooperation",
+        "score": 0.4651,
+        "authors": [
+          "minlingzhang",
+          "ranwang",
+          "xiaoruipeng",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1609/aaai.v38i11.29182",
+        "type": "conference-paper"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Contrastive active adaptive partial label learning under class distribution mismatch",
+        "doi": "10.1016/j.engappai.2025.112401",
+        "authors": [
+          "aohanzhang",
+          "hongyingzhang",
+          "kezhendong"
+        ],
+        "score": 0.6243
+      },
+      {
+        "title": "Contrastive Active Adaptive Partial Label Learning under Class Distribution Mismatch",
+        "doi": "10.21203/rs.3.rs-3767155/v1",
+        "authors": [
+          "",
+          "aohanzhang",
+          "kezhendong",
+          "qianqiansun"
+        ],
+        "score": 0.6243
+      },
+      {
+        "title": "Structure-Aware Adaptive Pseudo-Labeling for Semi-supervised Partial Label Learning",
+        "doi": "10.1007/978-981-92-3394-6_10",
+        "authors": [
+          "aokang",
+          "hongshengyin",
+          "jihangyin",
+          "xiaodanli",
+          "yanyan",
+          "zhonghewei"
+        ],
+        "score": 0.6199
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AAdapMatch%3A+Adaptive+Bias+Decoupling+for+Semi-Supervised+Partial+Label+Learning+under+Unknown+Class+Distributions&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AAdaptive+Bias+Decoupling+for+Semi-Supervised+Partial+Label+Learning+under+Unknown+Class+Distributions&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=AdapMatch%3A+Adaptive+Bias+Decoupling+for+Semi-Supervised+Partial+Label+Learning+under+Unknown+Class+Distributions&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 429,
+            "curl": 0
+          },
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ],
+        "detail": ""
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [
+      "https://neurips.cc/virtual/2026/poster/150939"
+    ],
+    "public_evidence": [
+      {
+        "url": "https://neurips.cc/Downloads/2026",
+        "title_present": true,
+        "evidence_type": "official_title_listing",
+        "event": {
+          "status": "success",
+          "reason": "received"
+        }
+      },
+      {
+        "url": "https://neurips.cc/virtual/2026/poster/150939",
+        "event": {
+          "provider": "Public paper page",
+          "url": "https://neurips.cc/virtual/2026/poster/150939",
+          "status": "failure",
+          "reason": "http_302",
+          "attempts": [
+            {
+              "http": 302,
+              "curl": 0
+            }
+          ],
+          "detail": ""
+        }
+      }
+    ],
+    "web_search_query": "\"AdapMatch: Adaptive Bias Decoupling for Semi-Supervised Partial Label Learning under Unknown Class Distributions\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-2110e10b1fd2",
+    "title": "Progressive Pseudo-label Self-balancing Towards Unsupervised Vision-Language Models Adaptation",
+    "status": "failure",
+    "reason": "official_listing_no_openalex_match",
+    "source_authors": [
+      "Si Qin",
+      "Yaxin Hou",
+      "Jiawei Tang",
+      "Yuheng Jia"
+    ],
+    "source_year": 2026,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W7138385686",
+        "title": "DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning",
+        "score": 0.4625,
+        "authors": [
+          "bohan",
+          "huiliu",
+          "junhuihou",
+          "xiaoyuwang",
+          "yaxinhou",
+          "yuhengjia",
+          "zhuomingli"
+        ],
+        "doi": "https://doi.org/10.1609/aaai.v40i26.39302",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W7126123313",
+        "title": "Positive-Unlabeled Reinforcement Learning Distillation for On-Premise Small Models",
+        "score": 0.4586,
+        "authors": [
+          "biaoliu",
+          "dongdongwu",
+          "junyangchen",
+          "masashisugiyama",
+          "mingkunxie",
+          "tatsengchua",
+          "xiaoboxia",
+          "xingeng",
+          "xinqiangcai",
+          "yuhengjia",
+          "zhiqiangkou"
+        ],
+        "doi": null,
+        "type": "preprint"
+      },
+      {
+        "id": "https://openalex.org/W7163169329",
+        "title": "ResMerge: Residual-based Spectral Merging of Large Language Models",
+        "score": 0.4539,
+        "authors": [
+          "haiyunguo",
+          "haokaima",
+          "hongyanan",
+          "jinqiaowang",
+          "weizhenwang",
+          "yandusun",
+          "yuhengjia",
+          "zhiyanhou"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2606.02252",
+        "type": "preprint"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Progressive pseudo-label framework for unsupervised hyperspectral change detection",
+        "doi": "10.1016/j.jag.2024.103663",
+        "authors": [
+          "abudusalamutuniyazi",
+          "haishandai",
+          "qiujieyang",
+          "qiuxiali",
+          "tingkuimu"
+        ],
+        "score": 0.6456
+      },
+      {
+        "title": "Generative Pseudo-label Refinement for Unsupervised Domain Adaptation",
+        "doi": "10.1109/wacv45572.2020.9093579",
+        "authors": [
+          "pietromorerio",
+          "riccardovolpi",
+          "ruggeroragonesi",
+          "vittoriomurino"
+        ],
+        "score": 0.6301
+      },
+      {
+        "title": "PromptSID: A Self-Iterative Distillation Framework For Unsupervised Adaptation Of Vision-Language Models",
+        "doi": "10.1109/icassp55912.2026.11463147",
+        "authors": [
+          "chenxingli",
+          "junbinzhang",
+          "xianweizhuang",
+          "yikailin",
+          "yuexianzou",
+          "zikanghuang"
+        ],
+        "score": 0.56
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AProgressive+Pseudo-label+Self-balancing+Towards+Unsupervised+Vision-Language+Models+Adaptation&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 0,
+            "curl": 35
+          },
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ],
+        "detail": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\n"
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AProgressive+Pseudo-label+Self-balancing+Towards+Unsupervised+Vision-Language+Models&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Progressive+Pseudo-label+Self-balancing+Towards+Unsupervised+Vision-Language+Models+Adaptation&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [
+      "https://neurips.cc/virtual/2026/poster/150525"
+    ],
+    "public_evidence": [
+      {
+        "url": "https://neurips.cc/Downloads/2026",
+        "title_present": true,
+        "evidence_type": "official_title_listing",
+        "event": {
+          "status": "success",
+          "reason": "received"
+        }
+      },
+      {
+        "url": "https://neurips.cc/virtual/2026/poster/150525",
+        "event": {
+          "provider": "Public paper page",
+          "url": "https://neurips.cc/virtual/2026/poster/150525",
+          "status": "failure",
+          "reason": "http_302",
+          "attempts": [
+            {
+              "http": 302,
+              "curl": 0
+            }
+          ],
+          "detail": ""
+        }
+      }
+    ],
+    "web_search_query": "\"Progressive Pseudo-label Self-balancing Towards Unsupervised Vision-Language Models Adaptation\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-5dda1e979492",
+    "title": "LoCo: Selective Local Competition for Discriminative Open-Vocabulary Multi-Label Recognition",
+    "status": "failure",
+    "reason": "official_listing_no_openalex_match",
+    "source_authors": [
+      "Zhuoming Li",
+      "Bo Han",
+      "Xiaoyu Wang",
+      "Yuheng Jia"
+    ],
+    "source_year": 2026,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W4409364541",
+        "title": "Calibrated Disambiguation for Partial Multi-label Learning",
+        "score": 0.4662,
+        "authors": [
+          "yuhengjia",
+          "yumi",
+          "zhuomingli",
+          "zicongmiao"
+        ],
+        "doi": "https://doi.org/10.1609/aaai.v39i17.34049",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W4401857453",
+        "title": "Noisy Label Removal for Partial Multi-Label Learning",
+        "score": 0.4603,
+        "authors": [
+          "fuchaoyang",
+          "huiliu",
+          "junhuihou",
+          "yongqiangdong",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1145/3637528.3671677",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W3048192479",
+        "title": "Active k-labelsets ensemble for multi-label classification",
+        "score": 0.4545,
+        "authors": [
+          "ranwang",
+          "samkwong",
+          "xuwang",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1016/j.patcog.2020.107583",
+        "type": "article"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Learning discriminative representations for multi-label image recognition",
+        "doi": "10.1016/j.jvcir.2022.103448",
+        "authors": [
+          "ibrahimradwan",
+          "mohammedhassanin",
+          "murattahtali",
+          "salmankhan"
+        ],
+        "score": 0.5986
+      },
+      {
+        "title": "DART: Dual Adaptive Refinement Transfer for Open-Vocabulary Multi-Label Recognition",
+        "doi": "10.1145/3746027.3755564",
+        "authors": [
+          "haijingliu",
+          "hefengwu",
+          "kezewang",
+          "lianglin",
+          "taopu"
+        ],
+        "score": 0.5882
+      },
+      {
+        "title": "Open Vocabulary Multi-label Video Classification",
+        "doi": "10.1007/978-3-031-72933-1_16",
+        "authors": [
+          "ashishtawari",
+          "benjaminyao",
+          "jayakrishnanunnikrishnan",
+          "mamshadnayeemrizve",
+          "mubarakshah",
+          "rohitgupta",
+          "sontran",
+          "trishulchilimbi"
+        ],
+        "score": 0.5
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3ALoCo%3A+Selective+Local+Competition+for+Discriminative+Open-Vocabulary+Multi-Label+Recognition&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3ASelective+Local+Competition+for+Discriminative+Open-Vocabulary+Multi-Label+Recognition&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=LoCo%3A+Selective+Local+Competition+for+Discriminative+Open-Vocabulary+Multi-Label+Recognition&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [
+      "https://neurips.cc/virtual/2026/poster/155077"
+    ],
+    "public_evidence": [
+      {
+        "url": "https://neurips.cc/Downloads/2026",
+        "title_present": true,
+        "evidence_type": "official_title_listing",
+        "event": {
+          "status": "success",
+          "reason": "received"
+        }
+      },
+      {
+        "url": "https://neurips.cc/virtual/2026/poster/155077",
+        "event": {
+          "provider": "Public paper page",
+          "url": "https://neurips.cc/virtual/2026/poster/155077",
+          "status": "failure",
+          "reason": "http_302",
+          "attempts": [
+            {
+              "http": 302,
+              "curl": 0
+            }
+          ],
+          "detail": ""
+        }
+      }
+    ],
+    "web_search_query": "\"LoCo: Selective Local Competition for Discriminative Open-Vocabulary Multi-Label Recognition\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-deff0ac02cbd",
+    "title": "Attention Heads are Complementary Visual Units: Mitigating Hallucinations in LVLMs via Adaptive Visual Cues Focusing",
+    "status": "failure",
+    "reason": "official_listing_no_openalex_match",
+    "source_authors": [
+      "Zhenglin Hua",
+      "Yutong Xie",
+      "Yaxin Hou",
+      "Jiawei Tang",
+      "Jinghan He",
+      "Haiyun Guo",
+      "Junfeng Fang",
+      "Yuheng Jia"
+    ],
+    "source_year": 2026,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W7161960261",
+        "title": "Finding the Correct Visual Evidence Without Forgetting: Mitigating Hallucination in LVLMs via Inter-Layer Visual Attention Discrepancy",
+        "score": 0.5505,
+        "authors": [
+          "ranwang",
+          "wingwyng",
+          "xizhaowang",
+          "yuhengjia",
+          "yutongxie",
+          "zhenglinhua"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2605.20965",
+        "type": "preprint"
+      },
+      {
+        "id": "https://openalex.org/W4412886703",
+        "title": "Cracking the Code of Hallucination in LVLMs with Vision-aware Head Divergence",
+        "score": 0.4431,
+        "authors": [
+          "haiyunguo",
+          "jinghanhe",
+          "jinqiaowang",
+          "junfengfang",
+          "kuanzhu",
+          "mingtang",
+          "tatsengchua",
+          "yuhengjia",
+          "zhenglinhua"
+        ],
+        "doi": "https://doi.org/10.18653/v1/2025.acl-long.175",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W4405626860",
+        "title": "Cracking the Code of Hallucination in LVLMs with Vision-aware Head Divergence",
+        "score": 0.4431,
+        "authors": [
+          "haiyunguo",
+          "hejinghan",
+          "huazhenglin",
+          "jinqiaowang",
+          "junfengfang",
+          "kuanzhu",
+          "mingtang",
+          "tatsengchua",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2412.13949",
+        "type": "preprint"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Fine-Grained Attention Enhancement for Mitigating Hallucinations in LVLMs",
+        "doi": "10.1007/978-981-95-9493-1_9",
+        "authors": [
+          "hongxunyao",
+          "jidongyang",
+          "shouxujiang",
+          "xichen"
+        ],
+        "score": 0.5904
+      },
+      {
+        "title": "Focus on This, Not That! Mitigating Hallucinations in LVLMs via Discriminative Visual Enhancement",
+        "doi": "10.1007/978-981-92-3444-8_28",
+        "authors": [
+          "hongyetan",
+          "pengpengqiang",
+          "yuhanjiang"
+        ],
+        "score": 0.5435
+      },
+      {
+        "title": "Mitigating Action-Relation Hallucinations in LVLMs via Relation-aware Visual Enhancement",
+        "doi": "10.18653/v1/2026.acl-long.1142",
+        "authors": [
+          "qiangli",
+          "qingzhuowang",
+          "ruiyangqin",
+          "wenshen",
+          "zhenxinqin",
+          "zhihuawei"
+        ],
+        "score": 0.5251
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AAttention+Heads+are+Complementary+Visual+Units%3A+Mitigating+Hallucinations+in+LVLMs+via+Adaptive+Visual+Cues+Focusing&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AMitigating+Hallucinations+in+LVLMs+via+Adaptive+Visual+Cues+Focusing&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Attention+Heads+are+Complementary+Visual+Units%3A+Mitigating+Hallucinations+in+LVLMs+via+Adaptive+Visual+Cues+Focusing&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [
+      "https://neurips.cc/virtual/2026/poster/149428"
+    ],
+    "public_evidence": [
+      {
+        "url": "https://neurips.cc/Downloads/2026",
+        "title_present": true,
+        "evidence_type": "official_title_listing",
+        "event": {
+          "status": "success",
+          "reason": "received"
+        }
+      },
+      {
+        "url": "https://neurips.cc/virtual/2026/poster/149428",
+        "event": {
+          "provider": "Public paper page",
+          "url": "https://neurips.cc/virtual/2026/poster/149428",
+          "status": "failure",
+          "reason": "http_302",
+          "attempts": [
+            {
+              "http": 302,
+              "curl": 0
+            }
+          ],
+          "detail": ""
+        }
+      }
+    ],
+    "web_search_query": "\"Attention Heads are Complementary Visual Units: Mitigating Hallucinations in LVLMs via Adaptive Visual Cues Focusing\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-6757df585f08",
+    "title": "Mismatch-Free One-Step at Scale: Linear-Time Ensemble Clustering with Soft Balancing",
+    "status": "failure",
+    "reason": "no_public_locator_for_future_year",
+    "source_authors": [
+      "Haoye Qiu",
+      "Xu Zhang",
+      "Ding Ding",
+      "Yuheng Jia"
+    ],
+    "source_year": 2027,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W2898080674",
+        "title": "Convex Constrained Clustering with Graph-Laplacian Pca",
+        "score": 0.5042,
+        "authors": [
+          "junhuihou",
+          "samkwong",
+          "wenhuiwu",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/icme.2018.8486482",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W4313554970",
+        "title": "Semi-Supervised Subspace Clustering via Tensor Low-Rank Representation",
+        "score": 0.4361,
+        "authors": [
+          "guanxinglu",
+          "huiliu",
+          "junhuihou",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/tcsvt.2023.3234556",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W4312581915",
+        "title": "Deep Attention-Guided Graph Clustering With Dual Self-Supervision",
+        "score": 0.4219,
+        "authors": [
+          "huiliu",
+          "junhuihou",
+          "yuhengjia",
+          "zhihaopeng"
+        ],
+        "doi": "https://doi.org/10.1109/tcsvt.2022.3232604",
+        "type": "article"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Model-based clustering with soft balancing",
+        "doi": "10.1109/icdm.2003.1250953",
+        "authors": [
+          "jghosh",
+          "shizhong"
+        ],
+        "score": 0.6296
+      },
+      {
+        "title": "Dynamic Anchor-Based One-Step Hypergraph Ensemble Clustering",
+        "doi": "10.1109/tkde.2026.3710223",
+        "authors": [
+          "jiaxuanxu",
+          "leiduan",
+          "liangdu",
+          "xinyewang",
+          "yidanzhang",
+          "zhenguo"
+        ],
+        "score": 0.5323
+      },
+      {
+        "title": "Payload mismatch detection of image steganalysis using ensemble linear discriminant clustering",
+        "doi": "10.1109/icspcc.2015.7338896",
+        "authors": [
+          "anxinwu",
+          "guoruifeng"
+        ],
+        "score": 0.5032
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AMismatch-Free+One-Step+at+Scale%3A+Linear-Time+Ensemble+Clustering+with+Soft+Balancing&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3ALinear-Time+Ensemble+Clustering+with+Soft+Balancing&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Mismatch-Free+One-Step+at+Scale%3A+Linear-Time+Ensemble+Clustering+with+Soft+Balancing&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [],
+    "public_evidence": [],
+    "web_search_query": "\"Mismatch-Free One-Step at Scale: Linear-Time Ensemble Clustering with Soft Balancing\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-1a90fc2c3965",
+    "title": "KGFlow: Enhancing Large Language Model Reasoning with Multi-Graph Alignment for Knowledge-Intensive Medical Question Answering",
+    "status": "failure",
+    "reason": "expanded_search_no_verified_record",
+    "source_authors": [
+      "Tiantian Zhu",
+      "Xiangdong Kong",
+      "Xizhao Wang",
+      "Wing W. Y. Ng",
+      "Yuheng Jia",
+      "Jun Zhang",
+      "Zexuan Zhu"
+    ],
+    "source_year": 2026,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W4415861717",
+        "title": "Rethinking Toxicity Evaluation in Large Language Models: A Multi-Label Perspective",
+        "score": 0.3867,
+        "authors": [
+          "changweiwang",
+          "fenglei",
+          "gangniu",
+          "junyangchen",
+          "liubiao",
+          "masashisugiyama",
+          "mingkunxie",
+          "xingeng",
+          "xinqiangcai",
+          "yuhengjia",
+          "zhiqiangkou"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2510.15007",
+        "type": "preprint"
+      },
+      {
+        "id": "https://openalex.org/W2584628929",
+        "title": "NSSRF: global network similarity search with subgraph signatures and its applications",
+        "score": 0.3804,
+        "authors": [
+          "jiaozhang",
+          "kachunwong",
+          "samkwong",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1093/bioinformatics/btx051",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W2915281234",
+        "title": "Pseudolabel Guided Kernel Learning for Hyperspectral Image Classification",
+        "score": 0.375,
+        "authors": [
+          "junhuihou",
+          "qiandu",
+          "shaohuimei",
+          "shujunyang",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/jstars.2019.2895070",
+        "type": "article"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "FiDeLiS: Faithful Reasoning in Large Language Models for Knowledge Graph Question Answering",
+        "doi": "10.18653/v1/2025.findings-acl.436",
+        "authors": [
+          "bryanhooi",
+          "kunwang",
+          "nianliu",
+          "xiaoxinhe",
+          "yuansui",
+          "yufeihe"
+        ],
+        "score": 0.5926
+      },
+      {
+        "title": "Collaborative Knowledge Graph–Large Language Model Framework for Aging-Oriented Medical Question Answering",
+        "doi": "10.1109/cscwd68734.2026.11582124",
+        "authors": [
+          "menglincui",
+          "minhuang",
+          "peiyin",
+          "shiyudeng",
+          "zhijiajiang"
+        ],
+        "score": 0.5784
+      },
+      {
+        "title": "Dynamic Reasoning with Language Model and Knowledge Graph for Question Answering",
+        "doi": "10.1007/978-3-031-70546-5_26",
+        "authors": [
+          "deanwu",
+          "yuhongzhang",
+          "yujielu"
+        ],
+        "score": 0.5222
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AKGFlow%3A+Enhancing+Large+Language+Model+Reasoning+with+Multi-Graph+Alignment+for+Knowledge-Intensive+Medical+Question+Answering&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AEnhancing+Large+Language+Model+Reasoning+with+Multi-Graph+Alignment+for+Knowledge-Intensive+Medical+Question+Answering&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=KGFlow%3A+Enhancing+Large+Language+Model+Reasoning+with+Multi-Graph+Alignment+for+Knowledge-Intensive+Medical+Question+Answering&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [],
+    "public_evidence": [],
+    "web_search_query": "\"KGFlow: Enhancing Large Language Model Reasoning with Multi-Graph Alignment for Knowledge-Intensive Medical Question Answering\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-4dafc16e5fd8",
+    "title": "Question-Level Multimodal Fusion for Cognitive Ability Assessment in Asynchronous Video Interviews",
+    "status": "failure",
+    "reason": "expanded_search_no_verified_record",
+    "source_authors": [
+      "Zhiqiang Kou",
+      "Jingcheng Duan",
+      "Dong-Dong Wu",
+      "Hanlin Gu",
+      "Jing Guo",
+      "Yijie Lin",
+      "Di Jiang",
+      "Yuheng Jia"
+    ],
+    "source_year": 2026,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W3183271751",
+        "title": "No-reference image quality assessment for contrast-changed images via a semi-supervised robust PCA model",
+        "score": 0.3864,
+        "authors": [
+          "jingchaocao",
+          "ranwang",
+          "samkwong",
+          "shiqiwang",
+          "xinfengzhang",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1016/j.ins.2021.07.052",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W4387336413",
+        "title": "Ori-Net: Orientation-guided Neural Network for Automated Coronary Arteries Segmentation",
+        "score": 0.3681,
+        "authors": [
+          "jianyongwang",
+          "maochen",
+          "weilijiang",
+          "yimingli",
+          "yizhang",
+          "yuanfeng",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1016/j.eswa.2023.121905",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W4413075408",
+        "title": "Utilizing multimodal artificial intelligence to advance cardiovascular diseases",
+        "score": 0.3522,
+        "authors": [
+          "jianyongwang",
+          "maochen",
+          "xdyang",
+          "yimingli",
+          "yizhang",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1093/pcmedi/pbaf016",
+        "type": "article"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "PersonalityLLM: Fine-Tuning Large Language Models for Personality Assessment From Asynchronous Video Interviews",
+        "doi": "10.1109/taffc.2026.3684073",
+        "authors": [
+          "chuangliu",
+          "dongshenghu",
+          "shanliang",
+          "tianyizhang",
+          "wenmingzheng",
+          "xiuxiuzhan",
+          "yongli",
+          "yuanzong"
+        ],
+        "score": 0.6595
+      },
+      {
+        "title": "Light-rank: a multimodal neural network for recognizing the top personality traits in asynchronous video interviews",
+        "doi": "10.1007/s11760-026-05133-8",
+        "authors": [
+          "linyudong",
+          "wenyizhu",
+          "xiangguo",
+          "yangliu",
+          "yuzhongzhang"
+        ],
+        "score": 0.6452
+      },
+      {
+        "title": "Automatic Personality Recognition Used In Asynchronous Video Interviews",
+        "doi": "10.48175/ijarsct-5076",
+        "authors": [
+          "nithyadm",
+          "profvimaladevir",
+          "rakshithnj",
+          "rohanku",
+          "snehacr"
+        ],
+        "score": 0.6225
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AQuestion-Level+Multimodal+Fusion+for+Cognitive+Ability+Assessment+in+Asynchronous+Video+Interviews&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AQuestion-Level+Multimodal+Fusion+for+Cognitive+Ability+Assessment&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Question-Level+Multimodal+Fusion+for+Cognitive+Ability+Assessment+in+Asynchronous+Video+Interviews&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [],
+    "public_evidence": [],
+    "web_search_query": "\"Question-Level Multimodal Fusion for Cognitive Ability Assessment in Asynchronous Video Interviews\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-b4f457369e13",
+    "title": "One Coin Has Two Sides: Single Poistive Multi Label Learning from Salient Annotations",
+    "status": "failure",
+    "reason": "public_candidate_page_access_blocked",
+    "source_authors": [
+      "Xiaoyu Wang",
+      "Zhuoming Li",
+      "Bo Han",
+      "Hui Liu",
+      "Junhui Hou",
+      "Yuheng Jia"
+    ],
+    "source_year": 2026,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W4391936158",
+        "title": "Unlabeled Data Guided Partial Label Learning for Hyperspectral Image Classification",
+        "score": 0.5068,
+        "authors": [
+          "danfenghong",
+          "shujunyang",
+          "xinwu",
+          "yaoding",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/lgrs.2024.3367114",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W4416046045",
+        "title": "Concentration Distribution Learning from Label Distributions",
+        "score": 0.5039,
+        "authors": [
+          "jiaweitang",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2505.21576",
+        "type": "preprint"
+      },
+      {
+        "id": "https://openalex.org/W4414359906",
+        "title": "Label Distribution Learning with Biased Annotations Assisted by Multi-Label Learning",
+        "score": 0.4795,
+        "authors": [
+          "hailinwang",
+          "jingwang",
+          "masashisugiyama",
+          "mingkunxie",
+          "shuochen",
+          "siqin",
+          "tongliangliu",
+          "xingeng",
+          "yuhengjia",
+          "zhiqiangkou"
+        ],
+        "doi": "https://doi.org/10.24963/ijcai.2025/617",
+        "type": "conference-paper"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "One Positive Label is Sufficient: Single-Positive Multi-Label Learning with Label Enhancement",
+        "doi": "10.52202/068431-1582",
+        "authors": [
+          "congyuqiao",
+          "jiaqilv",
+          "minlingzhang",
+          "ningxu",
+          "xingeng"
+        ],
+        "score": 0.5789
+      },
+      {
+        "title": "Multi-Label Learning from Single Positive Labels",
+        "doi": "10.1109/cvpr46437.2021.00099",
+        "authors": [
+          "danmorris",
+          "elijahcole",
+          "nebojsajojic",
+          "oisinmacaodha",
+          "pietroperona",
+          "titouanlorieul"
+        ],
+        "score": 0.4912
+      },
+      {
+        "title": "A Patch-Based Architecture for Multi-Label Classification from Single Positive Annotations",
+        "doi": "10.5220/0011610800003417",
+        "authors": [
+          "aureliebugeau",
+          "laurentvezard",
+          "marcpalyart",
+          "nicolaspapadakis",
+          "warrenjouanneau"
+        ],
+        "score": 0.3709
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AOne+Coin+Has+Two+Sides%3A+Single+Positive+Multi+Label+Learning+from+Salient+Annotations&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3ASingle+Positive+Multi+Label+Learning+from+Salient+Annotations&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=One+Coin+Has+Two+Sides%3A+Single+Positive+Multi+Label+Learning+from+Salient+Annotations&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 429,
+            "curl": 0
+          },
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ],
+        "detail": ""
+      },
+      {
+        "provider": "OpenReview",
+        "url": "https://api2.openreview.net/notes?id=LhhFsfAzL6",
+        "status": "failure",
+        "reason": "http_403",
+        "attempts": [
+          {
+            "http": 403,
+            "curl": 0
+          }
+        ],
+        "detail": "{\"name\":\"ChallengeRequiredError\",\"message\":\"Challenge verification required (2026-10-09-11159976)\",\"status\":403,\"details\":{\"challengeUrl\":\"https://openreview.net/challenge?redirect"
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [],
+    "public_evidence": [
+      {
+        "url": "https://openreview.net/forum?id=LhhFsfAzL6",
+        "title_present": false,
+        "event": {
+          "provider": "OpenReview",
+          "url": "https://api2.openreview.net/notes?id=LhhFsfAzL6",
+          "status": "failure",
+          "reason": "http_403",
+          "attempts": [
+            {
+              "http": 403,
+              "curl": 0
+            }
+          ],
+          "detail": "{\"name\":\"ChallengeRequiredError\",\"message\":\"Challenge verification required (2026-10-09-11159976)\",\"status\":403,\"details\":{\"challengeUrl\":\"https://openreview.net/challenge?redirect"
+        },
+        "evidence_type": "search_located_candidate_access_blocked"
+      }
+    ],
+    "web_search_query": "\"One Coin Has Two Sides: Single Poistive Multi Label Learning from Salient Annotations\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-8a05dc1f7a41",
+    "title": "Discovering Attention Head Interactions in Vision Transformers",
+    "status": "success",
+    "reason": "official_program_title_authors",
+    "source_authors": [
+      "Zhenyu Lu",
+      "Yuheng Jia",
+      "Wei You",
+      "Hao Chen"
+    ],
+    "source_year": 2026,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W7221042064",
+        "title": "Discovering Attention Head Interactions in Vision Transformers",
+        "score": 1.0,
+        "authors": [],
+        "doi": "https://doi.org/10.1109/cvprf71909.2026.00324",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W3019223480",
+        "title": "Clustering-Aware Graph Construction: A Joint Learning Perspective",
+        "score": 0.4248,
+        "authors": [
+          "huiliu",
+          "junhuihou",
+          "samkwong",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/tsipn.2020.2988572",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W2947716341",
+        "title": "Clustering-aware Graph Construction: A Joint Learning Perspective",
+        "score": 0.4248,
+        "authors": [
+          "huiliu",
+          "junhuihou",
+          "samkwong",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.1905.01446",
+        "type": "preprint"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Discovering Attention Head Interactions in Vision Transformers",
+        "doi": "10.1109/cvprf71909.2026.00324",
+        "authors": [],
+        "score": 1.0
+      },
+      {
+        "title": "Constituent Attention for Vision Transformers",
+        "doi": "10.2139/ssrn.4398261",
+        "authors": [
+          "haofeizhang",
+          "haolingli",
+          "huiqiongwang",
+          "jiesong",
+          "mengqixue",
+          "minglisong"
+        ],
+        "score": 0.6598
+      },
+      {
+        "title": "Constituent Attention for Vision Transformers",
+        "doi": "10.1016/j.cviu.2023.103838",
+        "authors": [
+          "haofeizhang",
+          "haolingli",
+          "jiesong",
+          "lingyuliang",
+          "mengqixue",
+          "minglisong",
+          "wenqihuang"
+        ],
+        "score": 0.6598
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3ADiscovering+Attention+Head+Interactions+in+Vision+Transformers&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Discovering+Attention+Head+Interactions+in+Vision+Transformers&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [],
+    "public_evidence": [],
+    "web_search_query": "\"Discovering Attention Head Interactions in Vision Transformers\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-77b725acea33",
+    "title": "Mini-cluster Guided Long-tailed Deep Clustering",
+    "status": "failure",
+    "reason": "public_page_verified_no_openalex_match",
+    "source_authors": [
+      "Zhixin Li",
+      "Yuheng Jia",
+      "Guanliang Chen",
+      "Hui Liu",
+      "Junhui Hou"
+    ],
+    "source_year": 2026,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W4416786370",
+        "title": "You Can Trust Your Clustering Model: A Parameter-free Self-Boosting Plug-in for Deep Clustering",
+        "score": 0.5,
+        "authors": [
+          "hanyangli",
+          "huiliu",
+          "junhuihou",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.52202/085713-0473",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W7213399343",
+        "title": "SAGENet: Sub-cluster Aggregation Guided Enhancement for Imbalanced Attributed Graph Clustering",
+        "score": 0.4839,
+        "authors": [
+          "kexia",
+          "yuhengjia",
+          "zhixinli"
+        ],
+        "doi": "https://doi.org/10.1109/mlmc69743.2026.11686797",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W3191600673",
+        "title": "Attention-driven Graph Clustering Network",
+        "score": 0.4615,
+        "authors": [
+          "huiliu",
+          "junhuihou",
+          "yuhengjia",
+          "zhihaopeng"
+        ],
+        "doi": "https://doi.org/10.1145/3474085.3475276",
+        "type": "conference-paper"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Cluster-Guided Contrastive Graph Clustering Network",
+        "doi": "10.1609/aaai.v37i9.26285",
+        "authors": [
+          "enzhu",
+          "limingfang",
+          "qunzheng",
+          "sihangzhou",
+          "siweiwang",
+          "wenxuantu",
+          "xihongyang",
+          "xinwangliu",
+          "yueliu"
+        ],
+        "score": 0.6437
+      },
+      {
+        "title": "Three-way cluster-guided contrastive graph clustering",
+        "doi": "10.1016/j.patcog.2026.114313",
+        "authors": [
+          "pengzhou",
+          "yangliu",
+          "yixu"
+        ],
+        "score": 0.6364
+      },
+      {
+        "title": "Seed-Guided Deep Document Clustering",
+        "doi": "10.1007/978-3-030-45439-5_1",
+        "authors": [
+          "ericgaussier",
+          "mazarmoradifard",
+          "thibautthonet"
+        ],
+        "score": 0.6027
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AMini-cluster+Guided+Long-tailed+Deep+Clustering&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Mini-cluster+Guided+Long-tailed+Deep+Clustering&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/813ed01a11220fcdeed10e0d7da2de25-Abstract-Conference.html"
+    ],
+    "public_evidence": [
+      {
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/813ed01a11220fcdeed10e0d7da2de25-Abstract-Conference.html",
+        "event": {
+          "provider": "Public paper page",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/813ed01a11220fcdeed10e0d7da2de25-Abstract-Conference.html",
+          "status": "success",
+          "reason": "received",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        "title_present": true,
+        "listed_source_authors_present": [
+          "Zhixin Li",
+          "Yuheng Jia",
+          "Guanliang Chen",
+          "Hui Liu",
+          "Junhui Hou"
+        ]
+      }
+    ],
+    "web_search_query": "\"Mini-cluster Guided Long-tailed Deep Clustering\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-918df170a3ad",
+    "title": "Samples Are Not Equal: A Sample Selection Approach for Deep Clustering",
+    "status": "failure",
+    "reason": "public_page_verified_no_openalex_match",
+    "source_authors": [
+      "Zhengxing Jiao",
+      "Yaxin Hou",
+      "Jun Ma",
+      "Yuhang Li",
+      "Ding Ding",
+      "Yuheng Jia",
+      "Hui Liu",
+      "Junhui Hou"
+    ],
+    "source_year": 2026,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W4416954973",
+        "title": "ESMC: MLLM-Based Embedding Selection for Explainable Multiple Clustering",
+        "score": 0.5246,
+        "authors": [
+          "huiliu",
+          "junhuihou",
+          "xinyuewang",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2512.00725",
+        "type": "preprint"
+      },
+      {
+        "id": "https://openalex.org/W7138005932",
+        "title": "ESMC: MLLM-Based Embedding Selection for Explainable Multiple Clustering",
+        "score": 0.5246,
+        "authors": [
+          "huiliu",
+          "junhuihou",
+          "xinyuewang",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1609/aaai.v40i31.39867",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W4402742310",
+        "title": "Discriminative Low-Rank Representation for HSI Clustering",
+        "score": 0.4909,
+        "authors": [
+          "bohan",
+          "yuhengjia",
+          "zhixinli"
+        ],
+        "doi": "https://doi.org/10.1109/lgrs.2024.3465498",
+        "type": "article"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Optimized clustering sample selection for spectral reflectance recovery",
+        "doi": "10.1088/1612-202x/acfb73",
+        "authors": [
+          "guangyuanwu",
+          "shijunniu",
+          "yifanxiong"
+        ],
+        "score": 0.439
+      },
+      {
+        "title": "An Incremental Clustering Algorithm Based on Sample Selection",
+        "doi": "10.1109/icmtma.2017.0047",
+        "authors": [
+          "chenlei",
+          "wuchong"
+        ],
+        "score": 0.4248
+      },
+      {
+        "title": "K-Means Clustering Decision Approach in Data Hiding Sample Selection",
+        "doi": "10.1007/978-981-19-5443-6_34",
+        "authors": [
+          "sheetalsdhande",
+          "virendrapnikam"
+        ],
+        "score": 0.3729
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3ASamples+Are+Not+Equal%3A+A+Sample+Selection+Approach+for+Deep+Clustering&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AA+Sample+Selection+Approach+for+Deep+Clustering&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Samples+Are+Not+Equal%3A+A+Sample+Selection+Approach+for+Deep+Clustering&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/63ef323523f3be8b58ed9277cc747485-Abstract-Conference.html"
+    ],
+    "public_evidence": [
+      {
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/63ef323523f3be8b58ed9277cc747485-Abstract-Conference.html",
+        "event": {
+          "provider": "Public paper page",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/63ef323523f3be8b58ed9277cc747485-Abstract-Conference.html",
+          "status": "success",
+          "reason": "received",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        "title_present": true,
+        "listed_source_authors_present": [
+          "Zhengxing Jiao",
+          "Yaxin Hou",
+          "Jun Ma",
+          "Yuhang Li",
+          "Ding Ding",
+          "Yuheng Jia",
+          "Hui Liu",
+          "Junhui Hou"
+        ]
+      }
+    ],
+    "web_search_query": "\"Samples Are Not Equal: A Sample Selection Approach for Deep Clustering\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-82a7992c094e",
+    "title": "Learning from Sample Stability for Deep Clustering",
+    "status": "failure",
+    "reason": "public_page_verified_no_openalex_match",
+    "source_authors": [
+      "Zhixin Li",
+      "Yuheng Jia",
+      "Hui Liu",
+      "Junhui Hou"
+    ],
+    "source_year": 2025,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W4414360250",
+        "title": "Partial Label Clustering",
+        "score": 0.5455,
+        "authors": [
+          "fuchaoyang",
+          "yuhengjia",
+          "yutongxie"
+        ],
+        "doi": "https://doi.org/10.24963/ijcai.2025/743",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W4415247697",
+        "title": "Partial Label Clustering",
+        "score": 0.5455,
+        "authors": [
+          "fuchaoyang",
+          "yuhengjia",
+          "yutongxie"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2505.03207",
+        "type": "preprint"
+      },
+      {
+        "id": "https://openalex.org/W4392538633",
+        "title": "Towards Calibrated Deep Clustering Network",
+        "score": 0.5122,
+        "authors": [
+          "huiliu",
+          "jianhongcheng",
+          "junhuihou",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2403.02998",
+        "type": "preprint"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Learning from biased crowdsourced labeling with deep clustering",
+        "doi": "10.1016/j.eswa.2022.118608",
+        "authors": [
+          "feiyang",
+          "jingzhang",
+          "junhou",
+          "mingwu",
+          "qianmuli",
+          "victorssheng"
+        ],
+        "score": 0.66
+      },
+      {
+        "title": "Deep Learning for Clustering",
+        "doi": "10.1142/9789811297489_0010",
+        "authors": [],
+        "score": 0.6087
+      },
+      {
+        "title": "Learning Embedding Space for Clustering From Deep Representations",
+        "doi": "10.1109/bigdata.2018.8622629",
+        "authors": [
+          "parasdahal"
+        ],
+        "score": 0.4902
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3ALearning+from+Sample+Stability+for+Deep+Clustering&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Learning+from+Sample+Stability+for+Deep+Clustering&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [],
+    "public_evidence": [
+      {
+        "url": "https://proceedings.mlr.press/v267/li25am.html",
+        "event": {
+          "provider": "Public paper page",
+          "url": "https://proceedings.mlr.press/v267/li25am.html",
+          "status": "success",
+          "reason": "received",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        "title_present": true,
+        "listed_source_authors_present": [
+          "Zhixin Li",
+          "Yuheng Jia",
+          "Hui Liu",
+          "Junhui Hou"
+        ]
+      }
+    ],
+    "web_search_query": "\"Learning from Sample Stability for Deep Clustering\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-bddb535117ca",
+    "title": "ConMix: Contrastive Mixup at Representation Level for Long-tailed Deep Clustering",
+    "status": "failure",
+    "reason": "public_page_verified_no_openalex_match",
+    "source_authors": [
+      "Zhixin Li",
+      "Yuheng Jia"
+    ],
+    "source_year": 2025,
+    "source_links": [
+      "https://openreview.net/forum?id=3lH8WT0fhu"
+    ],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W4402742310",
+        "title": "Discriminative Low-Rank Representation for HSI Clustering",
+        "score": 0.6281,
+        "authors": [
+          "bohan",
+          "yuhengjia",
+          "zhixinli"
+        ],
+        "doi": "https://doi.org/10.1109/lgrs.2024.3465498",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W7160147156",
+        "title": "Boosting Class Representation via Semantically Related Instances for Robust Long-Tailed Learning with Noisy Labels",
+        "score": 0.4824,
+        "authors": [
+          "yanli",
+          "yuhengjia",
+          "zhuyingli"
+        ],
+        "doi": "https://doi.org/10.1109/iccv51701.2025.00149",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W4416954973",
+        "title": "ESMC: MLLM-Based Embedding Selection for Explainable Multiple Clustering",
+        "score": 0.4812,
+        "authors": [
+          "huiliu",
+          "junhuihou",
+          "xinyuewang",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2512.00725",
+        "type": "preprint"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Deep contrastive representation learning for multi-modal clustering",
+        "doi": "10.1016/j.neucom.2024.127523",
+        "authors": [
+          "qinli",
+          "quanxuegao",
+          "xiangdongzhang",
+          "yanglu"
+        ],
+        "score": 0.6769
+      },
+      {
+        "title": "ConMix: Contrastive Learning with Mixup Augmentation for Dialogue Summarization",
+        "doi": "10.1007/978-981-96-0847-8_18",
+        "authors": [
+          "jingxiao",
+          "zequanchen"
+        ],
+        "score": 0.5857
+      },
+      {
+        "title": "Progressively Balanced Supervised Contrastive Representation Learning for Long-Tailed Fault Diagnosis",
+        "doi": "10.1109/tim.2022.3151946",
+        "authors": [
+          "hemingzhang",
+          "hongweiwang",
+          "jiaxunlu",
+          "kema",
+          "pengpeng",
+          "shutingtao",
+          "yizhang"
+        ],
+        "score": 0.559
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AConMix%3A+Contrastive+Mixup+at+Representation+Level+for+Long-tailed+Deep+Clustering&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AContrastive+Mixup+at+Representation+Level+for+Long-tailed+Deep+Clustering&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=ConMix%3A+Contrastive+Mixup+at+Representation+Level+for+Long-tailed+Deep+Clustering&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [],
+    "public_evidence": [
+      {
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/0a1f690b558591412b5bddaf10de3b19-Abstract-Conference.html",
+        "event": {
+          "provider": "Public paper page",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/0a1f690b558591412b5bddaf10de3b19-Abstract-Conference.html",
+          "status": "success",
+          "reason": "received",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        "title_present": true,
+        "listed_source_authors_present": [
+          "Zhixin Li",
+          "Yuheng Jia"
+        ]
+      }
+    ],
+    "web_search_query": "\"ConMix: Contrastive Mixup at Representation Level for Long-tailed Deep Clustering\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-2c640db3fd61",
+    "title": "Complementary Label Learning with Positive Label Guessing and Negative Label Enhancement",
+    "status": "failure",
+    "reason": "public_page_verified_no_openalex_match",
+    "source_authors": [
+      "Yuhang Li",
+      "Zhuying Li",
+      "Yuheng Jia"
+    ],
+    "source_year": 2025,
+    "source_links": [
+      "https://openreview.net/forum?id=LPRxGZ7Oax"
+    ],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W4404387092",
+        "title": "Progressive label enhancement",
+        "score": 0.4571,
+        "authors": [
+          "jingwang",
+          "xingeng",
+          "yuhengjia",
+          "zhiqiangkou"
+        ],
+        "doi": "https://doi.org/10.1016/j.patcog.2024.111172",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W7133230324",
+        "title": "Partial Label Learning with Dissimilarity Propagation guided Candidate Label Shrinkage",
+        "score": 0.4516,
+        "authors": [
+          "fuchaoyang",
+          "yongqiangdong",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.52202/075280-1481",
+        "type": "conference-paper"
+      },
+      {
+        "id": "https://openalex.org/W4323345772",
+        "title": "Ensemble Clustering via Co-Association Matrix Self-Enhancement",
+        "score": 0.4511,
+        "authors": [
+          "ranwang",
+          "siruitao",
+          "yonghengwang",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1109/tnnls.2023.3249207",
+        "type": "article"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Multi-label Learning with Label Enhancement",
+        "doi": "10.1109/icdm.2018.00059",
+        "authors": [
+          "ningxu",
+          "ruifengshao",
+          "xingeng"
+        ],
+        "score": 0.6207
+      },
+      {
+        "title": "Partial Label Learning via Label Enhancement",
+        "doi": "10.1609/aaai.v33i01.33015557",
+        "authors": [
+          "jiaqilv",
+          "ningxu",
+          "xingeng"
+        ],
+        "score": 0.5812
+      },
+      {
+        "title": "Label Enhancement by Maintaining Positive and Negative Label Relation",
+        "doi": "10.1109/tkde.2021.3093099",
+        "authors": [
+          "fangwenzhang",
+          "xiuyijia",
+          "yunanlu"
+        ],
+        "score": 0.5468
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AComplementary+Label+Learning+with+Positive+Label+Guessing+and+Negative+Label+Enhancement&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AComplementary+Label+Learning+with+Positive+Label+Guessing&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=Complementary+Label+Learning+with+Positive+Label+Guessing+and+Negative+Label+Enhancement&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [],
+    "public_evidence": [
+      {
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/95b6e2ff961580e03c0a662a63a71812-Abstract-Conference.html",
+        "event": {
+          "provider": "Public paper page",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/95b6e2ff961580e03c0a662a63a71812-Abstract-Conference.html",
+          "status": "success",
+          "reason": "received",
+          "attempts": [
+            {
+              "http": 200,
+              "curl": 0
+            }
+          ]
+        },
+        "title_present": true,
+        "listed_source_authors_present": [
+          "Yuhang Li",
+          "Zhuying Li",
+          "Yuheng Jia"
+        ]
+      }
+    ],
+    "web_search_query": "\"Complementary Label Learning with Positive Label Guessing and Negative Label Enhancement\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  },
+  {
+    "id": "lab-60280e69a6e3",
+    "title": "When Missingness Meets Anomalies: A Tailored Low-rank Tensor Completion Approach for Traffic Data Recovery",
+    "status": "failure",
+    "reason": "expanded_search_no_verified_record",
+    "source_authors": [
+      "Liyang Hu",
+      "Yuheng Jia",
+      "Weijie Chen",
+      "Dongjie Liu",
+      "Jianke Cheng",
+      "Zhirui Ye"
+    ],
+    "source_year": 2024,
+    "source_links": [],
+    "closest_openalex": [
+      {
+        "id": "https://openalex.org/W4387385713",
+        "title": "A Flexible and Robust Tensor Completion Approach for Traffic Data Recovery With Low-Rankness",
+        "score": 0.6353,
+        "authors": [
+          "liyanghu",
+          "longhuiwen",
+          "weijiechen",
+          "yuhengjia",
+          "zhiruiye"
+        ],
+        "doi": "https://doi.org/10.1109/tits.2023.3319033",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W4415686844",
+        "title": "Adaptive and robust low-rank tensor completion for missing and corrupted traffic data recovery",
+        "score": 0.593,
+        "authors": [
+          "chengchuanan",
+          "huanliu",
+          "jingxinxia",
+          "weihuazhang",
+          "yanghe",
+          "yuhengjia"
+        ],
+        "doi": "https://doi.org/10.1080/15472450.2025.2576933",
+        "type": "article"
+      },
+      {
+        "id": "https://openalex.org/W4298052098",
+        "title": "A Parameter-free Nonconvex Low-rank Tensor Completion Model for Spatiotemporal Traffic Data Recovery",
+        "score": 0.573,
+        "authors": [
+          "chengchuanan",
+          "huliyang",
+          "jingxinxia",
+          "yanghe",
+          "yuhengjia",
+          "zhenbolu"
+        ],
+        "doi": "https://doi.org/10.48550/arxiv.2209.13786",
+        "type": "preprint"
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "title": "Dual-domain low-rank tensor completion for traffic data recovery",
+        "doi": "10.1016/j.apm.2025.116404",
+        "authors": [
+          "kaiyuanwang",
+          "nanxu",
+          "xiaobochen"
+        ],
+        "score": 0.6849
+      },
+      {
+        "title": "A Novel Nonconvex Low-Rank Tensor Completion Approach for Traffic Sensor Data Recovery From Incomplete Measurements",
+        "doi": "10.1109/tim.2023.3284929",
+        "authors": [
+          "kaiyuanwang",
+          "qiaolinye",
+          "xiaobochen",
+          "yuzhang",
+          "zuoyongli"
+        ],
+        "score": 0.6073
+      },
+      {
+        "title": "Adaptive and robust low-rank tensor completion for missing and corrupted traffic data recovery",
+        "doi": "10.1080/15472450.2025.2576933",
+        "authors": [
+          "chengchuanan",
+          "huanliu",
+          "jingxinxia",
+          "weihuazhang",
+          "yanghe",
+          "yuhengjia"
+        ],
+        "score": 0.593
+      }
+    ],
+    "queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AWhen+Missingness+Meets+Anomalies%3A+A+Tailored+Low-rank+Tensor+Completion+Approach+for+Traffic+Data+Recovery&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=title.search%3AA+Tailored+Low-rank+Tensor+Completion+Approach+for+Traffic+Data+Recovery&per_page=50",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      },
+      {
+        "provider": "Crossref",
+        "url": "https://api.crossref.org/works?query.title=When+Missingness+Meets+Anomalies%3A+A+Tailored+Low-rank+Tensor+Completion+Approach+for+Traffic+Data+Recovery&rows=10",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "author_corpus_queries": [
+      {
+        "provider": "OpenAlex",
+        "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5013880628%7CA5035903159%7CA5124822679%7CA5128259781%7CA5129706196%7CA5130681278%7CA5134969218%7CA5135598511%7CA5135876551%7CA5136628146%7CA5139056747%7CA5139730201%7CA5151043204%7CA5151882921%7CA5152031663&per_page=200&cursor=%2A",
+        "status": "success",
+        "reason": "received",
+        "attempts": [
+          {
+            "http": 200,
+            "curl": 0
+          }
+        ]
+      }
+    ],
+    "selected": null,
+    "official_listing_urls": [],
+    "public_evidence": [],
+    "web_search_query": "\"When Missingness Meets Anomalies: A Tailored Low-rank Tensor Completion Approach for Traffic Data Recovery\"",
+    "web_search_scope": "general web title / distinctive phrase search; primary pages recorded when found"
+  }
+]

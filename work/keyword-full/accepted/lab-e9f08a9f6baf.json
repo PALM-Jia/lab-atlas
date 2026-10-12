@@ -1,0 +1,25 @@
+{
+  "paper_id": "lab-e9f08a9f6baf",
+  "annotations": [
+    {
+      "keyword_id": "adversarial-robustness",
+      "exact_quote": "we investigate the adversarial robustness of DNN models on such complex classification tasks.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以DNN在对抗攻击下的鲁棒性为研究问题，并在复杂层次分类任务上分析该鲁棒性，符合对抗鲁棒性定义。"
+    },
+    {
+      "keyword_id": "classifier-ensemble",
+      "exact_quote": "we propose a two-stage hierarchical classification framework, which is composed of a coarse-grained classifier and a series of fine-grained classifiers.",
+      "evidence_field": "abstract",
+      "reason_zh": "框架由粗粒度分类器与一系列细粒度分类器组成，粗分类器为样本分配细粒度专家完成分类，符合按样本分配专家/多分类器协作的分类器集成定义。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "complex classification tasks for numerous classes with a hierarchical structure",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要指出类别具有层次结构，所提粗/细两阶段分类框架显式利用类别层次依赖，符合标签依赖或局部相关结构建模定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

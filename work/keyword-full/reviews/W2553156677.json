@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2553156677",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "label-enhancement",
+      "evidence_field": "abstract",
+      "exact_quote": "we convert the label of each image into a discrete label distribution",
+      "reason_zh": "首轮遗漏有原文支持的关键词。方法从每张图像的标签构建离散标签分布，属于从逻辑标签恢复或构建更细致标签分布的标记增强。"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "label-enhancement",
+        "evidence_field": "abstract",
+        "exact_quote": "we convert the label of each image into a discrete label distribution",
+        "reason_zh": "方法从每张图像的标签构建离散标签分布，属于从逻辑标签恢复或构建更细致标签分布的标记增强。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

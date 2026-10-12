@@ -1,0 +1,34 @@
+{
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_positive",
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "相邻视频帧的Markov概率依赖用于贝叶斯结构建模，摘要未说明邻域几何、图拉普拉斯或流形一致性正则；概率依赖本身不等同于图与流形正则化。",
+      "evidence_field": "abstract",
+      "exact_quote": "we introduce a Markov dependency between consecutive rows in the matrix (corresponding to consecutive frames in the video)"
+    }
+  ],
+  "paper_id": "W2141159272",
+  "patch": {
+    "abstentions": [
+      {
+        "keyword_id": "sparse-representation",
+        "reason_zh": "摘要只提到稀疏分量和稀疏离群项，未说明以字典、基向量或潜在特征表达样本，难确认满足稀疏表示定义。"
+      },
+      {
+        "keyword_id": "dimensionality-reduction",
+        "reason_zh": "低秩分量可能隐含低维表示，但摘要未把显式低维映射或维度压缩作为研究目标。"
+      },
+      {
+        "keyword_id": "graph-structure-learning",
+        "reason_zh": "虽引入相邻行Markov依赖并推断其属性，但未说明学习或修正样本间边、邻接或亲和矩阵。"
+      }
+    ],
+    "input_issues": [],
+    "remove_ids": [
+      "graph-manifold-regularization"
+    ],
+    "upsert_annotations": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2295107390",
+  "annotations": [
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "without training on any bounding box annotation",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以图像级标签训练，并明确无需边界框标注即实现物体定位，属于用粗粒度/不完整监督替代实例级真值的弱监督学习条件，且该条件是其研究重点。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

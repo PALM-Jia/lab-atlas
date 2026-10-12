@@ -1,0 +1,26 @@
+{
+  "paper_id": "W4405950430",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "半监督分类将有限标注与未标注样本共同使用，有限标注属于词表覆盖的不完整监督，且是标题明确的研究设定。",
+      "exact_quote": "multi-view semi-supervised classification",
+      "evidence_field": "title"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "multi-view semi-supervised classification",
+        "evidence_field": "title",
+        "reason_zh": "半监督分类将有限标注与未标注样本共同使用，有限标注属于词表覆盖的不完整监督，且是标题明确的研究设定。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

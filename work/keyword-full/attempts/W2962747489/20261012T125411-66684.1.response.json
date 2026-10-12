@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2962747489\",\"annotations\":[{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"mixed noise removal in HSIs\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以混合噪声去除为目标，从受污染的高光谱观测恢复数据，符合数据补全与恢复的研究任务。\"},{\"keyword_id\":\"hyperspectral-images\",\"exact_quote\":\"hyperspectral images (HSIs)\",\"evidence_field\":\"abstract\",\"reason_zh\":\"研究对象为具有密集光谱波段的HSIs，并处理其混合噪声，符合高光谱图像对象。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

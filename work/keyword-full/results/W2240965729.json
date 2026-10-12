@@ -1,0 +1,11 @@
+{
+  "paper_id": "W2240965729",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "multi-objective-optimization",
+      "reason_zh": "摘要提及率失真性能与比特分配优化，但未说明多目标帕累托求解，无法确认符合多目标优化定义。"
+    }
+  ],
+  "input_issues": []
+}

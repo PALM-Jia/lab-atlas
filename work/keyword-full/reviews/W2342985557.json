@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2342985557",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "提出半监督的标签约束表示学习，以有限标签指导数据结构学习，属于实质研究不完整监督条件，遗漏弱监督学习。",
+      "exact_quote": "we propose a novel semi-supervised approach, called label constrained sparse low-rank representation (LCSLRR), which incorporates the label information as an additional hard constraint",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "we propose a novel semi-supervised approach, called label constrained sparse low-rank representation (LCSLRR), which incorporates the label information as an additional hard constraint",
+        "evidence_field": "abstract",
+        "reason_zh": "提出半监督的标签约束表示学习，以有限标签指导数据结构学习，属于实质研究不完整监督条件，遗漏弱监督学习。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

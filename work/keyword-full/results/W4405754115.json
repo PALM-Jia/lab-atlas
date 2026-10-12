@@ -1,0 +1,24 @@
+{
+  "paper_id": "W4405754115",
+  "annotations": [
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "Multi-view clustering aims to study the complementary information across views and discover the underlying structure.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以多视图聚类为任务，显式利用跨视图互补信息，并联合学习视图特定表示与共识锚图，符合多视图学习设定。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "The optimal anchors from multiple views and the consensus anchor graph are learned with the orthogonal constraints.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确学习多视图最优锚与共识锚图，并在统一框架中构建和精炼该图结构，不是使用固定图。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "deep-clustering",
+      "reason_zh": "摘要提到学习视图特定特征表示并用于聚类，但未说明神经表示或聚类头，无法确定满足深度聚类定义。"
+    }
+  ],
+  "input_issues": []
+}

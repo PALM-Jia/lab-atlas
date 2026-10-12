@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2140886193",
+  "annotations": [
+    {
+      "keyword_id": "multi-objective-optimization",
+      "exact_quote": "continuous multiobjective optimization problem",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确针对连续多目标优化问题提出RM-MEDA，多目标优化是论文核心研究任务。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "The local principal component analysis algorithm is used for building such a model.",
+      "evidence_field": "abstract",
+      "reason_zh": "算法使用局部主成分分析构建分布模型，主成分分析通过低秩主成分近似局部结构，属于低秩建模方法。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,13 @@
+{
+  "paper_id": "W1967761844",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "combine multiple clusterings to yield a final superior clustering result",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将多个聚类结果融合为最终聚类，属于集成聚类/共识聚类任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

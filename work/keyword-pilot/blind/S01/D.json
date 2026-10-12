@@ -1,0 +1,21 @@
+{
+  "sample_id": "S01",
+  "annotations": [
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "only subjective inconsistent rankings from multiple rankers are associated with each instance",
+      "evidence_field": "abstract",
+      "reason_zh": "论文将多个排序者给出的主观且不一致排序作为实例监督信号，并专门提出方法处理该不完整一致性条件，符合不精确监督作为研究问题的定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "multi-label-learning",
+      "reason_zh": "标题称多标记排序，但摘要描述的是标签偏好排序与分布学习，未明确说明目标是为实例预测可同时成立的多个标记，难以确认符合词条定义。"
+    },
+    {
+      "keyword_id": "label-distribution-learning",
+      "reason_zh": "摘要称学习潜在偏好分布，但未说明这是各标签对实例的相对描述程度分布；偏好排序分布不足以确认该任务。"
+    }
+  ]
+}

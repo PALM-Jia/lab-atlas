@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2321547661",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "hyperspectral image (HSI) classification",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确研究对象为高光谱图像（HSI），并针对其分类任务。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "lightweight sparsity-based algorithm",
+      "evidence_field": "abstract",
+      "reason_zh": "所提 BTC 为基于稀疏性的算法，并使用有标注训练像素构成的字典产生残差，符合稀疏表示方法。"
+    },
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "the class label of each test pixel is determined based on minimal residual",
+      "evidence_field": "abstract",
+      "reason_zh": "方法为每个测试像素确定类别标签，属于对图像像素赋予像素级类别，满足图像分割定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

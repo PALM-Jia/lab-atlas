@@ -1,0 +1,54 @@
+{
+  "papers": [
+    {
+      "paper_id": "W2026595597",
+      "title": "Searching for repetitions in biological networks: methods, resources and tools",
+      "abstract": "We present here a compact overview of the data, models and methods proposed for the analysis of biological networks based on the search for significant repetitions. In particular, we concentrate on three problems widely studied in the literature: 'network alignment', 'network querying' and 'network motif extraction'. We provide (i) details of the experimental techniques used to obtain the main types of interaction data, (ii) descriptions of the models and approaches introduced to solve such problems and (iii) pointers to both the available databases and software tools. The intent is to lay out a useful roadmap for identifying suitable strategies to analyse cellular data, possibly based on the joint use of different interaction data types or analysis techniques."
+    },
+    {
+      "paper_id": "W2026699246",
+      "title": "RBF-Based QP Estimation Model for VBR Control in H.264/SVC",
+      "abstract": "In this paper, we propose a novel variable bit rate (VBR) controller for real-time H.264/scalable video coding (SVC) applications. The proposed VBR controller relies on the fact that consecutive pictures within the same scene often exhibit similar degrees of complexity, and consequently should be encoded using similar quantization parameter (QP) values for the sake of quality consistency. In order to prevent unnecessary QP fluctuations, the proposed VBR controller allows for just an incremental variation of QP with respect to that of the previous picture, focusing on the design of an effective method for estimating this QP variation. The implementation in H.264/SVC requires to locate a rate controller at each dependency layer (spatial or coarse grain scalability). In particular, the QP increment estimation at each layer is computed by means of a radial basis function (RBF) network that is specially designed for this purpose. Furthermore, the RBF network design process was conceived to provide an effective solution for a wide range of practical real-time VBR applications for scalable video content delivery. In order to assess the proposed VBR controller, two real-time application scenarios were simulated: mobile live streaming and Internet protocol television broadcast. It was compared to constant QP encoding and a recently proposed constant bit rate (CBR) controller for H.264/SVC. The experimental results show that the proposed method achieves remarkably consistent quality, outperforming the reference CBR controller in the two scenarios for all the spatio-temporal resolutions considered."
+    },
+    {
+      "paper_id": "W2027266161",
+      "title": "Multi-instance multi-label learning",
+      "abstract": "In this paper, we propose the MIML (Multi-Instance Multi-Label learning) framework where an example is described by multiple instances and associated with multiple class labels. Compared to traditional learning frameworks, the MIML framework is more convenient and natural for representing complicated objects which have multiple semantic meanings. To learn from MIML examples, we propose the MimlBoost and MimlSvm algorithms based on a simple degeneration strategy, and experiments show that solving problems involving complicated objects with multiple semantic meanings in the MIML framework can lead to good performance. Considering that the degeneration process may lose information, we propose the D-MimlSvm algorithm which tackles MIML problems directly in a regularization framework. Moreover, we show that even when we do not have access to the real objects and thus cannot capture more information from real objects by using the MIML representation, MIML is still useful. We propose the InsDif and SubCod algorithms. InsDif works by transforming single-instances into the MIML representation for learning, while SubCod works by transforming single-label examples into the MIML representation for learning. Experiments show that in some tasks they are able to achieve better performance than learning the single-instances or single-label examples directly."
+    },
+    {
+      "paper_id": "W2027878671",
+      "title": "Collaborative Sparse Regression for Hyperspectral Unmixing",
+      "abstract": "Sparse unmixing has been recently introduced in hyperspectral imaging as a framework to characterize mixed pixels. It assumes that the observed image signatures can be expressed in the form of linear combinations of a number of pure spectral signatures known in advance (e.g., spectra collected on the ground by a field spectroradiometer). Unmixing then amounts to finding the optimal subset of signatures in a (potentially very large) spectral library that can best model each mixed pixel in the scene. In this paper, we present a refinement of the sparse unmixing methodology recently introduced which exploits the usual very low number of endmembers present in real images, out of a very large library. Specifically, we adopt the collaborative (also called “multitask” or “simultaneous”) sparse regression framework that improves the unmixing results by solving a joint sparse regression problem, where the sparsity is simultaneously imposed to all pixels in the data set. Our experimental results with both synthetic and real hyperspectral data sets show clearly the advantages obtained using the new joint sparse regression strategy, compared with the pixelwise independent approach."
+    },
+    {
+      "paper_id": "W2027922120",
+      "title": "Locality-constrained Linear Coding for image classification",
+      "abstract": "The traditional SPM approach based on bag-of-features (BoF) requires nonlinear classifiers to achieve good image classification performance. This paper presents a simple but effective coding scheme called Locality-constrained Linear Coding (LLC) in place of the VQ coding in traditional SPM. LLC utilizes the locality constraints to project each descriptor into its local-coordinate system, and the projected coordinates are integrated by max pooling to generate the final representation. With linear classifier, the proposed approach performs remarkably better than the traditional nonlinear SPM, achieving state-of-the-art performance on several benchmarks. Compared with the sparse coding strategy [22], the objective function used by LLC has an analytical solution. In addition, the paper proposes a fast approximated LLC method by first performing a K-nearest-neighbor search and then solving a constrained least square fitting problem, bearing computational complexity of O(M + K2). Hence even with very large codebooks, our system can still process multiple frames per second. This efficiency significantly adds to the practical values of LLC for real applications."
+    },
+    {
+      "paper_id": "W2028067326",
+      "title": "Video Face Clustering via Constrained Sparse Representation",
+      "abstract": "In this paper, we focus on the problem of clustering faces in videos. Different from traditional clustering on a collection of facial images, a video provides some inherent benefits: faces from a face track must belong to the same person and faces from a video frame can not be the same person. These benefits can be used to enhance the clustering performance. More precisely, we convert the above benefits into must-link and cannot-link constraints. These constraints are further effectively incorporated into our novel algorithm, Video Face Clustering via Constrained Sparse Representation (CS-VFC). The CS-VFC utilizes the constraints in two stages, including sparse representation and spectral clustering. Experiments on real-world videos show the improvements of our algorithm over the state-of-the-art methods."
+    },
+    {
+      "paper_id": "W2028302281",
+      "title": "Low-Rank Matrix Approximation with Manifold Regularization",
+      "abstract": "This paper proposes a new model of low-rank matrix factorization that incorporates manifold regularization to the matrix factorization. Superior to the graph-regularized nonnegative matrix factorization, this new regularization model has globally optimal and closed-form solutions. A direct algorithm (for data with small number of points) and an alternate iterative algorithm with inexact inner iteration (for large scale data) are proposed to solve the new model. A convergence analysis establishes the global convergence of the iterative algorithm. The efficiency and precision of the algorithm are demonstrated numerically through applications to six real-world datasets on clustering and classification. Performance comparison with existing algorithms shows the effectiveness of the proposed method for low-rank factorization in general."
+    },
+    {
+      "paper_id": "W2028359993",
+      "title": "General Dimensional Multiple-Output Support Vector Regressions and Their Multiple Kernel Learning",
+      "abstract": "Support vector regression has been considered as one of the most important regression or function approximation methodologies in a variety of fields. In this paper, two new general dimensional multiple output support vector regressions (MSVRs) named SOCPL1 and SOCPL2 are proposed. The proposed methods are formulated in the dual space and their relationship with the previous works is clearly investigated. Further, the proposed MSVRs are extended into the multiple kernel learning and their training is implemented by the off-the-shelf convex optimization tools. The proposed MSVRs are applied to benchmark problems and their performances are compared with those of the previous methods in the experimental section."
+    },
+    {
+      "paper_id": "W2028851602",
+      "title": "Multilabel Ranking with Inconsistent Rankers",
+      "abstract": "While most existing multilabel ranking methods assume the availability of a single objective label ranking for each instance in the training set, this paper deals with a more common case where subjective inconsistent rankings from multiple rankers are associated with each instance. The key idea is to learn a latent preference distribution for each instance. The proposed method mainly includes two steps. The first step is to generate a common preference distribution that is most compatible to all the personal rankings. The second step is to learn a mapping from the instances to the preference distributions. The proposed preference distribution learning (PDL) method is applied to the problem of multilabel ranking for natural scene images. Experimental results show that PDL can effectively incorporate the information given by the inconsistent rankers, and perform remarkably better than the compared state-of-the-art multilabel ranking algorithms."
+    },
+    {
+      "paper_id": "W2029213856",
+      "title": "Characterization of the subdifferential of some matrix norms",
+      "abstract": null
+    }
+  ]
+}

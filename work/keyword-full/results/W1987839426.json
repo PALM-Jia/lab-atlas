@@ -1,0 +1,36 @@
+{
+  "paper_id": "W1987839426",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "view the expert's knowledge as constraints in the process of clustering",
+      "evidence_field": "abstract",
+      "reason_zh": "将专家知识作为约束指导聚类过程，符合有限监督/成对约束的半监督学习设定。"
+    },
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "selects an optimal subset of representative clustering solutions in the ensemble",
+      "evidence_field": "abstract",
+      "reason_zh": "论文构建聚类集成框架，从多个聚类解中选择代表性子集以形成共识，符合集成聚类定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "reason_zh": "仅提到使用binate约束的K-means，未说明对must-link/cannot-link进行扩展或传播，直接使用已知约束不等价。"
+    },
+    {
+      "keyword_id": "dimensionality-reduction",
+      "reason_zh": "使用特征选择进行基因选择，但摘要未体现显式低维映射/嵌入，主要作为去噪预处理，证据不足。"
+    },
+    {
+      "keyword_id": "confidence-calibration",
+      "reason_zh": "提到confidence factor用于构建共识矩阵，但未表明使预测置信度与正确概率相符，不满足校准定义。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "半监督专家约束可能与弱监督相关，但论文未以不完整/不精确标签替代实例级真值为设定，证据不足。"
+    }
+  ],
+  "input_issues": []
+}

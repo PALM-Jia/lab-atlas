@@ -1,0 +1,37 @@
+{
+  "paper_id": "W3082074365",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "non-negative matrix factorization (NMF)",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要以非负矩阵分解作为核心特征表示方法，并基于其构建回归与分类框架。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "semi-supervised nonnegative matrix factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题明确采用半监督NMF，利用有限标签与未标注数据进行特征表示和分类。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "to overcome the drawback of insufficient labels",
+      "evidence_field": "abstract",
+      "reason_zh": "将标签不足作为待解决的监督条件，符合不完整监督的弱监督学习定义。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "adaptive graph-based label propagation (refereed as AGLP) model is established",
+      "evidence_field": "abstract",
+      "reason_zh": "AGLP为自适应图标签传播，图/亲和关系随模型自适应确定，涉及图结构学习。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "adopts a local constraint to reflect the local structure of data",
+      "evidence_field": "abstract",
+      "reason_zh": "AGLP采用局部约束保持数据局部结构，对学习结果施加图/流形几何一致性约束。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

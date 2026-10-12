@@ -1,0 +1,13 @@
+{
+  "paper_id": "W1938929646",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "We present in this paper a superpixel segmentation algorithm called Linear Spectral Clustering (LSC)",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确提出超像素分割算法LSC，对图像像素进行区域划分，符合图像分割（包括超像素分割）的定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

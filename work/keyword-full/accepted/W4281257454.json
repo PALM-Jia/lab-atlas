@@ -1,0 +1,25 @@
+{
+  "paper_id": "W4281257454",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "spatiotemporal traffic data imputation",
+      "evidence_field": "title",
+      "reason_zh": "标题直接表明研究时空交通数据的插补，即估计缺失观测值并恢复原始数据。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "treating the imputation problem as the low-rank tensor completion (LRTC)",
+      "evidence_field": "abstract",
+      "reason_zh": "论文将插补问题建模为低秩张量补全，并用截断Schatten p-范数近似张量秩，显式利用低秩结构。"
+    },
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "impute missing spatiotemporal traffic data under the LRTC framework",
+      "evidence_field": "abstract",
+      "reason_zh": "研究对象为时空交通数据，并将其建模为时间区间、地点、天组成的张量。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

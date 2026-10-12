@@ -1,0 +1,21 @@
+{
+  "paper_id": "lab-05c8a4098fe0",
+  "verdict": "revise",
+  "issues": [
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "reason_zh": "可靠关系来自基聚类结果，是无监督共关联信息增强；原文没有must-link/cannot-link监督约束，不能仅因传播成对可靠信息就选成对约束传播。",
+      "exact_quote": "we first extract the high-confidence (HC) information from the base clusterings to form a sparse HC matrix.",
+      "kind": "false_positive",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "upsert_annotations": [],
+    "abstentions": [],
+    "remove_ids": [
+      "pairwise-constraint-propagation"
+    ],
+    "input_issues": []
+  }
+}

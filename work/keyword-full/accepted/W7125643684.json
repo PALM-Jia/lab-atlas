@@ -1,0 +1,25 @@
+{
+  "paper_id": "W7125643684",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "Fuzzy Ensemble Clustering Method via Learning Enhanced Fuzzy Connective Matrices",
+      "evidence_field": "title",
+      "reason_zh": "标题明确为模糊集成聚类，融合多个基础聚类/模糊连接矩阵以获得共识聚类划分。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "At the sample level, an adaptive neighborhood learning mechanism is proposed to establish localized connections among samples.",
+      "evidence_field": "abstract",
+      "reason_zh": "提出自适应邻域学习机制，显式建立样本间局部连接/亲和关系，属于学习或修正图结构。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "incorporating a Laplacian rank constraint into the enhanced fuzzy connective matrices",
+      "evidence_field": "abstract",
+      "reason_zh": "引入拉普拉斯秩约束，用图拉普拉斯结构约束增强模糊连接矩阵的学习结果。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

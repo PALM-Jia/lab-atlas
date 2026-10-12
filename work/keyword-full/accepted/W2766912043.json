@@ -1,0 +1,32 @@
+{
+  "paper_id": "W2766912043",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "Co-saliency detection aims at extracting the common salient regions from an image group containing two or more relevant images.",
+      "evidence_field": "abstract",
+      "reason_zh": "该任务从图像组中提取共同显著区域，属于像素级区域/前景区域划分。"
+    },
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "Different from the most existing co-saliency methods focusing on RGB images, this paper proposes a novel co-saliency detection model for RGBD images, which utilizes the depth information to enhance identification of co-saliency.",
+      "evidence_field": "abstract",
+      "reason_zh": "RGBD 图像提供 RGB 与深度两个互补观测，论文显式引入并利用深度信息增强共同显著性识别。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "reason_zh": "摘要提到 multi-constraint feature matching 和 cross label propagation，但未说明必须/不可链接监督或仅传播不相似关系，无法确认满足定义。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "多约束特征匹配表示图像间约束关系，但未说明学习或修正样本间边、邻接或亲和矩阵，缺定义所需证据。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "cross label propagation 可能涉及图上一致性，但摘要未提邻域、图拉普拉斯或流形约束，难判是否满足定义。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2585293115",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "Superpixels group perceptually similar pixels to create visually meaningful entities while heavily reducing the number of primitives for subsequent processing steps.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以超像素将感知相似像素分组为视觉实体，属于词表定义中的超像素分割，因此满足图像分割任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

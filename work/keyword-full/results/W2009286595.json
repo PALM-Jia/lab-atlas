@@ -1,0 +1,30 @@
+{
+  "paper_id": "W2009286595",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "we propose a new semisupervised learning (SSL) algorithm for remotely sensed hyperspectral image classification",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确提出半监督学习算法，结合有标注与无标注训练样本进行高光谱图像分类。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "which exploits both hard and soft labels. In our terminology, these labels respectively correspond to labeled and unlabeled training samples",
+      "evidence_field": "abstract",
+      "reason_zh": "训练监督由有标注样本和无标注样本组成，属于不完整监督，并作为方法的核心研究条件。"
+    },
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "remotely sensed hyperspectral image classification",
+      "evidence_field": "abstract",
+      "reason_zh": "研究对象为高光谱图像分类，并在真实高光谱图像上评估方法。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "pseudo-label-self-training",
+      "reason_zh": "摘要仅提到对无标注样本使用软标签并与硬标签自学习算法比较，未明确软标签由模型预测产生并作为后续训练信号，机制证据不足。"
+    }
+  ],
+  "input_issues": []
+}

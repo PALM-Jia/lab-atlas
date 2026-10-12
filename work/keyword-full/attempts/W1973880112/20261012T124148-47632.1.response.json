@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W1973880112\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"image segmentation\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确该方法用于图像分割，属于对图像像素划分区域的任务，符合图像分割定义。\"}],\"abstentions\":[{\"keyword_id\":\"graph-manifold-regularization\",\"reason_zh\":\"标题仅提到 spatial information，未说明是否采用图拉普拉斯或流形邻域一致性约束，无法确认满足图与流形正则化定义。\"}],\"input_issues\":[]}"
+}

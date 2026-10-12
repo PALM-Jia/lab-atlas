@@ -1,0 +1,28 @@
+{
+  "paper_id": "W7167550997",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "Ensemble clustering aims to derive a more robust consensus result from a set of base clustering results.",
+      "evidence_field": "abstract",
+      "reason_zh": "以融合多个基聚类结果得到更稳健的共识划分为研究任务，符合集成聚类定义。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "DREAM introduces a mapping matrix to filter redundant information in the hypergraph, and reconstructs the hypergraph via matrix factorization to obtain the anchor similarity matrix.",
+      "evidence_field": "abstract",
+      "reason_zh": "通过映射过滤并重建超图得到锚点相似度矩阵，属于学习/修正样本间高阶关系结构。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "摘要仅提 matrix factorization 用于重建超图，未明确低秩约束或低秩分解目标；一般矩阵分解不自动支持低秩建模。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "虽使用超图并做一致性对齐，但未说明图拉普拉斯/流形正则化或几何一致性约束，无法确定属于该机制。"
+    }
+  ],
+  "input_issues": []
+}

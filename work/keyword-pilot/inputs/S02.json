@@ -1,0 +1,5 @@
+{
+  "sample_id": "S02",
+  "title": "Discriminative Low-Rank Representation for HSI Clustering",
+  "abstract": "We exploit the hyperspectral image (HSI) clustering problem, which partitions an input HSI into several groups without relying on any supervision information. The previous methods mainly focus on developing an HSI clustering technique, which neglects learning a discriminative representation. To this end, this letter proposes a novel discriminative low-rank representation method to exploit the spatial and spectral information of HSIs. The proposed method is formulated as a concave-convex optimization problem and solved by alternating direction method of multipliers. By applying a simple clustering technique (such as K-means) on the obtained discriminative low-rank representation, our method can produce better clustering performance than the state-of-the-art HSI clustering methods. Experiments on four benchmark datasets confirm the superior clustering performance of the proposed method. The code of this letter is available at:https://github.com/LZX-001/Discriminative_Low_Rank_Representation_for _HSI_Clustering."
+}

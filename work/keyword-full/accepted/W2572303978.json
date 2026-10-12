@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2572303978",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral Imagery",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以高光谱图像为分类对象，摘要进一步说明HSI数据与分类任务，满足高光谱图像处理定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

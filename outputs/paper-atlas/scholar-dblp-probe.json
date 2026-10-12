@@ -1,0 +1,64 @@
+{
+  "checked_at": "2026-10-10T09:57:19.795425+00:00",
+  "new_citation_counts": 0,
+  "attempts": [
+    {
+      "source": "google_scholar_profile",
+      "url": "https://scholar.google.com/citations?user=iEW0KRUAAAAJ&hl=en&pagesize=100",
+      "reason": "URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+    },
+    {
+      "source": "dblp_peek",
+      "url": "https://dblp.org/search/publ/api?q=PEEK+Partial+Label+Learning+Empowered+External+Knowledge&format=json&h=5",
+      "reason": "DBLP API returned bot-verification HTML instead of JSON",
+      "http": 200,
+      "response_title": "Making sure you're not a bot!",
+      "file": "work/dblp_peek-probe.txt"
+    },
+    {
+      "source": "dblp_minicluster",
+      "url": "https://dblp.org/search/publ/api?q=Mini-cluster+Guided+Long-tailed+Deep+Clustering&format=json&h=5",
+      "reason": "DBLP API returned bot-verification HTML instead of JSON",
+      "http": 200,
+      "response_title": "Making sure you're not a bot!",
+      "file": "work/dblp_minicluster-probe.txt"
+    },
+    {
+      "source": "dblp_noise",
+      "url": "https://dblp.org/search/publ/api?q=Noise+Separation+guided+Candidate+Label+Reconstruction&format=json&h=5",
+      "reason": "DBLP API returned bot-verification HTML instead of JSON",
+      "http": 200,
+      "response_title": "Making sure you're not a bot!",
+      "file": "work/dblp_noise-probe.txt"
+    },
+    {
+      "source": "google_scholar_profile_web_tool",
+      "url": "https://scholar.google.com/citations?user=iEW0KRUAAAAJ&hl=en",
+      "http": 429,
+      "reason": "Google Scholar public author profile returned Too Many Requests"
+    }
+  ],
+  "capabilities": {
+    "google_scholar": "Independent Cited by counts; public author-profile lookup limited by access failures in this run",
+    "dblp": "Publication identity metadata; displayed citation data sourced from Semantic Scholar/OpenCitations, not independent DBLP counts"
+  },
+  "documentation": [
+    "https://scholar.google.com/intl/en-US/scholar/help.html",
+    "https://dblp.org/faq/",
+    "https://blog.dblp.org/2024/09/09/introducing-our-public-sparql-query-service/"
+  ],
+  "dblp_verified_public_record": {
+    "title": "Noise Separation guided Candidate Label Reconstruction for Noisy Partial Label Learning",
+    "url": "https://dblp.org/rec/conf/iclr/PengJY0Z25",
+    "authors": [
+      "Xiaorui Peng",
+      "Yuheng Jia",
+      "Fuchao Yang",
+      "Ran Wang",
+      "Min-Ling Zhang"
+    ],
+    "venue": "ICLR 2025",
+    "evidence_url": "https://dblp.org/pid/160/7861.html",
+    "adapter": "web tool; cached author page"
+  }
+}

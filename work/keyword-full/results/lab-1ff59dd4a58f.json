@@ -1,0 +1,24 @@
+{
+  "paper_id": "lab-1ff59dd4a58f",
+  "annotations": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "we exploit the low-rankness of an HRSI robustly in both spatial and spectral domains",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以低秩近似/低秩性建模高光谱图像的空间与谱域结构，是所提GLB-LRA方法的核心机制。"
+    },
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "a hyperspectral remote sensing image (HRSI)",
+      "evidence_field": "abstract",
+      "reason_zh": "研究对象是高光谱遥感图像，并以提升其分类精度为目标，满足高光谱图像应用对象定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "contrastive-learning",
+      "reason_zh": "摘要仅称增大同类像素相似度并提升异类可区分性，未说明采用视图/正负样本对比、对比损失或中心对比机制，无法确认构成独立的对比学习。"
+    }
+  ],
+  "input_issues": []
+}

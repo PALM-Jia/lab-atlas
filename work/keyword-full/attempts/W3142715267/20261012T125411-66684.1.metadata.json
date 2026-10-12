@@ -1,0 +1,25 @@
+{
+  "paper_id": "W3142715267",
+  "attempt": 1,
+  "started_at": "2026-10-12T12:57:05.141156+00:00",
+  "id": "10b46b5e-814f-45e6-b9f3-c2b936762996",
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 7196,
+    "completion_tokens": 6822,
+    "total_tokens": 14018,
+    "prompt_tokens_details": {
+      "cached_tokens": 6912
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 6517
+    },
+    "prompt_cache_hit_tokens": 6912,
+    "prompt_cache_miss_tokens": 284
+  },
+  "finish_reason": "stop",
+  "status": 200,
+  "duration_seconds": 44.453,
+  "errors": [],
+  "valid": true
+}

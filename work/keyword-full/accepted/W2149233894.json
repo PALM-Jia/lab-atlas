@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2149233894",
+  "annotations": [
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "generate the regularity preserved superpixels",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出生成保持规则性的超像素新方法，属于对图像像素划分区域的超像素分割研究。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

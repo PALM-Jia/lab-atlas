@@ -1,0 +1,28 @@
+{
+  "paper_id": "W2998178630",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "We map these graphs to a latent space and cluster them.",
+      "evidence_field": "abstract",
+      "reason_zh": "将姿态图映射到隐空间后聚类，以聚类软分配表示动作，符合基于学习表示/聚类头获得数据划分的深度聚类核心机制。"
+    },
+    {
+      "keyword_id": "bayesian-inference",
+      "exact_quote": "Then, we use a Dirichlet process based mixture, that is useful for handling proportional data such as our soft-assignment vectors, to determine if an action is normal or not.",
+      "evidence_field": "abstract",
+      "reason_zh": "使用 Dirichlet 过程混合模型对软分配比例数据建模并判定正常/异常，属于基于先验与概率模型的后验/近似推断。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-neural-networks",
+      "reason_zh": "摘要提及姿态图和图嵌入，但未说明使用图卷积或图上可学习消息传递，无法确认是否为图神经网络。"
+    },
+    {
+      "keyword_id": "class-imbalance",
+      "reason_zh": "摘要提到粗粒度数据集中正常动作少、其他动作异常，但未说明显式处理类别或簇样本量不均衡，无法判定。"
+    }
+  ],
+  "input_issues": []
+}

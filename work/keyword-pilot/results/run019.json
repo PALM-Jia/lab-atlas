@@ -1,0 +1,1 @@
+{"sample_id":"S05","annotations":[],"abstentions":[{"keyword_id":"nonnegative-matrix-factorization","reason_zh":"标题提到非负谱聚类，摘要提到对聚类指示矩阵施加非负约束，但未说明采用非负因子分解，证据不足以确认该方法。"}]}

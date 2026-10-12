@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"lab-fdadc630f8db\",\"annotations\":[{\"keyword_id\":\"label-enhancement\",\"exact_quote\":\"Label Enhancement\",\"evidence_field\":\"title\",\"reason_zh\":\"标题直接以标签增强为研究任务，旨在从标签空间构建更细致的标签信息，符合从逻辑标签恢复或构建更细致标签分布的定义。\"}],\"abstentions\":[{\"keyword_id\":\"graph-manifold-regularization\",\"reason_zh\":\"标题提到“Manifold Fusion”，但未说明是否用邻域、图拉普拉斯或超图施加几何一致性约束，无法确认满足流形正则化定义。\"}],\"input_issues\":[]}"
+}

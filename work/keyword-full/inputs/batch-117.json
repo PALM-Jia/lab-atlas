@@ -1,0 +1,54 @@
+{
+  "papers": [
+    {
+      "paper_id": "W2625093932",
+      "title": "Convex Optimization with Sparsity-Inducing Norms",
+      "abstract": "International audience"
+    },
+    {
+      "paper_id": "W2625430291",
+      "title": "State-of-the-Art Methods for Brain Tissue Segmentation: A Review",
+      "abstract": "Brain tissue segmentation is one of the most sought after research areas in medical image processing. It provides detailed quantitative brain analysis for accurate disease diagnosis, detection, and classification of abnormalities. It plays an essential role in discriminating healthy tissues from lesion tissues. Therefore, accurate disease diagnosis and treatment planning depend merely on the performance of the segmentation method used. In this review, we have studied the recent advances in brain tissue segmentation methods and their state-of-the-art in neuroscience research. The review also highlights the major challenges faced during tissue segmentation of the brain. An effective comparison is made among state-of-the-art brain tissue segmentation methods. Moreover, a study of some of the validation measures to evaluate different segmentation methods is also discussed. The brain tissue segmentation, content in terms of methodologies, and experiments presented in this review are encouraging enough to attract researchers working in this field."
+    },
+    {
+      "paper_id": "W2626285892",
+      "title": "Ensemble Extreme Learning Machine for Multi-instance Learning",
+      "abstract": "Multi-instance learning (MIL) is a classification approach for classifying on a collection of instances which each group is represented as a bag. The main task of MIL is to learn from labels and features of instances to produce a model to predict a label of a testing bag. Traditional MIL algorithms were proposed to address the MIL problem, but most of the algorithms take a large time scale for their training process since they have to computing the parameter tuning. To address the learning time problem, the multi-instance learning method based on extreme learning machine (ELM-MIL) was proposed. However, the randomly generated parameters of ELM-MIL may reduce its generalization performance. Therefore, we proposed a new method to improve the generalization performance of the ELM-MIL which the new method is based on the ensemble with majority voting approach named the ensemble extreme learning machine for multi-instance learning (E-ELM-MIL). To evaluate the new method, several benchmark datasets were studied in this paper. From experimental results show that E-ELM-MIL outperforms ELM-MIL and the other state of the art MIL algorithm."
+    },
+    {
+      "paper_id": "W2626361187",
+      "title": "Training DCNN by Combining Max-Margin, Max-Correlation Objectives, and Correntropy Loss for Multilabel Image Classification",
+      "abstract": "In this paper, we build a multilabel image classifier using a general deep convolutional neural network (DCNN). We propose a novel objective function that consists of three parts, i.e., max-margin objective, max-correlation objective, and correntropy loss. The max-margin objective explicitly enforces that the minimum score of positive labels must be larger than the maximum score of negative labels by a predefined margin, which not only improves accuracies of the multilabel classifier, but also eases the threshold determination. The max-correlation objective can make the DCNN model learn a latent semantic space, which maximizes the correlations between the feature vectors of the training samples and their corresponding ground-truth label vectors projected into this space. Instead of using the traditional softmax loss, we adopt the correntropy loss from the information theory field to minimize the training errors of the DCNN model. The proposed framework can be end-to-end trained. Comprehensive experimental evaluations on Pascal VOC 2007 and MIR Flickr 25K multilabel benchmark data sets with four DCNN models, i.e., AlexNet, VGG-16, GoogLeNet, and ResNet demonstrate that the proposed objective function can remarkably improve the performance accuracies of a DCNN model for the task of multilabel image classification."
+    },
+    {
+      "paper_id": "W2626434225",
+      "title": "Subspace Segmentation by Correlation Adaptive Regression",
+      "abstract": "Subspace segmentation aims to segment a given data set into clusters with each cluster corresponding to a subspace. Most recent works focus on subspace representation-based methods, which construct the affinity matrix based on the subspace representation of the data points. Ideally, the affinity matrix should be inter-cluster sparse and intra-cluster uniform. The inter-cluster sparsity guarantees segmenting data into different subspaces from which they are originally drawn and the intra-cluster uniformity encourages clustering highly correlated data together. Most previous methods partly satisfy these properties and cannot obtain ideal results. To satisfy both properties, we propose an explicit data correlation adaptive regression model for the subspace representation. The proposed model essentially uses l2-norm on the coefficients of highly correlated data points while l1-norm on that of less correlated data points. The l2-norm tends to enforce the coefficients corresponding to highly correlated data have the grouping effect, while the l1-norm tends to enforce the coefficients corresponding to uncorrelated data to be zero. So, the proposed model can ensure the affinity matrix have two attractive properties: inter-subspace sparsity and intra-cluster uniformity. Experimental results on several commonly used clustering data sets show that our method performs better than the state-of-the-art methods."
+    },
+    {
+      "paper_id": "W2626495487",
+      "title": "Face Clustering: Representation and Pairwise Constraints",
+      "abstract": "Clustering face images according to their latent identity has two important applications: 1) grouping a collection of face images when no external labels are associated with images, and 2) indexing for efficient large scale face retrieval. The clustering problem is composed of two key parts: representation and similarity metric for face images, and choice of the partition algorithm. We first propose a representation based on ResNet, which has been shown to perform very well in image classification problems. Given this representation, we design a clustering algorithm, Conditional Pairwise Clustering (ConPaC), which directly estimates the adjacency matrix only based on the similarities between face images. This allows a dynamic selection of number of clusters and retains pairwise similarities between faces. ConPaC formulates the clustering problem as a Conditional Random Field model and uses Loopy Belief Propagation to find an approximate solution for maximizing the posterior probability of the adjacency matrix. Experimental results on two benchmark face datasets (LFW and IJB-B) show that ConPaC outperforms well known clustering algorithms such as k-means, spectral clustering, and approximate Rank-order. Additionally, our algorithm can naturally incorporate pairwise constraints to work in a semi-supervised way that leads to improved clustering performance. We also propose a k-NN variant of ConPaC, which has a linear time complexity given a k-NN graph, suitable for large datasets."
+    },
+    {
+      "paper_id": "W2648561407",
+      "title": "Incorporating Diversity and Informativeness in Multiple-Instance Active Learning",
+      "abstract": "Multiple-instance active learning (MIAL) is a paradigm to collect sufficient training bags for a multiple-instance learning (MIL) problem, by selecting and querying the most valuable unlabeled bags iteratively. Existing works on MIAL evaluate an unlabeled bag by its informativeness with regard to the current classifier, but neglect the internal distribution of its instances, which can reflect the diversity of the bag. In this paper, two diversity criteria, i.e., clustering-based diversity and fuzzy rough set based diversity, are proposed for MIAL by utilizing a support vector machine (SVM) based MIL classifier. In the first criterion, a kernel k-means clustering algorithm is used to explore the hidden structure of the instances in the feature space of the SVM, and the diversity degree of an unlabeled bag is measured by the number of unique clusters covered by the bag. In the second criterion, the lower approximations in fuzzy rough sets are used to define a new concept named dissimilarity degree, which depicts the uniqueness of an instance so as to measure the diversity degree of a bag. By incorporating the proposed diversity criteria with existing informativeness measurements, new MIAL algorithms are developed, which can select bags with both high informativeness and diversity. Experimental comparisons demonstrate the feasibility and effectiveness of the proposed methods."
+    },
+    {
+      "paper_id": "W2691337902",
+      "title": "Robust and Efficient Computation of Eigenvectors in a Generalized Spectral Method for Constrained Clustering",
+      "abstract": null
+    },
+    {
+      "paper_id": "W2715319929",
+      "title": "Multilabel Classification: Problem Analysis, Metrics and Techniques",
+      "abstract": null
+    },
+    {
+      "paper_id": "W2724213014",
+      "title": "Deep Representation Learning With Part Loss for Person Re-Identification",
+      "abstract": "Learning discriminative representations for unseen person images is critical for person Re-Identification (ReID). Most of current approaches learn deep representations in classification tasks, which essentially minimizes the empirical classification risk on the training set. As shown in our experiments, such representations easily get over-fitted on a discriminative human body part on the training set. To gain the discriminative power on unseen person images, we propose a deep representation learning procedure named Part Loss Network (PL-Net), to minimize both the empirical classification risk on training person images and the representation learning risk on unseen person images. The representation learning risk is evaluated by the proposed part loss, which automatically detects human body parts, and computes the person classification loss on each part separately. Compared with traditional global classification loss, simultaneously considering part loss enforces the deep network to learn representations for different body parts and gain the discriminative power on unseen persons. Experimental results on three person ReID datasets, i.e., Market1501, CUHK03, VIPeR, show that our representation outperforms existing deep representations."
+    }
+  ]
+}

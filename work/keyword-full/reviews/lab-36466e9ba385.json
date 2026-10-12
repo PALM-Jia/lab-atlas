@@ -1,0 +1,31 @@
+{
+  "paper_id": "lab-36466e9ba385",
+  "verdict": "revise",
+  "issues": [
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "方法以少量成对约束替代充分实例级真值，且将该监督条件用于引导相似矩阵学习；半监督并不排除词表中独立的弱监督设定。",
+      "exact_quote": "a small amount of supervisory information in the form of pairwise constraints",
+      "kind": "false_negative",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "reason_zh": "方法以少量成对约束替代充分实例级真值，且将该监督条件用于引导相似矩阵学习；半监督并不排除词表中独立的弱监督设定。",
+        "exact_quote": "a small amount of supervisory information in the form of pairwise constraints",
+        "evidence_field": "abstract"
+      }
+    ],
+    "abstentions": [
+      {
+        "keyword_id": "low-rank-modeling",
+        "reason_zh": "摘要只提对称非负矩阵分解，未明确将低秩约束或低秩近似作为独立机制。"
+      }
+    ],
+    "remove_ids": [],
+    "input_issues": []
+  }
+}

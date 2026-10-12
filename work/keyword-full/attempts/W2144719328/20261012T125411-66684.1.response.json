@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2144719328\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"Nonnegative matrix factorization (NMF)\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以非负矩阵分解为核心方法与数据表示，围绕其提出MD-NMF并讨论优化。\"},{\"keyword_id\":\"graph-manifold-regularization\",\"exact_quote\":\"we introduce the manifold regularization and the margin maximization to NMF\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文将流形正则化引入NMF，利用数据局部几何施加几何一致性约束。\"}],\"abstentions\":[{\"keyword_id\":\"low-rank-modeling\",\"reason_zh\":\"论文使用NMF与矩阵分解，但摘要未明确低秩约束、秩选择或低秩近似目标，定义证据不足。\"},{\"keyword_id\":\"dimensionality-reduction\",\"reason_zh\":\"NMF可作为数据表示，但摘要未以显式低维映射或维度压缩为研究目标，缺少定义所需证据。\"}],\"input_issues\":[]}"
+}

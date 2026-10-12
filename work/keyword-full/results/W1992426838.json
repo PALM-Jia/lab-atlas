@@ -1,0 +1,13 @@
+{
+  "paper_id": "W1992426838",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "solving a regularized image deblurring problem",
+      "evidence_field": "abstract",
+      "reason_zh": "论文将正则化图像去模糊作为应用任务，去模糊旨在从模糊/污染观测恢复原始图像数值，符合数据恢复任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

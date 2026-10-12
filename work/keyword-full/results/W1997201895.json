@@ -1,0 +1,19 @@
+{
+  "paper_id": "W1997201895",
+  "annotations": [
+    {
+      "keyword_id": "subspace-clustering",
+      "exact_quote": "we address the subspace clustering problem",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将子空间聚类作为研究问题，目标是把来自多个子空间并集的样本聚类到各自子空间。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "we propose a novel objective function named Low-Rank Representation (LRR), which seeks the lowest rank representation among all the candidates",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要提出低秩表示目标函数，显式追求最低秩表示，属于对数据表示结构的低秩建模。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

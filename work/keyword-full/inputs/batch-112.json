@@ -1,0 +1,54 @@
+{
+  "papers": [
+    {
+      "paper_id": "W2586793539",
+      "title": "Multiscale Superpixel-Based Sparse Representation for Hyperspectral Image Classification",
+      "abstract": "Recently, superpixel segmentation has been proven to be a powerful tool for hyperspectral image (HSI) classification. Nonetheless, the selection of the optimal superpixel size is a nontrivial task. In addition, compared with single-scale superpixel segmentation, the same image segmented on a different scale can obtain different structure information. To overcome such a drawback also utilizing the structural information, a multiscale superpixel-based sparse representation (MSSR) algorithm for the HSI classification is proposed. Specifically, a modified segmentation strategy of multiscale superpixels is firstly applied on the HSI. Once the superpixels on different scales are obtained, the joint sparse representation classification is used to classify the multiscale superpixels. Furthermore, majority voting is utilized to fuse the labels of different scale superpixels and to obtain the final classification result. Two merits are realized by the MSSR. First, multiscale information fusion can more effectively explore the spatial information of HSI. Second, in the multiscale superpixel segmentation, except for the first scale, the superpixel number on a different scale for different HSI datasets can be adaptively changed based on the spatial complexity of the corresponding HSI. Experiments on four real HSI datasets demonstrate the qualitative and quantitative superiority of the proposed MSSR algorithm over several well-known classifiers."
+    },
+    {
+      "paper_id": "W2587456036",
+      "title": "Phase Congruency based edge saliency detection and rate control for perceptual image and video coding",
+      "abstract": "Phase Congruency (PC) features are firstly introduced into image and video coding field in this paper. As an effective tool to measure the edge information for image textures, PC change can be used to evaluate the compression loss, i.e. the coding distortions in image and video coding. Firstly, the compression influences on PC maps are given and analyzed. Secondly, the relationship between the consumed bits and the PC distortion are modeled. Lastly, the Mean-Squared-Error (MSE) based and PC distortion based optimized Coding Tree Unit (CTU) level bit allocation solutions are combined as a two step bit allocation and rate control method for intra frames for High Efficiency Video Coding (HEVC). Experimental results demonstrate that, compared with the state-of-the-art JCTVC-K0103 and JCTVC-M0257 methods, for small size videos, the proposed method can achieve significant R-D performance gains, and also works well on PC map preservation, quality smoothness and bit rate accuracy."
+    },
+    {
+      "paper_id": "W2587547160",
+      "title": "Robust Spatio-temporal Tensor Recovery for Internet Traffic Data",
+      "abstract": "The traffic volumes between a set of Origins and Destinations (OD) pairs within a network become increasingly critical for network operations management, planning, provisioning and traffic engineering. However, in practice it is challenging to reliably measure traffic in the whole network. For example, because of flaws in the measurement systems and attacks launched in a network, missing data and outliers are unavoidable. It is thus important to recover the missing entries and identify errors from the partial direct measurements. Existing recovery methods cannot sufficiently capture the multi-dimensional and spatial-temporal features of traffic data, which lead to perform poorly for network traffic data estimation. Their recovery accuracy tends to be significantly worse in the presence of both high data loss rate and gross corruptions. To address this problem, we propose a novel robust spatio-temporal tensor recovery (STTR) method to deal with missing data and outliers. First, by taking advantage of the structure in all dimensions of the traffic data, we organize the traffic data as a multi-way array (i.e., tensor). Second, by taking into account network traffic spatiotemporal characteristic, we incorporate domain knowledge about the structure of the underlying traffic data for missing values recovery and outlier removal. The proposed STTR is evaluated on real-world traffic trace data. Experimental results demonstrate that our STTR can achieve significantly better performance compared with the state-of-the-art recovery methods."
+    },
+    {
+      "paper_id": "W2588628126",
+      "title": "Joint Feature Selection and Classification for Multilabel Learning",
+      "abstract": "Multilabel learning deals with examples having multiple class labels simultaneously. It has been applied to a variety of applications, such as text categorization and image annotation. A large number of algorithms have been proposed for multilabel learning, most of which concentrate on multilabel classification problems and only a few of them are feature selection algorithms. Current multilabel classification models are mainly built on a single data representation composed of all the features which are shared by all the class labels. Since each class label might be decided by some specific features of its own, and the problems of classification and feature selection are often addressed independently, in this paper, we propose a novel method which can perform joint feature selection and classification for multilabel learning, named JFSC. Different from many existing methods, JFSC learns both shared features and label-specific features by considering pairwise label correlations, and builds the multilabel classifier on the learned low-dimensional data representations simultaneously. A comparative study with state-of-the-art approaches manifests a competitive performance of our proposed method both in classification and feature selection for multilabel learning."
+    },
+    {
+      "paper_id": "W2590019597",
+      "title": "Multi-view learning overview: Recent progress and new challenges",
+      "abstract": null
+    },
+    {
+      "paper_id": "W2591132901",
+      "title": "A Regularization Approach for Instance-Based Superset Label Learning",
+      "abstract": "Different from the traditional supervised learning in which each training example has only one explicit label, superset label learning (SLL) refers to the problem that a training example can be associated with a set of candidate labels, and only one of them is correct. Existing SLL methods are either regularization-based or instance-based, and the latter of which has achieved state-of-the-art performance. This is because the latest instance-based methods contain an explicit disambiguation operation that accurately picks up the groundtruth label of each training example from its ambiguous candidate labels. However, such disambiguation operation does not fully consider the mutually exclusive relationship among different candidate labels, so the disambiguated labels are usually generated in a nondiscriminative way, which is unfavorable for the instance-based methods to obtain satisfactory performance. To address this defect, we develop a novel regularization approach for instance-based superset label (RegISL) learning so that our instance-based method also inherits the good discriminative ability possessed by the regularization scheme. Specifically, we employ a graph to represent the training set, and require the examples that are adjacent on the graph to obtain similar labels. More importantly, a discrimination term is proposed to enlarge the gap of values between possible labels and unlikely labels for every training example. As a result, the intrinsic constraints among different candidate labels are deployed, and the disambiguated labels generated by RegISL are more discriminative and accurate than those output by existing instance-based algorithms. The experimental results on various tasks convincingly demonstrate the superiority of our RegISL to other typical SLL methods in terms of both training accuracy and test accuracy."
+    },
+    {
+      "paper_id": "W2591248827",
+      "title": "Hyperspectral image denoising with superpixel segmentation and low-rank representation",
+      "abstract": null
+    },
+    {
+      "paper_id": "W2591838227",
+      "title": "Introduction to Nonnegative Matrix Factorization",
+      "abstract": "In this paper, we introduce and provide a short overview of nonnegative matrix factorization (NMF). Several aspects of NMF are discussed, namely, the application in hyperspectral imaging, geometry and uniqueness of NMF solutions, complexity, algorithms, and its link with extended formulations of polyhedra. In order to put NMF into perspective, the more general problem class of constrained low-rank matrix approximation problems is first briefly introduced."
+    },
+    {
+      "paper_id": "W2592507807",
+      "title": "Learning from Ambiguously Labeled Face Images",
+      "abstract": "Learning a classifier from ambiguously labeled face images is challenging since training images are not always explicitly-labeled. For instance, face images of two persons in a news photo are not explicitly labeled by their names in the caption. We propose a Matrix Completion for Ambiguity Resolution (MCar) method for predicting the actual labels from ambiguously labeled images. This step is followed by learning a standard supervised classifier from the disambiguated labels to classify new images. To prevent the majority labels from dominating the result of MCar, we generalize MCar to a weighted MCar (WMCar) that handles label imbalance. Since WMCar outputs a soft labeling vector of reduced ambiguity for each instance, we can iteratively refine it by feeding it as the input to WMCar. Nevertheless, such an iterative implementation can be affected by the noisy soft labeling vectors, and thus the performance may degrade. Our proposed Iterative Candidate Elimination (ICE) procedure makes the iterative ambiguity resolution possible by gradually eliminating a portion of least likely candidates in ambiguously labeled faces. We further extend MCar to incorporate the labeling constraints among instances when such prior knowledge is available. Compared to existing methods, our approach demonstrates improvements on several ambiguously labeled datasets."
+    },
+    {
+      "paper_id": "W2592554668",
+      "title": "Highway traffic state estimation with mixed connected and conventional vehicles: Microscopic simulation-based testing",
+      "abstract": null
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "snapshot": "2026-10-10T02:48:17+08:00",
+  "source": "OpenAlex cited_by_count",
+  "scope": "all years, before UI filtering",
+  "lab": {
+    "total": 144,
+    "available": 118,
+    "positive": 85,
+    "zero": 33,
+    "missing": 26
+  },
+  "external": {
+    "total": 1529,
+    "available": 1529,
+    "positive": 1448,
+    "zero": 81,
+    "missing": 0
+  },
+  "missing": [
+    {
+      "id": "lab-5403cb1aad23",
+      "title": "Noise Separation guided Candidate Label Reconstruction for Noisy Partial Label Learning",
+      "match_status": "not_matched",
+      "reason": "public_page_verified_no_openalex_match",
+      "detail": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。"
+    },
+    {
+      "id": "lab-bb2d463fb71a",
+      "title": "Unsupervised Long-tailed Learning for Foundation Model",
+      "match_status": "not_matched",
+      "reason": "title_only_no_independent_locator",
+      "detail": "OpenAlex 标题/作者文献集合、Crossref 和网页检索未确认身份；尚未核实公开日期、DOI 有无或数据库收录延迟。"
+    },
+    {
+      "id": "lab-088383584e44",
+      "title": "PEEK: Partial Label Learning Empowered by External Knowledge",
+      "match_status": "not_matched",
+      "reason": "title_only_no_independent_locator",
+      "detail": "OpenAlex 标题/作者文献集合、Crossref 和网页检索未确认身份；尚未核实公开日期、DOI 有无或数据库收录延迟。"
+    },
+    {
+      "id": "lab-a07279b34373",
+      "title": "Hub for Outliers, Spokes for Inliers: Homeomorphic Latent Space Construction for Dual-Mismatched Semi-Supervised Learning",
+      "match_status": "not_matched",
+      "reason": "possible_renamed_paper_without_version_identity",
+      "detail": "已找到 Uniform 标题候选；原始条目为 Homeomorphic，未找到连接两种题目的版本历史。"
+    },
+    {
+      "id": "lab-3af81cff7068",
+      "title": "Beyond Low-Rank: A Region-Aware Imputation Method for Traffic Data Recovery",
+      "match_status": "not_matched",
+      "reason": "title_only_no_independent_locator",
+      "detail": "OpenAlex 标题/作者文献集合、Crossref 和网页检索未确认身份；尚未核实公开日期、DOI 有无或数据库收录延迟。"
+    },
+    {
+      "id": "lab-8ef4decb9b26",
+      "title": "Hyerspectral Image Clustering with Local Sparse Subspace guided Super-Graph Construction",
+      "match_status": "not_matched",
+      "reason": "spelling_variant_no_verified_match",
+      "detail": "OpenAlex 标题/作者文献集合、Crossref 和网页检索未确认身份；尚未核实公开日期、DOI 有无或数据库收录延迟。"
+    },
+    {
+      "id": "lab-7af4622bbcc3",
+      "title": "Adaptive Graph Feedback Clustering Network",
+      "match_status": "not_matched",
+      "reason": "title_only_no_independent_locator",
+      "detail": "OpenAlex 标题/作者文献集合、Crossref 和网页检索未确认身份；尚未核实公开日期、DOI 有无或数据库收录延迟。"
+    },
+    {
+      "id": "lab-9ddc9ff7ce0c",
+      "title": "Towards Robust Models: Mitigating Adversarial Shifts in Feature Statistics with Uncertainty-Aware Reconstruction",
+      "match_status": "not_matched",
+      "reason": "expanded_search_no_verified_record",
+      "detail": "OpenAlex 标题/作者文献集合、Crossref 和网页检索未确认身份；尚未核实公开日期、DOI 有无或数据库收录延迟。"
+    },
+    {
+      "id": "lab-dccd5bfa936b",
+      "title": "PGSB: Pretrained-Guided Shared Basis for LoRA Model Merging",
+      "match_status": "not_matched",
+      "reason": "official_listing_no_openalex_match",
+      "detail": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。"
+    },
+    {
+      "id": "lab-e73ac884ede0",
+      "title": "Exploiting Negative Multi-Cluster Structure in Class-Wise Embeddings for Weakly Supervised Multi-Label Learning",
+      "match_status": "not_matched",
+      "reason": "official_listing_no_openalex_match",
+      "detail": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。"
+    },
+    {
+      "id": "lab-1025a6d4de24",
+      "title": "Individuals Matter: Improving Deep Multi-View Clustering via Explicit Single-View Enhancement",
+      "match_status": "not_matched",
+      "reason": "official_listing_no_openalex_match",
+      "detail": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。"
+    },
+    {
+      "id": "lab-effcb20ed6d4",
+      "title": "AdapMatch: Adaptive Bias Decoupling for Semi-Supervised Partial Label Learning under Unknown Class Distributions",
+      "match_status": "not_matched",
+      "reason": "official_listing_no_openalex_match",
+      "detail": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。"
+    },
+    {
+      "id": "lab-2110e10b1fd2",
+      "title": "Progressive Pseudo-label Self-balancing Towards Unsupervised Vision-Language Models Adaptation",
+      "match_status": "not_matched",
+      "reason": "official_listing_no_openalex_match",
+      "detail": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。"
+    },
+    {
+      "id": "lab-5dda1e979492",
+      "title": "LoCo: Selective Local Competition for Discriminative Open-Vocabulary Multi-Label Recognition",
+      "match_status": "not_matched",
+      "reason": "official_listing_no_openalex_match",
+      "detail": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。"
+    },
+    {
+      "id": "lab-deff0ac02cbd",
+      "title": "Attention Heads are Complementary Visual Units: Mitigating Hallucinations in LVLMs via Adaptive Visual Cues Focusing",
+      "match_status": "not_matched",
+      "reason": "official_listing_no_openalex_match",
+      "detail": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。"
+    },
+    {
+      "id": "lab-6757df585f08",
+      "title": "Mismatch-Free One-Step at Scale: Linear-Time Ensemble Clustering with Soft Balancing",
+      "match_status": "not_matched",
+      "reason": "no_public_locator_for_future_year",
+      "detail": "实验室列表标注 2027；当前搜索未找到独立记录。发表年份尚不足以确认公开日期或收录延迟。"
+    },
+    {
+      "id": "lab-1a90fc2c3965",
+      "title": "KGFlow: Enhancing Large Language Model Reasoning with Multi-Graph Alignment for Knowledge-Intensive Medical Question Answering",
+      "match_status": "not_matched",
+      "reason": "expanded_search_no_verified_record",
+      "detail": "OpenAlex 标题/作者文献集合、Crossref 和网页检索未确认身份；尚未核实公开日期、DOI 有无或数据库收录延迟。"
+    },
+    {
+      "id": "lab-4dafc16e5fd8",
+      "title": "Question-Level Multimodal Fusion for Cognitive Ability Assessment in Asynchronous Video Interviews",
+      "match_status": "not_matched",
+      "reason": "expanded_search_no_verified_record",
+      "detail": "OpenAlex 标题/作者文献集合、Crossref 和网页检索未确认身份；尚未核实公开日期、DOI 有无或数据库收录延迟。"
+    },
+    {
+      "id": "lab-b4f457369e13",
+      "title": "One Coin Has Two Sides: Single Poistive Multi Label Learning from Salient Annotations",
+      "match_status": "not_matched",
+      "reason": "public_candidate_page_access_blocked",
+      "detail": "OpenReview 对该候选的查询返回 403 人机验证要求，该请求被外部访问限制阻挡。"
+    },
+    {
+      "id": "lab-77b725acea33",
+      "title": "Mini-cluster Guided Long-tailed Deep Clustering",
+      "match_status": "not_matched",
+      "reason": "public_page_verified_no_openalex_match",
+      "detail": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。"
+    },
+    {
+      "id": "lab-918df170a3ad",
+      "title": "Samples Are Not Equal: A Sample Selection Approach for Deep Clustering",
+      "match_status": "not_matched",
+      "reason": "public_page_verified_no_openalex_match",
+      "detail": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。"
+    },
+    {
+      "id": "lab-82a7992c094e",
+      "title": "Learning from Sample Stability for Deep Clustering",
+      "match_status": "not_matched",
+      "reason": "public_page_verified_no_openalex_match",
+      "detail": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。"
+    },
+    {
+      "id": "lab-bddb535117ca",
+      "title": "ConMix: Contrastive Mixup at Representation Level for Long-tailed Deep Clustering",
+      "match_status": "not_matched",
+      "reason": "public_page_verified_no_openalex_match",
+      "detail": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。"
+    },
+    {
+      "id": "lab-2c640db3fd61",
+      "title": "Complementary Label Learning with Positive Label Guessing and Negative Label Enhancement",
+      "match_status": "not_matched",
+      "reason": "public_page_verified_no_openalex_match",
+      "detail": "官方论文页面或目录已找到；当前身份成功条件只接受 OpenAlex ID，其他数据库标题匹配尚未执行。"
+    },
+    {
+      "id": "lab-cafae06c3f4f",
+      "title": "Efficient and Robust Freeway Traffic State Estimation under Oblique Grid using Vehicle Trajectory Data",
+      "match_status": "ambiguous",
+      "reason": "title_variant_collides_with_another_lab_paper",
+      "detail": "State/TRB 条目与 Speed/TITS 条目将共用同一 OpenAlex ID；拒绝自动合并有题目、场所及 ID 冲突证据。"
+    },
+    {
+      "id": "lab-60280e69a6e3",
+      "title": "When Missingness Meets Anomalies: A Tailored Low-rank Tensor Completion Approach for Traffic Data Recovery",
+      "match_status": "not_matched",
+      "reason": "expanded_search_no_verified_record",
+      "detail": "OpenAlex 标题/作者文献集合、Crossref 和网页检索未确认身份；尚未核实公开日期、DOI 有无或数据库收录延迟。"
+    }
+  ]
+}

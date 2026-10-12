@@ -1,0 +1,28 @@
+{
+  "paper_id": "W2540382275",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "This paper gives an attempt to explore the manifold in the label space for multi-label learning.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以多标签学习为研究任务，研究标签空间中的流形以提升多标签学习性能。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "according to the smoothness assumption that the points close to each other are more likely to share a label, the local topological structure can be shared between the feature manifold and the label manifold.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要基于平滑假设利用特征流形与标签流形共享的局部拓扑结构，重建并利用标签流形，属于以流形/邻域结构施加几何一致性约束。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "label-enhancement",
+      "reason_zh": "摘要提到将逻辑标签空间扩展到欧氏空间并重建标签流形，但未说明从逻辑标签恢复标签分布或描述度，机制证据不足。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "reason_zh": "摘要的“share a label”与特征/标签流形局部结构共享指向样本邻域与流形一致性，未显式说明建模标签间共现、依赖或排序。"
+    }
+  ],
+  "input_issues": []
+}

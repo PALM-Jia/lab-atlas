@@ -1,0 +1,19 @@
+{
+  "paper_id": "lab-b4f457369e13",
+  "annotations": [
+    {
+      "keyword_id": "multi-label-learning",
+      "exact_quote": "Single-Positive Multi-Label Learning (SPML) studies learning from incomplete supervision, where each instance is annotated with only one positive label despite potentially belonging to multiple categories.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文将 SPML/SalSPML 定义为实例可能属于多个类别、却只给出一个正标记的多标记识别问题，属于弱监督下的多标记学习任务。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "Single-Positive Multi-Label Learning (SPML) studies learning from incomplete supervision, where each instance is annotated with only one positive label despite potentially belonging to multiple categories.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确该任务以不完整的实例级监督（仅一个正标记、其他标记缺失）替代充分标注，并将其作为实质研究问题，符合弱监督学习定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,22 @@
+{
+  "paper_id": "W3208593715",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "scalable gamma non-negative matrix network (SGNMN), which uses a Poisson randomized Gamma factor analysis",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出SGNMN，以非负矩阵网络和Gamma因子分析构建各层神经元与权重，属于非负因子分解/非负矩阵分解方法。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "bayesian-inference",
+      "reason_zh": "摘要提及Gamma、Dirichlet分布与因子分析，但未说明先验、后验估计或近似推断，不能仅由概率分布推定贝叶斯推断。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "摘要仅称因子分析和非负矩阵网络，未显式声明低秩约束、分解或近似表示，无法确定低秩建模。"
+    }
+  ],
+  "input_issues": []
+}

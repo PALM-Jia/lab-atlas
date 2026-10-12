@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2059471177\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"image classification and segmentation\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确论文任务包括图像分割，研究高斯混合模型在分类与分割中的应用。\"},{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"combining the 'color' and 'structure' information\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要提出结合颜色与结构（纹理）两类互补特征信息以改进分类，属于同一图像多视图特征联合利用。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

@@ -1,0 +1,54 @@
+{
+  "papers": [
+    {
+      "paper_id": "W2760544538",
+      "title": "Genomic Selection in Plant Breeding: Methods, Models, and Perspectives",
+      "abstract": null
+    },
+    {
+      "paper_id": "W2761683629",
+      "title": "Hyperspectral Image Classification via Low-Rank and Sparse Representation With Spectral Consistency Constraint",
+      "abstract": "In this letter, a low-rank and sparse representation classifier with a spectral consistency constraint (LRSRC-SCC) is proposed. Different from the SRC that represents samples individually, LRSRC-SCC reconstructs samples jointly and is able to capture the local and global structures simultaneously. In this proposed classifier, an adaptive spectral constraint is imposed on both the low-rank and sparse terms so as to better reveal the data structure and enhance its discriminative power. In addition, the alternating direction method is introduced to solve the underlying minimization problem, in which, more importantly, the subobjective function associated with the low-rank term is optimized based on the rank equivalence between a matrix and its Gram matrix, resulting in a closed-form solution. Finally, LRSRC-SCC is extended to LRSRC-SCCE for fully exploiting the spatial information. Experimental results on two hyperspectral data sets demonstrate that the proposed LRSRC-SCC and LRSRC-SCCE methods outperform some state-of-the-art methods."
+    },
+    {
+      "paper_id": "W2762874775",
+      "title": "Traffic data imputation via tensor completion based on soft thresholding of Tucker core",
+      "abstract": null
+    },
+    {
+      "paper_id": "W2763673051",
+      "title": "Does Normalization Methods Play a Role for Hyperspectral Image Classification?",
+      "abstract": "For Hyperspectral image (HSI) datasets, each class have their salient feature and classifiers classify HSI datasets according to the class's saliency features, however, there will be different salient features when use different normalization method. In this letter, we report the effect on classifiers by different normalization methods and recommend the best normalization methods for classifier after analyzing the impact of different normalization methods on classifiers. Pavia University datasets, Indian Pines datasets and Kennedy Space Center datasets will apply to several typical classifiers in order to evaluate and analysis the impact of different normalization methods on typical classifiers."
+    },
+    {
+      "paper_id": "W2763694500",
+      "title": "Semi-Supervised Image Classification With Self-Paced Cross-Task Networks",
+      "abstract": "In a semi-supervised setting, direct training of a deep discriminative model on partially labeled images often suffers from overfitting and poor performance, because only a small number of labeled images are available, and errors in label propagation are, in many cases, inevitable. In this paper, we introduce an auxiliary clustering task to explore the structure of the image data, and judiciously weigh unlabeled data to alleviate the influence of ambiguous data on model training. For this purpose, we propose a cross-task network composed of two streams to jointly learn two tasks: classification and clustering. Based on the model predictions, a large number of pairwise constraints can be generated from unlabeled images, and are fed to the clustering stream. Since pairwise constraints encode weak supervision information, the clustering is tolerant of errors in labeling. Unlabeled images are weighted according to the distances to the clusters discovered, and a better discriminative model is trained on the classification stream associated with a weighted softmax loss. Furthermore, a self-paced learning paradigm is adopted to gradually train our deep model from easy examples to difficult ones. Experimental results on widely used image classification datasets confirm the effectiveness and superiority of the proposed approach."
+    },
+    {
+      "paper_id": "W2763731268",
+      "title": "Multiscale Superpixel-Level Subspace-Based Support Vector Machines for Hyperspectral Image Classification",
+      "abstract": "This letter introduces a new spectral-spatial classification method for hyperspectral images. A multiscale superpixel segmentation is first used to model the distribution of classes based on spatial information. In this context, the original hyperspectral image is integrated with segmentation maps via a feature fusion process in different scales such that the pixel-level data can be represented by multiscale superpixel-level (MSP) data sets. Then, a subspace-based support vector machine (SVMsub) is adopted to obtain the classification maps with multiscale inputs. Finally, the classification result is achieved via a decision fusion process. The resulting method, called MSP-SVMsub, makes use of the spatial and spectral coherences, and contributes to better feature characterization. Experimental results based on two real hyperspectral data sets indicate that the MSP-SVMsub exhibits good performance compared with other related methods."
+    },
+    {
+      "paper_id": "W2763986713",
+      "title": "Genome-wide analysis of DNA Methylation profiles on sheep ovaries associated with prolificacy using whole-genome Bisulfite sequencing",
+      "abstract": "BACKGROUND: Ovulation rate and litter size are important reproductive traits in sheep with high economic value. Recent work has revealed a potential link between DNA methylation and prolificacy. However, a genome-wide study that sought to identify potential DNA methylation sites involved in sheep prolificacy indicated that it is still unknown. Here, we aimed to investigate the genome-wide DNA methylation profiles of Hu sheep ovaries by comparing a high-prolificacy group (HP, litter size of three for at least 2 consecutive lambings) and low prolificacy group (LP, litter size of one for at least 2 consecutive lambings) using deep whole-genome bisulfite sequencing (WGBS). RESULTS: First, our results demonstrated lower expression levels of DNA methyltransferase (DNMT) genes in the ovaries of the HP group than that in the ovaries of the LP group. Both groups showed similar proportions of methylation at CpG sites but different proportions at non-CpG sites. Subsequently, we identified 70,899 differential methylated regions (DMRs) of CG, 16 DMRs of CHG, 356 DMRs of CHH and 12,832 DMR-related genes(DMGs). Gene Ontology (GO) analyses revealed that some DMGs were involved in regulating female gonad development and ovarian follicle development. Finally, we found that 10 DMGs, including BMP7, BMPR1B, CTNNB1, FST, FSHR, LHCGR, TGFB2 and TGFB3, are more likely to be involved in prolificacy of Hu sheep, as assessed by correlation analysis and listed in detail. CONCLUSIONS: This study revealed the global DNA methylation pattern of sheep ovaries associated with high and low prolificacy groups, which may contribute to a better understanding of the epigenetic regulation of sheep reproductive capacity."
+    },
+    {
+      "paper_id": "W2765333864",
+      "title": "Event BAGGING: A novel event summarization approach in multiview surveillance videos",
+      "abstract": "Due to advancement in digital multimedia technologies, huge amount of video contents in such arenas as sports, surveillance, news, etc., is becoming widely available. Due to factors like presence of inactive frames, inter-view dependencies and frequent illumination changes, whole video content may not be important. Moreover, users may not have the adequate time to access/ store the entire video in real time. We propose a machine learning ensemble method to summarize the events in multiview videos, as a solution to the aforementioned issues. In order to make the accurate decision on keyframes, we trained our ensembles using meta approach where the inter-dependency and illumination changes of views are considered in the training phase. Experimental results on two benchmark datasets show that our model outperforms the state-of-the-art models with the best Recall and F-measure. The computing analysis of the model also indicates that it meets all requirements of real-time applications."
+    },
+    {
+      "paper_id": "W2765733383",
+      "title": "A phase-based smoothing method for accurate traffic speed estimation with floating car data",
+      "abstract": null
+    },
+    {
+      "paper_id": "W2766448712",
+      "title": "Adaptive Semi-Supervised Classifier Ensemble for High Dimensional Data Classification",
+      "abstract": "High dimensional data classification with very limited labeled training data is a challenging task in the area of data mining. In order to tackle this task, we first propose a feature selection-based semi-supervised classifier ensemble framework (FSCE) to perform high dimensional data classification. Then, we design an adaptive semi-supervised classifier ensemble framework (ASCE) to improve the performance of FSCE. When compared with FSCE, ASCE is characterized by an adaptive feature selection process, an adaptive weighting process (AWP), and an auxiliary training set generation process (ATSGP). The adaptive feature selection process generates a set of compact subspaces based on the selected attributes obtained by the feature selection algorithms, while the AWP associates each basic semi-supervised classifier in the ensemble with a weight value. The ATSGP enlarges the training set with unlabeled samples. In addition, a set of nonparametric tests are adopted to compare multiple semi-supervised classifier ensemble (SSCE)approaches over different datasets. The experiments on 20 high dimensional real-world datasets show that: 1) the two adaptive processes in ASCE are useful for improving the performance of the SSCE approach and 2) ASCE works well on high dimensional datasets with very limited labeled training data, and outperforms most state-of-the-art SSCE approaches."
+    }
+  ]
+}

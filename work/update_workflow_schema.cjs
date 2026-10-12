@@ -1,0 +1,5 @@
+const fs=require('fs'),p='outputs/paper-atlas/workflow-data.js';let s=fs.readFileSync(p,'utf8');
+s=s.replace("{scope:'实验室论文',sources:[0,1],settle:1}","{scope:'实验室论文',sources:[0,1],settle:1,end:['实验室记录对应','②确认实验室条目对应的来源 ID、发布页与版本；未确定时保留具体疑点。']}");
+s=s.replace("{scope:'外部文献',sources:[2,3],settle:3}","{scope:'外部文献',sources:[2,3],settle:3,end:['外部记录对应','④确认引用关系另一端的论文身份和版本，供后续字段采用与关系去重使用。']}");
+fs.writeFileSync(p,s,'utf8');
+global.window=global;require('../'+p);const d=WORKFLOW_MAP,ids=new Set(d.artifacts.map(a=>a.id)),seen=new Set(),active=new Set();function visit(id){if(active.has(id))throw Error('cycle '+id);if(seen.has(id))return;active.add(id);d.dependencies.filter(e=>e.from===id).forEach(e=>visit(e.to));active.delete(id);seen.add(id)}ids.forEach(visit);console.log(JSON.stringify({rows:d.information.length,artifacts:ids.size,edges:d.dependencies.length,invalidEdges:d.dependencies.filter(e=>!ids.has(e.from)||!ids.has(e.to)),summary:d.artifacts.find(a=>a.id==='summary'),summaryInputs:d.dependencies.filter(e=>e.to==='summary').map(e=>[e.from,e.type]),identity:d.information[0]}));

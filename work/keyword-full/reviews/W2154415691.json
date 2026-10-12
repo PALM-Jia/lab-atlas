@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2154415691",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_positive",
+      "keyword_id": "ensemble-clustering",
+      "reason_zh": "本文联合共正则化多视图的聚类假设，未融合多个已有聚类结果；跨视图一致性目标本身不能等同于集成聚类。",
+      "exact_quote": "We propose a spectral clustering framework that achieves this goal by co-regularizing the clustering hypotheses",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "ensemble-clustering"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "graph-manifold-regularization",
+        "reason_zh": "仅见 spectral clustering 框架，摘要未说明使用邻域、图拉普拉斯或超图对学习结果施加几何一致性约束，无法确认该机制。"
+      }
+    ],
+    "input_issues": []
+  }
+}

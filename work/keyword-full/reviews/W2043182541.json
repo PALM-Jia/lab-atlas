@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2043182541",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "unsupported_evidence",
+      "keyword_id": "sparse-representation",
+      "reason_zh": "摘要描述用较少训练点索引分类模型的核基函数，未说明以少量字典原子表达样本；模型稀疏性不足以确定词表的稀疏表示。",
+      "exact_quote": "the IVM model uses only a fraction of the training data to index kernel basis functions, typically a much smaller fraction than the SVM.",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "sparse-representation"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "sparse-representation",
+        "reason_zh": "仅说明分类模型用少量训练点索引核基函数，未给出样本的稀疏表示机制。"
+      }
+    ],
+    "input_issues": []
+  }
+}

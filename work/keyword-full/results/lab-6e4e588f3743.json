@@ -1,0 +1,28 @@
+{
+  "paper_id": "lab-6e4e588f3743",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "Partial clustering ensemble integrates multiple incomplete base clusterings to generate a consensus one.",
+      "evidence_field": "abstract",
+      "reason_zh": "明确融合多个不完整基聚类以生成共识聚类，符合集成聚类的共识划分任务。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "the proposed model constructs a similarity matrix with the guidance of the extracted highly reliable information, the available incomplete ensemble base clusterings, and the priors of a valid similarity matrix.",
+      "evidence_field": "abstract",
+      "reason_zh": "模型显式构造受可靠信息和有效相似度先验指导的样本相似度矩阵，属于学习/修正亲和矩阵的图结构学习。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "reason_zh": "标题中的Co-occurrence提示可能涉及成对关系，但摘要未说明must-link/cannot-link约束、传播或扩展过程，无法确认满足成对约束传播定义。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "摘要提到有效相似度矩阵的先验，但未说明邻域、图拉普拉斯或超图等几何一致性约束，无法确认图与流形正则化。"
+    }
+  ],
+  "input_issues": []
+}

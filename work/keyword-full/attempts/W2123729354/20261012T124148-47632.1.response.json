@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2123729354\",\"annotations\":[{\"keyword_id\":\"multi-objective-optimization\",\"exact_quote\":\"smooth picture quality and smooth buffer occupancy are both important but contrary to each other at a given bit rate.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要将画面质量平滑与缓冲区占用平滑视为在给定码率下相互制约的两个目标，并研究取得良好权衡的方法，属于多目标优化。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2482189737\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"Multi-label learning is an important machine learning setting where each example is associated with multiple class labels simultaneously.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将多标记学习定义为每个样本同时关联多个类别标签的学习设定，并作为全文核心主题展开介绍。\"}],\"abstentions\":[{\"keyword_id\":\"label-correlation-modeling\",\"reason_zh\":\"摘要仅提及讨论标签相关性议题，未说明对该相关结构进行显式建模，无法确认满足方法定义。\"}],\"input_issues\":[]}"
+}

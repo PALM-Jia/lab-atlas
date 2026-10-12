@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2024717016",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "以稀少成对约束替代完整实例级标签，并研究约束向全数据集传播，属于不完整监督下的实质学习问题。",
+      "exact_quote": "Pairwise constraint propagation studies the problem of propagating the scarce pairwise constraints across the entire dataset.",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "Pairwise constraint propagation studies the problem of propagating the scarce pairwise constraints across the entire dataset.",
+        "evidence_field": "abstract",
+        "reason_zh": "以稀少成对约束替代完整实例级标签，并研究约束向全数据集传播，属于不完整监督下的实质学习问题。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

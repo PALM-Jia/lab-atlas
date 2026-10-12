@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2194775991",
+  "annotations": [
+    {
+      "keyword_id": "classifier-ensemble",
+      "exact_quote": "An ensemble of these residual nets achieves 3.57% error on the ImageNet test set.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要报告将多个残差网络组成集成并在ImageNet测试集上取得3.57%错误率，属于结合多个分类器预测完成分类。"
+    },
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要将深度残差网络作为提交基础，并列出在COCO分割任务上获奖，说明图像分割是论文实际涉及的任务之一。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

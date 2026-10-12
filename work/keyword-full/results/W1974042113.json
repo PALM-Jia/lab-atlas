@@ -1,0 +1,19 @@
+{
+  "paper_id": "W1974042113",
+  "annotations": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "a low-rank matrix of recovered aligned images",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将变换后图像矩阵分解为稀疏误差矩阵与低秩对齐图像矩阵，显式利用低秩结构建模图像数据。"
+    },
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "decomposed as the sum of a sparse matrix of errors and a low-rank matrix of recovered aligned images",
+      "evidence_field": "abstract",
+      "reason_zh": "方法从含遮挡等严重污染的观测中恢复对齐后的图像矩阵，输出为恢复的低秩对齐图像，符合从污染观测恢复数据。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

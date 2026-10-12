@@ -1,0 +1,1280 @@
+{
+  "metadata": {
+    "schema_version": "1.1",
+    "stage": "vocabulary_construction_only",
+    "keyword_count": 49,
+    "dimension_counts": {
+      "research_task": 18,
+      "method": 15,
+      "research_setting": 10,
+      "application_object": 6
+    },
+    "corpus": {
+      "paper_count": 144,
+      "nonempty_abstract_count": 114,
+      "substantive_abstract_count": 113,
+      "title_only_count": 31,
+      "invalid_abstract_paper_ids": [
+        "lab-d99ee9ba4a13"
+      ],
+      "truncated_abstract_paper_ids": [
+        "lab-d7d729a798a9"
+      ]
+    },
+    "rules_zh": [
+      "仅据受控目录中的实验室内部论文标题、摘要和主页相关文字构建；未读旧词表、生产分类、外部文献或记忆。",
+      "词条要求是文章实质研究任务、采用方法、处理对象或学习设定；背景提及、引用、对比方法名称和泛泛未来展望不构成正向证据。",
+      "primary_dimension与概念粒度分离；parent_id仅表达同维度的严格包含，其他相关性不充作父子或别名。",
+      "聚类任务按希望得到的数据划分类型命名（如深度、子空间、集成聚类），方法按可复用的实现机制命名（如图神经网络、对比学习）；同篇可同时具有任务与方法词。",
+      "aliases只存真正同义表达，不列上下位词、相关词或未消歧缩写；允许空列表。",
+      "每词至少一篇内部论文直接支持；evidence仅为代表性例证，不是支撑论文穷举或逐篇最终标注。",
+      "coverage-review只检查词表能否覆盖论文方向；candidate_keyword_ids不能作为最终标签发布，未产生人工置信度。",
+      "31篇以标题为依据；其中1篇非空abstract实为文献引用。RankMatch摘要截断，使用现有实质部分，不补写。",
+      "不要求每篇每个方面都落入当前词表；未覆盖方向明示，不能以背景泛词或误并概念追求100%覆盖。"
+    ],
+    "homepage_notes": "已阅读贾育衡个人主页完整研究兴趣句及PALM介绍。个人自述用于核对半监督、大模型与可信学习语境；PALM广义介绍仅为背景。没有仅因主页提及而加入智能体、AI4Science或幻觉检测，也没有把幻觉抑制改名为检测。"
+  },
+  "keywords": [
+    {
+      "id": "deep-clustering",
+      "canonical_en": "Deep clustering",
+      "canonical_zh": "深度聚类",
+      "primary_dimension": "research_task",
+      "definition_zh": "利用可学习的神经表示和/或聚类头获得数据划分；仅在固定预训练特征上运行传统聚类不自动计入。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-af85f8a01211",
+          "field": "abstract",
+          "exact_quote": "To tackle this critical issue, we pioneer the development of a calibrated deep clustering framework.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-77b725acea33",
+          "field": "abstract",
+          "exact_quote": "To address this, we propose a mini-cluster guided long-tailed deep clustering method, termed MiniClustering.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "ensemble-clustering",
+      "canonical_en": "Ensemble clustering",
+      "canonical_zh": "集成聚类",
+      "primary_dimension": "research_task",
+      "definition_zh": "融合多个已有聚类结果以求共识划分；不同于多个分类器的监督集成，也不同于为用户产生多个不同划分。",
+      "aliases": [
+        "Clustering ensemble",
+        "Consensus clustering"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-6e4e588f3743",
+          "field": "abstract",
+          "exact_quote": "Partial clustering ensemble integrates multiple incomplete base clusterings to generate a consensus one.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-a7cf765d0111",
+          "field": "abstract",
+          "exact_quote": "This paper examines the generalization performance of ensemble clustering, focusing on generalization error, excess risk and consistency.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "subspace-clustering",
+      "canonical_en": "Subspace clustering",
+      "canonical_zh": "子空间聚类",
+      "primary_dimension": "research_task",
+      "definition_zh": "按样本所属潜在子空间进行分组，通常利用自表达关系；一般的降维后聚类不充分。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-6c33c0d49221",
+          "field": "abstract",
+          "exact_quote": "In this letter, we propose a novel semi-supervised subspace clustering method, which is able to simultaneously augment the initial supervisory information and construct a discriminative affinity matrix.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-762e9d6f5eae",
+          "field": "abstract",
+          "exact_quote": "Then, we perform self-expressiveness on the constructed attribute and structure matrices to learn their affinity graphs separately.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "multi-label-learning",
+      "canonical_en": "Multi-label learning",
+      "canonical_zh": "多标记学习",
+      "primary_dimension": "research_task",
+      "definition_zh": "学习为单个实例预测可同时成立的多个相关标记，含完整或弱监督下的多标记分类与识别；不同于单标记多分类及归一化标记描述度预测。",
+      "aliases": [
+        "Multi-label classification",
+        "Multi-label recognition",
+        "多标签学习",
+        "多标记分类",
+        "多标签分类"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-825376eac3f8",
+          "field": "abstract",
+          "exact_quote": "Comparative studies over twelve benchmark data sets validate the effectiveness of the proposed algorithm in multi-label classification.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-1f9013eb2f8b",
+          "field": "abstract",
+          "exact_quote": "Multi-label ensemble can achieve superior performance on multi-label learning problems by integrating a number of base classifiers.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "label-distribution-learning",
+      "canonical_en": "Label distribution learning",
+      "canonical_zh": "标记分布学习",
+      "primary_dimension": "research_task",
+      "definition_zh": "预测各标签对实例的相对描述程度（标签分布）；浓度分布扩展可按此核心任务覆盖，但不把浓度分布学习当同义词。",
+      "aliases": [
+        "Label Distribution Learning",
+        "标签分布学习"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-51397954ce4d",
+          "field": "abstract",
+          "exact_quote": "Label distribution learning (LDL) trains a model to predict the relevance of a set of labels (called label distribution (LD)) to an instance.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-305494044431",
+          "field": "abstract",
+          "exact_quote": "Moreover, we propose a novel model by probabilistic methods and neural networks to learn label distributions and background concentrations from existing LDL datasets.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "label-enhancement",
+      "canonical_en": "Label enhancement",
+      "canonical_zh": "标记增强",
+      "primary_dimension": "research_task",
+      "definition_zh": "从逻辑标签恢复或构建更细致的标签分布；不把一般的数据增强、候选标签删除或负标签扩充视为此任务。",
+      "aliases": [
+        "标签增强"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-f6916a1b1d89",
+          "field": "abstract",
+          "exact_quote": "To solve the above problems, we propose a novel method to learn an LDL model directly from the logical label, which unifies LE and LDL into a joint model, and avoids the drawbacks of the previous LE methods.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-bc765488bcf7",
+          "field": "title",
+          "exact_quote": "Progressive Label Enhancement",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "dimensionality-reduction",
+      "canonical_en": "Dimensionality reduction",
+      "canonical_zh": "降维",
+      "primary_dimension": "research_task",
+      "definition_zh": "研究显式的低维映射或嵌入并以维度压缩为目标；仅存在隐藏层或特征向量不充分。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-684cd82c2176",
+          "field": "abstract",
+          "exact_quote": "After the alternating procedure, SDLPP maps the original data to a pre-specified low-dimensional feature space.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-458c61eb7de8",
+          "field": "abstract",
+          "exact_quote": "Our DENMF solution simultaneously finds the low-dimensional representations and assignment matrix via joint optimization for better classification.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "image-segmentation",
+      "canonical_en": "Image segmentation",
+      "canonical_zh": "图像分割",
+      "primary_dimension": "research_task",
+      "definition_zh": "对图像像素划分区域或赋予像素级类别，包括语义、实例与超像素分割；物体检测不等价。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-c0cf7adb052a",
+          "field": "abstract",
+          "exact_quote": "In this paper, we propose a generalist-specialist-like framework for underwater image semantic segmentation called Underwater Semantic Segment Anything (UWSSA).",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-9dab3341b9f1",
+          "field": "abstract",
+          "exact_quote": "Superpixel segmentation aims at dividing the input image into some representative regions containing pixels with similar and consistent intrinsic properties, without any prior knowledge about the shape and size of each superpixel.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "data-imputation-recovery",
+      "canonical_en": "Data imputation and recovery",
+      "canonical_zh": "数据补全与恢复",
+      "primary_dimension": "research_task",
+      "definition_zh": "估计缺失观测或从污染观测恢复原始数值；输出为待恢复数据，不含仅改进分类鲁棒性。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-c42096082d68",
+          "field": "abstract",
+          "exact_quote": "To further enhance robustness against corrupted data, the model is extended to a robust variant by integrating an anomaly-tolerant module based on the l1 norm, capable of simultaneously eliminating anomalous observations and imputing missing values.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-2b357d849d9d",
+          "field": "abstract",
+          "exact_quote": "In this paper, we leverage both intra-view and inter-view correlations for multiple traffic variable data simultaneous recovery.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "hallucination-mitigation",
+      "canonical_en": "Hallucination mitigation",
+      "canonical_zh": "幻觉抑制",
+      "primary_dimension": "research_task",
+      "definition_zh": "减少生成内容与给定证据不一致的现象；本语料主要是视觉语言模型，不自动扩展为单独的幻觉检测任务。",
+      "aliases": [
+        "Hallucination reduction"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-57c2d8cba676",
+          "field": "abstract",
+          "exact_quote": "Motivated by this observation, we propose a novel hallucination mitigation method that enhances visual evidence based on Inter-Layer Visual Attention Discrepancy (ILVAD).",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-11e2dfe6e2ee",
+          "field": "abstract",
+          "exact_quote": "Building on these insights, we propose Steering LVLMs via SAE Latent Directions (SSL), a plug-and-play method based on SAE-derived latent directions to mitigate hallucinations in LVLMs.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "model-merging",
+      "canonical_en": "Model merging",
+      "canonical_zh": "模型合并",
+      "primary_dimension": "research_task",
+      "definition_zh": "在参数或参数更新空间合并多个已训练模型以保留其能力；不同于预测投票或学生蒸馏。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-532faa4a2fc2",
+          "field": "abstract",
+          "exact_quote": "Based on this observation, we propose ResMerge, a residual-based spectral merging framework for RL experts.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-dccd5bfa936b",
+          "field": "title",
+          "exact_quote": "PGSB: Pretrained-Guided Shared Basis for LoRA Model Merging",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "multimodal-retrieval",
+      "canonical_en": "Multimodal retrieval",
+      "canonical_zh": "多模态检索",
+      "primary_dimension": "research_task",
+      "definition_zh": "将不同模态的查询与候选映射至可比较的检索空间；一般多模态分类或融合不充分。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-ec6acdec9eea",
+          "field": "abstract",
+          "exact_quote": "Universal multimodal embedding (UME) maps heterogeneous inputs into a shared retrieval space with a single model.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-ec6acdec9eea",
+          "field": "abstract",
+          "exact_quote": "PLUME is especially well suited to retrieval settings where relevant evidence is dense, structurally complex, and difficult to organize through verbalized intermediate rationales, such as video and visual document retrieval.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "value-preference-alignment",
+      "canonical_en": "Value and preference alignment",
+      "canonical_zh": "价值与偏好对齐",
+      "primary_dimension": "research_task",
+      "definition_zh": "使模型输出遵循人类或教师所表达的价值、偏好与行为排序；不同于跨模态特征对齐。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-9c41930c1897",
+          "field": "abstract",
+          "exact_quote": "To resolve this, we propose CUMA (Cultural Mixture of Adapters), a framework that frames alignment as a conditional capacity separation problem.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-a6e1c503e9fd",
+          "field": "abstract",
+          "exact_quote": "Without human-labeled preferences or a reward model, our method distills the teacher's preference-optimization capability from black-box generations into a locally trainable student.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "adversarial-robustness",
+      "canonical_en": "Adversarial robustness",
+      "canonical_zh": "对抗鲁棒性",
+      "primary_dimension": "research_task",
+      "definition_zh": "研究模型在刻意构造的攻击或对抗扰动下保持正确行为的能力；一般噪声鲁棒性及相似度/不相似度的竞争关系不充分。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-bbbc3701492a",
+          "field": "abstract",
+          "exact_quote": "In this paper, we propose a new proactive defense method based on a two-stage training procedure in order to enhance the adversarial robustness of DNNs.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-e9f08a9f6baf",
+          "field": "abstract",
+          "exact_quote": "In this paper, we investigate the adversarial robustness of DNN models on such complex classification tasks.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "dataset-distillation",
+      "canonical_en": "Dataset distillation",
+      "canonical_zh": "数据集蒸馏",
+      "primary_dimension": "research_task",
+      "definition_zh": "将训练数据压缩为保留训练效用的小型代表数据集；不同于模型输出或能力的知识蒸馏。当前依据仅为标题，不推断具体算法。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-80376da04947",
+          "field": "title",
+          "exact_quote": "Fragmented Text Is Insufficient for Image Representation: Fine-Grained Correspondence in Multimodal Dataset Distillation",
+          "role_reason_zh": "标题明确研究多模态数据集蒸馏，摘要缺失，仅保留题名层面的任务。"
+        }
+      ]
+    },
+    {
+      "id": "person-reidentification",
+      "canonical_en": "Person re-identification",
+      "canonical_zh": "行人重识别",
+      "primary_dimension": "research_task",
+      "definition_zh": "跨摄像头或场景检索同一身份的行人；不同于通用图像分类或行人检测。",
+      "aliases": [
+        "Person re-ID",
+        "Person reidentification"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-25256b9dda22",
+          "field": "abstract",
+          "exact_quote": "Extensive experiments on three large scale unsupervised and unsupervised domain adaptive (UDA) person re-ID benchmarks validate the effectiveness of$CASTOR$and its wide compatibility with the state-of-the-art clustering-based methods.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "multi-objective-optimization",
+      "canonical_en": "Multi-objective optimization",
+      "canonical_zh": "多目标优化",
+      "primary_dimension": "research_task",
+      "definition_zh": "以多个相互制约的目标求解帕累托解集；模型中出现多个损失项或联合训练不充分。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-761fa50033a3",
+          "field": "abstract",
+          "exact_quote": "In this paper, we propose an adaptive method to periodically regenerate the weight vectors for decomposition-based multi-objective algorithms according to the geometry of the estimated Pareto front.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "confidence-calibration",
+      "canonical_en": "Confidence calibration",
+      "canonical_zh": "置信度校准",
+      "primary_dimension": "research_task",
+      "definition_zh": "使预测置信度或权重与正确概率相符；仅选取高置信样本、校正分布或使用校准一词不充分。",
+      "aliases": [
+        "Prediction calibration"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-af85f8a01211",
+          "field": "abstract",
+          "exact_quote": "Specifically, we propose a novel dual head (calibration head and clustering head) deep clustering model that can effectively calibrate the estimated confidence and the actual accuracy.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-6f75913bf673",
+          "field": "abstract",
+          "exact_quote": "To obtain the optimal weighting function from PML dataset during the training, a transferable calibrator is designed, which takes the histogram of positive samples' confidences as input, and outputs the optimal curriculum weighting for training.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "low-rank-modeling",
+      "canonical_en": "Low-rank modeling",
+      "canonical_zh": "低秩建模",
+      "primary_dimension": "method",
+      "definition_zh": "显式利用矩阵或张量低秩约束、分解或近似表示相关结构；仅作为被批评的旧假设不充分，LoRA的参数化也不自动等同于数据低秩建模。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-a9d5b70ee03a",
+          "field": "abstract",
+          "exact_quote": "Specifically, we explicitly impose a symmetric low-rank constraint and a structured sparse low-rank constraint on the frontal and horizontal slices of the tensor to characterize the intra-view and inter-view relationships, respectively.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-0c8c61ff348e",
+          "field": "abstract",
+          "exact_quote": "Then, with the enhanced traffic state low-rankness in the oblique matrix, a low-rank matrix completion method is tailored to explicitly capture spatiotemporal traffic propagation characteristics and precisely reconstruct traffic states.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "nonnegative-matrix-factorization",
+      "canonical_en": "Nonnegative matrix factorization",
+      "canonical_zh": "非负矩阵分解",
+      "primary_dimension": "method",
+      "definition_zh": "以非负因子分解矩阵，含对称非负矩阵分解；一般低秩分解或仅非负约束不充分。",
+      "aliases": [
+        "Non-negative matrix factorization"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-d50fd9c219f7",
+          "field": "abstract",
+          "exact_quote": "Inspired by ensemble clustering that aims to seek a better clustering result from a set of clustering results, we propose self-supervised SNMF (S3NMF), which is capable of boosting clustering performance progressively by taking advantage of the sensitivity to initialization characteristic of SNMF, without relying on any additional information.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-719455bd7125",
+          "field": "abstract",
+          "exact_quote": "In this paper, we propose a nonnegative matrix factorization (NMF) based classification method leveraging both positive and negative label information, which is termed as positive and negative label-driven NMF (PNLD-NMF).",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "graph-structure-learning",
+      "canonical_en": "Graph structure learning",
+      "canonical_zh": "图结构学习",
+      "primary_dimension": "method",
+      "definition_zh": "学习或修正样本间的边、邻接或亲和矩阵；使用固定图或只学习节点嵌入不充分。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-a6dff26af1aa",
+          "field": "abstract",
+          "exact_quote": "In order to address this issue, we propose a novel clustering network called Embedding-Induced Graph Refinement Clustering Network (EGRC-Net), which effectively utilizes the learned embedding to adaptively refine the initial graph and enhance the clustering performance.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-740b5f6ded12",
+          "field": "abstract",
+          "exact_quote": "In this paper, we propose a novel graph construction model that is tailored to PLL.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "graph-manifold-regularization",
+      "canonical_en": "Graph and manifold regularization",
+      "canonical_zh": "图与流形正则化",
+      "primary_dimension": "method",
+      "definition_zh": "用邻域、图拉普拉斯或超图等结构对学习结果施加几何一致性约束；图神经网络或图构造本身不等价。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-56209c579874",
+          "field": "abstract",
+          "exact_quote": "Furthermore, we employ graph regularization to align the topological structures of the input and output spaces, ensuring accurate reconstruction of the true label distribution matrix.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-b98b32a37a21",
+          "field": "abstract",
+          "exact_quote": "By taking advantage of the local manifold structure, a Laplacian graph is constructed from the superpixels to ensure that a typical pixel should be similar to its neighbors within the same superpixel.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "graph-neural-networks",
+      "canonical_en": "Graph neural networks",
+      "canonical_zh": "图神经网络",
+      "primary_dimension": "method",
+      "definition_zh": "使用图卷积或图上的可学习消息传递来获取表示；非神经图优化不计入。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-3f9060fdcde7",
+          "field": "abstract",
+          "exact_quote": "To address these challenges, we first propose a structural-spectral graph convolutional operator (SSGCO) tailored for graph-structured HSI superpixels to improve their representation quality through the co-extraction of spatial and spectral features.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-a6dff26af1aa",
+          "field": "abstract",
+          "exact_quote": "To begin, we leverage both semantic and topological information by employing a vanilla auto-encoder and a graph convolution network, respectively, to learn a latent feature representation.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "contrastive-learning",
+      "canonical_en": "Contrastive learning",
+      "canonical_zh": "对比学习",
+      "primary_dimension": "method",
+      "definition_zh": "通过视图、样本或中心间的吸引与区分目标学习表示；普通距离正则、竞争分类器不自动计入。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-d162a6829a75",
+          "field": "abstract",
+          "exact_quote": "Then sample-level alignment and clustering-center-level contrast are performed for better intra-class similarity and inter-class dissimilarity of superpixel embeddings.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-bddb535117ca",
+          "field": "abstract",
+          "exact_quote": "The proposed method makes innovations to mixup representations in contrastive learning to enhance deep clustering in long-tailed scenarios.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "pseudo-label-self-training",
+      "canonical_en": "Pseudo-labeling and self-training",
+      "canonical_zh": "伪标签与自训练",
+      "primary_dimension": "method",
+      "definition_zh": "将模型对未标注或弱标注样本的预测作为后续训练信号，并可筛选、加权或迭代更新；仅输出预测标签不充分。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-dec46f74923a",
+          "field": "abstract",
+          "exact_quote": "To tackle this challenge, we propose a Controllable Pseudo-label Generation (CPG) framework, expanding the labeled dataset with the progressively identified reliable pseudo-labels from the unlabeled dataset and training the model on the updated labeled dataset with a known distribution, making it unaffected by the unlabeled data distribution.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-af85f8a01211",
+          "field": "abstract",
+          "exact_quote": "Then, the clustering head dynamically selects reliable high-confidence samples estimated by the calibration head for pseudo-label self-training.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "sparse-representation",
+      "canonical_en": "Sparse representation",
+      "canonical_zh": "稀疏表示",
+      "primary_dimension": "method",
+      "definition_zh": "以少量字典原子、基向量或潜在特征表达样本；单独对噪声矩阵加稀疏惩罚或参数剪枝不充分。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-67bf125aef54",
+          "field": "abstract",
+          "exact_quote": "In this letter, we propose a new sparse representation (SR)-based method for hyperspectral image (HSI) classification, namely SR with incremental dictionaries (SRID).",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-11e2dfe6e2ee",
+          "field": "abstract",
+          "exact_quote": "In this work, we leverage sparse autoencoders (SAEs) to identify semantic directions closely associated with faithfulness or hallucination, extracting more precise and disentangled hallucination-related representations.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "bayesian-inference",
+      "canonical_en": "Bayesian inference",
+      "canonical_zh": "贝叶斯推断",
+      "primary_dimension": "method",
+      "definition_zh": "通过先验与概率模型进行后验估计或近似推断；仅提及贝叶斯最优分类器或概率输出不充分。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-b84d85c3683d",
+          "field": "abstract",
+          "exact_quote": "In this paper, we introduce a closed-form sparse Bayesian kernel Poisson regression (SBKPR) model for count data regression problems based on the sparse Bayesian learning (SBL) approach.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-7d1305d1760e",
+          "field": "abstract",
+          "exact_quote": "Since EFD results in inference intractable problem in Bayesian analysis, in this paper, Laplace approximation is adopted to solve this problem, which is a common approach in Bayesian inference.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "label-correlation-modeling",
+      "canonical_en": "Label correlation modeling",
+      "canonical_zh": "标签相关性建模",
+      "primary_dimension": "method",
+      "definition_zh": "显式建模标签间共现、依赖、排序或局部相关结构；样本间相似度及只使用多标签数据不充分。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-825376eac3f8",
+          "field": "abstract",
+          "exact_quote": "To this end, we propose a simple yet effective method to depict the high-order label correlations explicitly, and at the same time maintain the high-rank of the label matrix.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-914c3b9e7d06",
+          "field": "abstract",
+          "exact_quote": "It introduces consensus correlation, capturing agreement among other clients and serving as a global teacher to correct biased local estimates.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "parameter-efficient-fine-tuning",
+      "canonical_en": "Parameter-efficient fine-tuning",
+      "canonical_zh": "参数高效微调",
+      "primary_dimension": "method",
+      "definition_zh": "只训练少量增量参数或选定参数以适配预训练模型，包括低秩适配、适配器和连续提示；不能仅凭模型名称或推理加速认定。",
+      "aliases": [
+        "Parameter efficient fine tuning"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-fc483a521424",
+          "field": "abstract",
+          "exact_quote": "To overcome these limitations, we propose FlexLoRA, an entropy-guided flexible low-rank adaptation framework that (i) evaluates matrix importance via spectral energy entropy, (ii) supports rank pruning and expansion under a global budget, and (iii) employs zero-impact initialization for newly added singular directions to ensure stability.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-061b9da6e2d3",
+          "field": "abstract",
+          "exact_quote": "Second, we learn category-wise continuous semantic centers via prompt learning to produce the final clustering assignments.",
+          "role_reason_zh": "采用可学习连续提示产生语义中心；作为参数高效适配的具体形式，不将连续提示和LoRA视为同义词。"
+        }
+      ]
+    },
+    {
+      "id": "latent-reasoning",
+      "canonical_en": "Latent reasoning",
+      "canonical_zh": "潜在空间推理",
+      "primary_dimension": "method",
+      "definition_zh": "以连续潜在状态执行中间推理过程；普通隐层表示、链式文本推理或只提到潜变量不充分。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-ec6acdec9eea",
+          "field": "abstract",
+          "exact_quote": "We propose PLUME, a latent reasoning framework that advances UME by replacing verbalized CoT with a short autoregressive rollout of continuous latent states.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-distillation",
+      "canonical_en": "Knowledge distillation",
+      "canonical_zh": "知识蒸馏",
+      "primary_dimension": "method",
+      "definition_zh": "将教师模型的输出、表示或优化能力迁移至学生模型；数据集蒸馏和模型参数合并不等价。",
+      "aliases": [
+        "Model distillation"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-a6e1c503e9fd",
+          "field": "abstract",
+          "exact_quote": "Without human-labeled preferences or a reward model, our method distills the teacher's preference-optimization capability from black-box generations into a locally trainable student.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "domain-adaptation",
+      "canonical_en": "Domain adaptation",
+      "canonical_zh": "域适应",
+      "primary_dimension": "research_setting",
+      "definition_zh": "源域与目标域分布不同，通过适配将知识迁移至目标域；需明确跨域对象及适配过程，单纯类别长尾或标注/未标注类别比例失配不充分。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-cf4dec41fda2",
+          "field": "abstract",
+          "exact_quote": "In this letter, we propose a novel transfer learning approach, which simultaneously exploits the intra-domain differentiation and inter-domain correlation to comprehensively solve the drawbacks many existing transfer learning methods suffer from, i.e., they either are unable to handle the negative samples or have strict assumptions on the distribution.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-25256b9dda22",
+          "field": "abstract",
+          "exact_quote": "Extensive experiments on three large scale unsupervised and unsupervised domain adaptive (UDA) person re-ID benchmarks validate the effectiveness of$CASTOR$and its wide compatibility with the state-of-the-art clustering-based methods.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "pairwise-constraint-propagation",
+      "canonical_en": "Pairwise constraint propagation",
+      "canonical_zh": "成对约束传播",
+      "primary_dimension": "method",
+      "definition_zh": "扩展must-link/cannot-link监督关系，含只传播不相似关系的情形；普通节点标签传播或直接使用已知成对约束不等价。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-9bd585a26235",
+          "field": "abstract",
+          "exact_quote": "Specifically, we propagate MLs and CLs with two separated variables, called similarity and dissimilarity matrices, under the guidance of the graph structure constructed from data samples.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-8238ab546031",
+          "field": "abstract",
+          "exact_quote": "Furthermore, we innovatively propose to propagate the cannot-link constraints (i.e., dissimilarity) to refine the dissimilarity regularizer to be more informative.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "classifier-ensemble",
+      "canonical_en": "Classifier ensemble",
+      "canonical_zh": "分类器集成",
+      "primary_dimension": "method",
+      "definition_zh": "结合多个分类器的预测或按样本分配专家以完成分类；聚类共识任务、模型权重合并不等价。",
+      "aliases": [
+        "Ensemble classification"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-1f9013eb2f8b",
+          "field": "abstract",
+          "exact_quote": "It utilizes$c$-means clustering to produce Label Subset-specIfic FeaTures (LSIFT), constructs a neural network based model for each label subset, and integrates the base models with a dynamic and automatic attention-aware mechanism.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-aa44a48ac9a1",
+          "field": "abstract",
+          "exact_quote": "Then, we propose a classifier weight estimation module to automatically estimate the shot belongingness (head class or tail class) of the samples and allocate the weights for the head classifier and tail classifier when making prediction.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "partial-label-learning",
+      "canonical_en": "Partial label learning",
+      "canonical_zh": "偏标记学习",
+      "primary_dimension": "research_setting",
+      "definition_zh": "每个实例给出候选标签集合，标准设定下仅一个为真；允许研究其带噪或半监督扩展，不与多标签同时为真混同。",
+      "aliases": [
+        "偏标签学习"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-5403cb1aad23",
+          "field": "abstract",
+          "exact_quote": "Partial label learning is a weakly supervised learning problem in which an instance is annotated with a set of candidate labels, among which only one is the correct label.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-740b5f6ded12",
+          "field": "title",
+          "exact_quote": "Partial Label Learning Tailored Graph Construction",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "semi-supervised-learning",
+      "canonical_en": "Semi-supervised learning",
+      "canonical_zh": "半监督学习",
+      "primary_dimension": "research_setting",
+      "definition_zh": "结合有限监督信息与未标注样本，或以有限成对约束指导全部样本学习；纯自监督、无监督及仅小规模有标签训练不充分。",
+      "aliases": [
+        "Semisupervised learning"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-fc69e7eb5613",
+          "field": "abstract",
+          "exact_quote": "Semi-supervised learning faces significant challenges in realistic scenarios where labeled data is scarce and unlabeled data follows unknown, arbitrary distributions.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-50d02eb604b9",
+          "field": "abstract",
+          "exact_quote": "Semi-supervised symmetric non-negative matrix factorization (SNMF) utilizes the available supervisory information (usually in the form of pairwise constraints) to improve the clustering ability of SNMF.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "homepage",
+          "source_id": "https://jyh-learning.github.io/",
+          "field": "research_description",
+          "exact_quote": "semi\\weakly\\un-supervised learning",
+          "role_reason_zh": "个人主页自述帮助选定半监督学习术语；论文决定具体判定边界，不由此将所有弱监督与无监督设定合并。"
+        }
+      ]
+    },
+    {
+      "id": "class-imbalance",
+      "canonical_en": "Class-imbalanced learning",
+      "canonical_zh": "类别不平衡学习",
+      "primary_dimension": "research_setting",
+      "definition_zh": "显式处理类别或簇的样本量、各标签描述度总量的不均衡，包含长尾分布；must-link与cannot-link数量不均衡不等同于类别不平衡。",
+      "aliases": [
+        "Class imbalance",
+        "Class-imbalance learning"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-77b725acea33",
+          "field": "abstract",
+          "exact_quote": "To address this, we propose a mini-cluster guided long-tailed deep clustering method, termed MiniClustering.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-aa44a48ac9a1",
+          "field": "abstract",
+          "exact_quote": "However, in real-world applications, the distribution of the classes is imbalanced or long-tailed, leading to the long-tailed partial label learning problem.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "noisy-label-learning",
+      "canonical_en": "Noisy-label learning",
+      "canonical_zh": "噪声标签学习",
+      "primary_dimension": "research_setting",
+      "definition_zh": "训练监督中存在错误类别、候选集遗漏真标签或不准确的标签分布，并以此为研究条件；普通偏标记候选歧义、伪标签错误或输入数据污染不自动计入。",
+      "aliases": [
+        "Learning with noisy labels"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-5403cb1aad23",
+          "field": "abstract",
+          "exact_quote": "However, in practice the correct label is not always in the candidate label set, leading to the noisy partial label learning (NPLL) problem.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-de8760c3355c",
+          "field": "abstract",
+          "exact_quote": "First, we assume that the inaccurate label distribution consists of the ground-truth label distribution and instance-dependent noise.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "multi-view-learning",
+      "canonical_en": "Multi-view learning",
+      "canonical_zh": "多视图学习",
+      "primary_dimension": "research_setting",
+      "definition_zh": "同一对象有多个互补特征视图或观测变量，并显式联合利用视图间关系；数据增强生成两个视图不自动计入此数据设定。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-a9d5b70ee03a",
+          "field": "abstract",
+          "exact_quote": "This paper explores the problem of multi-view spectral clustering (MVSC) based on tensor low-rank modeling.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-2b357d849d9d",
+          "field": "abstract",
+          "exact_quote": "To explore the inter-view relationships, a multi-view subspace consistency learning module is developed to bridge connections and activate complementarities among multi-view traffic data.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "federated-learning",
+      "canonical_en": "Federated learning",
+      "canonical_zh": "联邦学习",
+      "primary_dimension": "research_setting",
+      "definition_zh": "多个客户端保留本地原始数据、以模型更新或统计信息协作训练；普通分布式计算不充分。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-914c3b9e7d06",
+          "field": "abstract",
+          "exact_quote": "Federated Multi-Label Learning is a distributed paradigm where multiple clients possess heterogeneous multi-label data and perform collaborative learning under privacy constraints without sharing raw data.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-a1005f21ac76",
+          "field": "abstract",
+          "exact_quote": "To address this trust dilemma, we propose FedQual, a quality-aware Fed-LDL framework with two coupled mechanisms: (i) quality-adaptive client training guided by a global semantic anchor that calibrates low-quality clients while preserving high-quality autonomy, and (ii) reliability-aware server aggregation that reweights client contributions by effective reliable information rather than raw sample size.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "zero-shot-learning",
+      "canonical_en": "Zero-shot learning",
+      "canonical_zh": "零样本学习",
+      "primary_dimension": "research_setting",
+      "definition_zh": "依靠语义或属性等辅助信息识别训练时无标注样本的未见类别；与开放词表相关但非同义，不能由使用大模型直接推断。",
+      "aliases": [
+        "Zero shot learning"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-1ba64af37485",
+          "field": "abstract",
+          "exact_quote": "By jointly modeling semantic diversity and visual structural consistency, AAVS provides more effective generation conditions for unseen classes to generate visual features.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "open-vocabulary-recognition",
+      "canonical_en": "Open-vocabulary recognition",
+      "canonical_zh": "开放词表识别",
+      "primary_dimension": "research_setting",
+      "definition_zh": "识别类别可通过词语指定而不局限于固定训练标签表；不等同于开放集拒识或零样本学习，当前论文仅支持标题层面的多标签识别设定。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-5dda1e979492",
+          "field": "title",
+          "exact_quote": "LoCo: Selective Local Competition for Discriminative Open-Vocabulary Multi-Label Recognition",
+          "role_reason_zh": "标题直接声明开放词表多标签识别；不根据标题推断具体实现。"
+        }
+      ]
+    },
+    {
+      "id": "hyperspectral-images",
+      "canonical_en": "Hyperspectral images",
+      "canonical_zh": "高光谱图像",
+      "primary_dimension": "application_object",
+      "definition_zh": "处理具有密集光谱波段的图像，包括其分类、聚类、表示与解混；一般遥感或RGB图像不充分。",
+      "aliases": [
+        "Hyperspectral imagery",
+        "Hyperspectral image"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-efed21f0ba73",
+          "field": "abstract",
+          "exact_quote": "To tackle this issue, we propose a novel model for irregular tensor low-rank representation tailored to efficiently model irregular 3D cubes.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-3f9060fdcde7",
+          "field": "title",
+          "exact_quote": "Structural-Spectral Graph Convolution with Evidential Edge Learning for Hyperspectral Image Clustering",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "traffic-data",
+      "canonical_en": "Traffic data",
+      "canonical_zh": "交通数据",
+      "primary_dimension": "application_object",
+      "definition_zh": "道路交通速度、流量、轨迹或时空交通状态等实际数据对象；论文仅提及智能交通应用背景不充分。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-0c8c61ff348e",
+          "field": "abstract",
+          "exact_quote": "In this study, we propose an efficient and robust low-rank model for precise spatiotemporal traffic speed state estimation (TSE) using low-penetration vehicle trajectory data.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-2b357d849d9d",
+          "field": "title",
+          "exact_quote": "An Integrated Intra-view and Inter-view Framework for Multiple Traffic Variable Data Simultaneous Recovery",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "underwater-images",
+      "canonical_en": "Underwater images",
+      "canonical_zh": "水下图像",
+      "primary_dimension": "application_object",
+      "definition_zh": "直接研究水下采集图像的感知问题及成像退化；一般海洋背景或消费电子场景提及不充分。",
+      "aliases": [
+        "Underwater imagery"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-4f00a8eb8a7d",
+          "field": "abstract",
+          "exact_quote": "To solve this problem, we propose the Vision Transformer Underwater-Adapter (ViT-UWA), the first detail-focused and adapted ViT backbone for underwater dense prediction tasks, without requiring task-specific pretraining.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-c0cf7adb052a",
+          "field": "title",
+          "exact_quote": "Large Model Guided Semantic Segment Anything for Underwater Consumer Electronics",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "large-language-models",
+      "canonical_en": "Large language models",
+      "canonical_zh": "大语言模型",
+      "primary_dimension": "application_object",
+      "definition_zh": "将大规模预训练语言模型作为要适配、合并、对齐或分析的对象；基因组基础模型和普通小型分类网络不自动计入。",
+      "aliases": [],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-9c41930c1897",
+          "field": "abstract",
+          "exact_quote": "As Large Language Models (LLMs) serve a global audience, alignment must transition from enforcing universal consensus to respecting cultural pluralism.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-532faa4a2fc2",
+          "field": "title",
+          "exact_quote": "ResMerge: Residual-based Spectral Merging of Large Language Models",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "vision-language-models",
+      "canonical_en": "Vision-language models",
+      "canonical_zh": "视觉语言模型",
+      "primary_dimension": "application_object",
+      "definition_zh": "联合处理视觉与语言的模型，覆盖CLIP类图文表征模型及视觉语言大模型；须为论文的研究对象或主要组件，单独ViT或一般多模态任务不充分。仅有VLM或CLIP证据不能推定其为视觉语言大模型。",
+      "aliases": [
+        "Visual-language models"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-061b9da6e2d3",
+          "field": "abstract",
+          "exact_quote": "Language-Assisted Image Clustering (LAIC) augments the input images with additional texts with the help of vision-language models (VLMs) to promote clustering performance.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-11e2dfe6e2ee",
+          "field": "abstract",
+          "exact_quote": "Building on these insights, we propose Steering LVLMs via SAE Latent Directions (SSL), a plug-and-play method based on SAE-derived latent directions to mitigate hallucinations in LVLMs.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "weakly-supervised-learning",
+      "canonical_en": "Weakly supervised learning",
+      "canonical_zh": "弱监督学习",
+      "primary_dimension": "research_setting",
+      "definition_zh": "以不完整、不精确、粗粒度或不准确的监督信号替代充分准确的实例级真值，并将该监督条件作为实质研究问题；可包含有限标注、候选歧义、标签缺失或错误、包级与比例监督。纯无监督、自监督以及仅有输入噪声不自动计入。各具体设定互不等价，也不是本词的同义词。",
+      "aliases": [
+        "Weakly-supervised learning"
+      ],
+      "parent_id": null,
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-5403cb1aad23",
+          "field": "abstract",
+          "exact_quote": "Partial label learning is a weakly supervised learning problem in which an instance is annotated with a set of candidate labels, among which only one is the correct label.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-9728948569cd",
+          "field": "abstract",
+          "exact_quote": "Learning from Label Proportions (LLP) is a weakly-supervised paradigm that uses bag-level label proportions to train instance-level classifiers, offering a practical alternative to costly instance-level annotation.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-624e1914aeb8",
+          "field": "abstract",
+          "exact_quote": "This paper addresses the problem of partial multi-label learning (PML), a challenging weakly supervised learning framework, where each sample is associated with a candidate label set comprising both ground-true labels and noisy labels.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    },
+    {
+      "id": "large-vision-language-models",
+      "canonical_en": "Large vision-language models",
+      "canonical_zh": "视觉语言大模型",
+      "primary_dimension": "application_object",
+      "definition_zh": "以大语言模型为语言生成或推理核心并接收视觉输入的视觉语言模型，研究其生成、推理、适配或内部表征；必须有LVLM或视觉输入的大型多模态语言模型证据。CLIP类图文对比编码器及仅称VLM的模型不自动计入。",
+      "aliases": [
+        "Large visual-language models"
+      ],
+      "parent_id": "vision-language-models",
+      "evidence": [
+        {
+          "source_type": "paper",
+          "source_id": "lab-57c2d8cba676",
+          "field": "abstract",
+          "exact_quote": "Large Vision-Language Models (LVLMs) have shown remarkable performance on a wide range of vision-language tasks.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        },
+        {
+          "source_type": "paper",
+          "source_id": "lab-11e2dfe6e2ee",
+          "field": "abstract",
+          "exact_quote": "Building on these insights, we propose Steering LVLMs via SAE Latent Directions (SSL), a plug-and-play method based on SAE-derived latent directions to mitigate hallucinations in LVLMs.",
+          "role_reason_zh": "直接研究该问题或将该方法用于所提出的方案。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "papers": [
+    {
+      "paper_id": "W2130184867",
+      "title": "Automatic Foveation for Video Compression Using a Neurobiological Model of Visual Attention",
+      "abstract": "We evaluate the applicability of a biologically-motivated algorithm to select visually-salient regions of interest in video streams for multiply-foveated video compression. Regions are selected based on a nonlinear integration of low-level visual cues, mimicking processing in primate occipital, and posterior parietal cortex. A dynamic foveation filter then blurs every frame, increasingly with distance from salient locations. Sixty-three variants of the algorithm (varying number and shape of virtual foveas, maximum blur, and saliency competition) are evaluated against an outdoor video scene, using MPEG-1 and constant-quality MPEG-4 (DivX) encoding. Additional compression radios of 1.1 to 8.5 are achieved by foveation. Two variants of the algorithm are validated against eye fixations recorded from four to six human observers on a heterogeneous collection of 50 video clips (over 45 000 frames in total). Significantly higher overlap than expected by chance is found between human and algorithmic foveations. With both variants, foveated clips are, on average, approximately half the size of unfoveated clips, for both MPEG-1 and MPEG-4. These results suggest a general-purpose usefulness of the algorithm in improving compression ratios of unconstrained video."
+    },
+    {
+      "paper_id": "W2130315403",
+      "title": "Multimodal News Story Clustering With Pairwise Visual Near-Duplicate Constraint",
+      "abstract": "Story clustering is a critical step for news retrieval, topic mining, and summarization. Nonetheless, the task remains highly challenging owing to the fact that news topics exhibit clusters of varying densities, shapes, and sizes. Traditional algorithms are found to be ineffective in mining these types of clusters. This paper offers a new perspective by exploring the pairwise visual cues deriving from near-duplicate keyframes (NDK) for constraint-based clustering. We propose a constraint-driven co-clustering algorithm (CCC), which utilizes the near-duplicate constraints built on top of text, to mine topic-related stories and the outliers. With CCC, the duality between stories and their underlying multimodal features is exploited to transform features in low-dimensional space with normalized cut. The visual constraints are added directly to this new space, while the traditional DBSCAN is revisited to capitalize on the availability of constraints and the reduced dimensional space. We modify DBSCAN with two new characteristics for story clustering: 1) constraint-based centroid selection and 2) adaptive radius. Experiments on TRECVID-2004 corpus demonstrate that CCC with visual constraints is more capable of mining news topics of varying densities, shapes and sizes, compared with traditionalk-means, DBSCAN, and spectral co-clustering algorithms."
+    },
+    {
+      "paper_id": "W2131339080",
+      "title": "Rate-Dependent Hysteresis Modeling and Control of a Piezostage Using Online Support Vector Machine and Relevance Vector Machine",
+      "abstract": "Hysteresis nonlinearity degrades the positioning accuracy of a piezostage and requires a suppression for precision micro-/nanopositioning applications. This paper proposes two new approaches to modeling and compensating the rate-dependent hysteresis of a piezostage driven by piezoelectric stack actuators. By formulating the hysteresis modeling as an online nonlinear regression problem, online least squares support vector machine (SVM) (LS-SVM) and online relevance vector machine (RVM) models are proposed to capture the hysteretic behavior. Both hysteresis models are capable of updating continually with subsequent samples. After a comparative study on modeling performances, an inverse model-based feedforward combined with proportional-integral-derivative feedback control is presented to alleviate the hysteresis effect. Experimental results show that the LS-SVM model-based control scheme is over 86% more accurate than the RVM model-based one in the motion tracking task, whereas the latter is 14 times faster than the former in terms of updating time. Moreover, both LS-SVM and RVM model-based control schemes can suppress the rate-dependent hysteresis to a negligible level, which validates the feasibility and effectiveness of the proposed approaches."
+    },
+    {
+      "paper_id": "W2131628350",
+      "title": "Robust Principal Component Analysis: Exact Recovery of Corrupted Low-Rank Matrices via Convex Optimization",
+      "abstract": "Made available in DSpace on 2015-04-06T20:54:48Z (GMT). No. of bitstreams: 2 license.txt: 4922 bytes, checksum: 910b249b4beec47e7ab768910c8f966f (MD5) B40-DC_243.pdf: 11633890 bytes, checksum: c04e8c7fc97132917ff19dfac3017ae4 (MD5) Previous issue date: 2009-04"
+    },
+    {
+      "paper_id": "W2131681506",
+      "title": "Fast unfolding of communities in large networks",
+      "abstract": "We propose a simple method to extract the community structure of large networks. Our method is a heuristic method that is based on modularity optimization. It is shown to outperform all other known community detection methods in terms of computation time. Moreover, the quality of the communities detected is very good, as measured by the so-called modularity. This is shown first by identifying language communities in a Belgian mobile phone network of 2 million customers and by analysing a web graph of 118 million nodes and more than one billion links. The accuracy of our algorithm is also verified on ad hoc modular networks."
+    },
+    {
+      "paper_id": "W2131697388",
+      "title": "Recent advances in techniques for hyperspectral image processing",
+      "abstract": null
+    },
+    {
+      "paper_id": "W2132083787",
+      "title": "A Tutorial on the Cross-Entropy Method",
+      "abstract": "The cross-entropy (CE) method is a new generic approach to combinatorial and multi-extremal optimization and rare event simulation. The purpose of this tutorial is to give a gentle introduction to the CE method. We present the CE methodology, the basic algorithm and its modifications, and discuss applications in combinatorial optimization and machine learning."
+    },
+    {
+      "paper_id": "W2132140174",
+      "title": "Network-Wide Traffic State Estimation Using Loop Detector and Floating Car Data",
+      "abstract": "In real-time traffic management and intelligent transportation systems (ITS) applications, an accurate picture of the prevailing traffic state in terms of speeds and densities is critical, for which traffic state estimation methods are needed. The most popular and effective techniques used are so-called model-based traffic state estimators, which consist of a dynamic traffic flow model to predict the evolution of the state variables; a set of observation equations relating sensor observations to the system state; and data-assimilation techniques to combine the model predictions with the sensor observations. Commonly, both process and observation models are formulated in Eulerian (space–time) coordinates. However, recent studies show that (first-order) macroscopic traffic flow models can be formulated and solved more efficiently and accurately in Lagrangian (vehicle number–time) coordinates (which move with traffic stream) than in Eulerian coordinates (which are fixed in space). In this article such a Lagrangian system model for state estimation is used. The approach uses the extended Kalman filtering technique, in which the discretized Lagrangian kinematic wave model with an extension (node models) for network discontinuities is used as the process equation and the average relation between vehicle spacing and speed (the fundamental diagram) is used as the observation equation. The Lagrangian state estimator is validated and compared with its Eulerian counterpart based on ground-truth data from a microscopic simulation environment. The results demonstrate that network-wide Lagrangian state estimation is possible and provide evidence that the Lagrangian estimator outperforms the Eulerian approach."
+    },
+    {
+      "paper_id": "W2132202037",
+      "title": "Near linear time algorithm to detect community structures in large-scale networks",
+      "abstract": "Community detection and analysis is an important methodology for understanding the organization of various real-world networks and has applications in problems as diverse as consensus formation in social communities or the identification of functional modules in biochemical networks. Currently used algorithms that identify the community structures in large-scale real-world networks require a priori information such as the number and sizes of communities or are computationally expensive. In this paper we investigate a simple label propagation algorithm that uses the network structure alone as its guide and requires neither optimization of a predefined objective function nor prior information about the communities. In our algorithm every node is initialized with a unique label and at every step each node adopts the label that most of its neighbors currently have. In this iterative process densely connected groups of nodes form a consensus on a unique label to form communities. We validate the algorithm by applying it to networks whose community structures are known. We also demonstrate that the algorithm takes an almost linear time and hence it is computationally less expensive than what was possible so far."
+    },
+    {
+      "paper_id": "W2132538571",
+      "title": "On the Convergence of Multiplicative Update Algorithms for Nonnegative Matrix Factorization",
+      "abstract": "Nonnegative matrix factorization (NMF) is useful to find basis information of nonnegative data. Currently, multiplicative updates are a simple and popular way to find the factorization. However, for the common NMF approach of minimizing the Euclidean distance between approximate and true values, no proof has shown that multiplicative updates converge to a stationary point of the NMF optimization problem. Stationarity is important as it is a necessary condition of a local minimum. This paper discusses the difficulty of proving the convergence. We propose slight modifications of existing updates and prove their convergence. Techniques invented in this paper may be applied to prove the convergence for other bound-constrained optimization problems."
+    },
+    {
+      "paper_id": "W2132555912",
+      "title": "Sparse inverse covariance estimation with the graphical lasso",
+      "abstract": "We consider the problem of estimating sparse graphs by a lasso penalty applied to the inverse covariance matrix. Using a coordinate descent procedure for the lasso, we develop a simple algorithm--the graphical lasso--that is remarkably fast: It solves a 1000-node problem ( approximately 500,000 parameters) in at most a minute and is 30-4000 times faster than competing methods. It also provides a conceptual link between the exact problem and the approximation suggested by Meinshausen and Bühlmann (2006). We illustrate the method on some cell-signaling data from proteomics."
+    },
+    {
+      "paper_id": "W2132603077",
+      "title": "An optimal graph theoretic approach to data clustering: theory and its application to image segmentation",
+      "abstract": "A novel graph theoretic approach for data clustering is presented and its application to the image segmentation problem is demonstrated. The data to be clustered are represented by an undirected adjacency graph G with arc capacities assigned to reflect the similarity between the linked vertices. Clustering is achieved by removing arcs of G to form mutually exclusive subgraphs such that the largest inter-subgraph maximum flow is minimized. For graphs of moderate size ( approximately 2000 vertices), the optimal solution is obtained through partitioning a flow and cut equivalent tree of G, which can be efficiently constructed using the Gomory-Hu algorithm (1961). However for larger graphs this approach is impractical. New theorems for subgraph condensation are derived and are then used to develop a fast algorithm which hierarchically constructs and partitions a partially equivalent tree of much reduced size. This algorithm results in an optimal solution equivalent to that obtained by partitioning the complete equivalent tree and is able to handle very large graphs with several hundred thousand vertices. The new clustering algorithm is applied to the image segmentation problem. The segmentation is achieved by effectively searching for closed contours of edge elements (equivalent to minimum cuts in G), which consist mostly of strong edges, while rejecting contours containing isolated strong edges. This method is able to accurately locate region boundaries and at the same time guarantees the formation of closed edge contours.>"
+    },
+    {
+      "paper_id": "W2132914434",
+      "title": "A tutorial on spectral clustering",
+      "abstract": "Abstract\nIn recent years, spectral clustering has become one of the most popular modern clustering algorithms. It is simple to implement, can be solved efficiently by standard linear algebra software, and very often outperforms traditional clustering algorithms such as the k-means algorithm. On the first glance spectral clustering appears slightly mysterious, and it is not obvious to see why it works at all and what it really does. The goal of this tutorial is to give some intuition on those questions. We describe different graph Laplacians and their basic properties, present the most common spectral clustering algorithms, and derive those algorithms from scratch by several different approaches. Advantages and disadvantages of the different spectral clustering algorithms are discussed.\n"
+    },
+    {
+      "paper_id": "W2133223948",
+      "title": "Addressing imbalance in multilabel classification: Measures and random resampling algorithms",
+      "abstract": null
+    },
+    {
+      "paper_id": "W2133288557",
+      "title": "Multi-instance learning by treating instances as non-I.I.D. samples",
+      "abstract": "Previous studies on multi-instance learning typically treated instances in the bags as independently and identically distributed. The instances in a bag, however, are rarely independent in real tasks, and a better performance can be expected if the instances are treated in an non-i.i.d. way that exploits relations among instances. In this paper, we propose two simple yet effective methods. In the first method, we explicitly map every bag to an undirected graph and design a graph kernel for distinguishing the positive and negative bags. In the second method, we implicitly construct graphs by deriving affinity matrices and propose an efficient graph kernel considering the clique information. The effectiveness of the proposed methods are validated by experiments."
+    },
+    {
+      "paper_id": "W2133442079",
+      "title": "Linear Neighborhood Propagation and Its Applications",
+      "abstract": "In this paper, a novel graph-based transductive classification approach, called Linear Neighborhood Propagation, is proposed. The basic idea is to predict the label of a data point according to its neighbors in a linear way. This method can be cast into a second-order intrinsic Gaussian Markov random field framework. Its result corresponds to a solution to an approximate inhomogeneous biharmonic equation with Dirichlet boundary conditions. Different from existing approaches, our approach provides a novel graph structure construction method by introducing multiple-wise edges instead of pairwise edges, and presents an effective scheme to estimate the weights for such multiple-wise edges. To the best of our knowledge, these two contributions are novel for semi-supervised classification. The experimental results on image segmentation and transductive classification demonstrate the effectiveness and efficiency of the proposed approach."
+    },
+    {
+      "paper_id": "W2133576408",
+      "title": "Co-clustering documents and words using bipartite spectral graph partitioning",
+      "abstract": "Both document clustering and word clustering are well studied problems. Most existing algorithms cluster documents and words separately but not simultaneously. In this paper we present the novel idea of modeling the document collection as a bipartite graph between documents and words, using which the simultaneous clustering problem can be posed as a bipartite graph partitioning problem. To solve the partitioning problem, we use a new spectral co-clustering algorithm that uses the second left and right singular vectors of an appropriately scaled word-document matrix to yield good bipartitionings. The spectral algorithm enjoys some optimality properties; it can be shown that the singular vectors solve a real relaxation to the NP-complete graph bipartitioning problem. We present experimental results to verify that the resulting co-clustering algorithm works well in practice."
+    },
+    {
+      "paper_id": "W2133626129",
+      "title": "Community Detection Using Spectral Clustering on Sparse Geosocial Data",
+      "abstract": "In this article we identify social communities among gang members in the Hollenbeck policing district in Los Angeles, based on sparse observations of a combination of social interactions and geographic locations of the individuals. This information, coming from Los Angeles Police Department (LAPD) Field Interview cards, is used to construct a similarity graph for the individuals. We use spectral clustering to identify clusters in the graph, corresponding to communities in Hollenbeck, and compare these with the LAPD's knowledge of the individuals' gang membership. We discuss different ways of encoding the geosocial information using a graph structure and the influence on the resulting clusterings. Finally we analyze the robustness of this technique with respect to noisy and incomplete data, thereby providing suggestions about the relative importance of quantity versus quality of collected data."
+    },
+    {
+      "paper_id": "W2133665775",
+      "title": "Image quality assessment: from error visibility to structural similarity",
+      "abstract": "Objective methods for assessing perceptual image quality traditionally attempted to quantify the visibility of errors (differences) between a distorted image and a reference image using a variety of known properties of the human visual system. Under the assumption that human visual perception is highly adapted for extracting structural information from a scene, we introduce an alternative complementary framework for quality assessment based on the degradation of structural information. As a specific example of this concept, we develop a Structural Similarity Index and demonstrate its promise through a set of intuitive examples, as well as comparison to both subjective ratings and state-of-the-art objective methods on a database of images compressed with JPEG and JPEG2000."
+    },
+    {
+      "paper_id": "W2133871228",
+      "title": "Impulsive Noise Mitigation in Powerline Communications Using Sparse Bayesian Learning",
+      "abstract": "Asynchronous impulsive noise and periodic impulsive noises limit communication performance in OFDM powerline communication systems. Conventional OFDM receivers that assume additive white Gaussian noise experience degradation in communication performance in impulsive noise. Alternate designs assume a statistical noise model and use the model parameters in mitigating impulsive noise. These receivers require training overhead for parameter estimation, and degrade due to model and parameter mismatch. To mitigate asynchronous impulsive noise, we exploit its sparsity in the time domain, and apply sparse Bayesian learning methods to estimate and subtract the noise impulses. We propose three iterative algorithms with different complexity vs. performance trade-offs: (1) we utilize the noise projection onto null and pilot tones; (2) we add the information in the date tones to perform joint noise estimation and symbol detection; (3) we use decision feedback from the decoder to further enhance the accuracy of noise estimation. These algorithms are also embedded in a time-domain block interleaving OFDM system to mitigate periodic impulsive noise. Compared to conventional OFDM receivers, the proposed methods achieve SNR gains of up to 9 dB in coded and 10 dB in uncoded systems in asynchronous impulsive noise, and up to 6 dB in coded systems in periodic impulsive noise."
+    },
+    {
+      "paper_id": "W2134089414",
+      "title": "Constrained K-means Clustering with Background Knowledge",
+      "abstract": "Clustering is traditionally viewed as an unsupervised method for data analysis. However, in some cases information about the problem domain is available in addition to the data instances themselves. In this paper, we demonstrate how the popular k-means clustering algorithm can be pro tably modi- ed to make use of this information. In experiments with arti cial constraints on six data sets, we observe improvements in clustering accuracy. We also apply this method to the real-world problem of automatically detecting road lanes from GPS data and observe dramatic increases in performance. 1."
+    },
+    {
+      "paper_id": "W2134603844",
+      "title": "Extreme learning machine: a new learning scheme of feedforward neural networks",
+      "abstract": "It is clear that the learning speed of feedforward neural networks is in general far slower than required and it has been a major bottleneck in their applications for past decades. Two key reasons behind may be: 1) the slow gradient-based learning algorithms are extensively used to train neural networks, and 2) all the parameters of the networks are tuned iteratively by using such learning algorithms. Unlike these traditional implementations, this paper proposes a new learning algorithm called extreme learning machine (ELM) for single-hidden layer feedforward neural networks (SLFNs) which randomly chooses the input weights and analytically determines the output weights of SLFNs. In theory, this algorithm tends to provide the best generalization performance at extremely fast learning speed. The experimental results based on real-world benchmarking function approximation and classification problems including large complex applications show that the new algorithm can produce best generalization performance in some cases and can learn much faster than traditional popular learning algorithms for feedforward neural networks."
+    },
+    {
+      "paper_id": "W2135001774",
+      "title": "A Generalization of Principal Components Analysis to the Exponential Family",
+      "abstract": "Principal component analysis (PCA) is a commonly applied technique for dimensionality reduction. PCA implicitly minimizes a squared loss function, which may be inappropriate for data that is not real-valued, such as binary-valued data. This paper draws on ideas from the Exponen-tial family, Generalized linear models, and Bregman distances, to give a generalization of PCA to loss functions that we argue are better suited to other data types. We describe algorithms for minimizing the loss func-tions, and give examples on simulated data. 1"
+    },
+    {
+      "paper_id": "W2135029798",
+      "title": "Algorithms for Non-negative Matrix Factorization",
+      "abstract": "Non-negative matrix factorization (NMF) has previously been shown to be a useful decomposition for multivariate data. Two different multiplicative algorithms for NMF are analyzed. They differ only slightly in the multiplicative factor used in the update rules. One algorithm can be shown to minimize the conventional least squares error while the other minimizes the generalized Kullback-Leibler divergence. The monotonic convergence of both algorithms can be proven using an auxiliary function analogous to that used for proving convergence of the ExpectationMaximization algorithm. The algorithms can also be interpreted as diagonally rescaled gradient descent, where the rescaling factor is optimally chosen to ensure convergence. Introduction Unsupervised learning algorithms such as principal components analysis and vector quantization can be understood as factorizing a data matrix subject to different constraints. Depending upon the constraints utilized, the resulting factors can be shown ..."
+    },
+    {
+      "paper_id": "W2135046866",
+      "title": "Regression Shrinkage and Selection Via the Lasso",
+      "abstract": "SUMMARY We propose a new method for estimation in linear models. The ‘lasso’ minimizes the residual sum of squares subject to the sum of the absolute value of the coefficients being less than a constant. Because of the nature of this constraint it tends to produce some coefficients that are exactly 0 and hence gives interpretable models. Our simulation studies suggest that the lasso enjoys some of the favourable properties of both subset selection and ridge regression. It produces interpretable models like subset selection and exhibits the stability of ridge regression. There is also an interesting relationship with recent work in adaptive function estimation by Donoho and Johnstone. The lasso idea is quite general and can be applied in a variety of statistical models: extensions to generalized regression models and tree-based models are briefly described."
+    },
+    {
+      "paper_id": "W2135076825",
+      "title": "Semi-Supervised Kernel Mean Shift Clustering",
+      "abstract": "Mean shift clustering is a powerful nonparametric technique that does not require prior knowledge of the number of clusters and does not constrain the shape of the clusters. However, being completely unsupervised, its performance suffers when the original distance metric fails to capture the underlying cluster structure. Despite recent advances in semi-supervised clustering methods, there has been little effort towards incorporating supervision into mean shift. We propose a semi-supervised framework for kernel mean shift clustering (SKMS) that uses only pairwise constraints to guide the clustering procedure. The points are first mapped to a high-dimensional kernel space where the constraints are imposed by a linear transformation of the mapped points. This is achieved by modifying the initial kernel matrix by minimizing a log det divergence-based objective function. We show the advantages of SKMS by evaluating its performance on various synthetic and real datasets while comparing with state-of-the-art semi-supervised clustering algorithms."
+    },
+    {
+      "paper_id": "W2135346934",
+      "title": "Introduction to Statistical Pattern Recognition",
+      "abstract": null
+    },
+    {
+      "paper_id": "W2135431554",
+      "title": "Entropy rate superpixel segmentation",
+      "abstract": "We propose a new objective function for superpixel segmentation. This objective function consists of two components: entropy rate of a random walk on a graph and a balancing term. The entropy rate favors formation of compact and homogeneous clusters, while the balancing function encourages clusters with similar sizes. We present a novel graph construction for images and show that this construction induces a matroid - a combinatorial structure that generalizes the concept of linear independence in vector spaces. The segmentation is then given by the graph topology that maximizes the objective function under the matroid constraint. By exploiting submodular and mono-tonic properties of the objective function, we develop an efficient greedy algorithm. Furthermore, we prove an approximation bound of ½ for the optimality of the solution. Extensive experiments on the Berkeley segmentation benchmark show that the proposed algorithm outperforms the state of the art in all the standard evaluation metrics."
+    },
+    {
+      "paper_id": "W2135488357",
+      "title": "Integrated hyperspectral remote sensing, geochemical and isotopic studies for understanding hydrocarbon-induced rock alterations",
+      "abstract": null
+    },
+    {
+      "paper_id": "W2135533176",
+      "title": "Multi-Instance Multi-Label Learning with Application to Scene Classification",
+      "abstract": "In this paper, we formalize multi-instance multi-label learning, where each training example is associated with not only multiple instances but also multiple class labels. Such a problem can occur in many real-world tasks, e.g. an image usually contains multiple patches each of which can be described by a feature vector, and the image can belong to multiple categories since its semantics can be recognized in different ways. We analyze the relationship between multi-instance multi-label learning and the learning frameworks of traditional supervised learning, multiinstance learning and multi-label learning. Then, we propose the MIMLBOOST and MIMLSVM algorithms which achieve good performance in an application to scene classification. 1"
+    },
+    {
+      "paper_id": "W2135730159",
+      "title": "Mixture decomposition for distributions from the exponential family using a generalized method of moments",
+      "abstract": "A finite mixture distribution consists of the superposition of a finite number of component probability densities, and is typically used to model a population composed of two or more subpopulations. Mixture models find utility in situations where there is a difficulty in directly observing the underlying components of the population of interest. This paper examines the method of moments as a general estimation technique for estimating the parameters of the component distributions and their mixing proportions. It is shown that the same basic solution can be applied to any continuous or discrete density from the exponential family with a known common shape parameter. Results of an empirical study of the method are also presented.>"
+    },
+    {
+      "paper_id": "W2135957164",
+      "title": "Graph-Based Visual Saliency",
+      "abstract": "A new bottom-up visual saliency model, Graph-Based Visual Saliency (GBVS), is proposed. It consists of two steps: first forming activation maps on certain feature \\nchannels, and then normalizing them in a way which highlights conspicuity and admits combination with other maps. The model is simple, and biologically plausible \\ninsofar as it is naturally parallelized. This model powerfully predicts human fixations on 749 variations of 108 natural images, achieving 98% of the ROC area \\nof a human-based control, whereas the classical algorithms of Itti & Koch ([2], [3], [4]) achieve only 84%."
+    },
+    {
+      "paper_id": "W2135980307",
+      "title": "Lane Change Intent Analysis Using Robust Operators and Sparse Bayesian Learning",
+      "abstract": "In this paper we demonstrate a driver intent inference system (DIIS) based on lane positional information, vehicle parameters, and driver head motion. We present robust computer vision methods for identifying and tracking freeway lanes and driver head motion. These algorithms are then applied and evaluated on real-world data collected in a modular intelligent vehicle test-bed. Analysis of the data for lane change intent is performed using a sparse Bayesian learning methodology. Finally, the system as a whole is evaluated using a novel metric and real-world data of vehicle parameters, lane position, and driver head motion."
+    },
+    {
+      "paper_id": "W2136251662",
+      "title": "Classification of hyperspectral remote sensing images with support vector machines",
+      "abstract": "This paper addresses the problem of the classification of hyperspectral remote sensing images by support vector machines (SVMs). First, we propose a theoretical discussion and experimental analysis aimed at understanding and assessing the potentialities of SVM classifiers in hyperdimensional feature spaces. Then, we assess the effectiveness of SVMs with respect to conventional feature-reduction-based approaches and their performances in hypersubspaces of various dimensionalities. To sustain such an analysis, the performances of SVMs are compared with those of two other nonparametric classifiers (i.e., radial basis function neural networks and the K-nearest neighbor classifier). Finally, we study the potentially critical issue of applying binary SVMs to multiclass problems in hyperspectral data. In particular, four different multiclass strategies are analyzed and compared: the one-against-all, the one-against-one, and two hierarchical tree-based strategies. Different performance indicators have been used to support our experimental studies in a detailed and accurate way, i.e., the classification accuracy, the computational time, the stability to parameter setting, and the complexity of the multiclass architecture. The results obtained on a real Airborne Visible/Infrared Imaging Spectroradiometer hyperspectral dataset allow to conclude that, whatever the multiclass strategy adopted, SVMs are a valid and effective alternative to conventional pattern recognition approaches (feature-reduction procedures combined with a classification method) for the classification of hyperspectral remote sensing data."
+    },
+    {
+      "paper_id": "W2136595724",
+      "title": "Image Categorization by Learning and Reasoning with Regions",
+      "abstract": "Designing computer programs to automatically categorize images using low-level features is a challenging research topic in computer vision. In this paper, we present a new learning technique, which extends Multiple-Instance Learning (MIL), and its application to the problem of region-based image categorization. Images are viewed as bags, each of which contains a number of instances corresponding to regions obtained from image segmentation. The standard MIL problem assumes that a bag is labeled positive if at least one of its instances is positive; otherwise, the bag is negative."
+    },
+    {
+      "paper_id": "W2136602355",
+      "title": "BELM: Bayesian Extreme Learning Machine",
+      "abstract": "The theory of extreme learning machine (ELM) has become very popular on the last few years. ELM is a new approach for learning the parameters of the hidden layers of a multilayer neural network (as the multilayer perceptron or the radial basis function neural network). Its main advantage is the lower computational cost, which is especially relevant when dealing with many patterns defined in a high-dimensional space. This brief proposes a bayesian approach to ELM, which presents some advantages over other approaches: it allows the introduction of a priori knowledge; obtains the confidence intervals (CIs) without the need of applying methods that are computationally intensive, e.g., bootstrap; and presents high generalization capabilities. Bayesian ELM is benchmarked against classical ELM in several artificial and real datasets that are widely used for the evaluation of machine learning algorithms. Achieved results show that the proposed approach produces a competitive accuracy with some additional advantages, namely, automatic production of CIs, reduction of probability of model overfitting, and use of a priori knowledge."
+    },
+    {
+      "paper_id": "W2136635436",
+      "title": "Locally Consistent Concept Factorization for Document Clustering",
+      "abstract": "Previous studies have demonstrated that document clustering performance can be improved significantly in lower dimensional linear subspaces. Recently, matrix factorization-based techniques, such as Nonnegative Matrix Factorization (NMF) and Concept Factorization (CF), have yielded impressive results. However, both of them effectively see only the global euclidean geometry, whereas the local manifold geometry is not fully considered. In this paper, we propose a new approach to extract the document concepts which are consistent with the manifold geometry such that each concept corresponds to a connected component. Central to our approach is a graph model which captures the local geometry of the document submanifold. Thus, we call it Locally Consistent Concept Factorization (LCCF). By using the graph Laplacian to smooth the document-to-concept mapping, LCCF can extract concepts with respect to the intrinsic manifold structure and thus documents associated with the same concept can be well clustered. The experimental results on TDT2 and Reuters-21578 have shown that the proposed approach provides a better representation and achieves better clustering results in terms of accuracy and mutual information."
+    },
+    {
+      "paper_id": "W2136948085",
+      "title": "Binary Sparse Nonnegative Matrix Factorization",
+      "abstract": "This paper presents a fast part-based subspace selection algorithm, termed the binary sparse nonnegative matrix factorization (B-SNMF). Both the training process and the testing process of B-SNMF are much faster than those of binary principal component analysis (B-PCA). Besides, B-SNMF is more robust to occlusions in images. Experimental results on face images demonstrate the effectiveness and the efficiency of the proposed B-SNMF."
+    },
+    {
+      "paper_id": "W2137226992",
+      "title": "Support Vector Regression Machines",
+      "abstract": "A new regression technique based on concept of support vectors is introduced. We compare support vector regression with a committee regression technique (bagging) based on regression trees and ridge regression done in feature space. On the basis of these experiments, it is expected that SVR will have advantages in high dimensionality space because SVR optimization does not depend on the dimension&y of input space. This is a longer version of the paper appear in Advances in Neural Processing Systems 9 (proceedings of the 1996 conference)"
+    },
+    {
+      "paper_id": "W2137306662",
+      "title": "A 3D Facial Expression Database For Facial Behavior Research",
+      "abstract": "Traditionally, human facial expressions have been studied using either 2D static images or 2D video sequences. The 2D-based analysis is incapable of handing large pose variations. Although 3D modeling techniques have been extensively used for 3D face recognition and 3D face animation, barely any research on 3D facial expression recognition using 3D range data has been reported. A primary factor for preventing such research is the lack of a publicly available 3D facial expression database. In this paper, we present a newly developed 3D facial expression database, which includes both prototypical 3D facial expression shapes and 2D facial textures of 2,500 models from 100 subjects. This is the first attempt at making a 3D facial expression database available for the research community, with the ultimate goal of fostering the research on affective computing and increasing the general understanding of facial behavior and the fine 3D structure inherent in human facial expressions. The new database can be a valuable resource for algorithm assessment, comparison and evaluation"
+    }
+  ]
+}

@@ -1,0 +1,2270 @@
+{
+  "stage": "vocabulary_coverage_review_not_final_annotation",
+  "paper_count": 144,
+  "reviewed_count": 144,
+  "papers_with_candidates": 137,
+  "papers_without_candidates": 7,
+  "warning_zh": "candidate_keyword_ids仅为词表覆盖检查候选，不是第二阶段的论文最终标签；未覆盖原因也可能指出已有候选之外的缺失方面。",
+  "papers": [
+    {
+      "paper_id": "lab-d50fd9c219f7",
+      "title": "Self-supervised Symmetric Nonnegative Matrix Factorization",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "nonnegative-matrix-factorization",
+        "graph-structure-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-a9d5b70ee03a",
+      "title": "Multi-View Spectral Clustering Tailored Tensor Low-Rank Representation",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "low-rank-modeling",
+        "multi-view-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-9bd585a26235",
+      "title": "Pairwise Constraint Propagation with Dual Adversarial Manifold Regularization",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "graph-manifold-regularization",
+        "pairwise-constraint-propagation",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-af85f8a01211",
+      "title": "Towards Calibrated Deep Clustering Network",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "deep-clustering",
+        "confidence-calibration",
+        "pseudo-label-self-training"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-5403cb1aad23",
+      "title": "Noise Separation guided Candidate Label Reconstruction for Noisy Partial Label Learning",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "partial-label-learning",
+        "noisy-label-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-efed21f0ba73",
+      "title": "Irregular Tensor Low-Rank Representation for Hyperspectral Image Representation",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "low-rank-modeling",
+        "hyperspectral-images"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-a7cf765d0111",
+      "title": "Generalization Performance of Ensemble Clustering: From Theory to Algorithm",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "ensemble-clustering"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-dec46f74923a",
+      "title": "Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "pseudo-label-self-training",
+        "semi-supervised-learning",
+        "class-imbalance"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-bb2d463fb71a",
+      "title": "Unsupervised Long-tailed Learning for Foundation Model",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "class-imbalance"
+      ],
+      "uncovered_reason": "标题明确无监督长尾基础模型学习；词表覆盖类别不平衡，但未单列无监督学习这一宽泛设定，且无法仅凭标题确认基础模型模态。"
+    },
+    {
+      "paper_id": "lab-088383584e44",
+      "title": "PEEK: Partial Label Learning Empowered by External Knowledge",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "partial-label-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-1ba64af37485",
+      "title": "Attribute Distribution Modeling and Semantic-Visual Alignment for Generative Zero-shot Learning",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "zero-shot-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-a07279b34373",
+      "title": "Hub for Outliers, Spokes for Inliers: Homeomorphic Latent Space Construction for Dual-Mismatched Semi-Supervised Learning",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": "标题可确认半监督设定；双重分布失配未独立成词，缺摘要不能细化失配类型。"
+    },
+    {
+      "paper_id": "lab-3af81cff7068",
+      "title": "Beyond Low-Rank: A Region-Aware Imputation Method for Traffic Data Recovery",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "data-imputation-recovery",
+        "traffic-data"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-8ef4decb9b26",
+      "title": "Hyerspectral Image Clustering with Local Sparse Subspace guided Super-Graph Construction",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "graph-structure-learning",
+        "sparse-representation",
+        "hyperspectral-images"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-62249197b63f",
+      "title": "Learnable Similarity and Dissimilarity Guided Symmetric Non-Negative Matrix Factorization",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "nonnegative-matrix-factorization",
+        "graph-structure-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-56209c579874",
+      "title": "Inaccurate Label Distribution Learning with Dependency Noise",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "label-distribution-learning",
+        "graph-manifold-regularization",
+        "label-correlation-modeling",
+        "noisy-label-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-7af4622bbcc3",
+      "title": "Adaptive Graph Feedback Clustering Network",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "deep-clustering",
+        "graph-structure-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-6e4e588f3743",
+      "title": "Reliable Co-occurrence Guided Partial Clustering Ensemble",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "ensemble-clustering",
+        "graph-structure-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-9ddc9ff7ce0c",
+      "title": "Towards Robust Models: Mitigating Adversarial Shifts in Feature Statistics with Uncertainty-Aware Reconstruction",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "adversarial-robustness"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-bf934091a903",
+      "title": "Comprehensive review and assessment of multi-species splicing variant prediction: task-specific deep learning models and genomic foundation models",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "domain-adaptation"
+      ],
+      "uncovered_reason": "依用户要求删除剪接变异效应预测任务词；保留原有域适应候选，任务本身未覆盖。基因组基础模型未单列对象词，不等同于大语言模型。"
+    },
+    {
+      "paper_id": "lab-4f00a8eb8a7d",
+      "title": "ViT-UWA: Vision Transformer Underwater-Adapter for Dense Predictions Beneath the Water Surface",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "image-segmentation",
+        "underwater-images"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-cb0529713b81",
+      "title": "Graph-based Clustering Revisited: A Relaxation of Kernel k-Means Perspective",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "low-rank-modeling",
+        "graph-structure-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-fe676cbbfafd",
+      "title": "Superpixel-level Hypergraph Regularized Multi-view Clustering for Hyperspectral Images",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "graph-manifold-regularization",
+        "multi-view-learning",
+        "hyperspectral-images"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-4f3942c218c8",
+      "title": "DPtSTrip: Adversarially Robust Learning with Distance-Aware Point-to-Set Triplet Loss",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "adversarial-robustness"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-3f9060fdcde7",
+      "title": "Structural-Spectral Graph Convolution with Evidential Edge Learning for Hyperspectral Image Clustering",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "deep-clustering",
+        "graph-structure-learning",
+        "graph-neural-networks",
+        "contrastive-learning",
+        "hyperspectral-images"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-c42096082d68",
+      "title": "Adaptive and robust low-rank tensor completion for missing and corrupted traffic data recovery",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "data-imputation-recovery",
+        "low-rank-modeling",
+        "traffic-data"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-8a85b44117f4",
+      "title": "Similarity and Dissimilarity Guided Co-association Matrix Construction for Ensemble Clustering",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "ensemble-clustering",
+        "graph-structure-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-6a0a4e2737ec",
+      "title": "Tail-Aware Reconstruction of Incomplete Label Distributions with Low-Rank and Sparse Modeling",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "label-distribution-learning",
+        "low-rank-modeling",
+        "label-correlation-modeling",
+        "class-imbalance",
+        "weakly-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-c0cf7adb052a",
+      "title": "Large Model Guided Semantic Segment Anything for Underwater Consumer Electronics",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "image-segmentation",
+        "underwater-images"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-fdadc630f8db",
+      "title": "Label Enhancement by Fusing Manifold Fusion of Feature and Label Spaces",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "label-enhancement"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-94f819e13bbe",
+      "title": "From Point Cloud to Energy Model: Constructing High-resolution Urban Building Model for Energy Simulation and Evaluation Using UAV Oblique Imagery",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [],
+      "uncovered_reason": "仅标题：城市建筑三维建模、无人机倾斜摄影与能耗仿真均未进入本轮49词；不能将其强配为高光谱或图像分割。"
+    },
+    {
+      "paper_id": "lab-bc765488bcf7",
+      "title": "Progressive Label Enhancement",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "label-enhancement"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-50d02eb604b9",
+      "title": "Semi-supervised Symmetric Non-negative Matrix Factorization with Low-Rank Tensor Representation",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "low-rank-modeling",
+        "nonnegative-matrix-factorization",
+        "pairwise-constraint-propagation",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-0f498c8f864f",
+      "title": "Discriminative Low-Rank Representation for HSI Clustering",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "low-rank-modeling",
+        "hyperspectral-images"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-1f9013eb2f8b",
+      "title": "AME-LSIFT: Attention-Aware Multi-Label Ensemble with Label Subset-SpecIfic FeaTures",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "multi-label-learning",
+        "classifier-ensemble"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-5db2d9f26022",
+      "title": "Label Distribution Learning by Exploiting Fuzzy Label Correlation",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "label-distribution-learning",
+        "label-correlation-modeling"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-d162a6829a75",
+      "title": "Superpixel Graph Contrastive Clustering with Semantic-Invariant Augmentations for Hyperspectral Images",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "deep-clustering",
+        "graph-neural-networks",
+        "contrastive-learning",
+        "hyperspectral-images"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-2b357d849d9d",
+      "title": "An Integrated Intra-view and Inter-view Framework for Multiple Traffic Variable Data Simultaneous Recovery",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "data-imputation-recovery",
+        "low-rank-modeling",
+        "multi-view-learning",
+        "traffic-data"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-0c8c61ff348e",
+      "title": "Efficient and Robust Freeway Traffic Speed Estimation under Oblique Grid using Vehicle Trajectory Data",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "data-imputation-recovery",
+        "low-rank-modeling",
+        "traffic-data"
+      ],
+      "uncovered_reason": "交通数据恢复得到覆盖；交通状态估计未再单列为同维度细分任务。"
+    },
+    {
+      "paper_id": "lab-51397954ce4d",
+      "title": "Inaccurate Label Distribution Learning",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "label-distribution-learning",
+        "low-rank-modeling",
+        "graph-manifold-regularization",
+        "label-correlation-modeling",
+        "noisy-label-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-9d85eae3a12f",
+      "title": "Unlabeled Data Guided Partial Label Learning for Hyperspectral Image Classification",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "pseudo-label-self-training",
+        "partial-label-learning",
+        "semi-supervised-learning",
+        "hyperspectral-images"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-825376eac3f8",
+      "title": "Multi-label Classification with High-rank and High-order Label Correlations",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "multi-label-learning",
+        "label-correlation-modeling"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-a6dff26af1aa",
+      "title": "EGRC-Net: Embedding-induced Graph Refinement Clustering Network",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "deep-clustering",
+        "graph-structure-learning",
+        "graph-neural-networks"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-de8760c3355c",
+      "title": "Instance-Dependent Inaccurate Label Distribution Learning",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "label-distribution-learning",
+        "low-rank-modeling",
+        "noisy-label-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-054cd66669d7",
+      "title": "A Flexible and Robust Tensor Completion Approach for Trafﬁc Data Recovery with Low-rankness",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "data-imputation-recovery",
+        "low-rank-modeling",
+        "traffic-data"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-05c8a4098fe0",
+      "title": "Ensemble Clustering via Co-Association Matrix Self-Enhancement",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "ensemble-clustering",
+        "graph-structure-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-6c33c0d49221",
+      "title": "Semi-Supervised Subspace Clustering via Tensor Low-Rank Representation",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "subspace-clustering",
+        "low-rank-modeling",
+        "graph-manifold-regularization",
+        "pairwise-constraint-propagation",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-27ee33bde0ac",
+      "title": "Deep Attention-guided Graph Clustering with Dual Self-supervision",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "deep-clustering",
+        "graph-neural-networks",
+        "pseudo-label-self-training"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-25256b9dda22",
+      "title": "Pseudo Label Rectification With Joint Camera Shift Adaptation and Outlier Progressive Recycling for Unsupervised Person Re-Identification",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "person-reidentification",
+        "pseudo-label-self-training",
+        "domain-adaptation"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-8258de75e36e",
+      "title": "Spectral Reweighting and Spectral Similarity Weighting for Sparse Hyperspectral Unmixing",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "sparse-representation",
+        "hyperspectral-images"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-762e9d6f5eae",
+      "title": "Adaptive Attribute and Structure Subspace Clustering Network",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "deep-clustering",
+        "subspace-clustering",
+        "graph-structure-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-b98b32a37a21",
+      "title": "Local Low-Rank Approximation With Superpixel-Guided Locality Preserving Graph for Hyperspectral Image Classification",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "low-rank-modeling",
+        "graph-manifold-regularization",
+        "hyperspectral-images"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-11e9d626e8d9",
+      "title": "Semisupervised Affinity Matrix Learning via Dual-Channel Information Recovery",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "dimensionality-reduction",
+        "graph-structure-learning",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-b613f6b0fb67",
+      "title": "Superpixel-Guided Discriminative Low-Rank Representation of Hyperspectral Images for Classification",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "image-segmentation",
+        "low-rank-modeling",
+        "hyperspectral-images"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-e407c5f18da5",
+      "title": "No-reference Image Quality Assessment for Contrast-changed Images via a Semi-supervised Robust PCA Model",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "low-rank-modeling",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": "仅标题：半监督与低秩方法得到覆盖，未单列无参考图像质量评价任务。"
+    },
+    {
+      "paper_id": "lab-1ff59dd4a58f",
+      "title": "Global-Local Balanced Low-Rank Approximation of Hyperspectral Images for Classification",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "low-rank-modeling",
+        "hyperspectral-images"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-b653a194f324",
+      "title": "Maximum entropy subspace clustering network",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "deep-clustering",
+        "subspace-clustering",
+        "graph-structure-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-3af1c95693ac",
+      "title": "Learning Low-rank Graph with Enhanced Supervision",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "low-rank-modeling",
+        "graph-structure-learning",
+        "graph-manifold-regularization",
+        "pairwise-constraint-propagation",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-f46fa8731916",
+      "title": "Active k-labelsets ensemble for multi-label classification",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "multi-label-learning",
+        "classifier-ensemble"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-def7c80ee1d1",
+      "title": "Semisupervised Adaptive Symmetric Non-Negative Matrix Factorization",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "nonnegative-matrix-factorization",
+        "graph-structure-learning",
+        "pairwise-constraint-propagation",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-9dab3341b9f1",
+      "title": "Superpixel Segmentation Based on Spatially Constrained Subspace Clustering",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "subspace-clustering",
+        "image-segmentation",
+        "graph-manifold-regularization"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-719455bd7125",
+      "title": "Positive and Negative Label-Driven Nonnegative Matrix Factorization",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "nonnegative-matrix-factorization"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-cf4dec41fda2",
+      "title": "Non-Negative Transfer Learning With Consistent Inter-Domain Distribution",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "pseudo-label-self-training",
+        "domain-adaptation"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-5a1fffb8e6b7",
+      "title": "Joint Optimization for Pairwise Constraint Propagation",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "low-rank-modeling",
+        "graph-structure-learning",
+        "graph-manifold-regularization",
+        "pairwise-constraint-propagation",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-8238ab546031",
+      "title": "Constrained Clustering With Dissimilarity Propagation-Guided Graph-Laplacian PCA",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "dimensionality-reduction",
+        "graph-manifold-regularization",
+        "pairwise-constraint-propagation",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-89613a019dfd",
+      "title": "Clustering-Aware Graph Construction: A Joint Learning Perspective",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "graph-structure-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-67bf125aef54",
+      "title": "Hyperspectral Image Classification via Sparse Representation With Incremental Dictionaries",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "pseudo-label-self-training",
+        "sparse-representation",
+        "hyperspectral-images"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-d08ff32d883d",
+      "title": "Applying Exponential Family Distribution to Generalized Extreme Learning Machine",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [],
+      "uncovered_reason": "指数族输出建模与极限学习机为实质贡献，但本轮未单列；不能仅凭概率解释赋贝叶斯推断。"
+    },
+    {
+      "paper_id": "lab-42c1bb186393",
+      "title": "Semi-Supervised Non-Negative Matrix Factorization with Dissimilarity and Similarity Regularization",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "nonnegative-matrix-factorization",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-b84d85c3683d",
+      "title": "Sparse Bayesian Learning-Based Kernel Poisson Regression",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "bayesian-inference"
+      ],
+      "uncovered_reason": "贝叶斯推断已覆盖；计数数据回归未单列任务。"
+    },
+    {
+      "paper_id": "lab-9004d11ae525",
+      "title": "Superpixel Segmentation Based on Square-Wise Asymmetric Partition and Structural Approximation",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "image-segmentation"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-458c61eb7de8",
+      "title": "Simultaneous Dimensionality Reduction and Classification via Dual Embedding Regularized Nonnegative Matrix Factorization",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "dimensionality-reduction",
+        "nonnegative-matrix-factorization",
+        "graph-manifold-regularization",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-89a32c865fd0",
+      "title": "Pseudolabel Guided Kernel Learning for Hyperspectral Image Classification",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "pseudo-label-self-training",
+        "classifier-ensemble",
+        "semi-supervised-learning",
+        "hyperspectral-images"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-f121e8ed99c9",
+      "title": "Semi-Supervised Spectral Clustering With Structured Sparsity Regularization",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": "半监督设定已覆盖；谱聚类未独立成词，不能强配为深度或子空间聚类。"
+    },
+    {
+      "paper_id": "lab-36466e9ba385",
+      "title": "Pairwise Constraint Propagation-Induced Symmetric Nonnegative Matrix Factorization",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "nonnegative-matrix-factorization",
+        "graph-structure-learning",
+        "pairwise-constraint-propagation",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-0529638ee44a",
+      "title": "Nonnegative Matrix Factorization with Mixed Hypergraph Regularization for Community Detection",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "nonnegative-matrix-factorization",
+        "graph-manifold-regularization"
+      ],
+      "uncovered_reason": "仅标题：方法得到覆盖，未单列社区发现任务。"
+    },
+    {
+      "paper_id": "lab-97a46fe9b0c3",
+      "title": "Joint Machine Learning and Game Theory for Rate Control in High Efficiency Video Coding",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [],
+      "uncovered_reason": "视频编码码率控制与合作博弈未收录；不能把多项优化目标直接当作帕累托多目标优化。"
+    },
+    {
+      "paper_id": "lab-a74d054aa5d2",
+      "title": "NSSRF: Global Network Similarity Search with Subgraph Signatures and its Applications",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [],
+      "uncovered_reason": "生物网络相似性检索及随机森林回归未单列；不能因网络对象是图就将所用回归检索方法视为图神经网络。"
+    },
+    {
+      "paper_id": "lab-0f41d99e2574",
+      "title": "A Novel Multiple Instance Learning Method Based on Extreme Learning Machine",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "weakly-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-dccd5bfa936b",
+      "title": "PGSB: Pretrained-Guided Shared Basis for LoRA Model Merging",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "model-merging"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-061b9da6e2d3",
+      "title": "Language-Assisted Image Clustering Guided by Discriminative Relational Signals and Adaptive Semantic Centers",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "deep-clustering",
+        "parameter-efficient-fine-tuning",
+        "vision-language-models"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-e73ac884ede0",
+      "title": "Exploiting Negative Multi-Cluster Structure in Class-Wise Embeddings for Weakly Supervised Multi-Label Learning",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "multi-label-learning",
+        "weakly-supervised-learning"
+      ],
+      "uncovered_reason": "仅标题：明确的多标记任务与弱监督设定得到覆盖，弱监督具体类型和负多簇方法机制无法进一步确定。"
+    },
+    {
+      "paper_id": "lab-1025a6d4de24",
+      "title": "Individuals Matter: Improving Deep Multi-View Clustering via Explicit Single-View Enhancement",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "deep-clustering",
+        "multi-view-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-effcb20ed6d4",
+      "title": "AdapMatch: Adaptive Bias Decoupling for Semi-Supervised Partial Label Learning under Unknown Class Distributions",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "partial-label-learning",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-2110e10b1fd2",
+      "title": "Progressive Pseudo-label Self-balancing Towards Unsupervised Vision-Language Models Adaptation",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "pseudo-label-self-training",
+        "vision-language-models"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-5dda1e979492",
+      "title": "LoCo: Selective Local Competition for Discriminative Open-Vocabulary Multi-Label Recognition",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "multi-label-learning",
+        "open-vocabulary-recognition"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-deff0ac02cbd",
+      "title": "Attention Heads are Complementary Visual Units: Mitigating Hallucinations in LVLMs via Adaptive Visual Cues Focusing",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "hallucination-mitigation",
+        "large-vision-language-models"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-6757df585f08",
+      "title": "Mismatch-Free One-Step at Scale: Linear-Time Ensemble Clustering with Soft Balancing",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "ensemble-clustering"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-532faa4a2fc2",
+      "title": "ResMerge: Residual-based Spectral Merging of Large Language Models",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "model-merging",
+        "large-language-models"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-1a90fc2c3965",
+      "title": "KGFlow: Enhancing Large Language Model Reasoning with Multi-Graph Alignment for Knowledge-Intensive Medical Question Answering",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "large-language-models"
+      ],
+      "uncovered_reason": "仅标题：大语言模型对象得到覆盖，医学问答及多图对齐未独立收录。"
+    },
+    {
+      "paper_id": "lab-ec6acdec9eea",
+      "title": "PLUME: Latent Reasoning Based Universal Multimodal Embedding",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "multimodal-retrieval",
+        "latent-reasoning",
+        "large-vision-language-models"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-4dafc16e5fd8",
+      "title": "Question-Level Multimodal Fusion for Cognitive Ability Assessment in Asynchronous Video Interviews",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [],
+      "uncovered_reason": "仅标题：异步视频面试认知能力评估与问题级多模态融合未收录；不等同于多模态检索。"
+    },
+    {
+      "paper_id": "lab-80376da04947",
+      "title": "Fragmented Text Is Insufficient for Image Representation: Fine-Grained Correspondence in Multimodal Dataset Distillation",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "dataset-distillation"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-7647c3b38f71",
+      "title": "SAGENet: Sub-cluster Aggregation Guided Enhancement for Imbalanced Attributed Graph Clustering",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "deep-clustering",
+        "graph-neural-networks",
+        "class-imbalance"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-b4f457369e13",
+      "title": "One Coin Has Two Sides: Single Poistive Multi Label Learning from Salient Annotations",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "multi-label-learning",
+        "weakly-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-a1005f21ac76",
+      "title": "Trustworthy Federated Label Distribution Learning under Annotation Quality Disparity",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "label-distribution-learning",
+        "noisy-label-learning",
+        "federated-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-a6e1c503e9fd",
+      "title": "Positive–Unlabeled Reinforcement Learning Distillation for On-Premise Small Models",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "value-preference-alignment",
+        "knowledge-distillation",
+        "weakly-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-fc69e7eb5613",
+      "title": "Beyond Distribution Estimation: Simplex Anchored Structural Inference Towards Universal Semi-supervised Learning",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "pseudo-label-self-training",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-57c2d8cba676",
+      "title": "Finding the Correct Visual Evidence Without Forgetting: Mitigating Hallucination in LVLMs via Inter-Layer Visual Attention Discrepancy",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "hallucination-mitigation",
+        "large-vision-language-models"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-9c41930c1897",
+      "title": "CuMA: Aligning LLMs with Sparse Cultural Values via Demographic-Aware Mixture of Adapters",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "value-preference-alignment",
+        "parameter-efficient-fine-tuning",
+        "large-language-models"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-8a05dc1f7a41",
+      "title": "Discovering Attention Head Interactions in Vision Transformers",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [],
+      "uncovered_reason": "仅标题：ViT注意力头交互分析未收录；单模态ViT不能直接归入视觉语言模型。"
+    },
+    {
+      "paper_id": "lab-914c3b9e7d06",
+      "title": "FedHarmony: Harmonizing Heterogeneous Label Correlations in Federated Multi-Label Learning",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "multi-label-learning",
+        "label-correlation-modeling",
+        "federated-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-fc483a521424",
+      "title": "FlexLoRA: Entropy-Guided Flexible Low-Rank Adaptation",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "parameter-efficient-fine-tuning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-77b725acea33",
+      "title": "Mini-cluster Guided Long-tailed Deep Clustering",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "deep-clustering",
+        "pseudo-label-self-training",
+        "class-imbalance"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-918df170a3ad",
+      "title": "Samples Are Not Equal: A Sample Selection Approach for Deep Clustering",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "deep-clustering",
+        "pseudo-label-self-training"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-084cf1572406",
+      "title": "ESMC: MLLM-Based Embedding Selection for Explainable Multiple Clustering",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "deep-clustering",
+        "pseudo-label-self-training",
+        "large-vision-language-models"
+      ],
+      "uncovered_reason": "神经聚类得到覆盖；用户语义驱动的多重聚类未单列，不能误用集成聚类。"
+    },
+    {
+      "paper_id": "lab-7fa0af6e345c",
+      "title": "DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "multi-label-learning",
+        "confidence-calibration",
+        "contrastive-learning",
+        "pseudo-label-self-training",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-855923053355",
+      "title": "Towards Better IncomLDL: We Are Unaware of Hidden Labels in Advance",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "label-distribution-learning",
+        "data-imputation-recovery",
+        "low-rank-modeling",
+        "weakly-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-24effaa314d4",
+      "title": "You Can Trust Your Clustering Model: A Parameter-free Self-Boosting Plug-in for Deep Clustering",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "deep-clustering",
+        "pseudo-label-self-training"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-9728948569cd",
+      "title": "Robust Label Proportions Learning",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "contrastive-learning",
+        "pseudo-label-self-training",
+        "weakly-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-d7d729a798a9",
+      "title": "RankMatch: A Novel Approach to Semi-Supervised Label Distribution Learning Leveraging Rank Correlation between Labels",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "label-distribution-learning",
+        "pseudo-label-self-training",
+        "label-correlation-modeling",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-11e2dfe6e2ee",
+      "title": "Steering LVLMs via Sparse Autoencoder for Hallucination Mitigation",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "hallucination-mitigation",
+        "sparse-representation",
+        "large-vision-language-models"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-cfe1c0f8487f",
+      "title": "Boosting Class Representation via Semantically Related Instances for Robust Long-Tailed Learning with Noisy Labels",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "class-imbalance",
+        "noisy-label-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-740b5f6ded12",
+      "title": "Partial Label Learning Tailored Graph Construction",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "graph-structure-learning",
+        "pairwise-constraint-propagation",
+        "partial-label-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-d99ee9ba4a13",
+      "title": "Cracking the Code of Hallucination in LVLMs with Vision-aware Head Divergence",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "large-vision-language-models"
+      ],
+      "uncovered_reason": "abstract字段仅为作者及会议信息，按标题审阅；只能确认视觉语言大模型幻觉分析主题，检测或抑制目标未决，不能归入幻觉抑制或推断头分歧具体方法。"
+    },
+    {
+      "paper_id": "lab-82a7992c094e",
+      "title": "Learning from Sample Stability for Deep Clustering",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "deep-clustering"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-22cc955daee0",
+      "title": "A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "pseudo-label-self-training",
+        "classifier-ensemble",
+        "semi-supervised-learning",
+        "class-imbalance"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-305494044431",
+      "title": "Concentration Distribution Learning from Label Distributions",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "label-distribution-learning"
+      ],
+      "uncovered_reason": "标签分布核心任务得到覆盖；绝对强度/背景浓度扩展未独立成词，也未当成LDL同义词。"
+    },
+    {
+      "paper_id": "lab-d93ee5aa7a9a",
+      "title": "Partial Label Clustering",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "graph-structure-learning",
+        "pairwise-constraint-propagation",
+        "partial-label-learning",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-c0b4fa3ab5d5",
+      "title": "Label Distribution Learning with Biased Annotations Assisted by Multi-Label Learning",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "multi-label-learning",
+        "label-distribution-learning",
+        "low-rank-modeling",
+        "label-correlation-modeling",
+        "noisy-label-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-bddb535117ca",
+      "title": "ConMix: Contrastive Mixup at Representation Level for Long-tailed Deep Clustering",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "deep-clustering",
+        "contrastive-learning",
+        "class-imbalance"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-2c640db3fd61",
+      "title": "Complementary Label Learning with Positive Label Guessing and Negative Label Enhancement",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "pseudo-label-self-training",
+        "weakly-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-6f75913bf673",
+      "title": "Calibrated Disambiguation for Partial Multi-Label Learning",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "multi-label-learning",
+        "confidence-calibration",
+        "weakly-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-e91390053be5",
+      "title": "Mixed Blessing: Class-Wise Embedding guided Instance-Dependent Partial Label Learning",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "partial-label-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-e9f08a9f6baf",
+      "title": "On the Adversarial Robustness of Hierarchical Classification",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "adversarial-robustness"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-624e1914aeb8",
+      "title": "Noisy Label Removal for Partial Multi-Label Learning",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "multi-label-learning",
+        "weakly-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-b8edb24bba59",
+      "title": "FairMatch: Promoting Partial Label Learning by Unlabeled Samples",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "pseudo-label-self-training",
+        "partial-label-learning",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-b15f2540bde4",
+      "title": "Exploiting Multi-Label Correlation in Label Distribution Learning",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "multi-label-learning",
+        "label-distribution-learning",
+        "low-rank-modeling",
+        "label-correlation-modeling"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-f6916a1b1d89",
+      "title": "Label Distribution Learning from Logical Label",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "label-distribution-learning",
+        "label-enhancement"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-aa44a48ac9a1",
+      "title": "Long-tailed Partial Label Learning by Head Classifier and Tail Classifier Cooperation",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "classifier-ensemble",
+        "partial-label-learning",
+        "class-imbalance"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-cafae06c3f4f",
+      "title": "Efficient and Robust Freeway Traffic State Estimation under Oblique Grid using Vehicle Trajectory Data",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "traffic-data"
+      ],
+      "uncovered_reason": "仅标题：交通对象得到覆盖，交通状态估计未单列；题名不足以推断低秩方法。"
+    },
+    {
+      "paper_id": "lab-60280e69a6e3",
+      "title": "When Missingness Meets Anomalies: A Tailored Low-rank Tensor Completion Approach for Traffic Data Recovery",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "data-imputation-recovery",
+        "low-rank-modeling",
+        "traffic-data"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-10ec9a4b941d",
+      "title": "Partial Label Learning with Dissimilarity Propagation guided Candidate Label Shrinkage",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title"
+      ],
+      "evidence_basis": "title_only",
+      "candidate_keyword_ids": [
+        "pairwise-constraint-propagation",
+        "partial-label-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-df79e6b90766",
+      "title": "Complementary Classifier Induced Partial Label Learning",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "graph-manifold-regularization",
+        "partial-label-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-684cd82c2176",
+      "title": "Semantic Dissimilarity Guided Locality Preserving Projections for Partial Label Dimensionality Reduction",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "dimensionality-reduction",
+        "partial-label-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-bbbc3701492a",
+      "title": "Improving the Adversarial Robustness of Deep Neural Networks via Efficient Two Stage Training",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "adversarial-robustness"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-3d396fcbdc50",
+      "title": "Attention-driven graph clustering network",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "deep-clustering",
+        "graph-neural-networks"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-ed665f8e6c6f",
+      "title": "Clustering ensemble meets low-rank tensor approximation",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "ensemble-clustering",
+        "low-rank-modeling"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-5111c5177048",
+      "title": "Imbalance-aware pairwise constraint propagation",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "pairwise-constraint-propagation",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-1eb268aa7f49",
+      "title": "Convex Constrained Clustering with Graph-Laplacian PCA",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "dimensionality-reduction",
+        "graph-manifold-regularization",
+        "semi-supervised-learning"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-a27b9589d697",
+      "title": "Mutual Information Based K-Labelsets Ensemble for Multi-Label Classification",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "multi-label-learning",
+        "label-correlation-modeling",
+        "classifier-ensemble"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-7d1305d1760e",
+      "title": "Generalized Relevance Vector Machine",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "bayesian-inference"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-761fa50033a3",
+      "title": "Adaptive Weights Generation for Decomposition-based Multi-objective Optimization Using Gaussian Process Regression",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [
+        "multi-objective-optimization"
+      ],
+      "uncovered_reason": null
+    },
+    {
+      "paper_id": "lab-bba08ca100fc",
+      "title": "Multiscale Phase Congruency Analysis for Image Edge Visual Saliency Detection",
+      "reviewed": true,
+      "reviewed_fields": [
+        "title",
+        "abstract"
+      ],
+      "evidence_basis": "title_and_abstract",
+      "candidate_keyword_ids": [],
+      "uncovered_reason": "图像边缘显著性检测及多尺度相位一致性方法未收录；不能把检测边缘强配为图像分割。"
+    }
+  ],
+  "excluded_or_merged_candidates": [
+    {
+      "candidate": "Splicing variant effect prediction",
+      "reason_zh": "依用户要求删除独立任务词；该篇保留原有域适应候选，剪接变异效应预测任务本身未覆盖，不新增替代词。"
+    },
+    {
+      "candidate": "Artificial intelligence / Machine learning / Deep learning",
+      "reason_zh": "不作为独立检索词：范围过宽，不能区分本文关心的问题。"
+    },
+    {
+      "candidate": "Unsupervised learning / Self-supervised learning",
+      "reason_zh": "本轮未新增这两个上位设定；聚类任务及对比学习、伪标签等方法只覆盖部分实质方面，不宣称与它们等价或穷尽其范围。"
+    },
+    {
+      "candidate": "Partial multi-label learning",
+      "reason_zh": "删除独立细分，以多标记学习与弱监督学习组合覆盖；不把偏多标记学习视为多标记学习的同义词。"
+    },
+    {
+      "candidate": "Complementary label learning / Incomplete-label supervision / Positive-unlabeled learning / Multiple-instance learning / Learning from label proportions",
+      "reason_zh": "删除五个独立细分，以弱监督学习及有证据支持的任务、方法组合覆盖；互补、缺失、PU、包级和比例监督仍是不同条件，不互作同义词，粗词表不保留全部监督形式细节。"
+    },
+    {
+      "candidate": "Partial label learning / Noisy-label learning",
+      "reason_zh": "保留独立词：候选集合中单一真标记的歧义与错误监督分别构成本语料反复研究的核心条件；新增弱监督上位词不要求移除有辨识度的密集方向。"
+    },
+    {
+      "candidate": "Hyperspectral unmixing",
+      "reason_zh": "依用户要求删除独立任务词；高光谱图像已足够具体，相关论文由高光谱图像及实际方法覆盖，不声称对象词与解混任务同义。"
+    },
+    {
+      "candidate": "Multi-label classification",
+      "reason_zh": "规范名改为Multi-label learning / 多标记学习，沿用原任务位置和证据，不另建重复词；分类、识别及多标签学习保留为该任务的通行同义表达。"
+    },
+    {
+      "candidate": "Large vision-language models",
+      "reason_zh": "新增为视觉语言模型在研究对象维度的严格子项；明确LVLM或具有视觉输入的MLLM证据才使用子项，CLIP及一般VLM不自动升级。"
+    },
+    {
+      "candidate": "Long-tailed learning",
+      "reason_zh": "按本轮粗粒度归入类别不平衡学习的严格子类型；不是别名，未另占词位。"
+    },
+    {
+      "candidate": "Tensor low-rank representation / Matrix low-rank approximation",
+      "reason_zh": "低秩建模的具体形式，暂不另分词；不是彼此的同义词。"
+    },
+    {
+      "candidate": "Graph convolutional networks",
+      "reason_zh": "图神经网络的子类型，未另占词位，不写入同义词。"
+    },
+    {
+      "candidate": "LoRA / Adapter tuning / Continuous prompt learning",
+      "reason_zh": "参数高效微调的不同子类型，未各自拆词；保留对应实质论文证据，不写作互相同义，也不收入专属论文模型名。"
+    },
+    {
+      "candidate": "Superpixel segmentation / Semantic segmentation / Instance segmentation",
+      "reason_zh": "在图像分割下合并覆盖的不同任务子类型，互不等价，未放入aliases。"
+    },
+    {
+      "candidate": "Distribution mismatch",
+      "reason_zh": "域适应已单列；标注/未标注的类别分布失配不等于域适应，暂以半监督及类别不平衡覆盖已有方面，不能混为别名。"
+    },
+    {
+      "candidate": "Biological network similarity retrieval",
+      "reason_zh": "内部论文有直接实质支持，但本轮未单列生物网络对象及网络相似性检索任务，coverage如实记录缺口。"
+    },
+    {
+      "candidate": "Cognitive ability assessment / Urban building modeling",
+      "reason_zh": "各有内部论文标题直接支持，但缺摘要，本轮暂不增加特定应用词；已记录未覆盖，非判断为不相关。"
+    },
+    {
+      "candidate": "Medical question answering / Knowledge graph alignment",
+      "reason_zh": "内部论文仅标题支持，待有摘要再细化任务与方法；大语言模型对象已保留。"
+    },
+    {
+      "candidate": "Rate control in video coding / Image quality assessment / Edge saliency detection / Count data regression",
+      "reason_zh": "有对应内部记录，49词未完整保留所有历史任务；coverage逐篇明确，不能用相关任务代替。"
+    },
+    {
+      "candidate": "Vision Transformer attention-head interaction analysis",
+      "reason_zh": "仅标题支持，不能以视觉语言模型替代；列为未覆盖分析方向。"
+    },
+    {
+      "candidate": "Uncertainty representation / Explainability / Efficient inference",
+      "reason_zh": "相关表述不直接变成宽泛词；先保留有明确判定对象的校准、潜在推理、参数高效微调等。"
+    },
+    {
+      "candidate": "Agent / AI4Science / Hallucination detection",
+      "reason_zh": "主页明确自述的兴趣；本语料未建立独立智能体或幻觉检测任务的直接论文支持，AI4Science亦过宽。不能由主页将其强加到正式词表。"
+    }
+  ]
+}

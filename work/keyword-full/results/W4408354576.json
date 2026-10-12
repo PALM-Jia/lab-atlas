@@ -1,0 +1,30 @@
+{
+  "paper_id": "W4408354576",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "Ensemble clustering using co-association matrices integrates multiple base clusterings",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要直接以集成聚类为研究任务，整合多个基聚类并通过共关联矩阵求共识划分。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "Low-Rank Tensor Learning",
+      "evidence_field": "title",
+      "reason_zh": "标题明确采用低秩张量学习，摘要进一步说明用Tensor Schatten p-norm在低秩空间提取共享信息，符合低秩约束/表示。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "With Laplacian rank constraints, SECGTL directly learns a graph with c-connected components",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明在Laplacian rank约束下直接学习具有c连通分量的图，属于学习/修正样本间图结构。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "Laplacian rank约束用于使学到的图具有c连通分量，是否属于对学习结果施加几何一致性/流形正则化不明确，缺少邻域平滑约束的直接证据。"
+    }
+  ],
+  "input_issues": []
+}

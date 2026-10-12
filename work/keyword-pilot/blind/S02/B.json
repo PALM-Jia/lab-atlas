@@ -1,0 +1,18 @@
+{
+  "sample_id": "S02",
+  "annotations": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "this letter proposes a novel discriminative low-rank representation method to exploit the spatial and spectral information of HSIs.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出并实质采用低秩表示方法，利用高光谱图像的空间与光谱结构进行聚类。"
+    },
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "We exploit the hyperspectral image (HSI) clustering problem, which partitions an input HSI into several groups without relying on any supervision information.",
+      "evidence_field": "abstract",
+      "reason_zh": "研究对象明确为高光谱图像，主任务是对其进行无监督聚类。"
+    }
+  ],
+  "abstentions": []
+}

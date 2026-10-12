@@ -1,0 +1,13 @@
+{
+  "paper_id": "W4413310999",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "compression artifacts in a post-processing manner at the decoding end",
+      "evidence_field": "abstract",
+      "reason_zh": "论文任务是在解码端后处理去除有损压缩伪影，从受污染观测恢复图像/视频原始信号，输出待恢复数据，符合数据补全与恢复。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

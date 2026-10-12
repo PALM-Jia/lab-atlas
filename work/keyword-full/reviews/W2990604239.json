@@ -1,0 +1,31 @@
+{
+  "paper_id": "W2990604239",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "利用相关已知类别的监督知识指导未标注新类别聚类，首轮已正确保留半监督设定，该不完整监督条件也满足弱监督定义。",
+      "exact_quote": "While these images are unlabelled, we also assume prior knowledge of related but different image classes.",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "While these images are unlabelled, we also assume prior knowledge of related but different image classes.",
+        "evidence_field": "abstract",
+        "reason_zh": "利用相关已知类别的监督知识指导未标注新类别聚类，首轮已正确保留半监督设定，该不完整监督条件也满足弱监督定义。"
+      }
+    ],
+    "abstentions": [
+      {
+        "keyword_id": "domain-adaptation",
+        "reason_zh": "仅有‘transfer learning setting’和已知类到新类的迁移线索，缺少源域/目标域分布差异及域适配过程的明确证据，无法确定满足域适应定义。"
+      }
+    ],
+    "input_issues": []
+  }
+}

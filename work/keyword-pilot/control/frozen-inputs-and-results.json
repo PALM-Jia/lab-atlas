@@ -1,0 +1,808 @@
+{
+  "algorithm": "SHA256 over exact file bytes",
+  "input_count": 10,
+  "result_count": 40,
+  "shared_input_files": [
+    "annotation-instructions.txt",
+    "vocabulary-for-annotation.json",
+    "annotation-output.schema.json"
+  ],
+  "files": [
+    {
+      "path": "inputs/S01.json",
+      "sha256": "3eb4cbc0debe6ce7fddc06dc78fc9becc3a9338d6058a86555027b4496482dc8",
+      "bytes": 1364
+    },
+    {
+      "path": "inputs/S02.json",
+      "sha256": "e1d0148eb21184692a97c3824dd8fbc34042b3dab36071dd1f1e09d2f2c2be03",
+      "bytes": 1144
+    },
+    {
+      "path": "inputs/S03.json",
+      "sha256": "208d17e007136988acd8f33b356a090c24e434bf6412ddc5a456770ed41480d5",
+      "bytes": 997
+    },
+    {
+      "path": "inputs/S04.json",
+      "sha256": "72c05d5154cda3d69cd25d437930924372e29587049815141172982846b4d38c",
+      "bytes": 121
+    },
+    {
+      "path": "inputs/S05.json",
+      "sha256": "291d6080630e559b91d6dc2219b4673f3e79b4e5373952f1df5edb022652e1f2",
+      "bytes": 1191
+    },
+    {
+      "path": "inputs/S06.json",
+      "sha256": "ca6428a63855838d22692d71b47e09dd4d6a896d35c058c7930cabe3b95fb7d2",
+      "bytes": 158
+    },
+    {
+      "path": "inputs/S07.json",
+      "sha256": "0127a46b64f7815547914dd0ddabb9e3e69dcc95b08dde5a25e9385a5beaf16b",
+      "bytes": 1532
+    },
+    {
+      "path": "inputs/S08.json",
+      "sha256": "b976c67f72cbd2fd8ef08238bcb13fcdd40ffee00c9c4f12ce8808af513336f7",
+      "bytes": 1839
+    },
+    {
+      "path": "inputs/S09.json",
+      "sha256": "690d0cbd27255e219e3bde436e8ea29f5276f1bc84074b0b1e363bd8dab305c9",
+      "bytes": 1524
+    },
+    {
+      "path": "inputs/S10.json",
+      "sha256": "341ac66ea3f6f6a14589841ded40ad1348a1675164e64fe1fa4ad0047d9d1a84",
+      "bytes": 1738
+    },
+    {
+      "path": "annotation-instructions.txt",
+      "sha256": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+      "bytes": 2768
+    },
+    {
+      "path": "vocabulary-for-annotation.json",
+      "sha256": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+      "bytes": 21385
+    },
+    {
+      "path": "annotation-output.schema.json",
+      "sha256": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428",
+      "bytes": 5533
+    },
+    {
+      "path": "results/run001.json",
+      "sha256": "31de4c984347678586daae13d6af60c335c8ea1f485c3b1a397056a1355dfa14",
+      "bytes": 1164
+    },
+    {
+      "path": "results/run002.json",
+      "sha256": "a533a2d06eb70d81ca7e99d23606d9421deaf1fe72645c83367657d7c35e43f1",
+      "bytes": 1354
+    },
+    {
+      "path": "results/run003.json",
+      "sha256": "8d255589a6b14e586f2588457a1b12ad3d46ed45aabac5dbaf9e270a7c018fbd",
+      "bytes": 685
+    },
+    {
+      "path": "results/run004.json",
+      "sha256": "13b7ad2f9b5d87cae197c9d8720831892d16752c93cb292c8fa88d8396aadd71",
+      "bytes": 1004
+    },
+    {
+      "path": "results/run005.json",
+      "sha256": "b88dcec1340b63ef119f3bfba6a908d421f7fec3ea295cf4424a33ee82df1663",
+      "bytes": 824
+    },
+    {
+      "path": "results/run006.json",
+      "sha256": "93f7b97e40a5a0da0b196dce1dbe8970a48fc6f1750147ef1ce54f9efc1bcd2b",
+      "bytes": 819
+    },
+    {
+      "path": "results/run007.json",
+      "sha256": "7a43dca8fdbee2f466e1797a6cfb25aecbca2b825ce839213264ee1b787774ca",
+      "bytes": 603
+    },
+    {
+      "path": "results/run008.json",
+      "sha256": "1dc97b67741a0f8796df6050bb45cd802cc530857d2bf9820b164ac55cf1e825",
+      "bytes": 547
+    },
+    {
+      "path": "results/run009.json",
+      "sha256": "680c26488d63288b56618f4c24af1916ffdc81b9d87a2502c990da69e1f1ffaa",
+      "bytes": 1020
+    },
+    {
+      "path": "results/run010.json",
+      "sha256": "6fe1eea4908aa887accb96b1bc06ea319ec2db8fff6b45390649f061ed69eb6c",
+      "bytes": 1086
+    },
+    {
+      "path": "results/run011.json",
+      "sha256": "3fa4cb2559bfff68a5032af88dd7acc4ff0795c3ebaace994c692e27ec51e7e9",
+      "bytes": 888
+    },
+    {
+      "path": "results/run012.json",
+      "sha256": "ee11239f59c4f2effca4162b7acc9002fce6d6ec5f2e93232a6753338dd87c10",
+      "bytes": 662
+    },
+    {
+      "path": "results/run013.json",
+      "sha256": "46002e86606df27bfa31101239285ef5b128f314646d08d26fcff07a663bf8f4",
+      "bytes": 289
+    },
+    {
+      "path": "results/run014.json",
+      "sha256": "1252a92011f1de082f8cd1b7a89c80b24fd39af9852fd4df418bbe70f84b70ac",
+      "bytes": 220
+    },
+    {
+      "path": "results/run015.json",
+      "sha256": "a3b8b55373326d56caed185d0d7a5b59ede949d898aa6facbaf6b67eacfae8fe",
+      "bytes": 284
+    },
+    {
+      "path": "results/run016.json",
+      "sha256": "26bf0212659bb1b9d59c0215f39bb12901eda7b822afd6800a9760113d981508",
+      "bytes": 278
+    },
+    {
+      "path": "results/run017.json",
+      "sha256": "9b33a75df71b4462ebae78eb04aef9baa8401674bba731bf3f08c586fcc678da",
+      "bytes": 53
+    },
+    {
+      "path": "results/run018.json",
+      "sha256": "6868a7df53143f80031af9f9e59f9bf08c85b6eacbba4fff9ef4de2c8d258039",
+      "bytes": 424
+    },
+    {
+      "path": "results/run019.json",
+      "sha256": "e3bf5e64f33bdb36f7b307c9f63390324dbcb76880a83f3339c6d89547896e42",
+      "bytes": 273
+    },
+    {
+      "path": "results/run020.json",
+      "sha256": "33b437cd86238f4d1e538e23d613b5bcb3bc37971ec5ef15a87be4ae9712ce8d",
+      "bytes": 338
+    },
+    {
+      "path": "results/run021.json",
+      "sha256": "04bb50e45c395063813ca6c1336b2911a5a6053eaf6e343220edf85ec824e74c",
+      "bytes": 499
+    },
+    {
+      "path": "results/run022.json",
+      "sha256": "67045e1ad14b478c53e9e87a33087ba24c45e311696950919ed3deaab23b2a5a",
+      "bytes": 587
+    },
+    {
+      "path": "results/run023.json",
+      "sha256": "c69d3811998d301735ff004402b4b95dff3594478916b55bca5befe9ea920974",
+      "bytes": 834
+    },
+    {
+      "path": "results/run024.json",
+      "sha256": "27a234337e8db151311d034b969e084807671e85e811fc3644e17ba2f867c88f",
+      "bytes": 605
+    },
+    {
+      "path": "results/run025.json",
+      "sha256": "dad850b09aead116a18102489beb08e7b87b735f4c21f1afdc405048d81ab0e3",
+      "bytes": 786
+    },
+    {
+      "path": "results/run026.json",
+      "sha256": "cc14f94a074e156e123754dce085bba8265012aa90bbf4d90bb557eeab279816",
+      "bytes": 869
+    },
+    {
+      "path": "results/run027.json",
+      "sha256": "9a57ecde761498b279a3bea12ca6a982d256598f0706630e7ad1b489450fd1ac",
+      "bytes": 433
+    },
+    {
+      "path": "results/run028.json",
+      "sha256": "18997cdbf5db1ee2fd34cdf78c9ac9587fdeddef6a46e3cc864d121ba3f0eca8",
+      "bytes": 435
+    },
+    {
+      "path": "results/run029.json",
+      "sha256": "4e073827a9222a76495cd194ff2c1e431e2575f2359c51e5f70bc1daaa144a50",
+      "bytes": 53
+    },
+    {
+      "path": "results/run030.json",
+      "sha256": "8db6fd2232ff51d79be2a09ce5534a079fadfa14b6ff664c80f8cf59e70b1060",
+      "bytes": 55
+    },
+    {
+      "path": "results/run031.json",
+      "sha256": "b035cefd19effa08b6fb4d3eed155959669cc22b585c578ad548a601c5a81b39",
+      "bytes": 310
+    },
+    {
+      "path": "results/run032.json",
+      "sha256": "bfe71023192e4b23a8346f4c1307dabdb750ba4f99bd50594da12ffb6a0e8d80",
+      "bytes": 68
+    },
+    {
+      "path": "results/run033.json",
+      "sha256": "cb8e2caa552f6647ce56d419a75ecddeddbd7dc2e42bcb6d3f23a6d4c1dafc7b",
+      "bytes": 1475
+    },
+    {
+      "path": "results/run034.json",
+      "sha256": "396d06ea934b12dbf66443c1aea2e1a341de57fa9d2573033164c1aff6eed80e",
+      "bytes": 1578
+    },
+    {
+      "path": "results/run035.json",
+      "sha256": "ae34bc4f6c94cd635238dccb38ea995e4cba3730061de590f2ce51ae6763a409",
+      "bytes": 717
+    },
+    {
+      "path": "results/run036.json",
+      "sha256": "35364f18ce8186c9c7115a986024236755b47219c9011d8d87f44510891c8f47",
+      "bytes": 753
+    },
+    {
+      "path": "results/run037.json",
+      "sha256": "c852df63ac119a46e260525375e8a6f4e621abce88f08eb50783f50b8aef10b0",
+      "bytes": 340
+    },
+    {
+      "path": "results/run038.json",
+      "sha256": "2591a7f59a3e4769406c8df5dc3902f712119c9ced9a45ee336b853f288c1907",
+      "bytes": 53
+    },
+    {
+      "path": "results/run039.json",
+      "sha256": "7592a7bba1b1c2b94473a15dfdcbfc2baac880e12a1eeac753ab6bc5f07d56f6",
+      "bytes": 68
+    },
+    {
+      "path": "results/run040.json",
+      "sha256": "f1e3dad8da879958dca51fcfbb45e24aa19245571d7eab4f8b3deebd0ac60879",
+      "bytes": 66
+    },
+    {
+      "path": "control/run-map.json",
+      "sha256": "6c1ae06a1fd7917db33f9074aa99046da2c106be01972c6d17f42d0df15c5b27",
+      "bytes": 7918
+    }
+  ],
+  "per_run_shared_inputs": [
+    {
+      "run_id": "run001",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "sample_id": "S01",
+      "input_path": "inputs/S01.json",
+      "input_sha256": "3eb4cbc0debe6ce7fddc06dc78fc9becc3a9338d6058a86555027b4496482dc8",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run002",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "sample_id": "S01",
+      "input_path": "inputs/S01.json",
+      "input_sha256": "3eb4cbc0debe6ce7fddc06dc78fc9becc3a9338d6058a86555027b4496482dc8",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run003",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "sample_id": "S01",
+      "input_path": "inputs/S01.json",
+      "input_sha256": "3eb4cbc0debe6ce7fddc06dc78fc9becc3a9338d6058a86555027b4496482dc8",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run004",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "sample_id": "S01",
+      "input_path": "inputs/S01.json",
+      "input_sha256": "3eb4cbc0debe6ce7fddc06dc78fc9becc3a9338d6058a86555027b4496482dc8",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run005",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "sample_id": "S02",
+      "input_path": "inputs/S02.json",
+      "input_sha256": "e1d0148eb21184692a97c3824dd8fbc34042b3dab36071dd1f1e09d2f2c2be03",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run006",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "sample_id": "S02",
+      "input_path": "inputs/S02.json",
+      "input_sha256": "e1d0148eb21184692a97c3824dd8fbc34042b3dab36071dd1f1e09d2f2c2be03",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run007",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "sample_id": "S02",
+      "input_path": "inputs/S02.json",
+      "input_sha256": "e1d0148eb21184692a97c3824dd8fbc34042b3dab36071dd1f1e09d2f2c2be03",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run008",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "sample_id": "S02",
+      "input_path": "inputs/S02.json",
+      "input_sha256": "e1d0148eb21184692a97c3824dd8fbc34042b3dab36071dd1f1e09d2f2c2be03",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run009",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "sample_id": "S03",
+      "input_path": "inputs/S03.json",
+      "input_sha256": "208d17e007136988acd8f33b356a090c24e434bf6412ddc5a456770ed41480d5",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run010",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "sample_id": "S03",
+      "input_path": "inputs/S03.json",
+      "input_sha256": "208d17e007136988acd8f33b356a090c24e434bf6412ddc5a456770ed41480d5",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run011",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "sample_id": "S03",
+      "input_path": "inputs/S03.json",
+      "input_sha256": "208d17e007136988acd8f33b356a090c24e434bf6412ddc5a456770ed41480d5",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run012",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "sample_id": "S03",
+      "input_path": "inputs/S03.json",
+      "input_sha256": "208d17e007136988acd8f33b356a090c24e434bf6412ddc5a456770ed41480d5",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run013",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "sample_id": "S04",
+      "input_path": "inputs/S04.json",
+      "input_sha256": "72c05d5154cda3d69cd25d437930924372e29587049815141172982846b4d38c",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run014",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "sample_id": "S04",
+      "input_path": "inputs/S04.json",
+      "input_sha256": "72c05d5154cda3d69cd25d437930924372e29587049815141172982846b4d38c",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run015",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "sample_id": "S04",
+      "input_path": "inputs/S04.json",
+      "input_sha256": "72c05d5154cda3d69cd25d437930924372e29587049815141172982846b4d38c",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run016",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "sample_id": "S04",
+      "input_path": "inputs/S04.json",
+      "input_sha256": "72c05d5154cda3d69cd25d437930924372e29587049815141172982846b4d38c",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run017",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "sample_id": "S05",
+      "input_path": "inputs/S05.json",
+      "input_sha256": "291d6080630e559b91d6dc2219b4673f3e79b4e5373952f1df5edb022652e1f2",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run018",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "sample_id": "S05",
+      "input_path": "inputs/S05.json",
+      "input_sha256": "291d6080630e559b91d6dc2219b4673f3e79b4e5373952f1df5edb022652e1f2",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run019",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "sample_id": "S05",
+      "input_path": "inputs/S05.json",
+      "input_sha256": "291d6080630e559b91d6dc2219b4673f3e79b4e5373952f1df5edb022652e1f2",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run020",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "sample_id": "S05",
+      "input_path": "inputs/S05.json",
+      "input_sha256": "291d6080630e559b91d6dc2219b4673f3e79b4e5373952f1df5edb022652e1f2",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run021",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "sample_id": "S06",
+      "input_path": "inputs/S06.json",
+      "input_sha256": "ca6428a63855838d22692d71b47e09dd4d6a896d35c058c7930cabe3b95fb7d2",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run022",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "sample_id": "S06",
+      "input_path": "inputs/S06.json",
+      "input_sha256": "ca6428a63855838d22692d71b47e09dd4d6a896d35c058c7930cabe3b95fb7d2",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run023",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "sample_id": "S06",
+      "input_path": "inputs/S06.json",
+      "input_sha256": "ca6428a63855838d22692d71b47e09dd4d6a896d35c058c7930cabe3b95fb7d2",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run024",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "sample_id": "S06",
+      "input_path": "inputs/S06.json",
+      "input_sha256": "ca6428a63855838d22692d71b47e09dd4d6a896d35c058c7930cabe3b95fb7d2",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run025",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "sample_id": "S07",
+      "input_path": "inputs/S07.json",
+      "input_sha256": "0127a46b64f7815547914dd0ddabb9e3e69dcc95b08dde5a25e9385a5beaf16b",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run026",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "sample_id": "S07",
+      "input_path": "inputs/S07.json",
+      "input_sha256": "0127a46b64f7815547914dd0ddabb9e3e69dcc95b08dde5a25e9385a5beaf16b",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run027",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "sample_id": "S07",
+      "input_path": "inputs/S07.json",
+      "input_sha256": "0127a46b64f7815547914dd0ddabb9e3e69dcc95b08dde5a25e9385a5beaf16b",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run028",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "sample_id": "S07",
+      "input_path": "inputs/S07.json",
+      "input_sha256": "0127a46b64f7815547914dd0ddabb9e3e69dcc95b08dde5a25e9385a5beaf16b",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run029",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "sample_id": "S08",
+      "input_path": "inputs/S08.json",
+      "input_sha256": "b976c67f72cbd2fd8ef08238bcb13fcdd40ffee00c9c4f12ce8808af513336f7",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run030",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "sample_id": "S08",
+      "input_path": "inputs/S08.json",
+      "input_sha256": "b976c67f72cbd2fd8ef08238bcb13fcdd40ffee00c9c4f12ce8808af513336f7",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run031",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "sample_id": "S08",
+      "input_path": "inputs/S08.json",
+      "input_sha256": "b976c67f72cbd2fd8ef08238bcb13fcdd40ffee00c9c4f12ce8808af513336f7",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run032",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "sample_id": "S08",
+      "input_path": "inputs/S08.json",
+      "input_sha256": "b976c67f72cbd2fd8ef08238bcb13fcdd40ffee00c9c4f12ce8808af513336f7",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run033",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "sample_id": "S09",
+      "input_path": "inputs/S09.json",
+      "input_sha256": "690d0cbd27255e219e3bde436e8ea29f5276f1bc84074b0b1e363bd8dab305c9",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run034",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "sample_id": "S09",
+      "input_path": "inputs/S09.json",
+      "input_sha256": "690d0cbd27255e219e3bde436e8ea29f5276f1bc84074b0b1e363bd8dab305c9",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run035",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "sample_id": "S09",
+      "input_path": "inputs/S09.json",
+      "input_sha256": "690d0cbd27255e219e3bde436e8ea29f5276f1bc84074b0b1e363bd8dab305c9",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run036",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "sample_id": "S09",
+      "input_path": "inputs/S09.json",
+      "input_sha256": "690d0cbd27255e219e3bde436e8ea29f5276f1bc84074b0b1e363bd8dab305c9",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run037",
+      "model": "gpt-6.1-sol",
+      "replicate": 1,
+      "sample_id": "S10",
+      "input_path": "inputs/S10.json",
+      "input_sha256": "341ac66ea3f6f6a14589841ded40ad1348a1675164e64fe1fa4ad0047d9d1a84",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run038",
+      "model": "gpt-6.1-sol",
+      "replicate": 2,
+      "sample_id": "S10",
+      "input_path": "inputs/S10.json",
+      "input_sha256": "341ac66ea3f6f6a14589841ded40ad1348a1675164e64fe1fa4ad0047d9d1a84",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run039",
+      "model": "gpt-6-luna",
+      "replicate": 1,
+      "sample_id": "S10",
+      "input_path": "inputs/S10.json",
+      "input_sha256": "341ac66ea3f6f6a14589841ded40ad1348a1675164e64fe1fa4ad0047d9d1a84",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    },
+    {
+      "run_id": "run040",
+      "model": "gpt-6-luna",
+      "replicate": 2,
+      "sample_id": "S10",
+      "input_path": "inputs/S10.json",
+      "input_sha256": "341ac66ea3f6f6a14589841ded40ad1348a1675164e64fe1fa4ad0047d9d1a84",
+      "shared_files": {
+        "annotation-instructions.txt": "667043448b7cce99f063730f390aaf54dccf5113d41cefe33213820372685ed7",
+        "vocabulary-for-annotation.json": "802b647f18bdbbe3642a80f2e231ca712504b99eedfdda1029623789193eff3d",
+        "annotation-output.schema.json": "8a881ace47272397ac806f81e72c29fec2212a69dc4e19843d3ac8d45750a428"
+      }
+    }
+  ],
+  "same_current_inputs_for_each_model_and_replicate": true,
+  "verification_scope": "Shared assigned input paths and current byte fingerprints; historical agent read events are not independently replayed",
+  "annotations_modified": false,
+  "failed_cli_probes_included": false
+}

@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2014713986",
+  "annotations": [
+    {
+      "keyword_id": "label-distribution-learning",
+      "exact_quote": "learn the specific description degrees of all basic emotions for each expression and the mapping from the expression images to the emotion distributions by the proposed emotion distribution learning (EDL) method.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以学习每个表情对所有基本情绪的描述程度并映射到情绪分布为任务，并称为 emotion distribution learning，符合标记分布学习定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

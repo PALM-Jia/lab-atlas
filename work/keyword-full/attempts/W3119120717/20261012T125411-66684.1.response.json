@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W3119120717\",\"annotations\":[{\"keyword_id\":\"dimensionality-reduction\",\"exact_quote\":\"Subspace learning for facial expression recognition\",\"evidence_field\":\"title\",\"reason_zh\":\"标题以子空间学习作为面部表情识别的方法，子空间学习对应学习低维子空间映射或嵌入的降维研究。\"}],\"abstentions\":[],\"input_issues\":[\"摘要字段为'202109 bcvc'，不是可正常理解的摘要文本，疑似损坏或占位符，与标题不一致。\"]}"
+}

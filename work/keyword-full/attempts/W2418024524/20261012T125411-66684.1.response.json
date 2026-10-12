@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2418024524\",\"annotations\":[{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"joint traffic state estimation and incident detection problem\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文直接研究交通状态估计与交通事故检测，对象为交通状态与事件数据，符合交通数据应用对象。\"},{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"A multiple model particle smoother is proposed to solve the hybrid estimation problem\",\"evidence_field\":\"abstract\",\"reason_zh\":\"提出多模型粒子平滑器/粒子滤波求解混合状态估计，粒子滤波属于基于概率模型对隐状态后验的近似推断，满足贝叶斯推断方法角色。\"}],\"abstentions\":[{\"keyword_id\":\"data-imputation-recovery\",\"reason_zh\":\"摘要只提交通状态估计与数据有限时平滑，未明确估计缺失观测或从污染观测恢复原始数值，故不足以判定数据补全与恢复。\"}],\"input_issues\":[]}"
+}

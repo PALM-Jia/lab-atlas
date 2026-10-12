@@ -1,0 +1,19 @@
+{
+  "paper_id": "W1983320747",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "This book addresses some theoretical aspects of semisupervised learning (SSL).",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以半监督学习（SSL）为书籍主题，并讨论其理论与方法，满足该学习设定。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "This book addresses some theoretical aspects of semisupervised learning (SSL).",
+      "evidence_field": "abstract",
+      "reason_zh": "有限标注或成对约束构成不完整监督，并作为本文实质研究设定；词表中弱监督与半监督没有父子关系，应补充弱监督标签。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,11 @@
+{
+  "paper_id": "W2165698076",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "domain-adaptation",
+      "reason_zh": "摘要仅将域适应列为与迁移学习相关的技术并讨论关系，未提供源域到目标域的适配过程或将其作为本文研究设定，故不标注。"
+    }
+  ],
+  "input_issues": []
+}

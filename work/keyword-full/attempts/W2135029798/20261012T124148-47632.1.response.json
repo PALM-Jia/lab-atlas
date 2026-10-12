@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2135029798\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"Algorithms for Non-negative Matrix Factorization\",\"evidence_field\":\"title\",\"reason_zh\":\"标题直接以非负矩阵分解为研究对象，摘要进一步分析NMF的乘法更新算法，满足以非负因子分解矩阵的方法定义。\"}],\"abstentions\":[{\"keyword_id\":\"low-rank-modeling\",\"reason_zh\":\"摘要虽提到矩阵因子分解，但未明确低秩约束、低秩近似或秩的选择，证据不足以确认低秩建模维度。\"},{\"keyword_id\":\"dimensionality-reduction\",\"reason_zh\":\"摘要仅称NMF是多元数据的分解/因子化，未说明显式低维映射或维度压缩目标，故不认定。\"}],\"input_issues\":[\"摘要文本末尾以省略号截断，并混入“Introduction”段落开头，疑为不完整或拼接文本。\"]}"
+}

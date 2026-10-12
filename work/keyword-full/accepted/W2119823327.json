@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2119823327",
+  "annotations": [
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "We formulate features that respond to characteristic changes in brightness, color, and texture associated with natural boundaries. In order to combine the information from these features in an optimal way, we train a classifier using human labeled images as ground truth.",
+      "evidence_field": "abstract",
+      "reason_zh": "亮度、颜色和纹理是同一自然图像的多互补局部特征线索，摘要明确将这些特征信息联合用于训练分类器，符合多视图学习设定。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

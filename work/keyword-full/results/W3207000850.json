@@ -1,0 +1,36 @@
+{
+  "paper_id": "W3207000850",
+  "annotations": [
+    {
+      "keyword_id": "partial-label-learning",
+      "exact_quote": "In partial label learning, a multi-class classifier is learned from the ambiguous supervision where each training example is associated with a set of candidate labels among which only one is valid.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以偏标记学习为研究任务：每个训练样本对应一组候选标签且仅一个有效，并在此设定下学习多类分类器。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "ambiguous supervision where each training example is associated with a set of candidate labels among which only one is valid",
+      "evidence_field": "abstract",
+      "reason_zh": "候选标签集合且仅一个为真属于不精确的监督信号，论文将该歧义监督作为核心学习问题。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "the proposed approach jointly performs adaptive graph construction, candidate label disambiguation and predictive model induction with alternating optimization",
+      "evidence_field": "abstract",
+      "reason_zh": "论文提出自适应图构建并与消歧、模型归纳联合优化，即学习/修正样本间图结构，而非仅使用固定图。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "a novel partial label learning approach based on adaptive graph guided disambiguation is proposed, which is shown to be more effective in revealing the intrinsic manifold structure among training examples",
+      "evidence_field": "abstract",
+      "reason_zh": "自适应图引导消歧旨在揭示训练样本的内在流形结构，并用图结构约束/引导标签置信度学习，满足图与流形正则化定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "pseudo-label-self-training",
+      "reason_zh": "摘要提到候选标签消歧与预测模型归纳交替优化，但未明确说明模型对弱标注样本的预测被作为后续训练信号，无法确认伪标签或自训练机制。"
+    }
+  ],
+  "input_issues": []
+}

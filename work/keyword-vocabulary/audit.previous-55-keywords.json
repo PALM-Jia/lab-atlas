@@ -1,0 +1,1093 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-10-12",
+  "auditor_role": "independent_source_reader_and_reviewer_not_vocabulary_author",
+  "scope": {
+    "allowed_sources": [
+      "lab-papers.json",
+      "homepage-context.md",
+      "source-manifest.json"
+    ],
+    "reviewed_outputs": [
+      "vocabulary.json",
+      "coverage-review.json",
+      "vocabulary.md"
+    ],
+    "external_literature_or_network_used": false,
+    "old_keywords_classifications_or_memory_used": false,
+    "source_or_production_files_modified_by_auditor": false,
+    "note_zh": "独立通读144篇标题及113个实质摘要，并阅读主页语境；31篇按标题审阅。审计者只新增验证脚本与本报告，词表修订由构建者完成。"
+  },
+  "verdict": "accepted_for_stage_one_vocabulary_review",
+  "verdict_zh": "在本次受控语料与第一阶段范围内通过：结构和引文验证通过，语义审阅发现的实质问题已修订；不构成逐篇最终标注或完整研究版图。",
+  "programmatic_validation": {
+    "validation_scope": "programmatic_structure_and_exact_text_only",
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "counts": {
+      "papers": 144,
+      "keywords": 55,
+      "dimensions": {
+        "research_task": 20,
+        "method": 15,
+        "research_setting": 15,
+        "application_object": 5
+      },
+      "substantive_abstracts": 113,
+      "title_only": 31,
+      "evidence_items": 100,
+      "coverage_rows": 144,
+      "papers_with_candidates": 137,
+      "papers_without_candidates": 7
+    },
+    "sha256": {
+      "lab-papers.json": "eeb84be27409832245ae05cd890a4fb19583675cf6e2fa446d0ee0840e8ae7f7",
+      "homepage-context.md": "e589f401451ab308b99a2846a1b9372aa44eac107b1138cd22112f7f51f3b1a1",
+      "vocabulary.json": "b5b42a93c3324bf5e5cd22c88a242cdbd216011c1290b7b5c35c94e26e2e373f",
+      "coverage-review.json": "3877384bb396a74fa455cb394d1aa1a02c21b9d0dbb2e9362cd945fd573a0d0a",
+      "vocabulary.md": "3210430ca40720b0a16bff3c55a9091f99da9ad4e2e2403081966ddda258ade0"
+    },
+    "quote_offsets": [
+      {
+        "keyword_id": "deep-clustering",
+        "evidence_index": 0,
+        "source_id": "lab-af85f8a01211",
+        "field": "abstract",
+        "start": 258,
+        "end": 358,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "deep-clustering",
+        "evidence_index": 1,
+        "source_id": "lab-77b725acea33",
+        "field": "abstract",
+        "start": 744,
+        "end": 852,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "ensemble-clustering",
+        "evidence_index": 0,
+        "source_id": "lab-6e4e588f3743",
+        "field": "abstract",
+        "start": 0,
+        "end": 104,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "ensemble-clustering",
+        "evidence_index": 1,
+        "source_id": "lab-a7cf765d0111",
+        "field": "abstract",
+        "start": 123,
+        "end": 260,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "subspace-clustering",
+        "evidence_index": 0,
+        "source_id": "lab-6c33c0d49221",
+        "field": "abstract",
+        "start": 0,
+        "end": 202,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "subspace-clustering",
+        "evidence_index": 1,
+        "source_id": "lab-762e9d6f5eae",
+        "field": "abstract",
+        "start": 714,
+        "end": 845,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "multi-label-classification",
+        "evidence_index": 0,
+        "source_id": "lab-825376eac3f8",
+        "field": "abstract",
+        "start": 781,
+        "end": 916,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "multi-label-classification",
+        "evidence_index": 1,
+        "source_id": "lab-1f9013eb2f8b",
+        "field": "abstract",
+        "start": 0,
+        "end": 131,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "label-distribution-learning",
+        "evidence_index": 0,
+        "source_id": "lab-51397954ce4d",
+        "field": "abstract",
+        "start": 0,
+        "end": 141,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "label-distribution-learning",
+        "evidence_index": 1,
+        "source_id": "lab-305494044431",
+        "field": "abstract",
+        "start": 741,
+        "end": 907,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "label-enhancement",
+        "evidence_index": 0,
+        "source_id": "lab-f6916a1b1d89",
+        "field": "abstract",
+        "start": 651,
+        "end": 858,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "label-enhancement",
+        "evidence_index": 1,
+        "source_id": "lab-bc765488bcf7",
+        "field": "title",
+        "start": 0,
+        "end": 29,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "dimensionality-reduction",
+        "evidence_index": 0,
+        "source_id": "lab-684cd82c2176",
+        "field": "abstract",
+        "start": 1113,
+        "end": 1224,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "dimensionality-reduction",
+        "evidence_index": 1,
+        "source_id": "lab-458c61eb7de8",
+        "field": "abstract",
+        "start": 700,
+        "end": 847,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "image-segmentation",
+        "evidence_index": 0,
+        "source_id": "lab-c0cf7adb052a",
+        "field": "abstract",
+        "start": 631,
+        "end": 791,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "image-segmentation",
+        "evidence_index": 1,
+        "source_id": "lab-9dab3341b9f1",
+        "field": "abstract",
+        "start": 0,
+        "end": 230,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "hyperspectral-unmixing",
+        "evidence_index": 0,
+        "source_id": "lab-8258de75e36e",
+        "field": "abstract",
+        "start": 748,
+        "end": 854,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "hyperspectral-unmixing",
+        "evidence_index": 1,
+        "source_id": "lab-8258de75e36e",
+        "field": "title",
+        "start": 0,
+        "end": 88,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "data-imputation-recovery",
+        "evidence_index": 0,
+        "source_id": "lab-c42096082d68",
+        "field": "abstract",
+        "start": 1012,
+        "end": 1261,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "data-imputation-recovery",
+        "evidence_index": 1,
+        "source_id": "lab-2b357d849d9d",
+        "field": "abstract",
+        "start": 578,
+        "end": 706,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "hallucination-mitigation",
+        "evidence_index": 0,
+        "source_id": "lab-57c2d8cba676",
+        "field": "abstract",
+        "start": 619,
+        "end": 789,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "hallucination-mitigation",
+        "evidence_index": 1,
+        "source_id": "lab-11e2dfe6e2ee",
+        "field": "abstract",
+        "start": 1104,
+        "end": 1289,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "model-merging",
+        "evidence_index": 0,
+        "source_id": "lab-532faa4a2fc2",
+        "field": "abstract",
+        "start": 856,
+        "end": 963,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "model-merging",
+        "evidence_index": 1,
+        "source_id": "lab-dccd5bfa936b",
+        "field": "title",
+        "start": 0,
+        "end": 59,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "multimodal-retrieval",
+        "evidence_index": 0,
+        "source_id": "lab-ec6acdec9eea",
+        "field": "abstract",
+        "start": 0,
+        "end": 113,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "multimodal-retrieval",
+        "evidence_index": 1,
+        "source_id": "lab-ec6acdec9eea",
+        "field": "abstract",
+        "start": 1291,
+        "end": 1515,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "value-preference-alignment",
+        "evidence_index": 0,
+        "source_id": "lab-9c41930c1897",
+        "field": "abstract",
+        "start": 467,
+        "end": 611,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "value-preference-alignment",
+        "evidence_index": 1,
+        "source_id": "lab-a6e1c503e9fd",
+        "field": "abstract",
+        "start": 635,
+        "end": 817,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "adversarial-robustness",
+        "evidence_index": 0,
+        "source_id": "lab-bbbc3701492a",
+        "field": "abstract",
+        "start": 144,
+        "end": 296,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "adversarial-robustness",
+        "evidence_index": 1,
+        "source_id": "lab-e9f08a9f6baf",
+        "field": "abstract",
+        "start": 341,
+        "end": 449,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "splicing-variant-prediction",
+        "evidence_index": 0,
+        "source_id": "lab-bf934091a903",
+        "field": "abstract",
+        "start": 767,
+        "end": 1011,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "dataset-distillation",
+        "evidence_index": 0,
+        "source_id": "lab-80376da04947",
+        "field": "title",
+        "start": 0,
+        "end": 120,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "person-reidentification",
+        "evidence_index": 0,
+        "source_id": "lab-25256b9dda22",
+        "field": "abstract",
+        "start": 1539,
+        "end": 1773,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "multi-objective-optimization",
+        "evidence_index": 0,
+        "source_id": "lab-761fa50033a3",
+        "field": "abstract",
+        "start": 615,
+        "end": 813,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "confidence-calibration",
+        "evidence_index": 0,
+        "source_id": "lab-af85f8a01211",
+        "field": "abstract",
+        "start": 359,
+        "end": 543,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "confidence-calibration",
+        "evidence_index": 1,
+        "source_id": "lab-6f75913bf673",
+        "field": "abstract",
+        "start": 837,
+        "end": 1082,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "low-rank-modeling",
+        "evidence_index": 0,
+        "source_id": "lab-a9d5b70ee03a",
+        "field": "abstract",
+        "start": 328,
+        "end": 564,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "low-rank-modeling",
+        "evidence_index": 1,
+        "source_id": "lab-0c8c61ff348e",
+        "field": "abstract",
+        "start": 527,
+        "end": 763,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "nonnegative-matrix-factorization",
+        "evidence_index": 0,
+        "source_id": "lab-d50fd9c219f7",
+        "field": "abstract",
+        "start": 249,
+        "end": 594,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "nonnegative-matrix-factorization",
+        "evidence_index": 1,
+        "source_id": "lab-719455bd7125",
+        "field": "abstract",
+        "start": 289,
+        "end": 510,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "graph-structure-learning",
+        "evidence_index": 0,
+        "source_id": "lab-a6dff26af1aa",
+        "field": "abstract",
+        "start": 211,
+        "end": 481,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "graph-structure-learning",
+        "evidence_index": 1,
+        "source_id": "lab-740b5f6ded12",
+        "field": "abstract",
+        "start": 605,
+        "end": 688,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "graph-manifold-regularization",
+        "evidence_index": 0,
+        "source_id": "lab-56209c579874",
+        "field": "abstract",
+        "start": 684,
+        "end": 867,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "graph-manifold-regularization",
+        "evidence_index": 1,
+        "source_id": "lab-b98b32a37a21",
+        "field": "abstract",
+        "start": 521,
+        "end": 721,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "graph-neural-networks",
+        "evidence_index": 0,
+        "source_id": "lab-3f9060fdcde7",
+        "field": "abstract",
+        "start": 499,
+        "end": 749,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "graph-neural-networks",
+        "evidence_index": 1,
+        "source_id": "lab-a6dff26af1aa",
+        "field": "abstract",
+        "start": 482,
+        "end": 670,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "contrastive-learning",
+        "evidence_index": 0,
+        "source_id": "lab-d162a6829a75",
+        "field": "abstract",
+        "start": 960,
+        "end": 1128,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "contrastive-learning",
+        "evidence_index": 1,
+        "source_id": "lab-bddb535117ca",
+        "field": "abstract",
+        "start": 794,
+        "end": 933,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "pseudo-label-self-training",
+        "evidence_index": 0,
+        "source_id": "lab-dec46f74923a",
+        "field": "abstract",
+        "start": 342,
+        "end": 686,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "pseudo-label-self-training",
+        "evidence_index": 1,
+        "source_id": "lab-af85f8a01211",
+        "field": "abstract",
+        "start": 700,
+        "end": 844,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "sparse-representation",
+        "evidence_index": 0,
+        "source_id": "lab-67bf125aef54",
+        "field": "abstract",
+        "start": 0,
+        "end": 166,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "sparse-representation",
+        "evidence_index": 1,
+        "source_id": "lab-11e2dfe6e2ee",
+        "field": "abstract",
+        "start": 705,
+        "end": 924,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "bayesian-inference",
+        "evidence_index": 0,
+        "source_id": "lab-b84d85c3683d",
+        "field": "abstract",
+        "start": 0,
+        "end": 186,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "bayesian-inference",
+        "evidence_index": 1,
+        "source_id": "lab-7d1305d1760e",
+        "field": "abstract",
+        "start": 828,
+        "end": 1021,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "label-correlation-modeling",
+        "evidence_index": 0,
+        "source_id": "lab-825376eac3f8",
+        "field": "abstract",
+        "start": 441,
+        "end": 615,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "label-correlation-modeling",
+        "evidence_index": 1,
+        "source_id": "lab-914c3b9e7d06",
+        "field": "abstract",
+        "start": 622,
+        "end": 765,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "parameter-efficient-fine-tuning",
+        "evidence_index": 0,
+        "source_id": "lab-fc483a521424",
+        "field": "abstract",
+        "start": 692,
+        "end": 1032,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "parameter-efficient-fine-tuning",
+        "evidence_index": 1,
+        "source_id": "lab-061b9da6e2d3",
+        "field": "abstract",
+        "start": 760,
+        "end": 883,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "latent-reasoning",
+        "evidence_index": 0,
+        "source_id": "lab-ec6acdec9eea",
+        "field": "abstract",
+        "start": 447,
+        "end": 604,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "knowledge-distillation",
+        "evidence_index": 0,
+        "source_id": "lab-a6e1c503e9fd",
+        "field": "abstract",
+        "start": 635,
+        "end": 817,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "domain-adaptation",
+        "evidence_index": 0,
+        "source_id": "lab-cf4dec41fda2",
+        "field": "abstract",
+        "start": 0,
+        "end": 354,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "domain-adaptation",
+        "evidence_index": 1,
+        "source_id": "lab-25256b9dda22",
+        "field": "abstract",
+        "start": 1539,
+        "end": 1773,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "pairwise-constraint-propagation",
+        "evidence_index": 0,
+        "source_id": "lab-9bd585a26235",
+        "field": "abstract",
+        "start": 617,
+        "end": 804,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "pairwise-constraint-propagation",
+        "evidence_index": 1,
+        "source_id": "lab-8238ab546031",
+        "field": "abstract",
+        "start": 952,
+        "end": 1115,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "classifier-ensemble",
+        "evidence_index": 0,
+        "source_id": "lab-1f9013eb2f8b",
+        "field": "abstract",
+        "start": 713,
+        "end": 945,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "classifier-ensemble",
+        "evidence_index": 1,
+        "source_id": "lab-aa44a48ac9a1",
+        "field": "abstract",
+        "start": 846,
+        "end": 1084,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "partial-label-learning",
+        "evidence_index": 0,
+        "source_id": "lab-5403cb1aad23",
+        "field": "abstract",
+        "start": 0,
+        "end": 171,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "partial-label-learning",
+        "evidence_index": 1,
+        "source_id": "lab-740b5f6ded12",
+        "field": "title",
+        "start": 0,
+        "end": 50,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "partial-multi-label-learning",
+        "evidence_index": 0,
+        "source_id": "lab-6f75913bf673",
+        "field": "abstract",
+        "start": 0,
+        "end": 239,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "partial-multi-label-learning",
+        "evidence_index": 1,
+        "source_id": "lab-624e1914aeb8",
+        "field": "title",
+        "start": 0,
+        "end": 52,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "complementary-label-learning",
+        "evidence_index": 0,
+        "source_id": "lab-2c640db3fd61",
+        "field": "abstract",
+        "start": 0,
+        "end": 205,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "semi-supervised-learning",
+        "evidence_index": 0,
+        "source_id": "lab-fc69e7eb5613",
+        "field": "abstract",
+        "start": 0,
+        "end": 166,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "semi-supervised-learning",
+        "evidence_index": 1,
+        "source_id": "lab-50d02eb604b9",
+        "field": "abstract",
+        "start": 0,
+        "end": 202,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "semi-supervised-learning",
+        "evidence_index": 2,
+        "source_id": "https://jyh-learning.github.io/",
+        "field": "research_description",
+        "start": 365,
+        "end": 399,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "class-imbalance",
+        "evidence_index": 0,
+        "source_id": "lab-77b725acea33",
+        "field": "abstract",
+        "start": 744,
+        "end": 852,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "class-imbalance",
+        "evidence_index": 1,
+        "source_id": "lab-aa44a48ac9a1",
+        "field": "abstract",
+        "start": 225,
+        "end": 382,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "noisy-label-learning",
+        "evidence_index": 0,
+        "source_id": "lab-5403cb1aad23",
+        "field": "abstract",
+        "start": 172,
+        "end": 312,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "noisy-label-learning",
+        "evidence_index": 1,
+        "source_id": "lab-de8760c3355c",
+        "field": "abstract",
+        "start": 600,
+        "end": 733,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "incomplete-label-supervision",
+        "evidence_index": 0,
+        "source_id": "lab-855923053355",
+        "field": "abstract",
+        "start": 535,
+        "end": 803,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "incomplete-label-supervision",
+        "evidence_index": 1,
+        "source_id": "lab-b4f457369e13",
+        "field": "title",
+        "start": 0,
+        "end": 85,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "multi-view-learning",
+        "evidence_index": 0,
+        "source_id": "lab-a9d5b70ee03a",
+        "field": "abstract",
+        "start": 0,
+        "end": 107,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "multi-view-learning",
+        "evidence_index": 1,
+        "source_id": "lab-2b357d849d9d",
+        "field": "abstract",
+        "start": 707,
+        "end": 894,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "federated-learning",
+        "evidence_index": 0,
+        "source_id": "lab-914c3b9e7d06",
+        "field": "abstract",
+        "start": 0,
+        "end": 205,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "federated-learning",
+        "evidence_index": 1,
+        "source_id": "lab-a1005f21ac76",
+        "field": "abstract",
+        "start": 551,
+        "end": 957,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "zero-shot-learning",
+        "evidence_index": 0,
+        "source_id": "lab-1ba64af37485",
+        "field": "abstract",
+        "start": 1034,
+        "end": 1206,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "positive-unlabeled-learning",
+        "evidence_index": 0,
+        "source_id": "lab-a6e1c503e9fd",
+        "field": "abstract",
+        "start": 516,
+        "end": 634,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "multiple-instance-learning",
+        "evidence_index": 0,
+        "source_id": "lab-0f41d99e2574",
+        "field": "abstract",
+        "start": 306,
+        "end": 421,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "open-vocabulary-recognition",
+        "evidence_index": 0,
+        "source_id": "lab-5dda1e979492",
+        "field": "title",
+        "start": 0,
+        "end": 92,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "hyperspectral-images",
+        "evidence_index": 0,
+        "source_id": "lab-efed21f0ba73",
+        "field": "abstract",
+        "start": 595,
+        "end": 736,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "hyperspectral-images",
+        "evidence_index": 1,
+        "source_id": "lab-3f9060fdcde7",
+        "field": "title",
+        "start": 0,
+        "end": 102,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "traffic-data",
+        "evidence_index": 0,
+        "source_id": "lab-0c8c61ff348e",
+        "field": "abstract",
+        "start": 155,
+        "end": 330,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "traffic-data",
+        "evidence_index": 1,
+        "source_id": "lab-2b357d849d9d",
+        "field": "title",
+        "start": 0,
+        "end": 106,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "underwater-images",
+        "evidence_index": 0,
+        "source_id": "lab-4f00a8eb8a7d",
+        "field": "abstract",
+        "start": 295,
+        "end": 515,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "underwater-images",
+        "evidence_index": 1,
+        "source_id": "lab-c0cf7adb052a",
+        "field": "title",
+        "start": 0,
+        "end": 80,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "large-language-models",
+        "evidence_index": 0,
+        "source_id": "lab-9c41930c1897",
+        "field": "abstract",
+        "start": 0,
+        "end": 151,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "large-language-models",
+        "evidence_index": 1,
+        "source_id": "lab-532faa4a2fc2",
+        "field": "title",
+        "start": 0,
+        "end": 66,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "vision-language-models",
+        "evidence_index": 0,
+        "source_id": "lab-061b9da6e2d3",
+        "field": "abstract",
+        "start": 0,
+        "end": 171,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "vision-language-models",
+        "evidence_index": 1,
+        "source_id": "lab-11e2dfe6e2ee",
+        "field": "abstract",
+        "start": 1104,
+        "end": 1289,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "learning-from-label-proportions",
+        "evidence_index": 0,
+        "source_id": "lab-9728948569cd",
+        "field": "abstract",
+        "start": 0,
+        "end": 214,
+        "occurrences": 1
+      },
+      {
+        "keyword_id": "learning-from-label-proportions",
+        "evidence_index": 1,
+        "source_id": "lab-9728948569cd",
+        "field": "abstract",
+        "start": 416,
+        "end": 562,
+        "occurrences": 1
+      }
+    ],
+    "not_proved": [
+      "semantic synonymy",
+      "strict semantic parent containment",
+      "evidence role and definition fit",
+      "candidate correctness or completeness",
+      "publisher abstract completeness"
+    ]
+  },
+  "additional_programmatic_counts": {
+    "paper_evidence_items": 99,
+    "homepage_evidence_items": 1,
+    "unique_papers_in_representative_evidence": 70,
+    "paper_evidence_by_field": {
+      "abstract": 87,
+      "title": 12
+    },
+    "explicit_parent_edges": 0,
+    "coverage_candidate_links": 337
+  },
+  "validator_negative_controls": {
+    "method": "Temporary copies only; originals untouched",
+    "nonexistent_exact_quote_rejected": true,
+    "cross_dimension_parent_rejected": true,
+    "nonexistent_candidate_id_rejected": true
+  },
+  "semantic_review": {
+    "nature_zh": "以下为人工语义判断，与上面的程序事实分开；程序无法证明同义性、实质研究角色或标签正确性。",
+    "reviewed_keyword_count": 55,
+    "reviewed_coverage_rows": 144,
+    "unresolved_blocking_findings": [],
+    "resolved_findings": [
+      {
+        "id": "S1",
+        "type": "unsupported_title_only_candidate",
+        "status": "resolved",
+        "paper_id": "lab-d99ee9ba4a13",
+        "problem_zh": "标题只支持视觉语言模型幻觉分析主题，不能确认研究目标是幻觉抑制；摘要实际为引用串。",
+        "resolution_zh": "仅保留vision-language-models候选，并明确检测或抑制目标未决；未使用该摘要作词条证据。"
+      },
+      {
+        "id": "S2",
+        "type": "definition_coverage_mismatch",
+        "status": "resolved",
+        "keyword_id": "deep-clustering",
+        "problem_zh": "原定义要求联合学习表示与划分，无法稳定覆盖只训练神经聚类头或连续语义中心的方案。",
+        "resolution_zh": "定义改为利用可学习神经表示和/或聚类头获得划分，仍排除固定特征加传统聚类；任务维度按研究的划分类型索引，方法维度按可跨任务复用的技术索引。"
+      },
+      {
+        "id": "S3",
+        "type": "broader_or_narrower_terms_mislisted_as_aliases",
+        "status": "resolved",
+        "keyword_ids": [
+          "hyperspectral-unmixing",
+          "graph-structure-learning"
+        ],
+        "problem_zh": "Spectral unmixing范围宽于高光谱解混，Affinity matrix learning也不是全部图结构学习的严格同义表达。",
+        "resolution_zh": "移除两个别名；适用实例仍可由定义判定，不用alias编码上下位关系。"
+      },
+      {
+        "id": "S4",
+        "type": "unsupported_title_only_specificity",
+        "status": "resolved",
+        "paper_id": "lab-8ef4decb9b26",
+        "problem_zh": "标题中的Local Sparse Subspace guided Super-Graph不足以确认最终按潜在子空间分组。",
+        "resolution_zh": "删除subspace-clustering候选，保留图结构学习、稀疏表示及高光谱对象。"
+      },
+      {
+        "id": "S5",
+        "type": "vocabulary_budget_and_small_direction_coverage",
+        "status": "resolved",
+        "problem_zh": "原55词为单篇生物网络对象及单篇连续提示细分保留名额，却漏掉明确的标签比例监督及跨域适配。",
+        "resolution_zh": "用标签比例学习替换生物网络词；连续提示纳入参数高效微调的范围与证据，释放名额加入域适应。两项变更维持55词，并如实将生物网络检索记录为未覆盖。"
+      }
+    ],
+    "accepted_design_decisions": [
+      "55词位于目标区间上端：20任务、15方法、15设定、5对象；以区分度和语料实质角色选词，不按论文频率机械截断。",
+      "深度聚类、集成聚类及子空间聚类作为研究任务保留；低秩、图学习、图神经网络等作为可复用方法。一个研究方向具有方法内涵不自动导致维度错误。",
+      "现有parent_id全部为空，因此没有跨维度或虚假的严格包含断言；不强行为平面词表增加本体层次。",
+      "偏标记、偏多标签、互补标签、标签分布、标签比例、多示例与正例未标注保持独立；未把这些不同监督方式作为同义词。",
+      "模型合并、知识蒸馏、数据集蒸馏及参数高效微调保持概念边界；连续提示作为后者具体形式，不与LoRA互称同义词。",
+      "校准与对抗鲁棒性使用可操作的窄边界，未把所有置信样本筛选、噪声鲁棒性或竞争式矩阵关系强归其中。",
+      "代表证据结合对应论文完整可用上下文审阅；部分引文是文首任务定义，但对应论文确实直接研究该任务，不是仅凭背景词命中。",
+      "保留贝叶斯推断、多目标优化、高光谱解混等小方向，未因篇数少一律删除；未用稀有论文专属方法名凑词。",
+      "无监督与自监督未机械加入：它们跨多个已收录聚类或适配方向，自监督机制已有对比学习和伪标签覆盖；这种取舍不等于两者在概念上被穷尽或互为同义词。",
+      "主页智能体、AI4Science和幻觉检测只有兴趣语境，未据此制造论文支持；PALM广义介绍也未扩大144篇语料。",
+      "lab-2110e10b1fd2的标题说明无监督VLM适配，但未明确跨域对象；未强加domain-adaptation候选是保守且可接受的。"
+    ],
+    "coverage_interpretation_zh": "137篇至少有一个词表候选，7篇没有候选。此数仅表示词表可表达其中一些方面，不能称为137篇完成标注，也不能称为95%的全部研究内容得到覆盖；已有候选的论文仍可能存在未收录方面。",
+    "papers_without_candidates": [
+      {
+        "paper_id": "lab-94f819e13bbe",
+        "title": "From Point Cloud to Energy Model: Constructing High-resolution Urban Building Model for Energy Simulation and Evaluation Using UAV Oblique Imagery",
+        "reason_zh": "仅标题：城市建筑三维建模、无人机倾斜摄影与能耗仿真均未进入本轮55词；不能将其强配为高光谱或图像分割。"
+      },
+      {
+        "paper_id": "lab-d08ff32d883d",
+        "title": "Applying Exponential Family Distribution to Generalized Extreme Learning Machine",
+        "reason_zh": "指数族输出建模与极限学习机为实质贡献，但本轮未单列；不能仅凭概率解释赋贝叶斯推断。"
+      },
+      {
+        "paper_id": "lab-97a46fe9b0c3",
+        "title": "Joint Machine Learning and Game Theory for Rate Control in High Efficiency Video Coding",
+        "reason_zh": "视频编码码率控制与合作博弈未收录；不能把多项优化目标直接当作帕累托多目标优化。"
+      },
+      {
+        "paper_id": "lab-a74d054aa5d2",
+        "title": "NSSRF: Global Network Similarity Search with Subgraph Signatures and its Applications",
+        "reason_zh": "生物网络相似性检索及随机森林回归未单列；不能因网络对象是图就将所用回归检索方法视为图神经网络。"
+      },
+      {
+        "paper_id": "lab-4dafc16e5fd8",
+        "title": "Question-Level Multimodal Fusion for Cognitive Ability Assessment in Asynchronous Video Interviews",
+        "reason_zh": "仅标题：异步视频面试认知能力评估与问题级多模态融合未收录；不等同于多模态检索。"
+      },
+      {
+        "paper_id": "lab-8a05dc1f7a41",
+        "title": "Discovering Attention Head Interactions in Vision Transformers",
+        "reason_zh": "仅标题：ViT注意力头交互分析未收录；单模态ViT不能直接归入视觉语言模型。"
+      },
+      {
+        "paper_id": "lab-bba08ca100fc",
+        "title": "Multiscale Phase Congruency Analysis for Image Edge Visual Saliency Detection",
+        "reason_zh": "图像边缘显著性检测及多尺度相位一致性方法未收录；不能把检测边缘强配为图像分割。"
+      }
+    ],
+    "retained_limitations": [
+      "31篇标题证据支持粒度有限；正式逐篇标注时应继续保持该证据边界。",
+      "lab-d7d729a798a9的摘要源文本截断于incorporating ranking，只使用已有实质片段，未补写。",
+      "113个实质摘要表示本地字段可用，不等于已经逐篇核验出版社摘要完整性。",
+      "无候选与部分方面未覆盖是显式取舍，后续若扩大词表应重新审议，不通过强贴现有词补齐。",
+      "本审计不提供人工置信度分数，不替代第二阶段逐篇证据化标注。"
+    ]
+  },
+  "rerun": {
+    "command": "python validate-vocabulary.py",
+    "working_directory": "work/keyword-vocabulary",
+    "result": "JSON on stdout; exit code 0 iff programmatic checks pass",
+    "offset_convention": "zero-based Python Unicode code points, end-exclusive; homepage offsets refer to the full homepage-context.md text",
+    "freshness_zh": "本报告仅绑定programmatic_validation.sha256内的文件版本；若词表或coverage改变，需重跑程序并复核受影响语义，脚本不会自动重写本人工审计。"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2117110810",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "semi Non-Negative Matrix Factorization (semi-NMF)",
+      "evidence_field": "abstract",
+      "reason_zh": "论文明确采用半非负矩阵分解（semi-NMF）并对时间平移进行扩展，以非负幅度表示信号中的模板叠加，属于非负矩阵分解方法。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

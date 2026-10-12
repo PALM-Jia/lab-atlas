@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2345059010",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "所提图表示实际应用于半监督分类，不完整标注是明确研究设定，符合弱监督定义，且词表没有声明应因半监督标签而排除弱监督。",
+      "exact_quote": "semi-supervised classification (one class and multiclass)",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "semi-supervised classification (one class and multiclass)",
+        "evidence_field": "abstract",
+        "reason_zh": "所提图表示实际应用于半监督分类，不完整标注是明确研究设定，符合弱监督定义，且词表没有声明应因半监督标签而排除弱监督。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

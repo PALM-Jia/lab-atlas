@@ -1,0 +1,40 @@
+{
+  "paper_id": "W2060379733",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "方法以成对约束提供关系监督并研究其跨模态传播，替代充分实例级真值，属于不完整或关系级监督条件。",
+      "exact_quote": "we develop a constrained sparse representation method for graph construction over each modality using homogeneous pair wise constraints.",
+      "evidence_field": "abstract"
+    },
+    {
+      "kind": "unsupported_evidence",
+      "keyword_id": "multi-view-learning",
+      "reason_zh": "跨模态数据点之间的约束和检索不保证同一对象具有多个视图；摘要未明确同一对象的多视图对应，不能直接由多模态推出多视图学习。",
+      "exact_quote": "heterogeneous pair wise constraints are defined over pairs of data points from different modalities",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "multi-view-learning"
+    ],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "we develop a constrained sparse representation method for graph construction over each modality using homogeneous pair wise constraints.",
+        "evidence_field": "abstract",
+        "reason_zh": "方法以成对约束提供关系监督并研究其跨模态传播，替代充分实例级真值，属于不完整或关系级监督条件。"
+      }
+    ],
+    "abstentions": [
+      {
+        "keyword_id": "multi-view-learning",
+        "reason_zh": "摘要只给出不同模态数据点间约束，未明确同一对象具有多个互补视图。"
+      }
+    ],
+    "input_issues": []
+  }
+}

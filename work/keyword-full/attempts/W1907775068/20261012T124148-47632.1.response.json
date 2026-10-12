@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W1907775068\",\"annotations\":[{\"keyword_id\":\"subspace-clustering\",\"exact_quote\":\"we extend the existing subspace clustering into the multi-view domain\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将现有子空间聚类扩展到多视图领域，并作为所提聚类框架的核心任务。\"},{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"we focus on how to boost the multi-view clustering by exploring the complementary information among multi-view features\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以多视图特征及其互补信息为研究对象，并显式联合利用多个视图进行聚类。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

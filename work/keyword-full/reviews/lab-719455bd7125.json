@@ -1,0 +1,21 @@
+{
+  "paper_id": "lab-719455bd7125",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_positive",
+      "keyword_id": "label-correlation-modeling",
+      "reason_zh": "正标签表示所属类别、负标签表示排除类别；利用这两种监督形式的互补性并不等于显式建模不同标签间共现、依赖、排序或局部相关结构。摘要未给出标签相关性建模证据，应删除该选择。",
+      "exact_quote": "Owing to the complementary characteristics between positive and negative labels, we further design a new regularization framework to take advantage of these two label types.",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "label-correlation-modeling"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

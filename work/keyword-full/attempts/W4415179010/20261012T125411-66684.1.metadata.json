@@ -1,0 +1,11 @@
+{
+  "paper_id": "W4415179010",
+  "attempt": 1,
+  "started_at": "2026-10-12T12:59:28.485208+00:00",
+  "status": 429,
+  "duration_seconds": 4.657,
+  "errors": [
+    "HTTP 429: {\"error\":{\"message\":\"Too many requests. Your current concurrency is 18, which exceeds your concurrency limit of 18 based on your remaining balance. Please top up your balance to restore your concurrency. (request_id: 1739ae4d-d945-402b-8dec-3c14ec6b1d64)\",\"type\":\"rate_limit_error\",\"param\":null,\"code\":\"invalid_request_error\"}}"
+  ],
+  "valid": false
+}

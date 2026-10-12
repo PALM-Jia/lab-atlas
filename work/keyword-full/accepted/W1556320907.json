@@ -1,0 +1,11 @@
+{
+  "paper_id": "W1556320907",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "reason_zh": "约束集的监督来源及是否为成对关系未说明，不能仅凭约束聚类认定半监督。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,25 @@
+{
+  "paper_id": "W4410947840",
+  "annotations": [
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "low rank tensor approximation",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以低秩张量近似为核心方法，摘要也说明用局部低秩近似分解低秩与噪声项，满足显式低秩分解/近似定义。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "a superpixel-guided local graph constraint is introduced to ensure that adjacent pixels within each superpixel block of the low rank component maintain similarity",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要提出超像素引导的局部图约束，强制同一超像素块内相邻像素在低秩分量上保持相似，属于用邻域图结构施加几何一致性约束。"
+    },
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "hyperspectral image classification",
+      "evidence_field": "title",
+      "reason_zh": "标题和摘要均围绕高光谱图像分类，研究对象为密集光谱波段的图像数据。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

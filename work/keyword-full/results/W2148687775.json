@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2148687775",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "We develop a framework to incorporate side information in the form of equivalence constraints into the model estimation procedure.",
+      "evidence_field": "abstract",
+      "reason_zh": "将成对等价约束作为有限监督信息融入GMM参数估计，以指导未标注样本聚类，符合有限成对约束指导全部样本学习的半监督设定。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

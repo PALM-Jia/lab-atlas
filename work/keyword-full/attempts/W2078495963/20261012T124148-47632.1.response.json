@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2078495963\",\"annotations\":[{\"keyword_id\":\"hyperspectral-images\",\"exact_quote\":\"Hyperspectral Imagery\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以高光谱影像为分类研究对象，摘要进一步说明处理高光谱图像/高光谱遥感数据，满足高光谱图像应用对象定义。\"}],\"abstentions\":[{\"keyword_id\":\"multi-view-learning\",\"reason_zh\":\"摘要提到多个核及其组合，但未说明同一对象具有多个互补特征视图或观测变量，也未显式联合利用视图间关系，证据不足。\"},{\"keyword_id\":\"dimensionality-reduction\",\"reason_zh\":\"有“extracting the most variation”线索，但论文目标是多核分类与核选择/加权，未明确低维映射或维度压缩任务。\"},{\"keyword_id\":\"low-rank-modeling\",\"reason_zh\":\"从多核张成空间提取主要变化可能涉及低秩思想，但摘要未显式给出低秩约束、分解或近似表示，不能确定。\"}],\"input_issues\":[]}"
+}

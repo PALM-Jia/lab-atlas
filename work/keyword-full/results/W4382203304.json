@@ -1,0 +1,30 @@
+{
+  "paper_id": "W4382203304",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral Image Classification",
+      "evidence_field": "title",
+      "reason_zh": "论文研究对象为高光谱图像分类，处理高光谱图像数据。"
+    },
+    {
+      "keyword_id": "image-segmentation",
+      "exact_quote": "adaptive superpixel (SP) segmentation algorithm",
+      "evidence_field": "abstract",
+      "reason_zh": "采用自适应超像素分割生成局部空间约束，属超像素级图像分割。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "through limited labeled samples, a novel active learning (AL) based on superpixel segmentation is proposed to select important samples for MAT",
+      "evidence_field": "abstract",
+      "reason_zh": "以有限标注样本作为监督条件，并用主动学习选择重要样本，构成不完整监督的研究设定。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "超像素仅用于为主动学习提供局部空间约束，未明确说明对模型学习结果施加图或流形几何一致性正则，证据不足。"
+    }
+  ],
+  "input_issues": []
+}

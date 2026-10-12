@@ -1,0 +1,22 @@
+from pathlib import Path
+root=Path('outputs/paper-atlas')
+p=root/'author-relations.js';s=p.read_text(encoding='utf8').replace('阈值为当前有效作者对得分中位数。','所有可比较作者对均保留，不设相似度阈值。')
+s=s.replace("const threshold=mode==='topic'?.6:","const threshold=mode==='semantic'?null:mode==='topic'?.6:")
+s=s.replace("edge.evidence.threshold_rule=mode==='topic'?'fixed':'median'", "edge.evidence.threshold_rule=mode==='semantic'?'none':mode==='topic'?'fixed':'median'")
+s=s.replace("const eligible=edges.filter(e=>e.score>0&&threshold!==null&&e.score>=threshold);", "const eligible=mode==='semantic'?edges:edges.filter(e=>e.score>0&&threshold!==null&&e.score>=threshold);")
+p.write_text(s,encoding='utf8')
+p=root/'app.js';s=p.read_text(encoding='utf8').replace('得分达到当前作者对得分的中位数时连线。','保留所有可比较的作者连线；相似度越高，边越明显、吸引力越强。')
+s=s.replace("author&&['keywords','semantic'].includes(state.authorRelation)?`<p>连线阈值", "author&&state.authorRelation==='keywords'?`<p>连线阈值")
+s=s.replace("'opacity':.9}},", "'opacity':'data(focusOpacity)'}},\n      {selector:'edge.inspected',style:{'opacity':.9}},")
+s=s.replace("e.edgeStrength=high>low?(score-low)/(high-low):.5;", "e.edgeStrength=high>low?(score-low)/(high-low):.5;\n      if(e.kind==='author_semantic')e.edgeStrength=.02+.98*e.edgeStrength**3;")
+needle="e.edgeOpacity=base*(.35+.65*e.edgeStrength)*edgeFade*(e.displayMuted?.45:1);e.fadedOpacity=.12*(.35+.65*e.edgeStrength)*edgeFade;"
+s=s.replace(needle,needle+"\n      e.focusOpacity=e.kind==='author_semantic'?.08+.82*e.edgeStrength:.9;\n      if(e.kind==='author_semantic'){e.edgeOpacity=(.025+.5*e.edgeStrength)*Math.sqrt(edgeFade)*(e.displayMuted?.45:1);e.fadedOpacity=e.edgeOpacity*.15;}")
+s=s.replace("removeClass('faded focus neighbor')", "removeClass('faded focus neighbor inspected')")
+s=s.replace("edge.removeClass('faded').addClass('focus');", "edge.removeClass('faded').addClass('focus inspected');")
+p.write_text(s,encoding='utf8')
+p=root/'dynamic-layout.js';s=p.read_text(encoding='utf8').replace("repulsion:node.data('lab')===false ? .7 : .85, degree:0", "repulsion:node.data('lab')===false ? .7 : .85, semanticStrength:0, degree:0")
+needle="e.pull=2.7*(.004+.012*e.strength)/Math.sqrt(Math.max(1,e.a.degree,e.b.degree));"
+s=s.replace(needle,needle+"\n        if(e.kind==='author_semantic'){e.a.semanticStrength+=e.strength;e.b.semanticStrength+=e.strength;}")
+s=s.replace("      const totalWeight=points.reduce", "      // Bound each author's total spring strength even when all pairs are present.\n      for(const e of edges)if(e.kind==='author_semantic')e.pull=.075*e.strength/Math.max(1,e.a.semanticStrength,e.b.semanticStrength);\n      const totalWeight=points.reduce")
+p.write_text(s,encoding='utf8')
+p=root/'README.md';s=p.read_text(encoding='utf8').replace('作者对得分中位数为阈值，不限每位作者的边数。','作者语义关系不设阈值，保留所有有有效不同论文对的作者边，包括零分和负分。原始分数不变；显示强度按当前范围归一化后作三次方映射，并保留微弱底值。布局按节点的总边强度归一化，避免全连接时吸引力无限叠加。');p.write_text(s,encoding='utf8')

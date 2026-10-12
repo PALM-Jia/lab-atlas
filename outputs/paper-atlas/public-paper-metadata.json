@@ -1,0 +1,95 @@
+{
+  "lab-5403cb1aad23": {
+    "links": [
+      "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a8b879590adff2b1874f97db59b65518-Abstract-Conference.html"
+    ],
+    "source": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a8b879590adff2b1874f97db59b65518-Abstract-Conference.html",
+    "abstract": "Partial label learning is a weakly supervised learning problem in which an instance is annotated with a set of candidate labels, among which only one is the correct label. However, in practice the correct label is not always in the candidate label set, leading to the noisy partial label learning (NPLL) problem. In this paper, we theoretically prove that the generalization error of the classifier constructed under NPLL paradigm is bounded by the noise rate and the average length of the candidate label set. Motivated by the theoretical guide, we propose a novel NPLL framework that can separate the noisy samples from the normal samples to reduce the noise rate and reconstruct the shorter candidate label sets for both of them. Extensive experiments on multiple benchmark datasets confirm the efficacy of the proposed method in addressing NPLL. For example, on CIFAR100 dataset with severe noise, our method improves the classification accuracy of the state-of-the-art one by 11.57%. The code is available at: https://github.com/pruirui/PLRC.",
+    "authors": [
+      "Peng, Xiaorui",
+      "Jia, Yuheng",
+      "Yang, Fuchao",
+      "Wang, Ran",
+      "Zhang, Min-Ling"
+    ]
+  },
+  "lab-1ba64af37485": {
+    "links": [
+      "https://arxiv.org/abs/2603.06281v1"
+    ],
+    "source": "https://arxiv.org/abs/2603.06281v1",
+    "authors": [
+      "Pu, Haojie",
+      "Li, Zhuoming",
+      "Gao, Yongbiao",
+      "Jia, Yuheng"
+    ]
+  },
+  "lab-77b725acea33": {
+    "links": [
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/813ed01a11220fcdeed10e0d7da2de25-Abstract-Conference.html"
+    ],
+    "source": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/813ed01a11220fcdeed10e0d7da2de25-Abstract-Conference.html",
+    "abstract": "As an important branch of unsupervised learning, deep clustering has seen substantial progress in recent years. However, the majority of current deep clustering methods operate under the assumption of balanced or near-balanced cluster distributions. This assumption contradicts the common long-tailed class distributions in real-world data, leading to severe performance degradation in deep clustering. Although many long-tailed learning methods have been proposed, these approaches typically rely on label information to differentiate treatment across different classes, which renders them inapplicable to deep clustering scenarios. How to re-weight the training of deep clustering models in an unsupervised setting remains an open challenge. To address this, we propose a mini-cluster guided long-tailed deep clustering method, termed MiniClustering. We introduce a specialized clustering head that divide data into much more clusters than the target number of clusters. These predicted clusters are referred to as mini-clusters. The mini-cluster-level predictions serve as the guide for estimating the appropriate weights for classes with varying degrees of long-tailedness. The weights are then incorporated to re-weight the self-training loss in model training. In this way, we can mitigate model bias by re-weighting gradients from different classes. We evaluate our method on multiple benchmark datasets with different imbalance ratios to demonstrate its effectiveness. Further, our method can be readily applied to the downstream of existing unsupervised representation learning frameworks for long-tailed deep clustering. It can also adapt label-dependent long-tailed learning methods to unsupervised clustering tasks by leveraging the estimated weights. The code is available at https://github.com/LZX-001/MiniClustering.",
+    "authors": [
+      "Li, Zhixin",
+      "Jia, Yuheng",
+      "Chen, Guanliang",
+      "LIU, Hui",
+      "Hou, Junhui"
+    ]
+  },
+  "lab-918df170a3ad": {
+    "links": [
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/63ef323523f3be8b58ed9277cc747485-Abstract-Conference.html"
+    ],
+    "source": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/63ef323523f3be8b58ed9277cc747485-Abstract-Conference.html",
+    "abstract": "Deep clustering has recently achieved remarkable progress across various domains. However, existing clustering methods typically treat all samples equally, neglecting the inherent differences in their feature patterns and learning states. Such redundant learning often drives models to overemphasize simple feature patterns in high-density regions, weakening their ability to capture complex yet diverse ones in low-density regions. To address this issue, we propose a novel plug-in designed to mitigate overfitting to simple and redundant feature patterns while encouraging the learning of more complex yet diverse ones. Specifically, we introduce a density-aware clustering head initialization strategy that adaptively adjusts each sample's contribution to cluster prototypes according to its local density in the feature space. This strategy mitigates the bias towards high-density regions and encourages a more comprehensive attention on medium- and low-density ones. Furthermore, we design a dynamic sample selection strategy that evaluates the learning state of samples based on the feature consistency and pseudo-label stability. By removing sufficiently learned samples and prioritizing unstable ones, this strategy adaptively reallocates training resources, enabling the model to consistently focus on samples that remain under-learned throughout training. Our method can be integrated as a plug-in into a wide range of deep clustering architectures. Extensive experiments on multiple benchmark datasets demonstrate that our method improves clustering accuracy by up to $\\textbf{6.1}$\\% and enhances training efficiency by up to $\\textbf{1.3$\\times$}$. Code is available at [https://github.com/notoaudrey/Samples-Are-Not-Equal](https://github.com/notoaudrey/Samples-Are-Not-Equal).",
+    "authors": [
+      "Jiao, Zhengxing",
+      "Hou, Yaxin",
+      "Ma, Jun",
+      "Li, Yuhang",
+      "Ding, Ding",
+      "Jia, Yuheng",
+      "LIU, Hui",
+      "Hou, Junhui"
+    ]
+  },
+  "lab-82a7992c094e": {
+    "links": [
+      "https://proceedings.mlr.press/v267/li25am.html"
+    ],
+    "source": "https://proceedings.mlr.press/v267/li25am.html",
+    "abstract": "Deep clustering, an unsupervised technique independent of labels, necessitates tailored supervision for model training. Prior methods explore supervision like similarity and pseudo labels, yet overlook individual sample training analysis. Our study correlates sample stability during unsupervised training with clustering accuracy and network memorization on a per-sample basis. Unstable representations across epochs often lead to mispredictions, indicating difficulty in memorization and atypicality. Leveraging these findings, we introduce supervision signals for the first time based on sample stability at the representation level. Our proposed strategy serves as a versatile tool to enhance various deep clustering techniques. Experiments across benchmark datasets showcase that incorporating sample stability into training can improve the performance of deep clustering. The code is available at https://github.com/LZX-001/LFSS.",
+    "authors": [
+      "Zhixin Li",
+      "Yuheng Jia",
+      "Hui Liu",
+      "Junhui Hou"
+    ]
+  },
+  "lab-bddb535117ca": {
+    "links": [
+      "https://proceedings.iclr.cc/paper_files/paper/2025/hash/0a1f690b558591412b5bddaf10de3b19-Abstract-Conference.html"
+    ],
+    "source": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/0a1f690b558591412b5bddaf10de3b19-Abstract-Conference.html",
+    "abstract": "Deep clustering has made remarkable progress in recent years. However, most existing deep clustering methods assume that distributions of different clusters are balanced or roughly balanced, which are not consistent with the common long-tailed distributions in reality. In nature, the datasets often follow long-tailed distributions, leading to biased models being trained with significant performance drop. Despite the widespread proposal of many long-tailed learning approaches with supervision information, research on long-tailed deep clustering remains almost uncharted. Unaware of the data distribution and sample labels, long-tailed deep clustering is highly challenging. To tackle this problem, we propose a novel contrastive mixup method for long-tailed deep clustering, named ConMix. The proposed method makes innovations to mixup representations in contrastive learning to enhance deep clustering in long-tailed scenarios. Neural networks trained with ConMix can learn more discriminative representations, thus achieve better long-tailed deep clustering performance. We theoretically prove that ConMix works through re-balancing loss for classes with different long-tailed degree. We evaluate our method on widely used benchmark datasets with different imbalance ratios, suggesting it outperforms many state-of-the-art deep clustering approaches. The code is available at https://github.com/LZX-001/ConMix.",
+    "authors": [
+      "Li, Zhixin",
+      "Jia, Yuheng"
+    ]
+  },
+  "lab-2c640db3fd61": {
+    "links": [
+      "https://proceedings.iclr.cc/paper_files/paper/2025/hash/95b6e2ff961580e03c0a662a63a71812-Abstract-Conference.html"
+    ],
+    "source": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/95b6e2ff961580e03c0a662a63a71812-Abstract-Conference.html",
+    "abstract": "Complementary label learning (CLL) is a weakly supervised learning paradigm that constructs a multi-class classifier only with complementary labels, specifying classes that the instance does not belong to. We reformulate CLL as an inverse problem that infers the full label information from the output space information. To be specific, we propose to split the inverse problem into two subtasks: positive label guessing (PLG) and negative label enhancement (NLE), collectively called PLNL. Specifically, we use well-designed criteria for evaluating the confidence of the model output, accordingly divide the training instances into three categories: highly-confident, moderately-confident and under-confident. For highly-confident instances, we perform PLG to assign them pseudo labels for supervised training. For moderately-confident and under-confident instances, we perform NLE by enhancing their complementary label set at different levels and train them with the augmented complementary labels iteratively. In addition, we unify PLG and NLE into a consistent framework, in which we can view all the pseudo-labeling-based methods from the perspective of negative label recovery. We prove that the error rates of both PLG and NLE are upper bounded, and based on that we can construct a classifier consistent with that learned by clean full labels. Extensive experiments demonstrate the superiority of PLNL over the state-of-the-art CLL methods, e.g., on STL-10, we increase the classification accuracy from 34.96\\% to 55.25\\%. The source code is available at https://github.com/yhli-ml/PLNL.",
+    "authors": [
+      "Li, Yuhang",
+      "Li, Zhuying",
+      "Jia, Yuheng"
+    ]
+  }
+}

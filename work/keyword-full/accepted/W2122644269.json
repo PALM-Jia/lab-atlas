@@ -1,0 +1,22 @@
+{
+  "paper_id": "W2122644269",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "consensus clustering approaches have the ability to integrate multiple partitions from different cluster solutions",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确共识聚类可整合来自不同聚类解的多个划分，符合融合多个已有聚类结果以获得共识划分的集成聚类定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "标题仅表明方法为graph-based，摘要未说明是否学习或修正样本间边、邻接或亲和矩阵，缺少直接证据。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "标题有graph-based线索，但摘要未说明使用邻域、图拉普拉斯或超图对学习结果施加几何一致性约束。"
+    }
+  ],
+  "input_issues": []
+}

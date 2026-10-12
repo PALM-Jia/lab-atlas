@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2126105956",
+  "annotations": [
+    {
+      "keyword_id": "multi-objective-optimization",
+      "exact_quote": "Multi-objective evolutionary algorithms (MOEAs) that use non-dominated sorting and sharing have been criticized mainly for: (1) their O(MN/sup 3/) computational complexity (where M is the number of objectives and N is the population size);",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确研究多目标进化算法，并以逼近真实Pareto最优前沿为目标，符合多目标优化的定义与核心任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

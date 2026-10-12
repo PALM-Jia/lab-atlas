@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2024008934\",\"annotations\":[{\"keyword_id\":\"multi-objective-optimization\",\"exact_quote\":\"finding several Pareto optimal points for a general nonlinear multicriteria optimization problem\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文研究一般非线性多准则优化问题，旨在生成帕累托最优解/帕累托曲面并刻画冲突目标间的权衡，符合多目标优化定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

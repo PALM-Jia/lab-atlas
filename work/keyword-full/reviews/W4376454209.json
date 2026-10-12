@@ -1,0 +1,38 @@
+{
+  "paper_id": "W4376454209",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "unsupported_evidence",
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "Conventional spectral-spatial methods usually extract spectral and spatial information separately, ignoring their intrinsic correlations.",
+      "evidence_field": "abstract",
+      "reason_zh": "引文描述旧光谱空间方法；本文联合分析一幅HSI的三维张量，不足以确认多个互补特征视图及联合视图间关系。"
+    },
+    {
+      "kind": "unsupported_evidence",
+      "keyword_id": "dimensionality-reduction",
+      "exact_quote": "a novel Tensor Singular Spectral Analysis (TensorSSA) method is proposed to extract global and low-rank features of HSI.",
+      "evidence_field": "abstract",
+      "reason_zh": "低秩特征提取有明确证据，但未说明显式低维映射或维度压缩目标；低秩及特征提取不自动等同降维。"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "multi-view-learning",
+      "dimensionality-reduction"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "multi-view-learning",
+        "reason_zh": "联合光谱空间张量分析不能仅凭信息类型推定多视图学习。"
+      },
+      {
+        "keyword_id": "dimensionality-reduction",
+        "reason_zh": "有低秩特征提取，但没有明确维度压缩目标或低维映射。"
+      }
+    ],
+    "input_issues": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "W2141902614",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "constrained spectral clustering with pairwise constraints which specify whether two objects belong to the same cluster or not",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要提出带成对约束的谱聚类，利用同簇/不同簇的有限成对监督指导全部数据聚类，符合半监督学习中用成对约束指导学习的设定。"
+    },
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "exact_quote": "handles both must-link and cannot-link constraints, and can effectively propagate pairwise constraints",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确方法处理must-link与cannot-link两类成对约束并能有效传播成对约束，符合扩展成对监督关系的定义。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "标题有‘spectral regularization’，但摘要只说明对谱嵌入按成对约束调整，未明确使用邻域、图拉普拉斯或超图施加几何一致性约束，证据不足以判定。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "成对约束可视为有限监督，但摘要将其表述为约束谱聚类/半监督设定，未明确以不完整或不精确监督替代实例级真值作为弱监督研究问题，证据不足。"
+    }
+  ],
+  "input_issues": []
+}

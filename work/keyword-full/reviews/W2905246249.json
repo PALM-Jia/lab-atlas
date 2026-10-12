@@ -1,0 +1,31 @@
+{
+  "paper_id": "W2905246249",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "abstention",
+      "keyword_id": "weakly-supervised-learning",
+      "reason_zh": "论文明确以不精确的人工真值标注为研究问题，并用软分布替代硬标签；弱监督定义包括不精确监督，不要求分类式标签或包级设定。",
+      "exact_quote": "However, in many cases, there exist deviations in manual annotations, and the landmarks marked for facial parts with occlusion and large poses are not always accurate, which means that the “ground truth” landmarks are usually not annotated precisely.",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "However, in many cases, there exist deviations in manual annotations, and the landmarks marked for facial parts with occlusion and large poses are not always accurate, which means that the “ground truth” landmarks are usually not annotated precisely.",
+        "evidence_field": "abstract",
+        "reason_zh": "论文明确以不精确的人工真值标注为研究问题，并用软分布替代硬标签；弱监督定义包括不精确监督，不要求分类式标签或包级设定。"
+      }
+    ],
+    "abstentions": [
+      {
+        "keyword_id": "noisy-label-learning",
+        "reason_zh": "摘要提到训练集landmark噪声和标注偏差，但噪声为坐标偏差而非错误类别/候选遗漏/不准确标签分布的分类式监督，定义匹配证据不足。"
+      }
+    ],
+    "input_issues": []
+  }
+}

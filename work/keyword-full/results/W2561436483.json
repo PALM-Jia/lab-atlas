@@ -1,0 +1,28 @@
+{
+  "paper_id": "W2561436483",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral Image Classification Method",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以高光谱图像分类为研究任务，高光谱图像是论文处理的应用对象。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "the low-rank decomposition model is first used to partition the hyperspectral scene into many groups of similar pixels",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将低秩分解模型作为核心方法，先用于把高光谱场景划分为相似像素组，体现显式低秩分解建模。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "sparse-representation",
+      "reason_zh": "摘要仅出现jointly sparse regression model，未说明以字典原子、基向量或潜在特征表达样本，无法确认稀疏表示这一具体机制。"
+    },
+    {
+      "keyword_id": "subspace-clustering",
+      "reason_zh": "低秩分解将相似像素分组，但摘要未说明按潜在子空间或自表达关系进行聚类，子空间聚类证据不足。"
+    }
+  ],
+  "input_issues": []
+}

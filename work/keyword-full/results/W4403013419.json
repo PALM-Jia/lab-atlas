@@ -1,0 +1,22 @@
+{
+  "paper_id": "W4403013419",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "Ensemble clustering",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以集成聚类为研究任务，研究多个聚类结果的共识融合。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "标题仅提到 topological consistency propagation，未说明用邻域、图拉普拉斯或超图结构施加几何一致性约束，机制证据不足。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "标题未说明学习或修正样本间的边、邻接或亲和矩阵，无法确定图结构学习。"
+    }
+  ],
+  "input_issues": []
+}

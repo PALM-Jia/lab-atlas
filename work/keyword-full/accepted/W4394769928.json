@@ -1,0 +1,22 @@
+{
+  "paper_id": "W4394769928",
+  "annotations": [
+    {
+      "keyword_id": "ensemble-clustering",
+      "exact_quote": "Adaptive weighted ensemble clustering via kernel learning and local information preservation",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以集成聚类为研究任务，目标是融合多个聚类结果获得共识划分。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "graph-structure-learning",
+      "reason_zh": "标题仅提及kernel learning，未说明是否学习或修正样本间的边、邻接或亲和矩阵，无法确定。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "reason_zh": "标题仅提及local information preservation，未说明是否使用图拉普拉斯、邻域或流形结构施加几何一致性约束，证据不足。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,35 @@
+{
+  "verdict": "revise",
+  "patch": {
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "the discriminative representations of both the labeled and unlabeled data are simultaneously learned",
+        "evidence_field": "abstract",
+        "reason_zh": "提出半监督NMF并同时学习有标注与未标注样本表示，有限标注这一不完整监督条件构成实质研究设定，漏标弱监督。"
+      }
+    ],
+    "input_issues": [
+      "摘要范数符号及参数条件存在缺失，不能由残缺表达式推断具体范数；其余任务与设定描述可靠。"
+    ],
+    "abstentions": [],
+    "remove_ids": []
+  },
+  "issues": [
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "the discriminative representations of both the labeled and unlabeled data are simultaneously learned",
+      "evidence_field": "abstract",
+      "kind": "false_negative",
+      "reason_zh": "提出半监督NMF并同时学习有标注与未标注样本表示，有限标注这一不完整监督条件构成实质研究设定，漏标弱监督。"
+    },
+    {
+      "keyword_id": null,
+      "exact_quote": "the -norm (especially when ) loss function",
+      "evidence_field": "abstract",
+      "kind": "input_problem",
+      "reason_zh": "摘要范数符号与参数条件缺失，需记录局部数学文本损坏；不影响其可靠的NMF与监督设定证据。"
+    }
+  ],
+  "paper_id": "W2607323999"
+}

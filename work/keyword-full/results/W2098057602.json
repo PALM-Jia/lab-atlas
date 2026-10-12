@@ -1,0 +1,11 @@
+{
+  "paper_id": "W2098057602",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "bayesian-inference",
+      "reason_zh": "摘要仅使用Bayes最小错误规则、先验概率并由数据相对频率估计环境概率，未进行先验与概率模型下的后验估计或近似推断，不满足该词定义。"
+    }
+  ],
+  "input_issues": []
+}

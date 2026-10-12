@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2724213014",
+  "annotations": [
+    {
+      "keyword_id": "person-reidentification",
+      "exact_quote": "Person Re-Identification",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以行人重识别为研究任务，摘要围绕未见行人图像的判别表示及ReID数据集评测展开。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

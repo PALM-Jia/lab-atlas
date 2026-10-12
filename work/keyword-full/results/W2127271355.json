@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2127271355",
+  "annotations": [
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "a greedy algorithm called Orthogonal Matching Pursuit (OMP) can reliably recover a signal with$m$nonzero entries in dimension$d$",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明 OMP 可从随机线性测量中可靠恢复具有 m 个非零项的信号，即用少量非零分量表达信号，属于稀疏表示/稀疏恢复。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

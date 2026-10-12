@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2323917763",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "Hyperspectral Image Classification With Robust Sparse Representation",
+      "evidence_field": "title",
+      "reason_zh": "标题直接以高光谱图像为处理对象，摘要也围绕高光谱影像分类展开。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "a hyperspectral pixel can be sparsely represented by a linear combination of a few training samples among the whole training dictionary",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确高光谱像素可由少量训练样本线性组合稀疏表示，并将稀疏表示分类作为基础方法提出鲁棒扩展。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

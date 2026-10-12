@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2043545458",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "nonnegative matrix factorization (NMF)",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确研究非负矩阵分解，系统分析3因子X=FSG^T NMF并用于聚类。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

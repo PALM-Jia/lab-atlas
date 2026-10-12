@@ -1,0 +1,54 @@
+{
+  "paper_id": "W2060379733",
+  "annotations": [
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "exact_quote": "heterogeneous pair wise constraints are defined over pairs of data points from different modalities",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以异构成对约束传播为任务，跨不同模态传播 must-link/cannot-link 类成对约束。"
+    },
+    {
+      "keyword_id": "sparse-representation",
+      "exact_quote": "constrained sparse representation method for graph construction over each modality using homogeneous pair wise constraints",
+      "evidence_field": "abstract",
+      "reason_zh": "提出受约束稀疏表示方法用于构图，以稀疏基/字典表达样本。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "decompose heterogeneous constraint propagation into semi-supervised learning sub problems",
+      "evidence_field": "abstract",
+      "reason_zh": "将异构成对约束传播分解为半监督学习子问题，用有限成对约束与未标注数据学习。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "constrained sparse representation method for graph construction over each modality using homogeneous pair wise constraints",
+      "evidence_field": "abstract",
+      "reason_zh": "为每个模态构建图，学习样本间亲和/边结构，并受同构成对约束指导。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "solved by graph-based label propagation",
+      "evidence_field": "abstract",
+      "reason_zh": "用图上的标签传播求解子问题，通过图结构对标签一致性施加约束。"
+    },
+    {
+      "keyword_id": "multimodal-retrieval",
+      "exact_quote": "The experimental results in cross-modal retrieval have shown the superior performance of our heterogeneous constraint propagation.",
+      "evidence_field": "abstract",
+      "reason_zh": "在跨模态检索任务上验证，涉及不同模态间检索，并报告方法提升该任务性能。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "we develop a constrained sparse representation method for graph construction over each modality using homogeneous pair wise constraints.",
+      "evidence_field": "abstract",
+      "reason_zh": "方法以成对约束提供关系监督并研究其跨模态传播，替代充分实例级真值，属于不完整或关系级监督条件。"
+    }
+  ],
+  "abstentions": [
+    {
+      "keyword_id": "multi-view-learning",
+      "reason_zh": "摘要只给出不同模态数据点间约束，未明确同一对象具有多个互补视图。"
+    }
+  ],
+  "input_issues": []
+}

@@ -1,0 +1,75 @@
+{
+  "wall_time_ms": 54778,
+  "runs": [
+    {
+      "sample_id": "S01",
+      "status": "response_received",
+      "returned_model": "deepseek-flash",
+      "finish_reason": "length",
+      "duration_ms": 52347
+    },
+    {
+      "sample_id": "S02",
+      "status": "response_received",
+      "returned_model": "deepseek-flash",
+      "finish_reason": "length",
+      "duration_ms": 49597
+    },
+    {
+      "sample_id": "S03",
+      "status": "response_received",
+      "returned_model": "deepseek-flash",
+      "finish_reason": "length",
+      "duration_ms": 54766
+    },
+    {
+      "sample_id": "S04",
+      "status": "response_received",
+      "returned_model": "deepseek-flash",
+      "finish_reason": "stop",
+      "duration_ms": 3095
+    },
+    {
+      "sample_id": "S05",
+      "status": "response_received",
+      "returned_model": "deepseek-flash",
+      "finish_reason": "stop",
+      "duration_ms": 31828
+    },
+    {
+      "sample_id": "S06",
+      "status": "response_received",
+      "returned_model": "deepseek-flash",
+      "finish_reason": "stop",
+      "duration_ms": 9439
+    },
+    {
+      "sample_id": "S07",
+      "status": "response_received",
+      "returned_model": "deepseek-flash",
+      "finish_reason": "stop",
+      "duration_ms": 46854
+    },
+    {
+      "sample_id": "S08",
+      "status": "response_received",
+      "returned_model": "deepseek-flash",
+      "finish_reason": "stop",
+      "duration_ms": 14282
+    },
+    {
+      "sample_id": "S09",
+      "status": "response_received",
+      "returned_model": "deepseek-flash",
+      "finish_reason": "stop",
+      "duration_ms": 42909
+    },
+    {
+      "sample_id": "S10",
+      "status": "response_received",
+      "returned_model": "deepseek-flash",
+      "finish_reason": "stop",
+      "duration_ms": 23796
+    }
+  ]
+}

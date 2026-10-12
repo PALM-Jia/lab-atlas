@@ -1,0 +1,26 @@
+{
+  "paper_id": "lab-dccd5bfa936b",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "parameter-efficient-fine-tuning",
+      "evidence_field": "abstract",
+      "exact_quote": "Low-Rank Adaptation (LoRA) offers an efficient alternative for Model Merging by representing each task adaptation as a low-rank update over frozen pretrained weights.",
+      "reason_zh": "研究实质使用冻结预训练权重上的LoRA低秩任务适配更新并将其合并，满足参数高效微调方法定义，不要求微调本身为新贡献。"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "parameter-efficient-fine-tuning",
+        "evidence_field": "abstract",
+        "exact_quote": "Low-Rank Adaptation (LoRA) offers an efficient alternative for Model Merging by representing each task adaptation as a low-rank update over frozen pretrained weights.",
+        "reason_zh": "研究实质使用冻结预训练权重上的LoRA低秩任务适配更新并将其合并，满足参数高效微调方法定义，不要求微调本身为新贡献。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

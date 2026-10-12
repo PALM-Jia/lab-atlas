@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W1964584498\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"Multi-label Classification with Meta-Labels\",\"evidence_field\":\"title\",\"reason_zh\":\"标题直接表明论文研究多标签分类任务，摘要也围绕多标签分类展开。\"},{\"keyword_id\":\"label-correlation-modeling\",\"exact_quote\":\"models label combinations together as class values in a multi-class problem\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要说明标签权力集方法把标签组合作为多类问题中的类别值一起建模，属于显式建模标签间共现/依赖关系。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

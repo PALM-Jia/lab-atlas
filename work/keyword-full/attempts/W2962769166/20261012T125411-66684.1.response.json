@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2962769166\",\"annotations\":[{\"keyword_id\":\"label-distribution-learning\",\"exact_quote\":\"beauty score distribution\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要说明数据集包含 beauty score distribution 标签，可用于预测各美丽分数对实例的相对描述程度，符合标记分布学习这一核心任务。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2017441234\",\"annotations\":[{\"keyword_id\":\"subspace-clustering\",\"exact_quote\":\"Subspace clustering refers to the problem of grouping data points that lie in a union of low-dimensional subspaces.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将子空间聚类定义为把位于低维子空间并集中的数据点分组，且本文任务即围绕子空间聚类展开。\"},{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"One successful approach for solving this problem is sparse subspace clustering, which is based on a sparse representation of the data.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要说明SSC基于数据的稀疏表示，并进一步求核稀疏表示，满足稀疏表示定义且为方案核心机制。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

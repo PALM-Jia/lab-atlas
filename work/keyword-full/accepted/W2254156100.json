@@ -1,0 +1,11 @@
+{
+  "paper_id": "W2254156100",
+  "annotations": [],
+  "abstentions": [
+    {
+      "keyword_id": "domain-adaptation",
+      "reason_zh": "摘要仅将跨物种功能知识迁移作为网络比对的目标/应用，未明确源域与目标域适配过程或域适应方法，证据不足。"
+    }
+  ],
+  "input_issues": []
+}

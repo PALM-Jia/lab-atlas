@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W3096840866\",\"annotations\":[{\"keyword_id\":\"label-distribution-learning\",\"exact_quote\":\"Adaptive Variance Based Label Distribution Learning for Facial Age Estimation\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确将标记分布学习作为核心任务，用于面部年龄估计并学习年龄概率分布。\"},{\"keyword_id\":\"label-correlation-modeling\",\"exact_quote\":\"the variance is closely related to the correlation between adjacent ages and should vary across ages and identities\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确指出方差与相邻年龄标签间的相关性密切相关，并据此自适应学习每个样本的方差，显式建模相邻年龄的局部相关结构。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

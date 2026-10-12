@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2415145453",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_positive",
+      "keyword_id": "label-distribution-learning",
+      "reason_zh": "候选标签分布用于图像聚类与标注的中间表示，文本未将各标签对实例的相对描述程度预测作为学习任务；不能将一般候选标签概率分布等同于标记分布学习。",
+      "exact_quote": "each input image is first represented by a distribution of candidate labels based on its similarity to images in a labeled reference image database",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [
+      "label-distribution-learning"
+    ],
+    "upsert_annotations": [],
+    "abstentions": [
+      {
+        "keyword_id": "low-rank-modeling",
+        "reason_zh": "仅出现非负矩阵分解，未明确低秩约束或低秩近似，不能由NMF自动推得低秩建模。"
+      }
+    ],
+    "input_issues": []
+  }
+}

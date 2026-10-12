@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2157321686",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "unmix hyperspectral data",
+      "evidence_field": "title",
+      "reason_zh": "标题明确指向高光谱数据解混；摘要进一步说明线性混合分析与高光谱端元提取，属于高光谱图像处理。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

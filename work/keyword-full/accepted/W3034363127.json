@@ -1,0 +1,13 @@
+{
+  "paper_id": "W3034363127",
+  "annotations": [
+    {
+      "keyword_id": "deep-clustering",
+      "exact_quote": "we introduce a novel deep clustering method named PartItion Confidence mAximisation (PICA).",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确本文提出新的深度聚类方法PICA，通过可学习视觉特征与数据分组获得聚类划分，符合深度聚类任务。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

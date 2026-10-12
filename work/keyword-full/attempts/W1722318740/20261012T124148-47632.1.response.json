@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W1722318740\",\"annotations\":[{\"keyword_id\":\"domain-adaptation\",\"exact_quote\":\"We introduce a method that adapts object models acquired in a particular visual domain to new imaging conditions by learning a transformation that minimizes the effect of domain-induced changes in the feature distribution.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确研究域偏移下的域适应，将源视觉域学到的物体模型适配到新成像条件，学习减小域引起的特征分布变化的变换，符合定义。\"}],\"abstentions\":[{\"keyword_id\":\"zero-shot-learning\",\"reason_zh\":\"摘要提到新域无标注样本的类别，但未说明使用语义或属性辅助信息识别训练时未见类别，缺零样本学习证据。\"}],\"input_issues\":[]}"
+}

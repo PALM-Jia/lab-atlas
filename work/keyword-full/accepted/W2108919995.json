@@ -1,0 +1,31 @@
+{
+  "paper_id": "W2108919995",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Nonnegative matrix factorization (NMF) is a popular method for low-rank approximation of nonnegative matrix",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确以非负矩阵分解(NMF)为基础，并提出SSNMF及乘性更新，属于非负因子分解方法。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "low-rank approximation of nonnegative matrix",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将NMF描述为非负矩阵的低秩近似，属于显式低秩分解或近似表示。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "When a portion of data are labeled, the performance of clustering or classification is improved if the information on class labels is incorporated into NMF.",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明只有一部分数据有标签，并将类别标签信息与NMF联合使用，符合半监督学习设定。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "When a portion of data are labeled, the performance of clustering or classification is improved if the information on class labels is incorporated into NMF.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文明确以仅部分数据有类别标签为监督条件，并将部分标签与全体数据矩阵共同纳入NMF；这是不完整监督作为实质研究设定，除半监督外也符合弱监督定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

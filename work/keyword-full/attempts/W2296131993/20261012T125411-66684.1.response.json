@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2296131993\",\"annotations\":[{\"keyword_id\":\"subspace-clustering\",\"exact_quote\":\"Robust Subspace Clustering via Thresholding Ridge Regression\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确论文任务为鲁棒子空间聚类，摘要也说明数据来自多个线性子空间并对数据点分组聚类，满足按潜在子空间分组的定义。\"},{\"keyword_id\":\"graph-structure-learning\",\"exact_quote\":\"TRR calculates the ell2-norm-based coefficients of a given data set and performs a hard thresholding operator; and then the coefficients are used to build a similarity graph for clustering.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"TRR 先计算数据点间系数并做硬阈值处理，再用系数构建相似图，即学习/修正样本间亲和关系用于聚类，符合图结构学习的定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

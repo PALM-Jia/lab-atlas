@@ -1,0 +1,111 @@
+{
+  "11_relation_validation": {
+    "total": 7,
+    "success": 7,
+    "explained_failure": 0,
+    "success_rate": 100.0,
+    "failure_rate": 0.0,
+    "accounted_rate": 100,
+    "unexplained": 0,
+    "reasons": {
+      "all_generated_edges_evidence_checked": 7
+    },
+    "items": [
+      {
+        "id": "citation",
+        "title": "citation",
+        "status": "success",
+        "reason": "all_generated_edges_evidence_checked",
+        "edge_count": 2974
+      },
+      {
+        "id": "coupling",
+        "title": "coupling",
+        "status": "success",
+        "reason": "all_generated_edges_evidence_checked",
+        "edge_count": 3796
+      },
+      {
+        "id": "cocitation",
+        "title": "cocitation",
+        "status": "success",
+        "reason": "all_generated_edges_evidence_checked",
+        "edge_count": 328
+      },
+      {
+        "id": "author",
+        "title": "author",
+        "status": "success",
+        "reason": "all_generated_edges_evidence_checked",
+        "edge_count": 1729
+      },
+      {
+        "id": "topic",
+        "title": "topic",
+        "status": "success",
+        "reason": "all_generated_edges_evidence_checked",
+        "edge_count": 52039
+      },
+      {
+        "id": "institution",
+        "title": "institution",
+        "status": "success",
+        "reason": "all_generated_edges_evidence_checked",
+        "edge_count": 4257
+      },
+      {
+        "id": "semantic",
+        "title": "semantic",
+        "status": "success",
+        "reason": "all_generated_edges_evidence_checked",
+        "edge_count": 109782
+      }
+    ],
+    "cause_assessment": {
+      "failure_total": 0,
+      "counts": {},
+      "justified_rate": 0
+    }
+  },
+  "12_frontend_checks": {
+    "total": 2,
+    "success": 1,
+    "explained_failure": 1,
+    "success_rate": 50.0,
+    "failure_rate": 50.0,
+    "accounted_rate": 100,
+    "unexplained": 0,
+    "reasons": {
+      "node_syntax_check_passed": 1,
+      "browser_url_policy_rejected_existing_tab_binding": 1
+    },
+    "items": [
+      {
+        "id": "js-syntax",
+        "title": "JavaScript syntax",
+        "status": "success",
+        "reason": "node_syntax_check_passed"
+      },
+      {
+        "id": "browser-live",
+        "title": "Updated page browser validation",
+        "status": "failure",
+        "reason": "browser_url_policy_rejected_existing_tab_binding",
+        "failure_assessment": {
+          "status": "justified",
+          "label": "当前失败有充分依据",
+          "failed_stage": "12_frontend_checks",
+          "judgment": "浏览器工具拒绝原标签页协议；页面验证被工具 URL 策略阻挡。",
+          "next_action": "保留未完成的浏览器验证状态。"
+        }
+      }
+    ],
+    "cause_assessment": {
+      "failure_total": 1,
+      "counts": {
+        "justified": 1
+      },
+      "justified_rate": 100.0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "paper_id": "W4408323689",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "the hypergraph based constraint propagation (HCP) algorithm is adopted in CSDCP to exploit the limited supervisory information fully for capturing good data representation",
+      "evidence_field": "abstract",
+      "reason_zh": "方法把有限监督信息用于表示学习，监督不完整是半监督DNMF的实质研究条件，符合弱监督定义。"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "exact_quote": "the hypergraph based constraint propagation (HCP) algorithm is adopted in CSDCP to exploit the limited supervisory information fully for capturing good data representation",
+        "evidence_field": "abstract",
+        "reason_zh": "方法把有限监督信息用于表示学习，监督不完整是半监督DNMF的实质研究条件，符合弱监督定义。"
+      }
+    ],
+    "abstentions": [
+      {
+        "keyword_id": "deep-clustering",
+        "reason_zh": "摘要仅在实验评估中提及clustering tasks和better clustering results，未说明通过可学习神经表示或聚类头获得数据划分，且DNMF核心为矩阵分解表示，证据不足。"
+      },
+      {
+        "keyword_id": "graph-manifold-regularization",
+        "reason_zh": "摘要只提hypergraph based constraint propagation传播监督信息，未说明以超图/邻域对学习结果施加几何一致性正则，证据不足。"
+      }
+    ],
+    "input_issues": []
+  }
+}

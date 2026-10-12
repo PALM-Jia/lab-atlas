@@ -1,0 +1,21 @@
+{
+  "paper_id": "W2154318594",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "input_problem",
+      "keyword_id": null,
+      "reason_zh": "摘要末句在“the lear...”处明显截断，首轮input_issues未记录；此前完整段落的包级监督证据仍可靠。",
+      "exact_quote": "Instead of receiving a set of instances which are labeled positive or negative, the lear...",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [],
+    "abstentions": [],
+    "input_issues": [
+      "摘要末句在“the lear...”处明显截断。"
+    ]
+  }
+}

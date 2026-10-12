@@ -1,0 +1,31 @@
+{
+  "paper_id": "W3188900617",
+  "annotations": [
+    {
+      "keyword_id": "data-imputation-recovery",
+      "exact_quote": "Recovering missing data from incomplete traffic data becomes an important issue for ITS.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文研究从含有缺失的交通数据中恢复缺失观测，输出为恢复后的数据，符合数据补全与恢复任务。"
+    },
+    {
+      "keyword_id": "traffic-data",
+      "exact_quote": "incomplete traffic data due to sensor malfunctions and communication faults",
+      "evidence_field": "abstract",
+      "reason_zh": "以道路交通数据为实际对象，研究其不完整与恢复问题。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "Furthermore, we propose a novel graph spectral regularized tensor completion algorithm based on GT-SVD and construct temporal regularized constraints to improve the recovery accuracy.",
+      "evidence_field": "abstract",
+      "reason_zh": "提出图谱正则化的张量补全算法，利用路网图拓扑/图傅里叶结构对补全过程施加几何一致性约束。"
+    },
+    {
+      "keyword_id": "low-rank-modeling",
+      "exact_quote": "utilize an algebraic framework termed as graph-tensor singular value decompositions (GT-SVD) to extract the hidden spatial information of traffic data",
+      "evidence_field": "abstract",
+      "reason_zh": "采用GT-SVD对交通数据张量进行奇异值分解/近似表示，以提取隐藏空间结构，属于张量分解式低秩建模。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

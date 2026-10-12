@@ -1,0 +1,31 @@
+{
+  "paper_id": "W4409158605",
+  "annotations": [
+    {
+      "keyword_id": "multi-view-learning",
+      "exact_quote": "tensor based multi-view graph learning model equipped with sample pairwise constraints regularization to facilitate the discriminative graph learning and fusion",
+      "evidence_field": "abstract",
+      "reason_zh": "设计多视图图学习与融合模型，显式联合利用多个视图间关系进行聚类。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "tensor based multi-view graph learning model equipped with sample pairwise constraints regularization to facilitate the discriminative graph learning and fusion",
+      "evidence_field": "abstract",
+      "reason_zh": "图学习模型旨在学习并融合判别性样本图结构，符合图结构学习定义。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "This paper considers the weak pairwise constraints among samples to enhance the clustering performance, and proposes a Semi-supervised Multi-view Clustering method with Active Constraints, SMCAC for short.",
+      "evidence_field": "abstract",
+      "reason_zh": "在有限成对约束监督下进行聚类，并用其指导全部样本学习，属半监督学习设定。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "This paper considers the weak pairwise constraints among samples to enhance the clustering performance",
+      "evidence_field": "abstract",
+      "reason_zh": "将主动查询得到的弱成对约束作为不完整、粗粒度的监督信号并作为实质研究条件。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

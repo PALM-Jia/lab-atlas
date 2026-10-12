@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W4402753969\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"62.1% mIoU on ADE20K val\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要报告在ADE20K验证集上的mIoU，属于像素级图像分割评价，表明该骨干被用于分割这类密集预测任务。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

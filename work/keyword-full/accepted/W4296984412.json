@@ -1,0 +1,13 @@
+{
+  "paper_id": "W4296984412",
+  "annotations": [
+    {
+      "keyword_id": "label-distribution-learning",
+      "exact_quote": "Continuous label distribution learning",
+      "evidence_field": "title",
+      "reason_zh": "标题直接表明研究任务为连续标记分布学习，即学习预测标签对实例的描述程度，符合标记分布学习定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2008847349",
+  "annotations": [
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "hyperspectral images (HSIs)",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要围绕高光谱图像（HSIs）展开，研究其高光谱分辨率下的高光谱图像分类问题，属于对密集光谱波段图像的处理。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

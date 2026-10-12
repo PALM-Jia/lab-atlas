@@ -1,0 +1,1 @@
+const fs=require('node:fs'),p='work/check_workflow_flow.cjs';let s=fs.readFileSync(p,'utf8');s=s.replace("await page.setViewportSize({width:1920,height:1100});await page.locator('[data-scroll-stage=\"0\"]').click();","await page.setViewportSize({width:1920,height:1100});");fs.writeFileSync(p,s);

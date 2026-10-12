@@ -1,0 +1,37 @@
+{
+  "paper_id": "W2981059842",
+  "annotations": [
+    {
+      "keyword_id": "label-enhancement",
+      "exact_quote": "Such process of recovering label distributions from logical labels is defined as label enhancement (LE)",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将从逻辑标签恢复标签分布的过程定义为标签增强，并以此提出GLLE，属于核心研究任务。"
+    },
+    {
+      "keyword_id": "label-distribution-learning",
+      "exact_quote": "The learning process on the instances labeled by label distributions is called label distribution learning (LDL).",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要定义LDL为对以标签分布标注实例的学习，标题也表明论文面向标签分布学习。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "Graph Laplacian Label Enhancement (GLLE)",
+      "evidence_field": "abstract",
+      "reason_zh": "提出的算法名为Graph Laplacian Label Enhancement，且摘要称利用特征空间拓扑信息，符合图拉普拉斯/邻域结构正则化。"
+    },
+    {
+      "keyword_id": "label-correlation-modeling",
+      "exact_quote": "leveraging the topological information of the feature space and the correlation among the labels",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要说明恢复标签分布时利用标签间相关性，显式建模标签相关结构。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "many training sets only contain simple logical labels rather than label distributions due to the difficulty of obtaining the label distributions directly",
+      "evidence_field": "abstract",
+      "reason_zh": "逻辑标签相对标签分布是粗粒度/不完整监督，论文以从逻辑标签恢复标签分布为实质问题，符合弱监督设定。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

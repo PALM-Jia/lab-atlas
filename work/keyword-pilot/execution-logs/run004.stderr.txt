@@ -1,0 +1,6 @@
+2026-10-11T20:25:08.894883Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: 拒绝访问。 (os error 5)
+2026-10-11T20:25:10.091189Z  WARN codex_models_manager::model_info: Unknown model gpt-6-luna is used. This will use fallback model metadata.
+2026-10-11T20:25:10.204143Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-10-11T20:25:10.378557Z  WARN codex_models_manager::model_info: Unknown model gpt-6-luna is used. This will use fallback model metadata.
+2026-10-11T20:25:10.421686Z  WARN codex_models_manager::model_info: Unknown model gpt-6-luna is used. This will use fallback model metadata.
+2026-10-11T20:25:11.460381Z  WARN codex_core::session_startup_prewarm: startup websocket prewarm setup failed: {"type":"error","status":400,"error":{"type":"invalid_request_error","message":"The 'gpt-6-luna' model is not supported when using Codex with a ChatGPT account."}}

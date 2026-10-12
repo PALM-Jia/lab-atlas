@@ -1,0 +1,25 @@
+{
+  "paper_id": "W2024717016",
+  "annotations": [
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "exact_quote": "Local similarity learning for pairwise constraint propagation",
+      "evidence_field": "title",
+      "reason_zh": "标题明确以成对约束传播为研究任务；摘要进一步说明将少量成对约束传播到整个数据集。"
+    },
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "Pairwise constraint propagation studies the problem of propagating the scarce pairwise constraints across the entire dataset.",
+      "evidence_field": "abstract",
+      "reason_zh": "以少量成对约束指导整个数据集的传播与学习，属于有限监督结合无标注数据的半监督设定。"
+    },
+    {
+      "keyword_id": "graph-structure-learning",
+      "exact_quote": "learn a new set of similarities, which are consistent with the supervisory information in the pairwise constraints",
+      "evidence_field": "abstract",
+      "reason_zh": "利用成对约束学习新的样本间相似度/亲和关系，以修正后续传播所依赖的关系结构。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

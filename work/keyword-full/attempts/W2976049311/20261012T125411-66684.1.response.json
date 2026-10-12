@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2976049311\",\"annotations\":[{\"keyword_id\":\"label-distribution-learning\",\"exact_quote\":\"Label Distribution Learning with Label Correlations on Local Samples\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确论文研究任务为标记分布学习；摘要也围绕LDL问题提出新算法。\"},{\"keyword_id\":\"label-correlation-modeling\",\"exact_quote\":\"two novel label distribution learning algorithms are proposed by exploiting label correlations on local samples\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要说明所提算法显式利用局部样本上的标签相关性，并据此设计局部相关向量，满足标签相关性建模定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

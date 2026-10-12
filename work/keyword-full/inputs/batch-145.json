@@ -1,0 +1,54 @@
+{
+  "papers": [
+    {
+      "paper_id": "W4307234401",
+      "title": "Manifold Peaks Nonnegative Matrix Factorization",
+      "abstract": "Nonnegative matrix factorization (NMF) has attracted increasing interest for its high interpretability in recent years. It is shown that the NMF is closely related to fuzzy$k$-means clustering, where the basis matrix represents the cluster centroids. However, most of the existing NMF-based clustering algorithms often have their decomposed centroids deviate away from the data manifold, which potentially undermines the clustering results, especially when the datasets lie on complicated geometric structures. In this article, we present a manifold peaks NMF (MPNMF) for data clustering. The proposed approach has the following advantages: 1) it selects a number of MPs to characterize the backbone of the data manifold; 2) it enforces the centroids to lie on the original data manifold, by restricting each centroid to be a conic combination of a small number of nearby MPs; 3) it generalizes the graph smoothness regularization to guide the local graph construction; and 4) it solves a general problem of quadratic regularized nonnegative least squares (NNLSs) with group$l_0$-norm constraint and further develops an efficient optimization algorithm to solve the objective function of the MPNMF. Extensive experiments on both synthetic and real-world datasets demonstrate the effectiveness of the proposed approach."
+    },
+    {
+      "paper_id": "W4307723017",
+      "title": "Self-representative kernel concept factorization",
+      "abstract": null
+    },
+    {
+      "paper_id": "W4307959803",
+      "title": "A survey of multi-label classification based on supervised and semi-supervised learning",
+      "abstract": "Multi-label classification algorithms based on supervised learning use all the labeled data to train classifiers. However, in real life, many of the data are unlabeled, and it is costly to label all the data needed. Multi-label classification algorithms based on semi-supervised learning can use both labeled and unlabeled data to train classifiers, resulting in better-performing models. In this paper, we first review supervised learning classification algorithms in terms of label non-correlation and label correlation and semi-supervised learning classification algorithms in terms of inductive methods and transductive methods. After that, multi-label classification algorithms are introduced from the application areas of image, text, music and video. Subsequently, evaluation metrics and datasets are briefly introduced. Finally, research directions in complex concept drift, label complex correlation, feature selection and class imbalance are presented."
+    },
+    {
+      "paper_id": "W4308029485",
+      "title": "Semi-supervised adaptive kernel concept factorization",
+      "abstract": null
+    },
+    {
+      "paper_id": "W4309364896",
+      "title": "Fast Clustering by Directly Solving Bipartite Graph Clustering Problem",
+      "abstract": "Spectral clustering (SC) has been widely used in many applications and shows excellent performance. Its high computational cost limits its applications; many strategies including the anchor technique can partly alleviate the high computational cost problem. However, early methods ignore the fact that SC usually involves two stages: relaxation and postprocessing, i.e., it relaxes the discrete constraints to continuous constraints, and then conducts the postprocessing to get the discrete solution, which is time-consuming and deviates from directly solving the primal problem. In this article, we first adopt the bipartite graph strategy to reduce the time complexity of SC, and then an improved coordinate descent (CD) method is proposed to solve the primal problem directly without singular value decomposition (SVD) and postprocessing, i.e., directly solving the primal problem not approximately solving. Experiments on various real-world benchmark datasets show that the proposed method can get better solutions faster with better clustering performance than traditional optimization methods. Furthermore, it can jump out of local minima of traditional methods and continue to obtain better local solutions. Moreover, compared with other clustering methods, it also shows its superiority."
+    },
+    {
+      "paper_id": "W4310601440",
+      "title": "Robust Graph Regularized NMF with Dissimilarity and Similarity Constraints for ScRNA-seq Data Clustering",
+      "abstract": "The notable progress in single-cell RNA sequencing (ScRNA-seq) technology is beneficial to accurately discover the heterogeneity and diversity of cells. Clustering is an extremely important step during the ScRNA-seq data analysis. However, it cannot achieve satisfactory performances by directly clustering ScRNA-seq data due to its high dimensionality and noise. To address these issues, we propose a novel ScRNA-seq data representation model, termed Robust Graph regularized Non-Negative Matrix Factorization with Dissimilarity and Similarity constraints (RGNMF-DS), for ScRNA-seq data clustering. To accurately characterize the structure information of the labeled samples and the unlabeled samples, respectively, the proposed RGNMF-DS model adopts a couple of complementary regularizers (i.e., similarity and dissimilar regularizers) to guide matrix decomposition. In addition, we construct a graph regularizer to discover the local geometric structure hidden in ScRNA-seq data. Moreover, we adopt the l 2,1 -norm to measure the reconstruction error and thereby effectively improve the robustness of the proposed RGNMF-DS model to the noises. Experimental results on several ScRNA-seq datasets have demonstrated that our proposed RGNMF-DS model outperforms other state-of-the-art competitors in clustering."
+    },
+    {
+      "paper_id": "W4311548849",
+      "title": "One step multi-view spectral clustering via joint adaptive graph learning and matrix factorization",
+      "abstract": null
+    },
+    {
+      "paper_id": "W4311770445",
+      "title": "Dynamic ensemble learning for multi-label classification",
+      "abstract": null
+    },
+    {
+      "paper_id": "W4312209802",
+      "title": "Hypergraph based semi-supervised symmetric nonnegative matrix factorization for image clustering",
+      "abstract": null
+    },
+    {
+      "paper_id": "W4312466905",
+      "title": "Incremental Dictionary Learning-Driven Tensor Low-Rank and Sparse Representation for Hyperspectral Image Classification",
+      "abstract": "Low-rank and sparse representation (LRSR) has gained popularity in hyperspectral image (HSI) classification. However, existing LRSR models usually treat HSI as a two-dimensional matrix, which may destroy the original 3D intrinsic structure of HSI. Moreover, the dictionary consisting of only training samples lacks completeness and may be suboptimal for representation. To overcome the above issues, we propose an incremental dictionary learning-driven tensor low-rank and sparse representation (TLRSR-IDL) model for HSI classification. First, we represent HSI as a third-order tensor to retain its original 3D intrinsic structure by using the TLRSR model, which also combines both sparsity and low rankness to maintain global and local data structures. Second, we design an optimal reconstruction within regularized neighborhood (ORRN) method to exploit spectral-spatial information by avoiding the interference of heterogeneous samples in the neighborhood. Finally, an incremental dictionary learning (IDL) scheme is designed to iteratively introduce augmented samples into the dictionary, and the final classification map is produced by feeding back the last round of the incremental dictionary into the TLRSR-IDL model. The main innovative contribution lies in that the proposed IDL scheme can leverage supervised and unsupervised information, which greatly enhances traditional LRSR and TLRSR models. Experimental results based on three popular hyperspectral datasets demonstrate that the proposed method outperforms other related counterparts in terms of classification accuracy and generalization performance, with OA improvements of 0.97%-16.83%, 1.25%-6.89%, and 0.85%-6.67% for Indian Pines, Pavia University, and Salinas, respectively."
+    }
+  ]
+}

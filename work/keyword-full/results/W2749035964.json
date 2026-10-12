@@ -1,0 +1,13 @@
+{
+  "paper_id": "W2749035964",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "This new method, called Non-negative Matrix Factorization (NMF), differs from previous methods by the usage of non-negativity constraints.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以NMF为核心方法，利用非负约束将数据矩阵近似分解为非负因子，满足非负矩阵分解定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

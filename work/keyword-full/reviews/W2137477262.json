@@ -1,0 +1,21 @@
+{
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "unsupported_evidence",
+      "keyword_id": "low-rank-modeling",
+      "reason_zh": "摘要说明非负张量分解及判别约束，但未说明低秩约束、低秩分解或低秩近似；不能仅由NTF分解推断低秩建模。",
+      "evidence_field": "abstract",
+      "exact_quote": "inside the NTF decompositions"
+    }
+  ],
+  "paper_id": "W2137477262",
+  "patch": {
+    "abstentions": [],
+    "input_issues": [],
+    "remove_ids": [
+      "low-rank-modeling"
+    ],
+    "upsert_annotations": []
+  }
+}

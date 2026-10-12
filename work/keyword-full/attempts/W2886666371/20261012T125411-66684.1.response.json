@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W2886666371\",\"annotations\":[{\"keyword_id\":\"hyperspectral-images\",\"exact_quote\":\"Hyperspectral Imagery for Environmental Urban Planning\",\"evidence_field\":\"title\",\"reason_zh\":\"标题与摘要均以高光谱影像为研究对象，讨论其在城市环境规划中的应用能力，符合处理密集光谱波段图像的定义。\"}],\"abstentions\":[],\"input_issues\":[\"摘要存在明显语法/语义断裂与疑似文本损坏，如“Due to the enhancement of spatial to deepen the observation of urban areas.”和“They and show great potentials might consider...”等句，但高光谱影像主题仍可识别。\"]}"
+}

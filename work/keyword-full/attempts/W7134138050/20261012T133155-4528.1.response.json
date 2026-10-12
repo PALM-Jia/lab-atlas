@@ -1,0 +1,3 @@
+{
+  "content": "{\"paper_id\":\"W7134138050\",\"annotations\":[{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"The Multi-view clustering aims to cluster multi-view data into distinct clusters by exploring consistency and complementary information from different sources.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以多视图数据聚类为任务，明确联合利用不同来源视图之间的一致性与互补信息，符合多视图学习定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
+}

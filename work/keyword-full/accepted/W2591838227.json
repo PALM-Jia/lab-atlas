@@ -1,0 +1,19 @@
+{
+  "paper_id": "W2591838227",
+  "annotations": [
+    {
+      "keyword_id": "nonnegative-matrix-factorization",
+      "exact_quote": "Nonnegative Matrix Factorization",
+      "evidence_field": "title",
+      "reason_zh": "标题直接点明论文主题为非负矩阵分解，摘要进一步概述其应用、解的唯一性、复杂度与算法，符合以非负因子分解矩阵的方法定义。"
+    },
+    {
+      "keyword_id": "hyperspectral-images",
+      "exact_quote": "application in hyperspectral imaging",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要明确将高光谱成像列为 NMF 的应用领域，表明论文涉及密集光谱波段图像这一应用对象。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}

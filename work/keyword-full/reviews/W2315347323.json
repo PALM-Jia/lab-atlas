@@ -1,0 +1,26 @@
+{
+  "paper_id": "W2315347323",
+  "verdict": "revise",
+  "issues": [
+    {
+      "kind": "false_negative",
+      "keyword_id": "image-segmentation",
+      "reason_zh": "方法为图像测试像素赋予类别标签，符合词表的像素级类别划分定义，遗漏图像分割。",
+      "exact_quote": "the label of the test pixel is determined by applying the joint sparse representation classifier to the first several PCs of pixels within the corresponding SA region",
+      "evidence_field": "abstract"
+    }
+  ],
+  "patch": {
+    "remove_ids": [],
+    "upsert_annotations": [
+      {
+        "keyword_id": "image-segmentation",
+        "exact_quote": "the label of the test pixel is determined by applying the joint sparse representation classifier to the first several PCs of pixels within the corresponding SA region",
+        "evidence_field": "abstract",
+        "reason_zh": "方法为图像测试像素赋予类别标签，符合词表的像素级类别划分定义，遗漏图像分割。"
+      }
+    ],
+    "abstentions": [],
+    "input_issues": []
+  }
+}

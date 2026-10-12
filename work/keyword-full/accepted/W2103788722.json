@@ -1,0 +1,37 @@
+{
+  "paper_id": "W2103788722",
+  "annotations": [
+    {
+      "keyword_id": "semi-supervised-learning",
+      "exact_quote": "learning from both pairwise constraints and unlabeled data",
+      "evidence_field": "abstract",
+      "reason_zh": "摘要表明结合成对约束与未标注数据进行学习，标题也明确为 semi-supervised classification，符合半监督设定。"
+    },
+    {
+      "keyword_id": "pairwise-constraint-propagation",
+      "exact_quote": "Our approach can effectively propagate pairwise constraints to the whole data set.",
+      "evidence_field": "abstract",
+      "reason_zh": "方法显式将 must-link/cannot-link 成对约束传播到整个数据集，符合成对约束传播的定义。"
+    },
+    {
+      "keyword_id": "graph-manifold-regularization",
+      "exact_quote": "learn a mapping that is smooth over the data graph",
+      "evidence_field": "abstract",
+      "reason_zh": "以数据图上的平滑性约束所学映射，属于图与流形正则化的几何一致性约束。"
+    },
+    {
+      "keyword_id": "contrastive-learning",
+      "exact_quote": "two must-link objects are mapped to the same point while two cannot-link objects are mapped to be orthogonal",
+      "evidence_field": "abstract",
+      "reason_zh": "将 must-link 样本拉近到同一点、令 cannot-link 样本正交，体现样本间吸引与区分的表示学习目标。"
+    },
+    {
+      "keyword_id": "weakly-supervised-learning",
+      "exact_quote": "We consider the general problem of learning from both pairwise constraints and unlabeled data.",
+      "evidence_field": "abstract",
+      "reason_zh": "论文以成对关系监督结合未标注数据为主要学习问题，以不完整的关系监督替代全部实例级真值，符合弱监督学习定义。"
+    }
+  ],
+  "abstentions": [],
+  "input_issues": []
+}
