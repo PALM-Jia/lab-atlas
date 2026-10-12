@@ -16,6 +16,8 @@ work/api-cache/
 work/citation-cache/
 *.log
 work/*.png
+# The progress monitor rewrites this summary every ten seconds.
+work/keyword-full/control/validation-report.json
 
 # Duplicate archives; the current site is captured directly in Git
 outputs/paper-atlas.zip
