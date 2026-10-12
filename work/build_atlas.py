@@ -101,6 +101,11 @@ def refresh() -> int:
     print("preflight: read-only validation")
     if check():
         return 1
+    export_workflow = [sys.executable, str(ROOT / "work" / "atlas-inputs" / "export_workflow_guide.py")]
+    print("refresh: projecting workflow contract into the workflow page")
+    completed = subprocess.run(export_workflow, cwd=ROOT, check=False)
+    if completed.returncode:
+        return completed.returncode
     command = [sys.executable, str(ROOT / "work" / "apply-reviewed-keywords.py")]
     print("refresh: running local keyword/field/retrieval synchronisation")
     completed = subprocess.run(command, cwd=ROOT, check=False)

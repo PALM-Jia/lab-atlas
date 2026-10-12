@@ -6,6 +6,7 @@
 
 - `workflow-contract.json`：五个处理阶段的输入、采用输出、证据和未决状态。它是流程说明的唯一规范来源。
 - `validate_atlas_inputs.py`：只读校验器，检查固定输入文件、论文 ID 集合、关键词词表、研究领域和流程协议。
+- `export_workflow_guide.py`：把流程协议投影成流程页使用的阶段说明；修改协议后先运行它，再做校验。
 - `manifest.json`：最近一次校验的文件哈希、规模和结果。
 - `release-manifest.json`：三个主页面及其本地依赖清单。
 

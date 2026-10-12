@@ -25,6 +25,7 @@ AUTHORITATIVE_INPUTS = (
 )
 
 WORKFLOW_CONTRACT = "work/atlas-inputs/workflow-contract.json"
+WORKFLOW_GUIDE = "outputs/paper-atlas/workflow-guide.js"
 
 # These are browser/runtime projections of the authoritative payloads.  They
 # are listed for provenance, but are never parsed to establish counts.
@@ -137,6 +138,12 @@ def run(root: Path, manifest_path: Path) -> tuple[dict[str, Any], bool]:
             "controlled_keywords", "cited_by_count", "citing_query_total",
             "database_keywords", "citing_records", "references",
         )))
+        guide_path = root / WORKFLOW_GUIDE
+        guide_text = guide_path.read_text(encoding="utf-8") if guide_path.is_file() else ""
+        check(checks, "workflow guide exists", guide_path.is_file(), True)
+        check(checks, "workflow guide schema", contract.get("schema") in guide_text, True)
+        for stage in stages:
+            check(checks, f"workflow guide title: {stage.get('id')}", stage.get("title") in guide_text, True)
 
     # Only parse authoritative files that exist.  This keeps failure output
     # useful when a checkout is incomplete while still making the run fail.

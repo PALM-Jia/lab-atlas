@@ -221,6 +221,48 @@
         "passed": true
       },
       {
+        "name": "workflow guide exists",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "workflow guide schema",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "workflow guide title: homepage",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "workflow guide title: identity",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "workflow guide title: lab-details",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "workflow guide title: external",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "workflow guide title: features",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
         "name": "atlas nodes",
         "actual": 1673,
         "expected": 1673,
