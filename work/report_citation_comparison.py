@@ -5,6 +5,8 @@ import html
 import json
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1] / 'outputs/paper-atlas'
+LEGACY = Path(__file__).resolve().parents[1] / 'work/archive/paper-atlas-legacy-2026-10-13'
+LEGACY.mkdir(parents=True, exist_ok=True)
 report = json.loads((ROOT / 'citation-comparison.json').read_text(encoding='utf8'))
 for event in report['requests']:
     if event['status'] in ('success', 'cached'): event.pop('reason', None)
@@ -92,5 +94,5 @@ for r in lab_rows:
         if v.get('agency_check'): parts.append('<p class="route">注册机构核查：<code>'+esc(v['agency_check']['url'])+'</code></p>')
     parts.append('</article>')
 parts.append('<script>function apply(){const q=document.getElementById("search").value.toLowerCase(),f=document.getElementById("filter").value;document.querySelectorAll("#papers tr").forEach(r=>r.hidden=!r.dataset.title.includes(q)||(f!=="all"&&r.dataset[f]!=="1"));}document.getElementById("search").oninput=apply;document.getElementById("filter").onchange=apply;</script></main></html>')
-(ROOT / 'citation-comparison.html').write_text(''.join(parts), encoding='utf8')
+(LEGACY / 'citation-comparison.html').write_text(''.join(parts), encoding='utf8')
 print(json.dumps(summary, ensure_ascii=False, indent=2))

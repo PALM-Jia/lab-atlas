@@ -7,6 +7,8 @@ from urllib.parse import urlsplit, parse_qsl, urlencode, urlunsplit
 
 ROOT = Path(__file__).resolve().parent.parent
 ATLAS = ROOT / 'outputs/paper-atlas'
+LEGACY = ROOT / 'work/archive/paper-atlas-legacy-2026-10-13'
+LEGACY.mkdir(parents=True, exist_ok=True)
 
 
 def load(name):
@@ -160,7 +162,7 @@ def main():
 <style>body{{font:16px/1.65 system-ui,sans-serif;color:#243143;background:#f5f7fa;margin:0}}main{{max-width:1080px;margin:auto;padding:24px}}h1{{font-size:26px;margin:12px 0}}h2{{font-size:18px;margin:0}}p{{margin:8px 0}}a{{color:#2463a9;overflow-wrap:anywhere}}article{{background:white;border:1px solid #dde3ea;border-radius:8px;padding:16px 20px;margin:12px 0}}.meta,.files{{color:#627083;font-size:14px}}h3{{color:#2463a9}}code{{font-size:12px;overflow-wrap:anywhere}}li{{margin:5px 0}}nav{{display:flex;gap:18px;flex-wrap:wrap}}</style>
 <main><nav><a href="index.html?view=authors&amp;authorRelation=keywords">作者网络</a><a href="acceptance-report.html">检索报告</a><a href="keyword-missing.json">审计数据</a></nav><h1>缺关键词论文</h1><p>144 篇实验室论文：116 篇已接入 OpenAlex keywords（80.6%），28 篇尚未接入。以下逐篇列出发表状态、当前关键词缺口及补采来源。</p><p>{esc(status_summary)}</p><p class="meta">2026-10-10 回查个人主页和官方公开页，已核对 {result['summary']['status_checked']} / 28 项。成功项只作汇总。</p>{''.join(cards)}</main></html>'''
     from public_copy import clean_public_copy
-    (ATLAS / 'keyword-missing.html').write_text(clean_public_copy(page), encoding='utf8')
+    (LEGACY / 'keyword-missing.html').write_text(clean_public_copy(page), encoding='utf8')
     print(json.dumps(result['summary'], ensure_ascii=False))
     print('Empty keywords:', [r['title'] for r in missing if r['reason'] == 'openalex_keywords_empty'])
 

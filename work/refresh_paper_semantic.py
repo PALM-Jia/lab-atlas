@@ -31,5 +31,7 @@ for key in ['edges','full_edges']:d['meta']['stats'][key]['semantic']=len(edges)
 (root/'relations-full.json').write_text(json.dumps(d['edges'],ensure_ascii=False,separators=(',',':')),encoding='utf-8')
 for name in ['acceptance.json','coverage.json']:
  p=root/name;v=json.loads(p.read_text(encoding='utf-8'));v['meta']['stats']['edges']['semantic']=len(edges);v['meta']['stats']['full_edges']['semantic']=len(edges);p.write_text(json.dumps(v,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
-p=root/'acceptance-report.html';s=p.read_text(encoding='utf-8').replace('<td>109782</td>','<td>'+str(len(edges))+'</td>');p.write_text(s,encoding='utf-8')
+p=Path('work/archive/paper-atlas-legacy-2026-10-13/acceptance-report.html')
+if p.exists():
+ s=p.read_text(encoding='utf-8').replace('<td>109782</td>','<td>'+str(len(edges))+'</td>');p.write_text(s,encoding='utf-8')
 print(json.dumps({'vectors':len(nodes),'lab_vectors':sum(p['lab'] for p in nodes),'semantic_pairs':len(edges)}))

@@ -17,11 +17,13 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "outputs" / "paper-atlas"
 INPUT_VALIDATOR = ROOT / "work" / "atlas-inputs" / "validate_atlas_inputs.py"
 PAGES = ("index.html", "retrieval.html", "workflow.html")
-ARCHIVE_CANDIDATES = (
-    "papers.html", "papers.js", "papers.css", "acceptance-report.html",
-    "citation-comparison.html", "citation-comparison.json",
-    "citation-comparison.csv", "scholar-dblp-probe.html",
-    "scholar-dblp-probe.json", "author-semantic.js", "citation-counts.js",
+LEGACY_ARCHIVE = "work/archive/paper-atlas-legacy-2026-10-13"
+ARCHIVE_CANDIDATES = tuple(
+    f"{LEGACY_ARCHIVE}/{name}" for name in (
+        "papers.html", "papers.js", "papers.css", "acceptance-report.html",
+        "citation-comparison.html", "scholar-dblp-probe.html",
+        "scholar-dblp-probe.json", "source-papers.html",
+    )
 )
 
 
@@ -50,7 +52,7 @@ def write_release_manifest(deps: dict[str, list[str]]) -> Path:
         "archive_candidates": list(ARCHIVE_CANDIDATES),
         "notes": [
             "The three primary pages must remain usable from file://.",
-            "Archive candidates are not deleted by this command.",
+            "Legacy pages are kept outside the static release directory for reference.",
         ],
     }
     path = ROOT / "work" / "atlas-inputs" / "release-manifest.json"
