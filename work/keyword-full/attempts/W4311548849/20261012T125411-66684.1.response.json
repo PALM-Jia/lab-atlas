@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W4311548849\",\"annotations\":[{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"multi-view spectral clustering\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确为多视图谱聚类，研究对象为多视图数据，并以联合方式完成聚类，符合多视图学习设定。\"},{\"keyword_id\":\"graph-structure-learning\",\"exact_quote\":\"joint adaptive graph learning\",\"evidence_field\":\"title\",\"reason_zh\":\"标题指出通过自适应图学习完成聚类，即学习或修正样本间图/亲和结构，而非仅使用固定图，符合图结构学习。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

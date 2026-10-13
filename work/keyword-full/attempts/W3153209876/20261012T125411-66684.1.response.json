@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W3153209876\",\"annotations\":[{\"keyword_id\":\"deep-clustering\",\"exact_quote\":\"Deep matrix factorization with knowledge transfer for lifelong clustering\",\"evidence_field\":\"title\",\"reason_zh\":\"标题表明用深度矩阵分解进行终身聚类，属于以可学习深度表示驱动的聚类任务。\"},{\"keyword_id\":\"semi-supervised-learning\",\"exact_quote\":\"semi-supervised clustering\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确包含半监督聚类，研究有限监督与未标注数据结合的聚类设定。\"},{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"Deep matrix factorization\",\"evidence_field\":\"title\",\"reason_zh\":\"标题方法为深度矩阵分解，矩阵分解属于显式分解/低秩近似表示相关结构。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

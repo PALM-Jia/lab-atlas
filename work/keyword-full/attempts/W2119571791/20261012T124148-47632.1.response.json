@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2119571791\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"We choose Nonnegative Matrix Factorization (NMF) as our tool to find the communities because of its powerful interpretability and close relationship between clustering methods.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文明确以非负矩阵分解(NMF)为核心工具，并提出对称、非对称与联合NMF用于社区发现，满足以非负因子分解矩阵的方法定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

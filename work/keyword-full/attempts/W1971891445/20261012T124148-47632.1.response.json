@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1971891445\",\"annotations\":[{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"Kernel sparse representation classification (KSRC), a nonlinear extension of sparse representation classification\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以核稀疏表示分类为基础并提出空间-谱KSRC，实质采用稀疏表示表达样本。\",\"evidence_field\":\"abstract\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

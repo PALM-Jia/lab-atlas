@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2088748973\",\"annotations\":[],\"abstentions\":[],\"input_issues\":[\"摘要字段是一段 FORTRAN 代码片段（“DO 2 J=I*N ...”），不是可理解的摘要，疑似损坏或截断，无法用于标注。\"]}"
-}

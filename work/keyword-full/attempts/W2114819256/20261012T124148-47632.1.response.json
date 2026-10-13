@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2114819256\",\"annotations\":[{\"keyword_id\":\"dimensionality-reduction\",\"exact_quote\":\"principal components of the hyperspectral imagery are computed. The most significant principal components are used as base images for an extended morphological profile\",\"evidence_field\":\"abstract\",\"reason_zh\":\"为将形态学方法用于高光谱数据，先计算主成分并选用最显著主成分作为基础图像，构成显式低维表示与维度压缩步骤。\"},{\"keyword_id\":\"hyperspectral-images\",\"exact_quote\":\"Classification of hyperspectral data with high spatial resolution from urban areas is investigated.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文研究对象为城市区域高空间分辨率高光谱数据的分类，符合高光谱图像应用对象定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

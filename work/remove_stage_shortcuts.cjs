@@ -1,7 +1,0 @@
-const fs=require('node:fs');const dir='outputs/paper-atlas/';
-let html=fs.readFileSync(dir+'workflow.html','utf8');html=html.replace('<nav id="stage-navigation" aria-label="横向定位处理阶段" hidden></nav>','');fs.writeFileSync(dir+'workflow.html',html);
-let js=fs.readFileSync(dir+'workflow.js','utf8');js=js.replace(/\/\/ Stage shortcuts[\s\S]*?\/\/ One viewport-level tooltip/,'// One viewport-level tooltip');fs.writeFileSync(dir+'workflow.js',js);
-let css=fs.readFileSync(dir+'workflow.css','utf8');css=css.replace(/#stage-navigation[^{}]*\{[^}]*\}/g,'').replace(/\.scroll-hint\{[^}]*\}/g,'').replace(/\.stage-jump \.jump-detail\{[^}]*\}/g,'').replace('.atlas-header,#stage-navigation,.chart-toolbar #clear','.atlas-header,.chart-toolbar #clear');fs.writeFileSync(dir+'workflow.css',css);
-const p='work/check_workflow_flow.cjs';let t=fs.readFileSync(p,'utf8');
-t=t.replace(/ \/\/ Stage navigation changes only horizontal position and exposes offscreen results\.[\s\S]*? await page\.locator\('\[data-flow-node="lab-title"\]'\)\.click\(\);/," assert.equal(await page.locator('#stage-navigation').count(),0);assert(await page.locator('#clear').isHidden());\n await page.locator('[data-flow-node=\"lab-title\"]').click();");
-t=t.replace(/ assert\(await page\.locator\('#stage-navigation'\)\.isVisible\(\)\);[^\r\n]*/,'');t=t.replace(/ await page\.setViewportSize\(\{width:1920,height:1100\}\);[^\r\n]*/,'');fs.writeFileSync(p,t);

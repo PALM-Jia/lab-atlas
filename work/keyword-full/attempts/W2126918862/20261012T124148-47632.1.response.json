@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2126918862\",\"annotations\":[{\"keyword_id\":\"dimensionality-reduction\",\"exact_quote\":\"Local Linear embedding (LLE) is a popular dimension reduction method.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将LLE称为降维方法，属于显式低维嵌入/维度压缩研究任务。\"},{\"keyword_id\":\"graph-structure-learning\",\"exact_quote\":\"Thirdly, we relax the kNN constraint of LLE and present a sparse similarity learning algorithm.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要提出放宽LLE的kNN约束并学习稀疏相似度，属于学习样本间亲和/图结构。\"}],\"abstentions\":[{\"keyword_id\":\"graph-manifold-regularization\",\"reason_zh\":\"摘要提到LLE非负约束等价于Laplacian embedding，但未明确以图拉普拉斯或流形正则项约束学习结果，无法确定是否属于该机制。\"}],\"input_issues\":[]}"
-}

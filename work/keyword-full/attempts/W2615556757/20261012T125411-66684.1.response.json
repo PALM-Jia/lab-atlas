@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2615556757\",\"annotations\":[{\"keyword_id\":\"graph-structure-learning\",\"exact_quote\":\"we propose a novel framework for learning/estimating graphs from data\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以从观测数据学习/估计图（图拉普拉斯矩阵）为目标，涉及边/邻接结构，符合图结构学习。\"},{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"maximum a posteriori parameter estimation of Gaussian-Markov random field models\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将问题对应到高斯-马尔可夫随机场模型的最大后验参数估计，属于基于概率模型的后验估计。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

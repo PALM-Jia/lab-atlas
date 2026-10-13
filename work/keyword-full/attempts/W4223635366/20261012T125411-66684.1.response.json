@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W4223635366\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"Automatic Semantic Segmentation of Benthic Habitats Using Images from Towed Underwater Camera in a Complex Shallow Water Environment\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确对水下相机图像进行语义分割，以划分底栖栖息地区域，符合图像分割任务。\"},{\"keyword_id\":\"underwater-images\",\"exact_quote\":\"Underwater image segmentation is useful for benthic habitat mapping and monitoring\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要直接研究水下图像分割，并关注水下光照与阴影变化，属于水下图像应用对象。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

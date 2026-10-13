@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2128053425\",\"annotations\":[{\"keyword_id\":\"domain-adaptation\",\"exact_quote\":\"we present one of the first studies on unsupervised domain adaptation in the context of object recognition\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确以无监督域适应为研究对象，将源域标注知识适配到目标域对象识别，符合跨域迁移设定。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

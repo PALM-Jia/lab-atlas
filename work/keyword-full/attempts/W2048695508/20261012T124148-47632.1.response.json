@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2048695508\",\"annotations\":[{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"As a convex relaxation of the low rank matrix factorization problem\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要将核范数最小化视为低秩矩阵分解问题的凸松弛，并研究加权核范数最小化，显式利用矩阵低秩约束/近似，符合低秩建模。\"},{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"We then apply the proposed WNNM algorithm to image denoising by exploiting the image nonlocal self-similarity.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将 WNNM 应用于图像去噪，即从含噪观测恢复原始图像数值，输出恢复后的图像，符合数据恢复任务。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2067191022\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"Algorithms for two low-level vision tasks discontinuity-preserving smoothing and image segmentation - are described as applications.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将图像分割列为该均值漂移方法的低层视觉应用任务，符合图像分割定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

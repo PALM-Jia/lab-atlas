@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2151386286\",\"annotations\":[],\"abstentions\":[{\"keyword_id\":\"bayesian-inference\",\"reason_zh\":\"仅出现warped Gaussian process，未说明先验、后验或近似推断机制，无法确认满足贝叶斯推断定义\"}],\"input_issues\":[]}"
-}

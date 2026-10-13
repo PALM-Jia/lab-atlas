@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2140245639\",\"annotations\":[{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"finds a basis set capturing high-level semantics in the data and learns sparse coordinates in terms of the basis set\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要将稀疏编码作为核心方法，说明其寻找基集合并学习稀疏坐标，符合以少量基向量表达样本的稀疏表示定义。\"},{\"keyword_id\":\"graph-manifold-regularization\",\"exact_quote\":\"By using graph Laplacian as a smooth operator, the obtained sparse representations vary smoothly along the geodesics of the data manifold.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要提出图正则稀疏编码，使用图拉普拉斯作为平滑算子，使稀疏表示沿数据流形测地线平滑变化，构成图与流形几何一致性约束。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

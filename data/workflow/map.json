@@ -2,1039 +2,127 @@
   "stages": [
     {
       "id": "import",
-      "mode": "外部读取 · 自动",
-      "details": [
-        "import"
-      ]
+      "mode": "外部读取 · 自动"
     },
     {
       "id": "locate",
       "mode": "多源查询 · 自动，AI 按需",
-      "details": [
-        "locate"
-      ],
       "fixed": true
     },
     {
       "id": "collect",
       "mode": "按标识查询 · 自动",
-      "details": [
-        "collect"
-      ],
       "fixed": true
     },
     {
       "id": "external",
       "mode": "外部查询 · 自动",
-      "details": [
-        "external"
-      ],
       "fixed": true
     },
     {
       "id": "features",
-      "mode": "标注审核 · 本地计算",
-      "details": [
-        "features"
-      ]
+      "mode": "标注审核 · 本地计算"
     }
   ],
   "tracks": [
     {
       "id": "identity",
-      "label": "论文身份与版本",
-      "color": "#687b9a",
-      "fields": "主页线索、候选核心证据、来源标识与版本",
-      "collect": "②并行多源检索，核对身份与版本；④确定外部身份。",
-      "fixed": "②固定实验室确认标识和版本；④固定外部对应。",
-      "used": "③仅按确认标识与版本查询。",
-      "stages": [
-        "locate",
-        "collect",
-        "external",
-        "features"
-      ]
+      "color": "#687b9a"
     },
     {
       "id": "text",
-      "label": "标题与摘要",
-      "color": "#4386b9",
-      "fields": "主页标题、确认标题、摘要",
-      "collect": "②固定实验室标题；③取得实验室摘要；④取得外部自身文本。",
-      "fixed": "核心标题在②固定，摘要在③采用；外部文本在④独立采用。",
-      "used": "每篇论文以自身标题及可用摘要生成特征。",
-      "stages": [
-        "locate",
-        "collect",
-        "external",
-        "features"
-      ]
+      "color": "#4386b9"
     },
     {
       "id": "authors",
-      "label": "作者与人员",
-      "color": "#448a79",
-      "fields": "署名顺序、人员对应、实验室名册分类",
-      "collect": "②核对实验室署名与名册；④取得外部署名。",
-      "fixed": "②固定实验室署名顺序及人员身份。",
-      "used": "仅实验室署名论文贡献作者画像。",
-      "stages": [
-        "locate",
-        "collect",
-        "external",
-        "features"
-      ]
+      "color": "#448a79"
     },
     {
       "id": "keywords",
-      "label": "关键词与主题",
-      "color": "#bd873d",
-      "fields": "数据库关键词及主题分数",
-      "collect": "③按确认标识采集；④独立采集外部字段。",
-      "fixed": "实验室值在③采用，外部值在④采用。",
-      "used": "保存文献库原值；网络及作者画像使用⑤的受控关键词。",
-      "stages": [
-        "locate",
-        "collect",
-        "external",
-        "features"
-      ]
+      "color": "#bd873d"
     },
     {
       "id": "publication",
-      "label": "发表与被引",
-      "color": "#ac6f77",
-      "fields": "年份发表、来源被引总数与统计时点",
-      "collect": "②固定年份发表；③取得被引数；④独立取得外部发表与被引数。",
-      "fixed": "实验室发表在②固定，被引数在③采用。",
-      "used": "被引总数与已取得及已匹配被引条目数分别统计。",
-      "stages": [
-        "locate",
-        "collect",
-        "external",
-        "features"
-      ]
+      "color": "#ac6f77"
     },
     {
       "id": "citations",
-      "label": "引用关系",
-      "color": "#8b6db2",
-      "fields": "引用文献、被引记录、端点标识、获取状态",
-      "collect": "③分别取得两份记录；④按端点标识采集外部信息。",
-      "fixed": "④分别补全已有条目的身份详情并去重。",
-      "used": "保留未匹配项；分别记录名单收集范围，不改③被引总数。",
-      "stages": [
-        "locate",
-        "collect",
-        "external",
-        "features"
-      ]
+      "color": "#8b6db2"
     },
     {
       "id": "labFeatures",
-      "label": "实验室论文特征",
-      "color": "#4386b9",
-      "fields": "研究领域、受控关键词、语义向量",
-      "collect": "⑤使用实验室论文自身文本。",
-      "fixed": "记录输入与规则模型版本。",
-      "used": "主领域用于颜色与筛选；受控关键词形成词项关系及作者画像，向量提供语义关联。",
-      "stages": [
-        "locate",
-        "collect",
-        "external",
-        "features"
-      ]
+      "color": "#4386b9"
     },
     {
       "id": "externalFeatures",
-      "label": "外部论文特征",
-      "color": "#7b8798",
-      "fields": "研究领域、受控关键词、语义向量",
-      "collect": "⑤使用④取得的外部论文自身文本。",
-      "fixed": "独立保存每篇外部论文的特征。",
-      "used": "外部特征不参与实验室作者画像。",
-      "stages": [
-        "locate",
-        "collect",
-        "external",
-        "features"
-      ]
+      "color": "#7b8798"
     }
   ],
   "information": [
     {
       "id": "identity",
-      "track": "identity",
       "name": "论文身份与版本对应",
-      "sources": [
-        1
-      ],
-      "settle": 1,
-      "description": "②以并行多源核心证据确认身份和版本，④独立核对外部身份。",
-      "scope": "保存来源原值、确认依据、缺失和获取状态。",
-      "lifecycles": [
-        {
-          "scope": "实验室论文",
-          "sources": [
-            1
-          ],
-          "settle": 1,
-          "branches": [
-            {
-              "stage": 1,
-              "label": "候选核心证据",
-              "description": "②并行多源检索并按需核对原始发布页，仅比较身份版本及核心字段。"
-            }
-          ],
-          "end": [
-            "实验室论文身份与版本对应",
-            "②以并行多源核心证据确认身份和版本，④独立核对外部身份。"
-          ]
-        },
-        {
-          "scope": "外部论文",
-          "sources": [
-            3
-          ],
-          "settle": 3,
-          "branches": [
-            {
-              "stage": 3,
-              "label": "外部自身信息",
-              "description": "④按引用记录端点标识取得外部论文自身信息。"
-            }
-          ],
-          "end": [
-            "外部论文身份与版本对应",
-            "④独立采用外部自身字段，保留缺失和获取状态。"
-          ]
-        }
-      ]
+      "track": "identity"
     },
     {
       "id": "title",
-      "track": "text",
       "name": "标题",
-      "sources": [
-        1
-      ],
-      "settle": 1,
-      "description": "实验室标题在②核对固定，外部标题在④独立采集采用。",
-      "scope": "保存来源原值、确认依据、缺失和获取状态。",
-      "lifecycles": [
-        {
-          "scope": "实验室论文",
-          "sources": [
-            1
-          ],
-          "settle": 1,
-          "branches": [
-            {
-              "stage": 1,
-              "label": "候选核心证据",
-              "description": "②并行多源检索并按需核对原始发布页，仅比较身份版本及核心字段。"
-            }
-          ],
-          "end": [
-            "论文标题",
-            "实验室标题在②核对固定，外部标题在④独立采集采用。"
-          ]
-        },
-        {
-          "scope": "外部论文",
-          "sources": [
-            3
-          ],
-          "settle": 3,
-          "branches": [
-            {
-              "stage": 3,
-              "label": "外部自身信息",
-              "description": "④按引用记录端点标识取得外部论文自身信息。"
-            }
-          ],
-          "end": [
-            "外部标题",
-            "④独立采用外部自身字段，保留缺失和获取状态。"
-          ]
-        }
-      ]
+      "track": "text"
     },
     {
       "id": "authors",
-      "track": "authors",
       "name": "作者与人员",
-      "sources": [
-        1
-      ],
-      "settle": 1,
-      "description": "实验室作者与人员在②核对固定，外部作者与人员在④独立采集采用。",
-      "scope": "保存来源原值、确认依据、缺失和获取状态。",
-      "lifecycles": [
-        {
-          "scope": "实验室论文",
-          "sources": [
-            1
-          ],
-          "settle": 1,
-          "branches": [
-            {
-              "stage": 1,
-              "label": "候选核心证据",
-              "description": "②并行多源检索并按需核对原始发布页，仅比较身份版本及核心字段。"
-            }
-          ],
-          "end": [
-            "作者名字",
-            "实验室作者与人员在②核对固定，外部作者与人员在④独立采集采用。"
-          ]
-        },
-        {
-          "scope": "外部论文",
-          "sources": [
-            3
-          ],
-          "settle": 3,
-          "branches": [
-            {
-              "stage": 3,
-              "label": "外部自身信息",
-              "description": "④按引用记录端点标识取得外部论文自身信息。"
-            }
-          ],
-          "end": [
-            "外部作者与人员",
-            "④独立采用外部自身字段，保留缺失和获取状态。"
-          ]
-        }
-      ]
+      "track": "authors"
     },
     {
       "id": "publication",
-      "track": "publication",
       "name": "年份与发表情况",
-      "sources": [
-        1
-      ],
-      "settle": 1,
-      "description": "实验室年份与发表情况在②核对固定，外部年份与发表情况在④独立采集采用。",
-      "scope": "保存来源原值、确认依据、缺失和获取状态。",
-      "lifecycles": [
-        {
-          "scope": "实验室论文",
-          "sources": [
-            1
-          ],
-          "settle": 1,
-          "branches": [
-            {
-              "stage": 1,
-              "label": "候选核心证据",
-              "description": "②并行多源检索并按需核对原始发布页，仅比较身份版本及核心字段。"
-            }
-          ],
-          "end": [
-            "论文录用情况",
-            "实验室年份与发表情况在②核对固定，外部年份与发表情况在④独立采集采用。"
-          ]
-        },
-        {
-          "scope": "外部论文",
-          "sources": [
-            3
-          ],
-          "settle": 3,
-          "branches": [
-            {
-              "stage": 3,
-              "label": "外部自身信息",
-              "description": "④按引用记录端点标识取得外部论文自身信息。"
-            }
-          ],
-          "end": [
-            "外部年份与发表情况",
-            "④独立采用外部自身字段，保留缺失和获取状态。"
-          ]
-        }
-      ]
+      "track": "publication"
     },
     {
       "id": "abstract",
-      "track": "text",
       "name": "摘要",
-      "sources": [
-        2
-      ],
-      "settle": 2,
-      "description": "实验室摘要在③按确认标识与版本采集采用，外部摘要在④独立采集采用。",
-      "scope": "保存来源原值、确认依据、缺失和获取状态。",
-      "lifecycles": [
-        {
-          "scope": "实验室论文",
-          "sources": [
-            2
-          ],
-          "settle": 2,
-          "branches": [
-            {
-              "stage": 2,
-              "label": "确认标识与版本",
-              "description": "③仅以确认标识与版本查询，OpenAlex 为主源，其他来源按字段补缺。"
-            }
-          ],
-          "end": [
-            "摘要",
-            "实验室摘要在③按确认标识与版本采集采用，外部摘要在④独立采集采用。"
-          ]
-        },
-        {
-          "scope": "外部论文",
-          "sources": [
-            3
-          ],
-          "settle": 3,
-          "branches": [
-            {
-              "stage": 3,
-              "label": "外部自身信息",
-              "description": "④按引用记录端点标识取得外部论文自身信息。"
-            }
-          ],
-          "end": [
-            "外部摘要",
-            "④独立采用外部自身字段，保留缺失和获取状态。"
-          ]
-        }
-      ]
+      "track": "text"
     },
     {
       "id": "keywords",
-      "track": "keywords",
       "name": "数据库关键词",
-      "sources": [
-        2
-      ],
-      "settle": 2,
-      "description": "实验室数据库关键词在③按确认标识与版本采集采用，外部数据库关键词在④独立采集采用。",
-      "scope": "保存来源原值、确认依据、缺失和获取状态。",
-      "lifecycles": [
-        {
-          "scope": "实验室论文",
-          "sources": [
-            2
-          ],
-          "settle": 2,
-          "branches": [
-            {
-              "stage": 2,
-              "label": "确认标识与版本",
-              "description": "③仅以确认标识与版本查询，OpenAlex 为主源，其他来源按字段补缺。"
-            }
-          ],
-          "end": [
-            "数据库关键词",
-            "实验室数据库关键词在③按确认标识与版本采集采用，外部数据库关键词在④独立采集采用。"
-          ]
-        },
-        {
-          "scope": "外部论文",
-          "sources": [
-            3
-          ],
-          "settle": 3,
-          "branches": [
-            {
-              "stage": 3,
-              "label": "外部自身信息",
-              "description": "④按引用记录端点标识取得外部论文自身信息。"
-            }
-          ],
-          "end": [
-            "外部数据库关键词",
-            "④独立采用外部自身字段，保留缺失和获取状态。"
-          ]
-        }
-      ]
+      "track": "keywords"
     },
     {
       "id": "topics",
-      "track": "keywords",
       "name": "数据库主题",
-      "sources": [
-        2
-      ],
-      "settle": 2,
-      "description": "实验室数据库主题在③按确认标识与版本采集采用，外部数据库主题在④独立采集采用。",
-      "scope": "保存来源原值、确认依据、缺失和获取状态。",
-      "lifecycles": [
-        {
-          "scope": "实验室论文",
-          "sources": [
-            2
-          ],
-          "settle": 2,
-          "branches": [
-            {
-              "stage": 2,
-              "label": "确认标识与版本",
-              "description": "③仅以确认标识与版本查询，OpenAlex 为主源，其他来源按字段补缺。"
-            }
-          ],
-          "end": [
-            "数据库主题",
-            "实验室数据库主题在③按确认标识与版本采集采用，外部数据库主题在④独立采集采用。"
-          ]
-        },
-        {
-          "scope": "外部论文",
-          "sources": [
-            3
-          ],
-          "settle": 3,
-          "branches": [
-            {
-              "stage": 3,
-              "label": "外部自身信息",
-              "description": "④按引用记录端点标识取得外部论文自身信息。"
-            }
-          ],
-          "end": [
-            "外部数据库主题",
-            "④独立采用外部自身字段，保留缺失和获取状态。"
-          ]
-        }
-      ]
+      "track": "keywords"
     },
     {
       "id": "counts",
-      "track": "publication",
       "name": "被引数",
-      "sources": [
-        2
-      ],
-      "settle": 2,
-      "description": "实验室被引次数在③按确认标识与版本采集采用，外部被引次数在④独立采集采用。",
-      "scope": "来源被引总数、已取得被引条目数和已匹配详情数互不替代；④不改③统计。",
-      "lifecycles": [
-        {
-          "scope": "实验室论文",
-          "sources": [
-            2
-          ],
-          "settle": 2,
-          "branches": [
-            {
-              "stage": 2,
-              "label": "确认标识与版本",
-              "description": "③仅以确认标识与版本查询，OpenAlex 为主源，其他来源按字段补缺。"
-            }
-          ],
-          "end": [
-            "被引数",
-            "实验室被引次数在③按确认标识与版本采集采用，外部被引次数在④独立采集采用。"
-          ]
-        },
-        {
-          "scope": "外部论文",
-          "sources": [
-            3
-          ],
-          "settle": 3,
-          "branches": [
-            {
-              "stage": 3,
-              "label": "外部自身信息",
-              "description": "④按引用记录端点标识取得外部论文自身信息。"
-            }
-          ],
-          "end": [
-            "外部被引次数",
-            "④独立采用外部自身字段，保留缺失和获取状态。"
-          ]
-        }
-      ]
+      "track": "publication"
     },
     {
       "id": "references",
-      "track": "citations",
       "name": "引用关系",
-      "sources": [
-        3
-      ],
-      "settle": 3,
-      "description": "③分别保存已取得的引用文献与被引记录；④分别补全端点身份和详情，保留未匹配项。",
-      "scope": "名单范围、记录详情分别保存；补全已有条目，只采集一层外部论文。",
-      "lifecycles": [
-        {
-          "scope": "引用文献",
-          "sources": [
-            2,
-            3
-          ],
-          "settle": 3,
-          "branches": [
-            {
-              "stage": 2,
-              "label": "引用文献",
-              "description": "③取得的实验室论文引用文献条目及获取状态。"
-            }
-          ],
-          "end": [
-            "引用文献（补全后）",
-            "④补全已有引用文献条目的身份详情，保留未匹配项。"
-          ]
-        },
-        {
-          "scope": "被引记录",
-          "sources": [
-            2,
-            3
-          ],
-          "settle": 3,
-          "branches": [
-            {
-              "stage": 2,
-              "label": "被引记录",
-              "description": "③取得的被引条目及获取状态。"
-            }
-          ],
-          "end": [
-            "被引记录（补全后）",
-            "④补全已有被引条目详情，不改③被引总数。"
-          ]
-        }
-      ]
+      "track": "citations"
     },
     {
       "id": "directions",
-      "track": "labFeatures",
       "name": "研究领域",
-      "sources": [
-        4
-      ],
-      "settle": 4,
-      "description": "研究领域采用六类粗粒度分类，以主领域决定节点颜色和筛选。实验室论文由 Sol 逐篇阅读标题与可用摘要确定；外部文献按标题及已采用的受控关键词映射。",
-      "scope": "保留主领域、分类依据和来源。",
-      "derived": true
+      "track": "labFeatures"
     },
     {
       "id": "vector",
-      "track": "labFeatures",
       "name": "语义向量",
-      "sources": [
-        4
-      ],
-      "settle": 4,
-      "description": "官方 SPECTER2 模型在本地读取每篇论文自身标题与可用摘要，生成语义向量；摘要缺失时仅用标题。DOI 与 arXiv 标识不作为模型输入条件，保留模型版本、输入及截断记录。",
-      "scope": "标题必需，摘要可选；实验室与外部论文使用各自文本，保留规则模型版本。",
-      "derived": true
+      "track": "labFeatures"
     },
     {
       "id": "profiles",
-      "track": "authors",
       "name": "作者画像",
-      "sources": [
-        4
-      ],
-      "settle": 4,
-      "description": "关键词占比按署名论文的加权覆盖率计算：一作权重 1，其他署名 0.2；确认的空标注计入分母，排除条目不计入。每篇论文可有多个词，各词占比不必合计为 100%。 作者语义关联使用当前筛选内全部有效跨论文对的余弦相似度，按双方署名权重乘积加权平均；共同署名的同一篇论文不与自身比较。每位作者保留相似度最高的 5 位，任一方选中即保留。",
-      "scope": "按当前筛选内的实验室署名论文计算。",
-      "derived": true
+      "track": "authors"
     },
     {
       "id": "controlledKeywords",
-      "track": "labFeatures",
       "name": "论文关键词",
-      "sources": [
-        4
-      ],
-      "settle": 4,
-      "description": "49 项受控词表根据实验室论文标题、摘要及主页信息建立。每篇论文用自身标题与可用摘要，由 DeepSeek V4.1 Flash 标注、Sol 审核后采用；确认的空标注保留，排除条目不参与关键词关系与画像。",
-      "scope": "逐篇保存文本依据与审核结果。",
-      "derived": true
-    }
-  ],
-  "artifacts": [
-    {
-      "id": "homeTitle",
-      "info": "title",
-      "stage": 0,
-      "label": "标题",
-      "detail": "import",
-      "definition": "主页标题原值与出处，供候选检索及核心核对。"
-    },
-    {
-      "id": "homeAuthors",
-      "info": "authors",
-      "stage": 0,
-      "label": "署名",
-      "detail": "import",
-      "definition": "主页署名顺序与出处，供身份及人员核对。"
-    },
-    {
-      "id": "homePublication",
-      "info": "publication",
-      "stage": 0,
-      "label": "发表情况",
-      "detail": "import",
-      "definition": "主页年份发表与出处，供版本及核心核对。"
-    },
-    {
-      "id": "candidates",
-      "info": "identity",
-      "stage": 1,
-      "label": "多源候选",
-      "detail": "locate",
-      "definition": "OpenAlex 与 Semantic Scholar 并行检索所得身份、版本及标题署名发表证据；按需附原始发布页证据。"
-    },
-    {
-      "id": "identity",
-      "info": "identity",
-      "stage": 1,
-      "label": "确认标识与版本",
-      "detail": "locate",
-      "definition": "经多源核对确认的论文标识与版本对应，关联已核对的主页和候选核心证据。②据这些证据确定标题、署名和发表情况；③只使用确认标识与版本精确采集详情。"
-    },
-    {
-      "id": "title",
-      "info": "title",
-      "stage": 1,
-      "label": "论文标题",
-      "detail": "locate",
-      "definition": "②依据已确认身份版本和多源核心证据固定的标题。"
-    },
-    {
-      "id": "authors",
-      "info": "authors",
-      "stage": 1,
-      "label": "作者名字",
-      "detail": "locate",
-      "definition": "②固定的人员对应、署名顺序与名册分类。"
-    },
-    {
-      "id": "publication",
-      "info": "publication",
-      "stage": 1,
-      "label": "论文录用情况",
-      "detail": "locate",
-      "definition": "②固定的年份、会刊与版本状态。"
-    },
-    {
-      "id": "abstract",
-      "info": "abstract",
-      "stage": 2,
-      "label": "摘要",
-      "detail": "collect",
-      "definition": "③以确认标识版本查询得到的摘要采用值、出处及缺失状态。"
-    },
-    {
-      "id": "keywords",
-      "info": "keywords",
-      "stage": 2,
-      "label": "数据库关键词",
-      "detail": "collect",
-      "definition": "③精确采集的关键词、分数、采用依据和缺失状态。"
-    },
-    {
-      "id": "topics",
-      "info": "topics",
-      "stage": 2,
-      "label": "数据库主题",
-      "detail": "collect",
-      "definition": "③精确采集的数据库主题及分数，与研究领域独立。"
-    },
-    {
-      "id": "counts",
-      "info": "counts",
-      "stage": 2,
-      "label": "被引数",
-      "detail": "collect",
-      "definition": "③采用的来源被引总数及统计时点；④不改此值。"
-    },
-    {
-      "id": "references",
-      "info": "references",
-      "stage": 2,
-      "label": "引用文献",
-      "detail": "collect",
-      "definition": "本论文引用谁：③实际取得的引用文献条目、端点标识和获取范围；不保证名单全量。"
-    },
-    {
-      "id": "citingRecords",
-      "info": "references",
-      "stage": 2,
-      "label": "被引记录",
-      "detail": "collect",
-      "definition": "谁引用本论文：③实际取得的被引条目、端点标识和获取范围，与来源被引总数分开。"
-    },
-    {
-      "id": "external",
-      "info": "identity",
-      "stage": 3,
-      "label": "外部论文信息",
-      "detail": "external",
-      "definition": "④按两份已取得记录的端点标识核对外部身份，采集其自身标题署名发表、摘要、关键词、主题及被引数。"
-    },
-    {
-      "id": "citationMap",
-      "info": "references",
-      "stage": 3,
-      "label": "引用文献（补全后）",
-      "detail": "external",
-      "definition": "④分别补全已取得引用文献条目的端点身份和详情、去重；保留未匹配项及获取范围。"
-    },
-    {
-      "id": "citingMap",
-      "info": "references",
-      "stage": 3,
-      "label": "被引记录（补全后）",
-      "detail": "external",
-      "definition": "④分别补全已取得被引条目的端点身份和详情、去重；保留未匹配项，不改③被引总数。"
-    },
-    {
-      "id": "directions",
-      "info": "directions",
-      "stage": 4,
-      "label": "研究领域",
-      "detail": "features",
-      "definition": "研究领域采用六类粗粒度分类，以主领域决定节点颜色和筛选。实验室论文由 Sol 逐篇阅读标题与可用摘要确定；外部文献按标题及已采用的受控关键词映射。",
       "track": "labFeatures"
-    },
-    {
-      "id": "vector",
-      "info": "vector",
-      "stage": 4,
-      "label": "实验室语义向量",
-      "detail": "features",
-      "definition": "⑤从实验室论文自身标题及可用摘要计算语义向量。",
-      "track": "labFeatures"
-    },
-    {
-      "id": "externalDirections",
-      "info": "directions",
-      "stage": 4,
-      "label": "外部研究领域",
-      "detail": "features",
-      "definition": "研究领域采用六类粗粒度分类，以主领域决定节点颜色和筛选。实验室论文由 Sol 逐篇阅读标题与可用摘要确定；外部文献按标题及已采用的受控关键词映射。",
-      "track": "externalFeatures"
-    },
-    {
-      "id": "externalVector",
-      "info": "vector",
-      "stage": 4,
-      "label": "外部语义向量",
-      "detail": "features",
-      "definition": "⑤从外部论文自身标题及可用摘要计算向量，不使用实验室文本。",
-      "track": "externalFeatures"
-    },
-    {
-      "id": "keywordProfile",
-      "info": "profiles",
-      "stage": 4,
-      "label": "作者关键词画像",
-      "detail": "features",
-      "definition": "关键词占比按署名论文的加权覆盖率计算：一作权重 1，其他署名 0.2；确认的空标注计入分母，排除条目不计入。每篇论文可有多个词，各词占比不必合计为 100%。"
-    },
-    {
-      "id": "controlledKeywords",
-      "info": "controlledKeywords",
-      "stage": 4,
-      "label": "论文关键词",
-      "detail": "features",
-      "definition": "49 项受控词表根据实验室论文标题、摘要及主页信息建立。每篇论文用自身标题与可用摘要，由 DeepSeek V4.1 Flash 标注、Sol 审核后采用；确认的空标注保留，排除条目不参与关键词关系与画像。"
-    }
-  ],
-  "dependencies": [
-    {
-      "id": "homeTitle--candidates",
-      "from": "homeTitle",
-      "to": "candidates",
-      "type": "required",
-      "explanation": "必需：主页标题为并行多源候选检索提供起点。"
-    },
-    {
-      "id": "homeAuthors--candidates",
-      "from": "homeAuthors",
-      "to": "candidates",
-      "type": "optional",
-      "explanation": "可选：主页署名可缩小候选范围并支持人员核对。"
-    },
-    {
-      "id": "homePublication--candidates",
-      "from": "homePublication",
-      "to": "candidates",
-      "type": "optional",
-      "explanation": "可选：主页年份发表可辅助身份与版本核对。"
-    },
-    {
-      "id": "candidates--identity",
-      "from": "candidates",
-      "to": "identity",
-      "type": "required",
-      "explanation": "必需：候选核心证据用于确认论文身份、来源标识与版本；疑点保留。"
-    },
-    {
-      "id": "identity--title",
-      "from": "identity",
-      "to": "title",
-      "type": "required",
-      "explanation": "依据已确认身份和版本所关联的主页与候选核心证据，在②确定采用值，并保留来源原值和采用理由。"
-    },
-    {
-      "id": "identity--authors",
-      "from": "identity",
-      "to": "authors",
-      "type": "required",
-      "explanation": "依据已确认身份和版本所关联的主页与候选核心证据，在②确定采用值，并保留来源原值和采用理由。"
-    },
-    {
-      "id": "identity--publication",
-      "from": "identity",
-      "to": "publication",
-      "type": "required",
-      "explanation": "依据已确认身份和版本所关联的主页与候选核心证据，在②确定采用值，并保留来源原值和采用理由。"
-    },
-    {
-      "id": "identity--abstract",
-      "from": "identity",
-      "to": "abstract",
-      "type": "required",
-      "explanation": "必需：③仅以②确认标识与版本精确查询；OpenAlex 为主源，其他来源按字段缺口补充，缺失与取得范围随字段保存。"
-    },
-    {
-      "id": "identity--keywords",
-      "from": "identity",
-      "to": "keywords",
-      "type": "required",
-      "explanation": "必需：③仅以②确认标识与版本精确查询；OpenAlex 为主源，其他来源按字段缺口补充，缺失与取得范围随字段保存。"
-    },
-    {
-      "id": "identity--topics",
-      "from": "identity",
-      "to": "topics",
-      "type": "required",
-      "explanation": "必需：③仅以②确认标识与版本精确查询；OpenAlex 为主源，其他来源按字段缺口补充，缺失与取得范围随字段保存。"
-    },
-    {
-      "id": "identity--counts",
-      "from": "identity",
-      "to": "counts",
-      "type": "required",
-      "explanation": "必需：③仅以②确认标识与版本精确查询；OpenAlex 为主源，其他来源按字段缺口补充，缺失与取得范围随字段保存。"
-    },
-    {
-      "id": "identity--references",
-      "from": "identity",
-      "to": "references",
-      "type": "required",
-      "explanation": "必需：③仅以②确认标识与版本精确查询；OpenAlex 为主源，其他来源按字段缺口补充，缺失与取得范围随字段保存。"
-    },
-    {
-      "id": "identity--citingRecords",
-      "from": "identity",
-      "to": "citingRecords",
-      "type": "required",
-      "explanation": "必需：③仅以②确认标识与版本精确查询；OpenAlex 为主源，其他来源按字段缺口补充，缺失与取得范围随字段保存。"
-    },
-    {
-      "id": "references--external",
-      "from": "references",
-      "to": "external",
-      "type": "alternative",
-      "explanation": "至少一个方向需提供可查询的外部标识；引用文献和被引记录共同定义外部范围，合并重复标识后采集。",
-      "group": "external-scope"
-    },
-    {
-      "id": "citingRecords--external",
-      "from": "citingRecords",
-      "to": "external",
-      "type": "alternative",
-      "explanation": "至少一个方向需提供可查询的外部标识；引用文献和被引记录共同定义外部范围，合并重复标识后采集。",
-      "group": "external-scope"
-    },
-    {
-      "id": "references--citationMap",
-      "from": "references",
-      "to": "citationMap",
-      "type": "required",
-      "explanation": "必需：以③已取得引用文献为基础补全详情并去重；名单范围、记录详情分别保存，保留原条目及获取范围。"
-    },
-    {
-      "id": "citingRecords--citingMap",
-      "from": "citingRecords",
-      "to": "citingMap",
-      "type": "required",
-      "explanation": "必需：以③已取得被引记录为基础补全详情并去重；保留原条目与获取范围，不改③被引总数。"
-    },
-    {
-      "id": "external--citationMap",
-      "from": "external",
-      "to": "citationMap",
-      "type": "optional",
-      "explanation": "可选：已匹配外部身份与详情补入引用文献条目；未匹配条目保留。"
-    },
-    {
-      "id": "external--citingMap",
-      "from": "external",
-      "to": "citingMap",
-      "type": "optional",
-      "explanation": "可选：已匹配外部身份与详情补入被引条目；未匹配条目保留，不重算被引总数。"
-    },
-    {
-      "id": "title--directions",
-      "from": "title",
-      "to": "directions",
-      "type": "required",
-      "explanation": "必需：实验室论文自身确认标题作为该论文特征输入。"
-    },
-    {
-      "id": "abstract--directions",
-      "from": "abstract",
-      "to": "directions",
-      "type": "optional",
-      "explanation": "可选：实验室论文自身摘要可用时一并输入；缺摘要时使用标题。"
-    },
-    {
-      "id": "title--vector",
-      "from": "title",
-      "to": "vector",
-      "type": "required",
-      "explanation": "必需：实验室论文自身确认标题作为该论文特征输入。"
-    },
-    {
-      "id": "abstract--vector",
-      "from": "abstract",
-      "to": "vector",
-      "type": "optional",
-      "explanation": "可选：实验室论文自身摘要可用时一并输入；缺摘要时使用标题。"
-    },
-    {
-      "id": "external--externalDirections",
-      "from": "external",
-      "to": "externalDirections",
-      "type": "required",
-      "explanation": "必需：使用外部论文自身确认标题；自身摘要为可选文本，没有标题时不生成该论文特征。"
-    },
-    {
-      "id": "external--externalVector",
-      "from": "external",
-      "to": "externalVector",
-      "type": "required",
-      "explanation": "必需：使用外部论文自身确认标题；自身摘要为可选文本，没有标题时不生成该论文特征。"
-    },
-    {
-      "id": "authors--keywordProfile",
-      "from": "authors",
-      "to": "keywordProfile",
-      "type": "required",
-      "explanation": "必需：按实验室论文的确认人员署名与顺序确定画像归属和贡献权重。"
-    },
-    {
-      "id": "controlledKeywords--keywordProfile",
-      "from": "controlledKeywords",
-      "to": "keywordProfile",
-      "type": "required",
-      "explanation": "关键词占比按署名论文的加权覆盖率计算：一作权重 1，其他署名 0.2；确认的空标注计入分母，排除条目不计入。每篇论文可有多个词，各词占比不必合计为 100%。"
     }
   ]
 }

@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2952171869\",\"annotations\":[{\"keyword_id\":\"ensemble-clustering\",\"exact_quote\":\"combine multiple base clusterings into a probably better and more robust clustering, the ensemble clustering technique\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将集成聚类作为研究任务，融合多个基聚类以得到更优、更稳健的共识聚类划分。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

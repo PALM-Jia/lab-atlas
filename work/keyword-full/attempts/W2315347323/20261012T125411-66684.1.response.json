@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2315347323\",\"annotations\":[{\"keyword_id\":\"hyperspectral-images\",\"exact_quote\":\"hyperspectral images (HSIs) classification\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确以高光谱图像（HSIs）分类为研究对象和应用对象。\"},{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"shape-adaptive joint sparse representation classification (SAJSRC)\",\"evidence_field\":\"abstract\",\"reason_zh\":\"所提方法为形状自适应联合稀疏表示分类，联合稀疏表示分类器是方案核心。\"},{\"keyword_id\":\"dimensionality-reduction\",\"exact_quote\":\"the HSI is transformed with the principal component analysis (PCA) algorithm\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要使用PCA对高光谱图像进行主成分变换并取前几个主成分，构成显式低维映射并参与分类。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

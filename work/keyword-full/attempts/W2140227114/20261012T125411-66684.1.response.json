@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2140227114\",\"annotations\":[{\"keyword_id\":\"multi-objective-optimization\",\"exact_quote\":\"Another advantage is that it allows multi-objective optimization with multiple decision makers (e.g., MBs) in order to achieve accurate bit rate with good perceptual quality while maintaining a stable buffer level.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确说明所提方法允许多个决策者（如宏块）下的多目标优化，以同时兼顾准确码率、良好感知质量和稳定缓冲区水平，符合多目标优化的研究角色。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

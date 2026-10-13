@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2541389513\",\"annotations\":[{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"we analyze Poisson regression in a Bayesian setting, by introducing a prior distribution on the weights of the linear function\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文在贝叶斯设定下为线性权重引入先验，并对预测分布做闭式近似推断，满足通过先验与概率模型进行后验或近似推断的定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

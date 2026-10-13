@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2294293491\",\"annotations\":[{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"uses correlation coefficients in Gaussian process to measure the similarities between different hidden layer outputs\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要以高斯过程作为训练/建模机制，并涉及其协方差矩阵，属于以概率模型进行推断的方法角色。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

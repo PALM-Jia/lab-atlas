@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2110119381\",\"annotations\":[{\"keyword_id\":\"weakly-supervised-learning\",\"exact_quote\":\"Solving the multiple instance problem with axis-parallel rectangles\",\"evidence_field\":\"title\",\"reason_zh\":\"标题表明研究多示例问题，监督信息位于实例包级别而非单个实例级，属于粗粒度或不完整的弱监督设定，并以求解该问题为任务。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

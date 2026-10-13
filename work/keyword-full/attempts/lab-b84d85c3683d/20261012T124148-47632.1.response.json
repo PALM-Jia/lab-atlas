@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"lab-b84d85c3683d\",\"annotations\":[{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"In Bayesian setting, a Gaussian prior is given to the model parameter, which is not the conjugate distribution of Poisson regression. Hence, the model parameters cannot be integrated analytically, which leads to the inference intractable problem. In this paper, the log-gamma Gaussian approximation method is proposed to solve this analytically intractable problem, which can give out the closed-form solutions.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确采用贝叶斯设定，为模型参数引入高斯先验，并针对后验积分不可解提出 log-gamma 高斯近似推断，给出闭式解，满足贝叶斯后验估计/近似推断定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

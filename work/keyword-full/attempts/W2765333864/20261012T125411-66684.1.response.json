@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2765333864\",\"annotations\":[{\"keyword_id\":\"classifier-ensemble\",\"exact_quote\":\"We propose a machine learning ensemble method to summarize the events in multiview videos\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确提出用机器学习集成方法对关键帧做决策，属于结合多个基学习器预测完成分类式判断的集成分类方法。\"},{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"the inter-dependency and illumination changes of views are considered in the training phase\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文处理多视角监控视频，并在训练阶段显式考虑视角间的相互依赖，满足多视图数据设定及联合利用视图关系的要求。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

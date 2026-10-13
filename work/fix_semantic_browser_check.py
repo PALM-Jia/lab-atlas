@@ -1,2 +1,0 @@
-from pathlib import Path
-p=Path('work/check_author_semantic_browser.cjs');s=p.read_text(encoding='utf8').replace(".map(n=>n.title);});assert(titles.length>0);assert(titles.every(t=>/semi[ -]?supervised/i.test(t)));", ".map(n=>window.atlasSearchMatch([n.title,...n.authors,...n.tags.map(t=>window.ATLAS_DATA.topics.find(v=>v.id===t)?.name||t),...(window.ATLAS_PAPER_KEYWORDS.papers[n.id]||[]).map(k=>k.name)].join(' '),'semi-supervised'));});assert(titles.length>0);assert(titles.every(Boolean));");p.write_text(s,encoding='utf8')

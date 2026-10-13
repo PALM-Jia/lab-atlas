@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2963341956\",\"annotations\":[],\"abstentions\":[{\"keyword_id\":\"large-language-models\",\"reason_zh\":\"标题只表明预训练深度双向 Transformer 用于语言理解，未明确其为“大规模”预训练语言模型或作为何种对象；摘要仅为会议著录信息，缺少规模与模型类型证据，无法确定满足定义。\"}],\"input_issues\":[]}"
-}

@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W7125819935\",\"annotations\":[{\"keyword_id\":\"federated-learning\",\"exact_quote\":\"combines graph theory with federated learning to enable clustering analysis on distributed data while ensuring privacy\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将图论与联邦学习结合，多个数据持有者在不共享原始数据下协作优化聚类模型，符合联邦学习定义。\"}],\"abstentions\":[{\"keyword_id\":\"deep-clustering\",\"reason_zh\":\"摘要以聚类分析为核心，但未说明使用可学习神经表示或聚类头，无法判定是否属于深度聚类。\"},{\"keyword_id\":\"graph-neural-networks\",\"reason_zh\":\"标题含图学习且摘要称结合图论，但未说明图卷积或可学习消息传递，无法判定是否采用GNN。\"}],\"input_issues\":[]}"
-}

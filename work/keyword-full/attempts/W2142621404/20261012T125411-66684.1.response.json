@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2142621404\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"two supervised methods for enhancing the classification accuracy of the Nonnegative Matrix Factorization (NMF) algorithm are presented.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确提出以NMF算法为核心，并扩展其分解以进行判别式特征提取，NMF是论文方案的主要方法。\"}],\"abstentions\":[{\"keyword_id\":\"dimensionality-reduction\",\"reason_zh\":\"摘要提到特征提取与NMF分解，但未明确说明显式低维映射或维度压缩目标，不足以判定为降维研究。\"}],\"input_issues\":[]}"
-}

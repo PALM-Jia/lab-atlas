@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2132140174\",\"annotations\":[{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"Network-Wide Traffic State Estimation Using Loop Detector and Floating Car Data\",\"evidence_field\":\"title\",\"reason_zh\":\"论文以网络级交通状态（速度、密度）及环路检测器、浮动车交通数据为实际研究对象，符合交通数据定义。\"},{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"The approach uses the extended Kalman filtering technique\",\"evidence_field\":\"abstract\",\"reason_zh\":\"扩展卡尔曼滤波利用过程方程和观测方程进行状态估计，属于基于概率模型的近似后验推断。\"}],\"abstentions\":[{\"keyword_id\":\"multi-view-learning\",\"reason_zh\":\"标题提到环路检测器与浮动车两类数据源，但摘要未说明将其作为同一对象的多视图并显式建模视图关系，证据不足以确认多视图学习设定。\"}],\"input_issues\":[]}"
-}

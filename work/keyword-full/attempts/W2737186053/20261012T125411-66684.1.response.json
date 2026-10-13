@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2737186053\",\"annotations\":[{\"keyword_id\":\"subspace-clustering\",\"exact_quote\":\"Multi-view subspace clustering aims to partition a set of multi-source data into their underlying groups.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将多视图子空间聚类作为研究任务，目标是对多源数据进行潜在分组划分。\"},{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"we propose a novel multi-view subspace clustering model that attempts to harness the complementary information between different representations\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文针对多视图数据建模，并显式利用不同视图/表示间的互补信息，符合多视图学习设定。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

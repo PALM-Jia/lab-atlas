@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W4376865402\",\"annotations\":[{\"keyword_id\":\"deep-clustering\",\"exact_quote\":\"Mutual Boost Network for attributed graph clustering\",\"evidence_field\":\"title\",\"reason_zh\":\"标题提出用 Mutual Boost Network 对属性图进行聚类，表明以可学习的网络表示和/或聚类头获得数据划分，符合深度聚类任务。\"}],\"abstentions\":[{\"keyword_id\":\"graph-neural-networks\",\"reason_zh\":\"标题虽含 Network 且对象为属性图，但未说明采用图卷积或图上消息传递，无法确认满足图神经网络定义。\"},{\"keyword_id\":\"graph-structure-learning\",\"reason_zh\":\"标题仅称属性图聚类，未说明学习或修正样本间边、邻接或亲和矩阵。\"}],\"input_issues\":[]}"
-}

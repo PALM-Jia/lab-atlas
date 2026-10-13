@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2011048370\",\"annotations\":[{\"keyword_id\":\"multi-objective-optimization\",\"exact_quote\":\"decomposes a multiobjective optimization problem into a set of scalar optimization subproblems and optimizes them in a collaborative manner\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确研究多目标优化问题，采用分解为标量子问题并协同优化的多目标进化算法，符合多目标优化任务定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

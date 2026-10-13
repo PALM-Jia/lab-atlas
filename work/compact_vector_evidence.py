@@ -1,3 +1,0 @@
-from pathlib import Path
-p=Path('outputs/paper-atlas/semantic_features.py');s=p.read_text(encoding='utf8');s=s.replace("'source_ids':[a['semantic_vector_key'],b['semantic_vector_key']]", "'source_ids':[a['id'],b['id']]");p.write_text(s,encoding='utf8')
-p=Path('work/validate_pipeline.py');s=p.read_text(encoding='utf8');s=s.replace("keys=[a['semantic_vector_key'],b['semantic_vector_key']] if v.get('source')=='local'", "keys=[a['id'],b['id']] if v.get('source')=='local'");s=s.replace("vectors[key]=np.array(record['vector'],dtype=np.float64)","vectors[p['id']]=np.array(record['vector'],dtype=np.float64)");p.write_text(s,encoding='utf8')

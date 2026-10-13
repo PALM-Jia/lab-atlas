@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1916253862\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"Phase congruency analysis of down-sampled and blurring images for foreground extraction\",\"evidence_field\":\"title\",\"reason_zh\":\"标题表明论文以相位一致分析服务于前景提取；前景提取是对图像像素划分前景/背景区域，符合图像分割任务定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

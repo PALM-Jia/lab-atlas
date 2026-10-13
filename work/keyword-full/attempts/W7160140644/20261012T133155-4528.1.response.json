@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W7160140644\",\"annotations\":[{\"keyword_id\":\"graph-neural-networks\",\"exact_quote\":\"Dynamic Graph Neural Networks\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确提出面向动态图神经网络的框架，图神经网络是其研究对象或主要组件，符合图上可学习消息传递的图神经网络定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

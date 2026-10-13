@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"lab-054cd66669d7\",\"annotations\":[{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"reconstruct ground-truth values from corrupted and incomplete observations\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文目标是从受污染和不完整观测中恢复真实值，并同时处理缺失填补与损坏数据恢复任务，符合数据补全与恢复定义。\"},{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"fully exploit the algebraically low-rank property of traffic spatiotemporal data\",\"evidence_field\":\"abstract\",\"reason_zh\":\"显式利用交通时空数据的代数低秩性质，并基于张量低秩范数建模，属于低秩建模方法。\"},{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"traffic spatiotemporal data\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文直接以交通时空数据为研究对象，进行缺失填补和损坏恢复，符合交通数据对象。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

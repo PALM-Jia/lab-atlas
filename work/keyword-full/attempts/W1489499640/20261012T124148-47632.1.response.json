@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1489499640\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"Non-negative Matrix Factorization (NMF) technique is introduced in the context of face classification\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将NMF技术作为人脸分类的实质方法引入，属于以非负因子分解矩阵。\"}],\"abstentions\":[{\"keyword_id\":\"dimensionality-reduction\",\"reason_zh\":\"摘要提到PCA比较和NMF特征空间，但未明确以低维映射或维度压缩为目标，缺少显式降维证据。\"}],\"input_issues\":[]}"
-}

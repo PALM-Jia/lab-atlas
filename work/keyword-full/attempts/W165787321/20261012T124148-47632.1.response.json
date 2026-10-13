@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W165787321\",\"annotations\":[{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"We propose a fully Bayesian approach for generalized kernel models (GKMs)\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确采用全贝叶斯方法对广义核模型的回归向量设置先验，并进行后验推断与预测，满足贝叶斯推断的定义与核心角色。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

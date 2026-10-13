@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2399478587\",\"annotations\":[{\"keyword_id\":\"domain-adaptation\",\"exact_quote\":\"Domain adaptation for speech emotion recognition by sharing priors between related source and target classes\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确将域适应作为研究任务，摘要进一步说明源域与目标域因场景不同存在分布不匹配，并提出SPRST共享相关源/目标类先验以迁移知识。\"}],\"abstentions\":[{\"keyword_id\":\"semi-supervised-learning\",\"reason_zh\":\"摘要提到目标域仅有少量标注实例，但未明确使用未标注目标样本或有限成对约束指导学习，难以仅凭此判定为半监督学习。\"},{\"keyword_id\":\"weakly-supervised-learning\",\"reason_zh\":\"目标域标注少可作为弱监督线索，但摘要未说明以不完整/不精确监督替代实例级真值并将其作为实质问题，且与域适应设定重叠，证据不足。\"},{\"keyword_id\":\"bayesian-inference\",\"reason_zh\":\"摘要提到为分类器参数施加共同先验，但未见概率模型下的后验估计或近似推断，不能仅凭“先验”一词判定为贝叶斯推断。\"}],\"input_issues\":[]}"
-}

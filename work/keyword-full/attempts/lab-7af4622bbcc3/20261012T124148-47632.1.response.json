@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"lab-7af4622bbcc3\",\"annotations\":[{\"keyword_id\":\"deep-clustering\",\"exact_quote\":\"Adaptive Graph Feedback Clustering Network\",\"evidence_field\":\"title\",\"reason_zh\":\"标题中的“Clustering Network”表明使用可学习的神经网络进行聚类划分，符合深度聚类以神经表示或聚类头获得数据划分的定义。\"}],\"abstentions\":[{\"keyword_id\":\"graph-structure-learning\",\"reason_zh\":\"标题仅有“Adaptive Graph”线索，无摘要说明是否学习或修正样本间边、邻接或亲和矩阵，机制无法确定。\"},{\"keyword_id\":\"graph-neural-networks\",\"reason_zh\":\"标题含“Graph”和“Network”，但无摘要说明是否使用图卷积或可学习消息传递，不能仅凭名称认定。\"}],\"input_issues\":[]}"
-}

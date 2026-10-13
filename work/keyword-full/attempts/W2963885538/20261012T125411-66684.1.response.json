@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2963885538\",\"annotations\":[{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"exactly recover the low-rank and sparse components from their sum\",\"evidence_field\":\"abstract\",\"reason_zh\":\"TRPCA目标是从低秩与稀疏分量之和中精确恢复这两个分量，即从含稀疏污染的观测中恢复原始低秩数据，属于数据恢复任务。\"},{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"exactly recover the low-rank and sparse components from their sum\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要以恢复低秩分量为目标，并围绕张量核范数（张量平均秩的凸包）构建凸规划，显式利用低秩结构进行建模。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

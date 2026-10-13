@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2108859253\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"Fuzzy c-means clustering (FCM) with spatial constraints (FCM_S) is an effective algorithm suitable for image segmentation.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确以图像分割为适用任务，全文围绕分割算法改进。\"},{\"keyword_id\":\"graph-manifold-regularization\",\"exact_quote\":\"exploitation of spatial contextual information\",\"evidence_field\":\"abstract\",\"reason_zh\":\"利用像素空间上下文/邻域约束提升对噪声不敏感并施加几何一致性，符合邻域结构正则化。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

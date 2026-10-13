@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2108745803\",\"annotations\":[{\"keyword_id\":\"weakly-supervised-learning\",\"exact_quote\":\"multiple-instance learning as a maximum margin problem\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以多示例学习为研究任务，其监督信号是粗粒度的包级标签而非实例级真值，属于弱监督设定并作为核心问题。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

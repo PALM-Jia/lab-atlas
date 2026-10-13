@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2169535263\",\"annotations\":[{\"keyword_id\":\"hyperspectral-images\",\"exact_quote\":\"hyperspectral image classification method\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要直接提出高光谱图像分类方法，说明高光谱图像是本文的研究对象，符合高光谱图像应用对象定义。\"}],\"abstentions\":[{\"keyword_id\":\"bayesian-inference\",\"reason_zh\":\"文本仅称使用 relevance vector machines，未说明先验、后验估计或概率模型推断，无法确认贝叶斯推断是实质机制。\"},{\"keyword_id\":\"sparse-representation\",\"reason_zh\":\"文本只提到 relevance vector rate 较小，未说明用少量字典原子、基向量或潜在特征表达样本，无法确认稀疏表示。\"}],\"input_issues\":[]}"
-}

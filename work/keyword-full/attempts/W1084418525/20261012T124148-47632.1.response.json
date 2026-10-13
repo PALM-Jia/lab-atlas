@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1084418525\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"Nonnegative matrix factorization (NMF) and symmetric NMF (SymNMF) have been shown to be effective for clustering linearly separable data and nonlinearly separable data, respectively.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以NMF和对称NMF作为核心方法构建约束聚类框架，并提出乘性更新规则求解，符合非负矩阵分解定义。\"},{\"keyword_id\":\"semi-supervised-learning\",\"exact_quote\":\"a small number of constraints in the form of must-link and cannot-link are available\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文利用少量must-link/cannot-link成对约束指导聚类，属于以有限监督信息结合未标注样本的半监督学习设定。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

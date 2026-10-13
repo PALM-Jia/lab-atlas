@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2050601254\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"non-negative matrix factorization\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确使用非负矩阵分解模型进行重叠社区检测，属于以非负因子分解矩阵的方法。\"},{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"a Bayesian non-negative matrix factorization model\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要说明采用贝叶斯非负矩阵分解这一概率模型进行社区检测，满足贝叶斯概率建模与推断的定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

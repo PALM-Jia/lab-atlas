@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1963932623\",\"annotations\":[{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"learn a discriminative dictionary for sparse coding\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文提出学习判别性字典用于稀疏编码，并以字典原子/稀疏码表达样本，符合稀疏表示定义且为方案核心。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

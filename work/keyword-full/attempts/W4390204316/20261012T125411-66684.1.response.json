@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W4390204316\",\"annotations\":[{\"keyword_id\":\"deep-clustering\",\"exact_quote\":\"meaningful features need to be constructed for effective superpixel clustering\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文用可学习网络构造利于聚类的特征，并以超像素聚类为目标进行数据划分，符合深度聚类定义。\"},{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"Superpixel segmentation divides an original image into mid-level regions\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文研究超像素分割，将图像像素划分为中层区域，属于图像分割任务。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

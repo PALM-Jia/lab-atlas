@@ -1,2 +1,0 @@
-from pathlib import Path
-p=Path('outputs/paper-atlas/semantic_features.py');s=p.read_text(encoding='utf8');needle="        model.load_adapter(str(model_dir/'specter2'),load_as='proximity',set_active=True)\n        model.eval()";s=s.replace(needle,"        model.load_adapter(str(model_dir/'specter2'),load_as='proximity',set_active=True)\n        if not model.active_adapters or model.active_adapters.flatten()!=['proximity']:\n            raise ValueError('SPECTER2 proximity adapter is not active')\n        model.eval()");p.write_text(s,encoding='utf8')

@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2135431554\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"We propose a new objective function for superpixel segmentation.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确以超像素分割为研究任务，属于对图像像素进行区域划分的图像分割。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

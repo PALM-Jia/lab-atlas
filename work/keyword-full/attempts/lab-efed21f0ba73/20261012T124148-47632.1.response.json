@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"lab-efed21f0ba73\",\"annotations\":[{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"we propose a novel model for irregular tensor low-rank representation tailored to efficiently model irregular 3D cubes.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确提出所提模型为不规则张量低秩表示，并用非凸核范数促进低秩性，属于显式利用张量低秩约束/分解。\"},{\"keyword_id\":\"hyperspectral-images\",\"exact_quote\":\"hyperspectral images (HSI)\",\"evidence_field\":\"abstract\",\"reason_zh\":\"标题与摘要以高光谱图像(HSI)为研究对象，摘要讨论HSI数据中的光谱变化与空间分布，并用于表示建模。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

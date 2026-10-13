@@ -1,1 +1,0 @@
-const fs=require('fs');const p='outputs/paper-atlas/workflow.css';let s=fs.readFileSync(p,'utf8');s+='\n/* Information fields share one appearance regardless of their stage or reuse. */\n.flow-node.life-event,.flow-node.life-settle{background:#fff;font-weight:500}\n';fs.writeFileSync(p,s);

@@ -5,7 +5,7 @@ const baseline=JSON.parse(fs.readFileSync(path.join(root,'data/maintenance/migra
 let checked=0;
 for(const [name,expected] of Object.entries(baseline.files)){
  if(name==='relations-full.json')continue; // Removed duplicate: canonical edges reside in data.json.
- const bytes=fs.readFileSync(path.join(root,'data/atlas',name));
+ const bytes=fs.readFileSync(expected.path?path.join(root,expected.path):path.join(root,'data/atlas',name));
  assert.equal(bytes.length,expected.bytes,name+' byte size');
  assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),expected.sha256,name+' exact migrated bytes');checked++;
 }

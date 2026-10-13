@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2330485005\",\"annotations\":[{\"keyword_id\":\"label-distribution-learning\",\"exact_quote\":\"This paper proposes a novel learning paradigm named label distribution learning (LDL) for such kind of applications.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确提出并研究标签分布学习范式，预测各标签对实例的描述程度，符合该任务定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

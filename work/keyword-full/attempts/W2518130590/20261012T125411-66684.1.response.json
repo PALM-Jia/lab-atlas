@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2518130590\",\"annotations\":[{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"multi-view spectral clustering\",\"evidence_field\":\"title\",\"reason_zh\":\"标题与摘要明确研究多视图谱聚类，显式利用多个视图信息并联合学习增强视图，满足多视图学习设定。\"},{\"keyword_id\":\"graph-structure-learning\",\"exact_quote\":\"learn an augmented view and construct its corresponding affinity matrix\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要说明从多视图拉普拉斯特征向量构造增强视图及其亲和矩阵，属于学习/构造样本间亲和矩阵的图结构学习证据。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

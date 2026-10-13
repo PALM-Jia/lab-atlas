@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W3132015460\",\"annotations\":[{\"keyword_id\":\"adversarial-robustness\",\"exact_quote\":\"It is experimentally confirmed that the model with the Min–Max property has a stronger adversarial robustness, thus this property can be incorporated into the design of loss function.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要报告具有Min–Max性质的模型在对抗扰动下表现出更强的对抗鲁棒性，并将其作为可纳入损失函数的性质，满足对抗鲁棒性研究。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

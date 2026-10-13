@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W4417203594\",\"annotations\":[{\"keyword_id\":\"deep-clustering\",\"exact_quote\":\"Unfolded ISTA for Deep Sparse Subspace Clustering\",\"evidence_field\":\"title\",\"reason_zh\":\"标题将展开ISTA用于深度稀疏子空间聚类，表明以深度可学习机制获得数据划分，符合深度聚类任务。\"},{\"keyword_id\":\"subspace-clustering\",\"exact_quote\":\"Deep Sparse Subspace Clustering\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确把稀疏子空间聚类作为研究任务，即按样本所属潜在子空间进行分组。\"},{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"Unfolded ISTA for Deep Sparse Subspace Clustering\",\"evidence_field\":\"title\",\"reason_zh\":\"标题中的稀疏子空间聚类与展开ISTA指向以稀疏编码/稀疏表示表达样本的机制。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

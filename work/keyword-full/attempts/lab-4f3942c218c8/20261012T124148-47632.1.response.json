@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"lab-4f3942c218c8\",\"annotations\":[{\"keyword_id\":\"adversarial-robustness\",\"exact_quote\":\"Adversarially Robust Learning\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以对抗鲁棒学习为研究任务，研究在对抗扰动下保持正确行为的能力。\"},{\"keyword_id\":\"contrastive-learning\",\"exact_quote\":\"Distance-Aware Point-to-Set Triplet Loss\",\"evidence_field\":\"title\",\"reason_zh\":\"标题提出距离感知的点集三元组损失，通过锚点与正负集合的距离进行吸引和区分来学习表示，符合对比学习机制。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

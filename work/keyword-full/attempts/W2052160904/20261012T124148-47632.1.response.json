@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2052160904\",\"annotations\":[{\"keyword_id\":\"hyperspectral-images\",\"exact_quote\":\"classification of hyperspectral images (HSIs)\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要以高光谱图像分类为任务，并在真实HSI数据集上实验，研究对象为高光谱图像。\"},{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"a multiscale adaptive sparse representation (MASR) model is proposed\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要提出多尺度自适应稀疏表示模型，用训练原子稀疏表示像素，属于以字典原子或基向量表达样本的稀疏表示方法。\"}],\"abstentions\":[{\"keyword_id\":\"multi-view-learning\",\"reason_zh\":\"摘要仅提到多尺度区域提供互补相关信息，未明确这些尺度是同一对象的多个特征视图或观测变量并显式建模视图间关系，证据不足以确认多视图学习。\"}],\"input_issues\":[]}"
-}

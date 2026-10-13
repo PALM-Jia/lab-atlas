@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2344925450\",\"annotations\":[{\"keyword_id\":\"classifier-ensemble\",\"exact_quote\":\"The final Boosted classifiers are the sums of iteratively chosen weak learners.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"Boosting通过迭代选择弱学习器并求和形成最终分类器，属于结合多个分类器预测的分类器集成。\"},{\"keyword_id\":\"weakly-supervised-learning\",\"exact_quote\":\"multi-instance (MI) classification\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文研究多实例分类，监督在包级而非实例级，属于包级粗粒度不完整监督的弱监督设定。\"}],\"abstentions\":[{\"keyword_id\":\"sparse-representation\",\"reason_zh\":\"仅提到Lp-norm定位见证实例，未说明以字典、基向量或潜在特征进行稀疏表达，无法确定满足稀疏表示定义。\"}],\"input_issues\":[]}"
-}

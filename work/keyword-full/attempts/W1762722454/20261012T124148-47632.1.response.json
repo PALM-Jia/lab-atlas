@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1762722454\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"interest points derived from superpixels\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要说明系统采用由超像素导出的兴趣点，实质使用超像素分割将图像划分为区域，符合图像分割定义中包括的超像素分割。\"}],\"abstentions\":[{\"keyword_id\":\"multi-view-learning\",\"reason_zh\":\"摘要提到hybrid 2D/3D localization，但未说明同一对象的多视图特征或观测变量被显式联合建模，无法确认满足多视图学习定义。\"}],\"input_issues\":[]}"
-}

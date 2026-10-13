@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2118978333\",\"annotations\":[{\"keyword_id\":\"class-imbalance\",\"exact_quote\":\"The imbalanced learning problem is concerned with the performance of learning algorithms in the presence of underrepresented data and severe class distribution skews.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确以不平衡数据学习问题为研究对象，关注underrepresented data与严重类别分布偏斜，符合类别不平衡学习的定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

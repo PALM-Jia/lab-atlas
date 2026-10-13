@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2012878613\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"we extend the QUIRE approach to multi-label learning by actively querying instance-label pairs\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文将QUIRE主动学习方法扩展到多标记学习，主动查询实例-标记对，属于多标记学习任务。\"},{\"keyword_id\":\"label-correlation-modeling\",\"exact_quote\":\"by incorporating the correlation among labels\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确说明在扩展多标记学习时纳入标签间相关性，符合显式建模标签相关性的定义。\"}],\"abstentions\":[{\"keyword_id\":\"semi-supervised-learning\",\"reason_zh\":\"摘要仅提及未标注数据池和主动查询标签，未明确将未标注样本用于半监督训练或有限成对约束学习，不足以确认该设定。\"}],\"input_issues\":[]}"
-}

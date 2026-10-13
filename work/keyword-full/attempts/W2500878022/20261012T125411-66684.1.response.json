@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2500878022\",\"annotations\":[{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"The exact Bayesian distribution for β is derived and a Bayesian approximation suggested which proved to be very useful.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文推导参数β的精确贝叶斯分布并给出贝叶斯近似，属于在概率模型下进行后验估计或近似推断。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2083797062\",\"annotations\":[{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"recovering outlier data of traffic volume data\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确以恢复交通流量数据中的异常或离群数据为任务，输出为恢复后的数据，符合数据补全与恢复定义。\"},{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"Traffic Volume Data Outlier Recovery via Tensor Model\",\"evidence_field\":\"title\",\"reason_zh\":\"标题及摘要以交通流量数据为实际处理对象，属于交通数据这一应用对象。\"}],\"abstentions\":[{\"keyword_id\":\"low-rank-modeling\",\"reason_zh\":\"摘要仅提到多路张量模型和ADMM-TR张量恢复，未明确出现低秩约束、低秩分解或张量低秩近似表述，无法确证满足低秩建模定义。\"}],\"input_issues\":[]}"
-}

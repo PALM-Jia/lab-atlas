@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W4405950430\",\"annotations\":[{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"multi-view semi-supervised classification\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确任务为多视图半监督分类，表明同一对象存在多视图并联合利用。\"},{\"keyword_id\":\"semi-supervised-learning\",\"exact_quote\":\"multi-view semi-supervised classification\",\"evidence_field\":\"title\",\"reason_zh\":\"标题中的半监督分类表明结合有限监督与未标注样本进行学习。\"},{\"keyword_id\":\"graph-neural-networks\",\"exact_quote\":\"we propose an information-controlled graph convolutional network for multi-view semi-supervised classification\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要提出信息控制图卷积网络，以图卷积网络作为核心方法进行节点表示传播。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

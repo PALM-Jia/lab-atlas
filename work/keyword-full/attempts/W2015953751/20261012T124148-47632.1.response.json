@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2015953751\",\"annotations\":[],\"abstentions\":[{\"keyword_id\":\"low-rank-modeling\",\"reason_zh\":\"摘要仅提及模块度矩阵的特征谱/特征向量，未说明低秩约束、截断分解或低秩近似，无法确认满足低秩建模定义。\"},{\"keyword_id\":\"dimensionality-reduction\",\"reason_zh\":\"标题提及使用矩阵特征向量，但摘要未将显式低维映射或维度压缩作为研究任务，缺降维目标证据。\"}],\"input_issues\":[]}"
-}

@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\": \"W2155803963\", \"annotations\": [], \"abstentions\": [{\"keyword_id\": \"multimodal-retrieval\", \"reason_zh\": \"论文提供含图像与标签的检索评测数据集，但未提出跨模态查询-候选映射方法，仅讨论评测挑战，证据不足以满足多模态检索定义。\"}], \"input_issues\": []}"
-}

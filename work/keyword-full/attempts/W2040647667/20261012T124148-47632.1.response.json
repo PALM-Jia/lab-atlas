@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2040647667\",\"annotations\":[{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"This brief presents a sparse Bayesian approach for learning the output weights of ELM in classification. The new model, called Sparse Bayesian ELM (SBELM), can resolve these two drawbacks by estimating the marginal likelihood of network outputs and automatically pruning most of the redundant hidden neurons during learning phase\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确采用稀疏贝叶斯方法学习ELM输出权重，并以边际似然进行估计，符合先验/概率模型下的贝叶斯推断与估计。\"}],\"abstentions\":[{\"keyword_id\":\"sparse-representation\",\"reason_zh\":\"稀疏贝叶斯和剪枝冗余隐神经元仅说明模型/参数稀疏化；未说明以少量字典原子、基向量或潜在特征表达样本，且定义排除单独参数剪枝。\"}],\"input_issues\":[]}"
-}

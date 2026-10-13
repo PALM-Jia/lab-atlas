@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2516574342\",\"annotations\":[{\"keyword_id\":\"adversarial-robustness\",\"exact_quote\":\"we demonstrate that defensive distillation does not significantly increase the robustness of neural networks by introducing three new attack algorithms that are successful on both distilled and undistilled neural networks with 100% probability.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要围绕对抗样本与攻击展开，并评估防御蒸馏后网络的鲁棒性，属于在刻意构造的对抗扰动下保持正确行为的对抗鲁棒性研究。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

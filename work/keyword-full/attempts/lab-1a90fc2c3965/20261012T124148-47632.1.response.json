@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"lab-1a90fc2c3965\",\"annotations\":[{\"keyword_id\":\"large-language-models\",\"exact_quote\":\"Enhancing Large Language Model Reasoning\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以增强大语言模型推理为研究目标，大语言模型是论文要适配或分析的对象。\"}],\"abstentions\":[{\"keyword_id\":\"graph-structure-learning\",\"reason_zh\":\"标题出现Multi-Graph Alignment，但无摘要，无法确认是否学习或修正样本间边、邻接或亲和矩阵，而非其他图对齐。\"},{\"keyword_id\":\"graph-neural-networks\",\"reason_zh\":\"标题提及多图对齐，但未说明使用图卷积或可学习消息传递，无法据标题确认。\"},{\"keyword_id\":\"graph-manifold-regularization\",\"reason_zh\":\"标题提及多图对齐，但未说明用邻域、图拉普拉斯或超图施加几何一致性约束。\"}],\"input_issues\":[]}"
-}

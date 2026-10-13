@@ -1,1 +1,0 @@
-const fs=require('node:fs');const p='outputs/paper-atlas/workflow-layout.js';const s=fs.readFileSync(p,'utf8').split('\n').map(l=>l.includes('const textWidth=')?' const textWidth=(text,size)=>[...text].reduce((sum,c)=>sum+(c.charCodeAt(0)<128?size*.6:size),0);':l).join('\n');fs.writeFileSync(p,s);

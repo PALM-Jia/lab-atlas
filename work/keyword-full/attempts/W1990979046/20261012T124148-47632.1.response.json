@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1990979046\",\"annotations\":[],\"abstentions\":[{\"keyword_id\":\"bayesian-inference\",\"reason_zh\":\"标题仅提及 relevance vector machine，未说明先验、后验或概率推断机制，不能仅凭方法名补出贝叶斯推断。\"},{\"keyword_id\":\"sparse-representation\",\"reason_zh\":\"标题未说明以少量字典原子、基向量或潜在特征表达样本，方法名称不足以确认稀疏表示。\"}],\"input_issues\":[]}"
-}

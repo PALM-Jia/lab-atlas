@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1753149633\",\"annotations\":[{\"keyword_id\":\"dimensionality-reduction\",\"exact_quote\":\"dimensionality reduction\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确将该方法用于降维，表明研究任务是以维度压缩为目标的低维表示学习。\"},{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"Nonnegative Matrix Factorization\",\"evidence_field\":\"title\",\"reason_zh\":\"标题直接给出非负矩阵分解这一方法名称，说明其为论文方案的核心方法。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

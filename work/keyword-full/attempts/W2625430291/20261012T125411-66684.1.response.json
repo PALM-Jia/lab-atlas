@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2625430291\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"Brain tissue segmentation is one of the most sought after research areas in medical image processing.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以脑组织分割方法为综述核心，涉及对医学图像中脑组织区域的划分，符合图像分割任务的定义与角色。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

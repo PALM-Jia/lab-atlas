@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2135046866\",\"annotations\":[{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"Because of the nature of this constraint it tends to produce some coefficients that are exactly 0 and hence gives interpretable models.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"Lasso通过系数绝对值之和约束使部分系数恰为0，形成仅由少量非零系数表达的稀疏线性模型，符合稀疏表示方法。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

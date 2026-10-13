@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W4213415874\",\"annotations\":[{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"missing traffic state estimation problem\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确以缺失交通状态估计问题为核心综述内容，目标是估计无检测器路段的缺失观测，符合数据补全与恢复。\"},{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"estimation with multi-source data, estimation by fusing different detector types\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要把多源数据估计和融合不同检测器类型列为三类核心研究之一，显式联合利用同一交通状态的多个互补观测源。\"},{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"Traffic state estimation of urban road networks\",\"evidence_field\":\"title\",\"reason_zh\":\"论文研究对象为城市路网交通状态，摘要也列出流量、速度、密度等实际交通数据，符合交通数据对象。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W4293846201\",\"annotations\":[{\"keyword_id\":\"adversarial-robustness\",\"exact_quote\":\"Due to their uncertainty and vulnerability to adversarial attacks, machine learning (ML) models can lead to severe consequences, including the loss of human life, when embedded in safety-critical systems such as autonomous vehicles.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要以对抗攻击导致的模型脆弱性为背景，并提出评估ML模型经验鲁棒性的方法框架，属于对抗鲁棒性研究。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

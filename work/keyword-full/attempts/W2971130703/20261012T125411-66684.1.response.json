@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2971130703\",\"annotations\":[{\"keyword_id\":\"label-distribution-learning\",\"exact_quote\":\"Age estimation from facial images is typically cast as a label distribution learning or regression problem\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将年龄估计建模为标记分布学习，且所提 DLDLF/DRF 学习叶节点年龄分布，满足标记分布学习任务定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

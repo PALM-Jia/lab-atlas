@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W3034747430\",\"annotations\":[{\"keyword_id\":\"deep-clustering\",\"exact_quote\":\"we propose Deep Fair Clustering (DFC) to learn fair and clustering-favorable representations for clustering simultaneously\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确提出DFC，通过可学习的深度表示同时进行聚类，属于利用神经表示获取数据划分的深度聚类任务。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

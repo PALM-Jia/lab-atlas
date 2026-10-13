@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W160698270\",\"annotations\":[{\"keyword_id\":\"ensemble-clustering\",\"exact_quote\":\"We propose weighted consensus clustering, where each input clustering is weighted and the weights are determined\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要提出加权共识聚类，将多个输入聚类结果加权融合以得到更好的共识划分，符合集成聚类融合已有聚类结果求共识划分的定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

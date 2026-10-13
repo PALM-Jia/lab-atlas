@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1981458038\",\"annotations\":[{\"keyword_id\":\"subspace-clustering\",\"exact_quote\":\"subspace clustering\",\"evidence_field\":\"title\",\"reason_zh\":\"标题直接给出“subspace clustering”，表明研究按潜在子空间对样本进行分组的聚类任务。\"},{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"Low rank subspace clustering\",\"evidence_field\":\"title\",\"reason_zh\":\"标题以“Low rank subspace clustering”命名，表明低秩约束或低秩表示是核心建模线索。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

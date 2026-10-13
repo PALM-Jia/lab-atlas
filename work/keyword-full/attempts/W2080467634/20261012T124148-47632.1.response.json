@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2080467634\",\"annotations\":[{\"keyword_id\":\"multi-objective-optimization\",\"exact_quote\":\"Multiobjective optimization by decomposition with Pareto-adaptive weight vectors\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以多目标优化为研究任务，摘要进一步说明将多目标问题分解为标量子问题并针对帕累托前沿调整权重向量。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

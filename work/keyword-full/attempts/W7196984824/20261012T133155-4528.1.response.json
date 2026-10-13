@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W7196984824\",\"annotations\":[{\"keyword_id\":\"federated-learning\",\"exact_quote\":\"Auction-based Federated Learning (AFL) has emerged as a robust paradigm for incentivizing Data Owners (DOs) to contribute their private resources to a global model.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以拍卖式联邦学习为研究场景，数据所有者贡献私有资源训练全局模型，符合联邦学习定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

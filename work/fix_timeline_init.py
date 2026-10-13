@@ -1,2 +1,0 @@
-from pathlib import Path
-p=Path('outputs/paper-atlas/app.js');s=p.read_text(encoding='utf-8');s=s.replace("  const timeline3D=", "  let hoveredNode=null, overlayFrame=null;\n  const timeline3D=").replace("  // DOM overlays keep text in screen pixels while the graph zooms and pans.\n  let hoveredNode=null, overlayFrame=null;", "  // DOM overlays keep text in screen pixels while the graph zooms and pans.");p.write_text(s,encoding='utf-8')

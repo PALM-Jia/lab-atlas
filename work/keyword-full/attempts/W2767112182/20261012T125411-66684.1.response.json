@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2767112182\",\"annotations\":[{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"various topological and biological features including subgraph signature similarities, sequence similarities, and gene ontology similarities are considered in ToBio\",\"evidence_field\":\"abstract\",\"reason_zh\":\"同一路径对象同时使用拓扑与生物两类互补特征（子图签名、序列、基因本体相似性），并联合用于全局相似性搜索，符合多视图学习设定。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

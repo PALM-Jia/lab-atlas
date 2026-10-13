@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1545533962\",\"annotations\":[],\"abstentions\":[{\"keyword_id\":\"dimensionality-reduction\",\"reason_zh\":\"标题仅出现“Feature Extraction”，未说明是否以显式低维映射或维度压缩为目标。\"},{\"keyword_id\":\"image-segmentation\",\"reason_zh\":\"标题仅泛称“Image Processing”，未说明对图像像素划分区域或像素级分类。\"}],\"input_issues\":[]}"
-}

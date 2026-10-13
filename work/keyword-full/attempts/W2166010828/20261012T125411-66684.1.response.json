@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2166010828\",\"annotations\":[{\"keyword_id\":\"classifier-ensemble\",\"exact_quote\":\"training it with a new variant of boosting that we call MIL-Boost\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文采用 boosting 变体 MIL-Boost 训练检测器，boosting 通过组合多个弱分类器形成强分类器，属于分类器集成方法。\"},{\"keyword_id\":\"weakly-supervised-learning\",\"exact_quote\":\"does not require exact locations of objects in a training set\",\"evidence_field\":\"abstract\",\"reason_zh\":\"训练不要求对象精确位置，只需包级/粗粒度监督，MIL 将位置视为不完整监督，构成弱监督学习设定。\"}],\"abstentions\":[{\"keyword_id\":\"pseudo-label-self-training\",\"reason_zh\":\"摘要提到同时学习对象位置和尺度，但未说明将模型预测作为后续训练信号，证据不足。\"}],\"input_issues\":[]}"
-}

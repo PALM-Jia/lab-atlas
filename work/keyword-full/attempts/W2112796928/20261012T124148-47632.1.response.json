@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2112796928\",\"annotations\":[],\"abstentions\":[{\"keyword_id\":\"image-segmentation\",\"reason_zh\":\"摘要仅在文档识别系统组成中提到 segmentation recognition 模块，未说明本论文研究像素级图像分割，角色与机制证据不足。\"},{\"keyword_id\":\"graph-neural-networks\",\"reason_zh\":\"摘要仅出现 graph transformer networks 名称，未说明使用图卷积或图上可学习消息传递，无法按定义确认。\"}],\"input_issues\":[]}"
-}

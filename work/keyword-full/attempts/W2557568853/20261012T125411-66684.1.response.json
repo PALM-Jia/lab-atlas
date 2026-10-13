@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2557568853\",\"annotations\":[{\"keyword_id\":\"semi-supervised-learning\",\"exact_quote\":\"we consider a semi-supervised clustering setting\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要表明在实验评估中采用半监督聚类设定，利用相对距离约束作为有限监督信息，符合半监督学习定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

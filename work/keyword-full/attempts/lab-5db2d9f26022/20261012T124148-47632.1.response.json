@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"lab-5db2d9f26022\",\"annotations\":[{\"keyword_id\":\"label-distribution-learning\",\"exact_quote\":\"Label Distribution Learning by Exploiting Fuzzy Label Correlation\",\"evidence_field\":\"title\",\"reason_zh\":\"标题直接表明研究任务是标记分布学习，摘要也围绕LDL展开方法设计。\"},{\"keyword_id\":\"label-correlation-modeling\",\"exact_quote\":\"we propose in LDL fuzzy label correlation (FLC)-each sample blends, with fuzzy membership, multiple local label correlations\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要提出模糊标记相关性，并让样本以模糊隶属度融合多个局部标记相关结构，显式建模标签相关关系。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W4322761591\",\"annotations\":[{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"Multi-view clustering\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确研究多视图聚类，表明同一对象具有多个视图并联合用于聚类学习，符合多视图学习设定。\"},{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"unconstrained non-negative matrix factorization\",\"evidence_field\":\"title\",\"reason_zh\":\"标题说明聚类由非负矩阵分解引导，非负矩阵分解是本文所采用的方法。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

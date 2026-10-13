@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2060300932\",\"annotations\":[{\"keyword_id\":\"multi-objective-optimization\",\"exact_quote\":\"a Multi-Objective Evolutionary Algorithm (MOEA) based on SPEA2 (Strength Pareto Evolutionary Algorithm v.2) has been designed to evaluate three different fitness functions\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文设计基于SPEA2的多目标进化算法并同时评估三个适应度函数，属于以多个相互制约目标求帕累托折中的多目标优化。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

@@ -26,3 +26,7 @@ work/rebuild-preview/
 work/pre-refresh/
 work/retrieval-candidate/
 work/reports/
+
+# Adopted facts and reusable tools are under data/ and scripts/.
+# Full request/annotation runs and historical patches remain local in work/.
+/work/

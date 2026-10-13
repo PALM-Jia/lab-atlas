@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1997565609\",\"annotations\":[{\"keyword_id\":\"hyperspectral-images\",\"exact_quote\":\"hyperspectral image (HSI) classification\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确以高光谱图像分类为研究任务，直接处理高光谱图像对象。\"},{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"sparsely representing a test sample in terms of all of the training samples in a feature space induced by a kernel function.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文方案用训练字典对测试样本进行核空间稀疏表示，并将恢复的稀疏向量用于分类，属实质方法。\"}],\"abstentions\":[{\"keyword_id\":\"graph-manifold-regularization\",\"reason_zh\":\"摘要提到邻域像素空间一致性并由联合稀疏模型实现，但未明确图/流形正则化或几何一致性约束的具体结构，无法确定是否满足该词定义。\"}],\"input_issues\":[]}"
-}

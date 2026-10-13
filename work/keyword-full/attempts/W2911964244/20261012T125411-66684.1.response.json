@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2911964244\",\"annotations\":[{\"keyword_id\":\"classifier-ensemble\",\"exact_quote\":\"Random forests are a combination of tree predictors such that each tree depends on the values of a random vector sampled independently and with the same distribution for all trees in the forest.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将随机森林定义为多个树预测器的组合，后文也提到树分类器组成的森林及其泛化误差，符合结合多个分类器预测的集成分类方法。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

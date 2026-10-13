@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W4282977071\",\"annotations\":[{\"keyword_id\":\"label-distribution-learning\",\"exact_quote\":\"Label Distribution Learning\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确采用Label Distribution Learning；摘要进一步将TC标签转为离散标签分布并用KL散度学习预测分布，符合预测各标签相对描述程度的定义。\"},{\"keyword_id\":\"label-enhancement\",\"exact_quote\":\"converted the single-value TC labels to discrete label distributions\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要说明方法将单值TC标签转换为离散标签分布，属于从粗粒度单值标签恢复/构建更细致标签分布的标记增强；该转换是ULTRA的首个步骤。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

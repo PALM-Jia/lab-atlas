@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2615088552\",\"annotations\":[{\"keyword_id\":\"weakly-supervised-learning\",\"exact_quote\":\"which require no prior knowledge of relations between the labels of multiple-instance objects and their instances\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文研究多示例学习，其监督仅为包（多示例对象）级标签且不假设包标签与实例标签的明确关系；摘要围绕该包级弱监督条件提出度量方法，符合弱监督学习定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

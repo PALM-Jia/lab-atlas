@@ -1,1 +1,0 @@
-const fs=require('fs'),p='outputs/paper-atlas/workflow-flow-data.js';let s=fs.readFileSync(p,'utf8');s=s.replace(" for(const id of ['directions','vector','profiles'])", " edge('external-info','features','query','可用外部标题与摘要参与外部论文的标签和向量计算；作者画像仍使用实验室论文署名。');\n for(const id of ['directions','vector','profiles'])");fs.writeFileSync(p,s);

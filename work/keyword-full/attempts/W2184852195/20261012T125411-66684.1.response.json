@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2184852195\",\"annotations\":[{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"sparse coding has emerged as a strong alternative to traditional VQ approaches\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以稀疏编码为核心方法之一，摘要围绕其与VQ的训练和编码阶段展开比较，属于用字典基函数稀疏表达样本的研究。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

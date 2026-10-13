@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2160732687\",\"annotations\":[{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"Sparse representation is one of the focuses in this direction. More recently, structural sparsity has attracted increasing attentions. The structural sparsity is often achieved by imposing ℓ2/ℓ1norms. In this paper, we present the explicit ℓ2/ℓ0norm to directly achieve structural sparsity.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要以稀疏表示/结构化稀疏为研究焦点，并明确本文提出显式 ℓ2/ℓ0 范数直接实现结构化稀疏，属于稀疏表示建模。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

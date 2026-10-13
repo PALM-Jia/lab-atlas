@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2342643507\",\"annotations\":[{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"rich information in traffic data\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要以交通数据/交通流为研究对象，讨论短时交通流预测，符合交通数据应用对象。\"},{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"with a low-rank constraint\",\"evidence_field\":\"abstract\",\"reason_zh\":\"DTC算法显式使用低秩约束进行张量补全与预测，满足低秩建模定义。\"},{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"dynamic tensor completion (DTC)\",\"evidence_field\":\"abstract\",\"reason_zh\":\"动态张量补全用于处理不完整交通数据，估计张量中的缺失观测，属数据补全与恢复。\"}],\"abstentions\":[{\"keyword_id\":\"multi-view-learning\",\"reason_zh\":\"摘要提到张量多模态/时空与周期信息，但未说明同一对象有多个互补视图并显式联合视图间关系，不足以确定多视图学习设定。\"}],\"input_issues\":[]}"
-}

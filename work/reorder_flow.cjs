@@ -1,1 +1,0 @@
-const fs=require('fs'),p='outputs/paper-atlas/workflow-flow-data.js';let s=fs.readFileSync(p,'utf8').replace(/^  \{id:'counts',label:'被引次数'\},\r?\n/gm,'').replace("  {id:'references',label:'引用关系'},","  {id:'counts',label:'被引次数'},\n  {id:'references',label:'引用关系'},");fs.writeFileSync(p,s);

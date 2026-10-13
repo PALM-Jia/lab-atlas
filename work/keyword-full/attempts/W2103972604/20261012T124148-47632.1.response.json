@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2103972604\",\"annotations\":[{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"recovering a large matrix from a small subset of its entries\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将矩阵补全描述为从少量已知项恢复大矩阵，输出为待恢复的原始矩阵，符合数据补全与恢复任务。\"},{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"low-rank matrix completion problems\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要将问题视为秩最小化的凸松弛并面向低秩矩阵补全，显式利用低秩约束或近似结构，符合低秩建模。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

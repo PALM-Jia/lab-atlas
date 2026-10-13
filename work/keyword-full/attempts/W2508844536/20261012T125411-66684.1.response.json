@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2508844536\",\"annotations\":[{\"keyword_id\":\"graph-structure-learning\",\"exact_quote\":\"We propose a new method for robust learning Laplacian matrices from observed smooth graph signals\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文核心任务是从观测到的平滑图信号中鲁棒学习拉普拉斯矩阵；拉普拉斯矩阵表征样本间图结构，满足学习或修正图结构的定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

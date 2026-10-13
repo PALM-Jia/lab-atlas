@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2013029404\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"Document clustering based on non-negative matrix factorization\",\"evidence_field\":\"title\",\"reason_zh\":\"标题直接表明文档聚类基于非负矩阵分解，非负矩阵分解是论文提出的核心方法，符合定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

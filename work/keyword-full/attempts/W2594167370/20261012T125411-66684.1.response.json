@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2594167370\",\"annotations\":[],\"abstentions\":[{\"keyword_id\":\"dimensionality-reduction\",\"reason_zh\":\"摘要提到学习并提取人体运动的通用特征表示，但未说明以显式低维映射或维度压缩为研究目标，证据不足以判定满足降维定义。\"}],\"input_issues\":[]}"
-}

@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2139280638\",\"annotations\":[{\"keyword_id\":\"ensemble-clustering\",\"exact_quote\":\"combining the results of multiple clusterings\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以证据积累融合多个已有聚类结果，目标是提取一致划分，符合集成聚类定义。\"},{\"keyword_id\":\"graph-structure-learning\",\"exact_quote\":\"generate a new n x n, similarity matrix between the n patterns\",\"evidence_field\":\"abstract\",\"reason_zh\":\"方法通过投票组合各划分，生成样本间相似度/亲和矩阵，作为后续层次聚类所用的样本关系结构。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

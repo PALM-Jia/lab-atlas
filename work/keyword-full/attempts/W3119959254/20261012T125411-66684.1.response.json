@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W3119959254\",\"annotations\":[{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"low-rank tensor approximation\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确提出低秩张量近似，将低秩约束/分解用于多视图聚类，符合低秩建模方法。\"},{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"multi-view clustering\",\"evidence_field\":\"title\",\"reason_zh\":\"标题以多视图聚类为任务，表明对同一对象的多个视图进行联合聚类利用，符合多视图学习设定。\"}],\"abstentions\":[{\"keyword_id\":\"subspace-clustering\",\"reason_zh\":\"标题仅称多视图聚类与低秩张量近似，未提样本所属潜在子空间或自表达关系，无法确认属于子空间聚类。\"}],\"input_issues\":[]}"
-}

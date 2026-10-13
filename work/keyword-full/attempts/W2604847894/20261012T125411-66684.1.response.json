@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2604847894\",\"annotations\":[{\"keyword_id\":\"ensemble-clustering\",\"exact_quote\":\"Typically, EC methods try to fuse multiple basic partitions (BPs) into a consensus one\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确指出EC方法将多个基本划分融合为共识划分，属于集成聚类研究任务。\"},{\"keyword_id\":\"graph-structure-learning\",\"exact_quote\":\"which employs the similarity matrix from raw features to enhance the co-association matrix summarized by multiple BPs\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文用原始特征相似度矩阵增强由多个基本划分汇总的共联矩阵，直接修正样本间亲和/相似矩阵，符合图结构学习定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

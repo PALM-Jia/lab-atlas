@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2220384803\",\"annotations\":[{\"keyword_id\":\"classifier-ensemble\",\"exact_quote\":\"a decision forest provides the final predictions\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文以决策森林给出最终预测，决策森林由多个分类树集成，属于结合多个分类器完成分类。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

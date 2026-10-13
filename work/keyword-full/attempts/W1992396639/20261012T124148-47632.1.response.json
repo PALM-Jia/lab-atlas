@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1992396639\",\"annotations\":[{\"keyword_id\":\"label-distribution-learning\",\"exact_quote\":\"determine the percentage of the reef surface covered by rock, sand, algae, and corals\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文目标是为礁面图像估计岩、沙、藻、珊瑚等标签的相对覆盖比例，符合预测各标签对实例相对描述程度的标记分布学习定义。\"},{\"keyword_id\":\"underwater-images\",\"exact_quote\":\"coral reef survey images\",\"evidence_field\":\"title\",\"reason_zh\":\"论文直接以珊瑚礁调查图像为研究对象并解决其自动标注/覆盖估计问题，属于水下采集图像的感知研究。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W3138516171\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"semantic segmentation (53.5 mIoU on ADE20K val)\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将语义分割列为模型支持的密集预测任务并报告ADE20K结果，属于对图像像素赋予类别标签的任务。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

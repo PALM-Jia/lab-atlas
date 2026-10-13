@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1972174659\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"Text Clustering via Constrained Nonnegative Matrix Factorization\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以约束非负矩阵分解作为文本聚类核心方法，满足非负矩阵分解定义。\"},{\"keyword_id\":\"semi-supervised-learning\",\"exact_quote\":\"The semi-supervised NMF methods can be divided into two types, one is based on the explicit category labels, the other is based on the pair wise constraints including must-link and cannot-link.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确研究半监督NMF，并利用must-link与cannot-link成对约束指导聚类，符合有限监督/成对约束的半监督学习设定。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

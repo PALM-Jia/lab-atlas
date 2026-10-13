@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"lab-4dafc16e5fd8\",\"annotations\":[{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"Question-Level Multimodal Fusion for Cognitive Ability Assessment in Asynchronous Video Interviews\",\"evidence_field\":\"title\",\"reason_zh\":\"标题表明对异步视频面试中同一问题相关的多种模态信息进行问题级融合，显式联合利用互补模态特征，符合多视图学习的数据设定。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

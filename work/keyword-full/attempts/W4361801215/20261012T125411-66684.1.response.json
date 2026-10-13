@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W4361801215\",\"annotations\":[{\"keyword_id\":\"label-distribution-learning\",\"exact_quote\":\"Adaptive Weighted Ranking-Oriented Label Distribution Learning\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以标签分布学习为核心任务，摘要进一步说明为每个实例附加标签分布并预测各标签描述度。\"},{\"keyword_id\":\"label-correlation-modeling\",\"exact_quote\":\"we design a novel LDL metric, the description-degree percentile average (DPA), which simultaneously integrates both the exact ranking value and the description degree of each label.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"DPA显式整合每个标签的精确排名值与描述度，并用于排序导向的标签分布学习，体现对标签排序结构的建模与利用。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

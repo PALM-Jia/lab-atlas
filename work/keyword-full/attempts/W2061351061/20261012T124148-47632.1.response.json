@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2061351061\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"A k-nearest neighbor based algorithm for multi-label classification\",\"evidence_field\":\"title\",\"reason_zh\":\"标题直接给出多标记分类任务；摘要进一步说明每个实例关联一组标签且需为未见实例输出标签集，符合多标记学习定义。\"},{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"maximum a posteriori (MAP) principle is utilized to determine the label set for the new instance\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要说明利用最大后验（MAP）原则确定新实例标签集，属于以后验估计进行判定，满足贝叶斯推断定义中的后验估计。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

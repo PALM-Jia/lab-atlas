@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2568262903\",\"annotations\":[{\"keyword_id\":\"vision-language-models\",\"exact_quote\":\"an image-text embedding\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要中的基线以图文嵌入为主要组件，该嵌入联合处理图像与文本，属于联合视觉与语言的模型。\"}],\"abstentions\":[{\"keyword_id\":\"multimodal-retrieval\",\"reason_zh\":\"摘要提到 image-sentence retrieval 是评估任务/局限，未提出或实质使用跨模态检索空间进行查询与候选匹配，角色不足。\"},{\"keyword_id\":\"open-vocabulary-recognition\",\"reason_zh\":\"任务是对文本实体提及进行图像定位，实体词虽开放，但并非按词语指定类别进行识别，证据不足以满足定义。\"}],\"input_issues\":[]}"
-}

@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W146125889\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"multilabel classification (MLC)\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确以多标签分类（MLC）为研究任务，目标是预测多个可同时成立的标签，符合定义。\"},{\"keyword_id\":\"label-correlation-modeling\",\"exact_quote\":\"explicitly take label dependence into account\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要将标签依赖作为多标签分类最优预测的核心因素，并在概率框架下围绕分类器链方法展开分析，涉及标签间依赖关系的显式建模。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

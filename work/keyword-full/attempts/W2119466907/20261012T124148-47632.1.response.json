@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2119466907\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"In multilabel learning, each instance in the training set is associated with a set of labels and the task is to output a label set whose size is unknown a priori for each unseen instance.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"明确以多标记学习为研究任务：每个实例关联一组标记，需为未见实例输出标记集合。\"},{\"keyword_id\":\"label-correlation-modeling\",\"exact_quote\":\"the labels belonging to an instance should be ranked higher than those not belonging to that instance\",\"evidence_field\":\"abstract\",\"reason_zh\":\"所提出的误差函数显式建模相关标记与不相关标记之间的排序关系，属于标签排序/相关性建模。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

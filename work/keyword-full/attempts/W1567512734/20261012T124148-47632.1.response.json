@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1567512734\",\"annotations\":[{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"Bayesian Learning for Neural Networks\",\"evidence_field\":\"title\",\"reason_zh\":\"标题直接表明本文以贝叶斯学习为主题，对神经网络进行贝叶斯推断；符合贝叶斯推断通过先验与概率模型进行后验估计或近似推断的定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2006696725\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"Nonnegative Matrix Factorization\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确将非负矩阵分解作为核心方法，摘要也围绕NMF优化、乘性更新规则及其与最大间隔分类的联合展开。\"},{\"keyword_id\":\"dimensionality-reduction\",\"exact_quote\":\"data transformation (dimensionality reduction)\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将NMF步骤描述为数据变换（降维），且所提方法仍围绕NMF分解与投影数据进行，支持降维成分。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

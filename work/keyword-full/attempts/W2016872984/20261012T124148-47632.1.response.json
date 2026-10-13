@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2016872984\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"our method obtains homogeneous super pixels with explicit adjacency in low-texture and uniform regions\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要表明方法生成规则超像素并保持显式邻接，属于对图像像素划分区域/超像素分割的图像分割任务。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

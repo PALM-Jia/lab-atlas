@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2728803307\",\"annotations\":[{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"This paper develops a variational sparse solution for GPs under general likelihoods by providing a new characterization of the gradients required for inference in terms of individual observation likelihood terms.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文针对广义似然下的高斯过程提出变分稀疏解，属于通过概率模型进行后验近似推断的贝叶斯推断。\"}],\"abstentions\":[{\"keyword_id\":\"sparse-representation\",\"reason_zh\":\"虽提及少量伪样本的稀疏GP近似，但摘要未明确其满足以字典原子、基向量或潜在特征表达样本的稀疏表示定义，机制证据不足。\"}],\"input_issues\":[]}"
-}

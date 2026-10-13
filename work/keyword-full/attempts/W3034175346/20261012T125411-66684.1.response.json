@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W3034175346\",\"annotations\":[{\"keyword_id\":\"adversarial-robustness\",\"exact_quote\":\"including a potential explanation for adversarial examples, a discussion of CNN's trade-off between robustness and accuracy\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将对抗样本解释与CNN鲁棒性-准确率权衡列为由高频观察引出的研究假设，涉及对抗扰动下模型行为与鲁棒性研究。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

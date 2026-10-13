@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2746923101\",\"annotations\":[{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"Interview dependencies among multiple views of video are then captured via the FASTA algorithm through local alignment.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文针对多摄像机采集的多视图视频，显式建模并利用多个视图之间的依赖关系进行事件摘要，符合多视图学习的数据设定。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

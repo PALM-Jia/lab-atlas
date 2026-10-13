@@ -1,8 +1,0 @@
-{
-  "lab": 144,
-  "defaultLab": 71,
-  "twoEdgeCoverage": 1,
-  "meanDegree": 8.84641638225256,
-  "oldIdentifierSamples": 27,
-  "browser": "passed"
-}

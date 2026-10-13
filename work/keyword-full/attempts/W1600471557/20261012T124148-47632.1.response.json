@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1600471557\",\"annotations\":[{\"keyword_id\":\"subspace-clustering\",\"exact_quote\":\"subspace segmentation problem which aims to segment data drawn from a union of multiple linear subspaces\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文研究子空间分割任务，目标是把来自多个线性子空间并集的数据按所属子空间分组；符合子空间聚类定义。\"},{\"keyword_id\":\"graph-structure-learning\",\"exact_quote\":\"the obtained affinity matrix is always block diagonal\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文通过目标函数获得块对角亲和矩阵，并以亲和矩阵实现子空间分割，满足学习样本间亲和矩阵的方法维度。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

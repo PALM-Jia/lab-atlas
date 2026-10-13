@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2272446670\",\"annotations\":[{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"DSRVM enforces double sparsity by jointly selecting the most relevant training examples (a.k.a. relevance vectors) and the most important kernels associated with facial parts relevant for interpretation of observed facial expressions.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"DSRVM通过联合选择少量相关训练样本（作为基向量/字典原子）和重要核实现双重稀疏，符合以少量基或字典元素表达样本的稀疏表示。\"}],\"abstentions\":[{\"keyword_id\":\"bayesian-inference\",\"reason_zh\":\"标题含 Relevance Vector Machine，但摘要未说明先验、后验或概率推断过程；无法仅凭名称和外部知识确认贝叶斯推断是本文实质方法。\"}],\"input_issues\":[]}"
-}

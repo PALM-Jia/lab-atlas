@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2149532724\",\"annotations\":[{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"enhanced low-rank recovery\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将增强低秩恢复列为模型收益，表明显式利用低秩结构/低秩恢复。\"},{\"keyword_id\":\"graph-manifold-regularization\",\"exact_quote\":\"incorporates spectral graph regularization into the Robust PCA framework\",\"evidence_field\":\"abstract\",\"reason_zh\":\"将谱图正则化融入Robust PCA，并以图平滑假设约束低秩矩阵，符合图与流形正则化。\"},{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"robustness of principal components to occlusions and missing values\",\"evidence_field\":\"abstract\",\"reason_zh\":\"模型声称对遮挡和缺失值鲁棒，结合其低秩恢复任务，属于从缺失/污染观测恢复数据的任务。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

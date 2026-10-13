@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1177539115\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"Multi-label selective ensemble deals with the problem of reducing the size of multi-label ensembles whilst keeping or improving the performance.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确处理多标记集成与多标记预测，目标是缩减多标记集成规模并保持性能，属于多标记学习任务。\"},{\"keyword_id\":\"classifier-ensemble\",\"exact_quote\":\"Multi-label Selective Ensemble\",\"evidence_field\":\"title\",\"reason_zh\":\"标题直接表明研究多标记选择性集成，即从多个多标记分类器中筛选/组合以完成多标记分类，属于分类器集成方法。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

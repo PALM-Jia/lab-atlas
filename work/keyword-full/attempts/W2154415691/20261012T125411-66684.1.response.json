@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2154415691\",\"annotations\":[{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"In many clustering problems, we have access to multiple views of the data each of which could be individually used for clustering.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要说明同一数据有多个视图并显式联合利用多视图信息进行聚类，符合多视图学习设定。\"},{\"keyword_id\":\"ensemble-clustering\",\"exact_quote\":\"looking for clusterings that are consistent across the views\",\"evidence_field\":\"abstract\",\"reason_zh\":\"多个视图各自可聚类，论文通过共正则化寻求跨视图一致的聚类划分，属于融合多个聚类假设求共识的聚类集成任务。\"}],\"abstentions\":[{\"keyword_id\":\"graph-manifold-regularization\",\"reason_zh\":\"仅见 spectral clustering 框架，摘要未说明使用邻域、图拉普拉斯或超图对学习结果施加几何一致性约束，无法确认该机制。\"}],\"input_issues\":[]}"
-}

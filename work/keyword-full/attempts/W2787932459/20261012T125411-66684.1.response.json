@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2787932459\",\"annotations\":[{\"keyword_id\":\"label-distribution-learning\",\"exact_quote\":\"Label Distribution Learning by Exploiting Label Correlations\",\"evidence_field\":\"title\",\"reason_zh\":\"标题直接表明论文研究任务是标签分布学习；摘要进一步提出新的LDL算法并报告LDL实验。\"},{\"keyword_id\":\"label-correlation-modeling\",\"exact_quote\":\"We encode the label correlation into a distance to measure the similarity of any two labels.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要说明显式利用不同标签间相关性，并将标签相关编码为距离以度量任意两标签相似度，满足标签相关性建模。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

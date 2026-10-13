@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2085040216\",\"annotations\":[{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"fully Bayesian treatment of the Probabilistic Matrix Factorization (PMF) model in which model capacity is controlled automatically by integrating over all model parameters and hyperparameters\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文对PMF进行完全贝叶斯处理，通过对所有模型参数和超参数积分控制模型容量，符合先验与概率模型下后验估计/近似推断的定义。\"},{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"Low-rank matrix approximation methods provide one of the simplest and most effective approaches to collaborative filtering.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要以低秩矩阵近似方法为建模基础，并进一步提出其贝叶斯PMF处理，满足显式利用低秩分解或近似表示相关结构的定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

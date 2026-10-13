@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2114315281\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"Multi-label learning studies the problem where each example is represented by a single instance while associated with a set of labels simultaneously.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要开篇明确将多标记学习定义为论文综述的研究问题，即每个示例同时关联多个标记。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

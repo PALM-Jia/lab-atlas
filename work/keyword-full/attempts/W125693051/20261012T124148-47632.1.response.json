@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W125693051\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"parse typical, often messy, indoor scenes into floor, walls, supporting surfaces, and object regions\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要将任务表述为把室内场景划分为地面、墙面、支撑面和物体区域，属于图像区域/像素级分割任务，且分割结果是后续支撑关系推断和实验评估的对象。\"}],\"abstentions\":[{\"keyword_id\":\"multi-view-learning\",\"reason_zh\":\"摘要提到RGBD图像和3D线索，但未明确将RGB与深度作为同一对象的互补视图并显式联合利用视图间关系，无法确认多视图学习设定。\"},{\"keyword_id\":\"graph-structure-learning\",\"reason_zh\":\"摘要提到推断物体间支撑关系，但未说明学习或修正边、邻接矩阵或亲和矩阵，因此不能确认图结构学习。\"}],\"input_issues\":[]}"
-}

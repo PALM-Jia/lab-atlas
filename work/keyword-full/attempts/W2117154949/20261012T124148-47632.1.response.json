@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2117154949\",\"annotations\":[{\"keyword_id\":\"semi-supervised-learning\",\"exact_quote\":\"given examples of similar (and, if desired, dissimilar) pairs of points in , learns a distance metric over that respects these relationships\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要以有限的相似/不相似成对约束作为监督信息，指导未标注点上的距离度量学习并改进聚类，符合半监督学习定义。\"},{\"keyword_id\":\"weakly-supervised-learning\",\"exact_quote\":\"given examples of similar (and, if desired, dissimilar) pairs of points in , learns a distance metric over that respects these relationships\",\"evidence_field\":\"abstract\",\"reason_zh\":\"仅用相似/不相似成对关系替代完整实例级类别真值，并将该不完整监督作为学习依据，符合弱监督学习设定。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

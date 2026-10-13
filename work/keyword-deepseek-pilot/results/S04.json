@@ -1,1 +1,0 @@
-{"sample_id":"S04","annotations":[{"keyword_id":"multi-label-learning","exact_quote":"multi-label learning","evidence_field":"title","reason_zh":"标题明确指出研究任务为多标记学习，并提出ML-KNN作为其惰性学习方法。"}],"abstentions":[]}

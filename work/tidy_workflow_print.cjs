@@ -1,1 +1,0 @@
-const fs=require('node:fs'),p='outputs/paper-atlas/workflow.css';let s=fs.readFileSync(p,'utf8');s=s.replace('.atlas-header,.chart-scroll{overflow:visible}', '.atlas-header,.chart-toolbar #clear{display:none}.chart-scroll{overflow:visible}');fs.writeFileSync(p,s);

@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W4387350575\",\"annotations\":[{\"keyword_id\":\"ensemble-clustering\",\"exact_quote\":\"we propose a novel partial clustering ensemble method, which takes the partial multiple base partitions as inputs.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确提出部分聚类集成方法，以多个部分基划分为输入并集成，属于融合已有聚类结果求共识划分。\"},{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"we simultaneously fill the missing values in the base partitions and ensemble them by fully considering the consensus and diversity.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"方法显式填补基划分中的缺失值，属于对缺失观测的估计与补全，且填补与集成是所提方法的一部分。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2204750386\",\"annotations\":[{\"keyword_id\":\"person-reidentification\",\"exact_quote\":\"Scalable Person Re-identification: A Benchmark\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以行人重识别为研究任务；摘要进一步说明构建 Market-1501 数据集并视其为图像搜索任务。\"}],\"abstentions\":[{\"keyword_id\":\"sparse-representation\",\"reason_zh\":\"摘要仅提出无监督 Bag-of-Words 描述子，未说明稀疏字典、稀疏编码或少量基向量表达等机制，无法确定满足稀疏表示定义。\"}],\"input_issues\":[]}"
-}

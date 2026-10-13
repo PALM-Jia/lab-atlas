@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2285179135\",\"annotations\":[{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"Extracting sparse representations with Dictionary Learning (DL) methods\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确以字典学习提取稀疏表示，稀疏表示是论文任务与方案的核心方法。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

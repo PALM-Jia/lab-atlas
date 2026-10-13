@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1588375755\",\"annotations\":[{\"keyword_id\":\"multi-objective-optimization\",\"exact_quote\":\"This paper discusses how preference information of the decision maker can in general be integrated into multiobjective search.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确研究将决策者偏好信息集成到多目标搜索，并在选择过程中处理多目标优化问题；符合多目标优化以多个目标求解的任务定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

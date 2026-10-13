@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1970099214\",\"annotations\":[{\"keyword_id\":\"hyperspectral-images\",\"exact_quote\":\"Anomaly detection from hyperspectral imagery\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确研究对象为高光谱图像，论文围绕其异常检测展开。\"},{\"keyword_id\":\"classifier-ensemble\",\"exact_quote\":\"To overcome the limitations of the individual models, we develop a joint decision logic, based on a maximum entropy probability model and the GLRT, that utilizes multiple decision statistics, and we apply this approach using the detection statistics derived from the three clutter models.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"联合决策逻辑融合三个杂波模型产生的多个检测统计量以完成最终异常判别，属于结合多个检测器/分类器输出的集成决策。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

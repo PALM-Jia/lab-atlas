@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W4413403182\",\"annotations\":[{\"keyword_id\":\"subspace-clustering\",\"exact_quote\":\"subspace clustering is to find a set of subspaces of a high-dimensional space and then partition each data point in dataset into the corresponding subspace\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确给出子空间聚类的定义：寻找高维空间中的子空间并将数据点划分到对应子空间，且标题与全文均以子空间聚类为核心综述任务。\"},{\"keyword_id\":\"deep-clustering\",\"exact_quote\":\"shallow subspace clustering and deep subspace clustering\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要按模型架构将现有工作分为浅层与深层子空间聚类，其中深层子空间聚类对应基于深度神经网络的方法，属于利用神经表示进行聚类的深度聚类研究任务。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

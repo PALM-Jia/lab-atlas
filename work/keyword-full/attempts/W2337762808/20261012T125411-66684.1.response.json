@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2337762808\",\"annotations\":[{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"Stereoscopic Images Based on Depth Confidence Analysis and Multiple Cues Fusion\",\"evidence_field\":\"title\",\"reason_zh\":\"标题表明论文面向立体图像并融合多线索，摘要进一步使用颜色与深度两类互补观测线索，符合多视图/多观测变量的联合利用。\"},{\"keyword_id\":\"graph-structure-learning\",\"exact_quote\":\"the input image is represented as a graph, and the depth information is introduced into graph construction\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将输入图像表示为图并把深度信息引入图构造，构造样本间图/亲和关系，属于图结构建模。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

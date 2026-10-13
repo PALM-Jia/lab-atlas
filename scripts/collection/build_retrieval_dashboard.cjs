@@ -108,7 +108,7 @@ const authors=W.ATLAS_AUTHOR_IDENTITIES.people.filter(p=>!W.ATLAS_AUTHOR_GROUPS.
  return{id:person.id,name:person.display_name||person.name,identityName:person.name,aliases:old?.aliases||[person.name],group:W.ATLAS_AUTHOR_GROUPS.assignments[person.name]||'other',papers:ids,keywords,state:person.id.includes('pending')?'review':'ready',identityLabel:person.id.includes('pending')?'同名身份待确认':old?.sources?.length?'有身份核查来源':'按署名归一',identityNote:person.identity_note||'',sources:(old?.sources||[]).map(url=>source('身份核查来源',url)),chinese:''};
 });
 for(const [file,group]of [['current-students.json','current'],['graduated-students.json','graduated']]){
- const roster=read(file);
+ const roster=JSON.parse(fs.readFileSync(path.join(ROOT,'data/people',file),'utf8'));
  for(const entry of roster.students){let person=authors.find(a=>a.identityName===entry.author_name||a.chinese===entry.name);
   if(person){person.chinese=entry.name;person.rosterSource=roster.source;}
   else authors.push({id:'roster-'+group+'-'+entry.name,name:entry.author_name||entry.name,identityName:entry.author_name||'',chinese:entry.name,aliases:[],group,papers:[],keywords:[],state:'unlinked',identityLabel:entry.author_name?'尚未关联论文':'中文姓名尚未对应署名',identityNote:'',sources:[],rosterSource:roster.source});

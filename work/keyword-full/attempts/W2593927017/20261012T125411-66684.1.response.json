@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2593927017\",\"annotations\":[{\"keyword_id\":\"label-distribution-learning\",\"exact_quote\":\"Label distribution learning (LDL) is a general learning framework, which assigns to an instance a distribution over a set of labels rather than a single label or multiple labels.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将LDL定义为向实例分配标签分布的学习框架，并围绕LDL提出LDLFs算法，符合标签分布学习任务定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

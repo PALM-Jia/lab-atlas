@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2057907879\",\"annotations\":[{\"keyword_id\":\"domain-adaptation\",\"exact_quote\":\"We systematically evaluate the effect of mobile sensing heterogeneities on HAR and propose a novel clustering-based mitigation technique suitable for large-scale deployment of HAR, where heterogeneity of devices and their usage scenarios are intrinsic.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文针对训练与测试设备硬件/系统差异（跨域对象）带来的分布变化，提出聚类式缓解技术（适配过程），属于域适应研究设定。\"}],\"abstentions\":[{\"keyword_id\":\"deep-clustering\",\"reason_zh\":\"摘要仅提到聚类式缓解技术，未涉及可学习神经表示或聚类头，无法判定为深度聚类。\"}],\"input_issues\":[]}"
-}

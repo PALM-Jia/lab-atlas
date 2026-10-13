@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2605910930\",\"annotations\":[{\"keyword_id\":\"image-segmentation\",\"exact_quote\":\"Superpixel segmentation: A benchmark\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以超像素分割为研究对象，超像素分割属于定义中的图像分割形式。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W4408076558\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"Robust self supervised symmetric nonnegative matrix factorization to the graph clustering\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确采用对称非负矩阵分解作为核心方法，符合以非负因子分解矩阵的定义。\"}],\"abstentions\":[{\"keyword_id\":\"graph-structure-learning\",\"reason_zh\":\"摘要提到graph-boosting改进网络内关系表示，但未明确学习或修正边、邻接或亲和矩阵，无法确认满足图结构学习定义。\"},{\"keyword_id\":\"pseudo-label-self-training\",\"reason_zh\":\"摘要称自监督机制迭代优化聚类，但未说明模型预测被用作后续训练信号或伪标签，证据不足。\"},{\"keyword_id\":\"low-rank-modeling\",\"reason_zh\":\"摘要仅提低维表示与robust principal component model，未明确低秩约束或分解；非负矩阵分解本身不自动支持低秩建模。\"}],\"input_issues\":[]}"
-}

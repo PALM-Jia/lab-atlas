@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2100495367\",\"annotations\":[{\"keyword_id\":\"dimensionality-reduction\",\"exact_quote\":\"learn low-dimensional codes that work much better than principal components analysis as a tool to reduce the dimensionality of data.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确说明用深度自编码网络学习低维编码，并以降低数据维度为目标；低维编码/嵌入即显式低维映射与维度压缩。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

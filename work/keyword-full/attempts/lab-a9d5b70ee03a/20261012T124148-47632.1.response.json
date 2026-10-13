@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"lab-a9d5b70ee03a\",\"annotations\":[{\"keyword_id\":\"multi-view-learning\",\"exact_quote\":\"This paper explores the problem of multi-view spectral clustering (MVSC) based on tensor low-rank modeling.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要以多视图谱聚类为研究任务，并显式建模视图内与视图间关系，符合多视图学习设定。\"},{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"we explicitly impose a symmetric low-rank constraint and a structured sparse low-rank constraint on the frontal and horizontal slices of the tensor\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要对张量切片显式施加低秩约束，并用结构化张量低秩范数建模，属于低秩建模。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1591346633\",\"annotations\":[{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"Bayesian probability theory provides a unifying framework for data modeling.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要以贝叶斯概率框架建模，并把神经网络学习和模型空间搜索表述为给定数据下参数及模型的概率推断，且用高斯近似实现，符合贝叶斯推断定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

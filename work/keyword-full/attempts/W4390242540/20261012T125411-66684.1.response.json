@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W4390242540\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"nonnegative matrix factorization\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以非负矩阵分解作为方法，符合以非负因子分解矩阵的定义。\"},{\"keyword_id\":\"graph-manifold-regularization\",\"exact_quote\":\"Inter- and intra-hypergraph regularized\",\"evidence_field\":\"title\",\"reason_zh\":\"标题表明对inter-与intra-超图进行正则化，即以超图结构施加几何一致性约束，符合图与流形正则化定义。\"}],\"abstentions\":[{\"keyword_id\":\"low-rank-modeling\",\"reason_zh\":\"标题仅见非负矩阵分解，未显式给出低秩约束或低秩近似目标；一般矩阵分解不自动满足低秩建模定义。\"},{\"keyword_id\":\"dimensionality-reduction\",\"reason_zh\":\"矩阵分解可能产生低维因子，但标题未声明低维映射或维度压缩作为研究目标，证据不足。\"}],\"input_issues\":[]}"
-}

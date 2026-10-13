@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W3211407538\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"Multi-Label Image Classification\",\"evidence_field\":\"title\",\"reason_zh\":\"标题直接表明研究任务为多标记图像分类，即为图像预测可同时成立的多个类别标记。\"},{\"keyword_id\":\"contrastive-learning\",\"exact_quote\":\"If the image has the given object, the output after composing should be closer to the original input than the output after decomposing. Contrarily, if the image does not have the given object, the output after decomposing should be closer to the original input than the output after composing.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"该方法按类别存在与否要求正确变换后的特征比错误变换更接近原始输入，形成拉近正确变换、推远错误变换的相对距离学习信号，符合对比学习的吸引与区分机制。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

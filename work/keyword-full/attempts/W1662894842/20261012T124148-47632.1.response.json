@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W1662894842\",\"annotations\":[{\"keyword_id\":\"multi-objective-optimization\",\"exact_quote\":\"This paper suggests a unified paradigm, which combines dominance- and decomposition-based approaches, for many-objective optimization.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文面向多目标/高维多目标优化，结合支配与分解方法以平衡收敛与多样性，符合以多个相互制约目标求解帕累托解集的研究任务。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

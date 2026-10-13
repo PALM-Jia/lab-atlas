@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W7203636262\",\"annotations\":[{\"keyword_id\":\"ensemble-clustering\",\"exact_quote\":\"Ensemble clustering method via learning enhanced consensus adjacency matrices\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确提出集成聚类方法，通过增强共识邻接矩阵融合聚类结果以求共识划分，符合集成聚类定义。\"},{\"keyword_id\":\"graph-structure-learning\",\"exact_quote\":\"learning enhanced consensus adjacency matrices\",\"evidence_field\":\"title\",\"reason_zh\":\"标题表明方法显式学习增强的共识邻接矩阵，即学习样本间邻接或亲和结构，符合图结构学习定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

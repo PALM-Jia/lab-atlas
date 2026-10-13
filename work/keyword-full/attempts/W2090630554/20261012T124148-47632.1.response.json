@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2090630554\",\"annotations\":[{\"keyword_id\":\"multi-label-learning\",\"exact_quote\":\"Multi-label learning deals with the problem where each example is represented by a single instance (feature vector) while associated with a set of class labels.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确以多标记学习为研究任务：每个示例可同时关联一组类别标签，并提出相应学习策略与算法。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

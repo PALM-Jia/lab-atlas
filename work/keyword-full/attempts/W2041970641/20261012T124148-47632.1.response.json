@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2041970641\",\"annotations\":[{\"keyword_id\":\"classifier-ensemble\",\"exact_quote\":\"The proposed ensemble model uses an extreme learning machine (ELM) model as a base classifier\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确所提模型为集成模型，使用ELM作为基分类器，并扩展SAMME提升算法，符合结合多个分类器预测完成分类的集成方法。\"},{\"keyword_id\":\"label-correlation-modeling\",\"exact_quote\":\"Moreover, the addition of a cost model for weighting the patterns, according to the order of the targets, enables the classifier to tackle ordinal regression problems further.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"通过成本模型按目标标签顺序加权样本，显式利用并建模目标标签的有序关系，符合标签排序结构建模。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

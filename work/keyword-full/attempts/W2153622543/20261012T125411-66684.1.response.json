@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2153622543\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"nonnegative matrix factorization (NMF) technique\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确以非负矩阵分解（NMF）为实质方法，并讨论其在Web规模二元数据上的可扩展实现，满足方法定义。\"}],\"abstentions\":[{\"keyword_id\":\"dimensionality-reduction\",\"reason_zh\":\"NMF可能产生低维因子，但摘要未明确以显式低维映射或维度压缩为研究目标，证据不足。\"},{\"keyword_id\":\"low-rank-modeling\",\"reason_zh\":\"摘要只提矩阵分解/NMF，未出现低秩约束、低秩近似或显式秩设定，按定义不自动计入。\"}],\"input_issues\":[]}"
-}

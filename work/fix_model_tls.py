@@ -1,2 +1,0 @@
-from pathlib import Path
-p=Path('work/download_semantic_model.py');s=p.read_text(encoding='utf8');s=s.replace("'--fail','--location','--retry'","'--fail','--location','--tls-max','1.2','--retry'");s=s.replace("  temp.replace(target)", "  if record.get('blobId') and not record.get('lfs'):\n   raw=temp.read_bytes();assert hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\\0'+raw).hexdigest()==record['blobId']\n  temp.replace(target)");p.write_text(s,encoding='utf8')

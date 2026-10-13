@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2565254985\",\"annotations\":[{\"keyword_id\":\"traffic-data\",\"exact_quote\":\"average speed measurements, which may be obtained from connected vehicle reports, and a minimal number (sufficient to guarantee observability) of spot sensor–based total flow measurements are utilized\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文利用平均速度与总流量等测量估计高速道路交通状态，属于交通数据对象。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

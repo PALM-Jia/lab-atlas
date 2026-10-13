@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2030927653\",\"annotations\":[{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"completion (from limited samples) and de-noising of multilinear (tensor) data\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文研究从有限样本补全张量数据并从稀疏随机损坏中去噪，输出为待恢复的缺失或受损数据，符合数据补全与恢复定义。\"},{\"keyword_id\":\"low-rank-modeling\",\"exact_quote\":\"we outline a tensor nuclear norm penalized algorithm for video completion from missing entries\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文基于t-SVD使用张量核范数惩罚算法进行视频补全，核范数是多线性秩的凸代理，显式利用张量低秩结构。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

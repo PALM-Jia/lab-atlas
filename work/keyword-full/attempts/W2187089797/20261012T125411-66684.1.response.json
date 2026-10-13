@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2187089797\",\"annotations\":[{\"keyword_id\":\"dimensionality-reduction\",\"exact_quote\":\"visualizes high-dimensional data by giving each datapoint a location in a two or three-dimensional map.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文提出t-SNE，将高维数据映射到二/三维低维坐标，属于显式低维嵌入的降维任务。\"}],\"abstentions\":[{\"keyword_id\":\"graph-manifold-regularization\",\"reason_zh\":\"摘要提到低维流形与邻域图上的随机游走，但未说明以图拉普拉斯或流形正则项约束学习结果，无法确认属于图与流形正则化。\"}],\"input_issues\":[]}"
-}

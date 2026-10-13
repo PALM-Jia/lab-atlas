@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2148154358\",\"annotations\":[{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"basis selection from overcomplete dictionaries\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文将SBL用于从过完备字典进行基选择，目标是产生稀疏表示，符合以少量字典原子或基向量表达样本的稀疏表示定义。\"},{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"The methodology relies on a parameterized prior that encourages models with few nonzero weights.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"该句说明SBL以参数化先验和概率模型为核心，先验鼓励少量非零权重，属于贝叶斯推断式学习，满足贝叶斯推断定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

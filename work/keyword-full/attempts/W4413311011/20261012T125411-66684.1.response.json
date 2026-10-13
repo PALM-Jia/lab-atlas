@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W4413311011\",\"annotations\":[],\"abstentions\":[{\"keyword_id\":\"dimensionality-reduction\",\"reason_zh\":\"摘要以3D图像压缩减少数据量为目标，但未说明显式低维映射或嵌入，无法确认属于降维研究。\"}],\"input_issues\":[]}"
-}

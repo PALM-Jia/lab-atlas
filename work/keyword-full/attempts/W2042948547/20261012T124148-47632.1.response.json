@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2042948547\",\"annotations\":[{\"keyword_id\":\"data-imputation-recovery\",\"exact_quote\":\"noisy color image restoration\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要具体列出含噪彩色图像恢复作为所提方法求解的问题；该任务从含噪观测恢复图像数值，满足数据恢复定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2516574342\",\"annotations\":[{\"keyword_id\":\"adversarial-robustness\",\"exact_quote\":\"Neural networks are vulnerable to adversarial examples: given an input x and any target classification t, it is possible to find a new input x' that is similar to x but classified as t.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要指出神经网络易受对抗样本影响，并围绕对抗攻击评估其鲁棒性，符合对抗鲁棒性研究任务。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

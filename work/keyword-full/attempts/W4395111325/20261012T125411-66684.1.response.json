@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W4395111325\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"nonnegative matrix factorization\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确将非负矩阵分解作为方法用于数据聚类，符合以非负因子分解矩阵的定义。\"},{\"keyword_id\":\"graph-manifold-regularization\",\"exact_quote\":\"manifold regularization\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确采用流形正则化，用几何结构一致性约束学习结果。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

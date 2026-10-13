@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2129116669\",\"annotations\":[{\"keyword_id\":\"graph-structure-learning\",\"exact_quote\":\"Minimizing with respect to the similarity matrix leads to algorithms for learning the similarity matrix from fully labelled datasets.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确指出通过最小化代价函数对相似度矩阵进行优化，从而从全标注数据学习相似度矩阵；这属于学习样本间亲和/邻接结构，满足图结构学习定义。\"}],\"abstentions\":[{\"keyword_id\":\"image-segmentation\",\"reason_zh\":\"摘要提到将语音分离问题转化为声谱图的分割，但未明确其为图像像素级区域划分或语义/实例分割，难以确定是否满足图像分割定义。\"}],\"input_issues\":[]}"
-}

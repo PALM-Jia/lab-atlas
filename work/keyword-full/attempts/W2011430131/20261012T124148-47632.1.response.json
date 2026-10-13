@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2011430131\",\"annotations\":[],\"abstentions\":[{\"keyword_id\":\"deep-clustering\",\"reason_zh\":\"标题仅泛称数据聚类，未说明使用可学习神经表示或聚类头，无法确认深度聚类任务。\"}],\"input_issues\":[]}"
-}

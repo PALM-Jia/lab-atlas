@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W3082800695\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"Sparse Nonnegative Matrix Factorization Based on a Hyperbolic Tangent Approximation of L0-Norm and Neurodynamic Optimization\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确以非负矩阵分解（NMF）为核心方法，研究其稀疏化形式，满足以非负因子分解矩阵的定义。\"},{\"keyword_id\":\"sparse-representation\",\"exact_quote\":\"Sparse nonnegative matrix factorization (SNMF) attracts much attention in the past two decades because its sparse and part-based representations are desirable in many machine learning applications.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要说明SNMF以稀疏且基于部分的表示用于机器学习，并通过l0范数约束实现少量基或潜在特征表达，符合稀疏表示方法定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

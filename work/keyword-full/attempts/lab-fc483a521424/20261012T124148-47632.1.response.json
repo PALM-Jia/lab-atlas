@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"lab-fc483a521424\",\"annotations\":[{\"keyword_id\":\"parameter-efficient-fine-tuning\",\"exact_quote\":\"By addressing granularity, flexibility, and stability limitations, FlexLoRA provides a more principled solution for PEFT.\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文提出FlexLoRA，围绕LoRA低秩适配进行秩剪枝与扩展，并明确称其为PEFT的更原则性方案，满足参数高效微调定义。\"}],\"abstentions\":[{\"keyword_id\":\"large-language-models\",\"reason_zh\":\"仅出现large pre-trained models，未明确对象是大规模预训练语言模型，缺乏语言模型证据，无法判定。\"}],\"input_issues\":[]}"
-}

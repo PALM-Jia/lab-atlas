@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2098946845\",\"annotations\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"exact_quote\":\"Ensemble non-negative matrix factorization (NMF) algorithm\",\"evidence_field\":\"abstract\",\"reason_zh\":\"摘要明确将所提算法称为 Ensemble non-negative matrix factorization (NMF) 并用于蛋白质相互作用聚类，满足以非负因子分解矩阵的方法定义。\"}],\"abstentions\":[{\"keyword_id\":\"ensemble-clustering\",\"reason_zh\":\"摘要仅称聚合多个矩阵分解以产生更 informative 的聚类，未说明融合的是已有聚类结果或形成共识划分，无法确认满足集成聚类定义。\"}],\"input_issues\":[]}"
-}

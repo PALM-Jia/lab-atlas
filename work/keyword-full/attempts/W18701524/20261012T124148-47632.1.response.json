@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W18701524\",\"annotations\":[{\"keyword_id\":\"graph-manifold-regularization\",\"exact_quote\":\"Nonnegative Spectral Clustering\",\"evidence_field\":\"title\",\"reason_zh\":\"标题表明本文方法为非负谱聚类；谱聚类以图拉普拉斯/图割结构约束聚类划分，属于用图结构施加几何一致性约束。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

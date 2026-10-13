@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"lab-761fa50033a3\",\"annotations\":[{\"keyword_id\":\"multi-objective-optimization\",\"exact_quote\":\"decomposition-based evolutionary multi-objective optimization algorithms\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文研究分解式进化多目标优化，围绕多目标优化问题及Pareto前沿估计，符合以多个目标求解帕累托解集的定义。\"},{\"keyword_id\":\"bayesian-inference\",\"exact_quote\":\"the Pareto front is estimated via Gaussian process regression\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文使用高斯过程回归估计Pareto前沿；高斯过程回归通过先验概率模型进行后验回归推断，符合贝叶斯推断方法定义。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}

@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W4405963873\",\"annotations\":[{\"keyword_id\":\"deep-clustering\",\"exact_quote\":\"Attention-based Graph Clustering Network with Dual Information Interaction\",\"evidence_field\":\"title\",\"reason_zh\":\"标题明确为注意力机制下的图聚类网络，表明使用可学习的神经表示和/或聚类头获得数据划分，符合深度聚类定义。\"}],\"abstentions\":[{\"keyword_id\":\"graph-neural-networks\",\"reason_zh\":\"标题仅提示Attention-based Graph Clustering Network，未说明使用图卷积或图上的可学习消息传递，无法满足图神经网络定义。\"}],\"input_issues\":[]}"
-}

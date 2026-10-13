@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W129176699\",\"annotations\":[],\"abstentions\":[{\"keyword_id\":\"pseudo-label-self-training\",\"reason_zh\":\"摘要提到通过“Label Generation”最大化相反簇间隔，但未说明是否将模型预测作为后续训练信号，无法确认符合伪标签/自训练定义。\"}],\"input_issues\":[]}"
-}

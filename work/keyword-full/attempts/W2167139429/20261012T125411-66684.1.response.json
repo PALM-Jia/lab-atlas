@@ -1,3 +1,0 @@
-{
-  "content": "{\"paper_id\":\"W2167139429\",\"annotations\":[{\"keyword_id\":\"dimensionality-reduction\",\"exact_quote\":\"favoring embeddings with low efiective dimensionality\",\"evidence_field\":\"abstract\",\"reason_zh\":\"论文学习对象的向量嵌入，并选择使嵌入点方差最大化且偏好低有效维度的映射，符合显式低维嵌入/降维目标。\"},{\"keyword_id\":\"semi-supervised-learning\",\"exact_quote\":\"The algorithm delivers an embedding of the objects into a vector representation space that strictly respects the known similarities\",\"evidence_field\":\"abstract\",\"reason_zh\":\"算法利用已知的成对相似/不相似约束指导全部对象的嵌入学习，属于以有限成对约束进行半监督学习。\"}],\"abstentions\":[],\"input_issues\":[]}"
-}
