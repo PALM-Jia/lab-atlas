@@ -5,14 +5,18 @@
   <meta name="description" content="实验室论文与全球文献邻域的多维关系地图">
   <title>Lab Atlas · 实验室论文地图</title>
   <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="panel-layout.css"><link rel="stylesheet" href="theme.css">
-  <script defer src="cytoscape.min.js"></script><script defer src="data.js"></script><script defer src="node-shadows.js"></script><script defer src="panel-layout.js"></script><script defer src="dynamic-layout.js"></script><script defer src="author-identities.js"></script><script defer src="author-groups.js"></script><script defer src="author-identity-resolver.js"></script><script defer src="author-affiliations.js"></script><script defer src="paper-author-interest.js"></script><script defer src="paper-keywords.js"></script><script defer src="paper-fields.js"></script><script defer src="paper-density.js"></script><script defer src="keyword-relations.js"></script><script defer src="author-keywords.js"></script><script defer src="author-relations.js"></script><script defer src="timeline-3d.js"></script><script defer src="network-evidence.js"></script><script defer src="network-evidence-ui.js"></script><script defer src="search-match.js"></script><script defer src="node-sizes.js"></script><script defer src="app.js"></script>
+  <script defer src="cytoscape.min.js"></script><script defer src="data.js"></script><script defer src="node-shadows.js"></script><script defer src="panel-layout.js"></script><script defer src="dynamic-layout.js"></script><script defer src="author-identities.js"></script><script defer src="author-groups.js"></script><script defer src="author-identity-resolver.js"></script><script defer src="author-affiliations.js"></script><script defer src="paper-author-interest.js"></script><script defer src="paper-keywords.js"></script><script defer src="paper-fields.js"></script><script defer src="paper-density.js"></script><script defer src="keyword-relations.js"></script><script defer src="author-keywords.js"></script><script defer src="author-relations.js"></script><script defer src="citation-history.js"></script><script defer src="timeline-history.js"></script><script defer src="timeline-3d.js"></script><script defer src="network-evidence.js"></script><script defer src="network-evidence-ui.js"></script><script defer src="search-match.js"></script><script defer src="node-sizes.js"></script><script defer src="app.js"></script>
+<script defer src="atlas-navigation.js"></script>
 </head>
 <body>
   <header class="header atlas-header">
-    <a class="brand atlas-brand" href="./index.html"><span class="brand-mark">✳</span><span>Lab Atlas <small>实验室论文地图</small></span></a>
-    <a class="quiet" href="retrieval.html">检索汇总 ↗</a>
-    <a class="quiet" href="workflow.html">处理流程</a>
-    <button id="about" class="quiet">数据说明</button>
+    <a class="brand atlas-brand" href="index.html"><span class="brand-mark">✳</span><span>Lab Atlas</span></a>
+    <nav class="atlas-nav" aria-label="主要导航">
+      <a href="index.html" aria-current="page">可视化</a>
+      <a href="retrieval.html">检索汇总</a>
+      <a href="workflow.html">处理流程</a>
+    </nav>
+    <button id="about" class="quiet" type="button">数据说明</button>
   </header>
   <main id="workspace" class="workspace">
     <button id="toggle-sidebar" class="panel-edge sidebar-edge" aria-controls="sidebar" aria-expanded="true" aria-label="收起筛选栏">‹</button><button id="toggle-details" class="panel-edge details-edge" aria-controls="details" aria-expanded="true" aria-label="收起详情栏">›</button>
@@ -31,21 +35,20 @@
         </div>
         <div id="year-ticks" class="year-ticks" aria-hidden="true"></div><label id="year-unknown-option" class="check"><input id="year-unknown" type="checkbox" checked><span id="year-unknown-label">包含未标年份</span></label>
       </div>
-      <div class="filter-row"><label for="status">显示论文</label><select id="status" title="只筛选实验室论文，外部文献仍作为它们的关联邻域显示"><option value="">全部实验室论文</option><option value="matched">已匹配 OpenAlex</option><option value="unmatched">未匹配 OpenAlex</option><option value="title">仅有标题的</option></select></div>
       <label id="external-option" class="check"><input id="external" type="checkbox" checked>显示外部文献</label>
       <div class="section-label"><span id="category-heading">研究领域</span> <button id="clear-topic" class="text-button">全部显示</button></div>
       <div id="topics" class="topics"></div>
-      
+
       <div id="paper-author-panel">
         <div class="section-label">作者分类 <button id="care-all" class="text-button">全部关心</button></div>
         <div id="paper-author-interest" class="topics"></div><p class="detail-note">保留含关心作者的论文及其外部关联文献。</p>
-        
+
       </div>
       <div class="sidebar-bottom"><a href="https://jyh-learning.github.io/papers.html" target="_blank" rel="noopener">查看原始论文列表 ↗</a></div>
     </aside>
     <section class="explorer" aria-label="论文关系图">
       <div class="toolbar"><div class="views" role="group" aria-label="视图"><button data-view="authors">作者</button><button data-view="papers" class="active">论文</button><button data-view="timeline">时间脉络</button></div><div class="relation-bar"><select id="relation" aria-label="关联依据" title="关联依据"><option value="citation">直接引用</option><option value="author">共同作者</option><option value="semantic">标题与摘要相似</option><option value="keyword">论文关键词重合</option></select><select id="author-relation" class="hidden" aria-label="作者关联依据" title="关联依据"><option value="coauthor">共同署名</option><option value="semantic">标题与摘要相似</option><option value="keywords">论文关键词分布相似</option></select><label id="hub-option" class="check hidden"><input id="hub" type="checkbox">包含 Yuheng Jia</label></div><button id="reset" class="quiet" title="随机重新排布当前网络，保留筛选与视图">重置</button></div>
-      <div class="graph-wrap"><canvas id="node-shadows" aria-hidden="true"></canvas><div id="graph"></div><canvas id="timeline-3d" class="hidden" aria-label="三维时间网络：拖动旋转，Shift 拖动平移，滚轮缩放" tabindex="0"></canvas><div id="author-labels" class="author-labels"></div><div id="node-preview" class="node-preview hidden"></div><div id="empty" class="empty hidden"></div><div class="zoom"><button id="zoom-in" aria-label="放大">＋</button><button id="zoom-out" aria-label="缩小">−</button><button id="fit" aria-label="适应画布">⌖</button></div><div class="graph-footer"><span id="visible-count"></span><span id="graph-help" class="graph-help">滚轮缩放 · 拖拽平移</span><span id="updated"></span></div></div>
+      <div class="graph-wrap"><canvas id="node-shadows" aria-hidden="true"></canvas><div id="graph"></div><canvas id="timeline-3d" class="hidden" aria-label="年度论文树：正射投影，横向拖动旋转，纵向拖动俯仰，滚轮切换最上方年份，Shift 拖动平移" tabindex="0"></canvas><div id="author-labels" class="author-labels"></div><div id="node-preview" class="node-preview hidden"></div><div id="empty" class="empty hidden"></div><div id="timeline-controls" class="timeline-controls hidden" role="group" aria-label="绕年份轴旋转"><button id="timeline-rotate-left" class="quiet" aria-label="向左旋转十五度">↶</button><label for="timeline-rotation">旋转</label><input id="timeline-rotation" type="range" min="-180" max="180" value="0" step="1" aria-label="绕年份轴旋转角度"><button id="timeline-rotate-right" class="quiet" aria-label="向右旋转十五度">↷</button></div><div class="zoom"><button id="zoom-in" aria-label="放大">＋</button><button id="zoom-out" aria-label="缩小">−</button><button id="fit" aria-label="适应画布">⌖</button></div><div class="graph-footer"><span id="visible-count"></span><span id="graph-help" class="graph-help">滚轮缩放 · 拖拽平移</span><span id="updated"></span></div></div>
     </section>
     <aside id="details" class="details" aria-live="polite"><div class="detail-head"><span>详情</span><button id="clear-selection" class="text-button" hidden>清除</button></div><section id="relation-explanation" class="relation-explanation" aria-label="当前关联依据"></section><div id="detail-content"></div></aside>
   </main>

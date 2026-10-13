@@ -9,7 +9,7 @@
   "authors": "论文作者及署名顺序。来自实验室主页、数据库和论文发布页；已确认的姓名变体合并，作者增减或顺序不同则并列保留。",
   "year": "论文的发表年份，来自主页、数据库或论文发布页。主页列为预印本的显示“预印”；来源提供的年份仍保留，供对照版本差异。",
   "venue": "论文发表的会议或期刊，来自主页、数据库或正式论文页。简称与全称合并；预印本和正式发表记录分别保留。",
-  "abstract": "从数据库或论文发布页取得的摘要。用于关键词标注和内容相似度计算；点击可阅读全文。",
+  "abstract": "从数据库或论文发布页取得的摘要。用于关键词标注和内容相似度计算；点击查看完整摘要。",
   "references": "这篇论文引用的文献，从 OpenAlex 参考名单取得。按数据库标识查找标题等详情，未取得标题的条目保留标识。",
   "citing": "引用这篇论文的文献，来自 OpenAlex 施引查询。来源报告的总数、取得的名单和文献详情分别统计。",
   "citations": "数据库报告的被引次数，依次优先采用 OpenAlex 施引查询、OpenAlex 论文记录、Semantic Scholar、Crossref。不同来源的数字并列；S2 是 Semantic Scholar 的简称。",
@@ -32,7 +32,7 @@
   authors:'外部文献的作者名单，来自已匹配的数据库记录，按来源中的署名顺序展示。',
   year:'外部文献的发表年份，来自已匹配的数据库记录。',
   venue:'外部文献的会议或期刊名称，来自已匹配的数据库记录。',
-  abstract:'外部文献的摘要，来自已取得的数据库记录；点击可阅读全文。'
+  abstract:'外部文献的摘要，来自已取得的数据库记录；点击查看完整摘要。'
  };
  const columnHelp=key=>state.view==='authors'?authorColumnHelp[key]:state.view==='external'?(externalColumnHelp[key]||paperColumnHelp[key]):paperColumnHelp[key];
  const stateLabels={ready:'已取得值',partial:'部分详情缺失',empty:'来源返回空',missing:'无可用值',review:'身份待核对',derived:'论文聚合',unlinked:'未关联论文',different:'来源差异',annotated:'已标注关键词',excluded:'标注未采用'};

@@ -24,6 +24,25 @@
     function savePanels(){
       try{window.localStorage?.setItem('paper-atlas-panels-v1',JSON.stringify({widths,collapsed:Object.fromEntries(controls.map(c=>[c.panel,workspace.classList.contains(c.className)]))}));}catch{}
     }
+    function constrainPanelWidths(){
+      if(narrow.matches||!workspace.clientWidth)return;
+      const wide=window.matchMedia('(min-width: 1600px)').matches;
+      const open=controls.filter(c=>!workspace.classList.contains(c.className)).map(c=>({
+        control:c,minimum:c.panel==='sidebar'?180:240,
+        desired:widths[c.panel]??(c.panel==='sidebar'?(wide?252:244):(wide?360:328))
+      }));
+      const budget=workspace.clientWidth-280;
+      const minimum=open.reduce((sum,c)=>sum+c.minimum,0),extra=open.reduce((sum,c)=>sum+c.desired-c.minimum,0);
+      const factor=extra>0?Math.min(1,Math.max(0,budget-minimum)/extra):1;
+      for(const c of open){
+        const width=Math.floor(c.minimum+(c.desired-c.minimum)*factor),property='--'+c.control.panel+'-size';
+        if(workspace.style.getPropertyValue(property)!==width+'px')workspace.style.setProperty(property,width+'px');
+        c.control.handle?.setAttribute('aria-valuemin',c.minimum);
+        c.control.handle?.setAttribute('aria-valuenow',width);
+        const otherWidth=open.filter(other=>other!==c).reduce((sum,other)=>sum+Math.floor(other.minimum+(other.desired-other.minimum)*factor),0);
+        c.control.handle?.setAttribute('aria-valuemax',Math.max(c.minimum,Math.min(640,budget-otherWidth)));
+      }
+    }
     function updateButtons() {
       controls.forEach(({ button, panel, label, className }) => {
         const expanded = !workspace.classList.contains(className);
@@ -39,6 +58,7 @@
       if (resizeFrame) return;
       resizeFrame = window.requestAnimationFrame(() => {
         resizeFrame = 0;
+        constrainPanelWidths();
         if (cy.destroyed && cy.destroyed()) return;
         const zoom = cy.zoom();
         const pan = { ...cy.pan() };
@@ -48,6 +68,7 @@
     }
     controls.forEach((control,index) => {
       const handle=document.createElement('div');
+      control.handle=handle;
       handle.className='panel-resizer '+control.panel+'-resizer';
       handle.tabIndex=0;
       handle.setAttribute('role','separator');
@@ -60,6 +81,7 @@
       function setWidth(value){
         const other=controls[1-index];
         const otherWidth=workspace.classList.contains(other.className)?0:document.getElementById(other.panel).getBoundingClientRect().width;
+        if(!workspace.classList.contains(other.className))widths[other.panel]=Math.round(otherWidth);
         const maximum=Math.max(minimum,Math.min(640,workspace.clientWidth-otherWidth-280));
         const width=Math.round(Math.max(minimum,Math.min(maximum,value)));
         workspace.style.setProperty('--'+control.panel+'-size',width+'px');
@@ -121,7 +143,8 @@
     if ('ResizeObserver' in window) {
       const observer = new ResizeObserver(scheduleResize);
       observer.observe(graph);
-    } else window.addEventListener('resize', scheduleResize);
+    }
+    window.addEventListener('resize', scheduleResize);
     collapseNarrowPanels();
   };
 })();

@@ -3,7 +3,7 @@
 Run after the offline build from the repository root, with Node.js:
 
 ```powershell
-Get-ChildItem scripts/checks -Filter '*.cjs' | Where-Object { $_.Name -notin @('frontend-fixture.cjs','check-browser.cjs','check-migration.cjs') } | ForEach-Object { node $_.FullName; if ($LASTEXITCODE -ne 0) { throw "Check failed: $($_.Name)" } }
+Get-ChildItem scripts/checks -Filter '*.cjs' | Where-Object { $_.Name -notin @('frontend-fixture.cjs','check-browser.cjs','check-timeline-browser.cjs','check-timeline-selection-browser.cjs','check-migration.cjs') } | ForEach-Object { node $_.FullName; if ($LASTEXITCODE -ne 0) { throw "Check failed: $($_.Name)" } }
 ```
 
 - test-keyword-network: independent synthetic fixtures for contribution weights, accepted empty/excluded states, task profiles, quotes, IDF, top-five union and external scope.
@@ -13,6 +13,10 @@ Get-ChildItem scripts/checks -Filter '*.cjs' | Where-Object { $_.Name -notin @('
 - check_author_semantic_current: recomputes every displayed author semantic score and supporting pair count, then checks evidence navigation and authorship controls.
 - check_search_match: hyphen/whitespace/case/fullwidth normalization and unrelated-word rejection.
 - check_flow_structure: executes current workflow renderer and checks forward orthogonal routes and node collisions.
+- check-timeline-history: independently tallies annual citations, preserves missing/empty/neighborhood scopes, rejects future publications before per-year top-five selection; its Python counterpart checks producer deduplication and unknown years.
+- check-timeline-layout: orthographic projection, upward Z chronology, continuous Bezier tangents, ellipse/curve hit testing and viewport fitting.
+- check-timeline-painter: records actual canvas drawing commands to verify chronological occlusion, within-year depth, same-year paper relations, cross-year paper continuity and upper-plane hit occlusion.
+- check-timeline-selection: exact annual instance anchors, simultaneous activation across visible years, unique upward relations from the earliest visible instance, with matching endpoints, highlights and details for every relation, edge-click anchor preservation, solid/dashed thin lines and citation-based size contrast.
 
 frontend-fixture executes every external script in index.html in page order, including paper-fields and keyword-relations. Real Cytoscape runs headlessly; DOM, layout installation and WebGL rendering use adapters. These checks validate application data, graph computation and event handlers; they do not certify browser layout, visual styling or WebGL rendering. No check performs network requests or writes reports into work.
 
@@ -29,6 +33,8 @@ $env:PLAYWRIGHT_MODULE = "C:/Users/lee/.cache/codex-runtimes/codex-primary-runti
 $env:PLAYWRIGHT_EXECUTABLE = "C:/Users/lee/AppData/Local/ms-playwright/chromium_headless_shell-1228/chrome-headless-shell-win64/chrome-headless-shell.exe"
 node scripts/checks/check-browser.cjs --site work/rebuild-preview
 node scripts/checks/check-browser.cjs --site work/rebuild-preview --file
+node scripts/checks/check-timeline-browser.cjs
+node scripts/checks/check-timeline-selection-browser.cjs
 ```
 
 The browser check serves the selected directory on localhost, or opens it directly with file:// when --file is supplied. It blocks remote requests, exercises all three pages and reports JavaScript/console/HTTP errors. PLAYWRIGHT_EXECUTABLE is optional when the bundled Playwright browser is available. Browser process launch can be blocked by sandbox permissions (spawn EPERM); this is an execution limitation, not a passed browser check.

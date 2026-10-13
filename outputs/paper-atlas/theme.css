@@ -3,7 +3,7 @@
 body{font-family:Inter,"Segoe UI","Microsoft YaHei",sans-serif}
 [hidden]{display:none!important}
 .atlas-header{height:var(--header-height);min-height:var(--header-height);flex:0 0 var(--header-height);display:flex;align-items:center;gap:10px;padding:0 14px;background:var(--paper);border-bottom:1px solid var(--line)}
-.atlas-header .atlas-brand{display:inline-flex;align-items:center;gap:7px;flex-shrink:0;font-size:16px;font-weight:600;line-height:1.2;letter-spacing:0;color:var(--text);margin-right:auto}
+.atlas-header .atlas-brand{display:inline-flex;align-items:center;gap:7px;flex-shrink:0;font-size:16px;font-weight:600;line-height:1.2;letter-spacing:0;color:var(--text);margin-right:0}
 .atlas-header .brand-mark{font-size:22px;color:var(--accent)}
 .atlas-header .atlas-brand>span:not(.brand-mark){display:inline-flex;align-items:center;font-size:16px;color:var(--text)}
 .atlas-header .atlas-brand small{font-size:12px;font-weight:400;letter-spacing:0;margin-left:8px;color:var(--muted)}
@@ -57,7 +57,7 @@ input[type=checkbox]:checked::before{content:'✓';font-size:12px;font-weight:70
 .sidebar button.category-state:is(.is-muted,.is-hidden):hover{background:var(--soft)}
 .sidebar .section-label{margin:13px 0 4px;align-items:center}
 .sidebar .year-heading{align-items:center}
-.sidebar .filter-row select,.relation-bar select,.controls select,.index-filters select{font-size:13px;line-height:1.4;padding:4px 6px;border-radius:var(--control-radius)}
+.relation-bar select,.controls select,.index-filters select{font-size:13px;line-height:1.4;padding:4px 6px;border-radius:var(--control-radius)}
 :is(.title-link,.link-button,.count-link,.neighbor){font-size:inherit;line-height:inherit;color:var(--accent);padding:0;border:0;border-radius:0;background:transparent;text-align:left}
 :is(.title-link,.link-button,.count-link,.neighbor):hover,:is(.title-link,.link-button,.count-link,.neighbor):focus-visible{color:var(--accent);background:transparent;text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
 .details .neighbor{font-size:13px;line-height:1.5;display:block;width:100%;padding:4px 0}
@@ -119,3 +119,19 @@ input[type=checkbox]:checked::before{content:'✓';font-size:12px;font-weight:70
 .retrieval-page .citation-count{font-size:14px;line-height:1.4;white-space:normal}
 .retrieval-page .citation-provider{font-size:11px;font-weight:400;color:var(--muted);margin-left:5px}
 .retrieval-page .citation-alternatives{display:flex;align-items:baseline;flex-wrap:wrap;gap:2px 4px;margin-top:2px}
+
+/* Keep the same left navigation and right explanation on every page. */
+.atlas-header .atlas-brand{margin-right:0;text-decoration:none}
+.atlas-header .atlas-nav{display:flex;align-items:center;gap:2px;min-width:0}
+.atlas-header .atlas-nav a{display:inline-flex;align-items:center;justify-content:center;height:28px;padding:4px 9px;border-radius:var(--control-radius);font-size:13px;line-height:1.4;font-weight:400;color:var(--muted);white-space:nowrap;text-decoration:none}
+.atlas-header .atlas-nav a:hover,.atlas-header .atlas-nav a[aria-current=page]{background:var(--soft);color:var(--accent);text-decoration:none}
+.atlas-header .atlas-nav a[aria-current=page]{font-weight:600}
+.atlas-header #about{margin-left:auto;flex-shrink:0}
+#info{box-sizing:border-box;width:min(620px,90vw);max-height:calc(100dvh - 32px);overflow:auto;padding:22px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--text)}
+#info::backdrop{background:#29313a50}
+#info #close-info{float:right;font-family:inherit}
+#info h2{font-size:20px;font-weight:600;line-height:1.5;margin:14px 0 12px}
+#info p{font-size:14px;line-height:1.7;color:var(--muted);margin:10px 0}
+#info a{color:var(--accent)}
+@media(max-width:700px){.atlas-header{gap:6px}.atlas-header .atlas-nav a{font-size:12px;padding:4px 6px}}
+@media(max-width:480px){.atlas-header{height:auto;min-height:var(--header-height);flex-basis:auto;flex-wrap:wrap;padding-top:6px;padding-bottom:6px;gap:4px 8px}.atlas-header .atlas-nav{order:3;flex-basis:100%}.atlas-header .brand-mark{display:inline;font-size:22px}.atlas-header .atlas-nav a{flex:1}.atlas-header #about{font-size:12px}}

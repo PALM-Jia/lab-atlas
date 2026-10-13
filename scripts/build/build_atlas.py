@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[2]
 SITE = ROOT / 'outputs/paper-atlas'
 PROJECTIONS = {
     'data/atlas/data.json': ('data.js', 'ATLAS_DATA'),
+    'data/atlas/citation-history.json': ('citation-history.js', 'ATLAS_CITATION_HISTORY'),
     'data/atlas/retrieval-data.json': ('retrieval-data.js', 'ATLAS_RETRIEVAL'),
     'data/atlas/paper-keywords.json': ('paper-keywords.js', 'ATLAS_PAPER_KEYWORDS'),
     'data/atlas/paper-fields.json': ('paper-fields.js', 'ATLAS_PAPER_FIELDS'),
@@ -47,6 +48,58 @@ def assignment(path, variable):
     start = text.index('window.'+variable+'=') + len('window.'+variable+'=')
     return json.JSONDecoder().raw_decode(text[start:])[0]
 
+
+def citation_history(graph, retrieval):
+    """Derive annual observations only from adopted citing lists and citation edges."""
+    nodes = {p['id']: p for p in graph['nodes']}
+    lab = {p['id']: p for p in retrieval['papers']}
+    bibliography = retrieval['bibliography']
+    snapshot = retrieval['meta'].get('citationsSnapshot') or retrieval['meta'].get('snapshot')
+    incoming = {pid: set() for pid in nodes}
+    for edge in graph['edges']:
+        if edge['kind'] == 'citation' and edge['target'] in incoming:
+            source = nodes.get(edge['source'])
+            target = nodes[edge['target']]
+            if source and (source.get('lab') or target.get('lab')):
+                incoming[edge['target']].add(edge['source'])
+    result = {}
+    for pid, node in nodes.items():
+        field = lab[pid]['fields'].get('citing', {}) if pid in lab else {}
+        scope = 'database_citing_list' if pid in lab else 'observed_neighborhood'
+        collected = set(field.get('ids', [])) if pid in lab else incoming[pid]
+        total = field.get('total') if pid in lab else None
+        available = field.get('state') in ('ready', 'empty', 'partial') if pid in lab else True
+        if not available:
+            total = None
+        complete = available and total is not None and len(collected) == total
+        status = ('complete' if complete else 'partial' if available else 'missing') if pid in lab else 'neighborhood'
+        annual = {}
+        unknown = 0
+        for citing_id in sorted(collected):
+            # Citing ids in the adopted database lists refer to bibliography records,
+            # including citing papers omitted from the rendered graph neighborhood.
+            record = bibliography.get(citing_id) if pid in lab else nodes.get(citing_id)
+            year = record.get('year') if record else None
+            if isinstance(year, int) and not isinstance(year, bool) and year > 0:
+                annual[year] = annual.get(year, 0) + 1
+            else:
+                unknown += 1
+        cumulative = 0
+        rows = []
+        for year, count in sorted(annual.items()):
+            cumulative += count
+            rows.append({'year': year, 'count': count, 'cumulative': cumulative})
+        result[pid] = {'annual': rows, 'unknownYearCount': unknown,
+                       'observedCount': len(collected) if available else None,
+                       'databaseTotal': total, 'scope': scope, 'status': status,
+                       'state': field.get('state', 'observed') if pid in lab else 'observed',
+                       'complete': bool(complete), 'sources': field.get('sources', []) if pid in lab else [{'name': 'OpenAlex', 'description': 'Adopted direct citation edges touching laboratory papers'}],
+                       'snapshot': snapshot}
+    return {'meta': {'schemaVersion': 1, 'snapshot': snapshot,
+                     'source': 'adopted retrieval-data bibliography/citing lists and data citation edges',
+                     'semantics': 'Retrospective publication-year citation observations; unknown years excluded from dated cumulative counts. External counts cover only the observed laboratory neighborhood.'},
+            'papers': result}
+
 def check(out):
     for ref in dependencies():
         assert (out/ref).is_file(), 'Missing release dependency: '+ref
@@ -57,6 +110,7 @@ def check(out):
     assert len(ids) == len(graph['nodes'])
     assert all(e['source'] in ids and e['target'] in ids for e in graph['edges'])
     retrieval = read(ROOT/'data/atlas/retrieval-data.json')
+    assert read(ROOT/'data/atlas/citation-history.json') == citation_history(graph, retrieval), 'Citation history differs from adopted evidence'
     assert ids == {p['id'] for p in retrieval['papers']+retrieval['external']}
     assert ids == set(read(ROOT/'data/atlas/paper-keywords.json')['papers'])
     assert ids == set(read(ROOT/'data/atlas/paper-fields.json')['papers'])
@@ -68,6 +122,10 @@ def check(out):
 
 def build(out):
     out.mkdir(parents=True, exist_ok=True)
+    history_path=ROOT/'data/atlas/citation-history.json'
+    history=citation_history(read(ROOT/'data/atlas/data.json'),read(ROOT/'data/atlas/retrieval-data.json'))
+    if not history_path.is_file() or read(history_path) != history:
+        history_path.write_text(json.dumps(history,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     generated = {target for target,_ in PROJECTIONS.values()} | set(WORKFLOW)
     for ref in dependencies():
         if ref in generated:

@@ -5,9 +5,19 @@
   <title>检索汇总 · Lab Atlas</title>
   <link rel="stylesheet" href="retrieval.css"><link rel="stylesheet" href="theme.css">
   <script defer src="retrieval-data.js"></script><script defer src="search-match.js"></script><script defer src="retrieval.js"></script>
+<script defer src="atlas-navigation.js"></script>
 </head>
 <body class="retrieval-page">
-  <header class="atlas-header"><a class="brand atlas-brand" href="index.html"><span class="brand-mark">✳</span><span>Lab Atlas <small>检索汇总</small></span></a><h1 class="sr-only">检索汇总</h1><a class="button" href="workflow.html">处理流程</a><a class="button" href="index.html">返回网络</a></header>
+  <header class="atlas-header">
+    <a class="brand atlas-brand" href="index.html"><span class="brand-mark">✳</span><span>Lab Atlas</span></a>
+    <nav class="atlas-nav" aria-label="主要导航">
+      <a href="index.html">可视化</a>
+      <a href="retrieval.html" aria-current="page">检索汇总</a>
+      <a href="workflow.html">处理流程</a>
+    </nav>
+    <button id="about" class="quiet" type="button">数据说明</button>
+  </header>
+  <h1 class="sr-only">检索汇总</h1>
   <main>
     <section id="coverage" class="coverage" aria-label="数据收集情况"></section>
     <div class="controls">
