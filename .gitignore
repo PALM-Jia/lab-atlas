@@ -22,3 +22,7 @@ work/keyword-full/control/validation-report.json
 # Duplicate archives; the current site is captured directly in Git
 outputs/paper-atlas.zip
 work/keyword-integration/backups/
+work/rebuild-preview/
+work/pre-refresh/
+work/retrieval-candidate/
+work/reports/

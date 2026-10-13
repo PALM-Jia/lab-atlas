@@ -1,47 +1,47 @@
-window.WORKFLOW_MAP = {
+window.WORKFLOW_MAP={
   "stages": [
     {
       "id": "import",
-      "label": "① 读取主页清单",
       "mode": "外部读取 · 自动",
       "details": [
         "import"
-      ]
+      ],
+      "label": "① 读取主页清单"
     },
     {
       "id": "locate",
-      "label": "② 核对身份与版本",
       "mode": "多源查询 · 自动，AI 按需",
       "details": [
         "locate"
       ],
-      "fixed": true
+      "fixed": true,
+      "label": "② 核对身份与版本"
     },
     {
       "id": "collect",
-      "label": "③ 采集论文详情",
       "mode": "按标识查询 · 自动",
       "details": [
         "collect"
       ],
-      "fixed": true
+      "fixed": true,
+      "label": "③ 采集论文详情"
     },
     {
       "id": "external",
-      "label": "④ 补全引用记录",
       "mode": "外部查询 · 自动",
       "details": [
         "external"
       ],
-      "fixed": true
+      "fixed": true,
+      "label": "④ 补全引用记录"
     },
     {
       "id": "features",
-      "label": "⑤ 生成特征与画像",
       "mode": "标注审核 · 本地计算",
       "details": [
         "features"
-      ]
+      ],
+      "label": "⑤ 生成特征与画像"
     }
   ],
   "tracks": [

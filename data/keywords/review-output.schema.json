@@ -1,0 +1,674 @@
+{
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "verdict": {
+            "const": "pass"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "patch": {
+            "type": "null"
+          },
+          "issues": {
+            "maxItems": 0
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "verdict": {
+            "const": "revise"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "patch": {
+            "properties": {
+              "abstentions": {
+                "items": {
+                  "properties": {
+                    "keyword_id": {
+                      "enum": [
+                        "deep-clustering",
+                        "ensemble-clustering",
+                        "subspace-clustering",
+                        "multi-label-learning",
+                        "label-distribution-learning",
+                        "label-enhancement",
+                        "dimensionality-reduction",
+                        "image-segmentation",
+                        "data-imputation-recovery",
+                        "hallucination-mitigation",
+                        "model-merging",
+                        "multimodal-retrieval",
+                        "value-preference-alignment",
+                        "adversarial-robustness",
+                        "dataset-distillation",
+                        "person-reidentification",
+                        "multi-objective-optimization",
+                        "confidence-calibration",
+                        "low-rank-modeling",
+                        "nonnegative-matrix-factorization",
+                        "graph-structure-learning",
+                        "graph-manifold-regularization",
+                        "graph-neural-networks",
+                        "contrastive-learning",
+                        "pseudo-label-self-training",
+                        "sparse-representation",
+                        "bayesian-inference",
+                        "label-correlation-modeling",
+                        "parameter-efficient-fine-tuning",
+                        "latent-reasoning",
+                        "knowledge-distillation",
+                        "domain-adaptation",
+                        "pairwise-constraint-propagation",
+                        "classifier-ensemble",
+                        "partial-label-learning",
+                        "semi-supervised-learning",
+                        "class-imbalance",
+                        "noisy-label-learning",
+                        "multi-view-learning",
+                        "federated-learning",
+                        "zero-shot-learning",
+                        "open-vocabulary-recognition",
+                        "hyperspectral-images",
+                        "traffic-data",
+                        "underwater-images",
+                        "large-language-models",
+                        "vision-language-models",
+                        "weakly-supervised-learning",
+                        "large-vision-language-models"
+                      ],
+                      "type": "string"
+                    },
+                    "reason_zh": {
+                      "minLength": 1,
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "keyword_id",
+                    "reason_zh"
+                  ],
+                  "type": "object",
+                  "additionalProperties": false
+                },
+                "type": "array"
+              },
+              "input_issues": {
+                "items": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "upsert_annotations": {
+                "items": {
+                  "properties": {
+                    "evidence_field": {
+                      "enum": [
+                        "title",
+                        "abstract"
+                      ]
+                    },
+                    "reason_zh": {
+                      "minLength": 1,
+                      "type": "string"
+                    },
+                    "exact_quote": {
+                      "minLength": 1,
+                      "type": "string"
+                    },
+                    "keyword_id": {
+                      "enum": [
+                        "deep-clustering",
+                        "ensemble-clustering",
+                        "subspace-clustering",
+                        "multi-label-learning",
+                        "label-distribution-learning",
+                        "label-enhancement",
+                        "dimensionality-reduction",
+                        "image-segmentation",
+                        "data-imputation-recovery",
+                        "hallucination-mitigation",
+                        "model-merging",
+                        "multimodal-retrieval",
+                        "value-preference-alignment",
+                        "adversarial-robustness",
+                        "dataset-distillation",
+                        "person-reidentification",
+                        "multi-objective-optimization",
+                        "confidence-calibration",
+                        "low-rank-modeling",
+                        "nonnegative-matrix-factorization",
+                        "graph-structure-learning",
+                        "graph-manifold-regularization",
+                        "graph-neural-networks",
+                        "contrastive-learning",
+                        "pseudo-label-self-training",
+                        "sparse-representation",
+                        "bayesian-inference",
+                        "label-correlation-modeling",
+                        "parameter-efficient-fine-tuning",
+                        "latent-reasoning",
+                        "knowledge-distillation",
+                        "domain-adaptation",
+                        "pairwise-constraint-propagation",
+                        "classifier-ensemble",
+                        "partial-label-learning",
+                        "semi-supervised-learning",
+                        "class-imbalance",
+                        "noisy-label-learning",
+                        "multi-view-learning",
+                        "federated-learning",
+                        "zero-shot-learning",
+                        "open-vocabulary-recognition",
+                        "hyperspectral-images",
+                        "traffic-data",
+                        "underwater-images",
+                        "large-language-models",
+                        "vision-language-models",
+                        "weakly-supervised-learning",
+                        "large-vision-language-models"
+                      ],
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "keyword_id",
+                    "exact_quote",
+                    "evidence_field",
+                    "reason_zh"
+                  ],
+                  "type": "object",
+                  "additionalProperties": false
+                },
+                "type": "array"
+              },
+              "remove_ids": {
+                "uniqueItems": true,
+                "type": "array",
+                "items": {
+                  "enum": [
+                    "deep-clustering",
+                    "ensemble-clustering",
+                    "subspace-clustering",
+                    "multi-label-learning",
+                    "label-distribution-learning",
+                    "label-enhancement",
+                    "dimensionality-reduction",
+                    "image-segmentation",
+                    "data-imputation-recovery",
+                    "hallucination-mitigation",
+                    "model-merging",
+                    "multimodal-retrieval",
+                    "value-preference-alignment",
+                    "adversarial-robustness",
+                    "dataset-distillation",
+                    "person-reidentification",
+                    "multi-objective-optimization",
+                    "confidence-calibration",
+                    "low-rank-modeling",
+                    "nonnegative-matrix-factorization",
+                    "graph-structure-learning",
+                    "graph-manifold-regularization",
+                    "graph-neural-networks",
+                    "contrastive-learning",
+                    "pseudo-label-self-training",
+                    "sparse-representation",
+                    "bayesian-inference",
+                    "label-correlation-modeling",
+                    "parameter-efficient-fine-tuning",
+                    "latent-reasoning",
+                    "knowledge-distillation",
+                    "domain-adaptation",
+                    "pairwise-constraint-propagation",
+                    "classifier-ensemble",
+                    "partial-label-learning",
+                    "semi-supervised-learning",
+                    "class-imbalance",
+                    "noisy-label-learning",
+                    "multi-view-learning",
+                    "federated-learning",
+                    "zero-shot-learning",
+                    "open-vocabulary-recognition",
+                    "hyperspectral-images",
+                    "traffic-data",
+                    "underwater-images",
+                    "large-language-models",
+                    "vision-language-models",
+                    "weakly-supervised-learning",
+                    "large-vision-language-models"
+                  ],
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "remove_ids",
+              "upsert_annotations",
+              "abstentions",
+              "input_issues"
+            ],
+            "type": "object",
+            "additionalProperties": false
+          },
+          "issues": {
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "verdict": {
+            "const": "needs_review"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "patch": {
+            "type": "null"
+          },
+          "issues": {
+            "minItems": 1
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "issues": {
+      "items": {
+        "properties": {
+          "evidence_field": {
+            "enum": [
+              "title",
+              "abstract",
+              null
+            ]
+          },
+          "reason_zh": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "exact_quote": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "false_positive",
+              "false_negative",
+              "unsupported_evidence",
+              "abstention",
+              "input_problem"
+            ]
+          },
+          "keyword_id": {
+            "anyOf": [
+              {
+                "enum": [
+                  "deep-clustering",
+                  "ensemble-clustering",
+                  "subspace-clustering",
+                  "multi-label-learning",
+                  "label-distribution-learning",
+                  "label-enhancement",
+                  "dimensionality-reduction",
+                  "image-segmentation",
+                  "data-imputation-recovery",
+                  "hallucination-mitigation",
+                  "model-merging",
+                  "multimodal-retrieval",
+                  "value-preference-alignment",
+                  "adversarial-robustness",
+                  "dataset-distillation",
+                  "person-reidentification",
+                  "multi-objective-optimization",
+                  "confidence-calibration",
+                  "low-rank-modeling",
+                  "nonnegative-matrix-factorization",
+                  "graph-structure-learning",
+                  "graph-manifold-regularization",
+                  "graph-neural-networks",
+                  "contrastive-learning",
+                  "pseudo-label-self-training",
+                  "sparse-representation",
+                  "bayesian-inference",
+                  "label-correlation-modeling",
+                  "parameter-efficient-fine-tuning",
+                  "latent-reasoning",
+                  "knowledge-distillation",
+                  "domain-adaptation",
+                  "pairwise-constraint-propagation",
+                  "classifier-ensemble",
+                  "partial-label-learning",
+                  "semi-supervised-learning",
+                  "class-imbalance",
+                  "noisy-label-learning",
+                  "multi-view-learning",
+                  "federated-learning",
+                  "zero-shot-learning",
+                  "open-vocabulary-recognition",
+                  "hyperspectral-images",
+                  "traffic-data",
+                  "underwater-images",
+                  "large-language-models",
+                  "vision-language-models",
+                  "weakly-supervised-learning",
+                  "large-vision-language-models"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "kind",
+          "keyword_id",
+          "reason_zh",
+          "exact_quote",
+          "evidence_field"
+        ],
+        "allOf": [
+          {
+            "else": {
+              "properties": {
+                "exact_quote": {
+                  "minLength": 1
+                }
+              }
+            },
+            "if": {
+              "properties": {
+                "evidence_field": {
+                  "type": "null"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "exact_quote": {
+                  "const": ""
+                }
+              }
+            }
+          }
+        ],
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "array"
+    },
+    "paper_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "patch": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "properties": {
+            "abstentions": {
+              "items": {
+                "properties": {
+                  "keyword_id": {
+                    "enum": [
+                      "deep-clustering",
+                      "ensemble-clustering",
+                      "subspace-clustering",
+                      "multi-label-learning",
+                      "label-distribution-learning",
+                      "label-enhancement",
+                      "dimensionality-reduction",
+                      "image-segmentation",
+                      "data-imputation-recovery",
+                      "hallucination-mitigation",
+                      "model-merging",
+                      "multimodal-retrieval",
+                      "value-preference-alignment",
+                      "adversarial-robustness",
+                      "dataset-distillation",
+                      "person-reidentification",
+                      "multi-objective-optimization",
+                      "confidence-calibration",
+                      "low-rank-modeling",
+                      "nonnegative-matrix-factorization",
+                      "graph-structure-learning",
+                      "graph-manifold-regularization",
+                      "graph-neural-networks",
+                      "contrastive-learning",
+                      "pseudo-label-self-training",
+                      "sparse-representation",
+                      "bayesian-inference",
+                      "label-correlation-modeling",
+                      "parameter-efficient-fine-tuning",
+                      "latent-reasoning",
+                      "knowledge-distillation",
+                      "domain-adaptation",
+                      "pairwise-constraint-propagation",
+                      "classifier-ensemble",
+                      "partial-label-learning",
+                      "semi-supervised-learning",
+                      "class-imbalance",
+                      "noisy-label-learning",
+                      "multi-view-learning",
+                      "federated-learning",
+                      "zero-shot-learning",
+                      "open-vocabulary-recognition",
+                      "hyperspectral-images",
+                      "traffic-data",
+                      "underwater-images",
+                      "large-language-models",
+                      "vision-language-models",
+                      "weakly-supervised-learning",
+                      "large-vision-language-models"
+                    ],
+                    "type": "string"
+                  },
+                  "reason_zh": {
+                    "minLength": 1,
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "keyword_id",
+                  "reason_zh"
+                ],
+                "type": "object",
+                "additionalProperties": false
+              },
+              "type": "array"
+            },
+            "input_issues": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "upsert_annotations": {
+              "items": {
+                "properties": {
+                  "evidence_field": {
+                    "enum": [
+                      "title",
+                      "abstract"
+                    ]
+                  },
+                  "reason_zh": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "exact_quote": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "keyword_id": {
+                    "enum": [
+                      "deep-clustering",
+                      "ensemble-clustering",
+                      "subspace-clustering",
+                      "multi-label-learning",
+                      "label-distribution-learning",
+                      "label-enhancement",
+                      "dimensionality-reduction",
+                      "image-segmentation",
+                      "data-imputation-recovery",
+                      "hallucination-mitigation",
+                      "model-merging",
+                      "multimodal-retrieval",
+                      "value-preference-alignment",
+                      "adversarial-robustness",
+                      "dataset-distillation",
+                      "person-reidentification",
+                      "multi-objective-optimization",
+                      "confidence-calibration",
+                      "low-rank-modeling",
+                      "nonnegative-matrix-factorization",
+                      "graph-structure-learning",
+                      "graph-manifold-regularization",
+                      "graph-neural-networks",
+                      "contrastive-learning",
+                      "pseudo-label-self-training",
+                      "sparse-representation",
+                      "bayesian-inference",
+                      "label-correlation-modeling",
+                      "parameter-efficient-fine-tuning",
+                      "latent-reasoning",
+                      "knowledge-distillation",
+                      "domain-adaptation",
+                      "pairwise-constraint-propagation",
+                      "classifier-ensemble",
+                      "partial-label-learning",
+                      "semi-supervised-learning",
+                      "class-imbalance",
+                      "noisy-label-learning",
+                      "multi-view-learning",
+                      "federated-learning",
+                      "zero-shot-learning",
+                      "open-vocabulary-recognition",
+                      "hyperspectral-images",
+                      "traffic-data",
+                      "underwater-images",
+                      "large-language-models",
+                      "vision-language-models",
+                      "weakly-supervised-learning",
+                      "large-vision-language-models"
+                    ],
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "keyword_id",
+                  "exact_quote",
+                  "evidence_field",
+                  "reason_zh"
+                ],
+                "type": "object",
+                "additionalProperties": false
+              },
+              "type": "array"
+            },
+            "remove_ids": {
+              "uniqueItems": true,
+              "type": "array",
+              "items": {
+                "enum": [
+                  "deep-clustering",
+                  "ensemble-clustering",
+                  "subspace-clustering",
+                  "multi-label-learning",
+                  "label-distribution-learning",
+                  "label-enhancement",
+                  "dimensionality-reduction",
+                  "image-segmentation",
+                  "data-imputation-recovery",
+                  "hallucination-mitigation",
+                  "model-merging",
+                  "multimodal-retrieval",
+                  "value-preference-alignment",
+                  "adversarial-robustness",
+                  "dataset-distillation",
+                  "person-reidentification",
+                  "multi-objective-optimization",
+                  "confidence-calibration",
+                  "low-rank-modeling",
+                  "nonnegative-matrix-factorization",
+                  "graph-structure-learning",
+                  "graph-manifold-regularization",
+                  "graph-neural-networks",
+                  "contrastive-learning",
+                  "pseudo-label-self-training",
+                  "sparse-representation",
+                  "bayesian-inference",
+                  "label-correlation-modeling",
+                  "parameter-efficient-fine-tuning",
+                  "latent-reasoning",
+                  "knowledge-distillation",
+                  "domain-adaptation",
+                  "pairwise-constraint-propagation",
+                  "classifier-ensemble",
+                  "partial-label-learning",
+                  "semi-supervised-learning",
+                  "class-imbalance",
+                  "noisy-label-learning",
+                  "multi-view-learning",
+                  "federated-learning",
+                  "zero-shot-learning",
+                  "open-vocabulary-recognition",
+                  "hyperspectral-images",
+                  "traffic-data",
+                  "underwater-images",
+                  "large-language-models",
+                  "vision-language-models",
+                  "weakly-supervised-learning",
+                  "large-vision-language-models"
+                ],
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "remove_ids",
+            "upsert_annotations",
+            "abstentions",
+            "input_issues"
+          ],
+          "type": "object",
+          "additionalProperties": false
+        }
+      ]
+    },
+    "verdict": {
+      "enum": [
+        "pass",
+        "revise",
+        "needs_review"
+      ]
+    }
+  },
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "required": [
+    "paper_id",
+    "verdict",
+    "issues",
+    "patch"
+  ]
+}

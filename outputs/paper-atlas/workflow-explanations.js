@@ -1,9 +1,9 @@
-window.WORKFLOW_EXPLANATIONS = [
+window.WORKFLOW_EXPLANATIONS=[
   {
     "id": "queries",
     "title": "来源与版本",
     "paragraphs": [
-      "主页清单定义实验室论文范围，标题、署名和发表情况提供身份核对线索。多源核对采用 OpenAlex 与 Semantic Scholar，有疑问时查原始发布页；确认标识与版本后，详情采集以 OpenAlex 为主、Semantic Scholar 补缺，并复用已有记录缓存。图中按信息的用途与采用过程组织步骤。",
+      "主页清单定义实验室论文范围，标题、署名和发表情况提供身份核对线索。多源核对采用 OpenAlex 与 Semantic Scholar，有疑问时查原始发布页；确认标识与版本后，详情采集以 OpenAlex 为主、Semantic Scholar 补缺。图中按信息的用途与采用过程组织五个概念阶段；当前默认构建只将本地采用快照投影为网页，不访问请求缓存，也不重新查询数据库、调用 AI 或推理。",
       "同一工作可有预印本和正式版，核对版本联系后优先采用正式版。会议与期刊的缩写、全称归并；同名作者结合单位和合作证据区分，人员分类采用实验室确认名册。字段原值、采用值与缺失情况见【检索汇总】。"
     ]
   },
