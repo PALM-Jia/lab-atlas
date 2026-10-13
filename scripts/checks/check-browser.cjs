@@ -21,7 +21,7 @@ const server=http.createServer((req,res)=>{
   page.on('pageerror',e=>errors.push(e.message));
   page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
   page.on('response',r=>{if(r.status()>=400&&!r.url().endsWith('/favicon.ico'))errors.push(r.status()+' '+r.url());});
-  const base='http://127.0.0.1:'+server.address().port;
+  const base=args.includes('--file')?require('node:url').pathToFileURL(site+path.sep).href.replace(/\/$/,''):'http://127.0.0.1:'+server.address().port;
   await page.route('**/*',route=>route.request().url().startsWith(base)?route.continue():route.abort());
   await page.goto(base+'/index.html');
   await page.waitForFunction(()=>document.getElementById('visible-count')?.textContent);

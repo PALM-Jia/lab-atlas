@@ -22,7 +22,10 @@ assert.equal(generation.model.lab_ready,lab.length,'Generation report has labora
 assert.equal(generation.model.lab_title_only,lab.filter(p=>!p.abstract).length,'Title-only laboratory input count');
 const generated=new Map(generation.coverage.items.map(p=>[p.id,p]));
 assert.equal(generated.size,data.nodes.length,'Generation rows duplicated or missing');
-const rows=new Map(retrieval.papers.map(p=>[p.id,p]));
+const rows=new Map([...retrieval.papers,...retrieval.external].map(p=>[p.id,p]));
+const network=read('network-evidence.json');
+if(retrieval.meta.semantic)assert.deepEqual(retrieval.meta.semantic,data.meta.semantic,'retrieval semantic metadata');
+if(network.meta?.semantic)assert.deepEqual(network.meta.semantic,data.meta.semantic,'network semantic metadata');
 for(const p of lab){
  assert.equal(p.semantic_status,'available',p.title);
  assert.equal(p.semantic_source,'本地 SPECTER2',p.title);
@@ -56,7 +59,21 @@ const pythonModel='{'+Object.keys(model).sort().map(k=>JSON.stringify(k)+': '+JS
 let vectors=0;
 for(const p of data.nodes){
  const report=generated.get(p.id);assert(report,'Generation row '+p.id);
- if(report.status!=='success'){assert(report.reason,'Explained failure '+p.id);continue;}
+ const field=rows.get(p.id).fields.vector;
+ const networkField=network.papers[p.id]?.fields.vector;
+ if(network.meta?.semantic&&network.papers[p.id])assert(networkField,p.id+' refreshed network vector field required');
+ if(networkField)assert.deepEqual(networkField,field,p.id+' network vector parity');
+ if(report.status!=='success'){
+  assert(report.reason||report.failure_summary,'Explained failure '+p.id);
+  assert.equal(field.state,'missing',p.id+' failed vector state');
+  assert.equal(field.dimensions,null,p.id+' failed vector dimensions');
+  assert.deepEqual(field.input,report.input??null,p.id+' failed vector input');
+  assert(field.explanation,p.id+' failure explanation');continue;
+ }
+ assert.deepEqual(field.input,p.semantic_input,p.id+' retrieval vector input');
+ assert.equal(field.model,p.semantic_model,p.id+' retrieval vector model');
+ assert.equal(field.dimensions,report.dimensions,p.id+' retrieval vector dimensions');
+ if(networkField)assert.deepEqual(networkField.input,report.input,p.id+' network vector input');
  const inputHash=sha((p.title||'').trim()+'[SEP]'+(p.abstract||'').trim());
  assert.equal(report.input.sha256,inputHash,p.id+' input digest');
  const key=sha(pythonModel+inputHash);assert.equal(report.vector_key,key,p.id+' model and input key');

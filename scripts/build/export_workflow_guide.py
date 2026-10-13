@@ -19,12 +19,8 @@ DISPLAY_IDS = {
 }
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output", type=Path, default=ROOT / "outputs/paper-atlas",
-                        help="Directory for generated browser JavaScript")
-    output = parser.parse_args().output
-    output.mkdir(parents=True, exist_ok=True)
+def projections() -> dict:
+    """Read adopted inputs and return browser payloads without writing files."""
     contract = json.loads(CONTRACT.read_text(encoding="utf-8"))
     stages = {}
     for stage in contract["stages"]:
@@ -50,10 +46,7 @@ def main() -> None:
         "featureProvenance": "特征保留文本输入、标注审核、规则或模型版本及署名权重。",
         "stages": stages,
     }
-    (output / "workflow-guide.js").write_text(
-        "window.WORKFLOW_GUIDE=" + json.dumps(payload, ensure_ascii=False, indent=2) + ";\n",
-        encoding="utf-8",
-    )
+    result = {"workflow-guide.js": ("WORKFLOW_GUIDE", payload)}
     titles = {DISPLAY_IDS[stage["id"]]: stage["title"] for stage in contract["stages"]}
     for source, target, variable in [
         ("map.json", "workflow-data.js", "WORKFLOW_MAP"),
@@ -64,8 +57,19 @@ def main() -> None:
         if source == "map.json":
             for number, stage in enumerate(projection["stages"], 1):
                 stage["label"] = chr(0x2460 + number - 1) + " " + titles[stage["id"]]
+        result[target] = (variable, projection)
+    return result
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--output", type=Path, default=ROOT / "outputs/paper-atlas",
+                        help="Directory for generated browser JavaScript")
+    output = parser.parse_args().output
+    output.mkdir(parents=True, exist_ok=True)
+    for target, (variable, payload) in projections().items():
         (output / target).write_text(
-            "window." + variable + "=" + json.dumps(projection, ensure_ascii=False, indent=2) + ";\n",
+            "window." + variable + "=" + json.dumps(payload, ensure_ascii=False, indent=2) + ";\n",
             encoding="utf-8",
         )
 

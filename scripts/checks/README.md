@@ -20,12 +20,15 @@ check-migration.cjs compares 22 fact files against the exact migration byte base
 
 check-semantic-provenance.cjs recomputes every adopted title/abstract digest and model/input vector key, then validates actual vector files, pinned model revisions, dimensions, finite values, L2 normalization, generation coverage and retrieval provenance.
 
+`python -B scripts/checks/test-semantic-refresh.py` uses an isolated fixture and stubbed inference to verify cached refresh without an existing report directory, changed input propagation, explained failure with cleared stale input, and preservation of unrelated retrieval/network evidence.
+
 Browser runtime checks (no installation):
 
 ```powershell
 $env:PLAYWRIGHT_MODULE = "C:/Users/lee/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright"
 $env:PLAYWRIGHT_EXECUTABLE = "C:/Users/lee/AppData/Local/ms-playwright/chromium_headless_shell-1228/chrome-headless-shell-win64/chrome-headless-shell.exe"
 node scripts/checks/check-browser.cjs --site work/rebuild-preview
+node scripts/checks/check-browser.cjs --site work/rebuild-preview --file
 ```
 
-The browser check serves the selected directory on localhost, blocks remote requests, exercises all three pages and reports JavaScript/console/HTTP errors. PLAYWRIGHT_EXECUTABLE is optional when the bundled Playwright browser is available. Browser process launch can be blocked by sandbox permissions (spawn EPERM); this is an execution limitation, not a passed browser check.
+The browser check serves the selected directory on localhost, or opens it directly with file:// when --file is supplied. It blocks remote requests, exercises all three pages and reports JavaScript/console/HTTP errors. PLAYWRIGHT_EXECUTABLE is optional when the bundled Playwright browser is available. Browser process launch can be blocked by sandbox permissions (spawn EPERM); this is an execution limitation, not a passed browser check.

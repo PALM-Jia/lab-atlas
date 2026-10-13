@@ -9,6 +9,9 @@ import shutil
 import subprocess
 import sys
 
+sys.dont_write_bytecode = True
+from export_workflow_guide import projections as workflow_projections
+
 ROOT = Path(__file__).resolve().parents[2]
 SITE = ROOT / 'outputs/paper-atlas'
 PROJECTIONS = {
@@ -59,11 +62,8 @@ def check(out):
     assert ids == set(read(ROOT/'data/atlas/paper-fields.json')['papers'])
     contract = read(ROOT/'data/workflow/contract.json')
     assert [s['id'] for s in contract['stages']] == ['homepage','identity','lab-details','external','features']
-    guide = assignment(out/'workflow-guide.js','WORKFLOW_GUIDE')
-    assert guide['schema'] == contract['schema']
-    for stage in contract['stages']:
-        mapped={'homepage':'import','identity':'locate','lab-details':'collect','external':'external','features':'features'}[stage['id']]
-        assert guide['stages'][mapped]['title']==stage['title']
+    for target, (variable, expected) in workflow_projections().items():
+        assert assignment(out/target, variable) == expected, 'Projection differs: '+target
     print('Offline check passed: %s nodes, %s edges, %s release files' % (len(ids),len(graph['edges']),len(dependencies())))
 
 def build(out):
