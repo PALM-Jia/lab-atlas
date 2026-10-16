@@ -10,7 +10,7 @@
     document.body.append(info);
   }
   info.setAttribute('aria-label', '数据来源与覆盖范围');
-  document.getElementById('info-content').innerHTML = `<p>论文信息以 OpenAlex 为主，Semantic Scholar 和原始发布页补充。</p><p>关键词由标题和可用摘要标注；研究领域用于筛选和染色。内容相似度使用本地 SPECTER2 向量。</p><p>外部文献来自实验室论文的引用与被引邻域，外部文献之间不绘制引用边。</p><p><a href="retrieval.html">查看字段来源与采集情况 ↗</a></p>`;
+  document.getElementById('info-content').innerHTML = `<p>基础论文事实、人员归属与引用关系来自实验室主页原始 HTML 快照、用户确认的实验室人员名单和 OpenAlex 数据库。主页原始字段持续保留。</p><p>论文关键词由标题和可用摘要在版本化的受控关键词词表内标注，每项均附连续原文证据；研究领域用于筛选和染色。内容相似度使用固定版本的本地 SPECTER2 语义向量。</p><p>外部文献来自实验室论文的一层引用与被引邻域。完整外部记录保留在数据层，网络节点仅纳入与至少两篇不同实验室论文存在直接关系的外部作品，外部文献之间不绘制引用边。</p><p><a href="retrieval.html">查看字段来源与采集情况 ↗</a></p>`;
   about.onclick = () => info.showModal();
   document.getElementById('close-info').onclick = () => info.close();
 })();

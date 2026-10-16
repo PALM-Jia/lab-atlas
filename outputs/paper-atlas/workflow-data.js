@@ -2,31 +2,31 @@ window.WORKFLOW_MAP={
   "stages": [
     {
       "id": "import",
-      "mode": "外部读取 · 自动",
-      "label": "① 读取主页清单"
+      "label": "① 整理实验室清单",
+      "mode": "本地解析 · 自动"
     },
     {
       "id": "locate",
-      "mode": "多源查询 · 自动，AI 按需",
       "fixed": true,
-      "label": "② 核对身份与版本"
+      "label": "② 核对论文与作者身份",
+      "mode": "OpenAlex 查询 · 规则判定"
     },
     {
       "id": "collect",
-      "mode": "按标识查询 · 自动",
       "fixed": true,
-      "label": "③ 采集论文详情"
+      "label": "③ 采集论文详情",
+      "mode": "OpenAlex 精确查询 · 自动"
     },
     {
       "id": "external",
-      "mode": "外部查询 · 自动",
       "fixed": true,
-      "label": "④ 补全引用记录"
+      "label": "④ 补全外部文献",
+      "mode": "OpenAlex 批量查询 · 自动"
     },
     {
       "id": "features",
-      "mode": "标注审核 · 本地计算",
-      "label": "⑤ 生成特征与画像"
+      "label": "⑤ 生成文献特征与作者画像",
+      "mode": "本地计算 / 固定标注 · 自动为主，AI 受控介入"
     }
   ],
   "tracks": [

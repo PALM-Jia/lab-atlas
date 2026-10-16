@@ -11,7 +11,17 @@ $('lifecycle-board').innerHTML=flow.html;
 const tooltip=document.createElement('div');tooltip.id='workflow-tooltip';tooltip.className='workflow-tooltip';tooltip.role='tooltip';tooltip.hidden=true;document.body.append(tooltip);
 const tipSelector='[data-flow-group],[data-flow-node],[data-flow-edge],[data-stage]';
 let tipTarget=null;
-const paragraphs=items=>items.filter(Boolean).slice(0,2).map(text=>`<p>${esc(text)}</p>`).join('');
+const inline=value=>{
+ const source=String(value??''),tokens=/\*\*([^*]+)\*\*|`([^`]+)`|\[([^\]]+)\]\(([^)]+)\)/g;let html='',cursor=0,match;
+ while((match=tokens.exec(source))){html+=esc(source.slice(cursor,match.index));
+  if(match[1])html+=`<strong>${esc(match[1])}</strong>`;
+  else if(match[2])html+=`<code>${esc(match[2])}</code>`;
+  else {const href=match[4].trim();if(/^(?:https?:\/\/|[A-Za-z0-9_./?#=&%-]+$)/.test(href)){const external=/^https?:\/\//.test(href);html+=`<a href="${esc(href)}"${external?' target="_blank" rel="noopener"':''}>${esc(match[3])}</a>`;}else html+=esc(match[0]);}
+  cursor=tokens.lastIndex;
+ }
+ return html+esc(source.slice(cursor));
+};
+const paragraphs=items=>items.filter(Boolean).slice(0,8).map(text=>`<p>${inline(text)}</p>`).join('');
 function tipContent(target){
  if(target.dataset.flowGroup)return paragraphs([WORKFLOW_FLOW.rows.find(r=>r.id===target.dataset.flowGroup).description]);
  if(target.dataset.flowNode)return paragraphs([flow.nodes.get(target.dataset.flowNode).description]);
@@ -25,8 +35,41 @@ for(const event of ['pointerover','pointermove','focusin'])document.addEventList
 document.addEventListener('pointerout',e=>{if(tipTarget&&e.target instanceof Element&&e.target.closest(tipSelector)===tipTarget&&(!(e.relatedTarget instanceof Element)||e.relatedTarget.closest(tipSelector)!==tipTarget))hideTip();});
 document.addEventListener('focusout',hideTip);document.addEventListener('scroll',hideTip,true);window.addEventListener('resize',hideTip);document.addEventListener('keydown',e=>{if(e.key==='Escape')hideTip();});
 
-// Supplemental explanations stay visible regardless of selection.
-$('inspector').innerHTML='<div class="explanation-prose">'+window.WORKFLOW_EXPLANATIONS.map(section=>`<article id="explain-${esc(section.id)}" class="explanation-section"><h2>${esc(section.title)}</h2>${section.paragraphs.map(p=>`<p>${esc(p).replace('【检索汇总】','<a href="retrieval.html">检索汇总</a>')}</p>`).join('')}</article>`).join('')+'</div>';
+// The page is a persistent process description. Runtime coverage and queues
+// belong to collection artifacts, not to this reader-facing page.
+$('workflow-explanations').innerHTML='<div class="explanation-prose">'+window.WORKFLOW_EXPLANATIONS.map(section=>`<article id="explain-${esc(section.id)}" class="explanation-section"><h2>${esc(section.title)}</h2>${paragraphs(section.paragraphs)}${(section.callouts||[]).map(text=>`<blockquote class="explanation-callout">${inline(text)}</blockquote>`).join('')}</article>`).join('')+'</div>';
+// A quiet table of contents keeps long-form explanations navigable while
+// leaving the chart itself uncluttered.  The active entry follows the scroll
+// position of the page's own main scroll container.
+const tocTargets=[
+ {id:'panel-lifecycle',label:'流程图'},
+ ...window.WORKFLOW_EXPLANATIONS.map(section=>({
+  id:`explain-${section.id}`,
+  label:section.title
+ }))
+];
+const toc=$('workflow-toc');
+toc.innerHTML='<div class="workflow-toc-title">目录</div><nav>'+tocTargets.map((item,i)=>`<a href="#${esc(item.id)}" data-toc-target="${esc(item.id)}" title="${esc(item.label)}"${i===0?' aria-current="location"':''}>${esc(item.label)}</a>`).join('')+'</nav>';
+const tocButtons=[...toc.querySelectorAll('[data-toc-target]')];
+const updateToc=()=>{
+ const main=document.querySelector('main'),inspector=$('inspector'),mainTop=main?.getBoundingClientRect().top??0,threshold=mainTop+36;
+ const bounds=inspector?.getBoundingClientRect();
+ if(bounds){
+  const available=innerWidth-bounds.right-28;
+  const tocWidth=Math.min(148,Math.max(0,available));
+  const top=Math.max(88,Math.min(bounds.top,innerHeight-180));
+  const bottom=Math.min(bounds.bottom,innerHeight-16);
+  const visible=bounds.bottom>100&&bounds.top<innerHeight-70&&bottom-top>80&&tocWidth>=90;
+  toc.hidden=!visible;
+  if(visible){toc.style.left=`${bounds.right+28}px`;toc.style.width=`${tocWidth}px`;toc.style.top=`${top}px`;toc.style.maxHeight=`${Math.max(80,bottom-top)}px`;}
+ }
+ let active=tocTargets[0];
+ for(const item of tocTargets){const element=document.getElementById(item.id);if(element&&element.getBoundingClientRect().top<=threshold)active=item;}
+ tocButtons.forEach(button=>{const on=button.dataset.tocTarget===active.id;button.classList.toggle('active',on);if(on)button.setAttribute('aria-current','location');else button.removeAttribute('aria-current');});
+};
+toc.addEventListener('click',event=>{const button=event.target.closest('[data-toc-target]');if(!button)return;event.preventDefault();document.getElementById(button.dataset.tocTarget)?.scrollIntoView({behavior:'smooth',block:'start'});});
+document.querySelector('main').addEventListener('scroll',updateToc,{passive:true});
+window.addEventListener('resize',updateToc);updateToc();
 function choose(kind,id,persist=true){
  if(kind==='info'&&!information.has(id))return;
  if(kind==='action'&&!flow.nodes.get(id)?.process)return;
@@ -62,3 +105,4 @@ document.addEventListener('click',e=>{if(!(e.target instanceof Element)||e.targe
 document.addEventListener('keydown',e=>{if(e.key==='Escape')choose('all');});
 window.addEventListener('hashchange',restore);restore();
 })();
+

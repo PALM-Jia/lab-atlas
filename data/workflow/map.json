@@ -1,27 +1,22 @@
 {
   "stages": [
     {
-      "id": "import",
-      "mode": "外部读取 · 自动"
+      "id": "import"
     },
     {
       "id": "locate",
-      "mode": "多源查询 · 自动，AI 按需",
       "fixed": true
     },
     {
       "id": "collect",
-      "mode": "按标识查询 · 自动",
       "fixed": true
     },
     {
       "id": "external",
-      "mode": "外部查询 · 自动",
       "fixed": true
     },
     {
-      "id": "features",
-      "mode": "标注审核 · 本地计算"
+      "id": "features"
     }
   ],
   "tracks": [

@@ -2,6 +2,7 @@
 (() => {
   const PITCH = 40 * Math.PI / 180;
   const MIN_PITCH=10*Math.PI/180,MAX_PITCH=80*Math.PI/180;
+  const LATEST_YEAR=2027;
   const finite = (v, fallback = 0) => Number.isFinite(Number(v)) ? Number(v) : fallback;
   const clamp = (v,a,b) => Math.max(a,Math.min(b,v));
   const extent = values => values.length ? [Math.min(...values),Math.max(...values)] : [2000,2001];
@@ -9,7 +10,7 @@
   const getHistoryHelper=()=>typeof window!=='undefined'?window.ATLAS_TIMELINE_HISTORY:(typeof require==='function'?require('./timeline-history.js'):null);
   const publicationYear = paper => {
     const helper=getHistoryHelper();if(helper)return helper.publicationYear(paper);
-    return Number.isFinite(paper.year)&&paper.year>0?Math.floor(paper.year):null;
+    return Number.isFinite(paper.year)&&paper.year>0?Math.floor(paper.year):LATEST_YEAR;
   };
   // Orthographic projection: x/y span a horizontal plane; z is vertical time.
   function projectPoint(point,camera={},width=1,height=1){
@@ -180,7 +181,7 @@
       }
       ctx.globalAlpha=1;ctx.shadowBlur=0;ctx.font='12px sans-serif';
       if(screenPlanes.length){const top=Math.max(28,Math.min(...screenPlanes.map(p=>p.y))-20),bottom=Math.min(height-18,Math.max(...screenPlanes.map(p=>p.y))+22),axisX=22;ctx.strokeStyle='#a5aebb';ctx.fillStyle='#657184';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(axisX,bottom);ctx.lineTo(axisX,top);ctx.moveTo(axisX-4,top+7);ctx.lineTo(axisX,top);ctx.lineTo(axisX+4,top+7);ctx.stroke();ctx.fillText('年份 · z',12,Math.max(14,top-9));for(const p of screenPlanes)if(p.y>20&&p.y<height-12){ctx.beginPath();ctx.moveTo(axisX-3,p.y);ctx.lineTo(axisX+3,p.y);ctx.stroke();ctx.fillText(p.label,axisX+9,p.y+4);}}
-      ctx.globalAlpha=1;if(projected.some(p=>p.node.unknown)){const p=projection({x:-220,y:layout.radius+95,z:-layout.height/2-80});ctx.fillStyle='#768091';ctx.fillText('年份未知',p.x,p.y+27);}lastDrawMs=performance.now()-started;
+      ctx.globalAlpha=1;lastDrawMs=performance.now()-started;
     }
     function fit(){
       onHover(null);hoverId=null;camera.panX=0;camera.panY=0;

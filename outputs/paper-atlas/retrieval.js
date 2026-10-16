@@ -5,18 +5,18 @@
  const paperMap=new Map([...D.papers,...(D.external||[])].map(p=>[p.id,p])),authorMap=new Map(D.authors.map(a=>[a.id,a]));
  const names={title:'标题',authors:'作者',year:'年份',venue:'会议／期刊',abstract:'摘要',references:'参考文献',citing:'施引文献',citations:'被引次数',keywords:'关键词',topics:'OpenAlex 研究主题',vector:'内容相似度向量',identity:'论文链接'};
  const paperColumnHelp={
-  "title": "同一篇论文在不同来源中的标题。以实验室主页为起点，与数据库、论文发布页核对；加粗的是采用标题，其余是来源中的不同写法。",
-  "authors": "论文作者及署名顺序。来自实验室主页、数据库和论文发布页；已确认的姓名变体合并，作者增减或顺序不同则并列保留。",
-  "year": "论文的发表年份，来自主页、数据库或论文发布页。主页列为预印本的显示“预印”；来源提供的年份仍保留，供对照版本差异。",
-  "venue": "论文发表的会议或期刊，来自主页、数据库或正式论文页。简称与全称合并；预印本和正式发表记录分别保留。",
-  "abstract": "从数据库或论文发布页取得的摘要。用于关键词标注和内容相似度计算；点击查看完整摘要。",
+  "title": "同一篇论文的主页标题与 OpenAlex 候选标题。加粗的是身份核对后采用的标题，其他观察值保留作版本对照。",
+  "authors": "论文作者及署名顺序。主页署名与 OpenAlex 署名分别保存；已确认的姓名变体合并，作者增减或顺序差异并列保留。",
+  "year": "论文的发表年份，来自主页发表情况与 OpenAlex 记录。主页标为预印本时显示“预印”；不同年份保留作版本对照。",
+  "venue": "论文发表的会议或期刊，来自主页发表情况与 OpenAlex 记录。简称与全称归一；预印本和正式发表记录分别保留。",
+  "abstract": "从确认 OpenAlex work ID 的精确详情取得的摘要。用于关键词标注和内容相似度计算；点击查看完整摘要。",
   "references": "这篇论文引用的文献，从 OpenAlex 参考名单取得。按数据库标识查找标题等详情，未取得标题的条目保留标识。",
   "citing": "引用这篇论文的文献，来自 OpenAlex 施引查询。来源报告的总数、取得的名单和文献详情分别统计。",
-  "citations": "数据库报告的被引次数，依次优先采用 OpenAlex 施引查询、OpenAlex 论文记录、Semantic Scholar、Crossref。不同来源的数字并列；S2 是 Semantic Scholar 的简称。",
-  "keywords": "从 49 个关键词中按论文标题及可用摘要标注，由 DeepSeek V4.1 Flash 标注、GPT-6.1 Sol 复核。点击查看原文依据和采用理由；“无匹配关键词”是有效空结果，“标注未采用”不参与关键词统计。",
+  "citations": "OpenAlex 报告的被引次数：优先采用施引查询总数，主记录计数作为对照；名单长度不替代被引总数。",
+  "keywords": "依据论文标题和可用摘要，从版本化的受控关键词词表标注；每个关键词附连续原文证据。点击查看证据和采用理由；“无匹配关键词”是有效空结果，“标注未采用”不参与关键词统计。",
   "topics": "从匹配的 OpenAlex 记录读取研究主题及相关度，用于查看数据库分类结果。",
   "vector": "在本地用 SPECTER2 把论文标题及可用摘要转换为 768 维数值，用于计算内容相似度。没有摘要时只用标题。",
-  "identity": "论文对应的 DOI 和数据库记录链接。通过题名、作者及版本信息核对后采用；这些标识用于查询该论文的主题、引用等数据。"
+  "identity": "论文确认后的 OpenAlex work ID、DOI 和相关链接。通过题名、作者及版本信息核对后采用；work ID 用于查询论文详情和引用关系。"
 };
  const authorColumnHelp={
   "name": "合并已确认姓名写法后的作者姓名，结合论文署名、实验室名册及身份资料确定。同名但无法确认是同一人的记录分开保留。",
@@ -88,12 +88,13 @@
   if(!full){
    const shortName=name=>({'OpenAlex 施引查询':'OpenAlex·施引','OpenAlex':'OpenAlex','Semantic Scholar':'S2','Crossref':'Crossref'}[name]||name);
    const item=o=>`<button class="count-link citation-count${o.adopted?' adopted':''}" data-paper="${esc(p.id)}" data-section="field-citations" title="${esc(o.sources.map(s=>s.name).join('、'))}${o.adopted?'；采用值':''}">${o.value}<span class="citation-provider">${esc(o.sources.map(s=>shortName(s.name)).join('/'))}</span></button>`;
-   const adopted=f.observations.find(o=>o.adopted)||f.observations[0];
+   const observations=f.observations||[];
+   const adopted=observations.find(o=>o.adopted)||observations[0];
    if(!adopted)return `<button class="count-link" data-paper="${esc(p.id)}" data-section="field-citations">未取得</button>`;
-   const others=f.observations.filter(o=>o!==adopted);
+   const others=observations.filter(o=>o!==adopted);
    return `<div class="citation-primary">${item(adopted)}</div>`+(others.length?`<div class="citation-alternatives">${others.map(item).join('<span class="muted"> · </span>')}</div>`:'');
   }
-  const failures=f.attempts.filter(a=>a.state!=='ready').map(a=>`<div class="source" title="${esc(a.reason)}">${esc(a.name)} · ${esc(full?a.reason:/HTTP \d+/.exec(a.reason)?.[0]||(/DataCite/.test(a.reason)?'DataCite DOI':a.state==='review'?'身份待核对':/DOI/.test(a.reason)?'无 DOI':'无可用计数'))}</div>`).join('');
+   const failures=(f.attempts||[]).filter(a=>a.state!=='ready').map(a=>`<div class="source" title="${esc(a.reason)}">${esc(a.name)} · ${esc(full?a.reason:/HTTP \d+/.exec(a.reason)?.[0]||(/DataCite/.test(a.reason)?'DataCite DOI':a.state==='review'?'身份待核对':/DOI/.test(a.reason)?'无 DOI':'无可用计数'))}</div>`).join('');
   return observationMarkup(f,v=>`<span class="value">${v}</span>`)+(f.observations.length?'':badge('missing'))+failures;
  }
  function coverage(){
@@ -126,7 +127,7 @@
  function filtered(){
   const query=state.search.trim().toLowerCase(),isPaper=state.view!=='authors';
   let rows=(isPaper?(state.view==='external'?D.external:D.papers):D.authors).filter(row=>{
-   const text=isPaper?[row.title,...paperKeys.flatMap(k=>(row.fields[k].observations||[]).flatMap(o=>[observedText(o.value),...o.sources.map(s=>s.originalValue||'')])),...row.fields.authors.value.flatMap(a=>[a.name,authorMap.get(a.id)?.chinese||'']),row.fields.venue.value.name,row.fields.venue.value.year,...row.fields.keywords.value.map(k=>k.name)].join(' '):[row.name,row.chinese,...row.aliases,...row.keywords.map(k=>k.name)].join(' ');
+   const text=isPaper?[row.title,...paperKeys.flatMap(k=>(row.fields[k]?.observations||[]).flatMap(o=>[observedText(o.value),...(o.sources||[]).map(s=>s.originalValue||'')])),...(row.fields.authors?.value||[]).flatMap(a=>[a.name,authorMap.get(a.id)?.chinese||'']),row.fields.venue?.value?.name,row.fields.venue?.value?.year,...(row.fields.keywords?.value||[]).map(k=>k.name)].join(' '):[row.name,row.chinese,...row.aliases,...row.keywords.map(k=>k.name)].join(' ');
    if(query&&!window.atlasSearchMatch(text,query))return false;
    if(isPaper&&state.source!=='all'&&!paperProviders(row).includes(state.source))return false;
    if(!isPaper&&state.group!=='all'&&row.group!==state.group)return false;

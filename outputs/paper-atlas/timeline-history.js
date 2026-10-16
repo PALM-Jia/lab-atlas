@@ -6,6 +6,9 @@
   if (root) root.ATLAS_TIMELINE_HISTORY = api;
 })(typeof window === 'object' ? window : null, function (sharedSelector) {
   'use strict';
+  // The atlas year range ends at 2027; records without a usable publication
+  // year are placed in that latest slice so they remain visible by default.
+  const LATEST_YEAR = 2027;
   function validYear(value) {
     return Number.isInteger(value) && value > 0 ? value : null;
   }
@@ -17,7 +20,7 @@
   }
   function publicationYear(paper) {
     const versions = (paper.versions || []).map(v => datedYear(v.publication_date) || datedYear(v.date) || validYear(v.year)).filter(y => y !== null);
-    return versions.length ? Math.min(...versions) : datedYear(paper.publication_date) || validYear(paper.year);
+    return versions.length ? Math.min(...versions) : datedYear(paper.publication_date) || validYear(paper.year) || LATEST_YEAR;
   }
   function citationAt(entry, year) {
     const available = !!entry && entry.status !== 'missing';

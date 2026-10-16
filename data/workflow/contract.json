@@ -1,103 +1,189 @@
 {
-  "schema": "lab-atlas-workflow-contract/v1",
-  "purpose": "描述论文信息从主页清单到网页展示投影的五个概念阶段及交接边界；外部收集和特征生成属于采用结果的形成过程，当前默认构建只读取本地采用快照生成网页，不重新查询数据库、调用 AI 或推理。",
-  "principles": [
-    "每个阶段交接输入证据、采用输出、来源方法和未决状态。",
-    "原始观察值与采用值同时保留；未决项不被空值或推断覆盖。",
-    "网页页面是数据投影，不产生新的事实。"
-  ],
-  "authoritative_inputs": [
-    {
-      "path": "data/atlas/data.json",
-      "role": "网络节点、边和上游论文快照"
-    },
-    {
-      "path": "data/atlas/retrieval-data.json",
-      "role": "论文检索证据与采用值投影"
-    },
-    {
-      "path": "data/atlas/paper-keywords.json",
-      "role": "受控关键词及标注状态"
-    },
-    {
-      "path": "data/atlas/paper-fields.json",
-      "role": "研究领域投影"
-    },
-    {
-      "path": "data/atlas/network-evidence.json",
-      "role": "网络关系的字段证据"
-    }
-  ],
-  "derived_projections": [
-    "outputs/paper-atlas/data.js",
-    "outputs/paper-atlas/retrieval-data.js",
-    "outputs/paper-atlas/paper-keywords.js",
-    "outputs/paper-atlas/paper-fields.js"
-  ],
+  "schema": "lab-atlas-two-source/v1",
+  "rules_version": "1.13",
+  "purpose": "说明实验室论文从主页清单到论文、作者、引用特征和画像的标准处理边界、阶段交接、证据规则与 AI 介入方式。",
+  "generated_from": "data/two-source/protocol.json",
   "stages": [
     {
       "id": "homepage",
-      "title": "读取主页清单",
-      "mode": "外部读取",
+      "inputs": [
+        "实验室主页原始 HTML 快照。",
+        "主页地址和原始文件指纹。",
+        "用户确认的实验室人员名单。"
+      ],
+      "outputs": [
+        "01-homepage.json",
+        "source-manifest.json"
+      ],
+      "process": "Parse and deduplicate exact normalized titles; preserve raw paragraphs, occurrences and link identifiers. No external publisher visits.",
+      "acceptance": "Every publication paragraph is imported or has an explicit parser reason. Duplicate occurrences are recorded, not counted as failures.",
+      "title": "整理实验室清单",
+      "mode": "本地解析",
       "automation": "自动",
-      "inputs": ["实验室主页论文列表"],
-      "adopted_outputs": ["主页标题", "主页作者名字", "主页发表情况", "主页链接"],
-      "evidence": ["主页原文", "抓取时间"],
-      "unresolved": ["主页条目尚未对应到数据库记录"],
-      "handoff": "将主页原值和条目编号交给身份核对，不在本阶段改写原值。"
+      "adopted_outputs": [
+        "`01-homepage.json` 与主页原始文件指纹。",
+        "论文展示记录（occurrence）列表。",
+        "去重后的唯一论文列表（含主页标题、署名、发表情况与链接）。",
+        "解析失败和排除项列表。"
+      ],
+      "description": "解析实验室主页原始 HTML，保留每次论文展示的原文与位置，并去重生成唯一论文记录。",
+      "handoff": "去重后的唯一论文列表、主页内含的标识符以及用户确认的实验室人员名单交给“核对论文与作者身份”。主页原始标题、署名和发表情况同时作为候选检索线索与后续比对基准。",
+      "evidence": [
+        "主页原始快照及输入指纹",
+        "解析规则",
+        "重复展示记录"
+      ],
+      "unresolved": [
+        "已确认（`ready`）、字段缺失（`missing`）、内容无效（`invalid`）。"
+      ]
     },
     {
       "id": "identity",
-      "title": "核对身份与版本",
-      "mode": "外部查询 + 本地归并",
-      "automation": "规则优先，疑难项可由 AI 辅助",
-      "inputs": ["主页标题", "主页作者名字", "主页发表情况", "OpenAlex 候选", "Semantic Scholar 候选", "按需访问的原始发布页"],
-      "adopted_outputs": ["论文标题", "作者名字", "论文录用情况", "OpenAlex ID", "Semantic Scholar paperId", "DOI/arXiv ID", "版本对应关系"],
-      "evidence": ["各来源候选原值", "候选来源和查询状态", "采用值", "采用理由"],
-      "unresolved": ["未确定对应记录", "多个版本无法唯一归并", "来源之间仍有未解释冲突"],
-      "handoff": "只把已确认的标识和版本交给详情查询；身份字段的冲突回到本阶段处理。"
+      "inputs": [
+        "阶段一去重后的主页论文记录（原始标题、署名、年份、发表情况、DOI / arXiv 标识）。",
+        "OpenAlex 搜索接口返回的候选记录。",
+        "用户确认的实验室人员名单。"
+      ],
+      "outputs": [
+        "02-identity.json",
+        "02-author-occurrences.json",
+        "02-review-queue.json"
+      ],
+      "process": "Validate candidates using identifiers/title/byline/year/version. Freeze identity fields. Never merge people from name equality alone.",
+      "acceptance": "One decision per homepage paper; all unaccepted papers list actual queries and candidate rejection metrics. Optional AI audit is separate and cannot silently change adopted identity.",
+      "title": "核对论文与作者身份",
+      "mode": "OpenAlex 查询",
+      "automation": "规则判定",
+      "adopted_outputs": [
+        "采用的论文标题、作者名字及顺序、论文录用情况。",
+        "确认的 OpenAlex work ID、版本状态与判断依据。",
+        "候选列表、查询路径、候选评分与决策指纹。",
+        "逐篇作者署名记录（occurrence）列表。",
+        "未确认论文的主页保留记录与未确定状态。"
+      ],
+      "description": "按固定路径检索 OpenAlex 身份字段，联合核对标题、署名、年份、载体与版本关系，确认唯一作品标识并提取逐篇作者署名。",
+      "handoff": "确认的 OpenAlex work ID 与身份签名交给“采集论文详情”；逐篇作者 occurrence 交给阶段五的人员归一流程；未确认论文保留主页记录与全部查询路径，详情字段保持身份未确定状态（`identity_unresolved`）。",
+      "evidence": [
+        "身份查询响应",
+        "查询路径与候选指标",
+        "采用决策指纹",
+        "作者 ID、ORCID 和署名单位置"
+      ],
+      "unresolved": [
+        "已确认（`ready`）、身份未确定（`identity_unresolved`）、多候选歧义（`ambiguous`）、查询失败（`query_failed`）、字段缺失（`missing`）。"
+      ]
     },
     {
       "id": "lab-details",
+      "inputs": [
+        "阶段二确认的 OpenAlex work ID。",
+        "阶段二锁定的论文身份签名（ID、规范化标题、DOI、有序作者、年份、发表载体、正式版状态）。"
+      ],
+      "outputs": [
+        "03-lab-details.json"
+      ],
+      "process": "Fresh exact-ID detail query and cursor-based citing query. Preserve work-record count and citing-query total separately. Identity drift returns to stage 2 rather than mutating identity.",
+      "acceptance": "One status for every expected field of every lab paper; zero, empty, missing and query failure are distinct; pagination bounds and truncation explicit.",
       "title": "采集论文详情",
-      "mode": "按标识外部查询",
-      "automation": "自动采集与字段归并",
-      "inputs": ["已确认标识", "已确认版本"],
-      "adopted_outputs": ["摘要", "数据库关键词", "数据库主题", "被引数", "引用文献", "被引记录"],
-      "evidence": ["OpenAlex 主记录", "Semantic Scholar 字段补缺", "按需访问的原始发布页", "查询时间", "字段状态"],
-      "unresolved": ["字段缺失", "来源查询失败", "两份引用记录的收集范围不足"],
-      "handoff": "本阶段不重新判定标题、作者或发表情况；把两份引用记录中的外部标识交给外部文献补全。"
+      "mode": "OpenAlex 精确查询",
+      "automation": "自动",
+      "adopted_outputs": [
+        "经过质量检查的摘要。",
+        "数据库关键词（OpenAlex `keywords`）与数据库主题（OpenAlex `topics`）。",
+        "被引数（含多观察值对照）与年度被引数。",
+        "引用文献 ID 列表与被引记录 ID 列表。",
+        "字段状态、分页状态与身份漂移检查记录。"
+      ],
+      "description": "对阶段二确认的 OpenAlex work ID 重新执行精确查询，采集论文内容、统计指标和双向引用名单。",
+      "handoff": "确认的实验室论文标题与合格摘要交给“生成文献特征”；实验室论文 ID 集合、引用文献 ID 列表和被引记录 ID 列表交给“补全外部文献”。",
+      "evidence": [
+        "精确查询响应及指纹",
+        "字段质量检查",
+        "被引分页和截断状态",
+        "身份签名比较"
+      ],
+      "unresolved": [
+        "已确认（`ready`）、明确为空（`empty`）、字段缺失（`missing`）、结果部分取得（`partial`）、内容无效（`invalid`）、查询失败（`query_failed`）、身份未确定（`identity_unresolved`）。"
+      ]
     },
     {
       "id": "external",
-      "title": "补全引用记录",
-      "mode": "外部查询 + 本地去重归并",
-      "automation": "规则优先",
-      "inputs": ["引用文献", "被引记录"],
-      "adopted_outputs": ["外部文献信息", "引用文献（补全后）", "被引记录（补全后）"],
-      "evidence": ["外部论文标识", "外部论文查询结果", "匹配与去重记录", "各方向收集状态"],
-      "unresolved": ["外部论文身份未确定", "外部详情缺失", "未接入的施引名单补缺"],
-      "handoff": "只扩展一层外部论文；不建立外部论文之间的引用关系，也不按名单长度重算被引数。"
+      "inputs": [
+        "阶段三确认的实验室论文 ID 集合。",
+        "实验室论文的引用文献 ID 列表。",
+        "实验室论文的被引记录 ID 列表。"
+      ],
+      "outputs": [
+        "04-external.json",
+        "04-relations.json",
+        "04-graph-selection.json"
+      ],
+      "process": "Lookup every unique one-hop ID, deduplicate by OpenAlex ID, annotate both lists with metadata results. Never recurse through external references. Rank graph subset independently.",
+      "acceptance": "One lookup result per requested external ID; every relation has origin/direction and resolved or missing endpoint status.",
+      "title": "补全外部文献",
+      "mode": "OpenAlex 批量查询",
+      "automation": "自动",
+      "adopted_outputs": [
+        "外部文献信息（每个外部 ID 的请求 ID、canonical ID、查询状态、标题、作者、年份、载体、摘要、被引数、topics、keywords、关联实验室论文、关系方向及失败原因）。",
+        "引用文献（补全后）与被引记录（补全后）。",
+        "满足至少连接两篇不同实验室论文门槛的网络节点集合。"
+      ],
+      "description": "沿实验室论文的一层引用和被引名单查询外部作品详情，合并重定向记录并筛选双连接核心网络节点。",
+      "handoff": "符合网络筛选条件的外部论文标题与合格摘要（连同实验室论文标题与摘要）交给阶段五生成文献特征；补全后的双向引用关系与网络节点集合提供给可视化网络与检索汇总页面。",
+      "evidence": [
+        "每个外部 ID 的查询归宿",
+        "canonical ID 合并记录",
+        "关系方向",
+        "网络筛选依据"
+      ],
+      "unresolved": [
+        "已确认（`ready`）、明确为空（`empty`）、字段缺失（`missing`）、结果部分取得（`partial`）、查询失败（`query_failed`）。"
+      ]
     },
     {
       "id": "features",
-      "title": "生成特征与画像",
-      "mode": "本地处理",
-      "automation": "规则、模型与有限 AI 标注",
-      "inputs": ["论文标题", "可用摘要", "受控关键词词表", "作者名字", "确认的实验室署名"],
-      "adopted_outputs": ["论文关键词", "研究领域标签", "语义向量", "作者关键词画像", "作者语义关联"],
-      "evidence": ["文本输入指纹", "标注/审核来源", "规则或模型版本", "署名权重", "向量生成记录"],
-      "unresolved": ["摘要缺失时仅使用标题", "关键词无匹配", "领域无法归类", "向量生成失败"],
-      "handoff": "输出供网络和检索汇总页面读取；论文关键词、研究领域和语义向量读取已采用结果；作者画像与关联按当前筛选范围计算。"
+      "inputs": [
+        "实验室论文及入选网络外部论文的锁定标题与合格摘要（无摘要时仅用标题，保存精确输入指纹）。",
+        "固定版本的本地 SPECTER2 模型配置与权重。",
+        "版本化的受控关键词词表（含关键词 ID、中英文名称、定义、同义词、所属维度、父级词、使用边界）与固定 prompt。",
+        "满足严格输入一致性条件的旧关键词标注。",
+        "阶段二提取的逐篇作者 occurrence、OpenAlex 作者信息、用户实验室人员名单及固定同名分离约束。"
+      ],
+      "outputs": [
+        "05-feature-inputs.json",
+        "05-feature-status.json",
+        "05-keyword-tasks.jsonl",
+        "05-features.json"
+      ],
+      "process": "Generate pinned local SPECTER2 vectors. Reuse legacy keyword annotations only for identical or formatting-equivalent complete text and identical vocabulary, validating every literal quote. Queue all remaining tasks. Aggregate provisional profiles without name-only merging, using first-author weight 1, others 0.2; advisor-first/student-second counts as first.",
+      "acceptance": "Every vector is checked for model/input hash/dimension/norm. Keyword statuses distinguish not-run and accepted empty. Only completed tasks can feed keyword/field profiles.",
+      "title": "生成文献特征与作者画像",
+      "mode": "本地计算 / 固定标注",
+      "automation": "自动为主，AI 受控介入",
+      "adopted_outputs": [
+        "研究领域标签、带连续原文证据的版本化的受控论文关键词、本地 SPECTER2 语义向量。",
+        "人员归一映射结果（occurrence ID、临时或已确认人员键、归一来源、证据链、人员分类与状态）及阻塞/警告队列。",
+        "作者画像（人员键、显示姓名、分类、身份状态、参与论文及权重、有效关键词论文数、关键词分数、完整或部分状态及依赖项）与语义关联依据。"
+      ],
+      "description": "基于锁定的论文文本、版本化的受控关键词词表和人员证据链，生成 SPECTER2 语义向量、受控关键词、研究领域标签及加权作者画像。",
+      "handoff": "向量、论文关键词、研究领域、人员映射和作者画像保存输入、模型与规则指纹，经过机械验收后进入数据快照和前端网络。",
+      "evidence": [
+        "模型版本与输入指纹",
+        "关键词逐条原文引文",
+        "人员对应证据链",
+        "署名权重和画像计算规则"
+      ],
+      "unresolved": [
+        "已确认（`ready`）、明确为空（`empty`）、待生成（`not_generated`）、非阻塞警告（`warning`）、多候选歧义（`ambiguous`）、结果部分取得（`partial`）、内容无效（`invalid`）。"
+      ]
     }
   ],
   "field_semantics": {
-    "database_keywords": "数据库原始关键词及分数；不等同于本站受控关键词。",
-    "controlled_keywords": "由实验室受控词表对标题和可用摘要标注、审核后采用的词项。",
-    "cited_by_count": "来源报告的被引总数；不等同于当前已取得的被引名单长度。",
-    "citing_query_total": "施引查询在某次快照中返回的统计值，与论文记录中的被引数分别保存。",
-    "references": "论文引用的文献列表。",
-    "citing_records": "引用该论文的文献列表。"
-  },
-  "status_values": ["ready", "partial", "missing", "review", "empty", "excluded"]
+    "database_keywords": "OpenAlex 原生词项及分数，与版本化的受控关键词分开。",
+    "controlled_keywords": "依据版本化的受控关键词词表从论文标题和有效摘要生成，并保存逐条原文证据；旧标注只有在输入和引文一致时复用。",
+    "cited_by_count": "优先被引查询报告总数，主记录计数另存；不采用名单长度。",
+    "references": "论文引用的作品ID及详情状态。",
+    "citing_records": "引用该论文的作品ID及分页、完整性和详情状态。",
+    "person_identity": "与逐篇署名分开的人员对应；同名不能直接合并。"
+  }
 }

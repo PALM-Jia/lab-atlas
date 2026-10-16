@@ -21,12 +21,13 @@
   const semanticPaperEdges=D.edges.filter(e=>e.kind==='semantic'&&nodeMap.get(e.source)?.lab&&nodeMap.get(e.target)?.lab);
   const kinds = {citation:'直接引用',coupling:'共同参考文献',cocitation:'共同被引',author:'共同作者',author_keyword:'论文关键词分布相似',keyword:'论文关键词重合',semantic:'标题与摘要相似',author_semantic:'标题与摘要相似',institution:'共同机构'};
   const yearBounds=[2010,2027];
+  const latestYear=yearBounds[1];
   let savedState={};
   try{savedState=JSON.parse(window.localStorage?.getItem('paper-atlas-state-v1')||'{}')||{};}catch{}
-  const state = {view:'papers',field:'',search:'',authorshipMode:'muted',yearFrom:2023,yearTo:2027,unknownYears:true,external:true,relation:'citation',authorRelation:'coauthor',authorGroup:'',hub:false,selected:null};
+  const state = {view:'papers',field:'',search:'',authorshipMode:'muted',yearFrom:2023,yearTo:latestYear,external:true,relation:'citation',authorRelation:'coauthor',authorGroup:'',hub:false,selected:null};
   const timelineHistory=window.ATLAS_CITATION_HISTORY;
   const temporal=window.ATLAS_TIMELINE_HISTORY;
-  let timelineContext=null,timelineSlices=null,timelineCandidates=[],timelineTopYear=null,timelineVisibleFrom=null,timelineDetailPaper=null,pendingTimelineDetail=false;
+  let timelineContext=null,timelineSlices=null,timelineCandidates=[],timelineTopYear=null,timelineDetailPaper=null,pendingTimelineDetail=false;
   const authorGroups=window.ATLAS_AUTHOR_GROUPS.groups;
   const fieldModes={},groupModes={...window.ATLAS_AUTHOR_GROUPS.defaultAuthorModes};
   const authorInterest={...window.ATLAS_AUTHOR_GROUPS.defaultPaperInterest};
@@ -75,8 +76,8 @@
     onSelectEdge:(edge,context)=>{timelineContext=context||null;timelineDetailPaper=null;edgeDetail(edge);},
     onCameraChange:camera=>{$('timeline-rotation').value=Math.round(((camera.yaw*180/Math.PI+180)%360+360)%360-180);},
     onYearWindowChange:range=>{
-      timelineTopYear=range.to;timelineVisibleFrom=range.from;
-      if(state.view==='timeline')$('visible-count').textContent=visible.filter(p=>{const year=temporal.publicationYear(p);return year==null?range.from===timelineSlices?.yearFrom:year<=range.to;}).length+' 篇论文';
+      timelineTopYear=range.to;
+      if(state.view==='timeline')$('visible-count').textContent=visible.filter(p=>temporal.publicationYear(p)<=range.to).length+' 篇论文';
       scheduleTimelineDetail();
     },
     onHover:(p,point,context)=>{
@@ -108,7 +109,8 @@
   }
   window.ATLAS_TIMELINE_VIEW=timeline3D;
   function timelinePaperContext(p,year=timelineContext?timelineContext.year:timelineTopYear??state.yearTo){
-    return {year:Number.isInteger(year)?year:null,citation:Number.isInteger(year)?temporal.citationAt(timelineHistory.papers[p.id],year):{count:null,status:'unknown_publication_year',scope:'unavailable'}};
+    const effectiveYear=Number.isInteger(year)?year:latestYear;
+    return {year:effectiveYear,citation:temporal.citationAt(timelineHistory.papers[p.id],effectiveYear)};
   }
   window.installPanelLayout({cy});
   window.installNodeShadows({canvas:$('node-shadows'),cy});
@@ -174,13 +176,13 @@
     cy.zoom({level,renderedPosition:{x:e.clientX-rect.left,y:e.clientY-rect.top}});
   },{passive:false,capture:true});
   function short(s) { return s.length>65?s.slice(0,62)+'…':s; }
-  function filters(p,{ignoreUnknown=false,ignoreTopics=false,ignoreAuthorInterest=false}={}) {
+  function filters(p,{ignoreTopics=false,ignoreAuthorInterest=false,ignoreExternal=false}={}) {
     if(state.view!=='authors'&&!ignoreAuthorInterest&&!paperAuthorInterest.keep(p,authorInterest))return false;
     if (!ignoreTopics&&state.view!=='authors'&&paperMode(p)==='hidden') return false;
     if (!ignoreTopics&&state.view!=='authors'&&state.field && primaryField(p)!==state.field) return false;
-    const dated=state.view==='timeline'?temporal.publicationYear(p):p.year;
-    if(dated==null ? !(ignoreUnknown||state.unknownYears) : (state.view!=='timeline'&&Math.max(yearBounds[0],dated)<state.yearFrom)||dated>state.yearTo)return false;
-    if (!state.external && !p.lab) return false;
+    const dated=state.view==='timeline'?temporal.publicationYear(p):(Number.isFinite(Number(p.year))&&Number(p.year)>0?Math.floor(Number(p.year)):latestYear);
+    if ((state.view!=='timeline'&&Math.max(yearBounds[0],dated)<state.yearFrom)||dated>state.yearTo)return false;
+    if (!ignoreExternal&&!state.external && !p.lab) return false;
     const searchAuthors=state.view!=='authors'&&!ignoreAuthorInterest&&p.lab&&paperAuthorInterest.active(authorInterest)?paperAuthorInterest.cared(p,authorInterest).map(a=>a.name):p.authors;
     if (state.search && !window.atlasSearchMatch([p.title,...searchAuthors,...p.tags.map(t=>topicMap.get(t)?.name || t),...keywordSearch(p)].join(' '),state.search)) return false;
     return true;
@@ -191,11 +193,14 @@
   }
   function authorsGraph() {
     // Show collaboration documented by the imported lab papers. External papers stay in paper maps.
-    const papers = visible.filter(p=>p.lab);
+    const papers = (state.hub ? D.nodes.filter(p=>p.lab&&filters(p,{ignoreAuthorInterest:true})) : visible).filter(p=>p.lab);
     const authors = new Map(), links = new Map();
     for (const p of papers) {
       const allRecords=window.resolveAtlasPaperAuthors(p),firstAuthorId=(state.authorshipMode==='only'&&state.authorRelation!=='coauthor'?window.atlasStudentFirstAuthor(allRecords):allRecords[0])?.id;
-      const records=allRecords.filter(a=>!a.excluded_from_network&&(state.hub||a.name!=='Yuheng Jia')&&(groupModes[a.group]||'show')!=='hidden'&&(state.authorshipMode!=='only'||state.authorRelation==='coauthor'||a.id===firstAuthorId));
+      const records=allRecords.filter(a=>{
+        const hubAuthor=state.hub&&a.name==='Yuheng Jia';
+        return !a.excluded_from_network&&(hubAuthor||a.name!=='Yuheng Jia')&&(hubAuthor||(groupModes[a.group]||'show')!=='hidden')&&(hubAuthor||state.authorshipMode!=='only'||state.authorRelation==='coauthor'||a.id===firstAuthorId);
+      });
       const names=records.map(a=>[a.id,a.name]);
       for (const [key,name] of names) {
         if (!authors.has(key)) {const person=records.find(a=>a.id===key);authors.set(key,{id:'a-'+key,name,group:person.group,identityNote:person.identity_note,papers:[],paperWeights:{},firstAuthorPapers:[],topics:new Map()});}
@@ -301,9 +306,10 @@
     updateTopics();
     $('paper-author-panel').classList.toggle('hidden',state.view==='authors');
     $('external-option').classList.toggle('hidden',state.view==='authors');
-    const unknownCount=D.nodes.filter(p=>p.year==null&&filters(p,{ignoreUnknown:true})&&(state.view!=='authors'||window.resolveAtlasPaperAuthors(p).some(a=>!a.excluded_from_network&&(groupModes[a.group]||'show')!=='hidden'&&(state.hub||a.name!=='Yuheng Jia')))).length;
-    $('year-unknown-option').hidden=unknownCount===0;
-    $('year-unknown-label').textContent=`包含未标年份（${unknownCount}）`;
+    const externalCount=D.nodes.filter(p=>!p.lab&&filters(p,{ignoreExternal:true})).length;
+    $('external-label').textContent=`显示外部文献（${externalCount}）`;
+    const hubPaperCount=D.nodes.filter(p=>p.lab&&filters(p,{ignoreAuthorInterest:true})&&window.resolveAtlasPaperAuthors(p).some(a=>a.name==='Yuheng Jia')).length;
+    $('hub-label').textContent=`包含 Yuheng Jia（${hubPaperCount}）`;
     updateAuthorInterest();
     buildAuthorLabels();scheduleOverlays();
     document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===state.view));
@@ -312,14 +318,15 @@
     $('hub-option').classList.toggle('hidden',state.view!=='authors');
     $('first-author-option').classList.toggle('hidden',state.view!=='authors'||state.authorRelation==='coauthor');
     const authorshipLabel='仅看第一作者';
+    const authorshipCount=visible.filter(p=>p.lab).length;
     const authorshipDescription={all:'全部署名等权计入',muted:'非一作权重为0.2',only:'只计一作论文（包括导师一作学生二作）'}[state.authorshipMode];
     const authorshipButton=$('first-author-only');
     for(const [mode,style] of [['all','hidden'],['muted','muted'],['only','show']])authorshipButton.classList.toggle('is-'+style,state.authorshipMode===mode);
     authorshipButton.setAttribute('aria-checked',{all:'false',muted:'mixed',only:'true'}[state.authorshipMode]);
-    authorshipButton.setAttribute('aria-label',authorshipLabel+'：'+authorshipDescription);
-    authorshipButton.title=authorshipDescription;
-    authorshipButton.innerHTML=`<span class="state-box" aria-hidden="true">${{all:'',muted:'−',only:'✓'}[state.authorshipMode]}</span><span>${authorshipLabel}</span>`;
-    $('visible-count').textContent=timeline?visible.filter(p=>{const year=temporal.publicationYear(p);return year==null?timelineVisibleFrom===(timelineSlices?.yearFrom):year<=timelineTopYear;}).length+' 篇论文':cy.nodes().length+' 个节点';
+    authorshipButton.setAttribute('aria-label',`${authorshipLabel}（${authorshipCount}）：${authorshipDescription}`);
+    authorshipButton.title=`${authorshipDescription}；${authorshipCount}`;
+    authorshipButton.innerHTML=`<span class="state-box" aria-hidden="true">${{all:'',muted:'−',only:'✓'}[state.authorshipMode]}</span><span>${authorshipLabel}（${authorshipCount}）</span>`;
+    $('visible-count').textContent=timeline?visible.filter(p=>temporal.publicationYear(p)<=timelineTopYear).length+' 篇论文':cy.nodes().length+' 个节点';
     $('empty').classList.toggle('hidden',visible.length>0 && (state.view==='authors'?cy.nodes().length>0:true));
     $('empty').textContent=state.view==='authors'?'无匹配作者。':'无匹配论文。';
     if (visible.length && !graphData.length && state.view==='papers') {
@@ -360,7 +367,7 @@
     $('relation-explanation').innerHTML=`<h3>${esc(heading)}</h3><p>${esc(description)}</p>${weightExplanation}${selectionRule}${timelineRule}${keywordCoverage}`;
   }
   function saveViewState(){
-    const query=new URLSearchParams({search:state.search,field:state.field,from:String(state.yearFrom),to:String(state.yearTo),unknown:state.unknownYears?'1':'0',external:state.external?'1':'0',view:state.view,relation:state.relation,authorRelation:state.authorRelation,fieldModes:JSON.stringify(fieldModes),groupModes:JSON.stringify(groupModes),authorInterest:JSON.stringify(authorInterest)});
+    const query=new URLSearchParams({search:state.search,field:state.field,from:String(state.yearFrom),to:String(state.yearTo),external:state.external?'1':'0',view:state.view,relation:state.relation,authorRelation:state.authorRelation,fieldModes:JSON.stringify(fieldModes),groupModes:JSON.stringify(groupModes),authorInterest:JSON.stringify(authorInterest)});
     query.set('fieldSchema','six-v1');
     query.set('hub',state.hub?'1':'0');
     query.set('authorshipMode',state.authorshipMode);
@@ -523,8 +530,7 @@
       input.value=yearToSlider(year);change({target:input,type:'change'});
     };
   });
-  $('year-ticks').innerHTML=[2010,2018,2023,2027].map(year=>`<span style="left:${yearToSlider(year)/289*100}%">${year===2010?'−∞':year}</span>`).join('');
-  $('year-unknown').onchange=e=>{state.unknownYears=e.target.checked;clearTimeout(yearTimer);render();};
+  $('year-ticks').innerHTML=[2010,2018,2023,latestYear].map(year=>`<span style="left:${yearToSlider(year)/289*100}%">${year===2010?'−∞':year}</span>`).join('');
   updateYearControls();
   $('topics').addEventListener('click',e=>{
     const b=e.target.closest('[data-category]');if(!b)return;
@@ -634,14 +640,14 @@
     else if(['coauthor','keywords','semantic'].includes(incoming.get('authorRelation')))state.authorRelation=incoming.get('authorRelation');
     for(const key of ['hub'])if(incoming.has(key))state[key]=incoming.get(key)==='1';
     if(Object.hasOwn(authorGroups,incoming.get('authorGroup')))for(const key of Object.keys(authorGroups))groupModes[key]=key===incoming.get('authorGroup')?'show':'hidden';
-    for(const [key,param] of [['yearFrom','from'],['yearTo','to']])if(incoming.has(param)&&Number.isFinite(Number(incoming.get(param))))state[key]=Math.max(2010,Math.min(2027,Math.round(Number(incoming.get(param)))));
+    for(const [key,param] of [['yearFrom','from'],['yearTo','to']])if(incoming.has(param)&&Number.isFinite(Number(incoming.get(param))))state[key]=Math.max(2010,Math.min(latestYear,Math.round(Number(incoming.get(param)))));
     state.yearFrom=Math.min(state.yearFrom,state.yearTo);
-    for(const [key,param] of [['external','external'],['unknownYears','unknown']])if(incoming.has(param))state[key]=incoming.get(param)!=='0';
+    if(incoming.has('external'))state.external=incoming.get('external')!=='0';
   }
   if(!fieldMap.has(state.field)&&state.field!=='unclassified')state.field='';
   $('relation').value=state.relation;$('search').value=state.search;
   $('author-relation').value=state.authorRelation;
-  $('external').checked=state.external;$('year-unknown').checked=state.unknownYears;
+  $('external').checked=state.external;
   $('hub').checked=state.hub;
 
   updateYearControls();updateTopics();
