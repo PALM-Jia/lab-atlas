@@ -13,6 +13,7 @@
 | `data/vectors/` | 按模型版本和输入摘要散列定位的向量文件，不含模型权重 |
 | `data/sources/` | 原主页、参考与被引名单、已保存书目信息、摘要提取来源和领域判定依据 |
 | `data/workflow/` | 阶段协议、当前图表结构和补充解释；阶段标题从协议生成 |
+| data/maintenance/ | 当前两源验收记录与维护说明 |
 | `data/two-source/` | 两源流程协议、冻结结果与旧版对照；网络与检索页面由其导出采用数据 |
 | `_legacy/v1.0/` | 原多源数据的校验归档，原数据仍由 v1.0 标签保留 |
 | `scripts/` | 构建、特征处理、候选采集、关键词执行和检查工具 |
@@ -56,4 +57,6 @@ python scripts/build/build_atlas.py --check
 
 `scripts/checks/README.md` 列出真实网络规则、作者权重、署名过滤、模糊搜索、向量溯源、流程路径和浏览器检查。浏览器运行检查使用已有 Playwright 与 Chromium，不安装新前端依赖。
 
-整理前状态保存在提交 `d2fbd46`（前序检查点 `f9bcab9`）。旧脚本和页面保留在本机 `work/archive/`，迁移位置见 `data/maintenance/archive-map.json`；原先提交过的文件也可从检查点恢复。查询缓存和模型环境未删除。完整 AI 运行碎片已移出 Git 跟踪，采用结果、逐篇输入、引用原文和排除决定仍在 `data/keywords/`。
+整理前状态保存在提交 `d2fbd46`（前序检查点 `f9bcab9`）。旧脚本和页面不参与当前构建；原先提交过的文件可从 Git 历史恢复，旧版采用数据保存在 `_legacy/v1.0/`。当前验收记录位于 `data/two-source/snapshot/` 和 `data/two-source/results/`。查询缓存和模型环境保留在本机 `work/`，不提交 Git。
+
+

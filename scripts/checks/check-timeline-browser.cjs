@@ -1,223 +1,1099 @@
-'use strict';
-const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
-const site=path.resolve(__dirname,'../../outputs/paper-atlas');
-const output=path.resolve(__dirname,'../../work/timeline-review');
-const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'C:/Users/lee/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
-const server=http.createServer((req,res)=>{
- const pathname=decodeURIComponent(new URL(req.url,'http://127.0.0.1').pathname),file=path.resolve(site,'.'+pathname);
- if(!file.startsWith(site+path.sep)){res.writeHead(403);return res.end();}
- fs.readFile(file,(err,body)=>{res.writeHead(err?404:200,{'Content-Type':{'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json'}[path.extname(file)]||'application/octet-stream'});res.end(err?'Missing':body);});
+"use strict";
+const fs = require("node:fs"),
+  path = require("node:path"),
+  http = require("node:http"),
+  assert = require("node:assert/strict");
+const site = path.resolve(__dirname, "../../outputs/paper-atlas");
+const output = path.resolve(__dirname, "../../work/timeline-review");
+const { chromium } = require(
+  process.env.PLAYWRIGHT_MODULE ||
+    "C:/Users/lee/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright",
+);
+const server = http.createServer((req, res) => {
+  const pathname = decodeURIComponent(
+      new URL(req.url, "http://127.0.0.1").pathname,
+    ),
+    file = path.resolve(site, "." + pathname);
+  if (!file.startsWith(site + path.sep)) {
+    res.writeHead(403);
+    return res.end();
+  }
+  fs.readFile(file, (err, body) => {
+    res.writeHead(err ? 404 : 200, {
+      "Content-Type":
+        {
+          ".html": "text/html",
+          ".js": "text/javascript",
+          ".css": "text/css",
+          ".json": "application/json",
+        }[path.extname(file)] || "application/octet-stream",
+    });
+    res.end(err ? "Missing" : body);
+  });
 });
-(async()=>{
- fs.mkdirSync(output,{recursive:true});
- await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
- let browser;const errors=[],results={};
- try{
-  browser=await chromium.launch({headless:true,executablePath:process.env.PLAYWRIGHT_EXECUTABLE||'C:/Users/lee/AppData/Local/ms-playwright/chromium_headless_shell-1228/chrome-headless-shell-win64/chrome-headless-shell.exe',args:['--enable-unsafe-swiftshader']});
-  const page=await browser.newPage({viewport:{width:1600,height:1000}}),base='http://127.0.0.1:'+server.address().port;
-  page.on('pageerror',e=>errors.push(e.message));
-  page.on('console',m=>{if(m.type()==='error'&&!m.text().includes('favicon'))errors.push(m.text());});
-  await page.route('**/*',route=>route.request().url().startsWith(base)?route.continue():route.abort());
-  await page.goto(base+'/index.html');
-  await page.waitForFunction(()=>document.getElementById('visible-count')?.textContent);
-  await page.locator('[data-view="timeline"]').click();
-  await page.waitForFunction(()=>window.ATLAS_TIMELINE_VIEW?.inspect);
-  const state=()=>page.evaluate(()=>window.ATLAS_TIMELINE_VIEW.inspect());
-  await page.waitForTimeout(200);
-  results.default=await state();
-  assert.equal(results.default.projection,'orthographic');
-  assert(Math.abs(results.default.camera.pitch-40*Math.PI/180)<1e-9,'initial forty degree elevation');
-  const checkWindow=s=>{
-   const count=s.yearWindowCount??s.windowCount;
-   assert(count>=1&&count<=s.yearBounds[1]-s.yearBounds[0]+1,'viewport capacity bounded only by selected year scope');
-   assert(s.planes.length<=count,'planes restricted to current year window');
-   const metrics=s.yearMetrics;
-   assert(metrics&&metrics.capacity>=1,'geometry-derived year metrics exposed');
-   assert.equal(metrics.count,s.planes.length,'geometry count matches actual visible layers');
-   if(metrics.count>1){assert(metrics.spacing+1e-6>=metrics.minGap,'year spacing respects disk overlap gap');if(metrics.planeDepth<=metrics.usableHeight)assert(metrics.planeDepth+metrics.spacing*(metrics.count-1)<=metrics.usableHeight+1e-5,'visible layers fit available vertical space');}
-   assert(s.positions.every(p=>p.year===null||(p.year>=s.visibleYearBounds[0]&&p.year<=s.visibleYearBounds[1])),'off-window nodes excluded');
-   assert(s.positions.every(p=>Math.abs(p.ry/p.rx-Math.sin(s.camera.pitch))<1e-8),'node ellipses follow camera elevation');
-  };
-  checkWindow(results.default);
-  assert(new Set(results.default.positions.map(p=>p.scale)).size<=1,'orthographic scale does not vary with depth');
-  const temporalAudit=await page.evaluate(()=>{
-   const s=window.ATLAS_TIMELINE_VIEW.inspect(),byId=new Map(window.ATLAS_DATA.nodes.map(p=>[p.id,p])),helper=window.ATLAS_TIMELINE_HISTORY,h=window.ATLAS_CITATION_HISTORY;
-   return s.positions.filter(p=>p.year!==null).filter(p=>helper.publicationYear(byId.get(p.paperId))>p.year||p.citations!==helper.citationAt(h.papers[p.paperId],p.year).count).length;
-  });
-  assert.equal(temporalAudit,0,'each displayed annual node excludes future citations and publications');
-  await page.screenshot({path:path.join(output,'timeline-default.png')});
-  const canvas=page.locator('#timeline-3d'),box=await canvas.boundingBox();
-  await page.mouse.move(box.x+box.width*.5,box.y+box.height*.5);
-  await page.mouse.down();await page.mouse.move(box.x+box.width*.5+70,box.y+box.height*.5+80,{steps:5});await page.mouse.up();
-  await page.waitForTimeout(100);
-  results.rotated=await state();
-  assert.notEqual(results.rotated.camera.yaw,results.default.camera.yaw,'drag changes Z orbit');
-  assert.notEqual(results.rotated.camera.pitch,results.default.camera.pitch,'vertical drag changes elevation');
-  assert(results.rotated.camera.pitch>=10*Math.PI/180&&results.rotated.camera.pitch<=80*Math.PI/180,'elevation remains bounded');
-  checkWindow(results.rotated);
-  const wheelZoom=results.rotated.camera.zoom;
-  await page.mouse.wheel(0,240);await page.waitForTimeout(100);
-  results.older=await state();checkWindow(results.older);
-  await page.screenshot({path:path.join(output,'timeline-older.png')});
-  assert.equal(results.older.camera.zoom,wheelZoom,'wheel traverses years without zoom');
-  assert(results.older.topYear<results.rotated.topYear,'wheel down moves toward older years');
-  assert(results.older.visibleYearBounds[0]>=results.older.yearBounds[0],'year window stays within selected scope');
-  await page.mouse.wheel(0,5000);await page.waitForTimeout(100);
-  const oldest=await state();checkWindow(oldest);assert.equal(oldest.visibleYearBounds[0],oldest.yearBounds[0],'wheel down clamps at oldest selected slice');
-  assert.equal(oldest.topYear,oldest.scrollBounds[0],'oldest visible band stops at geometric scroll boundary');
-  await page.mouse.wheel(0,240);await page.waitForTimeout(100);const heldOldest=await state();
-  assert.deepEqual([heldOldest.topYear,heldOldest.visibleYearBounds,heldOldest.windowCount,heldOldest.camera],[oldest.topYear,oldest.visibleYearBounds,oldest.windowCount,oldest.camera],'repeated outward wheel preserves oldest complete year band');
-  await page.mouse.wheel(0,25);await page.waitForTimeout(50);
-  await page.mouse.wheel(0,-80);await page.waitForTimeout(100);const reversedOldest=await state();
-  assert.equal(reversedOldest.topYear,oldest.topYear+1,'reverse eighty pixel wheel immediately moves one year');
-  await page.mouse.wheel(0,-5000);await page.waitForTimeout(100);
-  const newest=await state();assert.equal(newest.topYear,newest.yearBounds[1],'wheel up returns to newest selected year');
-  await page.mouse.wheel(0,-240);await page.waitForTimeout(100);const heldNewest=await state();
-  assert.deepEqual([heldNewest.topYear,heldNewest.visibleYearBounds,heldNewest.camera],[newest.topYear,newest.visibleYearBounds,newest.camera],'outward wheel at latest year leaves camera and window unchanged');
-  await page.mouse.wheel(0,-25);await page.waitForTimeout(50);
-  await page.mouse.wheel(0,80);await page.waitForTimeout(100);assert.equal((await state()).topYear,newest.topYear-1,'reverse wheel immediately leaves latest boundary');
-  await page.mouse.wheel(0,-80);await page.waitForTimeout(100);
-  await page.locator('#zoom-in').click();await page.waitForTimeout(100);
-  const zoomed=await state();assert(zoomed.camera.zoom>results.rotated.camera.zoom,'zoom button enlarges');
-  await page.locator('#fit').click();
-  await page.locator('#search').fill('unmatchable_timeline_check_7af3');
-  await page.waitForFunction(()=>!document.getElementById('empty').classList.contains('hidden'));
-  await page.locator('#search').fill('');
-  await page.waitForTimeout(150);
-  for(const id of ['year-from','year-to'])await page.locator('#'+id).evaluate((el,id)=>{el.value=id==='year-from'?el.min:el.max;el.dispatchEvent(new Event('change',{bubbles:true}));},id);
-  await page.locator('#fit').click();await page.waitForTimeout(200);
-  results.wide=await state();
-  checkWindow(results.wide);
-  await page.screenshot({path:path.join(output,'timeline-wide.png')});
-  const pitchTo=async degrees=>{const current=await state(),start={x:box.x+box.width*.6,y:box.y+box.height*.5},dy=(degrees*Math.PI/180-current.camera.pitch)/.004;await page.mouse.move(start.x,start.y);await page.mouse.down();await page.mouse.move(start.x,start.y+dy,{steps:8});await page.mouse.up();await page.waitForTimeout(150);};
-  await pitchTo(10);results.lowPitch=await state();checkWindow(results.lowPitch);await page.screenshot({path:path.join(output,'timeline-low-pitch.png')});
-  await page.locator('#year-from').evaluate(el=>{el.value=2023;el.dispatchEvent(new Event('change',{bubbles:true}));});await page.waitForTimeout(100);
-  const allFit=await state();assert.equal(allFit.scrollBounds[0],allFit.scrollBounds[1],'all fitting years disable both scroll directions');
-  await page.mouse.move(box.x+box.width*.6,box.y+box.height*.5);await page.mouse.wheel(0,5000);await page.waitForTimeout(100);await page.mouse.wheel(0,-5000);await page.waitForTimeout(100);
-  const heldAllFit=await state();assert.deepEqual([heldAllFit.topYear,heldAllFit.visibleYearBounds,heldAllFit.camera],[allFit.topYear,allFit.visibleYearBounds,allFit.camera],'all fitting selected years remain stable under scrolling');
-  await page.locator('#year-from').evaluate(el=>{el.value=el.min;el.dispatchEvent(new Event('change',{bubbles:true}));});await page.waitForTimeout(100);
-  await pitchTo(70);results.highPitch=await state();checkWindow(results.highPitch);await page.screenshot({path:path.join(output,'timeline-high-pitch.png')});
-  assert(results.lowPitch.windowCount>results.highPitch.windowCount,'low elevation permits more years than steep elevation');
-  const beforeZoomOut=await state();await page.locator('#zoom-out').click();await page.locator('#zoom-out').click();await page.waitForTimeout(150);results.zoomedOut=await state();checkWindow(results.zoomedOut);
-  assert(results.zoomedOut.windowCount>beforeZoomOut.windowCount,'smaller disks permit more years');
-  await pitchTo(40);await page.locator('#fit').click();await page.waitForTimeout(150);results.wide=await state();await page.screenshot({path:path.join(output,'timeline-wide.png')});
-  const preferredNode=await page.evaluate(()=>{const view=window.ATLAS_TIMELINE_VIEW,s=view.inspect(),labs=new Set(window.ATLAS_DATA.nodes.filter(p=>p.lab).map(p=>p.id));let candidate=null;for(const p of s.positions.filter(n=>labs.has(n.paperId)&&n.year===s.visibleYearBounds[1])){view.select(p.paperId,{year:p.year});if(view.inspect().visibleAssociationIds.length){candidate=p;break;}}view.select(null);return candidate;});
-  const clickNode=preferredNode||results.wide.positions.find(p=>p.year!==null&&p.x>40&&p.x<box.width-40&&p.y>40&&p.y<box.height-40);
-  assert(clickNode,'visible node exists after widening years');
-  await page.mouse.click(box.x+clickNode.x,box.y+clickNode.y);
-  await page.waitForTimeout(100);
-  const selected=await state();
-  assert(selected.selected,'real canvas node click selects paper');
-  assert.notEqual(selected.selectedYear,null,'selection retains annual slice');
-  assert((await page.locator('#detail-content').innerText()).includes(String(selected.selectedYear)),'details report selected slice year');
-  results.nodeClick={paperId:selected.selected,year:selected.selectedYear,anchor:selected.anchor};assert(selected.anchor&&selected.anchor.instanceId===selected.anchor.paperId+'@'+selected.anchor.year,'clicked annual instance is exact selection anchor');await page.screenshot({path:path.join(output,'timeline-selected.png')});
-  results.relationAnnualAudit=[];
-  for(const basis of ['citation','author','semantic','keyword']){
-   await page.locator('#relation').selectOption(basis);await page.waitForTimeout(120);
-   const candidate=await page.evaluate(()=>{const view=window.ATLAS_TIMELINE_VIEW,s=view.inspect(),labs=new Set(window.ATLAS_DATA.nodes.filter(p=>p.lab).map(p=>p.id));let best=null;for(const p of s.positions.filter(n=>labs.has(n.paperId)&&n.year===s.visibleYearBounds[1])){view.select(p.paperId,{year:p.year});const test=view.inspect();if(test.visibleAssociationIds.length){best=p;break;}}view.select(null);return best;});
-   assert(candidate,'real data has incident relations for '+basis);await page.mouse.click(box.x+candidate.x,box.y+candidate.y);await page.waitForTimeout(80);
-   const current=await state();assert(current.anchor,'real '+basis+' node click keeps annual anchor');
-   const associations=current.curves.filter(c=>c.kind==='association');assert(associations.length,'real '+basis+' selection shows relations');
-   const baseYear=Math.min(...current.positions.filter(p=>p.paperId===current.anchor.paperId).map(p=>p.year));assert(associations.every(c=>c.a.node.year===baseYear&&c.b.node.year>=baseYear&&c.year===c.b.node.year),'real '+basis+' associations start earliest visible own instance and flow upward once');assert.equal(new Set(associations.map(c=>c.edgeId)).size,associations.length);
-   assert(associations.every(c=>current.highlightInstanceIds.includes(c.a.node.id)&&current.highlightInstanceIds.includes(c.b.node.id)),'real '+basis+' highlights exact annual endpoints');
-   const neighborButton=page.locator('#detail-content .neighbor').first(),neighborId=await neighborButton.getAttribute('data-paper');
-   const expected=await page.evaluate(id=>window.ATLAS_TIMELINE_VIEW.contextForPaper(id),neighborId);assert.equal(expected.year,associations.find(c=>c.b.node.paperId===neighborId).b.node.year,'real '+basis+' neighbor context matches first eligible endpoint year');
-   await neighborButton.click();await page.waitForTimeout(80);const detail=await page.locator('#detail-content').innerText();assert(detail.includes('截至 '+expected.year+' 年'),'real '+basis+' neighbor right panel uses selected year');if(Number.isFinite(expected.citations))assert(detail.includes('被引 '+expected.citations+' 次'),'real '+basis+' neighbor right panel uses annual count');
-   results.relationAnnualAudit.push({basis,year:current.anchor.year,anchor:current.anchor.paperId,neighbor:neighborId,citations:expected.citations,associationCount:associations.length});
+(async () => {
+  fs.mkdirSync(output, { recursive: true });
+  await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+  let browser;
+  const errors = [],
+    results = {};
+  try {
+    browser = await chromium.launch({
+      headless: true,
+      executablePath:
+        process.env.PLAYWRIGHT_EXECUTABLE ||
+        "C:/Users/lee/AppData/Local/ms-playwright/chromium_headless_shell-1228/chrome-headless-shell-win64/chrome-headless-shell.exe",
+      args: ["--enable-unsafe-swiftshader"],
+    });
+    const page = await browser.newPage({
+        viewport: { width: 1600, height: 1000 },
+      }),
+      base = "http://127.0.0.1:" + server.address().port;
+    page.on("pageerror", (e) => errors.push(e.message));
+    page.on("console", (m) => {
+      if (m.type() === "error" && !m.text().includes("favicon"))
+        errors.push(m.text());
+    });
+    await page.route("**/*", (route) =>
+      route.request().url().startsWith(base) ? route.continue() : route.abort(),
+    );
+    await page.goto(base + "/index.html");
+    await page.waitForFunction(
+      () => document.getElementById("visible-count")?.textContent,
+    );
+    await page.locator('[data-view="timeline"]').click();
+    await page.waitForFunction(() => window.ATLAS_TIMELINE_VIEW?.inspect);
+    const state = () =>
+      page.evaluate(() => window.ATLAS_TIMELINE_VIEW.inspect());
+    await page.waitForTimeout(200);
+    results.default = await state();
+    assert.equal(results.default.projection, "orthographic");
+    assert(
+      Math.abs(results.default.camera.pitch - (40 * Math.PI) / 180) < 1e-9,
+      "initial forty degree elevation",
+    );
+    const checkWindow = (s) => {
+      const count = s.yearWindowCount ?? s.windowCount;
+      assert(
+        count >= 1 && count <= s.yearBounds[1] - s.yearBounds[0] + 1,
+        "viewport capacity bounded only by selected year scope",
+      );
+      assert(
+        s.planes.length <= count,
+        "planes restricted to current year window",
+      );
+      const metrics = s.yearMetrics;
+      assert(
+        metrics && metrics.capacity >= 1,
+        "geometry-derived year metrics exposed",
+      );
+      assert.equal(
+        metrics.count,
+        s.planes.length,
+        "geometry count matches actual visible layers",
+      );
+      if (metrics.count > 1) {
+        assert(
+          metrics.spacing + 1e-6 >= metrics.minGap,
+          "year spacing respects disk overlap gap",
+        );
+        if (metrics.planeDepth <= metrics.usableHeight)
+          assert(
+            metrics.planeDepth + metrics.spacing * (metrics.count - 1) <=
+              metrics.usableHeight + 1e-5,
+            "visible layers fit available vertical space",
+          );
+      }
+      assert(
+        s.positions.every(
+          (p) =>
+            p.year === null ||
+            (p.year >= s.visibleYearBounds[0] &&
+              p.year <= s.visibleYearBounds[1]),
+        ),
+        "off-window nodes excluded",
+      );
+      assert(
+        s.positions.every(
+          (p) => Math.abs(p.ry / p.rx - Math.sin(s.camera.pitch)) < 1e-8,
+        ),
+        "node ellipses follow camera elevation",
+      );
+    };
+    checkWindow(results.default);
+    assert(
+      new Set(results.default.positions.map((p) => p.scale)).size <= 1,
+      "orthographic scale does not vary with depth",
+    );
+    const temporalAudit = await page.evaluate(() => {
+      const s = window.ATLAS_TIMELINE_VIEW.inspect(),
+        byId = new Map(window.ATLAS_DATA.nodes.map((p) => [p.id, p])),
+        helper = window.ATLAS_TIMELINE_HISTORY,
+        h = window.ATLAS_CITATION_HISTORY;
+      return s.positions
+        .filter((p) => p.year !== null)
+        .filter(
+          (p) =>
+            helper.publicationYear(byId.get(p.paperId)) > p.year ||
+            p.citations !==
+              helper.citationAt(h.papers[p.paperId], p.year).count,
+        ).length;
+    });
+    assert.equal(
+      temporalAudit,
+      0,
+      "each displayed annual node excludes future citations and publications",
+    );
+    await page.screenshot({ path: path.join(output, "timeline-default.png") });
+    const canvas = page.locator("#timeline-3d"),
+      box = await canvas.boundingBox();
+    await page.mouse.move(box.x + box.width * 0.5, box.y + box.height * 0.5);
+    await page.mouse.down();
+    await page.mouse.move(
+      box.x + box.width * 0.5 + 70,
+      box.y + box.height * 0.5 + 80,
+      { steps: 5 },
+    );
+    await page.mouse.up();
+    await page.waitForTimeout(100);
+    results.rotated = await state();
+    assert.notEqual(
+      results.rotated.camera.yaw,
+      results.default.camera.yaw,
+      "drag changes Z orbit",
+    );
+    assert.notEqual(
+      results.rotated.camera.pitch,
+      results.default.camera.pitch,
+      "vertical drag changes elevation",
+    );
+    assert(
+      results.rotated.camera.pitch >= (10 * Math.PI) / 180 &&
+        results.rotated.camera.pitch <= (80 * Math.PI) / 180,
+      "elevation remains bounded",
+    );
+    checkWindow(results.rotated);
+    const wheelZoom = results.rotated.camera.zoom;
+    await page.mouse.wheel(0, 240);
+    await page.waitForTimeout(100);
+    results.older = await state();
+    checkWindow(results.older);
+    await page.screenshot({ path: path.join(output, "timeline-older.png") });
+    assert.equal(
+      results.older.camera.zoom,
+      wheelZoom,
+      "wheel traverses years without zoom",
+    );
+    assert(
+      results.older.topYear < results.rotated.topYear,
+      "wheel down moves toward older years",
+    );
+    assert(
+      results.older.visibleYearBounds[0] >= results.older.yearBounds[0],
+      "year window stays within selected scope",
+    );
+    await page.mouse.wheel(0, 5000);
+    await page.waitForTimeout(100);
+    const oldest = await state();
+    checkWindow(oldest);
+    assert.equal(
+      oldest.visibleYearBounds[0],
+      oldest.yearBounds[0],
+      "wheel down clamps at oldest selected slice",
+    );
+    assert.equal(
+      oldest.topYear,
+      oldest.scrollBounds[0],
+      "oldest visible band stops at geometric scroll boundary",
+    );
+    await page.mouse.wheel(0, 240);
+    await page.waitForTimeout(100);
+    const heldOldest = await state();
+    assert.deepEqual(
+      [
+        heldOldest.topYear,
+        heldOldest.visibleYearBounds,
+        heldOldest.windowCount,
+        heldOldest.camera,
+      ],
+      [
+        oldest.topYear,
+        oldest.visibleYearBounds,
+        oldest.windowCount,
+        oldest.camera,
+      ],
+      "repeated outward wheel preserves oldest complete year band",
+    );
+    await page.mouse.wheel(0, 25);
+    await page.waitForTimeout(50);
+    await page.mouse.wheel(0, -80);
+    await page.waitForTimeout(100);
+    const reversedOldest = await state();
+    assert.equal(
+      reversedOldest.topYear,
+      oldest.topYear + 1,
+      "reverse eighty pixel wheel immediately moves one year",
+    );
+    await page.mouse.wheel(0, -5000);
+    await page.waitForTimeout(100);
+    const newest = await state();
+    assert.equal(
+      newest.topYear,
+      newest.yearBounds[1],
+      "wheel up returns to newest selected year",
+    );
+    await page.mouse.wheel(0, -240);
+    await page.waitForTimeout(100);
+    const heldNewest = await state();
+    assert.deepEqual(
+      [heldNewest.topYear, heldNewest.visibleYearBounds, heldNewest.camera],
+      [newest.topYear, newest.visibleYearBounds, newest.camera],
+      "outward wheel at latest year leaves camera and window unchanged",
+    );
+    await page.mouse.wheel(0, -25);
+    await page.waitForTimeout(50);
+    await page.mouse.wheel(0, 80);
+    await page.waitForTimeout(100);
+    assert.equal(
+      (await state()).topYear,
+      newest.topYear - 1,
+      "reverse wheel immediately leaves latest boundary",
+    );
+    await page.mouse.wheel(0, -80);
+    await page.waitForTimeout(100);
+    await page.locator("#zoom-in").click();
+    await page.waitForTimeout(100);
+    const zoomed = await state();
+    assert(
+      zoomed.camera.zoom > results.rotated.camera.zoom,
+      "zoom button enlarges",
+    );
+    await page.locator("#fit").click();
+    await page.locator("#search").fill("unmatchable_timeline_check_7af3");
+    await page.waitForFunction(
+      () => !document.getElementById("empty").classList.contains("hidden"),
+    );
+    await page.locator("#search").fill("");
+    await page.waitForTimeout(150);
+    for (const id of ["year-from", "year-to"])
+      await page.locator("#" + id).evaluate((el, id) => {
+        el.value = id === "year-from" ? el.min : el.max;
+        el.dispatchEvent(new Event("change", { bubbles: true }));
+      }, id);
+    await page.locator("#fit").click();
+    await page.waitForTimeout(200);
+    results.wide = await state();
+    checkWindow(results.wide);
+    await page.screenshot({ path: path.join(output, "timeline-wide.png") });
+    const pitchTo = async (degrees) => {
+      const current = await state(),
+        start = { x: box.x + box.width * 0.6, y: box.y + box.height * 0.5 },
+        dy = ((degrees * Math.PI) / 180 - current.camera.pitch) / 0.004;
+      await page.mouse.move(start.x, start.y);
+      await page.mouse.down();
+      await page.mouse.move(start.x, start.y + dy, { steps: 8 });
+      await page.mouse.up();
+      await page.waitForTimeout(150);
+    };
+    await pitchTo(10);
+    results.lowPitch = await state();
+    checkWindow(results.lowPitch);
+    await page.screenshot({
+      path: path.join(output, "timeline-low-pitch.png"),
+    });
+    await page.locator("#year-from").evaluate((el) => {
+      el.value = 2023;
+      el.dispatchEvent(new Event("change", { bubbles: true }));
+    });
+    await page.waitForTimeout(100);
+    const allFit = await state();
+    assert.equal(
+      allFit.scrollBounds[0],
+      allFit.scrollBounds[1],
+      "all fitting years disable both scroll directions",
+    );
+    await page.mouse.move(box.x + box.width * 0.6, box.y + box.height * 0.5);
+    await page.mouse.wheel(0, 5000);
+    await page.waitForTimeout(100);
+    await page.mouse.wheel(0, -5000);
+    await page.waitForTimeout(100);
+    const heldAllFit = await state();
+    assert.deepEqual(
+      [heldAllFit.topYear, heldAllFit.visibleYearBounds, heldAllFit.camera],
+      [allFit.topYear, allFit.visibleYearBounds, allFit.camera],
+      "all fitting selected years remain stable under scrolling",
+    );
+    await page.locator("#year-from").evaluate((el) => {
+      el.value = el.min;
+      el.dispatchEvent(new Event("change", { bubbles: true }));
+    });
+    await page.waitForTimeout(100);
+    await pitchTo(70);
+    results.highPitch = await state();
+    checkWindow(results.highPitch);
+    await page.screenshot({
+      path: path.join(output, "timeline-high-pitch.png"),
+    });
+    assert(
+      results.lowPitch.windowCount > results.highPitch.windowCount,
+      "low elevation permits more years than steep elevation",
+    );
+    const beforeZoomOut = await state();
+    await page.locator("#zoom-out").click();
+    await page.locator("#zoom-out").click();
+    await page.waitForTimeout(150);
+    results.zoomedOut = await state();
+    checkWindow(results.zoomedOut);
+    assert(
+      results.zoomedOut.windowCount > beforeZoomOut.windowCount,
+      "smaller disks permit more years",
+    );
+    await pitchTo(40);
+    await page.locator("#fit").click();
+    await page.waitForTimeout(150);
+    results.wide = await state();
+    await page.screenshot({ path: path.join(output, "timeline-wide.png") });
+    const preferredNode = await page.evaluate(() => {
+      const view = window.ATLAS_TIMELINE_VIEW,
+        s = view.inspect(),
+        labs = new Set(
+          window.ATLAS_DATA.nodes.filter((p) => p.lab).map((p) => p.id),
+        );
+      let candidate = null;
+      for (const p of s.positions.filter(
+        (n) => labs.has(n.paperId) && n.year === s.visibleYearBounds[1],
+      )) {
+        view.select(p.paperId, { year: p.year });
+        if (view.inspect().visibleAssociationIds.length) {
+          candidate = p;
+          break;
+        }
+      }
+      view.select(null);
+      return candidate;
+    });
+    const clickNode =
+      preferredNode ||
+      results.wide.positions.find(
+        (p) =>
+          p.year !== null &&
+          p.x > 40 &&
+          p.x < box.width - 40 &&
+          p.y > 40 &&
+          p.y < box.height - 40,
+      );
+    assert(clickNode, "visible node exists after widening years");
+    await page.mouse.click(box.x + clickNode.x, box.y + clickNode.y);
+    await page.waitForTimeout(100);
+    const selected = await state();
+    assert(selected.selected, "real canvas node click selects paper");
+    assert.notEqual(
+      selected.selectedYear,
+      null,
+      "selection retains annual slice",
+    );
+    assert(
+      (await page.locator("#detail-content").innerText()).includes(
+        String(selected.selectedYear),
+      ),
+      "details report selected slice year",
+    );
+    results.nodeClick = {
+      paperId: selected.selected,
+      year: selected.selectedYear,
+      anchor: selected.anchor,
+    };
+    assert(
+      selected.anchor &&
+        selected.anchor.instanceId ===
+          selected.anchor.paperId + "@" + selected.anchor.year,
+      "clicked annual instance is exact selection anchor",
+    );
+    await page.screenshot({ path: path.join(output, "timeline-selected.png") });
+    results.relationAnnualAudit = [];
+    for (const basis of ["citation", "author", "semantic", "keyword"]) {
+      await page.locator("#relation").selectOption(basis);
+      await page.waitForTimeout(120);
+      const candidate = await page.evaluate(() => {
+        const view = window.ATLAS_TIMELINE_VIEW,
+          s = view.inspect(),
+          labs = new Set(
+            window.ATLAS_DATA.nodes.filter((p) => p.lab).map((p) => p.id),
+          );
+        let best = null;
+        for (const p of s.positions.filter(
+          (n) => labs.has(n.paperId) && n.year === s.visibleYearBounds[1],
+        )) {
+          view.select(p.paperId, { year: p.year });
+          const test = view.inspect();
+          if (test.visibleAssociationIds.length) {
+            best = p;
+            break;
+          }
+        }
+        view.select(null);
+        return best;
+      });
+      assert(candidate, "real data has incident relations for " + basis);
+      await page.mouse.click(box.x + candidate.x, box.y + candidate.y);
+      await page.waitForTimeout(80);
+      const current = await state();
+      assert(
+        current.anchor,
+        "real " + basis + " node click keeps annual anchor",
+      );
+      const associations = current.curves.filter(
+        (c) => c.kind === "association",
+      );
+      assert(
+        associations.length,
+        "real " + basis + " selection shows relations",
+      );
+      const baseYear = Math.min(
+        ...current.positions
+          .filter((p) => p.paperId === current.anchor.paperId)
+          .map((p) => p.year),
+      );
+      assert(
+        associations.every(
+          (c) =>
+            c.a.node.year === baseYear &&
+            c.b.node.year >= baseYear &&
+            c.year === c.b.node.year,
+        ),
+        "real " +
+          basis +
+          " associations start earliest visible own instance and flow upward once",
+      );
+      assert.equal(
+        new Set(associations.map((c) => c.edgeId)).size,
+        associations.length,
+      );
+      assert(
+        associations.every(
+          (c) =>
+            current.highlightInstanceIds.includes(c.a.node.id) &&
+            current.highlightInstanceIds.includes(c.b.node.id),
+        ),
+        "real " + basis + " highlights exact annual endpoints",
+      );
+      const neighborButton = page.locator("#detail-content .neighbor").first(),
+        neighborId = await neighborButton.getAttribute("data-paper");
+      const expected = await page.evaluate(
+        (id) => window.ATLAS_TIMELINE_VIEW.contextForPaper(id),
+        neighborId,
+      );
+      assert.equal(
+        expected.year,
+        associations.find((c) => c.b.node.paperId === neighborId).b.node.year,
+        "real " +
+          basis +
+          " neighbor context matches first eligible endpoint year",
+      );
+      await neighborButton.click();
+      await page.waitForTimeout(80);
+      const detail = await page.locator("#detail-content").innerText();
+      assert(
+        detail.includes("截至 " + expected.year + " 年"),
+        "real " + basis + " neighbor right panel uses selected year",
+      );
+      if (Number.isFinite(expected.citations))
+        assert(
+          detail.includes("被引 " + expected.citations + " 次"),
+          "real " + basis + " neighbor right panel uses annual count",
+        );
+      results.relationAnnualAudit.push({
+        basis,
+        year: current.anchor.year,
+        anchor: current.anchor.paperId,
+        neighbor: neighborId,
+        citations: expected.citations,
+        associationCount: associations.length,
+      });
+    }
+    await page.locator("#relation").selectOption("citation");
+    await page.waitForTimeout(100);
+    await page.mouse.move(box.x + box.width * 0.6, box.y + box.height * 0.4);
+    await page.mouse.wheel(0, 5000);
+    await page.waitForTimeout(100);
+    const afterScroll = await state();
+    checkWindow(afterScroll);
+    if (selected.selectedYear > afterScroll.visibleYearBounds[1]) {
+      if (
+        afterScroll.positions.some((p) => p.paperId === selected.anchor.paperId)
+      ) {
+        assert.equal(
+          afterScroll.anchor.paperId,
+          selected.anchor.paperId,
+          "paper remains active when original anchor year scrolls away",
+        );
+        assert(
+          afterScroll.positions
+            .filter((p) => p.paperId === selected.anchor.paperId)
+            .every((p) => afterScroll.highlightInstanceIds.includes(p.id)),
+          "all remaining annual instances stay active",
+        );
+      } else
+        assert.equal(
+          afterScroll.selected,
+          null,
+          "selection clears when selected paper has no visible annual instance",
+        );
+    }
+    await page.mouse.wheel(0, -5000);
+    await page.waitForTimeout(100);
+    results.performance = await page.evaluate(async () => {
+      const canvas = document.createElement("canvas");
+      canvas.id = "timeline-test";
+      Object.assign(canvas.style, {
+        position: "fixed",
+        left: "200px",
+        top: "100px",
+        width: "1200px",
+        height: "800px",
+        zIndex: "99999",
+        background: "#fff",
+      });
+      document.body.append(canvas);
+      window.timelineTestClicks = [];
+      const renderer = window.createTimeline3D({
+        canvas,
+        onSelectNode: (id, slice) => {
+          window.timelineTestClicks.push({ node: id, slice });
+          renderer.select(id, slice);
+        },
+        onSelectEdge: (edge, slice) => {
+          window.timelineTestClicks.push({ edge: edge.id, slice });
+          renderer.select(edge.id, slice);
+        },
+      });
+      const papers = Array.from({ length: 1600 }, (_, i) => ({
+        id: "synthetic-" + i,
+        year: 2020,
+        lab: true,
+        x: i % 40,
+        y: Math.floor(i / 40),
+        displayColor: ["#d7974b", "#7479c7", "#52a3a4"][i % 3],
+      }));
+      const edges = Array.from({ length: 12000 }, (_, i) => ({
+        id: "edge-" + i,
+        source: papers[i % 1600].id,
+        target: papers[((i % 1600) + Math.floor(i / 1600) + 1) % 1600].id,
+        kind: "semantic",
+        score: 1 - i / 12000,
+        evidence: {},
+      }));
+      const history = {
+        papers: Object.fromEntries(
+          papers.map((p, i) => [
+            p.id,
+            {
+              status: i === 0 ? "missing" : "complete",
+              scope: "database_citing_list",
+              annual: [{ year: 2020, count: i % 30 }],
+            },
+          ]),
+        ),
+      };
+      const start = performance.now();
+      renderer.setData({
+        papers,
+        edges,
+        history,
+        yearFrom: 2020,
+        yearTo: 2024,
+      });
+      renderer.setActive(true);
+      renderer.fit();
+      const buildMs = performance.now() - start;
+      await new Promise(requestAnimationFrame);
+      await new Promise(requestAnimationFrame);
+      const scene = renderer.inspect(),
+        times = [],
+        drawTimes = [],
+        frameElapsed = [];
+      for (let i = 0; i < 5; i++) {
+        const t = performance.now();
+        renderer.rotate(i * 0.15);
+        renderer.inspect();
+        times.push(performance.now() - t);
+      }
+      for (let i = 0; i < 5; i++) {
+        const t = performance.now();
+        renderer.rotate(i * 0.2 + 0.1);
+        await new Promise(requestAnimationFrame);
+        await new Promise(requestAnimationFrame);
+        frameElapsed.push(performance.now() - t);
+        drawTimes.push(renderer.inspect().lastDrawMs);
+      }
+      renderer.setData({
+        papers: papers.slice(0, 2),
+        edges: [edges[0]],
+        history,
+        yearFrom: 2020,
+        yearTo: 2021,
+        reset: true,
+      });
+      await new Promise(requestAnimationFrame);
+      window.timelineTestRenderer = renderer;
+      return {
+        inputPapers: 1600,
+        inputConnections: 12000,
+        appearances: scene.positions.length,
+        renderedCurves: scene.curveCount,
+        buildMs,
+        rotateProjectionMs: times,
+        fullDrawMs: drawTimes,
+        frameElapsedMs: frameElapsed,
+        targetFps: scene.targetFps,
+      };
+    });
+    const synthetic = await page.evaluate(() =>
+      window.timelineTestRenderer.inspect(),
+    );
+    assert.equal(
+      synthetic.visibleAssociationIds.length,
+      0,
+      "unselected scene draws no associations",
+    );
+    assert(
+      !synthetic.curves.some((c) => c.kind === "association"),
+      "unselected curve cache has only paper continuations",
+    );
+    const missing = synthetic.positions.find(
+      (p) => p.paperId === "synthetic-0",
+    );
+    assert.equal(missing.citations, null, "missing history remains null");
+    await page.evaluate(() => {
+      const papers = [
+        {
+          id: "anchor",
+          year: 2020,
+          lab: true,
+          x: 0,
+          y: 0,
+          displayColor: "#e17d35",
+        },
+        {
+          id: "neighbor",
+          year: 2021,
+          lab: true,
+          x: 8,
+          y: 1,
+          displayColor: "#6c75bd",
+        },
+        {
+          id: "sameyear",
+          year: 2020,
+          lab: true,
+          x: 3,
+          y: 6,
+          displayColor: "#45a6a2",
+        },
+        {
+          id: "future",
+          year: 2024,
+          lab: true,
+          x: 6,
+          y: 7,
+          displayColor: "#bc67a0",
+        },
+        {
+          id: "earlier",
+          year: 2018,
+          lab: true,
+          x: 1,
+          y: 7,
+          displayColor: "#68707a",
+        },
+      ];
+      const edges = [
+        {
+          id: "cite",
+          source: "neighbor",
+          target: "anchor",
+          kind: "citation",
+          score: 0.95,
+        },
+        {
+          id: "semantic",
+          source: "anchor",
+          target: "sameyear",
+          kind: "semantic",
+          score: 0.85,
+        },
+        {
+          id: "author",
+          source: "anchor",
+          target: "earlier",
+          kind: "author",
+          score: 0.75,
+        },
+        {
+          id: "keyword",
+          source: "anchor",
+          target: "sameyear",
+          kind: "keyword",
+          score: 0.65,
+        },
+        {
+          id: "future-edge",
+          source: "anchor",
+          target: "future",
+          kind: "keyword",
+          score: 1,
+        },
+      ];
+      const history = {
+        papers: Object.fromEntries(
+          papers.map((p, i) => [
+            p.id,
+            {
+              status: "complete",
+              scope: "database_citing_list",
+              annual: [
+                { year: 2020, count: 1 + i },
+                { year: 2021, count: 3 + i },
+                { year: 2023, count: 20 },
+              ],
+            },
+          ]),
+        ),
+      };
+      window.timelineTestHistory = history;
+      window.timelineTestPapers = papers;
+      window.timelineTestEdges = edges;
+      window.timelineTestClicks = [];
+      window.timelineTestRenderer.setData({
+        papers,
+        edges,
+        history,
+        yearFrom: 2020,
+        yearTo: 2022,
+        reset: true,
+      });
+      window.timelineTestRenderer.select("anchor", { year: 2022 });
+    });
+    await page.waitForTimeout(100);
+    let selectedSynthetic = await page.evaluate(() =>
+        window.timelineTestRenderer.inspect(),
+      ),
+      testBox = await page.locator("#timeline-test").boundingBox();
+    assert.deepEqual(
+      selectedSynthetic.anchor,
+      { paperId: "anchor", year: 2022, instanceId: "anchor@2022" },
+      "select exact paper-year anchor",
+    );
+    assert(
+      !selectedSynthetic.visibleAssociationIds.includes("future-edge"),
+      "future relation excluded from selected year",
+    );
+    assert.deepEqual(
+      new Set(selectedSynthetic.visibleAssociationIds),
+      new Set(["cite", "semantic", "author", "keyword"]),
+      "selected year only exposes incident active relations",
+    );
+    let edge = selectedSynthetic.curves.find(
+      (c) => c.kind === "association" && c.edgeId === "cite",
+    );
+    assert(edge, "selected node exposes citation Bezier");
+    assert.deepEqual(edge.dash, [], "citation relation uses solid stroke");
+    const semantic = selectedSynthetic.curves.find(
+      (c) => c.edgeId === "semantic",
+    );
+    assert(semantic.dash.length > 0, "semantic relation uses dashed stroke");
+    const contexts = await page.evaluate(() => ({
+      anchor: window.timelineTestRenderer.contextForPaper("anchor"),
+      neighbor: window.timelineTestRenderer.contextForPaper("neighbor"),
+      earlier: window.timelineTestRenderer.contextForPaper("earlier"),
+    }));
+    assert.equal(
+      contexts.anchor.year,
+      2022,
+      "selected paper details use anchor year",
+    );
+    assert.equal(
+      contexts.neighbor.year,
+      2021,
+      "neighbor details use first coexistence endpoint year",
+    );
+    assert.equal(
+      contexts.earlier.year,
+      Math.min(
+        ...selectedSynthetic.positions
+          .filter((p) => p.paperId === "anchor")
+          .map((p) => p.year),
+      ),
+      "older neighbor starts when selected paper first exists visibly",
+    );
+    const actualAudit = await page.evaluate(() => {
+      const s = window.timelineTestRenderer.inspect(),
+        h = window.timelineTestHistory,
+        helper = window.ATLAS_TIMELINE_HISTORY;
+      return ["anchor", "neighbor", "earlier"].map((id) => {
+        const c = window.timelineTestRenderer.contextForPaper(id);
+        return {
+          id,
+          year: c.year,
+          citations: c.citations,
+          expected: helper.citationAt(h.papers[id], c.year).count,
+          highlight: s.highlightInstanceIds.includes(id + "@" + c.year),
+        };
+      });
+    });
+    assert(
+      actualAudit.every((c) => c.citations === c.expected && c.highlight),
+      "endpoint highlights and details agree on actual annual counts",
+    );
+    const syntheticBase = Math.min(
+      ...selectedSynthetic.positions
+        .filter((p) => p.paperId === "anchor")
+        .map((p) => p.year),
+    );
+    for (const curve of selectedSynthetic.curves.filter(
+      (c) => c.kind === "association",
+    )) {
+      assert.equal(curve.a.node.id, "anchor@" + syntheticBase);
+      assert(selectedSynthetic.highlightInstanceIds.includes(curve.a.node.id));
+      assert(selectedSynthetic.highlightInstanceIds.includes(curve.b.node.id));
+      assert(curve.b.node.year >= syntheticBase);
+      assert.equal(curve.year, curve.b.node.year);
+      if (curve.edgeId === "cite") {
+        assert.equal(curve.sourceYear, curve.b.node.year);
+        assert.equal(curve.targetYear, syntheticBase);
+      } else {
+        assert.equal(curve.sourceYear, syntheticBase);
+        assert.equal(curve.targetYear, curve.b.node.year);
+      }
+    }
+    const insideNode = (p, n) =>
+      ((p.x - n.x) / (n.rx + 3)) ** 2 + ((p.y - n.y) / (n.ry + 3)) ** 2 <= 1;
+    const visibleSample = () =>
+      edge.samples
+        .slice(1, -1)
+        .find(
+          (p) =>
+            !selectedSynthetic.positions.some((n) => insideNode(p, n)) &&
+            !selectedSynthetic.planes.some(
+              (plane) =>
+                (edge.sourceYear === edge.targetYear
+                  ? plane.year > edge.year
+                  : plane.year >= edge.year) && insideNode(p, plane),
+            ),
+        );
+    let point = visibleSample();
+    if (!point) {
+      await page.evaluate(() => {
+        const v = window.timelineTestRenderer;
+        v.rotate(v.inspect().camera.yaw + Math.PI);
+      });
+      await page.waitForTimeout(70);
+      selectedSynthetic = await page.evaluate(() =>
+        window.timelineTestRenderer.inspect(),
+      );
+      edge = selectedSynthetic.curves.find((c) => c.edgeId === "cite");
+      point = visibleSample();
+    }
+    assert(
+      point,
+      "selected Bezier has a visible segment outside node and upper plane occlusion",
+    );
+    await page.mouse.click(testBox.x + point.x, testBox.y + point.y);
+    await page.waitForTimeout(70);
+    const clicks = await page.evaluate(() => window.timelineTestClicks);
+    assert(
+      clicks.some((c) => c.edge === edge.edgeId),
+      "real Bezier curve click opens relation callback",
+    );
+    const edgeSelected = await page.evaluate(() =>
+      window.timelineTestRenderer.inspect(),
+    );
+    assert.deepEqual(
+      edgeSelected.anchor,
+      selectedSynthetic.anchor,
+      "edge selection preserves origin annual anchor",
+    );
+    results.edgeClick = clicks.find((c) => c.edge === edge.edgeId);
+    results.annualSelection = {
+      anchor: selectedSynthetic.anchor,
+      contexts,
+      actualAudit,
+      visibleAssociationIds: selectedSynthetic.visibleAssociationIds,
+    };
+    await page.screenshot({
+      path: path.join(output, "timeline-isolated-selected.png"),
+    });
+    await page.evaluate(() => {
+      window.timelineTestRenderer.select(null);
+      window.timelineTestClicks = [];
+    });
+    await page.waitForTimeout(70);
+    const cleared = await page.evaluate(() =>
+      window.timelineTestRenderer.inspect(),
+    );
+    assert.equal(cleared.anchor, null);
+    assert.equal(cleared.visibleAssociationIds.length, 0);
+    assert(
+      !cleared.curves.some((c) => c.kind === "association"),
+      "clearing removes cached association strokes",
+    );
+    await page.mouse.click(testBox.x + point.x, testBox.y + point.y);
+    await page.waitForTimeout(70);
+    assert(
+      !(await page.evaluate(() => window.timelineTestClicks)).some(
+        (c) => c.edge,
+      ),
+      "cleared association cannot receive relation hit",
+    );
+    await page.evaluate(() => {
+      const papers = Array.from({ length: 180 }, (_, i) => ({
+        id: "occlusion-" + i,
+        year: 2020,
+        lab: i < 40,
+        x: i % 20,
+        y: Math.floor(i / 20),
+        displayColor: i < 40 ? "#ef3838" : "#285be8",
+      }));
+      window.timelineTestClicks = [];
+      window.timelineTestRenderer.setData({
+        papers,
+        edges: [],
+        history: {},
+        yearFrom: 2020,
+        yearTo: 2021,
+        reset: true,
+      });
+    });
+    const occlusionBefore = await page.evaluate(() =>
+      window.timelineTestRenderer.inspect(),
+    );
+    const occlusionStart = {
+        x: testBox.x + testBox.width * 0.5,
+        y: testBox.y + testBox.height * 0.5,
+      },
+      occlusionDy =
+        ((70 * Math.PI) / 180 - occlusionBefore.camera.pitch) / 0.004;
+    await page.mouse.move(occlusionStart.x, occlusionStart.y);
+    await page.mouse.down();
+    await page.mouse.move(occlusionStart.x, occlusionStart.y + occlusionDy, {
+      steps: 8,
+    });
+    await page.mouse.up();
+    await page.waitForTimeout(100);
+    const occlusion = await page.evaluate(() =>
+      window.timelineTestRenderer.inspect(),
+    );
+    const inside = (point, ellipse, padding = 0) =>
+      ((point.x - ellipse.x) / (ellipse.rx + padding)) ** 2 +
+        ((point.y - ellipse.y) / (ellipse.ry + padding)) ** 2 <=
+      1;
+    const upperYear = Math.max(...occlusion.planes.map((p) => p.year)),
+      upperPlane = occlusion.planes.find((p) => p.year === upperYear),
+      upperNodes = occlusion.positions.filter((p) => p.year === upperYear);
+    const covered = occlusion.positions.find(
+      (p) =>
+        Number(p.paperId.split("-").at(-1)) < 40 &&
+        p.year < upperYear &&
+        inside(p, upperPlane, -2) &&
+        !upperNodes.some((n) => inside(p, n, 3)),
+    );
+    assert(
+      covered,
+      "isolated scene contains a lower node occluded only by upper plane",
+    );
+    const coveredPixel = await page
+      .locator("#timeline-test")
+      .evaluate((canvas, point) => {
+        const ratio = canvas.width / canvas.getBoundingClientRect().width;
+        return [
+          ...canvas
+            .getContext("2d")
+            .getImageData(
+              Math.round(point.x * ratio),
+              Math.round(point.y * ratio),
+              1,
+              1,
+            ).data,
+        ];
+      }, covered);
+    assert(
+      coveredPixel[1] > 90 && coveredPixel[2] > 90,
+      "upper neutral plane blends over opaque red lower laboratory node",
+    );
+    await page.screenshot({
+      path: path.join(output, "timeline-occlusion.png"),
+    });
+    await page.mouse.click(testBox.x + covered.x, testBox.y + covered.y);
+    const occlusionClicks = await page.evaluate(
+      () => window.timelineTestClicks,
+    );
+    assert(
+      !occlusionClicks.some(
+        (c) => c.node === covered.paperId && c.slice?.year === covered.year,
+      ),
+      "upper plane blocks selecting covered lower node",
+    );
+    results.occlusion = {
+      covered,
+      coveredPixel,
+      upperYear,
+      clicks: occlusionClicks,
+    };
+    await page.evaluate(() => {
+      window.timelineTestRenderer.destroy();
+      document.getElementById("timeline-test").remove();
+    });
+    await page.locator('[data-view="papers"]').click();
+    assert(await canvas.isHidden());
+    await page.locator('[data-view="authors"]').click();
+    assert(await canvas.isHidden());
+    await page.locator('[data-view="timeline"]').click();
+    assert(await canvas.isVisible());
+    results.resized = [];
+    for (const height of [700, 1300]) {
+      await page.setViewportSize({ width: 1600, height });
+      await page.waitForTimeout(150);
+      const resized = await state();
+      checkWindow(resized);
+      results.resized.push({
+        height,
+        count: resized.windowCount ?? resized.yearWindowCount,
+      });
+    }
+    assert(
+      results.resized[0].count < results.resized[1].count,
+      "visible year count adapts to viewport height",
+    );
+    assert.equal(errors.length, 0, errors.join("\n"));
+    fs.writeFileSync(
+      path.join(output, "browser-results.json"),
+      JSON.stringify({ results, errors }, null, 2),
+    );
+    const summary = (s) => ({
+      yearBounds: s.yearBounds,
+      visibleYearBounds: s.visibleYearBounds,
+      yearWindowCount: s.yearWindowCount ?? s.windowCount,
+      nodes: s.positions.length,
+      curves: s.curveCount,
+      associations: s.associationCount,
+      camera: s.camera,
+    });
+    console.log(
+      JSON.stringify({
+        screenshots: output,
+        default: summary(results.default),
+        wide: summary(results.wide),
+        nodeClick: results.nodeClick,
+        edgeClick: results.edgeClick,
+        performance: results.performance,
+        errors,
+      }),
+    );
+  } finally {
+    if (browser) await browser.close();
+    await new Promise((resolve) => server.close(resolve));
   }
-  await page.locator('#relation').selectOption('citation');await page.waitForTimeout(100);
-  await page.mouse.move(box.x+box.width*.6,box.y+box.height*.4);await page.mouse.wheel(0,5000);await page.waitForTimeout(100);
-  const afterScroll=await state();checkWindow(afterScroll);
-  if(selected.selectedYear>afterScroll.visibleYearBounds[1]){
-   if(afterScroll.positions.some(p=>p.paperId===selected.anchor.paperId)){assert.equal(afterScroll.anchor.paperId,selected.anchor.paperId,'paper remains active when original anchor year scrolls away');assert(afterScroll.positions.filter(p=>p.paperId===selected.anchor.paperId).every(p=>afterScroll.highlightInstanceIds.includes(p.id)),'all remaining annual instances stay active');}else assert.equal(afterScroll.selected,null,'selection clears when selected paper has no visible annual instance');
-  }
-  await page.mouse.wheel(0,-5000);await page.waitForTimeout(100);
-  results.performance=await page.evaluate(async()=>{
-   const canvas=document.createElement('canvas');canvas.id='timeline-test';Object.assign(canvas.style,{position:'fixed',left:'200px',top:'100px',width:'1200px',height:'800px',zIndex:'99999',background:'#fff'});document.body.append(canvas);
-   window.timelineTestClicks=[];
-   const renderer=window.createTimeline3D({canvas,onSelectNode:(id,slice)=>{window.timelineTestClicks.push({node:id,slice});renderer.select(id,slice);},onSelectEdge:(edge,slice)=>{window.timelineTestClicks.push({edge:edge.id,slice});renderer.select(edge.id,slice);}});
-   const papers=Array.from({length:1600},(_,i)=>({id:'synthetic-'+i,year:2020,lab:true,x:i%40,y:Math.floor(i/40),displayColor:['#d7974b','#7479c7','#52a3a4'][i%3]}));
-   const edges=Array.from({length:12000},(_,i)=>({id:'edge-'+i,source:papers[i%1600].id,target:papers[(i%1600+Math.floor(i/1600)+1)%1600].id,kind:'semantic',score:1-i/12000,evidence:{}}));
-   const history={papers:Object.fromEntries(papers.map((p,i)=>[p.id,{status:i===0?'missing':'complete',scope:'database_citing_list',annual:[{year:2020,count:i%30}]}]))};
-   const start=performance.now();renderer.setData({papers,edges,history,yearFrom:2020,yearTo:2024});renderer.setActive(true);renderer.fit();const buildMs=performance.now()-start;
-   await new Promise(requestAnimationFrame);await new Promise(requestAnimationFrame);
-   const scene=renderer.inspect(),times=[],drawTimes=[],frameElapsed=[];for(let i=0;i<5;i++){const t=performance.now();renderer.rotate(i*.15);renderer.inspect();times.push(performance.now()-t);}
-   for(let i=0;i<5;i++){const t=performance.now();renderer.rotate(i*.2+.1);await new Promise(requestAnimationFrame);await new Promise(requestAnimationFrame);frameElapsed.push(performance.now()-t);drawTimes.push(renderer.inspect().lastDrawMs);}
-   renderer.setData({papers:papers.slice(0,2),edges:[edges[0]],history,yearFrom:2020,yearTo:2021,reset:true});
-   await new Promise(requestAnimationFrame);
-   window.timelineTestRenderer=renderer;
-   return {inputPapers:1600,inputConnections:12000,appearances:scene.positions.length,renderedCurves:scene.curveCount,buildMs,rotateProjectionMs:times,fullDrawMs:drawTimes,frameElapsedMs:frameElapsed,targetFps:scene.targetFps};
-  });
-  const synthetic=await page.evaluate(()=>window.timelineTestRenderer.inspect());
-  assert.equal(synthetic.visibleAssociationIds.length,0,'unselected scene draws no associations');
-  assert(!synthetic.curves.some(c=>c.kind==='association'),'unselected curve cache has only paper continuations');
-  const missing=synthetic.positions.find(p=>p.paperId==='synthetic-0');assert.equal(missing.citations,null,'missing history remains null');
-  await page.evaluate(()=>{
-   const papers=[{id:'anchor',year:2020,lab:true,x:0,y:0,displayColor:'#e17d35'},{id:'neighbor',year:2021,lab:true,x:8,y:1,displayColor:'#6c75bd'},{id:'sameyear',year:2020,lab:true,x:3,y:6,displayColor:'#45a6a2'},{id:'future',year:2024,lab:true,x:6,y:7,displayColor:'#bc67a0'},{id:'earlier',year:2018,lab:true,x:1,y:7,displayColor:'#68707a'}];
-   const edges=[{id:'cite',source:'neighbor',target:'anchor',kind:'citation',score:.95},{id:'semantic',source:'anchor',target:'sameyear',kind:'semantic',score:.85},{id:'author',source:'anchor',target:'earlier',kind:'author',score:.75},{id:'keyword',source:'anchor',target:'sameyear',kind:'keyword',score:.65},{id:'future-edge',source:'anchor',target:'future',kind:'keyword',score:1}];
-   const history={papers:Object.fromEntries(papers.map((p,i)=>[p.id,{status:'complete',scope:'database_citing_list',annual:[{year:2020,count:1+i},{year:2021,count:3+i},{year:2023,count:20}]}]))};
-   window.timelineTestHistory=history;window.timelineTestPapers=papers;window.timelineTestEdges=edges;window.timelineTestClicks=[];
-   window.timelineTestRenderer.setData({papers,edges,history,yearFrom:2020,yearTo:2022,reset:true});window.timelineTestRenderer.select('anchor',{year:2022});
-  });
-  await page.waitForTimeout(100);
-  let selectedSynthetic=await page.evaluate(()=>window.timelineTestRenderer.inspect()),testBox=await page.locator('#timeline-test').boundingBox();
-  assert.deepEqual(selectedSynthetic.anchor,{paperId:'anchor',year:2022,instanceId:'anchor@2022'},'select exact paper-year anchor');
-  assert(!selectedSynthetic.visibleAssociationIds.includes('future-edge'),'future relation excluded from selected year');
-  assert.deepEqual(new Set(selectedSynthetic.visibleAssociationIds),new Set(['cite','semantic','author','keyword']),'selected year only exposes incident active relations');
-  let edge=selectedSynthetic.curves.find(c=>c.kind==='association'&&c.edgeId==='cite');assert(edge,'selected node exposes citation Bezier');
-  assert.deepEqual(edge.dash,[],'citation relation uses solid stroke');
-  const semantic=selectedSynthetic.curves.find(c=>c.edgeId==='semantic');assert(semantic.dash.length>0,'semantic relation uses dashed stroke');
-  const contexts=await page.evaluate(()=>({anchor:window.timelineTestRenderer.contextForPaper('anchor'),neighbor:window.timelineTestRenderer.contextForPaper('neighbor'),earlier:window.timelineTestRenderer.contextForPaper('earlier')}));
-  assert.equal(contexts.anchor.year,2022,'selected paper details use anchor year');
-  assert.equal(contexts.neighbor.year,2021,'neighbor details use first coexistence endpoint year');
-  assert.equal(contexts.earlier.year,Math.min(...selectedSynthetic.positions.filter(p=>p.paperId==='anchor').map(p=>p.year)),'older neighbor starts when selected paper first exists visibly');
-  const actualAudit=await page.evaluate(()=>{const s=window.timelineTestRenderer.inspect(),h=window.timelineTestHistory,helper=window.ATLAS_TIMELINE_HISTORY;return ['anchor','neighbor','earlier'].map(id=>{const c=window.timelineTestRenderer.contextForPaper(id);return {id,year:c.year,citations:c.citations,expected:helper.citationAt(h.papers[id],c.year).count,highlight:s.highlightInstanceIds.includes(id+'@'+c.year)};});});
-  assert(actualAudit.every(c=>c.citations===c.expected&&c.highlight),'endpoint highlights and details agree on actual annual counts');
-  const syntheticBase=Math.min(...selectedSynthetic.positions.filter(p=>p.paperId==='anchor').map(p=>p.year));for(const curve of selectedSynthetic.curves.filter(c=>c.kind==='association')){assert.equal(curve.a.node.id,'anchor@'+syntheticBase);assert(selectedSynthetic.highlightInstanceIds.includes(curve.a.node.id));assert(selectedSynthetic.highlightInstanceIds.includes(curve.b.node.id));assert(curve.b.node.year>=syntheticBase);assert.equal(curve.year,curve.b.node.year);if(curve.edgeId==='cite'){assert.equal(curve.sourceYear,curve.b.node.year);assert.equal(curve.targetYear,syntheticBase);}else{assert.equal(curve.sourceYear,syntheticBase);assert.equal(curve.targetYear,curve.b.node.year);}}
-  const insideNode=(p,n)=>((p.x-n.x)/(n.rx+3))**2+((p.y-n.y)/(n.ry+3))**2<=1;
-  const visibleSample=()=>edge.samples.slice(1,-1).find(p=>!selectedSynthetic.positions.some(n=>insideNode(p,n))&&!selectedSynthetic.planes.some(plane=>(edge.sourceYear===edge.targetYear?plane.year>edge.year:plane.year>=edge.year)&&insideNode(p,plane)));let point=visibleSample();if(!point){await page.evaluate(()=>{const v=window.timelineTestRenderer;v.rotate(v.inspect().camera.yaw+Math.PI);});await page.waitForTimeout(70);selectedSynthetic=await page.evaluate(()=>window.timelineTestRenderer.inspect());edge=selectedSynthetic.curves.find(c=>c.edgeId==='cite');point=visibleSample();}assert(point,'selected Bezier has a visible segment outside node and upper plane occlusion');
-  await page.mouse.click(testBox.x+point.x,testBox.y+point.y);await page.waitForTimeout(70);
-  const clicks=await page.evaluate(()=>window.timelineTestClicks);
-  assert(clicks.some(c=>c.edge===edge.edgeId),'real Bezier curve click opens relation callback');
-  const edgeSelected=await page.evaluate(()=>window.timelineTestRenderer.inspect());
-  assert.deepEqual(edgeSelected.anchor,selectedSynthetic.anchor,'edge selection preserves origin annual anchor');
-  results.edgeClick=clicks.find(c=>c.edge===edge.edgeId);results.annualSelection={anchor:selectedSynthetic.anchor,contexts,actualAudit,visibleAssociationIds:selectedSynthetic.visibleAssociationIds};
-  await page.screenshot({path:path.join(output,'timeline-isolated-selected.png')});
-  await page.evaluate(()=>{window.timelineTestRenderer.select(null);window.timelineTestClicks=[];});await page.waitForTimeout(70);
-  const cleared=await page.evaluate(()=>window.timelineTestRenderer.inspect());assert.equal(cleared.anchor,null);assert.equal(cleared.visibleAssociationIds.length,0);assert(!cleared.curves.some(c=>c.kind==='association'),'clearing removes cached association strokes');
-  await page.mouse.click(testBox.x+point.x,testBox.y+point.y);await page.waitForTimeout(70);
-  assert(!(await page.evaluate(()=>window.timelineTestClicks)).some(c=>c.edge),'cleared association cannot receive relation hit');
-  await page.evaluate(()=>{
-   const papers=Array.from({length:180},(_,i)=>({id:'occlusion-'+i,year:2020,lab:i<40,x:i%20,y:Math.floor(i/20),displayColor:i<40?'#ef3838':'#285be8'}));
-   window.timelineTestClicks=[];window.timelineTestRenderer.setData({papers,edges:[],history:{},yearFrom:2020,yearTo:2021,reset:true});
-  });
-  const occlusionBefore=await page.evaluate(()=>window.timelineTestRenderer.inspect());
-  const occlusionStart={x:testBox.x+testBox.width*.5,y:testBox.y+testBox.height*.5},occlusionDy=(70*Math.PI/180-occlusionBefore.camera.pitch)/.004;
-  await page.mouse.move(occlusionStart.x,occlusionStart.y);await page.mouse.down();await page.mouse.move(occlusionStart.x,occlusionStart.y+occlusionDy,{steps:8});await page.mouse.up();await page.waitForTimeout(100);
-  const occlusion=await page.evaluate(()=>window.timelineTestRenderer.inspect());
-  const inside=(point,ellipse,padding=0)=>((point.x-ellipse.x)/(ellipse.rx+padding))**2+((point.y-ellipse.y)/(ellipse.ry+padding))**2<=1;
-  const upperYear=Math.max(...occlusion.planes.map(p=>p.year)),upperPlane=occlusion.planes.find(p=>p.year===upperYear),upperNodes=occlusion.positions.filter(p=>p.year===upperYear);
-  const covered=occlusion.positions.find(p=>Number(p.paperId.split('-').at(-1))<40&&p.year<upperYear&&inside(p,upperPlane,-2)&&!upperNodes.some(n=>inside(p,n,3)));
-  assert(covered,'isolated scene contains a lower node occluded only by upper plane');
-  const coveredPixel=await page.locator('#timeline-test').evaluate((canvas,point)=>{
-   const ratio=canvas.width/canvas.getBoundingClientRect().width;return [...canvas.getContext('2d').getImageData(Math.round(point.x*ratio),Math.round(point.y*ratio),1,1).data];
-  },covered);
-  assert(coveredPixel[1]>90&&coveredPixel[2]>90,'upper neutral plane blends over opaque red lower laboratory node');
-  await page.screenshot({path:path.join(output,'timeline-occlusion.png')});
-  await page.mouse.click(testBox.x+covered.x,testBox.y+covered.y);
-  const occlusionClicks=await page.evaluate(()=>window.timelineTestClicks);
-  assert(!occlusionClicks.some(c=>c.node===covered.paperId&&c.slice?.year===covered.year),'upper plane blocks selecting covered lower node');
-  results.occlusion={covered,coveredPixel,upperYear,clicks:occlusionClicks};
-  await page.evaluate(()=>{window.timelineTestRenderer.destroy();document.getElementById('timeline-test').remove();});
-  await page.locator('[data-view="papers"]').click();assert(await canvas.isHidden());
-  await page.locator('[data-view="authors"]').click();assert(await canvas.isHidden());
-  await page.locator('[data-view="timeline"]').click();assert(await canvas.isVisible());
-  results.resized=[];
-  for(const height of [700,1300]){await page.setViewportSize({width:1600,height});await page.waitForTimeout(150);const resized=await state();checkWindow(resized);results.resized.push({height,count:resized.windowCount??resized.yearWindowCount});}
-  assert(results.resized[0].count<results.resized[1].count,'visible year count adapts to viewport height');
-  assert.equal(errors.length,0,errors.join('\n'));
-  fs.writeFileSync(path.join(output,'browser-results.json'),JSON.stringify({results,errors},null,2));
-  const summary=s=>({yearBounds:s.yearBounds,visibleYearBounds:s.visibleYearBounds,yearWindowCount:s.yearWindowCount??s.windowCount,nodes:s.positions.length,curves:s.curveCount,associations:s.associationCount,camera:s.camera});
-  console.log(JSON.stringify({screenshots:output,default:summary(results.default),wide:summary(results.wide),nodeClick:results.nodeClick,edgeClick:results.edgeClick,performance:results.performance,errors}));
- }finally{if(browser)await browser.close();await new Promise(resolve=>server.close(resolve));}
-})().catch(error=>{console.error(error.stack);process.exitCode=1;});
+})().catch((error) => {
+  console.error(error.stack);
+  process.exitCode = 1;
+});

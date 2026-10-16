@@ -1,0 +1,18 @@
+# Generated browser data and frozen evidence
+outputs/paper-atlas/data.js
+outputs/paper-atlas/author-affiliations.js
+outputs/paper-atlas/author-groups.js
+outputs/paper-atlas/author-identities.js
+outputs/paper-atlas/citation-history.js
+outputs/paper-atlas/network-evidence.js
+outputs/paper-atlas/paper-fields.js
+outputs/paper-atlas/paper-keywords.js
+outputs/paper-atlas/retrieval-data.js
+outputs/paper-atlas/workflow-data.js
+outputs/paper-atlas/workflow-explanations.js
+outputs/paper-atlas/workflow-flow-data.js
+outputs/paper-atlas/workflow-guide.js
+outputs/paper-atlas/cytoscape.min.js
+data/
+_legacy/
+work/

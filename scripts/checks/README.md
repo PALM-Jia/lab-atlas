@@ -3,7 +3,7 @@
 Run after the offline build from the repository root, with Node.js:
 
 ```powershell
-Get-ChildItem scripts/checks -Filter '*.cjs' | Where-Object { $_.Name -notin @('frontend-fixture.cjs','check-browser.cjs','check-timeline-browser.cjs','check-timeline-selection-browser.cjs','check-migration.cjs') } | ForEach-Object { node $_.FullName; if ($LASTEXITCODE -ne 0) { throw "Check failed: $($_.Name)" } }
+Get-ChildItem scripts/checks -Filter '*.cjs' | Where-Object { $_.Name -notin @('frontend-fixture.cjs','check-browser.cjs','check-timeline-browser.cjs','check-timeline-selection-browser.cjs') } | ForEach-Object { node $_.FullName; if ($LASTEXITCODE -ne 0) { throw "Check failed: $($_.Name)" } }
 ```
 
 - test-keyword-network: independent synthetic fixtures for contribution weights, accepted empty/excluded states, task profiles, quotes, IDF, top-five union and external scope.
@@ -19,9 +19,7 @@ Get-ChildItem scripts/checks -Filter '*.cjs' | Where-Object { $_.Name -notin @('
 - check-timeline-selection: exact annual instance anchors, simultaneous activation across visible years, unique upward relations from the earliest visible instance, with matching endpoints, highlights and details for every relation, edge-click anchor preservation, solid/dashed thin lines and citation-based size contrast.
 
 frontend-fixture executes every external script in index.html in page order, including paper-fields and keyword-relations. Real Cytoscape runs headlessly; DOM, layout installation and WebGL rendering use adapters. These checks validate application data, graph computation and event handlers; they do not certify browser layout, visual styling or WebGL rendering. No check performs network requests or writes reports into work.
-
-check-migration.cjs is a historical v1.0 migration check. It compares 22 old fact files against the pre-two-source byte baseline and is expected to fail after adopting the current two-source snapshot; it is excluded from the current-check command above. The removed relations-full duplicate is excluded explicitly.
-
+`r`n
 check-semantic-provenance.cjs recomputes every adopted title/abstract digest and model/input vector key, then validates actual vector files, pinned model revisions, dimensions, finite values, L2 normalization, generation coverage and retrieval provenance.
 
 `python -B scripts/checks/test-semantic-refresh.py` uses an isolated fixture and stubbed inference to verify cached refresh without an existing report directory, changed input propagation, explained failure with cleared stale input, and preservation of unrelated retrieval/network evidence.
@@ -38,3 +36,4 @@ node scripts/checks/check-timeline-selection-browser.cjs
 ```
 
 The browser check serves the selected directory on localhost, or opens it directly with file:// when --file is supplied. It blocks remote requests, exercises all three pages and reports JavaScript/console/HTTP errors. PLAYWRIGHT_EXECUTABLE is optional when the bundled Playwright browser is available. Browser process launch can be blocked by sandbox permissions (spawn EPERM); this is an execution limitation, not a passed browser check.
+

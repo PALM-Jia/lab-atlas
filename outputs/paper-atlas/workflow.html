@@ -1,15 +1,73 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>处理流程 · Lab Atlas</title><link rel="stylesheet" href="theme.css"><link rel="stylesheet" href="workflow.css?v=20261020"><script defer src="workflow-data.js"></script><script defer src="workflow-guide.js"></script><script defer src="workflow-explanations.js"></script><script defer src="workflow-flow-data.js"></script><script defer src="workflow-flow.js"></script><script defer src="workflow.js?v=20261021"></script><script defer src="atlas-navigation.js"></script>
-</head><body>
-<header class="atlas-header">
-    <a class="brand atlas-brand" href="index.html"><span class="brand-mark">✳</span><span>Lab Atlas</span></a>
-    <nav class="atlas-nav" aria-label="主要导航">
-      <a href="index.html">可视化</a>
-      <a href="retrieval.html">检索汇总</a>
-      <a href="workflow.html" aria-current="page">处理流程</a>
-    </nav>
-    <button id="about" class="quiet" type="button">数据说明</button>
-  </header>
-<main><div class="intro"><h1>论文信息处理流程</h1><span class="design-label">实验室资料 · OpenAlex</span><p class="workflow-subtitle">从实验室主页清单到可追溯的论文、作者与引用特征</p></div>
-<section id="panel-lifecycle" aria-label="采集与定稿"><div class="chart-toolbar"><div class="chart-key"><span><i class="key-source"></i>未定稿信息</span><span><i class="key-final"></i>已定稿信息</span><span><i class="key-line"></i>信息流转</span><span><i class="key-process"></i>处理动作</span></div><button id="clear" class="quiet" hidden>取消高亮</button><span id="selection-caption" class="sr-only" aria-live="polite"></span></div><div id="lifecycle-scroll" class="chart-scroll" tabindex="0" aria-label="采集与定稿图，可横向滚动"><div id="lifecycle-board"></div></div></section>
-<div class="workflow-reading"><section id="inspector" aria-label="完整流程说明"><div id="workflow-explanations"></div></section><aside id="workflow-toc" aria-label="页面目录"></aside></div>
-<noscript>① 读取主页清单 → ② 核对身份与版本 → ③ 采集论文详情 → ④ 补全引用记录 → ⑤ 生成特征与画像。</noscript></main></body></html>
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>处理流程 · Lab Atlas</title>
+    <link rel="stylesheet" href="theme.css" />
+    <link rel="stylesheet" href="workflow.css?v=20261020" />
+    <script defer src="workflow-data.js"></script>
+    <script defer src="workflow-guide.js"></script>
+    <script defer src="workflow-explanations.js"></script>
+    <script defer src="workflow-flow-data.js"></script>
+    <script defer src="workflow-flow.js"></script>
+    <script defer src="workflow.js?v=20261021"></script>
+    <script defer src="atlas-navigation.js"></script>
+  </head>
+  <body>
+    <header class="atlas-header">
+      <a class="brand atlas-brand" href="index.html"
+        ><span class="brand-mark">✳</span><span>Lab Atlas</span></a
+      >
+      <nav class="atlas-nav" aria-label="主要导航">
+        <a href="index.html">可视化</a>
+        <a href="retrieval.html">检索汇总</a>
+        <a href="workflow.html" aria-current="page">处理流程</a>
+      </nav>
+      <button id="about" class="quiet" type="button">数据说明</button>
+    </header>
+    <main>
+      <div class="intro">
+        <h1>论文信息处理流程</h1>
+        <span class="design-label">实验室资料 · OpenAlex</span>
+        <p class="workflow-subtitle">
+          从实验室主页清单到可追溯的论文、作者与引用特征
+        </p>
+      </div>
+      <section id="panel-lifecycle" aria-label="采集与定稿">
+        <div class="chart-toolbar">
+          <div class="chart-key">
+            <span><i class="key-source"></i>未定稿信息</span
+            ><span><i class="key-final"></i>已定稿信息</span
+            ><span><i class="key-line"></i>信息流转</span
+            ><span><i class="key-process"></i>处理动作</span>
+          </div>
+          <button id="clear" class="quiet" hidden>取消高亮</button
+          ><span
+            id="selection-caption"
+            class="sr-only"
+            aria-live="polite"
+          ></span>
+        </div>
+        <div
+          id="lifecycle-scroll"
+          class="chart-scroll"
+          tabindex="0"
+          aria-label="采集与定稿图，可横向滚动"
+        >
+          <div id="lifecycle-board"></div>
+        </div>
+      </section>
+      <div class="workflow-reading">
+        <section id="inspector" aria-label="完整流程说明">
+          <div id="workflow-explanations"></div>
+        </section>
+        <aside id="workflow-toc" aria-label="页面目录"></aside>
+      </div>
+      <noscript
+        >① 读取主页清单 → ② 核对身份与版本 → ③ 采集论文详情 → ④ 补全引用记录 → ⑤
+        生成特征与画像。</noscript
+      >
+    </main>
+  </body>
+</html>
