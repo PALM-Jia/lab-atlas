@@ -1,0 +1,48 @@
+{
+  "task_sha256": "dea72b9b56cb1fc38a48dabf503bf5165b5eb194b08ac3094afaeb3aa7729561",
+  "input_sha256": "96e8f6bb7abc6a613c3bb9fd869ffd4a4f7f9f621c6ed37117dff1893e07f146",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "5f466ea7666fb2f639b1bce3fd02a5148d14d9180d67dd49e0662203210d8892",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "5b1afe6c40407b74ae46aa661c454d6bb04160e80c84064a488e1f872bbc6fba",
+  "raw_response": "{\"paper_id\":\"W7208779958\",\"input_sha256\":\"0a1733ce2f21e4177fa1c7b09df3ffcbf37b290478d93a5a732a9cf5a567f03c\",\"keyword_ids\":[\"label-enhancement\",\"low-rank-modeling\",\"weakly-supervised-learning\"],\"evidence\":[{\"keyword_id\":\"label-enhancement\",\"field\":\"abstract\",\"quote\":\"Label enhancement mitigates this by converting low-cost binary logical labels into continuous label distributions\"},{\"keyword_id\":\"low-rank-modeling\",\"field\":\"abstract\",\"quote\":\"apply PCA to the logical label matrix and enforce alignment between its dominant subspace and the generated scores\"},{\"keyword_id\":\"weakly-supervised-learning\",\"field\":\"abstract\",\"quote\":\"converting low-cost binary logical labels into continuous label distributions, reducing the reliance on fine-grained annotation\"}]}",
+  "value": {
+    "paper_id": "W7208779958",
+    "input_sha256": "0a1733ce2f21e4177fa1c7b09df3ffcbf37b290478d93a5a732a9cf5a567f03c",
+    "keyword_ids": [
+      "label-enhancement",
+      "low-rank-modeling",
+      "weakly-supervised-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "label-enhancement",
+        "field": "abstract",
+        "quote": "Label enhancement mitigates this by converting low-cost binary logical labels into continuous label distributions"
+      },
+      {
+        "keyword_id": "low-rank-modeling",
+        "field": "abstract",
+        "quote": "apply PCA to the logical label matrix and enforce alignment between its dominant subspace and the generated scores"
+      },
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "field": "abstract",
+        "quote": "converting low-cost binary logical labels into continuous label distributions, reducing the reliance on fine-grained annotation"
+      }
+    ]
+  }
+}

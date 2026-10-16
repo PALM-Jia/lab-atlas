@@ -1,0 +1,37 @@
+{
+  "request_sha256": "da365ecff0d2bed58140244f26e368656cc2a965dd941bc072719a137733e4cc",
+  "received_at": "2026-10-15T13:06:04+00:00",
+  "http": 200,
+  "response": {
+    "id": "d8af2574-daba-41a3-8698-c8195524dbdb",
+    "object": "chat.completion",
+    "created": 1792069561,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\": \"W7133193597\", \"input_sha256\": \"2f30b90aca92d9f955cd0dee0d59a3ef85016baff10cdb53de13c590be9d5041\", \"keyword_ids\": [\"vision-language-models\"], \"evidence\": [{\"keyword_id\": \"vision-language-models\", \"field\": \"title\", \"quote\": \"Visual Instruction Tuning\"}]}",
+          "reasoning_content": "The title is \"Visual Instruction Tuning\". Abstract missing. Vocabulary: Large vision-language models? Visual instruction tuning — this is the LLaVA paper, which is about visual instruction tuning of LVLMs. But we must be conservative: title only. \"Visual Instruction Tuning\" — instruction tuning of a vision-language model. Does the title support \"large-language-models\"? Instruction tuning of visual models... Hmm.\n\nThe title \"Visual Instruction Tuning\" suggests tuning a model with visual instructions — i.e., a vision-language model. The keyword \"vision-language-models\" definition: models jointly processing vision and language, must be research object or main component. Title says \"Visual Instruction Tuning\" — tuning on visual instructions implies multimodal. But do we have evidence for \"large\"? \"Large vision-language models\" requires LVLM evidence — title alone doesn't establish largeness. Conservative: choose \"vision-language-models\" from title? The title literally combines \"Visual\" and instruction (language instruction). Hmm, instruction tuning implies language model instruction tuning applied to visual. I'd say \"vision-language-models\" is defensible from title: \"Visual Instruction Tuning\" — a model that follows visual instructions is a vision-language model.\n\nAlso \"Parameter-efficient fine-tuning\"? Not evident. \"Large language models\"? Instruction tuning typically for LLMs, but visual. Hmm, but title says visual, not language.\n\nI think choose \"vision-language-models\" only. Quote: \"Visual Instruction Tuning\".\n\nIs that enough? The instruction says label conservatively. I'll include just vision-language-models.\n\nActually, could one argue \"large-vision-language-models\"? No — no evidence of \"large\".\n\nFinal: keyword_ids: [\"vision-language-models\"], evidence quote from title."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4861,
+      "completion_tokens": 462,
+      "total_tokens": 5323,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 363
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 253
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

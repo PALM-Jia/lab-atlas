@@ -1,0 +1,36 @@
+{
+  "task_sha256": "c3961307c2b7ffd7ac9526b9b113e3c9904922050992261cc8eecc55fc8026f2",
+  "input_sha256": "a5ab2878dbb395e21b139abae9c40e92e84963219f4f3e437dfcdefff63c867e",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "94726a135c169740a5dcb01e4d852fe31c0b99e2e2bf669baa8f68164e33562f",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "7ffc0e0b917f17d4818e6447486d12a50b352cf6de4c2f5dfeb9598e09be7082",
+  "raw_response": "{\"paper_id\":\"lab-dccd5bfa936b\",\"input_sha256\":\"afd9f1dfd4c786b7a96f0d31b41d672d69f2717a62ab591f5cf3331738773385\",\"keyword_ids\":[\"model-merging\"],\"evidence\":[{\"keyword_id\":\"model-merging\",\"field\":\"title\",\"quote\":\"LoRA Model Merging\"}]}",
+  "value": {
+    "paper_id": "lab-dccd5bfa936b",
+    "input_sha256": "afd9f1dfd4c786b7a96f0d31b41d672d69f2717a62ab591f5cf3331738773385",
+    "keyword_ids": [
+      "model-merging"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "model-merging",
+        "field": "title",
+        "quote": "LoRA Model Merging"
+      }
+    ]
+  }
+}

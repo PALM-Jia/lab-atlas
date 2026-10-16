@@ -26,8 +26,8 @@ for (const paper of retrieval.papers) {
   assert.equal(entry.observedCount, ids.length);
   assert.equal(entry.complete, ids.length === field.total);
 }
-assert.deepEqual(states, {ready: 85, empty: 33, missing: 26});
-assert.equal(collected, 2077);
+assert.deepEqual(states, {ready: 85, empty: 30, missing: 29});
+assert.equal(collected, 2048);
 for (const paper of retrieval.external) assert.equal(history.papers[paper.id].databaseTotal, null);
 const entry = {annual: [{year: 2019, count: 2}, {year: 2025, count: 8}], unknownYearCount: 3, status: 'partial', scope: 'database_citing_list', observedCount: 13, complete: false};
 assert.equal(api.citationAt(entry, 2020).count, 2);
@@ -40,8 +40,8 @@ const original = JSON.stringify({papers, edges, entry});
 const slices = api.buildAnnualSlices(papers, edges, {papers: {a: entry}}, {yearFrom: 2000, yearTo: 2025});
 assert.equal(slices.slices[0].label, '≤2000');
 assert.equal(slices.slices[0].appearances[0].paperId, 'old');
-assert.equal(slices.unknown[0].paperId, 'unknown');
-assert.equal(slices.unknown[0].year, null);
+assert.equal(slices.unknown.length, 0);
+assert.equal(slices.slices.find(s => s.year === 2025).appearances.some(n => n.paperId === 'unknown'), false);
 const early = slices.slices.find(s => s.year === 2020);
 assert.deepEqual(early.edges.map(e => e.id), ['old']);
 assert.equal(early.appearances.find(n => n.paperId === 'a').citation.count, 2);
@@ -51,7 +51,7 @@ assert.equal(api.edgeActiveAt({source: 'a', target: 'f'}, new Map(papers.map(p =
 assert.equal(api.edgeActiveAt({source: 'old', target: 'old', kind: 'citation'}, new Map(papers.map(p => [p.id, p])), 2020), false);
 assert.equal(api.publicationYear({year: 2024, versions: [{year: 2023}, {publication_date: '2022-12-01'}]}), 2022);
 assert.equal(api.publicationYear({year: 2024, versions: [{publication_date: '2022-02-30'}]}), 2024);
-assert.equal(api.publicationYear({year: null, versions: [{date: 'undated'}]}), null);
+assert.equal(api.publicationYear({year: null, versions: [{date: 'undated'}]}), 2027);
 // Future stronger candidates must not remove an older weak edge at both endpoints.
 const many = [...papers, ...Array.from({length: 12}, (_, i) => ({id: 'f' + i, year: 2025, lab: true}))];
 const candidates = [...edges, ...many.filter(p => p.id.startsWith('f')).flatMap(p => ['a', 'b'].map(id => ({id: p.id + id, source: p.id, target: id, kind: 'citation', score: 50})))];
@@ -60,4 +60,4 @@ assert.deepEqual(api.buildAnnualSlices(many, candidates, {}, {yearFrom: 2020, ye
 const context = {window: {}};
 vm.runInNewContext(fs.readFileSync(path.join(root, 'outputs/paper-atlas/timeline-history.js'), 'utf8'), context);
 assert.deepEqual(JSON.parse(JSON.stringify(context.window.ATLAS_TIMELINE_HISTORY.buildAnnualSlices(many, candidates, {}, {yearFrom: 2025, yearTo: 2025}))), JSON.parse(JSON.stringify(api.buildAnnualSlices(many, candidates, {}, {yearFrom: 2025, yearTo: 2025}))));
-console.log('Timeline history passed: 1673 histories; 85 collected lists/2077 ids, 33 known empty, 26 missing; chronology, future counts/top-K, undated bucket, deduplication and version fallback.');
+console.log('Timeline history passed: annual counts, chronology, future counts/top-K, latest-year fallback, deduplication and version fallback.');

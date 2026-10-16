@@ -1,0 +1,37 @@
+{
+  "request_sha256": "4e31158a9e95971829c54eae608151cd3d3fbac68b3e4c33bbd24d6875eb9a40",
+  "received_at": "2026-10-15T13:04:23+00:00",
+  "http": 200,
+  "response": {
+    "id": "f218ade1-06c8-4dc3-b698-75485eaff21c",
+    "object": "chat.completion",
+    "created": 1792069460,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W2017305389\",\"input_sha256\":\"95c25c8caf038605a38276f868288aaeb13d3a293d4713c9a0e35315ebb5c6cf\",\"keyword_ids\":[],\"evidence\":[]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title/abstract. Abstract empty. Title: \"A study on random weights between input and hidden layers in extreme learning machine\". Need choose keyword IDs from 49 vocabulary matching title only conservatively. Need no browsing. Need every chosen ID has quote from title (abstract empty no quotes). Need assess if title supports any.\n\nTitle is about study on random weights between input and hidden layers in extreme learning machine. This is neural network method, random weights. Vocabulary: Deep clustering? no. Ensemble? no. Subspace? no. Multi-label? no. Label distribution? no. Label enhancement? no. Dimensionality reduction? no. Image segmentation? no. Data imputation? no. Hallucination? no. Model merging? no. Multimodal retrieval? no. Value alignment? no. Adversarial robustness? no. Dataset distillation? no. Person re-id? no. Multi-objective optimization? no. Confidence calibration? no. Low-rank modeling? no. NMF? no. Graph structure learning? no. Graph and manifold regularization? no. GNN? no. Contrastive? no. Pseudo-label? no. Sparse representation? no. Bayesian inference? no. Label correlation? no. PEFT? no. Latent reasoning? no. Knowledge distillation? no. Domain adaptation? no. Pairwise constraint propagation? no. Classifier ensemble? no. Partial label? no. Semi-supervised? no. Class imbalance? no. Noisy-label? no. Multi-view? no. Federated? no. Zero-shot? no. Open-vocab? no. Hyperspectral? no. Traffic? no. Underwater? no. LLM? no. Vision-language? no. Weakly supervised? no. Large vision-language? no.\n\nMaybe extreme learning machine random weights is not any keyword. Empty list valid. Need return JSON with paper_id, input_sha256, keyword_ids [], evidence []. Ensure no extra. Since no chosen, evidence empty. Must be valid JSON.\n\nFinal."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4870,
+      "completion_tokens": 487,
+      "total_tokens": 5357,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 424
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 134
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

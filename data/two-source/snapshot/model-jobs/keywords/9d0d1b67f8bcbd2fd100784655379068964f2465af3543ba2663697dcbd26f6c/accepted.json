@@ -1,0 +1,42 @@
+{
+  "task_sha256": "9d0d1b67f8bcbd2fd100784655379068964f2465af3543ba2663697dcbd26f6c",
+  "input_sha256": "752d48c4c113262848dce4b1d3971a9812678d0485066f905eec97c6dc23186e",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "ad76c752897479fadbcbb6ea33e43f27b1fac718a677466ce33b0f4cecd58177",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "105d28f865becb16575356b8cd3b20aa4bd2f227871d6c0bc986d6dbfbe17356",
+  "raw_response": "{\"paper_id\":\"W3166827425\",\"input_sha256\":\"c94f854de6e7b6e523633ce306738b86b480d53355c1e69ca3feec2e0c95b1b6\",\"keyword_ids\":[\"data-imputation-recovery\",\"low-rank-modeling\"],\"evidence\":[{\"keyword_id\":\"data-imputation-recovery\",\"field\":\"title\",\"quote\":\"data completion\"},{\"keyword_id\":\"low-rank-modeling\",\"field\":\"title\",\"quote\":\"tensor train approach\"}]}",
+  "value": {
+    "paper_id": "W3166827425",
+    "input_sha256": "c94f854de6e7b6e523633ce306738b86b480d53355c1e69ca3feec2e0c95b1b6",
+    "keyword_ids": [
+      "data-imputation-recovery",
+      "low-rank-modeling"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "data-imputation-recovery",
+        "field": "title",
+        "quote": "data completion"
+      },
+      {
+        "keyword_id": "low-rank-modeling",
+        "field": "title",
+        "quote": "tensor train approach"
+      }
+    ]
+  }
+}

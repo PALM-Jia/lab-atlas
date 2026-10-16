@@ -1,0 +1,42 @@
+{
+  "task_sha256": "9c5583285ba9aa9a9f2bdf111066054b7789c42018a0846538d245ee19e8f127",
+  "input_sha256": "77b43cfbe9bcc196028bfb42fa6b0f664e6ff375e32030618be44437d8bc140f",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "7ef7eeda461f37a90589414b339ed2e6e5966c7814890dc3b8395477eb71a426",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "0af58de95fd5605e9ad6310b022e925524dbd1e266958672ea9d5830bc851330",
+  "raw_response": "{\"paper_id\":\"lab-7647c3b38f71\",\"input_sha256\":\"31263b26e8ee50dffae1df9f684f312c1a5a0d2e72ef94f2204ff5ff0c91b938\",\"keyword_ids\":[\"deep-clustering\",\"class-imbalance\"],\"evidence\":[{\"keyword_id\":\"deep-clustering\",\"field\":\"title\",\"quote\":\"SAGENet: Sub-cluster Aggregation Guided Enhancement for Imbalanced Attributed Graph Clustering\"},{\"keyword_id\":\"class-imbalance\",\"field\":\"title\",\"quote\":\"Imbalanced Attributed Graph Clustering\"}]}",
+  "value": {
+    "paper_id": "lab-7647c3b38f71",
+    "input_sha256": "31263b26e8ee50dffae1df9f684f312c1a5a0d2e72ef94f2204ff5ff0c91b938",
+    "keyword_ids": [
+      "deep-clustering",
+      "class-imbalance"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "deep-clustering",
+        "field": "title",
+        "quote": "SAGENet: Sub-cluster Aggregation Guided Enhancement for Imbalanced Attributed Graph Clustering"
+      },
+      {
+        "keyword_id": "class-imbalance",
+        "field": "title",
+        "quote": "Imbalanced Attributed Graph Clustering"
+      }
+    ]
+  }
+}

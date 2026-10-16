@@ -1,0 +1,37 @@
+{
+  "request_sha256": "0a3aa987b0ef8bdacf812a55ee989056739e64f15f4522d826f14a497691ccc5",
+  "received_at": "2026-10-15T13:05:13+00:00",
+  "http": 200,
+  "response": {
+    "id": "c4e3dea0-8fc5-4f19-a00a-f3fa33a4ba5e",
+    "object": "chat.completion",
+    "created": 1792069512,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W4256361765\",\"input_sha256\":\"6481175058fb634505daef857c9354de53940f0dffe06c05b3ce2c630f5ce674\",\"keyword_ids\":[],\"evidence\":[]}",
+          "reasoning_content": "We need answer label paper using only title, abstract, vocabulary. Title: \"2009 International Joint Conference on Artificial Intelligence\". Abstract empty. Need determine keywords? This appears title is likely a proceedings/conference front matter? No abstract. We must label using only title. Is there any vocabulary match? Title is conference name, no research task. Likely empty keyword list. Need return JSON with paper_id, input_sha256, keyword_ids [], evidence []. Must ensure valid. But let's analyze: The title \"2009 International Joint Conference on Artificial Intelligence\" is not a paper about any topic. No abstract. We cannot infer any keyword. So empty list is valid completed result. Need evidence array empty. Provide exactly JSON."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4860,
+      "completion_tokens": 207,
+      "total_tokens": 5067,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 148
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 252
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

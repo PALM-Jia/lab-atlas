@@ -1,0 +1,36 @@
+{
+  "task_sha256": "d2684e5daa879a4638ea0e2ceef6b3519a6bedae9e3e0decf6371d586957e06e",
+  "input_sha256": "fd279b7d01dda5dabd387997d7a88a23f06feaae93ac78d639d9545359ca3b12",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "6e8fa379f1f4b4d036cd7602b9dc551bd751ff2d49cc7dd173ff98e31ca53fa6",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "4ea7327b140a96eb230161c0c75f61390f86cc58c8f7fddbfa9b222e1e3ce0bf",
+  "raw_response": "{\"paper_id\":\"W3106850582\",\"input_sha256\":\"ec192ee13cff77a52d857570d0f6b4fd2faddbd75ce67f49e9449c4f18fc0a3d\",\"keyword_ids\":[\"underwater-images\"],\"evidence\":[{\"keyword_id\":\"underwater-images\",\"field\":\"title\",\"quote\":\"Underwater image processing and analysis: A review\"}]}",
+  "value": {
+    "paper_id": "W3106850582",
+    "input_sha256": "ec192ee13cff77a52d857570d0f6b4fd2faddbd75ce67f49e9449c4f18fc0a3d",
+    "keyword_ids": [
+      "underwater-images"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "underwater-images",
+        "field": "title",
+        "quote": "Underwater image processing and analysis: A review"
+      }
+    ]
+  }
+}

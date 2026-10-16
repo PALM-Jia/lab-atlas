@@ -1,0 +1,37 @@
+{
+  "request_sha256": "b6cbe366a3d495d58797e03f546e6c7676579d33ec792dec0d6f61955f2f8cca",
+  "received_at": "2026-10-15T13:10:07+00:00",
+  "http": 200,
+  "response": {
+    "id": "cac9479d-7990-40ad-9d8b-e1e8b4460bbd",
+    "object": "chat.completion",
+    "created": 1792069800,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W7125819935\",\"input_sha256\":\"1f14302a17147bf6c3b7a8d0ddda9d186435fce8daf6a03965417121e0dee703\",\"keyword_ids\":[\"federated-learning\"],\"evidence\":[{\"keyword_id\":\"federated-learning\",\"field\":\"title\",\"quote\":\"Federated Graph Learning\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label paper title. Title: \"Federated Graph Learning: Current Status, Prospects, and Challenges\". Abstract empty. Need use supplied vocabulary. Need choose keywords based on title. Need be conservative. Paper about federated graph learning, current status, prospects, challenges. Likely keywords: federated-learning definitely title contains \"Federated\". Graph neural networks? \"Graph Learning\" may be graph learning, but vocabulary has graph neural networks only. Federated Graph Learning maybe combines federated learning and graph learning. Does \"Graph Learning\" imply GNN? Not necessarily. We must apply definitions. GNN definition: 使用图卷积或图上的可学习消息传递来获取表示；非神经图优化不计入. Title only says Federated Graph Learning, not neural networks or message passing. Could we infer? Maybe \"Graph Learning\" often encompasses GNN, but not sufficient? The instruction says be conservative, title evidence only. Could include \"Graph structure learning\"? Federated graph learning could be learning graph structures? But no. Federated learning is explicit in title \"Federated\" and \"Federated Graph Learning\" likely federated learning, multiple clients local data collaborative training. Definition: multiple clients retain local raw data, collaborate via model updates/statistics. Title supports \"Federated\". Good.\n\nMaybe \"Graph neural networks\" because \"Graph Learning\" could be graph ML, but title doesn't mention neural. The keyword \"Graph neural networks\" requires using graph conv or learnable message passing. Title \"Graph Learning\" is not enough? It's a survey maybe. We must not label merely cited/background task. Title topic is federated graph learning, so federated learning is primary. Graph neural networks maybe if \"graph learning\" inherently neural? But definition specific. Could include \"Graph structure learning\"? No.\n\nCould include \"Multi-objective optimization\"? no.\n\nCould include \"Adversarial robustness\"? challenges? no.\n\nCould include \"Large language models\"? no.\n\n\"Federated learning\" definitely.\n\nWhat about \"Graph and manifold regularization\"? no.\n\n\"Graph neural networks\" maybe if \"Graph Learning\" often uses GNNs. But vocabulary explicitly has GNN. If title is Federated Graph Learning: Current Status, Prospects, and Challenges. It's about federated graph learning, likely a survey. It combines federated learning with graph learning. The domain \"Graph Learning\" not in vocab except GNN. Should we include graph-neural-networks? The definition: \"使用图卷积或图上的可学习消息传递来获取表示；非神经图优化不计入。\" Title only \"Graph Learning\" doesn't prove graph neural networks. It could be graph learning broadly, including GNN. But \"graph learning\" often is broad. The instruction: missing abstract allowed; use title evidence conservatively. Every chosen keyword must have quote. We can only quote \"Federated Graph Learning\" or \"Federated\" or \"Graph Learning\". For federated learning, quote \"Federated Graph Learning\" contains Federated. For GNN, quote \"Graph Learning\" does not literally contain \"Neural Networks\" or \"message passing\" or \"convolution\". It doesn't establish GNN. So skip.\n\nCould include \"Weakly supervised learning\"? no.\n\nCould include \"Multi-view learning\"? no.\n\nMaybe \"Graph structure learning\"? Title says Graph Learning, not graph structure. Definition: learn/correct edges/adjacency/affinity. No.\n\nCould include \"Data imputation\"? no.\n\nCould include \"Federated learning\" only. Is there \"federated graph learning\" as keyword? Not in vocab; federated-learning parent? It's standalone. So keyword_ids: [\"federated-learning\"]. Evidence quote from title \"Federated Graph Learning\" or \"Federated\". Must be continuous substring. Use quote \"Federated Graph Learning\". Evidence field title. That's enough.\n\nNeed return JSON with paper_id, input_sha256, keyword_ids, evidence. Ensure no extra. The response format says JSON object. We can return exactly.\n\nBut let's double-check: The previous validation failed due maybe extra prose? Need complete JSON result. We'll provide.\n\nPotential issue: Should we include \"Graph neural networks\"? The title \"Graph Learning\" maybe is a strong signal. But strict definition requires neural message passing. A survey titled Federated Graph Learning may cover GNNs. But without abstract, can't infer. The system instructs \"Do not ... label a merely cited/example/background task as the paper's contribution.\" The contribution is survey of federated graph learning. Federated learning is one component. Graph learning might be another, but not in vocab. If there is no keyword for graph learning generally except GNN, maybe not label GNN. Conservative.\n\nCould include \"Federated learning\" only. If no other vocab matches. Could include \"Multi-objective optimization\"? no. \"Data imputation\"? no. \"Traffic data\"? no. \"Large language models\"? no.\n\nNeed evidence quote continuous substring. Title: \"Federated Graph Learning: Current Status, Prospects, and Challenges\". Quote \"Federated Graph Learning\" is substring. Good.\n\nReturn JSON."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4922,
+      "completion_tokens": 1166,
+      "total_tokens": 6088,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1075
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 186
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "task_sha256": "621ed71cb6793e63c6781efd698eb815ae2992c97dbe2222a52119234a304092",
+  "input_sha256": "4aa1bc3499254ef02609318aa4664571bd6886740eaa229b1dafb2b7c24bfabe",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "ccc55ab08977237c18af1b6ce9b4489ee24410717f12b2baff7a44ae9b0d9336",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "aad67abbb74ec6859c1666948cee967788de9a3e8d09edb37ff175a37ff8982f",
+  "raw_response": "{\"paper_id\":\"W4404025116\",\"input_sha256\":\"e2f78356ef27e981b64c0331c6317f6193f9a5d64b2b253d2919e53bc6c92469\",\"keyword_ids\":[\"nonnegative-matrix-factorization\"],\"evidence\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"field\":\"title\",\"quote\":\"symmetric non-negative matrix factorization\"}]}",
+  "value": {
+    "paper_id": "W4404025116",
+    "input_sha256": "e2f78356ef27e981b64c0331c6317f6193f9a5d64b2b253d2919e53bc6c92469",
+    "keyword_ids": [
+      "nonnegative-matrix-factorization"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "nonnegative-matrix-factorization",
+        "field": "title",
+        "quote": "symmetric non-negative matrix factorization"
+      }
+    ]
+  }
+}

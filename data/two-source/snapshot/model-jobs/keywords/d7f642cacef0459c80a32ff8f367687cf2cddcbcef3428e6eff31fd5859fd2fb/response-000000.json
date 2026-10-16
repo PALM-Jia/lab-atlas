@@ -1,0 +1,37 @@
+{
+  "request_sha256": "aed2f8d55a9a4ea3d3f4cb0d195937c12997b07aac4f50ea1e8131da662247f3",
+  "received_at": "2026-10-15T13:05:47+00:00",
+  "http": 200,
+  "response": {
+    "id": "6d2d5d32-3fe9-4545-932f-44bcf4358ccf",
+    "object": "chat.completion",
+    "created": 1792069546,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W4413310956\",\"input_sha256\":\"d89763a07783135102909c71677f0af6e9c68118ce20685a0aba11d6a03c7b2b\",\"keyword_ids\":[],\"evidence\":[]}",
+          "reasoning_content": "We need answer only JSON. Need label paper using title/abstract/vocab. Title: \"Implementations for AI-based Image and Video Coding\". Abstract empty. Need choose keyword IDs from 49. Need evidence quotes literal from title (only field title since abstract empty). Must apply definitions. Need avoid outside facts. Title mentions AI-based Image and Video Coding. Which vocabulary? None likely? Let's inspect keywords. Image segmentation? No. Vision-language? No. Large language? No. Deep clustering etc. AI-based image/video coding not in vocab. Maybe nothing. Empty keyword list valid. Need return JSON with paper_id, input_sha256, keyword_ids [], evidence []. Ensure valid JSON. No prose."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4865,
+      "completion_tokens": 209,
+      "total_tokens": 5074,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 146
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 257
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "request_sha256": "d39742176740b42d90f9d3969b597931285c2a74793b4aa8e77f49edf2865450",
+  "received_at": "2026-10-15T13:03:41+00:00",
+  "http": 200,
+  "response": {
+    "id": "2d172cf9-8308-4111-b317-f314d7c91d70",
+    "object": "chat.completion",
+    "created": 1792069415,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"lab-1025a6d4de24\",\"input_sha256\":\"69e6811efc14b94f80f33df6603dba87050afdd805a78239e376c6ca63629c21\",\"keyword_ids\":[\"deep-clustering\",\"multi-view-learning\"],\"evidence\":[{\"keyword_id\":\"deep-clustering\",\"field\":\"title\",\"quote\":\"Deep Multi-View Clustering\"},{\"keyword_id\":\"multi-view-learning\",\"field\":\"title\",\"quote\":\"Multi-View Clustering\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title, abstract empty. Vocabulary 49. Need choose keyword IDs with evidence quotes from title (since abstract empty). Must be conservative, no outside facts. Title: \"Individuals Matter: Improving Deep Multi-View Clustering via Explicit Single-View Enhancement\"\n\nNeed determine applicable keywords based on title only. We can include:\n- deep-clustering? Title says \"Deep Multi-View Clustering\". Deep clustering definition: uses learnable neural representations and/or clustering head to obtain partitions; traditional clustering on fixed pretrained features not auto. Title explicitly \"Deep Multi-View Clustering\": yes deep clustering likely research task. Quote \"Deep Multi-View Clustering\" continuous. Need keyword deep-clustering.\n- multi-view-learning? Title \"Multi-View Clustering\" indicates multi-view? Definition same object multiple complementary feature views or observations, explicitly jointly use inter-view relations. Title says Multi-View Clustering. Does that automatically count? The paper is about multi-view clustering. Multi-view learning setting. Need maybe yes. Quote \"Multi-View Clustering\". However definition says multi-view learning: same object multiple complementary feature views or observation variables, explicitly jointly utilizing inter-view relationships; data augmentation generating two views not auto. Title \"Multi-View Clustering\" strongly implies multiple views. Should we label? Need conservative. It's a research setting. I think yes: \"Multi-View Clustering\" in title. Keyword multi-view-learning. Evidence title quote \"Multi-View Clustering\".\n- clustering? No generic clustering keyword. Deep clustering covers.\n- single-view enhancement? Not in vocab. Could be ensemble clustering? \"single-view enhancement\" maybe no.\n- \"Individuals Matter\" no.\n\nCould there be \"contrastive learning\"? No quote no.\n- \"Deep clustering\" yes.\n- \"Multi-view learning\" yes.\nPotential \"ensemble clustering\" if single-view enhancement? No.\nPotential \"graph structure learning\"? No.\nPotential \"representation learning\"? no.\n\nNeed maybe \"Multi-view clustering\" is task but vocabulary has \"multi-view learning\" research_setting. Yes.\n\nCheck if \"Deep clustering\" definition says only if uses learnable neural representations and/or clustering head. Title says \"Deep Multi-View Clustering\" so yes. Quote could be \"Deep Multi-View Clustering\" or \"Deep Multi-View Clustering via Explicit Single-View Enhancement\". We'll use continuous quote. Need field title.\n\nFor multi-view-learning quote: \"Multi-View Clustering\". Is that sufficient? Definition requires same object has multiple complementary feature views or observation variables and explicitly jointly uses view relations. Title \"Multi-View Clustering\" implies. But title evidence conservatively. It says Multi-View Clustering, yes.\n\nShould we include \"image segmentation\"? no.\nNo abstract.\n\nNeed output JSON exactly with paper_id, input_sha256, keyword_ids, evidence list. Ensure evidence for each selected has literal continuous quote. If quote \"Deep Multi-View Clustering\" appears in title? Title: \"Individuals Matter: Improving Deep Multi-View Clustering via Explicit Single-View Enhancement\". Yes continuous substring \"Deep Multi-View Clustering\" exactly. For multi-view-learning, quote \"Multi-View Clustering\" is continuous substring. But if both use same quote? Allowed? Each chosen needs at least one literal continuous quote from given field. They can share same quote? Probably okay but maybe use different: deep quote \"Deep Multi-View Clustering\"; multi-view quote \"Multi-View Clustering\". Both are substrings. But note \"Multi-View Clustering\" is contained within \"Deep Multi-View Clustering\". It's okay.\n\nCould include \"ensemble clustering\" due \"Explicit Single-View Enhancement\"? No, ensemble clustering fuses multiple existing clustering results for consensus. Single-view enhancement not multiple clustering results. No.\n\nCould include \"dimensionality reduction\"? no.\n\"low-rank modeling\"? no.\n\"sparse representation\"? no.\n\"multiple views\" maybe not multi-view learning? Yes.\n\nNeed maybe \"deep-clustering\" is parent? no.\n\nLet's think if the paper is about \"Deep Multi-View Clustering via Explicit Single-View Enhancement\", maybe task is deep multi-view clustering. The vocabulary has deep clustering and multi-view learning. Should be exactly those two. Title mentions \"Individuals Matter\" maybe individual views? But no keyword.\n\nReturn JSON. Ensure no markdown."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4875,
+      "completion_tokens": 1017,
+      "total_tokens": 5892,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 902
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 267
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

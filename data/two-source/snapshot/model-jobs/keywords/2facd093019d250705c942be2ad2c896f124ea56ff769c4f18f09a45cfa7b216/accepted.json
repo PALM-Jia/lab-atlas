@@ -1,0 +1,36 @@
+{
+  "task_sha256": "2facd093019d250705c942be2ad2c896f124ea56ff769c4f18f09a45cfa7b216",
+  "input_sha256": "524f1634b0da81206e92b454b8623a8759e100de213fd35fe8899587e21252c4",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "6ca972bfca16c8bfc04b5ed295c306d4ee12bd7aa2a23ac5f6c3571b715722b7",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "aabc7e8b18a4816bae771e0cc2686d21a5059af4b2693c608687a810cd1345f4",
+  "raw_response": "{\"paper_id\":\"W4233367343\",\"input_sha256\":\"5803fd0a36285bfd89e933a84ae8208020daead58feb458533bb27db892144c8\",\"keyword_ids\":[\"hyperspectral-images\"],\"evidence\":[{\"keyword_id\":\"hyperspectral-images\",\"field\":\"abstract\",\"quote\":\"Hyperspectral remote sensing is one the technologies that can help with reliable detection and identification.\"}]}",
+  "value": {
+    "paper_id": "W4233367343",
+    "input_sha256": "5803fd0a36285bfd89e933a84ae8208020daead58feb458533bb27db892144c8",
+    "keyword_ids": [
+      "hyperspectral-images"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "hyperspectral-images",
+        "field": "abstract",
+        "quote": "Hyperspectral remote sensing is one the technologies that can help with reliable detection and identification."
+      }
+    ]
+  }
+}

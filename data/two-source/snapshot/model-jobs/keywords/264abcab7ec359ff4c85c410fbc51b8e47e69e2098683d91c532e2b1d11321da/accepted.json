@@ -1,0 +1,42 @@
+{
+  "task_sha256": "264abcab7ec359ff4c85c410fbc51b8e47e69e2098683d91c532e2b1d11321da",
+  "input_sha256": "9a72f1aae4169bf1df62cd72c8d6f35e30291857ddcfc49ed043488b7c030a22",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "24c028729ef754be0c75cab6d833a7ab4fc31ff8c81d17fae3df237c742fa25e",
+  "request_file": "request-000001.json",
+  "response_file": "response-000001.json",
+  "response_sha256": "405b3f0e45ca63b2d421141bde03dbcbd925f2b19b88138c5854c85917ab1a20",
+  "raw_response": "{\"paper_id\":\"W4408396072\",\"input_sha256\":\"dfc40d3cd13d004580fe3bfaafc44dd0766363717a54d84ce5b4a6cd0b2b1ea1\",\"keyword_ids\":[\"semi-supervised-learning\",\"nonnegative-matrix-factorization\"],\"evidence\":[{\"keyword_id\":\"semi-supervised-learning\",\"field\":\"title\",\"quote\":\"Semi-supervised\"},{\"keyword_id\":\"nonnegative-matrix-factorization\",\"field\":\"title\",\"quote\":\"non-negative matrix factorization\"}]}",
+  "value": {
+    "paper_id": "W4408396072",
+    "input_sha256": "dfc40d3cd13d004580fe3bfaafc44dd0766363717a54d84ce5b4a6cd0b2b1ea1",
+    "keyword_ids": [
+      "semi-supervised-learning",
+      "nonnegative-matrix-factorization"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "semi-supervised-learning",
+        "field": "title",
+        "quote": "Semi-supervised"
+      },
+      {
+        "keyword_id": "nonnegative-matrix-factorization",
+        "field": "title",
+        "quote": "non-negative matrix factorization"
+      }
+    ]
+  }
+}

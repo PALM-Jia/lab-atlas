@@ -1,0 +1,42 @@
+{
+  "task_sha256": "342e3a5d78bec614bd2bccf81f392cb3f92145dde5333a7ef89d8f85b35965e4",
+  "input_sha256": "68b058efab782075541c5365da66b16abda818f2d55c82c7efaff216d1fe4fbc",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "5e785c59f8b61cf485c554a6c5fcbdecbb1a73f22de0cb23d9d16a0d06cba7aa",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "3c84d594c9bfbf567cd1d275b06c86b2f3424f31ed41a62876a052614b85d938",
+  "raw_response": "{\"paper_id\":\"W188881548\",\"input_sha256\":\"c7dded3c7c7a28010d412ac3f3f57d4e1bcf4346fdf0ba1c52e4cfe0f6372eac\",\"keyword_ids\":[\"subspace-clustering\",\"low-rank-modeling\"],\"evidence\":[{\"keyword_id\":\"subspace-clustering\",\"field\":\"title\",\"quote\":\"Subspace clustering\"},{\"keyword_id\":\"low-rank-modeling\",\"field\":\"title\",\"quote\":\"symmetric low-rank representation\"}]}",
+  "value": {
+    "paper_id": "W188881548",
+    "input_sha256": "c7dded3c7c7a28010d412ac3f3f57d4e1bcf4346fdf0ba1c52e4cfe0f6372eac",
+    "keyword_ids": [
+      "subspace-clustering",
+      "low-rank-modeling"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "subspace-clustering",
+        "field": "title",
+        "quote": "Subspace clustering"
+      },
+      {
+        "keyword_id": "low-rank-modeling",
+        "field": "title",
+        "quote": "symmetric low-rank representation"
+      }
+    ]
+  }
+}

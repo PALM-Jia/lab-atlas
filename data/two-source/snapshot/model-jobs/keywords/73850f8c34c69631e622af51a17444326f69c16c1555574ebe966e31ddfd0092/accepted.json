@@ -1,0 +1,36 @@
+{
+  "task_sha256": "73850f8c34c69631e622af51a17444326f69c16c1555574ebe966e31ddfd0092",
+  "input_sha256": "39b0de227eb69e09c84f837ab49367981a1a794cc8118213033603051079993a",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "b2a343a7cf5f2acfbab04037b8c7c370a26c2916adb35bc4f0b37c0a2acc4220",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "ba967768f5463886fe197dca993d90ee72c1df1474780af6b22159ce5317d3eb",
+  "raw_response": "{\"paper_id\":\"W7167550997\",\"input_sha256\":\"0f8f75a1213fcf8ee2137b8415a8bca4250aa12ea392149d865bf359625ad1c6\",\"keyword_ids\":[\"ensemble-clustering\"],\"evidence\":[{\"keyword_id\":\"ensemble-clustering\",\"field\":\"title\",\"quote\":\"Ensemble Clustering\"}]}",
+  "value": {
+    "paper_id": "W7167550997",
+    "input_sha256": "0f8f75a1213fcf8ee2137b8415a8bca4250aa12ea392149d865bf359625ad1c6",
+    "keyword_ids": [
+      "ensemble-clustering"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "ensemble-clustering",
+        "field": "title",
+        "quote": "Ensemble Clustering"
+      }
+    ]
+  }
+}

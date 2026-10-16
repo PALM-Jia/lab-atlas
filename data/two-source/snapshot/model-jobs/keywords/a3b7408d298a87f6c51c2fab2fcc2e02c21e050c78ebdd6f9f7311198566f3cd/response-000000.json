@@ -1,0 +1,37 @@
+{
+  "request_sha256": "42eb0e0f209cce05b88761a9490dab215bf21f7a4428a8204ece4a2f721fe007",
+  "received_at": "2026-10-15T13:05:01+00:00",
+  "http": 200,
+  "response": {
+    "id": "ab251323-3b36-4945-bde0-7c5950b13d43",
+    "object": "chat.completion",
+    "created": 1792069495,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W3024343454\",\"input_sha256\":\"36165b9adc5a48d433fecf901be4b009580e9acc8c10e76e7118179640d87c4c\",\"keyword_ids\":[\"multi-view-learning\",\"subspace-clustering\",\"graph-structure-learning\"],\"evidence\":[{\"keyword_id\":\"multi-view-learning\",\"field\":\"title\",\"quote\":\"Multi-view\"},{\"keyword_id\":\"subspace-clustering\",\"field\":\"title\",\"quote\":\"subspace clustering\"},{\"keyword_id\":\"graph-structure-learning\",\"field\":\"title\",\"quote\":\"affinity matrix\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title, no abstract. Need choose vocabulary IDs based on title evidence conservatively. Title: \"Multi-view subspace clustering via simultaneously learning the representation tensor and affinity matrix\". Need apply definitions. We can infer research task: Subspace clustering? Multi-view learning? Low-rank modeling? Graph structure learning? Maybe tensor? Let's inspect vocabulary.\n\nTitle includes \"Multi-view subspace clustering\" directly. \"Multi-view\" likely multi-view learning setting: same object multiple views, explicitly jointly utilize views. Title supports. \"Subspace clustering\": yes exact phrase, task grouping samples by latent subspaces. \"via simultaneously learning the representation tensor and affinity matrix\" indicates learning representation tensor (low-rank? tensor representation) and affinity matrix. Graph structure learning: learning affinity matrix = learn sample edges/affinity. Yes definition: 学习或修正样本间的边、邻接或亲和矩阵. Title says learning affinity matrix. So graph-structure-learning. Low-rank modeling? Representation tensor not necessarily low-rank. Title only says representation tensor, not low-rank. Do not infer. Multi-view learning yes. Maybe subspace clustering parent? No parent. Also maybe clustering? Deep clustering no (not necessarily neural). Ensemble no. Dimensionality reduction? representation tensor? Not explicit low-dim mapping. No. Graph manifold regularization? affinity matrix learning is graph structure learning not regularization. Graph NN no.\n\nNeed provide evidence literal continuous quotes from title. For each chosen keyword, quote from title. Need exact continuous substring. Title: \"Multi-view subspace clustering via simultaneously learning the representation tensor and affinity matrix\"\n\nFor multi-view learning: quote \"Multi-view\" or \"Multi-view subspace clustering\". Definition: same object multiple complementary feature views and explicitly jointly utilize view relations. Title \"Multi-view\" directly. Could quote \"Multi-view\". Evidence should support keyword. Is \"Multi-view\" enough? Likely yes. Maybe quote \"Multi-view subspace clustering\" supports multi-view. Use literal.\n\nFor subspace clustering: quote \"subspace clustering\" exact within title. Good.\n\nFor graph structure learning: quote \"learning the representation tensor and affinity matrix\" - includes learning affinity matrix. But evidence for graph structure learning should highlight affinity matrix. Quote \"affinity matrix\" maybe. Continuous \"affinity matrix\". Yes.\n\nShould we choose \"low-rank modeling\" due representation tensor? Definition: explicit low-rank constraint/decomposition/approximation. Title doesn't mention low-rank. No. Could \"tensor\" imply low-rank? Not enough; don't.\n\nCould choose \"multi-view learning\" as research setting. Yes.\n\nCould choose \"subspace clustering\" as research task. Yes.\n\nCould choose \"graph structure learning\" as method. Yes.\n\nPotential \"ensemble clustering\"? No.\n\nPotential \"dimensionality reduction\"? Learning representation tensor? Hmm definition: research explicit low-dimensional mapping or embedding with dimension compression. \"representation tensor\" may be representation, but not explicitly dimensionality reduction. No.\n\nPotential \"data imputation and recovery\"? No.\n\nPotential \"image segmentation\"? No.\n\nCould choose \"multi-label learning\"? No.\n\nCould choose \"multi-objective optimization\"? \"simultaneously learning\" representation tensor and affinity matrix. Not necessarily multiple objectives; no.\n\nCould choose \"tensor low-rank\" not vocab. Only low-rank modeling. No.\n\nNeed return JSON with paper_id, input_sha256, keyword_ids, evidence. Ensure each chosen ID with evidence quote from title. Use exact ID strings. Empty abstract allowed, no abstract evidence.\n\nNeed decide if include \"multi-view-learning\" despite title \"Multi-view\". Yes.\n\nCould there be \"multi-view learning\" and \"subspace clustering\" and \"graph structure learning\". That seems.\n\nNeed only title field. Quotes:\n- \"Multi-view\" for multi-view-learning. But Is a single word continuous quote okay? Yes.\n- \"subspace clustering\" for subspace-clustering.\n- \"affinity matrix\" for graph-structure-learning. Or \"learning the representation tensor and affinity matrix\". \"affinity matrix\" directly. Good.\n\nNeed ensure no invented. JSON.\n\nLet's craft final exactly."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4870,
+      "completion_tokens": 965,
+      "total_tokens": 5835,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 832
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 134
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

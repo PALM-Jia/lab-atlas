@@ -26,7 +26,7 @@ for(const e of edges){
 }
 // Compare static retrieval profiles with the live default-weight computation,
 // using the exact resolved person IDs and adopted author order in the dashboard.
-const authors=retrieval.authors.map(a=>({id:a.id,name:a.name,papers:a.papers,paperWeights:Object.fromEntries(a.papers.map(pid=>[pid,rows.get(pid).fields.authors.value[0]?.id===a.id?1:.2]))}));
+const authors=retrieval.authors.map(a=>({id:a.id,name:a.name,papers:a.papers,paperWeights:Object.fromEntries(a.papers.map(pid=>{const authors=rows.get(pid).fields.authors.value||[],first=authors[0],second=authors[1];return [pid,first?.id===a.id|| (first?.name==='Yuheng Jia'&&second?.id===a.id)?1:.2];}))}));
 const relations=authorKeywords({authors,papers:data.nodes.filter(p=>p.lab),keywordData:keywords});
 for(const a of retrieval.authors){
  const profile=relations.profiles.find(p=>p.author_id===a.id),actual=new Map(profile.keywords.map(k=>[k.id,k.weight]));

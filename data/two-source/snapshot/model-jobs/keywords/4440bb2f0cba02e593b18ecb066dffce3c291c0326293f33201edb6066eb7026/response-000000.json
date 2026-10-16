@@ -1,0 +1,37 @@
+{
+  "request_sha256": "12681f89e15dd54c1c82465684330ef015be0a5914b523c8a088cff1289f2ba8",
+  "received_at": "2026-10-15T13:04:20+00:00",
+  "http": 200,
+  "response": {
+    "id": "d8777e40-5604-4701-a24a-2cd3703f2032",
+    "object": "chat.completion",
+    "created": 1792069458,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W1994292689\",\"input_sha256\":\"bb0a530bc9477947b38f7936bfa26c4a02e25dfe6d161c577eed259c48c8862c\",\"keyword_ids\":[\"nonnegative-matrix-factorization\"],\"evidence\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"field\":\"title\",\"quote\":\"nonnegative matrix factorization\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title available abstract empty, 49 vocab. Need determine keywords. Title: \"Global convergence of modified multiplicative updates for nonnegative matrix factorization\". Clearly nonnegative matrix factorization method. Maybe \"Nonnegative matrix factorization\" ID. Also maybe low-rank modeling? Definition: explicit use of low-rank constraints, decomposition. NMF is a matrix factorization, nonnegative. But vocabulary has NMF separate. Should we include low-rank modeling? Parent not automatically. Title says nonnegative matrix factorization, not necessarily low-rank? NMF is low-rank factorization if rank lower, but title doesn't mention low-rank. Definition NMF: decomposing matrix with nonnegative factors, including symmetric NMF; general low-rank decomposition or only nonnegative constraints not sufficient. Title explicitly NMF, so include nonnegative-matrix-factorization. Evidence quote title: \"nonnegative matrix factorization\". Any other? \"Global convergence\" could be optimization? No keyword for convergence/algorithm. \"modified multiplicative updates\" is method for NMF. Maybe \"Dimensionality reduction\"? NMF used for dimensionality reduction but title not explicit low-dimensional mapping. No. \"Sparse representation\"? Not title. \"Low-rank modeling\"? Not explicit. \"Multi-objective optimization\"? no. So only NMF. Need JSON with keyword_ids [\"nonnegative-matrix-factorization\"], evidence quote. Ensure exact continuous quote from title. Since abstract empty, field title. Quote maybe \"nonnegative matrix factorization\" or full title. Definition supports. Return."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4867,
+      "completion_tokens": 402,
+      "total_tokens": 5269,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 310
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 259
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

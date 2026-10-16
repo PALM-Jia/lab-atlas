@@ -1,0 +1,37 @@
+{
+  "request_sha256": "71b7b80bb1cd29689d76f56840de09fde4a8b2524393d838bb379e9d81e43801",
+  "received_at": "2026-10-15T13:04:15+00:00",
+  "http": 200,
+  "response": {
+    "id": "55f3c393-a356-4c8b-858c-2b5e2b0ea837",
+    "object": "chat.completion",
+    "created": 1792069451,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W1600471557\",\"input_sha256\":\"f1996c7f332c1a099cf047dd29b84ca53bf2aca38b35e32822e4a5ec8e5dd3e7\",\"keyword_ids\":[\"subspace-clustering\"],\"evidence\":[{\"keyword_id\":\"subspace-clustering\",\"field\":\"title\",\"quote\":\"Subspace Segmentation\"}]}",
+          "reasoning_content": "We need answer JSON. Need label paper using only title, abstract (empty), vocabulary. Need no browsing. Paper title: \"Robust and Efficient Subspace Segmentation via Least Squares Regression\". Need choose keywords with evidence quotes from title (abstract empty). Must apply definitions.\n\nWe need infer. Title contains \"Subspace Segmentation\" likely subspace clustering? Vocabulary has Subspace clustering definition: \"按样本所属潜在子空间进行分组，通常利用自表达关系；一般的降维后聚类不充分。\" Title \"Subspace Segmentation\" is essentially subspace clustering/segmentation? The keyword canonical \"Subspace clustering\". Need literal quote continuous from title: \"Subspace Segmentation\" or full title? Quote must be continuous. Could quote \"Subspace Segmentation\". Does that support subspace clustering? Yes likely. But be careful: keyword canonical_en \"Subspace clustering\" definition says grouping samples by latent subspace, often self-expression. Title says Subspace Segmentation via Least Squares Regression. It is robust and efficient subspace segmentation. This is a research task. Should include subspace-clustering.\n\n\"Least Squares Regression\" maybe low-rank modeling? Subspace segmentation via least squares regression: robust and efficient. The method might be least squares regression, maybe not low-rank. Need do not overlabel. We have only title. Keyword \"Low-rank modeling\": explicitly using low-rank constraints/decomposition. Title doesn't mention low-rank. \"Sparse representation\" no. \"Least Squares Regression\" could be method but no keyword for least squares. \"Subspace clustering\" likely.\n\n\"Robust\" maybe adversarial robustness? Definition: robust under adversarial perturbations. Not sufficient. \"Robust\" in title likely robust to noise/corruption, not adversarial. No.\n\n\"Efficient\" no.\n\n\"Data imputation and recovery\"? no.\n\n\"Image segmentation\"? Subspace segmentation is not image segmentation (pixel regions). No.\n\nCould \"Low-rank modeling\" because subspace segmentation often uses low-rank? But title only says least squares regression. No explicit low-rank. Need conservative. Maybe \"Subspace clustering\" only. But title \"Segmentation\" maybe \"Subspace Segmentation\" is also known as subspace clustering. The keyword definition specifically includes subspace clustering. Use quote \"Subspace Segmentation\". Good.\n\nCheck if any other keyword could be selected. \"Least Squares Regression\" maybe no vocabulary. Could be \"Sparse representation\"? No. \"Dimensionality reduction\"? No, subspace segmentation may not be dimensionality reduction. \"Graph structure learning\"? no. \"Low-rank modeling\"? Not explicit. \"Robust and Efficient\" no. \"Multi-objective optimization\"? no. So likely one keyword.\n\nNeed JSON with keyword_ids [\"subspace-clustering\"], evidence one quote field title quote \"Subspace Segmentation\". Should quote be entire title? Literal continuous. \"Subspace Segmentation\" appears continuous. Fine.\n\nNeed ensure title field quote maybe exact case. Title: \"Robust and Efficient Subspace Segmentation via Least Squares Regression\". Quote \"Subspace Segmentation\" exact. Good.\n\nReturn only JSON object."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4870,
+      "completion_tokens": 703,
+      "total_tokens": 5573,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 613
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 134
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

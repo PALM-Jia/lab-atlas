@@ -1,0 +1,54 @@
+{
+  "task_sha256": "3b1938d11987f6864f7c12e88b846d2aa41a607545d35479c40c7be0279003c9",
+  "input_sha256": "d5b25b08e602539c3d2c5b198d37aee8e0e893586a1517510a639e75612e5b88",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "afa46ff8fa2dd9401abbc13e9cc4ccf3bfb3022809b596a606f2b7dedd6505d4",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "b4ab311485285821ce3de577e4fbc43ea6e26ccb2bd6c9df8a35ad137afcc213",
+  "raw_response": "{\"paper_id\":\"W7167102091\",\"input_sha256\":\"76a7453a2c655612898ca46916f0f7700d23ad7766140f552309231c903471ec\",\"keyword_ids\":[\"deep-clustering\",\"graph-neural-networks\",\"graph-structure-learning\",\"hyperspectral-images\"],\"evidence\":[{\"keyword_id\":\"deep-clustering\",\"field\":\"title\",\"quote\":\"Graph Masked Autoencoders With Relationship-Aware Learning for Hyperspectral Image Clustering\"},{\"keyword_id\":\"graph-neural-networks\",\"field\":\"title\",\"quote\":\"Graph Masked Autoencoders\"},{\"keyword_id\":\"graph-structure-learning\",\"field\":\"title\",\"quote\":\"Relationship-Aware Learning\"},{\"keyword_id\":\"hyperspectral-images\",\"field\":\"title\",\"quote\":\"Hyperspectral Image\"}]}",
+  "value": {
+    "paper_id": "W7167102091",
+    "input_sha256": "76a7453a2c655612898ca46916f0f7700d23ad7766140f552309231c903471ec",
+    "keyword_ids": [
+      "deep-clustering",
+      "graph-neural-networks",
+      "graph-structure-learning",
+      "hyperspectral-images"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "deep-clustering",
+        "field": "title",
+        "quote": "Graph Masked Autoencoders With Relationship-Aware Learning for Hyperspectral Image Clustering"
+      },
+      {
+        "keyword_id": "graph-neural-networks",
+        "field": "title",
+        "quote": "Graph Masked Autoencoders"
+      },
+      {
+        "keyword_id": "graph-structure-learning",
+        "field": "title",
+        "quote": "Relationship-Aware Learning"
+      },
+      {
+        "keyword_id": "hyperspectral-images",
+        "field": "title",
+        "quote": "Hyperspectral Image"
+      }
+    ]
+  }
+}

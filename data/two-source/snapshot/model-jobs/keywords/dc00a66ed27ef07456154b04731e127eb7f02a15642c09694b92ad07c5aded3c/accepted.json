@@ -1,0 +1,36 @@
+{
+  "task_sha256": "dc00a66ed27ef07456154b04731e127eb7f02a15642c09694b92ad07c5aded3c",
+  "input_sha256": "4a13d765be6e2e4c0622260578c777947bcbe752d4dcd4b33cc3ac9ef9f08d91",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "d7ee3bc36fc7075a267f77b06b040cf6c689ea96c68ca6a70ee3d9623d7fe298",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "3e58f11e071b49fef01463a40aaac395d041fcb6fa5e7e7a09f2da0d85d6375b",
+  "raw_response": "{\"paper_id\":\"W3041279471\",\"input_sha256\":\"d0403c8634c8fdeacf78787eab5ed7eb5abd9ea440fa0330b8fc1cd9b28658c5\",\"keyword_ids\":[\"traffic-data\"],\"evidence\":[{\"keyword_id\":\"traffic-data\",\"field\":\"title\",\"quote\":\"network-wide traffic state\"}]}",
+  "value": {
+    "paper_id": "W3041279471",
+    "input_sha256": "d0403c8634c8fdeacf78787eab5ed7eb5abd9ea440fa0330b8fc1cd9b28658c5",
+    "keyword_ids": [
+      "traffic-data"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "traffic-data",
+        "field": "title",
+        "quote": "network-wide traffic state"
+      }
+    ]
+  }
+}

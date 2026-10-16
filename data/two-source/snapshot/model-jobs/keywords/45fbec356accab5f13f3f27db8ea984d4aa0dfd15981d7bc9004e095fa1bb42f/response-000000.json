@@ -1,0 +1,37 @@
+{
+  "request_sha256": "34d55b0f39379e9ad24ec3a61dbf02813355413ab55417d07501dcfe50e0ddb4",
+  "received_at": "2026-10-15T13:06:14+00:00",
+  "http": 200,
+  "response": {
+    "id": "92a7d704-8d10-4d42-8054-54a364fb1d2e",
+    "object": "chat.completion",
+    "created": 1792069569,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W7163996887\",\"input_sha256\":\"bf171fb65d63a2005ad4462db83b0ea36dedfde44c54f5bfd8f5129ec91e35cc\",\"keyword_ids\":[\"pairwise-constraint-propagation\"],\"evidence\":[{\"keyword_id\":\"pairwise-constraint-propagation\",\"field\":\"title\",\"quote\":\"Pairwise Constraint Propagation\"}]}",
+          "reasoning_content": "We need answer only JSON. Need label paper using title (abstract empty). Need choose keyword IDs based solely title and vocab definitions, with literal continuous quote from title or abstract. Need determine paper contribution from title: \"Density-Aware Pairwise Constraint Propagation via Bidirectional Trees\".\n\nWe must not invent. Need apply vocabulary definitions. Candidate keywords:\n- pairwise-constraint-propagation: definition expands must-link/cannot-link supervision, including only propagating dissimilarity. Title explicitly \"Pairwise Constraint Propagation\" exact. So yes. Quote \"Pairwise Constraint Propagation\" from title.\n- semi-supervised learning? Pairwise constraints can be semi-supervised setting \"以有限成对约束指导全部样本学习\". Title has pairwise constraint propagation, likely in semi-supervised clustering? But parent not automatic. Definition says semi-supervised learning combines limited supervision with unlabeled or limited pairwise constraints. Does title alone support? \"Pairwise Constraint Propagation\" implies constraints but not necessarily semi-supervised? It is method; could be used for semi-supervised clustering. But conservative: only explicit title. It doesn't say semi-supervised. Could choose? Need apply definitions. The paper title only mentions pairwise constraint propagation, density-aware, bidirectional trees. No explicit semi-supervised learning. Better not choose semi-supervised unless evidence? Definition includes limited pairwise constraints guiding all samples. Pairwise constraint propagation itself is about propagating must-link/cannot-link. Title \"Pairwise Constraint Propagation\" clearly that. Could semi-supervised be the broader setting? It might be if pairwise constraints are limited. But title doesn't state limited or unlabeled. Avoid.\n\n- graph-structure learning? \"Bidirectional Trees\" maybe method for propagation? Not enough? Pairwise constraint propagation could be graph based but title doesn't mention graph structure learning. No.\n- graph-manifold regularization? no.\n- ensemble clustering? maybe constraint propagation for clustering? not title.\n- density? \"Density-Aware\" maybe related to clustering? Not in vocab except class imbalance? No. Could be density-aware pairwise constraint propagation. No.\n- Low-rank? no.\n- Sparse representation? no.\n- Multi-objective? no.\n- \"Bidirectional Trees\" maybe tree metric? No vocab.\n\nCould also \"Pairwise constraint propagation\" only. Need evidence quote literal continuous from title. Quote \"Pairwise Constraint Propagation\" is exact? Title has \"Density-Aware Pairwise Constraint Propagation via Bidirectional Trees\" yes continuous substring: \"Pairwise Constraint Propagation\" appears. Good.\n\nNeed output JSON with paper_id, input_sha256, keyword_ids array, evidence array. Ensure no extra. Include one keyword. Could keyword \"weakly supervised learning\"? Pairwise constraints are weak supervision? Definition: \"以不完整、不精确、粗粒度或不准确的监督信号替代充分准确的实例级真值，并将该监督条件作为实质研究问题；可包含有限标注、候选歧义、标签缺失或错误、包级与比例监督。纯无监督、自监督以及仅有输入噪声不自动计入。各具体设定互不等价，也不是本词的同义词。\" Pairwise constraints can be weak supervision, but title only says propagation; no explicit incomplete/inaccurate. Not choose.\n\nCould \"semi-supervised learning\": pairwise constraints usually semi-supervised, but not automatic. Title no. Not choose.\n\nCould \"graph neural networks\"? no.\n\nCould \"clustering ensemble\"? no.\n\nCould \"confidence calibration\"? no.\n\n\"Bidirectional Trees\" maybe \"Pairwise Constraint Propagation\" method. Not a keyword. So one.\n\nNeed final exact JSON. Ensure evidence quote from title field. Use field \"title\". Continuous quote exactly \"Pairwise Constraint Propagation\". The keyword id is \"pairwise-constraint-propagation\". Good.\n\nFinal."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4869,
+      "completion_tokens": 871,
+      "total_tokens": 5740,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 776
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 261
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "task_sha256": "5a52a0c7a6997fe22d1bb9c3a4c1d28ec9a753309dfba29181a9842889e85499",
+  "input_sha256": "92d2ddc881f68bc1f6bba9f31716188605656ecd5b55c9063988ddf08d9244bd",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "d52f3ed033336f73702b0fbfa4a7b33138cdd610442c9c86131d5992acd869fb",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "a7310e1d67fb290f5437a09cd0b12af817edd8f661bbcd703624d91603d011a8",
+  "raw_response": "{\"paper_id\":\"lab-b4f457369e13\",\"input_sha256\":\"5113fd2906b55c86c2141c60beaa2ea468c27c02f2050ed0da0d9a67ca2b3186\",\"keyword_ids\":[\"multi-label-learning\",\"weakly-supervised-learning\"],\"evidence\":[{\"keyword_id\":\"multi-label-learning\",\"field\":\"title\",\"quote\":\"Multi Label Learning\"},{\"keyword_id\":\"weakly-supervised-learning\",\"field\":\"title\",\"quote\":\"Single Poistive Multi Label Learning\"}]}",
+  "value": {
+    "paper_id": "lab-b4f457369e13",
+    "input_sha256": "5113fd2906b55c86c2141c60beaa2ea468c27c02f2050ed0da0d9a67ca2b3186",
+    "keyword_ids": [
+      "multi-label-learning",
+      "weakly-supervised-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "multi-label-learning",
+        "field": "title",
+        "quote": "Multi Label Learning"
+      },
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "field": "title",
+        "quote": "Single Poistive Multi Label Learning"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "request_sha256": "d6605194e94e78162c9d4ae38d33e5f162ef8fa0ced257ce46d00fc5cff39dbd",
+  "received_at": "2026-10-15T13:05:23+00:00",
+  "http": 200,
+  "response": {
+    "id": "09c729e0-60fc-48ef-90c0-d56dfd89af3e",
+    "object": "chat.completion",
+    "created": 1792069514,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W4281257454\",\"input_sha256\":\"8c107597c57b9d860644a750653ba04441e6c47f810f26b805dbdcf45ae91819\",\"keyword_ids\":[\"data-imputation-recovery\",\"traffic-data\",\"low-rank-modeling\"],\"evidence\":[{\"keyword_id\":\"data-imputation-recovery\",\"field\":\"title\",\"quote\":\"traffic data imputation\"},{\"keyword_id\":\"traffic-data\",\"field\":\"title\",\"quote\":\"spatiotemporal traffic data\"},{\"keyword_id\":\"low-rank-modeling\",\"field\":\"title\",\"quote\":\"Truncated tensor Schatten p-norm\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title only since abstract empty. Need select keyword IDs from 49 based on title conservatively. Need every chosen ID has literal continuous quote from title (field title). No abstract. Need decide relevant keywords.\n\nTitle: \"Truncated tensor Schatten p-norm based approach for spatiotemporal traffic data imputation with complicated missing patterns\"\n\nNeed apply definitions. Terms:\n- Data imputation and recovery: \"估计缺失观测或从污染观测恢复原始数值；输出为待恢复数据，不含仅改进分类鲁棒性。\" Title says traffic data imputation. So yes data-imputation-recovery. Quote \"traffic data imputation\" or full title.\n- Traffic data: \"道路交通速度、流量、轨迹或时空交通状态等实际数据对象；论文仅提及智能交通应用背景不充分.\" Title explicitly spatiotemporal traffic data. So yes traffic-data. Quote \"spatiotemporal traffic data\".\n- Low-rank modeling: \"显式利用矩阵或张量低秩约束、分解或近似表示相关结构；仅作为被批评的旧假设不充分，LoRA的参数化也不自动等同于数据低秩建模。\" Title says \"Truncated tensor Schatten p-norm based approach\". Schatten p-norm is low-rank tensor norm? Need cautious. It is a tensor Schatten p-norm, likely low-rank modeling for tensor. But title only. Does \"Schatten p-norm\" explicitly indicate low-rank constraint? The definition says low-rank modeling explicit use matrix/tensor low-rank constraints, decomposition, approximate representation. Tensor Schatten p-norm is a norm used for low-rank tensor approximation. Title explicitly \"Truncated tensor Schatten p-norm\" likely method. Should we label low-rank modeling? Need not over-infer? The vocabulary definition: explicitly utilizes matrix or tensor low-rank constraints. Schatten p-norm on tensor is a low-rank constraint (nuclear norm p=1 is convex surrogate). But if title only mentions \"Schatten p-norm\", does that directly evidence low-rank modeling? It is a norm on singular values, so low-rank modeling. Probably yes. But be conservative? The instruction: use title evidence conservatively. Could include because method is truncated tensor Schatten p-norm. Need quote. Hmm.\n\n- Sparse representation? No.\n- Tensor? There is no \"tensor\" keyword. Low-rank modeling covers.\n- Data imputation recovery yes.\n- Traffic data yes.\n\nPotential \"Hyperspectral images\" no. \"Large language models\" no etc.\n\nCould there be \"weakly supervised learning\"? missing patterns? Maybe missing data is not weak supervision. No.\n\n\"Multi-view learning\"? no.\n\n\"Bayesian inference\"? no.\n\n\"Graph...\" no.\n\n\"Multi-objective optimization\"? no.\n\n\"Class imbalance\"? no.\n\n\"Domain adaptation\"? no.\n\n\"Time series\"? not in vocab.\n\n\"Tensor completion\" no.\n\nNeed choose only those with literal quote in title:\n- data-imputation-recovery: quote \"traffic data imputation\" (continuous) or \"imputation\" only. Better quote \"traffic data imputation\".\n- traffic-data: quote \"spatiotemporal traffic data\" continuous.\n- low-rank-modeling: quote \"Truncated tensor Schatten p-norm\" maybe. Does continuous quote from title. If choose.\n\nNeed consider \"nonnegative matrix factorization\" no. \"sparse representation\" no. \"dimensionality reduction\" no. \"graph...\" no.\n\nCould \"traffic data\" definition requires actual data object, title sufficient? It says \"论文仅提及智能交通应用背景不充分.\" Title says \"spatiotemporal traffic data imputation with complicated missing patterns\" research object is traffic data. Yes.\n\nCould \"data imputation and recovery\" quote \"traffic data imputation\" covers. Title has \"traffic data imputation\" continuous. Yes.\n\nCould \"low-rank modeling\" not directly \"low-rank\" but Schatten p-norm. Is Schatten p-norm an explicit low-rank constraint? Hmm. Let's evaluate vocabulary: method dimension. Title \"Truncated tensor Schatten p-norm based approach\" The term Schatten p-norm on matrix singular values. It is a low-rank modeling technique. In tensor completion, tensor Schatten p-norm is a low-rank regularizer. But definition requires \"显式利用矩阵或张量低秩约束、分解或近似表示相关结构\". A Schatten p-norm is a low-rank constraint. So yes. However, if the paper is about imputation using truncated tensor Schatten p-norm, low-rank modeling likely central. Quote can be \"Truncated tensor Schatten p-norm\". But does the quote itself contain \"low-rank\"? No. But keyword evidence is quote, not explanation. The quote supports low-rank modeling as tensor Schatten norm. It's acceptable if we as labeler know definition. Need no outside facts? The vocabulary definition plus title. Could be risky but likely correct.\n\nAny other keyword? \"Low-rank modeling\" parent? none. \"Data imputation and recovery\" likely primary. \"Traffic data\" application. Could also \"Sparse representation\" because \"truncated\" maybe thresholding of Schatten p-norm? Not enough.\n\nPotential \"Multi-view learning\": spatiotemporal traffic data might have multiple modes? no.\n\nPotential \"Tensor\" not keyword. The title includes \"tensor\". Low-rank modeling is likely intended for tensor norm methods. Yes.\n\nNeed output JSON with paper_id, input_sha256, keyword_ids, evidence. Must include every chosen ID evidence. No extra prose. Ensure quotes literal continuous from title. Title exactly: \"Truncated tensor Schatten p-norm based approach for spatiotemporal traffic data imputation with complicated missing patterns\"\n\nQuotes:\n- \"Truncated tensor Schatten p-norm\" (starts uppercase, continuous)\n- \"spatiotemporal traffic data\" (continuous)\n- \"traffic data imputation\" continuous? Title substring: \"...for spatiotemporal traffic data imputation with...\" Contains \"traffic data imputation\" yes.\n\nCould include \"missing patterns\" for data imputation? no.\n\nNeed maybe if choose low-rank modeling, evidence quote \"Truncated tensor Schatten p-norm\". For data-imputation-recovery quote \"traffic data imputation\". For traffic-data quote \"spatiotemporal traffic data\".\n\nOrder? Probably any. Need valid JSON only.\n\nNeed also no invented quote. Good.\n\nLet's final."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4875,
+      "completion_tokens": 1473,
+      "total_tokens": 6348,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1332
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 139
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

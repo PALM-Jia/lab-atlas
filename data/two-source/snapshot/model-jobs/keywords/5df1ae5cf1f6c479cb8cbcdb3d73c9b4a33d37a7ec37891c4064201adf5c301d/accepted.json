@@ -1,0 +1,48 @@
+{
+  "task_sha256": "5df1ae5cf1f6c479cb8cbcdb3d73c9b4a33d37a7ec37891c4064201adf5c301d",
+  "input_sha256": "2422bdef366236e3da23bd7a3f50fad4345afc02f11d4e93642d9d39eca3ed72",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "ff2f6b515a6860673dd0945c81d7c9647b57236b0d86053f4899f32dd04951b7",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "2a22c9bebee0b73220af0f1a3dfccda4d819ca6f1fad3534b42767ec0af6a718",
+  "raw_response": "{\"paper_id\":\"W2607323999\",\"input_sha256\":\"0b724d6397c01c541e929e3397cc74c36e4014e0365eb9af8378df647d3507bf\",\"keyword_ids\":[\"dimensionality-reduction\",\"nonnegative-matrix-factorization\",\"semi-supervised-learning\"],\"evidence\":[{\"keyword_id\":\"dimensionality-reduction\",\"field\":\"abstract\",\"quote\":\"Dimensionality reduction has attracted increasing attention, because high-dimensional data have arisen naturally in numerous domains in recent years.\"},{\"keyword_id\":\"nonnegative-matrix-factorization\",\"field\":\"title\",\"quote\":\"Nonnegative Matrix Factorization\"},{\"keyword_id\":\"semi-supervised-learning\",\"field\":\"abstract\",\"quote\":\"this paper proposes a novel semisupervised NMF learning framework\"}]}",
+  "value": {
+    "paper_id": "W2607323999",
+    "input_sha256": "0b724d6397c01c541e929e3397cc74c36e4014e0365eb9af8378df647d3507bf",
+    "keyword_ids": [
+      "dimensionality-reduction",
+      "nonnegative-matrix-factorization",
+      "semi-supervised-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "dimensionality-reduction",
+        "field": "abstract",
+        "quote": "Dimensionality reduction has attracted increasing attention, because high-dimensional data have arisen naturally in numerous domains in recent years."
+      },
+      {
+        "keyword_id": "nonnegative-matrix-factorization",
+        "field": "title",
+        "quote": "Nonnegative Matrix Factorization"
+      },
+      {
+        "keyword_id": "semi-supervised-learning",
+        "field": "abstract",
+        "quote": "this paper proposes a novel semisupervised NMF learning framework"
+      }
+    ]
+  }
+}

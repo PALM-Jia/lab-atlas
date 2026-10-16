@@ -1,0 +1,37 @@
+{
+  "request_sha256": "5c6fd53abd09890f58d52c8a6632eccee9c17b84ac3a7f58a04d199d4eca0dd4",
+  "received_at": "2026-10-15T13:04:42+00:00",
+  "http": 200,
+  "response": {
+    "id": "b5de76f0-c365-4b23-9afa-631b6c1e5037",
+    "object": "chat.completion",
+    "created": 1792069474,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W2610360795\",\"input_sha256\":\"76fab4ac5b04eafb20990f1b375dd20f1c27871c7e2d1fe69c5c476427c9f564\",\"keyword_ids\":[\"semi-supervised-learning\"],\"evidence\":[{\"keyword_id\":\"semi-supervised-learning\",\"field\":\"title\",\"quote\":\"Semi-supervised graph clustering: a kernel approach\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title/abstract. Abstract empty. Title: \"Semi-supervised graph clustering: a kernel approach\". Need choose vocabulary IDs with evidence quote from title (abstract empty). Apply definitions. Need identify contributions from title conservatively. Title mentions semi-supervised graph clustering, kernel approach. Vocabulary: semi-supervised learning (yes title \"Semi-supervised\"), graph clustering? No \"graph clustering\" keyword. Deep clustering? no. Ensemble clustering no. Dimensionality reduction? no. Graph structure learning? maybe \"graph clustering\" but graph structure learning definition: learning or correcting edges/adjacency/affinity matrix; using fixed graph or only node embeddings insufficient. Title says graph clustering, kernel approach. Does graph clustering imply graph structure learning? Not necessarily; clustering on graph. Need not. Graph and manifold regularization? maybe no. Kernel approach? No keyword for kernel methods. Multi-view? no. Weakly supervised? Semi-supervised is specific, not weakly-supervised? Definition: semi-supervised combines limited supervision and unlabeled samples, or limited pairwise constraints guide all sample learning; pure unsupervised etc insufficient. Title explicitly \"Semi-supervised graph clustering\" -> semi-supervised learning likely. Could also be pairwise constraint propagation? Semi-supervised graph clustering often uses pairwise constraints? But title only semi-supervised; not specifically constraints propagation. We need be conservative.\n\nPotential keyword: semi-supervised-learning. Evidence title quote \"Semi-supervised graph clustering: a kernel approach\" or \"Semi-supervised\". Need literal continuous quote from field. If quote \"Semi-supervised\" is continuous. We can include.\n\nWhat about \"Graph structure learning\"? Title \"graph clustering\" not \"graph structure learning\". No.\n\n\"Graph and manifold regularization\"? no.\n\n\"Contrastive learning\"? no.\n\n\"Multi-view learning\"? no.\n\n\"Kernel approach\" no vocab.\n\nMaybe \"Semi-supervised learning\" because title exactly. Also \"Weakly supervised learning\" maybe parent? Definition: weakly supervised uses incomplete imprecise etc as substantive. Semi-supervised is a research_setting separate; weak supervision can include limited labels? But definition says pure unsupervised, self-supervised not auto; it includes limited annotation? \"可包含有限标注...\" It says weakly supervised learning can include limited annotation. But semi-supervised learning is more specific. However instructions: parent is not automatically present because child chosen. Do we choose both? The title says semi-supervised, which is a subset of weak supervision but in vocabulary distinct keyword. The definition of weakly supervised: \"以不完整、不精确、粗粒度或不准确的监督信号替代充分准确的实例级真值，并将该监督条件作为实质研究问题；可包含有限标注、候选歧义、标签缺失或错误、包级与比例监督。纯无监督、自监督以及仅有输入噪声不自动计入。各具体设定互不等价，也不是本词的同义词。\" Semi-supervised learning combines limited supervision and unlabeled samples. This is a specific research_setting, not necessarily weakly supervised? It can be considered weak supervision (limited labels). But \"各具体设定互不等价，也不是本词的同义词\" means semi-supervised and weak supervised not same. But semi-supervised is a specific setting under weak? The vocabulary parent_id for weakly-supervised is null, semi-supervised parent null. We should not infer weak supervision solely from semi-supervised? The title explicitly says semi-supervised, not weakly supervised. The definition of weakly supervised says it can include limited annotation, but we need evidence it's treating supervision condition as substantive. Semi-supervised graph clustering with kernel approach likely uses limited supervision. But is semi-supervised learning keyword enough? Yes. Adding weakly-supervised might be overbroad; definitions warn not equivalent. Do not add.\n\nWhat about \"Pairwise constraint propagation\"? Semi-supervised graph clustering often involves pairwise constraints (must-link/cannot-link), but not in title. No evidence. Don't.\n\nWhat about \"Graph and manifold regularization\"? Kernel approach to graph clustering could use graph Laplacian regularization? Title doesn't mention. No.\n\nWhat about \"Low-rank modeling\"? no.\n\nWhat about \"Spectral clustering\"? no keyword.\n\nMaybe \"Data imputation\"? no.\n\nCould \"kernel approach\" imply \"Graph and manifold regularization\"? Not from title.\n\nThus likely only semi-supervised-learning. But let's consider \"graph clustering\" maybe \"Graph structure learning\" if kernel approach learns graph? Title \"Semi-supervised graph clustering: a kernel approach\" could be a method for graph clustering, not graph structure learning. The keyword definitions: Graph structure learning: learning or correcting edges, adjacency or affinity matrix; using fixed graph or only learning node embeddings insufficient. In graph clustering, one typically constructs graph/affinity, but title says graph clustering not graph structure learning. It might be semi-supervised clustering on graph. If the method is \"a kernel approach\", could involve kernel matrix; not graph structure. So no.\n\nCould \"Semi-supervised learning\" evidence quote: title \"Semi-supervised graph clustering: a kernel approach\". We can quote continuous string from title. Need include evidence array with keyword_id and field title quote. Could quote \"Semi-supervised\" or full title. Better full title to be literal. The quote can be full title. Must be continuous in title. Yes.\n\nWhat about abstract empty. We can't quote abstract. Field title.\n\nSo final JSON with paper_id, input_sha256, keyword_ids [\"semi-supervised-learning\"], evidence [{\"keyword_id\":\"semi-supervised-learning\",\"field\":\"title\",\"quote\":\"Semi-supervised graph clustering: a kernel approach\"}].\n\nNeed ensure output exactly JSON. No markdown? likely. final."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4869,
+      "completion_tokens": 1277,
+      "total_tokens": 6146,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1178
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 261
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

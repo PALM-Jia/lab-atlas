@@ -1,0 +1,37 @@
+{
+  "request_sha256": "930461d09b5a0aad124430eff93cc44b3402febbf32d50e746ba17090c27671e",
+  "received_at": "2026-10-15T13:05:34+00:00",
+  "http": 200,
+  "response": {
+    "id": "b9dff436-5c4b-494c-bb6c-625997ce7a39",
+    "object": "chat.completion",
+    "created": 1792069530,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W4402495249\",\"input_sha256\":\"9cee41e89e3ac9d6acd5955821017218e927205d409bcd1ef26ef81885c71345\",\"keyword_ids\":[\"deep-clustering\"],\"evidence\":[{\"keyword_id\":\"deep-clustering\",\"field\":\"title\",\"quote\":\"deep document clustering\"}]}",
+          "reasoning_content": "We need answer only JSON. Need label paper using title, abstract empty. Need choose keyword IDs from vocabulary. Title: \"Adaptive structural enhanced representation learning for deep document clustering\". Need infer. Deep clustering likely main task. Maybe document clustering but not in vocab? Deep clustering yes title \"deep document clustering\" contains deep clustering? Literal continuous quote from title must include keyword phrase? Need evidence quote exact substring. \"deep document clustering\" includes \"deep\" and \"clustering\" not contiguous \"deep clustering\" because \"document\" in between. Vocabulary id deep-clustering canonical \"Deep clustering\". Do we require quote matching alias? Evidence can be title quote; chosen ID must have at least one literal continuous quote from given field. It doesn't explicitly say quote must contain keyword exactly? But likely evidence should support. If quote \"deep document clustering\" supports deep clustering task? It includes deep ... clustering. But literal continuous quote is entire title maybe. We can quote \"deep document clustering\" as evidence. Is that sufficient? Probably.\n\n\"representation learning\" maybe dimensionality reduction? Title says representation learning, not necessarily dimensionality reduction. \"Adaptive structural enhanced representation learning\" might involve graph structure learning? Structure? But no abstract. Need conservative. Paper title only. \"deep document clustering\" clearly deep clustering. Maybe \"document clustering\" is clustering, but deep clustering definition: using learnable neural representations and/or clustering head to obtain partitions. Title indicates deep representation learning for deep document clustering. So deep-clustering.\n\nMaybe \"graph structure learning\"? \"structural enhanced representation learning\" ambiguous, could be structure-aware, not necessarily learning graph edges. Not enough.\n\nMaybe \"dimensionality reduction\"? representation learning not explicit low-dimensional mapping. Not sufficient.\n\nMaybe \"contrastive learning\"? no.\n\nCould \"Adaptive structural enhanced representation learning\" involve graph and manifold regularization? no.\n\nMaybe \"large language models\"? no.\n\nCould \"document clustering\" in NLP? no.\n\nNeed maybe \"Multi-view learning\"? no.\n\n\"deep document clustering\" could be a research task. So only one keyword.\n\nNeed every chosen ID has evidence quote from title. Quote literal: \"deep document clustering\". Field title.\n\nReturn JSON with paper_id, input_sha256, keyword_ids [\"deep-clustering\"], evidence [{\"keyword_id\":\"deep-clustering\",\"field\":\"title\",\"quote\":\"deep document clustering\"}].\n\nNeed ensure JSON valid, no extra."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4864,
+      "completion_tokens": 568,
+      "total_tokens": 5432,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 485
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 256
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "request_sha256": "3c291de89e3a48d921d410cbabc5c6c5990c346630278d6b1e366dc65f5d7d7d",
+  "received_at": "2026-10-15T13:05:17+00:00",
+  "http": 200,
+  "response": {
+    "id": "df9a7a9c-c84d-4cb6-854d-30de474aa151",
+    "object": "chat.completion",
+    "created": 1792069514,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W4282977071\",\"input_sha256\":\"1c91566648eed9616b354b7f459dc668b9647fba9a7027882de0416f1f604265\",\"keyword_ids\":[\"label-distribution-learning\"],\"evidence\":[{\"keyword_id\":\"label-distribution-learning\",\"field\":\"title\",\"quote\":\"Label Distribution Learning\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title, no abstract. Title: \"ULTRA: Uncertainty-Aware Label Distribution Learning for Breast Tumor Cellularity Assessment\". Need choose keywords from vocabulary based on title only conservatively.\n\nWe need identify tasks. Title contains \"Label Distribution Learning\" exactly. So keyword label-distribution-learning likely. Also \"Uncertainty-Aware\" maybe not vocabulary. \"Breast Tumor Cellularity Assessment\" maybe medical image? No keyword for medical. \"Cellularity Assessment\" maybe label distribution? But label distribution learning definitely.\n\nCould also \"Label enhancement\"? No. \"Weakly supervised\"? No evidence. \"Noisy-label learning\"? Uncertainty-aware maybe not. \"Confidence calibration\"? No. \"Data imputation\"? no. \"Image segmentation\"? no.\n\nNeed every chosen ID has literal continuous quote from title or abstract. Abstract empty. For label-distribution-learning, quote from title: \"Label Distribution Learning\" continuous. Could choose \"weakly-supervised-learning\"? Title doesn't say weak supervision. No.\n\nMaybe \"label correlation modeling\"? No. \"multi-label learning\"? No.\n\nOnly one keyword? Need apply definitions. The paper title explicitly says Label Distribution Learning. It is a research task. So choose label-distribution-learning. Maybe \"confidence-calibration\" due uncertainty-aware? Definition requires making confidence weights consistent with correctness; only \"uncertainty\" in title not enough. Avoid.\n\nCould \"data-imputation-recovery\"? no.\n\nCould \"deep clustering\"? no.\n\nCould \"large language models\"? no.\n\nSo final JSON with paper_id, input_sha256, keyword_ids [\"label-distribution-learning\"], evidence quote. Ensure exact quote from title. Field title. Quote \"Label Distribution Learning\" yes case. Schema requires keyword_ids strings. No extra.\n\nNeed input_sha256 exactly. Return JSON."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4868,
+      "completion_tokens": 457,
+      "total_tokens": 5325,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 373
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 260
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

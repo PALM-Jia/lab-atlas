@@ -1,0 +1,37 @@
+{
+  "request_sha256": "2791649f052fb64d14f21100f27d107d7b81f79c28b50bb80c65146d645aa967",
+  "received_at": "2026-10-15T13:05:15+00:00",
+  "http": 200,
+  "response": {
+    "id": "6be5a823-252b-4f15-afe1-201982cdbbf8",
+    "object": "chat.completion",
+    "created": 1792069510,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W4240808349\",\"input_sha256\":\"1ad1847f8086581b4b43b7656b299775d8eddc2662caa160c0b75da7b858bfb0\",\"keyword_ids\":[\"hyperspectral-images\"],\"evidence\":[{\"keyword_id\":\"hyperspectral-images\",\"field\":\"abstract\",\"quote\":\"High-spectral-resolution data of the Airborne Imaging Spectrometer (AIS)\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label using vocabulary. Need determine relevant keywords based on title/abstract. Paper about hyperspectral? \"High-spectral-resolution data of Airborne Imaging Spectrometer (AIS)\" crop growth parameters. Hyperspectral images keyword: processing images with dense spectral bands, including classification, clustering, representation, unmixing. Here high-spectral-resolution data from imaging spectrometer, reflectance spectra of wheat. Is that hyperspectral images? Likely yes, application object. Need quote literal continuous. Title has \"Airborne Imaging Spectrometer data\"; abstract \"High-spectral-resolution data of the Airborne Imaging Spectrometer (AIS)\" maybe enough. Keyword id hyperspectral-images. Need maybe no others? Let's examine vocabulary. Title abstract about crop growth parameters using AIS data; shift red edge; LAI and chlorophyll. No research_task? Could be \"Hyperspectral images\" application_object. Maybe \"Dimensionality reduction\"? No. \"Data imputation\"? no. \"Image segmentation\"? no. \"Multi-label\"? no. \"Label distribution\"? no. \"Weakly supervised\"? no. \"Application_object: Hyperspectral images\" definitely. Need maybe large vision-language models? no. Vision-language models? no. \"Traffic data\"? no. \"Underwater images\"? no. \"High-spectral-resolution\" could be hyperspectral. Vocabulary keyword canonical \"Hyperspectral images\", definition: 处理具有密集光谱波段的图像，包括其分类、聚类、表示与解混；一般遥感或RGB图像不充分. This paper processes imaging spectrometer data, dense spectral bands of wheat plots; yes. Evidence from title: \"Airborne Imaging Spectrometer data\" or abstract: \"High-spectral-resolution data of the Airborne Imaging Spectrometer (AIS)\". Need provide keyword_ids array and evidence each with quote. Only chosen id. Need maybe no other. Check if abstract mentions crop growth parameters, LAI, chlorophyll, red edge. No matching keyword for vegetation/crop. So only hyperspectral-images.\n\nNeed ensure JSON schema exactly. Paper_id string, input_sha256, keyword_ids, evidence. Evidence field \"title\" or \"abstract\"; quote. We can use title quote \"Airborne Imaging Spectrometer data\". Is that enough to match hyperspectral? The keyword definition requires processing dense spectral bands images. Title \"Airborne Imaging Spectrometer data\" maybe title evidence. Abstract \"High-spectral-resolution data of the Airborne Imaging Spectrometer (AIS)\" more explicit. Use abstract. Need literal continuous quote from given abstract. \"High-spectral-resolution data of the Airborne Imaging Spectrometer (AIS)\" yes. Maybe quote \"High-spectral-resolution data\" is continuous. We can include one. Return no extra.\n\nNeed consider maybe \"Hyperspectral images\" is application object and high-spectral-resolution data. Yes.\n\nAny other potential keyword? \"Data imputation and recovery\"? No. \"Dimensionality reduction\"? no.\n\nCould there be \"Weakly supervised learning\"? no.\n\nNeed ensure no invented. JSON valid double quotes. Final only JSON."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5016,
+      "completion_tokens": 728,
+      "total_tokens": 5744,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 628
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 280
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

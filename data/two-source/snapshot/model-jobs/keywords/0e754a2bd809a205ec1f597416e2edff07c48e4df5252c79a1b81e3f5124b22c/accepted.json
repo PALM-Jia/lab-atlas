@@ -1,0 +1,36 @@
+{
+  "task_sha256": "0e754a2bd809a205ec1f597416e2edff07c48e4df5252c79a1b81e3f5124b22c",
+  "input_sha256": "1f0a9d9829810fb23e058185a96a54a5348ac9c153724b862edec96c285027fa",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "6e14ec2d6b4942953b007bf5684514ddb408ff6f60e35be387fae4bad9f58783",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "58e9e00efc039310694b3d3a7e8d3e22a27ed776d9d90fc8e5cabd2fe3db1c3f",
+  "raw_response": "{\"paper_id\":\"W4362672990\",\"input_sha256\":\"025853032d1354fa1d3b319f69e6909e0d4d1a1e167131bb87e2572f190d390e\",\"keyword_ids\":[\"label-distribution-learning\"],\"evidence\":[{\"keyword_id\":\"label-distribution-learning\",\"field\":\"title\",\"quote\":\"label multi-kernel distribution learning\"}]}",
+  "value": {
+    "paper_id": "W4362672990",
+    "input_sha256": "025853032d1354fa1d3b319f69e6909e0d4d1a1e167131bb87e2572f190d390e",
+    "keyword_ids": [
+      "label-distribution-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "label-distribution-learning",
+        "field": "title",
+        "quote": "label multi-kernel distribution learning"
+      }
+    ]
+  }
+}

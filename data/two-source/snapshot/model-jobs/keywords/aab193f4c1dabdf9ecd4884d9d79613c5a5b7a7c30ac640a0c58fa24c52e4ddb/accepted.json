@@ -1,0 +1,36 @@
+{
+  "task_sha256": "aab193f4c1dabdf9ecd4884d9d79613c5a5b7a7c30ac640a0c58fa24c52e4ddb",
+  "input_sha256": "edcbfd96d61167f7483b9cc943d2facb27a70cf96321faa7f32a690b24da2e74",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "a7c028c11b4af191ebcf7de523e869f0ad0f649a6ba017f7f519813040121b41",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "693925bb01381e1ed9e8498be21d994e770803d06d5be2ea0e8f975f32fbf4d1",
+  "raw_response": "{\"paper_id\":\"W3119120717\",\"input_sha256\":\"9acd24d0d128377c4110f01ce6c7f0d547a8b20057ab6148efe1ad5a2c6f234b\",\"keyword_ids\":[\"dimensionality-reduction\"],\"evidence\":[{\"keyword_id\":\"dimensionality-reduction\",\"field\":\"title\",\"quote\":\"Subspace learning\"}]}",
+  "value": {
+    "paper_id": "W3119120717",
+    "input_sha256": "9acd24d0d128377c4110f01ce6c7f0d547a8b20057ab6148efe1ad5a2c6f234b",
+    "keyword_ids": [
+      "dimensionality-reduction"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "dimensionality-reduction",
+        "field": "title",
+        "quote": "Subspace learning"
+      }
+    ]
+  }
+}

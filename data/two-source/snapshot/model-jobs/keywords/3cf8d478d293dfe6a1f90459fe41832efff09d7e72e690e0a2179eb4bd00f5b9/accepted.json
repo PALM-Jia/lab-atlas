@@ -1,0 +1,42 @@
+{
+  "task_sha256": "3cf8d478d293dfe6a1f90459fe41832efff09d7e72e690e0a2179eb4bd00f5b9",
+  "input_sha256": "034c6cc6cdb9955727bc491b43a49adc0000ec9f5a098a28080ee861a0a7514c",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "3fa7bce0882536aaac8c0f8da5018ca2c2894ce0e9e1c3fa82d0636bfde6947a",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "078e63b96af0777769db6dafead1d01db5e58121b6d5f36366bf4f310bd13c15",
+  "raw_response": "{\"paper_id\":\"W4307959803\",\"input_sha256\":\"203692825c77fbcf861488c3c099829c41318169e874d98979cf63ea105e56fb\",\"keyword_ids\":[\"multi-label-learning\",\"semi-supervised-learning\"],\"evidence\":[{\"keyword_id\":\"multi-label-learning\",\"field\":\"title\",\"quote\":\"multi-label classification\"},{\"keyword_id\":\"semi-supervised-learning\",\"field\":\"title\",\"quote\":\"semi-supervised learning\"}]}",
+  "value": {
+    "paper_id": "W4307959803",
+    "input_sha256": "203692825c77fbcf861488c3c099829c41318169e874d98979cf63ea105e56fb",
+    "keyword_ids": [
+      "multi-label-learning",
+      "semi-supervised-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "multi-label-learning",
+        "field": "title",
+        "quote": "multi-label classification"
+      },
+      {
+        "keyword_id": "semi-supervised-learning",
+        "field": "title",
+        "quote": "semi-supervised learning"
+      }
+    ]
+  }
+}

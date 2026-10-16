@@ -1,0 +1,37 @@
+{
+  "request_sha256": "f8dfa3c56049ba52a72a1e0eceee05cdfa1b0f9b9511a13c4382f84d07b3b2c4",
+  "received_at": "2026-10-15T13:04:45+00:00",
+  "http": 200,
+  "response": {
+    "id": "1f8ec8df-7dc6-4506-b92d-b527da8d8d9a",
+    "object": "chat.completion",
+    "created": 1792069480,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W2788069267\",\"input_sha256\":\"69e77a947775200d325a59263d8ee13fa2e0679b44754549120c6a29eac596bf\",\"keyword_ids\":[\"hyperspectral-images\"],\"evidence\":[{\"keyword_id\":\"hyperspectral-images\",\"field\":\"title\",\"quote\":\"Hyperspectral Data\"}]}",
+          "reasoning_content": "We need answer only JSON. Need label paper using title available abstract empty. Need choose keyword IDs from vocabulary. Paper title: \"Hyperspectral Data Feature Extraction Using Deep Learning Hybrid Model\". Need apply definitions. Likely keywords: hyperspectral-images (application_object) because title mentions Hyperspectral Data. Feature extraction? Vocabulary has dimensionality reduction, deep clustering, etc. \"Feature extraction\" not exactly a keyword. Could maybe dimensionality reduction? Definition: research explicit low-dimensional mapping/embedding and dimension compression goal; merely hidden layers or feature vector not sufficient. Title says feature extraction using deep learning hybrid model. Is that dimensionality reduction? Feature extraction often reduces dimensionality. But need conservative. The vocabulary asks label supplied paper using title abstract. Missing abstract allowed use title evidence conservatively. Hyperspectral images definitely since title \"Hyperspectral Data\". Maybe \"Deep learning hybrid model\" no specific deep learning keyword. Could \"Dimensionality reduction\" because Feature Extraction? The definition says explicit low-dimensional mapping or embedding and dimension compression as goal; title \"Feature Extraction\" alone may not prove dimensionality reduction. It is feature extraction, not necessarily dimensionality reduction. Could \"Deep clustering\" no. \"Hyperspectral images\" yes: processing images with dense spectral bands including classification, clustering, representation, unmixing; \"Hyperspectral Data\" maybe not explicitly images but \"Hyperspectral Data Feature Extraction\" likely hyperspectral imagery. Definition includes classification, clustering, representation. Title says Hyperspectral Data Feature Extraction, so hyperspectral images as data object. Evidence quote \"Hyperspectral Data\". Good.\n\nMaybe \"Dimensionality reduction\" if feature extraction = dimensionality reduction? Need be careful. \"Feature extraction using deep learning hybrid model\" could be a method for feature extraction, not necessarily dimension reduction. Definition: \"研究显式的低维映射或嵌入并以维度压缩为目标；仅存在隐藏层或特征向量不充分.\" Feature extraction is often producing features, could be low-dimensional embedding. But title doesn't mention low-dimensional or dimensionality reduction. No abstract. So maybe not choose. We can include only one keyword. But maybe \"Hyperspectral images\" definition_zh: \"处理具有密集光谱波段的图像，包括其分类、聚类、表示与解混；一般遥感或RGB图像不充分。\" Title says \"Hyperspectral Data Feature Extraction\", not \"image\" but hyperspectral data generally from images. Is \"Hyperspectral Data\" sufficient? Likely yes. Quote literal: \"Hyperspectral Data\".\n\nCould also \"Deep learning hybrid model\" not in vocab. No.\n\nNeed return JSON with paper_id, input_sha256, keyword_ids, evidence. Every chosen ID must have at least one literal continuous quote from title/abstract. For hyperspectral-images, quote \"Hyperspectral Data\" or \"Hyperspectral Data Feature Extraction\". The exact title includes \"Hyperspectral Data Feature Extraction Using Deep Learning Hybrid Model\". We can quote \"Hyperspectral Data\". Field title.\n\nShould we include dimensionality-reduction? Let's reason. The task says label paper using ONLY title, abstract, vocabulary. Do not use outside facts. \"Feature Extraction\" is in title. Does \"Feature extraction\" map to dimensionality reduction? Definition says dimensionality reduction studies explicit low-dimensional mapping or embedding and aims at dimension compression. Feature extraction could be extracting useful features, not necessarily reduce dimensions. A hybrid deep learning model for hyperspectral feature extraction likely does dimensionality reduction. But title alone lacks \"dimensionality reduction\"; \"feature extraction\" is not exactly \"dimensionality reduction\". Vocabulary doesn't have feature extraction. Conservative: do not add. The instructions: Missing abstract allowed; use title evidence conservatively. A parent not automatically present. Empty keyword list valid. But hyperspectral is clear. So keyword_ids [\"hyperspectral-images\"].\n\nNeed output valid JSON only. No extra prose. Ensure schema exactly. Evidence array with keyword_id, field \"title\", quote.\n\nLet's final."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4864,
+      "completion_tokens": 888,
+      "total_tokens": 5752,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 803
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 256
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

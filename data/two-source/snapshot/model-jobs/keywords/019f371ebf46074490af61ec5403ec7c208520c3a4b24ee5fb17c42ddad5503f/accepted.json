@@ -1,0 +1,54 @@
+{
+  "task_sha256": "019f371ebf46074490af61ec5403ec7c208520c3a4b24ee5fb17c42ddad5503f",
+  "input_sha256": "a39bdf4356adeed7661f9787c7f411fe7a214b342b10b961ed1c2f09d9e0712d",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "5a2ff5fd85419590fefe4598b56ca8d2f90c6bbff72372165402a16655cb9795",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "4940aaad0a3756a90e8ca5a87da53f749bd43a9acfd08f2aee7f6ccb7094567a",
+  "raw_response": "{\"paper_id\":\"W4399104396\",\"input_sha256\":\"debd66e13a70b559be64a640b4495aa4ad427506913cf7bf9626e5b2a4250b4d\",\"keyword_ids\":[\"semi-supervised-learning\",\"sparse-representation\",\"subspace-clustering\",\"graph-manifold-regularization\"],\"evidence\":[{\"keyword_id\":\"semi-supervised-learning\",\"field\":\"title\",\"quote\":\"Semi-supervised\"},{\"keyword_id\":\"sparse-representation\",\"field\":\"title\",\"quote\":\"sparse\"},{\"keyword_id\":\"subspace-clustering\",\"field\":\"title\",\"quote\":\"subspace clustering\"},{\"keyword_id\":\"graph-manifold-regularization\",\"field\":\"title\",\"quote\":\"manifold regularization\"}]}",
+  "value": {
+    "paper_id": "W4399104396",
+    "input_sha256": "debd66e13a70b559be64a640b4495aa4ad427506913cf7bf9626e5b2a4250b4d",
+    "keyword_ids": [
+      "semi-supervised-learning",
+      "sparse-representation",
+      "subspace-clustering",
+      "graph-manifold-regularization"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "semi-supervised-learning",
+        "field": "title",
+        "quote": "Semi-supervised"
+      },
+      {
+        "keyword_id": "sparse-representation",
+        "field": "title",
+        "quote": "sparse"
+      },
+      {
+        "keyword_id": "subspace-clustering",
+        "field": "title",
+        "quote": "subspace clustering"
+      },
+      {
+        "keyword_id": "graph-manifold-regularization",
+        "field": "title",
+        "quote": "manifold regularization"
+      }
+    ]
+  }
+}

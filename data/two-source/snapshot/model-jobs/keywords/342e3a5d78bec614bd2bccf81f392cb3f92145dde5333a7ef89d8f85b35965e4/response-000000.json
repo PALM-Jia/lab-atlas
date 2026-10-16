@@ -1,0 +1,37 @@
+{
+  "request_sha256": "5e785c59f8b61cf485c554a6c5fcbdecbb1a73f22de0cb23d9d16a0d06cba7aa",
+  "received_at": "2026-10-15T13:04:19+00:00",
+  "http": 200,
+  "response": {
+    "id": "7c96ea86-b830-4593-91c7-12febe033f39",
+    "object": "chat.completion",
+    "created": 1792069455,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W188881548\",\"input_sha256\":\"c7dded3c7c7a28010d412ac3f3f57d4e1bcf4346fdf0ba1c52e4cfe0f6372eac\",\"keyword_ids\":[\"subspace-clustering\",\"low-rank-modeling\"],\"evidence\":[{\"keyword_id\":\"subspace-clustering\",\"field\":\"title\",\"quote\":\"Subspace clustering\"},{\"keyword_id\":\"low-rank-modeling\",\"field\":\"title\",\"quote\":\"symmetric low-rank representation\"}]}",
+          "reasoning_content": "We need label paper using title only, abstract empty. Need choose keyword IDs from vocabulary with evidence quotes from title. Title: \"Subspace clustering using a symmetric low-rank representation\". Need apply definitions. Likely keywords:\n- subspace-clustering: title literally \"Subspace clustering\" matches definition: group samples by latent subspace using self-expression etc. Title evidence \"Subspace clustering\"\n- low-rank-modeling: \"symmetric low-rank representation\" explicit use of low-rank constraint/decomposition/approx representation. Definition: explicitly utilize matrix/tensor low-rank constraints, decomposition or approximate representation related structure. Title says symmetric low-rank representation. Should include.\n- Maybe symmetric? Not a vocab.\n- Could include nonnegative matrix factorization? No, symmetric low-rank representation not nonnegative.\n- Graph structure learning? Not from title.\n- Sparse representation? No.\n- Dimensionality reduction? No.\n- Deep clustering? No.\n- Cluster ensemble? No.\n- Could \"subspace clustering\" is research task. \"low-rank modeling\" method. Need evidence quote continuous from title. \"Subspace clustering\" and \"symmetric low-rank representation\". Ensure exact title continuous. For subspace-clustering quote can be \"Subspace clustering\" (title begins). For low-rank-modeling quote \"symmetric low-rank representation\" continuous. Does \"low-rank representation\" qualifies low-rank modeling? Definition: explicit利用矩阵或张量低秩约束、分解或近似表示相关结构; yes. Title indicates low-rank representation, likely method. Symmetric low-rank representation maybe a method. Include low-rank-modeling. Is \"symmetric\" relevant? Not a keyword. \"representation\" could be sparse representation? No, low-rank. \n- Maybe \"Subspace clustering\" and \"low-rank modeling\" only. Could there be \"dimensionality reduction\"? No goal not stated. \n- \"Multi-view learning\"? Not title.\n- \"Graph and manifold regularization\"? No.\n- \"Graph structure learning\"? No.\n- \"Nonnegative matrix factorization\"? No explicit nonnegative.\nNeed output JSON only. Paper_id, input_sha256, keyword_ids array, evidence array with keyword_id, field, quote. Ensure every chosen ID has quote. Empty abstract allowed; evidence from title.\n\nNeed decide if \"low-rank-modeling\" id \"low-rank-modeling\". Yes.\n\nCould there be \"symmetric low-rank representation\" includes \"representation\" generic? No.\nNeed maybe include \"subspace-clustering\" because title exactly. Evidence quote \"Subspace clustering\". \nCould include \"low-rank-modeling\" because title \"symmetric low-rank representation\". Evidence quote \"symmetric low-rank representation\". \n\nCheck if \"subspace clustering using a symmetric low-rank representation\" also implies low-rank modeling as method. Yes.\n\nNeed final JSON with no extra prose. Use proper schema. \nLet's craft:\n{\"paper_id\":\"W188881548\",\"input_sha256\":\"c7dded3c7c7a28010d412ac3f3f57d4e1bcf4346fdf0ba1c52e4cfe0f6372eac\",\"keyword_ids\":[\"subspace-clustering\",\"low-rank-modeling\"],\"evidence\":[{\"keyword_id\":\"subspace-clustering\",\"field\":\"title\",\"quote\":\"Subspace clustering\"},{\"keyword_id\":\"low-rank-modeling\",\"field\":\"title\",\"quote\":\"symmetric low-rank representation\"}]}\nNeed ensure no extra."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4872,
+      "completion_tokens": 823,
+      "total_tokens": 5695,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 703
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 136
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

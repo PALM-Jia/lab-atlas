@@ -1,0 +1,36 @@
+{
+  "task_sha256": "048890339c920ac7c50872b0919cba23dd93c98e646d3c43ec876781f5bcc15b",
+  "input_sha256": "2f1318ba1f35e717a72c0caf57082f7979c7344c0733b2b81e948349010d1a5a",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "e7efa78e561da8106ab3a0b48c0de3037e9cbf17efb4bde0ae610daf1ee5917b",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "66ac2d1d25cb5cbd808f8d55403d060cfb8f6acad1719bb9da44b075ba7b4b87",
+  "raw_response": "{\"paper_id\":\"W2886255780\",\"input_sha256\":\"c7b2e21ea2989bc4a21f4101143a8059f08608eaf75a654a7d0a91008c3d8cbd\",\"keyword_ids\":[\"deep-clustering\"],\"evidence\":[{\"keyword_id\":\"deep-clustering\",\"field\":\"title\",\"quote\":\"Deep k-Means: Jointly clustering with k-Means and learning representations\"}]}",
+  "value": {
+    "paper_id": "W2886255780",
+    "input_sha256": "c7b2e21ea2989bc4a21f4101143a8059f08608eaf75a654a7d0a91008c3d8cbd",
+    "keyword_ids": [
+      "deep-clustering"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "deep-clustering",
+        "field": "title",
+        "quote": "Deep k-Means: Jointly clustering with k-Means and learning representations"
+      }
+    ]
+  }
+}

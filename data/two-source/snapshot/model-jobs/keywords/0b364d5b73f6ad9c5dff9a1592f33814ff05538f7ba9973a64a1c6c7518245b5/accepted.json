@@ -1,0 +1,48 @@
+{
+  "task_sha256": "0b364d5b73f6ad9c5dff9a1592f33814ff05538f7ba9973a64a1c6c7518245b5",
+  "input_sha256": "bb69dde91fbe26328bd52e93498a5c66b793879086b1af5a52113284a508d10b",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "28ca174aa9726e9d13c3c4ffed33ba8c4a3796f279415ef630ff58683819059e",
+  "request_file": "request-000001.json",
+  "response_file": "response-000001.json",
+  "response_sha256": "61984b5090ccaa7bb110f62c1390402d9d07c24615fffa7f706c43796d8bbc55",
+  "raw_response": "{\n  \"paper_id\": \"W7137355068\",\n  \"input_sha256\": \"1255caebce26ebf1856ad6d44123ac87fa015d6e26139c4913c3e6f257f2b701\",\n  \"keyword_ids\": [\n    \"semi-supervised-learning\",\n    \"subspace-clustering\",\n    \"sparse-representation\"\n  ],\n  \"evidence\": [\n    {\n      \"keyword_id\": \"semi-supervised-learning\",\n      \"field\": \"title\",\n      \"quote\": \"Semi-supervised\"\n    },\n    {\n      \"keyword_id\": \"subspace-clustering\",\n      \"field\": \"title\",\n      \"quote\": \"subspace clustering\"\n    },\n    {\n      \"keyword_id\": \"sparse-representation\",\n      \"field\": \"title\",\n      \"quote\": \"sparse\"\n    }\n  ]\n}",
+  "value": {
+    "paper_id": "W7137355068",
+    "input_sha256": "1255caebce26ebf1856ad6d44123ac87fa015d6e26139c4913c3e6f257f2b701",
+    "keyword_ids": [
+      "semi-supervised-learning",
+      "subspace-clustering",
+      "sparse-representation"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "semi-supervised-learning",
+        "field": "title",
+        "quote": "Semi-supervised"
+      },
+      {
+        "keyword_id": "subspace-clustering",
+        "field": "title",
+        "quote": "subspace clustering"
+      },
+      {
+        "keyword_id": "sparse-representation",
+        "field": "title",
+        "quote": "sparse"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "task_sha256": "aa250f88d08c44ba5d07f752b275575d761bbb659aa77fd033da49bddd7ee775",
+  "input_sha256": "02d4b507f97103ae0fdee0b629804df23b579541da5b83caf69e24d9dbff4609",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "0ac78d5e34b6e9b1202ae6227ae94452b3916c7249a5d7282b8a2b550db62306",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "10db83bf5f39263d657f6fb00459e807ec22f4626a2027a280933e1c290ce72c",
+  "raw_response": "{\"paper_id\":\"W7134120772\",\"input_sha256\":\"747cfa87bc867e40f35348764e78ce5df3f04166f8684bea3ce6e7d48f936316\",\"keyword_ids\":[\"dimensionality-reduction\",\"graph-neural-networks\"],\"evidence\":[{\"keyword_id\":\"dimensionality-reduction\",\"field\":\"title\",\"quote\":\"multidimensional interpretable feature selection\"},{\"keyword_id\":\"graph-neural-networks\",\"field\":\"title\",\"quote\":\"graph adversarial network\"}]}",
+  "value": {
+    "paper_id": "W7134120772",
+    "input_sha256": "747cfa87bc867e40f35348764e78ce5df3f04166f8684bea3ce6e7d48f936316",
+    "keyword_ids": [
+      "dimensionality-reduction",
+      "graph-neural-networks"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "dimensionality-reduction",
+        "field": "title",
+        "quote": "multidimensional interpretable feature selection"
+      },
+      {
+        "keyword_id": "graph-neural-networks",
+        "field": "title",
+        "quote": "graph adversarial network"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "task_sha256": "4c92cb900c01d3e90f52650a59ebc26f7975cbbe9591fcf886b50581299ee7a7",
+  "input_sha256": "71f010be44296a82ce31b50dd53d91a00d55f9fcfd788b4848f0bafff3859d03",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "ffd98048a3b4e3669aa3c422152c3c975129cf6f6ac01055ea1437b302fbcb36",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "6ae0ccbe8ab88b9d3a501986a5a38b3b5b0a2f8d23d29fe9f28c414b87cf5a8f",
+  "raw_response": "{\"paper_id\":\"lab-d99ee9ba4a13\",\"input_sha256\":\"fe7a33d1c8d0abb6b082282b1a435b0d867b69d12c05f383a240547a007a2999\",\"keyword_ids\":[\"hallucination-mitigation\",\"large-vision-language-models\"],\"evidence\":[{\"keyword_id\":\"hallucination-mitigation\",\"field\":\"title\",\"quote\":\"Hallucination\"},{\"keyword_id\":\"large-vision-language-models\",\"field\":\"title\",\"quote\":\"LVLMs\"}]}",
+  "value": {
+    "paper_id": "lab-d99ee9ba4a13",
+    "input_sha256": "fe7a33d1c8d0abb6b082282b1a435b0d867b69d12c05f383a240547a007a2999",
+    "keyword_ids": [
+      "hallucination-mitigation",
+      "large-vision-language-models"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "hallucination-mitigation",
+        "field": "title",
+        "quote": "Hallucination"
+      },
+      {
+        "keyword_id": "large-vision-language-models",
+        "field": "title",
+        "quote": "LVLMs"
+      }
+    ]
+  }
+}

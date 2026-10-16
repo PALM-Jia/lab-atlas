@@ -1,0 +1,37 @@
+{
+  "request_sha256": "f192ffb65df1fc26bd5f5e4ccec1fded13b451cfe4f6bdbc063f495ac594a13d",
+  "received_at": "2026-10-15T13:04:59+00:00",
+  "http": 200,
+  "response": {
+    "id": "f5564192-d304-43ff-be5c-20944aed2e53",
+    "object": "chat.completion",
+    "created": 1792069497,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W3096840866\",\"input_sha256\":\"d264e252338cda6ae39e44af9b9f0da76de57604f9ae5c5c8d82e74a7e492179\",\"keyword_ids\":[\"label-distribution-learning\"],\"evidence\":[{\"keyword_id\":\"label-distribution-learning\",\"field\":\"title\",\"quote\":\"Label Distribution Learning\"}]}",
+          "reasoning_content": "We need answer JSON. Need label paper using title, abstract empty. Need only supplied 49 vocab. Need apply definitions. Title: \"Adaptive Variance Based Label Distribution Learning for Facial Age Estimation\". Keywords likely label distribution learning. Maybe facial age estimation? Not in vocab. Label distribution learning definition: predicting relative description degree of labels. Title explicitly says Label Distribution Learning. Need evidence quote title. Maybe also? \"Adaptive Variance Based\" no vocab. \"Facial Age Estimation\" no vocab. Could be label distribution learning only. Need maybe label enhancement? No, title LDL. Could be \"confidence calibration\"? no. \"label correlation modeling\"? no. \"class imbalance\"? no. \"weakly supervised\"? no. \"large language models\"? no. Empty abstract. We can include only label-distribution-learning. Need literal continuous quote from title: \"Label Distribution Learning\" exact. Paper id. input_sha256. Evidence array. Ensure JSON only."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4870,
+      "completion_tokens": 283,
+      "total_tokens": 5153,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 193
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 134
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

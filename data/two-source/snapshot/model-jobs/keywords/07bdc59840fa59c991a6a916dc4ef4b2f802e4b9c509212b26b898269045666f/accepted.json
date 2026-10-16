@@ -1,0 +1,36 @@
+{
+  "task_sha256": "07bdc59840fa59c991a6a916dc4ef4b2f802e4b9c509212b26b898269045666f",
+  "input_sha256": "3431b95f22d29f5b6eecb368a14fec343ec0806d8416381a2992bc1ecbffc725",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "f975636b387a10b836321122abb2fab6d83535df7e68ed3fd5f24dacb86f987e",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "ded15152aabb0c141fe6d06832f02dd5595695a04ec15da4111e4a0d16fcf934",
+  "raw_response": "{\"paper_id\":\"W7196954740\",\"input_sha256\":\"f56fe496d32d93cc2489c6f5a379591bbeef5b08fce9bb123a85583ef8c2e3c3\",\"keyword_ids\":[\"federated-learning\"],\"evidence\":[{\"keyword_id\":\"federated-learning\",\"field\":\"title\",\"quote\":\"Federated Learning\"}]}",
+  "value": {
+    "paper_id": "W7196954740",
+    "input_sha256": "f56fe496d32d93cc2489c6f5a379591bbeef5b08fce9bb123a85583ef8c2e3c3",
+    "keyword_ids": [
+      "federated-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "federated-learning",
+        "field": "title",
+        "quote": "Federated Learning"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "task_sha256": "fecbe151acd9179d51fb16879748a0096a69a7d9aab87b33a5f4a2fe2ca5484b",
+  "input_sha256": "36feadf0c93b075e1892a0d90a88a5306f418aa1586144a1e34175895f1478f2",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "271839f794239dc0540d789c6d3b588007422a47b3a1a68fb9ec96e1133840a9",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "fcd6826e31a788aa6b0865bcbfcf6218add4d07eb000503a16e759d01ab2c10e",
+  "raw_response": "{\"paper_id\":\"W7125643684\",\"input_sha256\":\"e780b3125d73340da3a820058bbe326934404a67259c5b8071a76538f34a1c4e\",\"keyword_ids\":[\"ensemble-clustering\"],\"evidence\":[{\"keyword_id\":\"ensemble-clustering\",\"field\":\"title\",\"quote\":\"Fuzzy Ensemble Clustering Method\"}]}",
+  "value": {
+    "paper_id": "W7125643684",
+    "input_sha256": "e780b3125d73340da3a820058bbe326934404a67259c5b8071a76538f34a1c4e",
+    "keyword_ids": [
+      "ensemble-clustering"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "ensemble-clustering",
+        "field": "title",
+        "quote": "Fuzzy Ensemble Clustering Method"
+      }
+    ]
+  }
+}

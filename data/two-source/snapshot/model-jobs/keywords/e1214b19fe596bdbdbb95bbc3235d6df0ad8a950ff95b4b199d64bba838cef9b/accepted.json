@@ -1,0 +1,36 @@
+{
+  "task_sha256": "e1214b19fe596bdbdbb95bbc3235d6df0ad8a950ff95b4b199d64bba838cef9b",
+  "input_sha256": "ac576cef5fccb5e3b2fd37f5b9bd1964cfcb41fe475ee62bd66e263a1cd388f2",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "5c6fd53abd09890f58d52c8a6632eccee9c17b84ac3a7f58a04d199d4eca0dd4",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "60c60356f61ef9a2a4ce17619a66e438987aecf59e39475f31bf2b97667af8d3",
+  "raw_response": "{\"paper_id\":\"W2610360795\",\"input_sha256\":\"76fab4ac5b04eafb20990f1b375dd20f1c27871c7e2d1fe69c5c476427c9f564\",\"keyword_ids\":[\"semi-supervised-learning\"],\"evidence\":[{\"keyword_id\":\"semi-supervised-learning\",\"field\":\"title\",\"quote\":\"Semi-supervised graph clustering: a kernel approach\"}]}",
+  "value": {
+    "paper_id": "W2610360795",
+    "input_sha256": "76fab4ac5b04eafb20990f1b375dd20f1c27871c7e2d1fe69c5c476427c9f564",
+    "keyword_ids": [
+      "semi-supervised-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "semi-supervised-learning",
+        "field": "title",
+        "quote": "Semi-supervised graph clustering: a kernel approach"
+      }
+    ]
+  }
+}

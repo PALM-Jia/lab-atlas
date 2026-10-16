@@ -1,0 +1,37 @@
+{
+  "request_sha256": "2a64aa6c10dee9f83d98629e2b039b117f63447108b7eeaad4fc0e794e55d9f0",
+  "received_at": "2026-10-15T13:05:11+00:00",
+  "http": 200,
+  "response": {
+    "id": "2cfd39c1-ed6e-4975-86e7-3d98352b02c7",
+    "object": "chat.completion",
+    "created": 1792069506,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W3196788510\",\"input_sha256\":\"473ed2c5433333b258bb2421b34f80eb93614b8ac7699e136303d296cc915c72\",\"keyword_ids\":[\"data-imputation-recovery\",\"traffic-data\"],\"evidence\":[{\"keyword_id\":\"data-imputation-recovery\",\"field\":\"title\",\"quote\":\"traffic data imputation\"},{\"keyword_id\":\"traffic-data\",\"field\":\"title\",\"quote\":\"traffic data\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label using title only since abstract empty. Need choose keywords from vocab with evidence quotes from title. Paper title: \"A customized deep learning approach to integrate network-scale online traffic data imputation and prediction\"\n\nNeed determine keywords. Must apply definitions. Need not create IDs. Every chosen ID must have literal continuous quote from title.\n\nTitle indicates: customized deep learning approach to integrate network-scale online traffic data imputation and prediction.\n\nCandidates:\n- Data imputation and recovery: definition estimates missing observations or recover original values; output recovered data. Title explicitly \"traffic data imputation\". So keyword id data-imputation-recovery. Evidence quote \"traffic data imputation\" or full \"online traffic data imputation and prediction\". Continuous. Good.\n- Traffic data: definition road traffic speed, flow, trajectory or spatiotemporal traffic state actual data object; paper only mention intelligent traffic application background insufficient. Title \"traffic data\" definitely object. Choose traffic-data. Evidence \"traffic data\".\n- Deep learning? Vocabulary has \"Deep clustering\" not general deep learning. No keyword for deep learning. Could \"Dimensionality reduction\"? No.\n- Prediction? No general prediction keyword. Not in vocab except maybe traffic data. No.\n- Network-scale? No.\n- \"online\" no.\n- Data imputation and recovery chosen.\n- Maybe \"Deep clustering\"? No clustering.\n- \"Data imputation and recovery\" is research_task. Good.\n- \"Traffic data\" application_object. Good.\n\nCould there be \"Sparse representation\" no.\n\"Graph neural networks\"? no evidence, \"deep learning\" not GNN.\n\"Multi-objective optimization\"? \"integrate imputation and prediction\" maybe multiple tasks but not multi-objective optimization, not enough.\n\"Domain adaptation\"? no.\n\"Weakly supervised\"? imputation could use incomplete data but no title evidence? The title says traffic data imputation, which estimates missing. Is that weakly supervised? No, data imputation itself. Not automatically.\n\"Large language models\"? no.\n\nNeed return JSON with paper_id, input_sha256, keyword_ids, evidence. Maybe keyword_ids order arbitrary. Need no extra prose. Ensure evidence quote literal continuous. For title field, quote from title. Need at least one per chosen. Could quote \"traffic data imputation\" for both? It contains traffic data and imputation. For each keyword, separate evidence entries with same quote acceptable. Need every chosen ID has at least one literal continuous quote from given field. Field title. Use \"traffic data imputation\" for data-imputation-recovery. For traffic-data maybe \"traffic data\". Ensure continuous in title. Yes.\n\nNeed ensure no invented IDs. final JSON.\n\nLet's craft:\n{\"paper_id\":\"W3196788510\",\"input_sha256\":\"473ed2c5433333b258bb2421b34f80eb93614b8ac7699e136303d296cc915c72\",\"keyword_ids\":[\"data-imputation-recovery\",\"traffic-data\"],\"evidence\":[{\"keyword_id\":\"data-imputation-recovery\",\"field\":\"title\",\"quote\":\"traffic data imputation\"},{\"keyword_id\":\"traffic-data\",\"field\":\"title\",\"quote\":\"traffic data\"}]}\n\nCheck if \"data-imputation-recovery\" quote \"traffic data imputation\" is continuous substring? Title: \"A customized deep learning approach to integrate network-scale online traffic data imputation and prediction\". Yes \"traffic data imputation\" continuous. Good.\n\nCould \"online traffic data imputation and prediction\" but no need.\n\nNeed no prose. final."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4868,
+      "completion_tokens": 848,
+      "total_tokens": 5716,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 739
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 260
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

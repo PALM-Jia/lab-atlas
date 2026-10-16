@@ -1,0 +1,36 @@
+{
+  "task_sha256": "c5867ddf90a8218ce663714d162eed8596de020e68af679deef18bd621896e8f",
+  "input_sha256": "3604c817ac75df2b71e6b9aee8ebd9f361f0a7a656cfc2416736af925f55135c",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "2a97f27b047efa1f9ce11d7ad60aeb480f011f413f7c8f806137fcd3f0ef1fd2",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "9bb417fe583c80d62283b2e54ff72052ed5254b53eb5786d2ff41041392500a5",
+  "raw_response": "{\"paper_id\": \"W4413310999\", \"input_sha256\": \"969ac30b5a0998fa657f8b69496f452b4d454425c9765588541dd8804b4d160b\", \"keyword_ids\": [\"data-imputation-recovery\"], \"evidence\": [{\"keyword_id\": \"data-imputation-recovery\", \"field\": \"title\", \"quote\": \"Compression Artifacts Removal\"}]}",
+  "value": {
+    "paper_id": "W4413310999",
+    "input_sha256": "969ac30b5a0998fa657f8b69496f452b4d454425c9765588541dd8804b4d160b",
+    "keyword_ids": [
+      "data-imputation-recovery"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "data-imputation-recovery",
+        "field": "title",
+        "quote": "Compression Artifacts Removal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6854 @@
+{
+  "profiles": [
+    {
+      "person_id": "person-00be117777dd",
+      "name": "Simeng Zeng",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-e9f08a9f6baf": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "adversarial-robustness",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-0196fa60a739",
+      "name": "Runmin Cong",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-4f00a8eb8a7d": 0.2,
+        "lab-9dab3341b9f1": 0.2,
+        "lab-9004d11ae525": 0.2
+      },
+      "keyword_papers": 3,
+      "total_papers": 3,
+      "keywords": [
+        {
+          "keyword_id": "image-segmentation",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "subspace-clustering",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "underwater-images",
+          "score": 0.3333333333333333
+        }
+      ]
+    },
+    {
+      "person_id": "person-03a987fdb0f1",
+      "name": "Dongjie Liu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-60280e69a6e3": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "traffic-data",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-04c3de36322e",
+      "name": "Ming Tang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-d99ee9ba4a13": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-04f50ed96067",
+      "name": "Jie Yu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-fc69e7eb5613": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-06584687817d",
+      "name": "Feng Li",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-8258de75e36e": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "hyperspectral-images",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-06848a9a5601",
+      "name": "Shuo Chen",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-d7d729a798a9": 0.2,
+        "lab-c0b4fa3ab5d5": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-enhancement",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-08b75224ad4d",
+      "name": "Junfeng Fang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-deff0ac02cbd": 0.2,
+        "lab-11e2dfe6e2ee": 0.2,
+        "lab-d99ee9ba4a13": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 3,
+      "keywords": [
+        {
+          "keyword_id": "hallucination-mitigation",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-08c3c3111b55",
+      "name": "Zhengxing Jiao",
+      "group": "current",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-061b9da6e2d3": 0.2,
+        "lab-1025a6d4de24": 0.2,
+        "lab-918df170a3ad": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 3,
+      "keywords": [
+        {
+          "keyword_id": "deep-clustering",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "parameter-efficient-fine-tuning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "vision-language-models",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-09df9ef09596",
+      "name": "Hanlin Gu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-4dafc16e5fd8": 0.2,
+        "lab-a1005f21ac76": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "federated-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "person_id": "person-0cbc3c089c93",
+      "name": "Shi Xiao",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-6e4e588f3743": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "ensemble-clustering",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-0dee1ca69c1e",
+      "name": "Seiya Imoto",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-bf934091a903": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "domain-adaptation",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-0f0b02c69d2e",
+      "name": "Haokai Ma",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-532faa4a2fc2": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "model-merging",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-0fa02433d258",
+      "name": "Fengmin Su",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-94f819e13bbe": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-124db5411fed",
+      "name": "Yuhang Li",
+      "group": "graduated",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-918df170a3ad": 0.2,
+        "lab-2c640db3fd61": 1.0
+      },
+      "keyword_papers": 0,
+      "total_papers": 2,
+      "keywords": []
+    },
+    {
+      "person_id": "person-147385593bfd",
+      "name": "Yan Li",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-cfe1c0f8487f": 1.0
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-14fe190c250f",
+      "name": "Xin Geng",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-56209c579874": 0.2,
+        "lab-6a0a4e2737ec": 0.2,
+        "lab-fdadc630f8db": 0.2,
+        "lab-bc765488bcf7": 0.2,
+        "lab-5db2d9f26022": 0.2,
+        "lab-51397954ce4d": 0.2,
+        "lab-de8760c3355c": 0.2,
+        "lab-a1005f21ac76": 0.2,
+        "lab-a6e1c503e9fd": 0.2,
+        "lab-914c3b9e7d06": 0.2,
+        "lab-d7d729a798a9": 0.2,
+        "lab-c0b4fa3ab5d5": 0.2,
+        "lab-b15f2540bde4": 0.2
+      },
+      "keyword_papers": 10,
+      "total_papers": 13,
+      "keywords": [
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 0.8
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.7000000000000001
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.6000000000000001
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.5000000000000001
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 0.5000000000000001
+        },
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 0.3000000000000001
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.3000000000000001
+        },
+        {
+          "keyword_id": "federated-learning",
+          "score": 0.20000000000000004
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.20000000000000004
+        },
+        {
+          "keyword_id": "label-enhancement",
+          "score": 0.20000000000000004
+        },
+        {
+          "keyword_id": "class-imbalance",
+          "score": 0.10000000000000002
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 0.10000000000000002
+        }
+      ]
+    },
+    {
+      "person_id": "person-16e48c907c3c",
+      "name": "Dong-Dong Wu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-4dafc16e5fd8": 0.2,
+        "lab-a6e1c503e9fd": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-193839e06752",
+      "name": "Changwei Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-6a0a4e2737ec": 0.2,
+        "lab-914c3b9e7d06": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "class-imbalance",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "federated-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "person_id": "person-1a5fa9a2b050",
+      "name": "Ka‐Chun Wong",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-a74d054aa5d2": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-1a651431174f",
+      "name": "Tongliang Liu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-d7d729a798a9": 0.2,
+        "lab-c0b4fa3ab5d5": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-enhancement",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-1b06ddeb021a",
+      "name": "Lang Wu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-a27b9589d697": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "class-imbalance",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-1b0a788d400b",
+      "name": "Zhihao Peng",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-a6dff26af1aa": 1.0,
+        "lab-27ee33bde0ac": 1.0,
+        "lab-762e9d6f5eae": 1.0,
+        "lab-b653a194f324": 1.0,
+        "lab-cf4dec41fda2": 1.0,
+        "lab-3d396fcbdc50": 1.0
+      },
+      "keyword_papers": 6,
+      "total_papers": 6,
+      "keywords": [
+        {
+          "keyword_id": "deep-clustering",
+          "score": 0.8333333333333334
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 0.6666666666666666
+        },
+        {
+          "keyword_id": "graph-neural-networks",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "subspace-clustering",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "domain-adaptation",
+          "score": 0.16666666666666666
+        }
+      ]
+    },
+    {
+      "person_id": "person-1c8f3b921522",
+      "name": "Xizhao Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-1a90fc2c3965": 0.2,
+        "lab-57c2d8cba676": 0.2,
+        "lab-e9f08a9f6baf": 0.2
+      },
+      "keyword_papers": 3,
+      "total_papers": 3,
+      "keywords": [
+        {
+          "keyword_id": "adversarial-robustness",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "hallucination-mitigation",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "large-language-models",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 0.3333333333333333
+        }
+      ]
+    },
+    {
+      "person_id": "person-1f2cfa994d0a",
+      "name": "Chi Zhang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-94f819e13bbe": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-2040a04012df",
+      "name": "Yu Li",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-9c41930c1897": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "parameter-efficient-fine-tuning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "value-preference-alignment",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-20a3e9064837",
+      "name": "Xiangzhao Hao",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-ec6acdec9eea": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "latent-reasoning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multimodal-retrieval",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-22e2de5e256f",
+      "name": "Xinying Zhang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-1f9013eb2f8b": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-231fa795720d",
+      "name": "Wenlong Lyu",
+      "group": "current",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-62249197b63f": 1.0,
+        "lab-cb0529713b81": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "nonnegative-matrix-factorization",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-2428769dbcb2",
+      "name": "Wei Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-94f819e13bbe": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-254e5a45f16b",
+      "name": "Longhui Wen",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-054cd66669d7": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "traffic-data",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-258f8e3385aa",
+      "name": "Weijia Zhang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-b98b32a37a21": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "hyperspectral-images",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "image-segmentation",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-26ad692518cc",
+      "name": "Haoye Qiu",
+      "group": "current",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-a7cf765d0111": 0.2,
+        "lab-6e4e588f3743": 0.2,
+        "lab-6757df585f08": 1.0
+      },
+      "keyword_papers": 3,
+      "total_papers": 3,
+      "keywords": [
+        {
+          "keyword_id": "ensemble-clustering",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 0.14285714285714288
+        }
+      ]
+    },
+    {
+      "person_id": "person-27d178331f81",
+      "name": "Junhui Hou",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-d50fd9c219f7": 0.2,
+        "lab-a9d5b70ee03a": 0.2,
+        "lab-9bd585a26235": 0.2,
+        "lab-af85f8a01211": 0.2,
+        "lab-efed21f0ba73": 0.2,
+        "lab-a7cf765d0111": 0.2,
+        "lab-dec46f74923a": 0.2,
+        "lab-3f9060fdcde7": 0.2,
+        "lab-d162a6829a75": 0.2,
+        "lab-a6dff26af1aa": 0.2,
+        "lab-6c33c0d49221": 0.2,
+        "lab-27ee33bde0ac": 0.2,
+        "lab-762e9d6f5eae": 0.2,
+        "lab-11e9d626e8d9": 0.2,
+        "lab-b613f6b0fb67": 0.2,
+        "lab-1ff59dd4a58f": 0.2,
+        "lab-b653a194f324": 0.2,
+        "lab-3af1c95693ac": 0.2,
+        "lab-def7c80ee1d1": 0.2,
+        "lab-cf4dec41fda2": 0.2,
+        "lab-5a1fffb8e6b7": 0.2,
+        "lab-8238ab546031": 1.0,
+        "lab-89613a019dfd": 0.2,
+        "lab-67bf125aef54": 0.2,
+        "lab-42c1bb186393": 0.2,
+        "lab-458c61eb7de8": 0.2,
+        "lab-89a32c865fd0": 0.2,
+        "lab-f121e8ed99c9": 0.2,
+        "lab-36466e9ba385": 0.2,
+        "lab-061b9da6e2d3": 0.2,
+        "lab-e73ac884ede0": 0.2,
+        "lab-effcb20ed6d4": 0.2,
+        "lab-80376da04947": 0.2,
+        "lab-b4f457369e13": 0.2,
+        "lab-77b725acea33": 0.2,
+        "lab-918df170a3ad": 0.2,
+        "lab-084cf1572406": 0.2,
+        "lab-7fa0af6e345c": 0.2,
+        "lab-855923053355": 0.2,
+        "lab-24effaa314d4": 0.2,
+        "lab-82a7992c094e": 0.2,
+        "lab-e91390053be5": 0.2,
+        "lab-624e1914aeb8": 0.2,
+        "lab-b8edb24bba59": 0.2,
+        "lab-3d396fcbdc50": 0.2,
+        "lab-ed665f8e6c6f": 0.2,
+        "lab-5111c5177048": 0.2,
+        "lab-1eb268aa7f49": 0.2
+      },
+      "keyword_papers": 41,
+      "total_papers": 48,
+      "keywords": [
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.5555555555555558
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.48888888888888904
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 0.3111111111111111
+        },
+        {
+          "keyword_id": "pairwise-constraint-propagation",
+          "score": 0.288888888888889
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.2666666666666667
+        },
+        {
+          "keyword_id": "deep-clustering",
+          "score": 0.2444444444444444
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.2222222222222222
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 0.2222222222222222
+        },
+        {
+          "keyword_id": "dimensionality-reduction",
+          "score": 0.17777777777777776
+        },
+        {
+          "keyword_id": "hyperspectral-images",
+          "score": 0.15555555555555556
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 0.15555555555555556
+        },
+        {
+          "keyword_id": "nonnegative-matrix-factorization",
+          "score": 0.1111111111111111
+        },
+        {
+          "keyword_id": "graph-neural-networks",
+          "score": 0.08888888888888889
+        },
+        {
+          "keyword_id": "contrastive-learning",
+          "score": 0.06666666666666668
+        },
+        {
+          "keyword_id": "ensemble-clustering",
+          "score": 0.06666666666666668
+        },
+        {
+          "keyword_id": "subspace-clustering",
+          "score": 0.06666666666666668
+        },
+        {
+          "keyword_id": "class-imbalance",
+          "score": 0.044444444444444446
+        },
+        {
+          "keyword_id": "confidence-calibration",
+          "score": 0.044444444444444446
+        },
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 0.044444444444444446
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.044444444444444446
+        },
+        {
+          "keyword_id": "partial-label-learning",
+          "score": 0.044444444444444446
+        },
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 0.022222222222222223
+        },
+        {
+          "keyword_id": "domain-adaptation",
+          "score": 0.022222222222222223
+        },
+        {
+          "keyword_id": "image-segmentation",
+          "score": 0.022222222222222223
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.022222222222222223
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 0.022222222222222223
+        },
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 0.022222222222222223
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 0.022222222222222223
+        },
+        {
+          "keyword_id": "parameter-efficient-fine-tuning",
+          "score": 0.022222222222222223
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 0.022222222222222223
+        },
+        {
+          "keyword_id": "vision-language-models",
+          "score": 0.022222222222222223
+        }
+      ]
+    },
+    {
+      "person_id": "person-27d178331f81:fragment:70c6885d9efea3c8",
+      "name": "and Junhui Hou",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-cb0529713b81": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-28e18ddacc10",
+      "name": "Jueyu Chen",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-9728948569cd": 1.0
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-29b2df0e5837",
+      "name": "Wenwen He",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-914c3b9e7d06": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "federated-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-29cc1bc4bdf1",
+      "name": "Jie Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-0f41d99e2574": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-29db4f6c57b5",
+      "name": "Hui Liu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-d50fd9c219f7": 1.0,
+        "lab-a9d5b70ee03a": 1.0,
+        "lab-9bd585a26235": 1.0,
+        "lab-af85f8a01211": 0.2,
+        "lab-efed21f0ba73": 0.2,
+        "lab-a7cf765d0111": 0.2,
+        "lab-dec46f74923a": 0.2,
+        "lab-cb0529713b81": 0.2,
+        "lab-3f9060fdcde7": 0.2,
+        "lab-d162a6829a75": 0.2,
+        "lab-a6dff26af1aa": 0.2,
+        "lab-6c33c0d49221": 0.2,
+        "lab-27ee33bde0ac": 0.2,
+        "lab-762e9d6f5eae": 0.2,
+        "lab-11e9d626e8d9": 1.0,
+        "lab-1ff59dd4a58f": 1.0,
+        "lab-b653a194f324": 0.2,
+        "lab-3af1c95693ac": 1.0,
+        "lab-def7c80ee1d1": 1.0,
+        "lab-89613a019dfd": 1.0,
+        "lab-061b9da6e2d3": 0.2,
+        "lab-e73ac884ede0": 0.2,
+        "lab-effcb20ed6d4": 0.2,
+        "lab-80376da04947": 0.2,
+        "lab-b4f457369e13": 0.2,
+        "lab-77b725acea33": 0.2,
+        "lab-918df170a3ad": 0.2,
+        "lab-084cf1572406": 0.2,
+        "lab-7fa0af6e345c": 0.2,
+        "lab-855923053355": 0.2,
+        "lab-24effaa314d4": 0.2,
+        "lab-82a7992c094e": 0.2,
+        "lab-e91390053be5": 0.2,
+        "lab-624e1914aeb8": 0.2,
+        "lab-b8edb24bba59": 0.2,
+        "lab-3d396fcbdc50": 0.2,
+        "lab-ed665f8e6c6f": 1.0,
+        "lab-5111c5177048": 1.0
+      },
+      "keyword_papers": 30,
+      "total_papers": 38,
+      "keywords": [
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 0.5714285714285716
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.45714285714285735
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.4142857142857144
+        },
+        {
+          "keyword_id": "pairwise-constraint-propagation",
+          "score": 0.37142857142857155
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.3285714285714286
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.17142857142857146
+        },
+        {
+          "keyword_id": "ensemble-clustering",
+          "score": 0.1571428571428572
+        },
+        {
+          "keyword_id": "deep-clustering",
+          "score": 0.15714285714285717
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 0.15714285714285717
+        },
+        {
+          "keyword_id": "nonnegative-matrix-factorization",
+          "score": 0.1428571428571429
+        },
+        {
+          "keyword_id": "hyperspectral-images",
+          "score": 0.11428571428571432
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 0.10000000000000002
+        },
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 0.08571428571428573
+        },
+        {
+          "keyword_id": "graph-neural-networks",
+          "score": 0.05714285714285716
+        },
+        {
+          "keyword_id": "contrastive-learning",
+          "score": 0.04285714285714287
+        },
+        {
+          "keyword_id": "subspace-clustering",
+          "score": 0.04285714285714287
+        },
+        {
+          "keyword_id": "class-imbalance",
+          "score": 0.02857142857142858
+        },
+        {
+          "keyword_id": "confidence-calibration",
+          "score": 0.02857142857142858
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.02857142857142858
+        },
+        {
+          "keyword_id": "partial-label-learning",
+          "score": 0.02857142857142858
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.01428571428571429
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 0.01428571428571429
+        },
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 0.01428571428571429
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 0.01428571428571429
+        },
+        {
+          "keyword_id": "parameter-efficient-fine-tuning",
+          "score": 0.01428571428571429
+        },
+        {
+          "keyword_id": "vision-language-models",
+          "score": 0.01428571428571429
+        }
+      ]
+    },
+    {
+      "person_id": "person-2a94163a16b9",
+      "name": "Yaodong Shen",
+      "group": "current",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-effcb20ed6d4": 1.0
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-2c58813f3b97",
+      "name": "Xiaobo Xia",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-a6e1c503e9fd": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-2d199c6cad9f",
+      "name": "Ke Li",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-761fa50033a3": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "bayesian-inference",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-objective-optimization",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-2e196de84d67",
+      "name": "Kangning Cui",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-fe676cbbfafd": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-2e31bbb2b35c",
+      "name": "Yunqing Jia",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-2b357d849d9d": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "traffic-data",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-320b75e27a2f",
+      "name": "Boyu Shi",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-b15f2540bde4": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-32fed0039944",
+      "name": "Yu Zhou",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-0529638ee44a": 0.2,
+        "lab-bba08ca100fc": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "nonnegative-matrix-factorization",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "person_id": "person-33471e25cebc",
+      "name": "Jiangning Song",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-bf934091a903": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "domain-adaptation",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-340d7701c29b",
+      "name": "Guanxing Lu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-6c33c0d49221": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "pairwise-constraint-propagation",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "subspace-clustering",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-34db2630e4dc",
+      "name": "Jingxin Xia",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-c42096082d68": 0.2,
+        "lab-2b357d849d9d": 0.2,
+        "lab-0c8c61ff348e": 0.2
+      },
+      "keyword_papers": 3,
+      "total_papers": 3,
+      "keywords": [
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "traffic-data",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 0.3333333333333333
+        }
+      ]
+    },
+    {
+      "person_id": "person-37a38b5278a3",
+      "name": "Liangjian Cai",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-0f41d99e2574": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-3af0634ff2d2",
+      "name": "Yu Mi",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-6f75913bf673": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "confidence-calibration",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-3b0d3f6a22f7",
+      "name": "Zhiqi Huang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-a27b9589d697": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "class-imbalance",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-3bfb8c6993e3",
+      "name": "Qinran Hu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-94f819e13bbe": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-403b09094219",
+      "name": "Zhenbo Lu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-2b357d849d9d": 0.2,
+        "lab-0c8c61ff348e": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "traffic-data",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "person_id": "person-41a488370358",
+      "name": "Jing Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-56209c579874": 0.2,
+        "lab-6a0a4e2737ec": 0.2,
+        "lab-fdadc630f8db": 1.0,
+        "lab-bc765488bcf7": 0.2,
+        "lab-5db2d9f26022": 1.0,
+        "lab-51397954ce4d": 0.2,
+        "lab-de8760c3355c": 0.2,
+        "lab-c0b4fa3ab5d5": 0.2,
+        "lab-b15f2540bde4": 0.2
+      },
+      "keyword_papers": 8,
+      "total_papers": 9,
+      "keywords": [
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 0.9166666666666664
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.8333333333333331
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.41666666666666663
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.41666666666666663
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 0.25
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.16666666666666666
+        },
+        {
+          "keyword_id": "label-enhancement",
+          "score": 0.16666666666666666
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.16666666666666666
+        },
+        {
+          "keyword_id": "class-imbalance",
+          "score": 0.08333333333333333
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 0.08333333333333333
+        }
+      ]
+    },
+    {
+      "person_id": "person-41a488370358:fragment:0acaa719db05f538",
+      "name": "Jingq Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-d7d729a798a9": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-42faa8b25a78",
+      "name": "Jinghan He",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-deff0ac02cbd": 0.2,
+        "lab-11e2dfe6e2ee": 0.2,
+        "lab-d99ee9ba4a13": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 3,
+      "keywords": [
+        {
+          "keyword_id": "hallucination-mitigation",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-4353c096c965",
+      "name": "Yemin Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-9728948569cd": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-43c41313a8cd",
+      "name": "Yeqiang Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-9728948569cd": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-4629f2aa57ad",
+      "name": "Jiao Zhang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-a74d054aa5d2": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-483b00d1f32e",
+      "name": "Hailin Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-6a0a4e2737ec": 0.2,
+        "lab-d7d729a798a9": 0.2,
+        "lab-c0b4fa3ab5d5": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 3,
+      "keywords": [
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "class-imbalance",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "label-enhancement",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "person_id": "person-4859f9e5d124",
+      "name": "Si Qin",
+      "group": "current",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-2110e10b1fd2": 1.0,
+        "lab-c0b4fa3ab5d5": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-enhancement",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-4ad7af58904d",
+      "name": "Hongyan An",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-532faa4a2fc2": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "model-merging",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-4b57ef578c5a",
+      "name": "Xinfeng Zhang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-e407c5f18da5": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-4c3493ad2c7b",
+      "name": "Hongwei Zeng",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-a1005f21ac76": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "federated-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-4e58f12de211",
+      "name": "Jianan Li",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-50d02eb604b9": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "nonnegative-matrix-factorization",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "pairwise-constraint-propagation",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-4eab9307d7bb",
+      "name": "Yanghe Feng",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-825376eac3f8": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-50c8e11c8b8e",
+      "name": "Jingcheng Duan",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-4dafc16e5fd8": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-510a828cd5aa",
+      "name": "Qiang Yang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-914c3b9e7d06": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "federated-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-51a80773e089",
+      "name": "Yanzheng Wang",
+      "group": "current",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-1025a6d4de24": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-5406c458b4cd",
+      "name": "Yinuo Sun",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-bf934091a903": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "domain-adaptation",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-569d8fe410b9",
+      "name": "Jinzhu Peng",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-0f41d99e2574": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-5760d3ade861",
+      "name": "Jun Ma",
+      "group": "current",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-061b9da6e2d3": 1.0,
+        "lab-fc69e7eb5613": 0.2,
+        "lab-918df170a3ad": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 3,
+      "keywords": [
+        {
+          "keyword_id": "deep-clustering",
+          "score": 0.8333333333333334
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 0.8333333333333334
+        },
+        {
+          "keyword_id": "parameter-efficient-fine-tuning",
+          "score": 0.8333333333333334
+        },
+        {
+          "keyword_id": "vision-language-models",
+          "score": 0.8333333333333334
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.16666666666666669
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 0.16666666666666669
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 0.16666666666666669
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.16666666666666669
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.16666666666666669
+        }
+      ]
+    },
+    {
+      "person_id": "person-586bc5d79b46",
+      "name": "Sam Kwong",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-d50fd9c219f7": 0.2,
+        "lab-a9d5b70ee03a": 0.2,
+        "lab-9bd585a26235": 0.2,
+        "lab-4f00a8eb8a7d": 0.2,
+        "lab-11e9d626e8d9": 0.2,
+        "lab-e407c5f18da5": 0.2,
+        "lab-f46fa8731916": 0.2,
+        "lab-def7c80ee1d1": 0.2,
+        "lab-9dab3341b9f1": 0.2,
+        "lab-719455bd7125": 0.2,
+        "lab-5a1fffb8e6b7": 0.2,
+        "lab-8238ab546031": 0.2,
+        "lab-89613a019dfd": 0.2,
+        "lab-d08ff32d883d": 1.0,
+        "lab-42c1bb186393": 1.0,
+        "lab-b84d85c3683d": 1.0,
+        "lab-9004d11ae525": 0.2,
+        "lab-458c61eb7de8": 0.2,
+        "lab-f121e8ed99c9": 1.0,
+        "lab-36466e9ba385": 0.2,
+        "lab-0529638ee44a": 0.2,
+        "lab-97a46fe9b0c3": 0.2,
+        "lab-a74d054aa5d2": 0.2,
+        "lab-1eb268aa7f49": 1.0,
+        "lab-a27b9589d697": 0.2,
+        "lab-7d1305d1760e": 1.0,
+        "lab-761fa50033a3": 0.2,
+        "lab-bba08ca100fc": 0.2
+      },
+      "keyword_papers": 27,
+      "total_papers": 28,
+      "keywords": [
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.4509803921568628
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.4509803921568628
+        },
+        {
+          "keyword_id": "dimensionality-reduction",
+          "score": 0.23529411764705882
+        },
+        {
+          "keyword_id": "bayesian-inference",
+          "score": 0.21568627450980396
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.21568627450980396
+        },
+        {
+          "keyword_id": "nonnegative-matrix-factorization",
+          "score": 0.21568627450980396
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.15686274509803924
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 0.11764705882352941
+        },
+        {
+          "keyword_id": "pairwise-constraint-propagation",
+          "score": 0.11764705882352941
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 0.09803921568627452
+        },
+        {
+          "keyword_id": "image-segmentation",
+          "score": 0.05882352941176472
+        },
+        {
+          "keyword_id": "class-imbalance",
+          "score": 0.019607843137254905
+        },
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 0.019607843137254905
+        },
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 0.019607843137254905
+        },
+        {
+          "keyword_id": "ensemble-clustering",
+          "score": 0.019607843137254905
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.019607843137254905
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.019607843137254905
+        },
+        {
+          "keyword_id": "multi-objective-optimization",
+          "score": 0.019607843137254905
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 0.019607843137254905
+        },
+        {
+          "keyword_id": "subspace-clustering",
+          "score": 0.019607843137254905
+        },
+        {
+          "keyword_id": "underwater-images",
+          "score": 0.019607843137254905
+        }
+      ]
+    },
+    {
+      "person_id": "person-5a6c2f9aff16",
+      "name": "Tiantian Zhu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-1a90fc2c3965": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-language-models",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-5b95b7c5af8e",
+      "name": "Chengchuan An",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-c42096082d68": 0.2,
+        "lab-2b357d849d9d": 0.2,
+        "lab-0c8c61ff348e": 0.2,
+        "lab-cafae06c3f4f": 0.2
+      },
+      "keyword_papers": 4,
+      "total_papers": 4,
+      "keywords": [
+        {
+          "keyword_id": "traffic-data",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 0.7500000000000001
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.7500000000000001
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 0.25
+        }
+      ]
+    },
+    {
+      "person_id": "person-5d55e6281349",
+      "name": "Yuxiang Ma",
+      "group": "current",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-ec6acdec9eea": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "latent-reasoning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multimodal-retrieval",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-5ecb36611a8e",
+      "name": "Jingyu Xiong",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-bbbc3701492a": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-60d6179c6ca8",
+      "name": "Haopeng Ke",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-bbbc3701492a": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-60e165cb9e80",
+      "name": "Ke Xia",
+      "group": "graduated",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-7647c3b38f71": 1.0
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-614fc12152b2",
+      "name": "Haoyuan Xuan",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-6a0a4e2737ec": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "class-imbalance",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-63f29f4515af",
+      "name": "Hongfei Fan",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-719455bd7125": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "nonnegative-matrix-factorization",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-663e1f1effe4",
+      "name": "Xin Wu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-9d85eae3a12f": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "hyperspectral-images",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "partial-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-66fc38aec3b8",
+      "name": "Jianhong Cheng",
+      "group": "graduated",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-af85f8a01211": 1.0,
+        "lab-e91390053be5": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "confidence-calibration",
+          "score": 0.8333333333333334
+        },
+        {
+          "keyword_id": "deep-clustering",
+          "score": 0.8333333333333334
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 0.8333333333333334
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.16666666666666669
+        },
+        {
+          "keyword_id": "partial-label-learning",
+          "score": 0.16666666666666669
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.16666666666666669
+        }
+      ]
+    },
+    {
+      "person_id": "person-674e940af9bb",
+      "name": "Qirui Lin",
+      "group": "graduated",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-4f00a8eb8a7d": 1.0,
+        "lab-c0cf7adb052a": 1.0
+      },
+      "keyword_papers": 2,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "image-segmentation",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "underwater-images",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-67d863a8a921",
+      "name": "Zhenyu Lu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-8a05dc1f7a41": 1.0
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-685abfa4953b",
+      "name": "Fuchao Yang",
+      "group": "graduated",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-5403cb1aad23": 0.2,
+        "lab-740b5f6ded12": 1.0,
+        "lab-d93ee5aa7a9a": 0.2,
+        "lab-e91390053be5": 1.0,
+        "lab-624e1914aeb8": 1.0,
+        "lab-10ec9a4b941d": 1.0
+      },
+      "keyword_papers": 4,
+      "total_papers": 6,
+      "keywords": [
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "partial-label-learning",
+          "score": 0.6875
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 0.37499999999999994
+        },
+        {
+          "keyword_id": "pairwise-constraint-propagation",
+          "score": 0.37499999999999994
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.3125
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.3125
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 0.3125
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.0625
+        }
+      ]
+    },
+    {
+      "person_id": "person-68c11e1eae03",
+      "name": "Weihua Zhang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-c42096082d68": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "traffic-data",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-6b07075816ba",
+      "name": "Min-Ling Zhang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-5403cb1aad23": 0.2,
+        "lab-825376eac3f8": 0.2,
+        "lab-aa44a48ac9a1": 0.2,
+        "lab-df79e6b90766": 0.2
+      },
+      "keyword_papers": 3,
+      "total_papers": 4,
+      "keywords": [
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.6666666666666666
+        },
+        {
+          "keyword_id": "partial-label-learning",
+          "score": 0.6666666666666666
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.6666666666666666
+        },
+        {
+          "keyword_id": "class-imbalance",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.3333333333333333
+        }
+      ]
+    },
+    {
+      "person_id": "person-6c22f850ed38",
+      "name": "Haiyun Guo",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-25256b9dda22": 0.2,
+        "lab-deff0ac02cbd": 0.2,
+        "lab-532faa4a2fc2": 0.2,
+        "lab-ec6acdec9eea": 0.2,
+        "lab-11e2dfe6e2ee": 0.2,
+        "lab-d99ee9ba4a13": 0.2
+      },
+      "keyword_papers": 4,
+      "total_papers": 6,
+      "keywords": [
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "deep-clustering",
+          "score": 0.25
+        },
+        {
+          "keyword_id": "domain-adaptation",
+          "score": 0.25
+        },
+        {
+          "keyword_id": "hallucination-mitigation",
+          "score": 0.25
+        },
+        {
+          "keyword_id": "large-language-models",
+          "score": 0.25
+        },
+        {
+          "keyword_id": "latent-reasoning",
+          "score": 0.25
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.25
+        },
+        {
+          "keyword_id": "model-merging",
+          "score": 0.25
+        },
+        {
+          "keyword_id": "multimodal-retrieval",
+          "score": 0.25
+        },
+        {
+          "keyword_id": "person-reidentification",
+          "score": 0.25
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 0.25
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 0.25
+        }
+      ]
+    },
+    {
+      "person_id": "person-6ebb0871be50",
+      "name": "Danfeng Hong",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-9d85eae3a12f": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "hyperspectral-images",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "partial-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-73ae379fac6c",
+      "name": "Jun Zhang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-1a90fc2c3965": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-language-models",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-7621c226e78e",
+      "name": "Liyang Hu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-054cd66669d7": 1.0,
+        "lab-60280e69a6e3": 1.0
+      },
+      "keyword_papers": 2,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "traffic-data",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-765b7d35ec1a",
+      "name": "Yu Zhang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-b98b32a37a21": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "hyperspectral-images",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "image-segmentation",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-76d70fbc8164",
+      "name": "Ming-Kun Xie",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-6a0a4e2737ec": 0.2,
+        "lab-a6e1c503e9fd": 0.2,
+        "lab-914c3b9e7d06": 0.2,
+        "lab-d7d729a798a9": 0.2,
+        "lab-c0b4fa3ab5d5": 0.2
+      },
+      "keyword_papers": 3,
+      "total_papers": 5,
+      "keywords": [
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 0.6666666666666666
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.6666666666666666
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.6666666666666666
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.6666666666666666
+        },
+        {
+          "keyword_id": "class-imbalance",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "federated-learning",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "label-enhancement",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 0.3333333333333333
+        }
+      ]
+    },
+    {
+      "person_id": "person-7789bf9c3b3f",
+      "name": "Debby D. Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-1f9013eb2f8b": 0.2,
+        "lab-bbbc3701492a": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-77b5b3e4ab3e",
+      "name": "Shaohui Mei",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-b613f6b0fb67": 0.2,
+        "lab-67bf125aef54": 0.2,
+        "lab-89a32c865fd0": 0.2
+      },
+      "keyword_papers": 3,
+      "total_papers": 3,
+      "keywords": [
+        {
+          "keyword_id": "hyperspectral-images",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 0.6666666666666666
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.6666666666666666
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.6666666666666666
+        },
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "image-segmentation",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 0.3333333333333333
+        }
+      ]
+    },
+    {
+      "person_id": "person-7ae3b71df386",
+      "name": "Wei Gao",
+      "group": "graduated",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-b84d85c3683d": 0.2,
+        "lab-0529638ee44a": 0.2,
+        "lab-97a46fe9b0c3": 1.0,
+        "lab-7d1305d1760e": 0.2,
+        "lab-bba08ca100fc": 1.0
+      },
+      "keyword_papers": 5,
+      "total_papers": 5,
+      "keywords": [
+        {
+          "keyword_id": "bayesian-inference",
+          "score": 0.15384615384615388
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.07692307692307694
+        },
+        {
+          "keyword_id": "nonnegative-matrix-factorization",
+          "score": 0.07692307692307694
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 0.07692307692307694
+        }
+      ]
+    },
+    {
+      "person_id": "person-7c703b501741",
+      "name": "Zhuoya Liu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-dccd5bfa936b": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-7c86b9f48616",
+      "name": "Jianhan Qi",
+      "group": "graduated",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-3f9060fdcde7": 1.0,
+        "lab-d162a6829a75": 1.0
+      },
+      "keyword_papers": 2,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "contrastive-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "deep-clustering",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "hyperspectral-images",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "graph-neural-networks",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "person_id": "person-7dcf61551c3e",
+      "name": "Masashi Sugiyama",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-a6e1c503e9fd": 0.2,
+        "lab-c0b4fa3ab5d5": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-enhancement",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-7ed0ea0a9f5a",
+      "name": "Mofei Song",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-8a85b44117f4": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-80b23b7a2fda",
+      "name": "Yuwen Deng",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-94f819e13bbe": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-813990b9de33",
+      "name": "Dengyong Zhang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-8258de75e36e": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "hyperspectral-images",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-82ddc9c36e1f",
+      "name": "Jingwei Fang",
+      "group": "current",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-80376da04947": 1.0
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-863a16bc0f43",
+      "name": "Zhuoming Li",
+      "group": "current",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-e73ac884ede0": 0.2,
+        "lab-5dda1e979492": 1.0,
+        "lab-b4f457369e13": 0.2,
+        "lab-7fa0af6e345c": 0.2,
+        "lab-6f75913bf673": 1.0
+      },
+      "keyword_papers": 2,
+      "total_papers": 5,
+      "keywords": [
+        {
+          "keyword_id": "confidence-calibration",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 0.8333333333333334
+        },
+        {
+          "keyword_id": "contrastive-learning",
+          "score": 0.16666666666666669
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 0.16666666666666669
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.16666666666666669
+        }
+      ]
+    },
+    {
+      "person_id": "person-86d4c42fcde7",
+      "name": "Zexuan Zhu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-1a90fc2c3965": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-language-models",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-878ed6f9a3f8",
+      "name": "Weixuan Liang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-a7cf765d0111": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "ensemble-clustering",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-881dbad1a477",
+      "name": "Xiangdong Kong",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-1a90fc2c3965": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-language-models",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-8affd97ee9db",
+      "name": "Wing W. Y. Ng",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-1a90fc2c3965": 0.2,
+        "lab-57c2d8cba676": 0.2,
+        "lab-e9f08a9f6baf": 0.2
+      },
+      "keyword_papers": 3,
+      "total_papers": 3,
+      "keywords": [
+        {
+          "keyword_id": "adversarial-robustness",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "hallucination-mitigation",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "large-language-models",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 0.3333333333333333
+        }
+      ]
+    },
+    {
+      "person_id": "person-8b53c025d776",
+      "name": "Junyang Chen",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-a6e1c503e9fd": 0.2,
+        "lab-d7d729a798a9": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 2,
+      "keywords": []
+    },
+    {
+      "person_id": "person-8eb38d3f8fda",
+      "name": "Di Jiang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-4dafc16e5fd8": 0.2,
+        "lab-a1005f21ac76": 0.2,
+        "lab-914c3b9e7d06": 0.2
+      },
+      "keyword_papers": 3,
+      "total_papers": 3,
+      "keywords": [
+        {
+          "keyword_id": "federated-learning",
+          "score": 0.6666666666666666
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.3333333333333333
+        }
+      ]
+    },
+    {
+      "person_id": "person-8f55d8f7fb9a",
+      "name": "Shu Su",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-9c41930c1897": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "parameter-efficient-fine-tuning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "value-preference-alignment",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-91239352b6c7",
+      "name": "Jianhui Lv",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-fdadc630f8db": 0.2,
+        "lab-5db2d9f26022": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-93ba74d2e01b",
+      "name": "Yang He",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-c42096082d68": 1.0,
+        "lab-2b357d849d9d": 1.0,
+        "lab-0c8c61ff348e": 1.0,
+        "lab-cafae06c3f4f": 1.0
+      },
+      "keyword_papers": 4,
+      "total_papers": 4,
+      "keywords": [
+        {
+          "keyword_id": "traffic-data",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 0.75
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.75
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 0.25
+        }
+      ]
+    },
+    {
+      "person_id": "person-94eac305f75b",
+      "name": "Zijun Yao",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-11e2dfe6e2ee": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "hallucination-mitigation",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-96c7a3520117",
+      "name": "Kuan Zhu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-d99ee9ba4a13": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-978697b6e982",
+      "name": "Jiawei Tang",
+      "group": "current",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-2110e10b1fd2": 0.2,
+        "lab-deff0ac02cbd": 0.2,
+        "lab-855923053355": 0.2,
+        "lab-305494044431": 1.0,
+        "lab-b15f2540bde4": 0.2,
+        "lab-f6916a1b1d89": 1.0
+      },
+      "keyword_papers": 4,
+      "total_papers": 6,
+      "keywords": [
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.9166666666666667
+        },
+        {
+          "keyword_id": "label-enhancement",
+          "score": 0.4166666666666667
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.16666666666666669
+        },
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 0.08333333333333334
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.08333333333333334
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.08333333333333334
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.08333333333333334
+        }
+      ]
+    },
+    {
+      "person_id": "person-9a893ce0b52e",
+      "name": "Jing Guo",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-4dafc16e5fd8": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-9aa6f0d93d9e",
+      "name": "Renxiang Guan",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-fe676cbbfafd": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-9f752cbcc063",
+      "name": "ChenWei He",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-ec6acdec9eea": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "latent-reasoning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multimodal-retrieval",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-a376271a6040",
+      "name": "Wenhui Wu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-9ddc9ff7ce0c": 0.2,
+        "lab-50d02eb604b9": 0.2,
+        "lab-9dab3341b9f1": 0.2,
+        "lab-719455bd7125": 1.0,
+        "lab-5a1fffb8e6b7": 1.0,
+        "lab-42c1bb186393": 0.2,
+        "lab-b84d85c3683d": 0.2,
+        "lab-458c61eb7de8": 1.0,
+        "lab-36466e9ba385": 1.0,
+        "lab-0529638ee44a": 1.0,
+        "lab-e9f08a9f6baf": 0.2,
+        "lab-1eb268aa7f49": 0.2,
+        "lab-7d1305d1760e": 0.2,
+        "lab-bba08ca100fc": 0.2
+      },
+      "keyword_papers": 14,
+      "total_papers": 14,
+      "keywords": [
+        {
+          "keyword_id": "nonnegative-matrix-factorization",
+          "score": 0.6470588235294118
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.5294117647058824
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.5294117647058824
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 0.3235294117647059
+        },
+        {
+          "keyword_id": "pairwise-constraint-propagation",
+          "score": 0.3235294117647059
+        },
+        {
+          "keyword_id": "dimensionality-reduction",
+          "score": 0.20588235294117643
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.20588235294117643
+        },
+        {
+          "keyword_id": "adversarial-robustness",
+          "score": 0.058823529411764705
+        },
+        {
+          "keyword_id": "bayesian-inference",
+          "score": 0.058823529411764705
+        },
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 0.029411764705882353
+        },
+        {
+          "keyword_id": "image-segmentation",
+          "score": 0.029411764705882353
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.029411764705882353
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 0.029411764705882353
+        },
+        {
+          "keyword_id": "subspace-clustering",
+          "score": 0.029411764705882353
+        }
+      ]
+    },
+    {
+      "person_id": "person-a4cf8e90ef97",
+      "name": "Wei You",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-8a05dc1f7a41": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-a4f1eacc4bff",
+      "name": "Mengyuan Wu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-761fa50033a3": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "bayesian-inference",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-objective-optimization",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-a71d4b5d5f5d",
+      "name": "Shujun Yang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-fe676cbbfafd": 1.0,
+        "lab-9d85eae3a12f": 1.0,
+        "lab-8258de75e36e": 0.2,
+        "lab-b98b32a37a21": 1.0,
+        "lab-b613f6b0fb67": 1.0,
+        "lab-67bf125aef54": 1.0,
+        "lab-89a32c865fd0": 1.0
+      },
+      "keyword_papers": 6,
+      "total_papers": 7,
+      "keywords": [
+        {
+          "keyword_id": "hyperspectral-images",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 0.5769230769230769
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.5769230769230769
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.5769230769230769
+        },
+        {
+          "keyword_id": "image-segmentation",
+          "score": 0.3846153846153846
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.3846153846153846
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.23076923076923075
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 0.23076923076923075
+        },
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 0.1923076923076923
+        },
+        {
+          "keyword_id": "partial-label-learning",
+          "score": 0.1923076923076923
+        }
+      ]
+    },
+    {
+      "person_id": "person-a78db55df438",
+      "name": "Bo Han",
+      "group": "current",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-efed21f0ba73": 1.0,
+        "lab-0f498c8f864f": 0.2,
+        "lab-e73ac884ede0": 1.0,
+        "lab-5dda1e979492": 0.2,
+        "lab-80376da04947": 0.2,
+        "lab-b4f457369e13": 0.2,
+        "lab-fc69e7eb5613": 0.2,
+        "lab-7fa0af6e345c": 1.0
+      },
+      "keyword_papers": 4,
+      "total_papers": 8,
+      "keywords": [
+        {
+          "keyword_id": "hyperspectral-images",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "confidence-calibration",
+          "score": 0.4166666666666667
+        },
+        {
+          "keyword_id": "contrastive-learning",
+          "score": 0.4166666666666667
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.4166666666666667
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.08333333333333334
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 0.08333333333333334
+        }
+      ]
+    },
+    {
+      "person_id": "person-a78db55df438:fragment:29d9ecbc2c5c42b7",
+      "name": "Bo Han",
+      "group": "current",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-dec46f74923a": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "class-imbalance",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-a7a890e6d816",
+      "name": "Mingyuan Xu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-25256b9dda22": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "deep-clustering",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "domain-adaptation",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "person-reidentification",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-a8d245854ae1",
+      "name": "Xu Zhang",
+      "group": "graduated",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-a7cf765d0111": 1.0,
+        "lab-8a85b44117f4": 1.0,
+        "lab-061b9da6e2d3": 0.2,
+        "lab-6757df585f08": 0.2,
+        "lab-80376da04947": 0.2
+      },
+      "keyword_papers": 3,
+      "total_papers": 5,
+      "keywords": [
+        {
+          "keyword_id": "ensemble-clustering",
+          "score": 0.8571428571428572
+        },
+        {
+          "keyword_id": "deep-clustering",
+          "score": 0.14285714285714288
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 0.14285714285714288
+        },
+        {
+          "keyword_id": "parameter-efficient-fine-tuning",
+          "score": 0.14285714285714288
+        },
+        {
+          "keyword_id": "vision-language-models",
+          "score": 0.14285714285714288
+        }
+      ]
+    },
+    {
+      "person_id": "person-aa2546d2452b",
+      "name": "Huan Liu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-c42096082d68": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "traffic-data",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-ab6f349ec767",
+      "name": "Zhuying Li",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-cfe1c0f8487f": 0.2,
+        "lab-2c640db3fd61": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 2,
+      "keywords": []
+    },
+    {
+      "person_id": "person-abd433bec14f",
+      "name": "Tianyu Yang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-ec6acdec9eea": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "latent-reasoning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multimodal-retrieval",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-b1da6e89941e",
+      "name": "Jia Zhang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-bba08ca100fc": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-b3f59a3f2caf",
+      "name": "Zhiyan Hou",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-532faa4a2fc2": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "model-merging",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-b609fd2b3c8a",
+      "name": "Xu Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-f46fa8731916": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-b6124e331bc1",
+      "name": "Zhe Tan",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-9c41930c1897": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "parameter-efficient-fine-tuning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "value-preference-alignment",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-b70b209a37a3",
+      "name": "Xin-Qiang Cai",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-a6e1c503e9fd": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-b9b1adfa66a7",
+      "name": "Yongheng Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-05c8a4098fe0": 0.2,
+        "lab-684cd82c2176": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "dimensionality-reduction",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "ensemble-clustering",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "partial-label-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "person_id": "person-bad739738d34",
+      "name": "Weizhen Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-532faa4a2fc2": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "model-merging",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-bcef7eb9e07b",
+      "name": "Chen Li",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-bf934091a903": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "domain-adaptation",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-bd4b1d020697",
+      "name": "Sirui Tao",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-05c8a4098fe0": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "ensemble-clustering",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-bea7c0f57db2",
+      "name": "Yandu Sun",
+      "group": "current",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-532faa4a2fc2": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "model-merging",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-beb8176cbc0a",
+      "name": "Zhiqiang Kou",
+      "group": "graduated",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-56209c579874": 1.0,
+        "lab-6a0a4e2737ec": 1.0,
+        "lab-fdadc630f8db": 0.2,
+        "lab-bc765488bcf7": 1.0,
+        "lab-5db2d9f26022": 0.2,
+        "lab-51397954ce4d": 1.0,
+        "lab-de8760c3355c": 1.0,
+        "lab-4dafc16e5fd8": 1.0,
+        "lab-a1005f21ac76": 0.2,
+        "lab-a6e1c503e9fd": 1.0,
+        "lab-914c3b9e7d06": 1.0,
+        "lab-d7d729a798a9": 1.0,
+        "lab-c0b4fa3ab5d5": 1.0,
+        "lab-b15f2540bde4": 1.0
+      },
+      "keyword_papers": 11,
+      "total_papers": 14,
+      "keywords": [
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 0.6808510638297872
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.6595744680851063
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.5531914893617021
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.5319148936170213
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 0.44680851063829785
+        },
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 0.3191489361702127
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.3191489361702127
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.2127659574468085
+        },
+        {
+          "keyword_id": "label-enhancement",
+          "score": 0.2127659574468085
+        },
+        {
+          "keyword_id": "federated-learning",
+          "score": 0.1276595744680851
+        },
+        {
+          "keyword_id": "class-imbalance",
+          "score": 0.10638297872340426
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 0.10638297872340426
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 0.10638297872340426
+        }
+      ]
+    },
+    {
+      "person_id": "person-bfa9b8d5f9b1",
+      "name": "Junxiang Wu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-a1005f21ac76": 1.0,
+        "lab-914c3b9e7d06": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "federated-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 0.8333333333333334
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 0.8333333333333334
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.8333333333333334
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.16666666666666669
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.16666666666666669
+        }
+      ]
+    },
+    {
+      "person_id": "person-c0ec091b9e15",
+      "name": "Yijie Lin",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-4dafc16e5fd8": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-c215ba35a8fb",
+      "name": "Guanliang Chen",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-77b725acea33": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-c29cb5f0f97f",
+      "name": "Shuyue Chen",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-1f9013eb2f8b": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-c2a501848d4b",
+      "name": "Erliang Lin",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-9728948569cd": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-c30b0165a956",
+      "name": "Qian Du",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-b613f6b0fb67": 0.2,
+        "lab-67bf125aef54": 0.2,
+        "lab-89a32c865fd0": 0.2
+      },
+      "keyword_papers": 3,
+      "total_papers": 3,
+      "keywords": [
+        {
+          "keyword_id": "hyperspectral-images",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 0.6666666666666666
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.6666666666666666
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.6666666666666666
+        },
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "image-segmentation",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 0.3333333333333333
+        }
+      ]
+    },
+    {
+      "person_id": "person-c4aac63c271f",
+      "name": "Jiachao Liu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-0c8c61ff348e": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "traffic-data",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-c4aac63c271f:fragment:a2e45a958b1257b4",
+      "name": "Jiaochao Liu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-cafae06c3f4f": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "traffic-data",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-c58f00e871cb",
+      "name": "Hua Li",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-4f00a8eb8a7d": 0.2,
+        "lab-c0cf7adb052a": 0.2,
+        "lab-9dab3341b9f1": 1.0,
+        "lab-9004d11ae525": 1.0
+      },
+      "keyword_papers": 4,
+      "total_papers": 4,
+      "keywords": [
+        {
+          "keyword_id": "image-segmentation",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.4166666666666667
+        },
+        {
+          "keyword_id": "subspace-clustering",
+          "score": 0.4166666666666667
+        },
+        {
+          "keyword_id": "underwater-images",
+          "score": 0.16666666666666669
+        }
+      ]
+    },
+    {
+      "person_id": "person-c82719b449a3",
+      "name": "Chongxiao Qu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-825376eac3f8": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-c9c708b3cff8",
+      "name": "Rihao Li",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-9ddc9ff7ce0c": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "adversarial-robustness",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-cb8c38ad3e6e",
+      "name": "Horace H. S. Ip",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-458c61eb7de8": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "dimensionality-reduction",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "nonnegative-matrix-factorization",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-cbe0a82ea2ef",
+      "name": "Weijie Chen",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-054cd66669d7": 0.2,
+        "lab-60280e69a6e3": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "traffic-data",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-cc0fa6a42662",
+      "name": "Xiaorui Peng",
+      "group": "graduated",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-5403cb1aad23": 1.0,
+        "lab-aa44a48ac9a1": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "class-imbalance",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "partial-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-cc875313d4ed",
+      "name": "Tianxu Han",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-11e2dfe6e2ee": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "hallucination-mitigation",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-ccb2bf6baeed",
+      "name": "Te Qi",
+      "group": "graduated",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-6e4e588f3743": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "ensemble-clustering",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-cd814406e220",
+      "name": "Shiqi Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-e407c5f18da5": 0.2,
+        "lab-719455bd7125": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "nonnegative-matrix-factorization",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "person_id": "person-cdd07fd7b419",
+      "name": "Jingchao Cao",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-e407c5f18da5": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-d23bd4220ea3",
+      "name": "Jiahao Jiang",
+      "group": "graduated",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-effcb20ed6d4": 0.2,
+        "lab-855923053355": 0.2,
+        "lab-b8edb24bba59": 1.0,
+        "lab-f6916a1b1d89": 0.2,
+        "lab-684cd82c2176": 1.0
+      },
+      "keyword_papers": 4,
+      "total_papers": 5,
+      "keywords": [
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "partial-label-learning",
+          "score": 0.8333333333333334
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 0.8333333333333334
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "class-imbalance",
+          "score": 0.4166666666666667
+        },
+        {
+          "keyword_id": "dimensionality-reduction",
+          "score": 0.4166666666666667
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.4166666666666667
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 0.16666666666666669
+        },
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 0.08333333333333334
+        },
+        {
+          "keyword_id": "label-enhancement",
+          "score": 0.08333333333333334
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.08333333333333334
+        }
+      ]
+    },
+    {
+      "person_id": "person-d28a39ec4e81",
+      "name": "Chongjie Si",
+      "group": "graduated",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-825376eac3f8": 1.0,
+        "lab-dccd5bfa936b": 0.2,
+        "lab-fc483a521424": 0.2,
+        "lab-df79e6b90766": 1.0
+      },
+      "keyword_papers": 3,
+      "total_papers": 4,
+      "keywords": [
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.9090909090909091
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.45454545454545453
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.45454545454545453
+        },
+        {
+          "keyword_id": "partial-label-learning",
+          "score": 0.45454545454545453
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.45454545454545453
+        },
+        {
+          "keyword_id": "parameter-efficient-fine-tuning",
+          "score": 0.09090909090909091
+        }
+      ]
+    },
+    {
+      "person_id": "person-d2a607650b5a",
+      "name": "Xinlei Zhou",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-9ddc9ff7ce0c": 0.2,
+        "lab-4f3942c218c8": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "adversarial-robustness",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "contrastive-learning",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "person_id": "person-d2a98a15d3b2",
+      "name": "Tat‐Seng Chua",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-a6e1c503e9fd": 0.2,
+        "lab-d99ee9ba4a13": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 2,
+      "keywords": []
+    },
+    {
+      "person_id": "person-d2fafd923ba6",
+      "name": "Yun Ding",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-fe676cbbfafd": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-d32a5b6468e6",
+      "name": "Hanyang Li",
+      "group": "graduated",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-1025a6d4de24": 1.0,
+        "lab-fc69e7eb5613": 0.2,
+        "lab-24effaa314d4": 1.0
+      },
+      "keyword_papers": 2,
+      "total_papers": 3,
+      "keywords": [
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "deep-clustering",
+          "score": 0.8333333333333334
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.16666666666666669
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 0.16666666666666669
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.16666666666666669
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.16666666666666669
+        }
+      ]
+    },
+    {
+      "person_id": "person-d3e5e09476bc",
+      "name": "Lingxiang Wu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-ec6acdec9eea": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "latent-reasoning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multimodal-retrieval",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-d4626df63353",
+      "name": "Taowei Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-8258de75e36e": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "hyperspectral-images",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-d5236dd49ba9",
+      "name": "Ao Sun",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-9c41930c1897": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "parameter-efficient-fine-tuning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "value-preference-alignment",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-d6b111e68c66",
+      "name": "Muqing Liu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-dccd5bfa936b": 1.0,
+        "lab-fc483a521424": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "parameter-efficient-fine-tuning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-d6c2f320d6c1",
+      "name": "Qingfu Zhang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-d50fd9c219f7": 0.2,
+        "lab-a9d5b70ee03a": 0.2,
+        "lab-11e9d626e8d9": 0.2,
+        "lab-1ff59dd4a58f": 0.2,
+        "lab-b653a194f324": 0.2,
+        "lab-3af1c95693ac": 0.2,
+        "lab-ed665f8e6c6f": 0.2,
+        "lab-5111c5177048": 0.2,
+        "lab-761fa50033a3": 0.2
+      },
+      "keyword_papers": 9,
+      "total_papers": 9,
+      "keywords": [
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 0.6666666666666667
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.44444444444444453
+        },
+        {
+          "keyword_id": "pairwise-constraint-propagation",
+          "score": 0.3333333333333334
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.3333333333333334
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.3333333333333334
+        },
+        {
+          "keyword_id": "ensemble-clustering",
+          "score": 0.22222222222222227
+        },
+        {
+          "keyword_id": "bayesian-inference",
+          "score": 0.11111111111111113
+        },
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 0.11111111111111113
+        },
+        {
+          "keyword_id": "deep-clustering",
+          "score": 0.11111111111111113
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.11111111111111113
+        },
+        {
+          "keyword_id": "hyperspectral-images",
+          "score": 0.11111111111111113
+        },
+        {
+          "keyword_id": "multi-objective-optimization",
+          "score": 0.11111111111111113
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 0.11111111111111113
+        },
+        {
+          "keyword_id": "nonnegative-matrix-factorization",
+          "score": 0.11111111111111113
+        },
+        {
+          "keyword_id": "subspace-clustering",
+          "score": 0.11111111111111113
+        }
+      ]
+    },
+    {
+      "person_id": "person-d902f3273b55",
+      "name": "Zhitao Dai",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-25256b9dda22": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "deep-clustering",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "domain-adaptation",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "person-reidentification",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-d938e92e0dc4",
+      "name": "Wenke Huang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-a1005f21ac76": 0.2,
+        "lab-914c3b9e7d06": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "federated-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "person_id": "person-da79de2fa7ad",
+      "name": "Yaxin Hou",
+      "group": "current",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-dec46f74923a": 1.0,
+        "lab-061b9da6e2d3": 0.2,
+        "lab-e73ac884ede0": 0.2,
+        "lab-1025a6d4de24": 0.2,
+        "lab-2110e10b1fd2": 0.2,
+        "lab-deff0ac02cbd": 0.2,
+        "lab-80376da04947": 0.2,
+        "lab-fc69e7eb5613": 1.0,
+        "lab-918df170a3ad": 0.2,
+        "lab-7fa0af6e345c": 0.2,
+        "lab-22cc955daee0": 1.0
+      },
+      "keyword_papers": 5,
+      "total_papers": 11,
+      "keywords": [
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 0.9411764705882353
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.9411764705882353
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.9411764705882353
+        },
+        {
+          "keyword_id": "class-imbalance",
+          "score": 0.588235294117647
+        },
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 0.2941176470588235
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.2941176470588235
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 0.2941176470588235
+        },
+        {
+          "keyword_id": "confidence-calibration",
+          "score": 0.058823529411764705
+        },
+        {
+          "keyword_id": "contrastive-learning",
+          "score": 0.058823529411764705
+        },
+        {
+          "keyword_id": "deep-clustering",
+          "score": 0.058823529411764705
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.058823529411764705
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 0.058823529411764705
+        },
+        {
+          "keyword_id": "parameter-efficient-fine-tuning",
+          "score": 0.058823529411764705
+        },
+        {
+          "keyword_id": "vision-language-models",
+          "score": 0.058823529411764705
+        }
+      ]
+    },
+    {
+      "person_id": "person-ddd5513e34ef",
+      "name": "Yongqiang Dong",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-740b5f6ded12": 0.2,
+        "lab-e91390053be5": 0.2,
+        "lab-624e1914aeb8": 0.2,
+        "lab-10ec9a4b941d": 0.2
+      },
+      "keyword_papers": 3,
+      "total_papers": 4,
+      "keywords": [
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "partial-label-learning",
+          "score": 0.6666666666666666
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "pairwise-constraint-propagation",
+          "score": 0.3333333333333333
+        }
+      ]
+    },
+    {
+      "person_id": "person-e23e40346fb4",
+      "name": "Jie Li",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-94f819e13bbe": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-e2c6956bf522",
+      "name": "Xiaoyu Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-e73ac884ede0": 0.2,
+        "lab-5dda1e979492": 0.2,
+        "lab-b4f457369e13": 1.0,
+        "lab-9c41930c1897": 0.2,
+        "lab-7fa0af6e345c": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 5,
+      "keywords": [
+        {
+          "keyword_id": "confidence-calibration",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "contrastive-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "large-language-models",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "parameter-efficient-fine-tuning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "value-preference-alignment",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "person_id": "person-e43b9b8b2f31",
+      "name": "Yutong Li",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-4f00a8eb8a7d": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "image-segmentation",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "underwater-images",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-e61893df53cb",
+      "name": "Jianke Cheng",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-60280e69a6e3": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "traffic-data",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-e62b7516de89",
+      "name": "Biao Liu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-de8760c3355c": 0.2,
+        "lab-a1005f21ac76": 0.2,
+        "lab-a6e1c503e9fd": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 3,
+      "keywords": [
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "federated-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "person_id": "person-e6da050b2d62",
+      "name": "Xiaoyu Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-bf934091a903": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "domain-adaptation",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-e77b635a3e6e",
+      "name": "Chaoyang Zhao",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-ec6acdec9eea": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "latent-reasoning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multimodal-retrieval",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-eaae26e24858",
+      "name": "Xinyue Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-084cf1572406": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "deep-clustering",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-eadfb63416d5",
+      "name": "Zicong Miao",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-6f75913bf673": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "confidence-calibration",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-eb65b8fb5da0",
+      "name": "Wantao Wen",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-9728948569cd": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-ed67380bc492",
+      "name": "Yuheng Jia",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-d50fd9c219f7": 1.0,
+        "lab-a9d5b70ee03a": 1.0,
+        "lab-9bd585a26235": 1.0,
+        "lab-af85f8a01211": 1.0,
+        "lab-5403cb1aad23": 0.2,
+        "lab-efed21f0ba73": 0.2,
+        "lab-a7cf765d0111": 0.2,
+        "lab-dec46f74923a": 0.2,
+        "lab-62249197b63f": 0.2,
+        "lab-56209c579874": 0.2,
+        "lab-6e4e588f3743": 0.2,
+        "lab-9ddc9ff7ce0c": 0.2,
+        "lab-bf934091a903": 0.2,
+        "lab-4f00a8eb8a7d": 1.0,
+        "lab-cb0529713b81": 0.2,
+        "lab-fe676cbbfafd": 0.2,
+        "lab-4f3942c218c8": 0.2,
+        "lab-3f9060fdcde7": 0.2,
+        "lab-c42096082d68": 0.2,
+        "lab-8a85b44117f4": 0.2,
+        "lab-6a0a4e2737ec": 0.2,
+        "lab-c0cf7adb052a": 0.2,
+        "lab-fdadc630f8db": 0.2,
+        "lab-94f819e13bbe": 0.2,
+        "lab-bc765488bcf7": 0.2,
+        "lab-50d02eb604b9": 1.0,
+        "lab-0f498c8f864f": 0.2,
+        "lab-1f9013eb2f8b": 0.2,
+        "lab-5db2d9f26022": 0.2,
+        "lab-d162a6829a75": 0.2,
+        "lab-2b357d849d9d": 0.2,
+        "lab-0c8c61ff348e": 0.2,
+        "lab-51397954ce4d": 0.2,
+        "lab-9d85eae3a12f": 0.2,
+        "lab-825376eac3f8": 0.2,
+        "lab-a6dff26af1aa": 0.2,
+        "lab-de8760c3355c": 0.2,
+        "lab-054cd66669d7": 0.2,
+        "lab-05c8a4098fe0": 1.0,
+        "lab-6c33c0d49221": 1.0,
+        "lab-27ee33bde0ac": 0.2,
+        "lab-25256b9dda22": 0.2,
+        "lab-8258de75e36e": 0.2,
+        "lab-762e9d6f5eae": 0.2,
+        "lab-b98b32a37a21": 0.2,
+        "lab-11e9d626e8d9": 1.0,
+        "lab-b613f6b0fb67": 0.2,
+        "lab-e407c5f18da5": 0.2,
+        "lab-1ff59dd4a58f": 0.2,
+        "lab-b653a194f324": 0.2,
+        "lab-3af1c95693ac": 0.2,
+        "lab-f46fa8731916": 0.2,
+        "lab-def7c80ee1d1": 1.0,
+        "lab-9dab3341b9f1": 0.2,
+        "lab-719455bd7125": 0.2,
+        "lab-cf4dec41fda2": 0.2,
+        "lab-5a1fffb8e6b7": 1.0,
+        "lab-8238ab546031": 1.0,
+        "lab-89613a019dfd": 1.0,
+        "lab-67bf125aef54": 0.2,
+        "lab-d08ff32d883d": 1.0,
+        "lab-42c1bb186393": 1.0,
+        "lab-b84d85c3683d": 1.0,
+        "lab-9004d11ae525": 0.2,
+        "lab-458c61eb7de8": 0.2,
+        "lab-89a32c865fd0": 0.2,
+        "lab-f121e8ed99c9": 1.0,
+        "lab-36466e9ba385": 0.2,
+        "lab-0529638ee44a": 0.2,
+        "lab-97a46fe9b0c3": 0.2,
+        "lab-a74d054aa5d2": 0.2,
+        "lab-0f41d99e2574": 0.2,
+        "lab-dccd5bfa936b": 0.2,
+        "lab-061b9da6e2d3": 0.2,
+        "lab-e73ac884ede0": 0.2,
+        "lab-1025a6d4de24": 0.2,
+        "lab-effcb20ed6d4": 1.0,
+        "lab-2110e10b1fd2": 0.2,
+        "lab-5dda1e979492": 0.2,
+        "lab-deff0ac02cbd": 0.2,
+        "lab-6757df585f08": 0.2,
+        "lab-532faa4a2fc2": 0.2,
+        "lab-1a90fc2c3965": 0.2,
+        "lab-ec6acdec9eea": 0.2,
+        "lab-4dafc16e5fd8": 0.2,
+        "lab-80376da04947": 0.2,
+        "lab-7647c3b38f71": 0.2,
+        "lab-b4f457369e13": 0.2,
+        "lab-a1005f21ac76": 0.2,
+        "lab-a6e1c503e9fd": 0.2,
+        "lab-fc69e7eb5613": 0.2,
+        "lab-57c2d8cba676": 0.2,
+        "lab-9c41930c1897": 0.2,
+        "lab-8a05dc1f7a41": 0.2,
+        "lab-914c3b9e7d06": 0.2,
+        "lab-fc483a521424": 0.2,
+        "lab-77b725acea33": 0.2,
+        "lab-918df170a3ad": 0.2,
+        "lab-084cf1572406": 0.2,
+        "lab-7fa0af6e345c": 0.2,
+        "lab-855923053355": 0.2,
+        "lab-24effaa314d4": 0.2,
+        "lab-9728948569cd": 0.2,
+        "lab-d7d729a798a9": 0.2,
+        "lab-11e2dfe6e2ee": 0.2,
+        "lab-cfe1c0f8487f": 0.2,
+        "lab-740b5f6ded12": 0.2,
+        "lab-d99ee9ba4a13": 0.2,
+        "lab-82a7992c094e": 0.2,
+        "lab-22cc955daee0": 0.2,
+        "lab-305494044431": 0.2,
+        "lab-d93ee5aa7a9a": 0.2,
+        "lab-c0b4fa3ab5d5": 0.2,
+        "lab-bddb535117ca": 0.2,
+        "lab-2c640db3fd61": 0.2,
+        "lab-6f75913bf673": 0.2,
+        "lab-e91390053be5": 0.2,
+        "lab-e9f08a9f6baf": 0.2,
+        "lab-624e1914aeb8": 0.2,
+        "lab-b8edb24bba59": 0.2,
+        "lab-b15f2540bde4": 0.2,
+        "lab-f6916a1b1d89": 1.0,
+        "lab-aa44a48ac9a1": 1.0,
+        "lab-cafae06c3f4f": 0.2,
+        "lab-60280e69a6e3": 0.2,
+        "lab-10ec9a4b941d": 1.0,
+        "lab-df79e6b90766": 1.0,
+        "lab-684cd82c2176": 1.0,
+        "lab-bbbc3701492a": 0.2,
+        "lab-3d396fcbdc50": 0.2,
+        "lab-ed665f8e6c6f": 1.0,
+        "lab-5111c5177048": 0.2,
+        "lab-1eb268aa7f49": 1.0,
+        "lab-a27b9589d697": 0.2,
+        "lab-7d1305d1760e": 1.0,
+        "lab-761fa50033a3": 0.2,
+        "lab-bba08ca100fc": 0.2
+      },
+      "keyword_papers": 108,
+      "total_papers": 137,
+      "keywords": [
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.4754901960784313
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.3137254901960784
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 0.2794117647058824
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.24019607843137272
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.22549019607843146
+        },
+        {
+          "keyword_id": "pairwise-constraint-propagation",
+          "score": 0.1960784313725491
+        },
+        {
+          "keyword_id": "nonnegative-matrix-factorization",
+          "score": 0.12254901960784322
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 0.11274509803921577
+        },
+        {
+          "keyword_id": "dimensionality-reduction",
+          "score": 0.10294117647058829
+        },
+        {
+          "keyword_id": "partial-label-learning",
+          "score": 0.09803921568627455
+        },
+        {
+          "keyword_id": "ensemble-clustering",
+          "score": 0.08823529411764709
+        },
+        {
+          "keyword_id": "deep-clustering",
+          "score": 0.07843137254901966
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 0.07352941176470591
+        },
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 0.06862745098039219
+        },
+        {
+          "keyword_id": "multi-view-learning",
+          "score": 0.06372549019607845
+        },
+        {
+          "keyword_id": "bayesian-inference",
+          "score": 0.053921568627451004
+        },
+        {
+          "keyword_id": "hyperspectral-images",
+          "score": 0.053921568627451
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.053921568627451
+        },
+        {
+          "keyword_id": "class-imbalance",
+          "score": 0.049019607843137275
+        },
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 0.049019607843137275
+        },
+        {
+          "keyword_id": "image-segmentation",
+          "score": 0.04901960784313727
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 0.044117647058823546
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.044117647058823546
+        },
+        {
+          "keyword_id": "subspace-clustering",
+          "score": 0.03921568627450982
+        },
+        {
+          "keyword_id": "confidence-calibration",
+          "score": 0.03431372549019609
+        },
+        {
+          "keyword_id": "label-enhancement",
+          "score": 0.03431372549019609
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 0.03431372549019609
+        },
+        {
+          "keyword_id": "traffic-data",
+          "score": 0.029411764705882363
+        },
+        {
+          "keyword_id": "underwater-images",
+          "score": 0.029411764705882363
+        },
+        {
+          "keyword_id": "contrastive-learning",
+          "score": 0.019607843137254912
+        },
+        {
+          "keyword_id": "graph-neural-networks",
+          "score": 0.019607843137254912
+        },
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 0.019607843137254912
+        },
+        {
+          "keyword_id": "adversarial-robustness",
+          "score": 0.014705882352941185
+        },
+        {
+          "keyword_id": "domain-adaptation",
+          "score": 0.014705882352941185
+        },
+        {
+          "keyword_id": "large-language-models",
+          "score": 0.014705882352941185
+        },
+        {
+          "keyword_id": "parameter-efficient-fine-tuning",
+          "score": 0.014705882352941185
+        },
+        {
+          "keyword_id": "federated-learning",
+          "score": 0.009803921568627456
+        },
+        {
+          "keyword_id": "hallucination-mitigation",
+          "score": 0.009803921568627456
+        },
+        {
+          "keyword_id": "latent-reasoning",
+          "score": 0.004901960784313728
+        },
+        {
+          "keyword_id": "model-merging",
+          "score": 0.004901960784313728
+        },
+        {
+          "keyword_id": "multi-objective-optimization",
+          "score": 0.004901960784313728
+        },
+        {
+          "keyword_id": "multimodal-retrieval",
+          "score": 0.004901960784313728
+        },
+        {
+          "keyword_id": "person-reidentification",
+          "score": 0.004901960784313728
+        },
+        {
+          "keyword_id": "value-preference-alignment",
+          "score": 0.004901960784313728
+        },
+        {
+          "keyword_id": "vision-language-models",
+          "score": 0.004901960784313728
+        }
+      ]
+    },
+    {
+      "person_id": "person-ee87dadbfb55",
+      "name": "Ding Ding",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-6757df585f08": 0.2,
+        "lab-918df170a3ad": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "ensemble-clustering",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-eecace2fea3a",
+      "name": "Zhirui Ye",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-054cd66669d7": 0.2,
+        "lab-60280e69a6e3": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "traffic-data",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-f232563e2cdb",
+      "name": "Jiecheng Jiang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-855923053355": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-f305d9f46320",
+      "name": "Yucheng Xie",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-d7d729a798a9": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-f573f1be0155",
+      "name": "Zhenglin Hua",
+      "group": "current",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-deff0ac02cbd": 1.0,
+        "lab-57c2d8cba676": 0.2,
+        "lab-11e2dfe6e2ee": 1.0,
+        "lab-d99ee9ba4a13": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 4,
+      "keywords": [
+        {
+          "keyword_id": "hallucination-mitigation",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 0.8333333333333334
+        }
+      ]
+    },
+    {
+      "person_id": "person-f5f98e8e9ce9",
+      "name": "Chuanbo Chen",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-9dab3341b9f1": 0.2,
+        "lab-9004d11ae525": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "image-segmentation",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "subspace-clustering",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "person_id": "person-f5fc39bf27a2",
+      "name": "Jingyu Zhu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-6a0a4e2737ec": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "class-imbalance",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "data-imputation-recovery",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-f7ead40ce927",
+      "name": "Yao Ding",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-fe676cbbfafd": 0.2,
+        "lab-9d85eae3a12f": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "hyperspectral-images",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "partial-label-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-f83a80ae8fb1",
+      "name": "Yutong Xie",
+      "group": "current",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-deff0ac02cbd": 0.2,
+        "lab-57c2d8cba676": 1.0,
+        "lab-d93ee5aa7a9a": 1.0
+      },
+      "keyword_papers": 2,
+      "total_papers": 3,
+      "keywords": [
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "hallucination-mitigation",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "pairwise-constraint-propagation",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "partial-label-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "person_id": "person-f867b747a9b3",
+      "name": "Fuyi Li",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-bf934091a903": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "domain-adaptation",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-f88f0ba38889",
+      "name": "Jiachen Zhu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-9c41930c1897": 0.2
+      },
+      "keyword_papers": 1,
+      "total_papers": 1,
+      "keywords": [
+        {
+          "keyword_id": "large-language-models",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "parameter-efficient-fine-tuning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "value-preference-alignment",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-fa82c4e2e671",
+      "name": "Jinqiao Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-25256b9dda22": 0.2,
+        "lab-532faa4a2fc2": 0.2,
+        "lab-ec6acdec9eea": 0.2,
+        "lab-d99ee9ba4a13": 0.2
+      },
+      "keyword_papers": 3,
+      "total_papers": 4,
+      "keywords": [
+        {
+          "keyword_id": "deep-clustering",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "domain-adaptation",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "large-language-models",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "latent-reasoning",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "model-merging",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "multimodal-retrieval",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "person-reidentification",
+          "score": 0.3333333333333333
+        },
+        {
+          "keyword_id": "pseudo-label-self-training",
+          "score": 0.3333333333333333
+        }
+      ]
+    },
+    {
+      "person_id": "person-fcc58b8d857b",
+      "name": "Meng Hu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-9ddc9ff7ce0c": 0.2,
+        "lab-4f3942c218c8": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "adversarial-robustness",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "contrastive-learning",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "person_id": "person-fd26f5991b91",
+      "name": "Zhixin Li",
+      "group": "current",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-0f498c8f864f": 1.0,
+        "lab-7647c3b38f71": 0.2,
+        "lab-77b725acea33": 1.0,
+        "lab-82a7992c094e": 1.0,
+        "lab-bddb535117ca": 1.0
+      },
+      "keyword_papers": 1,
+      "total_papers": 5,
+      "keywords": [
+        {
+          "keyword_id": "hyperspectral-images",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "person_id": "person-fd4115f83457",
+      "name": "Ran Wang",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-5403cb1aad23": 0.2,
+        "lab-6e4e588f3743": 0.2,
+        "lab-9ddc9ff7ce0c": 1.0,
+        "lab-4f3942c218c8": 1.0,
+        "lab-8a85b44117f4": 0.2,
+        "lab-50d02eb604b9": 0.2,
+        "lab-1f9013eb2f8b": 0.2,
+        "lab-825376eac3f8": 0.2,
+        "lab-05c8a4098fe0": 0.2,
+        "lab-e407c5f18da5": 0.2,
+        "lab-f46fa8731916": 1.0,
+        "lab-719455bd7125": 0.2,
+        "lab-5a1fffb8e6b7": 0.2,
+        "lab-d08ff32d883d": 0.2,
+        "lab-b84d85c3683d": 0.2,
+        "lab-57c2d8cba676": 0.2,
+        "lab-e9f08a9f6baf": 1.0,
+        "lab-aa44a48ac9a1": 0.2,
+        "lab-bbbc3701492a": 1.0,
+        "lab-a27b9589d697": 1.0,
+        "lab-7d1305d1760e": 0.2
+      },
+      "keyword_papers": 17,
+      "total_papers": 21,
+      "keywords": [
+        {
+          "keyword_id": "adversarial-robustness",
+          "score": 0.45454545454545436
+        },
+        {
+          "keyword_id": "classifier-ensemble",
+          "score": 0.3636363636363635
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.33333333333333326
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.21212121212121204
+        },
+        {
+          "keyword_id": "class-imbalance",
+          "score": 0.18181818181818174
+        },
+        {
+          "keyword_id": "contrastive-learning",
+          "score": 0.15151515151515146
+        },
+        {
+          "keyword_id": "graph-structure-learning",
+          "score": 0.12121212121212117
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.12121212121212117
+        },
+        {
+          "keyword_id": "low-rank-modeling",
+          "score": 0.09090909090909088
+        },
+        {
+          "keyword_id": "semi-supervised-learning",
+          "score": 0.09090909090909088
+        },
+        {
+          "keyword_id": "bayesian-inference",
+          "score": 0.06060606060606059
+        },
+        {
+          "keyword_id": "ensemble-clustering",
+          "score": 0.06060606060606059
+        },
+        {
+          "keyword_id": "graph-manifold-regularization",
+          "score": 0.06060606060606059
+        },
+        {
+          "keyword_id": "nonnegative-matrix-factorization",
+          "score": 0.06060606060606059
+        },
+        {
+          "keyword_id": "pairwise-constraint-propagation",
+          "score": 0.06060606060606059
+        },
+        {
+          "keyword_id": "hallucination-mitigation",
+          "score": 0.030303030303030293
+        },
+        {
+          "keyword_id": "large-vision-language-models",
+          "score": 0.030303030303030293
+        },
+        {
+          "keyword_id": "partial-label-learning",
+          "score": 0.030303030303030293
+        },
+        {
+          "keyword_id": "sparse-representation",
+          "score": 0.030303030303030293
+        }
+      ]
+    },
+    {
+      "person_id": "person-fd8d7b55d31e",
+      "name": "Yang Liu",
+      "group": "other",
+      "identity_state": "confirmed_mapping",
+      "state": "ready",
+      "reason": "all_dependencies_ready",
+      "papers": {
+        "lab-a1005f21ac76": 0.2,
+        "lab-914c3b9e7d06": 0.2
+      },
+      "keyword_papers": 2,
+      "total_papers": 2,
+      "keywords": [
+        {
+          "keyword_id": "federated-learning",
+          "score": 1.0
+        },
+        {
+          "keyword_id": "label-correlation-modeling",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "label-distribution-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "multi-label-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "noisy-label-learning",
+          "score": 0.5
+        },
+        {
+          "keyword_id": "weakly-supervised-learning",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "person_id": "person-pending-lab-1025a6d4de24",
+      "name": "Hao Chen",
+      "group": "other",
+      "identity_state": "unresolved",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-1025a6d4de24": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    },
+    {
+      "person_id": "person-pending-lab-8a05dc1f7a41",
+      "name": "Hao Chen",
+      "group": "other",
+      "identity_state": "unresolved",
+      "state": "partial",
+      "reason": "identity_or_keyword_tasks_pending",
+      "papers": {
+        "lab-8a05dc1f7a41": 0.2
+      },
+      "keyword_papers": 0,
+      "total_papers": 1,
+      "keywords": []
+    }
+  ],
+  "summary": {
+    "total": 205,
+    "success": 126,
+    "explained_failure": 79,
+    "unexplained": 0,
+    "success_rate": 61.46,
+    "explained_failure_rate": 38.54,
+    "accounted_rate": 100.0,
+    "states": {
+      "ready": 126,
+      "partial": 79
+    }
+  },
+  "denominator": "Sum of author weights over papers with completed annotations; pending papers excluded, accepted empty included.",
+  "weights": {
+    "first": 1,
+    "others": 0.2,
+    "advisor_first_student_second": true
+  },
+  "scope": "full frozen lab corpus; UI filters must recompute from per-paper contributions"
+}

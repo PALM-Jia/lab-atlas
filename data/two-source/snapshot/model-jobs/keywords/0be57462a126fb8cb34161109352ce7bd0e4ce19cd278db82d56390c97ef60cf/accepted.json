@@ -1,0 +1,42 @@
+{
+  "task_sha256": "0be57462a126fb8cb34161109352ce7bd0e4ce19cd278db82d56390c97ef60cf",
+  "input_sha256": "5f10e2dc10efe2bb64f62c8815fb3aec12f02c9a17d7d5d3a8da2a6c5258cdb4",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "7324d831b80be5ff243222dc439e0d75eae90cb0049f66f1d461bd81191ae226",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "4683a28c9ccbd7fc09e450ef53ce82e788558f61c33922bf707cbe4af98da04f",
+  "raw_response": "{\"paper_id\":\"W2131628350\",\"input_sha256\":\"83bb2d473406372e761c4f1a1686252dc79d1a4016c76cc3609db6e48b3f926e\",\"keyword_ids\":[\"low-rank-modeling\",\"data-imputation-recovery\"],\"evidence\":[{\"keyword_id\":\"low-rank-modeling\",\"field\":\"title\",\"quote\":\"Low-Rank Matrices\"},{\"keyword_id\":\"data-imputation-recovery\",\"field\":\"title\",\"quote\":\"Exact Recovery of Corrupted Low-Rank Matrices\"}]}",
+  "value": {
+    "paper_id": "W2131628350",
+    "input_sha256": "83bb2d473406372e761c4f1a1686252dc79d1a4016c76cc3609db6e48b3f926e",
+    "keyword_ids": [
+      "low-rank-modeling",
+      "data-imputation-recovery"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "low-rank-modeling",
+        "field": "title",
+        "quote": "Low-Rank Matrices"
+      },
+      {
+        "keyword_id": "data-imputation-recovery",
+        "field": "title",
+        "quote": "Exact Recovery of Corrupted Low-Rank Matrices"
+      }
+    ]
+  }
+}

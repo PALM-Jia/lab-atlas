@@ -10,7 +10,7 @@ import subprocess
 import sys
 
 sys.dont_write_bytecode = True
-from export_workflow_guide import projections as workflow_projections
+from export_workflow_guide import projections as workflow_projections, workflow_contract
 
 ROOT = Path(__file__).resolve().parents[2]
 SITE = ROOT / 'outputs/paper-atlas'
@@ -115,6 +115,7 @@ def check(out):
     assert ids == set(read(ROOT/'data/atlas/paper-keywords.json')['papers'])
     assert ids == set(read(ROOT/'data/atlas/paper-fields.json')['papers'])
     contract = read(ROOT/'data/workflow/contract.json')
+    assert contract == workflow_contract(), 'Workflow contract differs from two-source protocol'
     assert [s['id'] for s in contract['stages']] == ['homepage','identity','lab-details','external','features']
     for target, (variable, expected) in workflow_projections().items():
         assert assignment(out/target, variable) == expected, 'Projection differs: '+target

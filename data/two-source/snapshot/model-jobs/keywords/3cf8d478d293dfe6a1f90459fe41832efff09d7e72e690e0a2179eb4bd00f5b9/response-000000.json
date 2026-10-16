@@ -1,0 +1,37 @@
+{
+  "request_sha256": "3fa7bce0882536aaac8c0f8da5018ca2c2894ce0e9e1c3fa82d0636bfde6947a",
+  "received_at": "2026-10-15T13:05:22+00:00",
+  "http": 200,
+  "response": {
+    "id": "89261ad9-e5b7-4d16-b054-c2602a6b506d",
+    "object": "chat.completion",
+    "created": 1792069517,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W4307959803\",\"input_sha256\":\"203692825c77fbcf861488c3c099829c41318169e874d98979cf63ea105e56fb\",\"keyword_ids\":[\"multi-label-learning\",\"semi-supervised-learning\"],\"evidence\":[{\"keyword_id\":\"multi-label-learning\",\"field\":\"title\",\"quote\":\"multi-label classification\"},{\"keyword_id\":\"semi-supervised-learning\",\"field\":\"title\",\"quote\":\"semi-supervised learning\"}]}",
+          "reasoning_content": "We need answer only JSON. Need label paper using title, abstract empty. Need strictly vocabulary. Need determine keywords from title. Title: \"A survey of multi-label classification based on supervised and semi-supervised learning\". Need use only title evidence conservatively. Need vocabulary definitions. Abstract missing allowed. Need choose IDs with literal continuous quote from given field. Since abstract empty, quotes only title.\n\nWe need label paper. It is a survey of multi-label classification based on supervised and semi-supervised learning. Keywords likely multi-label-learning, semi-supervised-learning. Maybe? It says supervised and semi-supervised learning. Multi-label learning definition: learning predict multiple relevant labels simultaneously; includes multi-label classification and recognition. Title literally \"multi-label classification\". So multi-label-learning yes.\n\nSemi-supervised learning definition: combining limited supervision info with unlabeled samples, or pairwise constraints; pure self-supervised unsupervised etc insufficient. Title says \"based on supervised and semi-supervised learning\" likely survey of multi-label classification methods based on supervised and semi-supervised learning. Does it substantively study semi-supervised learning? Yes title indicates based on supervised and semi-supervised learning. Need choose semi-supervised-learning. Evidence quote \"semi-supervised learning\" continuous.\n\nCould also choose weakly supervised? No, title doesn't mention weak supervision. Could choose classifier ensemble? No. Could choose multi-label? Yes. Could choose semi-supervised. Maybe \"supervised\" not in vocabulary. No.\n\nCould \"multi-label learning\" parent? no. Could \"semi-supervised learning\" research_setting.\n\nPotential issue: \"A survey\" not a contribution? Labeling the paper's topic. It's a survey, not a contribution? The prompt says label supplied paper using title/abstract; do not label merely cited/example/background task as paper's contribution. But for survey, topic? The vocabulary is keywords for paper. A survey of multi-label classification based on supervised and semi-supervised learning clearly about multi-label learning and semi-supervised learning. Should we include both. Need no extra prose. Evidence each chosen ID at least one quote. For multi-label-learning quote from title: \"multi-label classification\". Is that literal continuous? Yes title contains \"multi-label classification\". Does definition canonical_en \"Multi-label learning\" aliases include \"Multi-label classification\". Quote should be continuous from field. Good.\n\nFor semi-supervised-learning quote: \"semi-supervised learning\". Yes.\n\nMaybe also \"weakly supervised learning\"? No.\n\nMaybe \"open-vocabulary recognition\"? no.\n\nNeed JSON with paper_id, input_sha256, keyword_ids, evidence. Ensure no scores. Could include two evidence objects.\n\nNeed check if \"supervised\" itself maybe not keyword. No.\n\nNeed output exactly JSON object. Ensure valid JSON double quotes.\n\nLet's craft."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4863,
+      "completion_tokens": 678,
+      "total_tokens": 5541,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 572
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 255
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

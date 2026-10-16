@@ -1,0 +1,37 @@
+{
+  "request_sha256": "20a5f48b0aed9f165a9a30c5f1ebbecd87e1c68130f4e23a1e3bf053d8a8cce6",
+  "received_at": "2026-10-15T13:05:11+00:00",
+  "http": 200,
+  "response": {
+    "id": "80f32e5e-1f1a-4c0e-9d47-12f939d8ebd7",
+    "object": "chat.completion",
+    "created": 1792069507,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W4225747866\",\"input_sha256\":\"69d2c00777054f778accb3e3bb5bd2ea3ea2be9e57dcbfcc99576c6430da5d5c\",\"keyword_ids\":[\"parameter-efficient-fine-tuning\"],\"evidence\":[{\"keyword_id\":\"parameter-efficient-fine-tuning\",\"field\":\"title\",\"quote\":\"Visual Prompt Tuning\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label paper with title only? Abstract empty. Title \"Visual Prompt Tuning\". Need use vocabulary definitions. Need choose keyword IDs with evidence quote from title (abstract empty no quotes). Need be conservative.\n\nPaper title: Visual Prompt Tuning. This likely parameter-efficient fine-tuning? Definition: only train small incremental params or selected params to adapt pretrained model, including low-rank adapters, adapters, and continuous prompts; cannot infer from model name or inference acceleration. Title \"Visual Prompt Tuning\" strongly indicates prompt tuning, continuous prompts, parameter-efficient fine-tuning. It has no abstract. Need only title evidence. Is title sufficient? \"Prompt Tuning\" in visual context likely parameter-efficient fine-tuning. The vocabulary includes parameter-efficient fine-tuning. We can label it because title explicitly \"Visual Prompt Tuning\", and continuous prompts are included in PEFT. Evidence quote \"Visual Prompt Tuning\". Need consider vision-language models? Title doesn't mention VLMs. Not enough. Large language models? no. Deep clustering etc no.\n\nCould there be \"Visual Prompt Tuning\" as method, but maybe not explicitly \"parameter-efficient\"? Prompt tuning is a PEFT method. The definition explicitly includes continuous prompts. So yes parameter-efficient-fine-tuning.\n\nAny other? Maybe \"Large vision-language models\" if visual prompt tuning applied to VLMs? Not from title. No abstract. Cannot.\n\nNeed produce JSON with paper_id, input_sha256, keyword_ids, evidence. Every chosen ID at least one literal continuous quote from title/abstract. For PEFT, quote title exactly \"Visual Prompt Tuning\" continuous. field \"title\". If choose only one.\n\nNeed ensure valid JSON. final only JSON."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4862,
+      "completion_tokens": 440,
+      "total_tokens": 5302,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 348
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 254
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

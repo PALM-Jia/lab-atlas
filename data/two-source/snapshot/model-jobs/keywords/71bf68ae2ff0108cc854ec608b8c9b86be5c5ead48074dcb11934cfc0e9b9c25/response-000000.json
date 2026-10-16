@@ -1,0 +1,37 @@
+{
+  "request_sha256": "74d8b4a2996c6c781341af837b8d6ecd4990b1393553c1a5ef776c6d072c954a",
+  "received_at": "2026-10-15T13:05:07+00:00",
+  "http": 200,
+  "response": {
+    "id": "d35bba87-f54e-4639-8d34-9237f2234a40",
+    "object": "chat.completion",
+    "created": 1792069501,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W3143596294\",\"input_sha256\":\"439c0ef32fb65528636c891a76b49621921dc1ba4cf1c25ba6d60edeb8ff03fa\",\"keyword_ids\":[\"nonnegative-matrix-factorization\"],\"evidence\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"field\":\"title\",\"quote\":\"NON-NEGATIVE MATRIX FACTORIZATION\"}]}",
+          "reasoning_content": "We need answer only JSON. Need label paper using title, abstract empty. Title: \"ALGORITHMS FOR NON-NEGATIVE MATRIX FACTORIZATION\". Need choose keywords from vocabulary. Likely \"Nonnegative matrix factorization\" id nonnegative-matrix-factorization. Also maybe \"Dimensionality reduction\"? Title only algorithms for NMF. Definition: NMF method. Does NMF paper count dimensionality reduction? Need be conservative. Title says algorithms for non-negative matrix factorization. Directly canonical method. Maybe low-rank modeling? NMF is low-rank, but keyword specific NMF is present. Parent not automatically. Could choose nonnegative-matrix-factorization only. Maybe \"Dimensionality reduction\" because NMF used for dimensionality reduction? But title doesn't say dimensionality reduction; NMF itself can be method but task? Definition says research explicit low-dimensional mapping or embedding with dimension compression goal; only hidden layers not sufficient. NMF algorithms could be for factorization, not necessarily dimensionality reduction. Not enough. Low-rank modeling? Definition explicit low-rank constraints, decomposition or approximation. NMF is a matrix decomposition, but low-rank modeling may apply. However specific NMF selected; can include both? Need apply definitions. NMF definition: \"以非负因子分解矩阵，含对称非负矩阵分解；一般低秩分解或仅非负约束不充分.\" Title exactly NMF. Low-rank modeling: \"显式利用矩阵或张量低秩约束、分解或近似表示相关结构；仅作为被批评的旧假设不充分，LoRA的参数化也不自动等同于数据低秩建模.\" NMF is a matrix factorization, often low-rank? Title doesn't explicitly mention low-rank. \"Non-negative matrix factorization\" is a decomposition, but whether it's low-rank modeling? It is a factorization, typically rank parameter. But evidence conservative. Since abstract empty, title only. Could include nonnegative-matrix-factorization definitely. Maybe no parent. Need quote literal continuous from title: \"NON-NEGATIVE MATRIX FACTORIZATION\" or \"ALGORITHMS FOR NON-NEGATIVE MATRIX FACTORIZATION\". For keyword nonnegative-matrix-factorization quote \"NON-NEGATIVE MATRIX FACTORIZATION\". Field title. Could also quote \"ALGORITHMS FOR NON-NEGATIVE MATRIX FACTORIZATION\".\n\nNeed decide if include \"low-rank-modeling\" maybe title \"NON-NEGATIVE MATRIX FACTORIZATION\" indicates matrix factorization, which is generally low-rank? But definition of low-rank modeling requires explicit low-rank constraints, decomposition or approximation. Matrix factorization itself may be low-rank decomposition. But is it \"显式利用矩阵或张量低秩约束、分解或近似表示相关结构\"? Nonnegative matrix factorization is a matrix decomposition. However title does not say low-rank. The keyword definition warns \"一般低秩分解或仅非负约束不充分\" for NMF? Wait for NMF definition: \"以非负因子分解矩阵，含对称非负矩阵分解；一般低秩分解或仅非负约束不充分。\" It says NMF is nonnegative factorization; general low-rank decomposition or only nonnegative constraint not sufficient. If title only NMF, that's exactly nonnegative matrix factorization. Low-rank modeling definition: \"显式利用矩阵或张量低秩约束、分解或近似表示相关结构...\" NMF is decomposition but not necessarily low-rank constraint explicitly. I'd avoid low-rank modeling due to specificity and no abstract.\n\nCould include \"dimensionality reduction\"? No.\n\nCould include \"Multi-objective optimization\"? No.\n\nCould include \"Sparse representation\"? No.\n\nCould include \"Graph and manifold regularization\"? No.\n\nCould include \"Bayesian inference\"? No.\n\nPotential \"Algorithms\" maybe not keyword.\n\nThus final JSON with paper_id, input_sha256, keyword_ids [\"nonnegative-matrix-factorization\"], evidence one quote. Need ensure schema. No extra prose.\n\nLet's craft exact JSON."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4870,
+      "completion_tokens": 914,
+      "total_tokens": 5784,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 817
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 134
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

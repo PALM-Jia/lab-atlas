@@ -1,0 +1,37 @@
+{
+  "request_sha256": "0b3e74d36b81074120814c37a9e826ab32d01bc30f49ca2072cba8a3de4b3720",
+  "received_at": "2026-10-15T13:04:22+00:00",
+  "http": 200,
+  "response": {
+    "id": "cfc03eb8-272f-44ad-a136-2f1127a1d587",
+    "object": "chat.completion",
+    "created": 1792069460,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W2088748973\",\"input_sha256\":\"d450f864a9361abfece582229722192a85ef3b2984950fc76f3fea885ae40b46\",\"keyword_ids\":[],\"evidence\":[]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title, abstract, vocabulary. Need determine keywords. Paper title: \"Algorithm 432 [C2]: Solution of the matrix equation AX + XB = C [F4]\". Abstract appears weird: \"1) DO 2 J=I*N B(I~J)=B(I,J)-B(IR*J)*A(1) 0 CONTINUE 3\". This is likely a numerical algorithm for Sylvester equation. Need use supplied 49 vocabulary. Need choose relevant keywords with evidence quotes from title/abstract. Must not invent. Need apply definitions. Empty list valid if none.\n\nWe need assess if any keyword matches. Paper about solving matrix equation AX + XB = C. This is linear algebra algorithm. Vocabulary mostly ML tasks/methods. Does it fit any? Low-rank modeling? Matrix equation solution not necessarily low-rank. Nonnegative matrix factorization? No. Dimensionality reduction? No. Bayesian inference? No. Sparse representation? No. Graph? No. Data imputation? No. Numerical algorithm? Not in vocab. So likely empty keyword list. But need consider \"Low-rank modeling\": explicit use matrix/tensor low-rank constraints/decomposition/approximation related structure. Title: \"Solution of matrix equation AX + XB = C\" no low-rank. Abstract mentions B(I,J)-B(IR*J)*A(1) no. Not sufficient. None.\n\nNeed output JSON: paper_id, input_sha256, keyword_ids array empty, evidence array empty. Ensure valid JSON.\n\nBut let's be careful: The paper might be in benchmark, title includes Algorithm 432 [C2]: Solution of the matrix equation AX + XB = C [F4]. Could be about numerical linear algebra. No keyword in given vocabulary. So empty.\n\nNeed return exactly JSON object. Use given input_sha256. keyword_ids empty, evidence empty. No extra prose.\n\nFinal."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4909,
+      "completion_tokens": 457,
+      "total_tokens": 5366,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 398
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 173
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

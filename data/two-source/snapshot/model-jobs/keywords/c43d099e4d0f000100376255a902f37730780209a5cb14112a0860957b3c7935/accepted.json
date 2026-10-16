@@ -1,0 +1,42 @@
+{
+  "task_sha256": "c43d099e4d0f000100376255a902f37730780209a5cb14112a0860957b3c7935",
+  "input_sha256": "3f5ac7a9b31f5a4587b352b1a9d29a646c868d4f91e1255a1d72a554d06cbb1a",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "2a64aa6c10dee9f83d98629e2b039b117f63447108b7eeaad4fc0e794e55d9f0",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "2d67bd827a635b1e804871702a46ede41418d7610729fedfcefe239b789f36ac",
+  "raw_response": "{\"paper_id\":\"W3196788510\",\"input_sha256\":\"473ed2c5433333b258bb2421b34f80eb93614b8ac7699e136303d296cc915c72\",\"keyword_ids\":[\"data-imputation-recovery\",\"traffic-data\"],\"evidence\":[{\"keyword_id\":\"data-imputation-recovery\",\"field\":\"title\",\"quote\":\"traffic data imputation\"},{\"keyword_id\":\"traffic-data\",\"field\":\"title\",\"quote\":\"traffic data\"}]}",
+  "value": {
+    "paper_id": "W3196788510",
+    "input_sha256": "473ed2c5433333b258bb2421b34f80eb93614b8ac7699e136303d296cc915c72",
+    "keyword_ids": [
+      "data-imputation-recovery",
+      "traffic-data"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "data-imputation-recovery",
+        "field": "title",
+        "quote": "traffic data imputation"
+      },
+      {
+        "keyword_id": "traffic-data",
+        "field": "title",
+        "quote": "traffic data"
+      }
+    ]
+  }
+}

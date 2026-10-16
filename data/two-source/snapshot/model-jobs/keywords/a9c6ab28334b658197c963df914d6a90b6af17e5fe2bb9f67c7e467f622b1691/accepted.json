@@ -1,0 +1,54 @@
+{
+  "task_sha256": "a9c6ab28334b658197c963df914d6a90b6af17e5fe2bb9f67c7e467f622b1691",
+  "input_sha256": "8994ba92bd5e8837b35d84af82a69012bb904bc305f1a37cd9994c6a2b85e353",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "9262ecd6f001c3a629bce554f4fe390cd108c25ab52178075072ab63578f1614",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "fab3538357ab6f580156b4ab7e170c3091b8a060e63f30dd7758bdf7e3068ceb",
+  "raw_response": "{\"paper_id\":\"W4413241333\",\"input_sha256\":\"59c603ec0436a1f86c3d3e64359dd6fbffbc3b2b5d401b863be3eb93381c154c\",\"keyword_ids\":[\"deep-clustering\",\"graph-neural-networks\",\"graph-manifold-regularization\",\"hyperspectral-images\"],\"evidence\":[{\"keyword_id\":\"deep-clustering\",\"field\":\"title\",\"quote\":\"Graph Convolutional with Locality Preserving Low-Pass Embedding for Large-Scale Hyperspectral Image Clustering\"},{\"keyword_id\":\"graph-neural-networks\",\"field\":\"title\",\"quote\":\"Graph Convolutional\"},{\"keyword_id\":\"graph-manifold-regularization\",\"field\":\"title\",\"quote\":\"Locality Preserving Low-Pass Embedding\"},{\"keyword_id\":\"hyperspectral-images\",\"field\":\"title\",\"quote\":\"Hyperspectral Image\"}]}",
+  "value": {
+    "paper_id": "W4413241333",
+    "input_sha256": "59c603ec0436a1f86c3d3e64359dd6fbffbc3b2b5d401b863be3eb93381c154c",
+    "keyword_ids": [
+      "deep-clustering",
+      "graph-neural-networks",
+      "graph-manifold-regularization",
+      "hyperspectral-images"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "deep-clustering",
+        "field": "title",
+        "quote": "Graph Convolutional with Locality Preserving Low-Pass Embedding for Large-Scale Hyperspectral Image Clustering"
+      },
+      {
+        "keyword_id": "graph-neural-networks",
+        "field": "title",
+        "quote": "Graph Convolutional"
+      },
+      {
+        "keyword_id": "graph-manifold-regularization",
+        "field": "title",
+        "quote": "Locality Preserving Low-Pass Embedding"
+      },
+      {
+        "keyword_id": "hyperspectral-images",
+        "field": "title",
+        "quote": "Hyperspectral Image"
+      }
+    ]
+  }
+}

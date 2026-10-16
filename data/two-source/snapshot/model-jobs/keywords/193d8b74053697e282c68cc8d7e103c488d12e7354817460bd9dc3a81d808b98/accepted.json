@@ -1,0 +1,42 @@
+{
+  "task_sha256": "193d8b74053697e282c68cc8d7e103c488d12e7354817460bd9dc3a81d808b98",
+  "input_sha256": "ee065daa8fe62ed1d713e0e4be84808a5245bb3ff908111d3d383ae2b4a3b110",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "ce2ec70fe7d7d69367952a5edca5e0d842f1975e9af863f4ebe1f9533d52c63e",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "57f78b12f5aa89325f6902f4825f4e1c98188f9901130f82a12e2449880f8152",
+  "raw_response": "{\"paper_id\":\"W7171499425\",\"input_sha256\":\"cadc0373428203e38fd598d50f8bec7c94cce87592ddfe539f8e85564b7f9a02\",\"keyword_ids\":[\"deep-clustering\",\"bayesian-inference\"],\"evidence\":[{\"keyword_id\":\"deep-clustering\",\"field\":\"title\",\"quote\":\"Graph Clustering with Attention Mechanism\"},{\"keyword_id\":\"bayesian-inference\",\"field\":\"title\",\"quote\":\"Variational\"}]}",
+  "value": {
+    "paper_id": "W7171499425",
+    "input_sha256": "cadc0373428203e38fd598d50f8bec7c94cce87592ddfe539f8e85564b7f9a02",
+    "keyword_ids": [
+      "deep-clustering",
+      "bayesian-inference"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "deep-clustering",
+        "field": "title",
+        "quote": "Graph Clustering with Attention Mechanism"
+      },
+      {
+        "keyword_id": "bayesian-inference",
+        "field": "title",
+        "quote": "Variational"
+      }
+    ]
+  }
+}

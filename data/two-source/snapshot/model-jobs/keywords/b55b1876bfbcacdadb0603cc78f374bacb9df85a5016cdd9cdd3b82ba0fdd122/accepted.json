@@ -1,0 +1,42 @@
+{
+  "task_sha256": "b55b1876bfbcacdadb0603cc78f374bacb9df85a5016cdd9cdd3b82ba0fdd122",
+  "input_sha256": "e1aac2d980f387f26dd5ace23862faf868b1b3307b0cbdef63d42e1c28d183c3",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "65e68d5eb2b4982ef290f1633cc6b1a3c0d0d481731ad1bfd63ea8dd250bff1c",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "eead3a032506b7e54d44b6a91b93c284557f9d98057d1bf78354389d0aaa5c8f",
+  "raw_response": "{\"paper_id\":\"W4414888044\",\"input_sha256\":\"74a432fd3d30b0fd57fee0e0d21b7ddbf986b950f9b721ba95911da8fea5f92c\",\"keyword_ids\":[\"multi-label-learning\",\"weakly-supervised-learning\"],\"evidence\":[{\"keyword_id\":\"multi-label-learning\",\"field\":\"title\",\"quote\":\"multi-label learning\"},{\"keyword_id\":\"weakly-supervised-learning\",\"field\":\"title\",\"quote\":\"partial multi-label learning\"}]}",
+  "value": {
+    "paper_id": "W4414888044",
+    "input_sha256": "74a432fd3d30b0fd57fee0e0d21b7ddbf986b950f9b721ba95911da8fea5f92c",
+    "keyword_ids": [
+      "multi-label-learning",
+      "weakly-supervised-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "multi-label-learning",
+        "field": "title",
+        "quote": "multi-label learning"
+      },
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "field": "title",
+        "quote": "partial multi-label learning"
+      }
+    ]
+  }
+}

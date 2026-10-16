@@ -1,0 +1,37 @@
+{
+  "request_sha256": "a7c028c11b4af191ebcf7de523e869f0ad0f649a6ba017f7f519813040121b41",
+  "received_at": "2026-10-15T13:05:07+00:00",
+  "http": 200,
+  "response": {
+    "id": "d52e7077-e188-4066-b914-8a713a33f3b3",
+    "object": "chat.completion",
+    "created": 1792069500,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W3119120717\",\"input_sha256\":\"9acd24d0d128377c4110f01ce6c7f0d547a8b20057ab6148efe1ad5a2c6f234b\",\"keyword_ids\":[\"dimensionality-reduction\"],\"evidence\":[{\"keyword_id\":\"dimensionality-reduction\",\"field\":\"title\",\"quote\":\"Subspace learning\"}]}",
+          "reasoning_content": "We need answer JSON. Need label using title only, abstract empty. Title: \"Subspace learning for facial expression recognition: an overview and a new perspective\". Need map to vocabulary. Need conservative. Available 49. Title mentions subspace learning, facial expression recognition. Vocabulary has Subspace clustering, Dimensionality reduction. \"Subspace learning\" not exactly subspace clustering? Definition subspace clustering: grouping samples by latent subspaces usually self-expression; general dimensionality reduction then clustering not sufficient. \"Subspace learning\" could be dimensionality reduction? Need only vocabulary terms. Dimensionality reduction: research explicit low-dimensional mapping/embedding with dimension compression. Title says subspace learning for facial expression recognition: overview and new perspective. Could be dimensionality reduction? The paper likely surveys subspace learning methods for FER, maybe includes dimensionality reduction. But no abstract. Title evidence conservative. Need choose keywords with literal quotes from title. Possible:\n- Dimensionality reduction? \"subspace learning\" term evidence? Does subspace learning imply dimensionality reduction? Definition: research explicit low-dimensional mapping or embedding and dimension compression; only hidden layers/features insufficient. Subspace learning is often dimensionality reduction. But keyword \"Dimensionality reduction\" canonical_en. We can quote \"Subspace learning\" from title. Is that enough? It says apply definitions. Hmm maybe yes: subspace learning explicitly learns low-dimensional subspace, usually for feature extraction/dimensionality reduction. But could also be subspace clustering? The title doesn't mention clustering. So not subspace clustering. \n- Image segmentation no.\n- Face? No facial expression recognition keyword in vocab. Multi-label? no.\n- Weakly supervised? no.\n- Large? no.\n- Application object? none.\nMaybe only \"dimensionality reduction\". Also \"Subspace learning\" could fall under \"Subspace clustering\"? No clustering. The paper is about facial expression recognition, but no vocabulary for facial expression recognition. Dimensionality reduction is a research task/method? primary_dimension research_task. It may be the main subject? \"Subspace learning\" is related to dimensionality reduction. Need evidence quote continuous from title. Use title quote \"Subspace learning\" or full title. Keyword id \"dimensionality-reduction\". But is subspace learning equivalent? In many contexts, subspace learning = dimensionality reduction. The definition says \"研究显式的低维映射或嵌入并以维度压缩为目标；仅存在隐藏层或特征向量不充分.\" Subspace learning explicitly learns low-dimensional subspace. Yes likely.\n\nCould also \"Multi-view learning\"? No.\n\n\"Graph and manifold regularization\"? Maybe subspace learning can include manifold? Title doesn't say.\n\n\"Low-rank modeling\"? Subspace learning often low-rank? But title only \"subspace learning\"; low-rank not in title. No.\n\n\"Image segmentation\" no.\n\n\"Facial expression recognition\" is application but no keyword.\n\nNeed produce JSON with paper_id, input_sha256, keyword_ids array, evidence array. If only one keyword. Every chosen ID must have at least one literal continuous quote from title/abstract. We can quote \"Subspace learning\". Need field title. Maybe quote full title \"Subspace learning for facial expression recognition: an overview and a new perspective\" to support? For dimensionality-reduction, quote \"Subspace learning\" is enough? It's exact term from title. Could quote \"Subspace learning for facial expression recognition\" perhaps. But evidence quote must be continuous. We'll use \"Subspace learning\". But does that support dimensionality reduction? The phrase itself. Definition is about low-dimensional mapping. Yes.\n\nMaybe also \"Subspace clustering\"? Wait title says \"Subspace learning\", not clustering. Definition subspace clustering \"按样本所属潜在子空间进行分组，通常利用自表达关系；一般的降维后聚类不充分。\" If title doesn't mention clustering/grouping, cannot. Do not.\n\nWhat about \"Multi-label learning\"? Facial expression recognition can be multi-label? Not in title. No.\n\nCould there be \"Weakly supervised learning\" due to \"overview\"? no.\n\n\"Dataset distillation\"? no.\n\nThus final: keyword_ids [\"dimensionality-reduction\"], evidence [{\"keyword_id\":\"dimensionality-reduction\",\"field\":\"title\",\"quote\":\"Subspace learning\"}].\n\nNeed ensure JSON only no prose. \nWait instructions: \"Label the supplied paper using ONLY its title, available abstract and the supplied 49-item vocabulary.\" \"Do not ... label a merely cited/example/background task as contribution.\" This is an overview. Title says \"an overview and a new perspective\". Does dimensionality reduction as topic? It is overview of subspace learning for FER. Could be review, not necessarily contribution. But labeling paper's topic maybe. However keyword is research_task; overview might discuss many. But no abstract. Is it safe? The title's main topic is subspace learning. It is likely a review. The task says label paper using title. \"An overview\" means it's a survey. Should we assign dimensionality reduction because \"subspace learning\" is the topic? Yes.\n\nMaybe \"Subspace learning\" might better map to \"Subspace clustering\" if subspace learning includes clustering? But title says facial expression recognition, likely supervised classification. Facial expression recognition is classification, not clustering. Subspace learning for FER = feature extraction/dimensionality reduction. So dimensionality reduction.\n\nNeed maybe include \"facial expression recognition\" not in vocab. No.\n\nFinal answer only JSON."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4874,
+      "completion_tokens": 1186,
+      "total_tokens": 6060,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1095
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 138
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

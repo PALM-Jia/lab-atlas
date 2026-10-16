@@ -1,0 +1,36 @@
+{
+  "task_sha256": "c8f9da1c18b37167a137f779359fe4c21fc981608ae1d3a22cf59f777edf91af",
+  "input_sha256": "305fa6a4723b99b07d471a8369af9a72cabc32782c8e63a0a8bb1db529a5d1d5",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "2405cc35808b673011162f25813e98b51c1b5fb89d51c79bbf0dec1d4c96a46b",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "c42ac4e6994c74d68943d04dc5350fedc9e99bf228dbdd12245e983f0c570977",
+  "raw_response": "{\"paper_id\":\"W4412154440\",\"input_sha256\":\"e4c9fe3add5d40a333872d96c3fb7e06a20c8262dfffd48983cc8dd1d4799923\",\"keyword_ids\":[\"multi-label-learning\"],\"evidence\":[{\"keyword_id\":\"multi-label-learning\",\"field\":\"title\",\"quote\":\"Multi-label learning\"}]}",
+  "value": {
+    "paper_id": "W4412154440",
+    "input_sha256": "e4c9fe3add5d40a333872d96c3fb7e06a20c8262dfffd48983cc8dd1d4799923",
+    "keyword_ids": [
+      "multi-label-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "multi-label-learning",
+        "field": "title",
+        "quote": "Multi-label learning"
+      }
+    ]
+  }
+}

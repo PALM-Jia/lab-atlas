@@ -1,0 +1,42 @@
+{
+  "task_sha256": "1423cd505a68467582c0c136deb8e6b9049e0e2a89422c1ad4939bbb4787010a",
+  "input_sha256": "5cf1f6c8d5864936d8a231d0d04472f3ff8250799c4ca28380dca29d973e8ea7",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "ed6b3670cfda461c1115c56405e2dc46df756e9b6fa45df07bfb371fb9fd9e4f",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "0225dabcf4a42f58c1deff6e1f49bea29f25bc35c0caab8ca5c0c3735279c382",
+  "raw_response": "{\"paper_id\":\"W4403005829\",\"input_sha256\":\"9e41d124deff5ce53d79838c64023d300e5ce12a10cf0d2f45a6f9b606b7a122\",\"keyword_ids\":[\"deep-clustering\",\"graph-neural-networks\"],\"evidence\":[{\"keyword_id\":\"deep-clustering\",\"field\":\"title\",\"quote\":\"graph attention-guided graph clustering\"},{\"keyword_id\":\"graph-neural-networks\",\"field\":\"title\",\"quote\":\"graph attention-guided\"}]}",
+  "value": {
+    "paper_id": "W4403005829",
+    "input_sha256": "9e41d124deff5ce53d79838c64023d300e5ce12a10cf0d2f45a6f9b606b7a122",
+    "keyword_ids": [
+      "deep-clustering",
+      "graph-neural-networks"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "deep-clustering",
+        "field": "title",
+        "quote": "graph attention-guided graph clustering"
+      },
+      {
+        "keyword_id": "graph-neural-networks",
+        "field": "title",
+        "quote": "graph attention-guided"
+      }
+    ]
+  }
+}

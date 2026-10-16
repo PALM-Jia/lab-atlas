@@ -1,0 +1,37 @@
+{
+  "request_sha256": "187908ca160eeace9021bf3824b573c257716f6cd9de9a1d06b159e03db59d52",
+  "received_at": "2026-10-15T13:04:56+00:00",
+  "http": 200,
+  "response": {
+    "id": "35def25d-02cf-4bc2-bfb1-21328c43b9d8",
+    "object": "chat.completion",
+    "created": 1792069492,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W2911964244\",\"input_sha256\":\"50350e6aa4c34e01891d45b905227bfd6db647eaf9e5c4ed60d9f8347d85f0c7\",\"keyword_ids\":[\"classifier-ensemble\"],\"evidence\":[{\"keyword_id\":\"classifier-ensemble\",\"field\":\"title\",\"quote\":\"Random Forests\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label paper with title \"Random Forests\". Abstract empty. Use vocabulary. Need determine keywords from title and available abstract. Title \"Random Forests\". This is likely Breiman 2001? \"Random Forests\" paper. Need label based solely title and abstract. Vocabulary has no random forest. Could it map to classifier ensemble? Definition: combining multiple classifiers predictions or assign experts per sample for classification; clustering consensus and model weight merging not equivalent. Random Forests are ensemble of decision trees, classifier ensemble likely. Need title evidence quote \"Random Forests\" continuous. Keyword id classifier-ensemble. Need consider other keywords? Maybe multi-objective? No. \"Random Forests\" is method ensemble learning, classification/regression. Vocabulary only classifier ensemble. It is a classifier ensemble technique. Parent? No parent. Need one quote title. Evidence must quote literal. Quote: \"Random Forests\". keyword_ids [\"classifier-ensemble\"]. Need ensure no outside facts? Title alone \"Random Forests\" evidence for classifier ensemble? The definition says combines multiple classifiers predictions. Random forests by title? Is that outside? Maybe title indicates random forests, which are classifier ensembles. The instructions: Do not browse, use outside facts. But applying vocabulary definitions to title. \"Random Forests\" is a named method that is a classifier ensemble. Reasonable. However could be too outside? The title alone may not explicitly say classifier ensemble. But vocabulary definitions include aliases \"Ensemble classification\" and definition. We can infer Random Forests are classifier ensemble? The task likely expects label if title says random forests. Need maybe also \"Multi-label learning\"? No.\n\nNeed output JSON with paper_id, input_sha256, keyword_ids, evidence. No extra prose. Ensure quote continuous from title exactly. If abstract empty, evidence field title. One keyword only. Need no invented quote. Final JSON.\n\nBut let's think if any other keyword applicable: \"Multi-objective optimization\"? Random forest might optimize Gini/accuracy? Not title. \"Low-rank modeling\"? no. \"Data imputation\"? Random forests can impute missing values? Actually random forests have proximity imputation, but title alone no. \"Dimensionality reduction\"? random forests can compute variable importance but no. \"Ensemble clustering\"? no. \"Classifier ensemble\" yes. \"Graph...\" no. Could \"Random Forests\" be under \"multi-label learning\"? Random forest can be adapted to multi-label classification, but title no. No. Could \"large language models\"? No.\n\nNeed maybe include evidence quote as title exactly \"Random Forests\". keyword id \"classifier-ensemble\". JSON.\n\nFinal."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4862,
+      "completion_tokens": 621,
+      "total_tokens": 5483,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 531
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 254
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

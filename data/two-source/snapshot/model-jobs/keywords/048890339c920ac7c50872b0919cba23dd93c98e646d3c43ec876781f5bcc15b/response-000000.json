@@ -1,0 +1,37 @@
+{
+  "request_sha256": "e7efa78e561da8106ab3a0b48c0de3037e9cbf17efb4bde0ae610daf1ee5917b",
+  "received_at": "2026-10-15T13:04:54+00:00",
+  "http": 200,
+  "response": {
+    "id": "9ea2c79c-6aad-491d-af95-8d5cd384d465",
+    "object": "chat.completion",
+    "created": 1792069490,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W2886255780\",\"input_sha256\":\"c7b2e21ea2989bc4a21f4101143a8059f08608eaf75a654a7d0a91008c3d8cbd\",\"keyword_ids\":[\"deep-clustering\"],\"evidence\":[{\"keyword_id\":\"deep-clustering\",\"field\":\"title\",\"quote\":\"Deep k-Means: Jointly clustering with k-Means and learning representations\"}]}",
+          "reasoning_content": "We need answer only JSON. Need label based on title, no abstract. Paper title: \"Deep k-Means: Jointly clustering with k-Means and learning representations\". Need use vocabulary, definitions. Need determine keywords.\n\nTitle indicates deep clustering? \"Deep k-Means: Jointly clustering with k-Means and learning representations\". It is a paper about jointly clustering with k-means and learning representations. That matches Deep clustering definition: uses learnable neural representations and/or clustering head obtain data partitions; traditional clustering on fixed pretrained features not auto. Title has \"Deep\" and \"learning representations\", jointly clustering. So deep-clustering likely. Does it also involve k-means? Vocabulary has no k-means. Maybe deep clustering only.\n\nNeed maybe \"Dimensionality reduction\"? Learning representations could be representation learning, but definition: explicit low-dimensional mapping/embedding with dimensionality compression objective; only hidden layers/feature vectors insufficient. Title \"learning representations\" not necessarily dimensionality reduction. No.\n\nMaybe \"Graph...\" no.\n\nCould be \"Deep clustering\" definitely. Need evidence quote from title: \"Deep k-Means: Jointly clustering with k-Means and learning representations\" can quote entire title or phrase. It is continuous. Need at least one literal continuous quote from title field. Use quote maybe \"Deep k-Means: Jointly clustering with k-Means and learning representations\". That supports deep clustering? Evidence: title contains \"Deep\" and \"clustering\" and \"learning representations\". Deep clustering definition: learnable neural representations and/or clustering head. Title \"Deep k-Means\" implies deep clustering. But maybe quote must be literal continuous. Entire title. Could just choose.\n\nShould we include \"Multi-objective optimization\"? Jointly clustering and learning representations could be multiple objectives? But definition: multiple constrained objectives solving Pareto; model has multiple loss terms or joint training insufficient. Title \"Jointly clustering ... and learning representations\" maybe joint training, but not necessarily multi-objective optimization. Not sufficient.\n\nCould include \"Contrastive learning\"? no.\n\nCould include \"Semi-supervised learning\"? no.\n\nCould include \"Model merging\"? no.\n\nMaybe \"Deep clustering\" only.\n\nNeed JSON with paper_id, input_sha256, keyword_ids, evidence. Ensure exact schema. No extra. Evidence array one item.\n\nLet's craft. {\"paper_id\":\"W2886255780\",\"input_sha256\":\"c7b2e21ea2989bc4a21f4101143a8059f08608eaf75a654a7d0a91008c3d8cbd\",\"keyword_ids\":[\"deep-clustering\"],\"evidence\":[{\"keyword_id\":\"deep-clustering\",\"field\":\"title\",\"quote\":\"Deep k-Means: Jointly clustering with k-Means and learning representations\"}]}\n\nNeed ensure valid JSON. Final."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4875,
+      "completion_tokens": 680,
+      "total_tokens": 5555,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 579
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 139
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

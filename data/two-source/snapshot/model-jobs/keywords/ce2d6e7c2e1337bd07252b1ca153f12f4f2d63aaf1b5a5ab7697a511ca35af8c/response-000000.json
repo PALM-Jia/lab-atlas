@@ -1,0 +1,37 @@
+{
+  "request_sha256": "6a804e81890fa54db1cad45e6ba55a92a44c639a03dc6299852edaac054e40fa",
+  "received_at": "2026-10-15T13:05:25+00:00",
+  "http": 200,
+  "response": {
+    "id": "cbca553f-1d01-4405-ad28-bf3c7c94d087",
+    "object": "chat.completion",
+    "created": 1792069522,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W4247093658\",\"input_sha256\":\"049352adf3e810889573dba22fc76f0b1d80c3ce70dc3bebf62ca87ec569367e\",\"keyword_ids\":[\"hyperspectral-images\"],\"evidence\":[{\"keyword_id\":\"hyperspectral-images\",\"field\":\"title\",\"quote\":\"HyMap hyperspectral remote sensing to detect hydrocarbons\"}]}",
+          "reasoning_content": "We need answer only JSON. Need label paper using title/abstract and vocabulary. Need decide keyword_ids. Paper title: \"HyMap hyperspectral remote sensing to detect hydrocarbons\". Abstract about airborne hyperspectral remote sensing methods detect hydrocarbons, reference areas, data corrections, HyMap hyperspectral imaging. Vocabulary 49. Need apply definitions. Likely keyword: Hyperspectral images (application_object) because processing hyperspectral images. Maybe no others. Could be weakly supervised? no. Image segmentation? no. Data imputation? no. Multi-label? no. Maybe \"Hyperspectral images\" canon. Evidence title and abstract. Need at least one literal quote. Paper_id, input_sha256, keyword_ids list, evidence for each chosen.\n\nNeed be conservative. Title contains \"hyperspectral\". Abstract: \"airborne hyperspectral remote sensing methods\", \"HyMap hyperspectral imaging system\". Definitely hyperspectral images. The definition: 处理具有密集光谱波段的图像，包括其分类、聚类、表示与解混；一般遥感或RGB图像不充分. This paper is about hyperspectral remote sensing data/images. Yes.\n\nAny other? \"Data imputation and recovery\"? no, corrections? \"Data corrections and further processing\" maybe atmospheric correction not necessary. Not estimating missing observations. \"Domain adaptation\"? no. \"Weakly supervised\"? no. \"Remote sensing\" not in vocab. \"Image segmentation\"? no. \"Multi-label learning\"? no.\n\nCould \"Sparse representation\" no. \"Low-rank modeling\" no. \"Graph...\" no. \"Bayesian\" no.\n\nThus one keyword. Need evidence quote from title: \"hyperspectral\" maybe continuous quote. Better quote \"HyMap hyperspectral remote sensing to detect hydrocarbons\" from title. That supports hyperspectral images. Or abstract quote \"airborne hyperspectral remote sensing methods\" supports. Need field title or abstract. Use title quote: exact title. It includes hyperspectral remote sensing. Good.\n\nNeed output JSON only. Ensure valid JSON. No extra prose.\n\nFinal: {\"paper_id\":\"W4247093658\",\"input_sha256\":\"049352adf3e810889573dba22fc76f0b1d80c3ce70dc3bebf62ca87ec569367e\",\"keyword_ids\":[\"hyperspectral-images\"],\"evidence\":[{\"keyword_id\":\"hyperspectral-images\",\"field\":\"title\",\"quote\":\"HyMap hyperspectral remote sensing to detect hydrocarbons\"}]}\n\nCheck quote continuous exact title. Yes.\n\nNeed maybe evidence from abstract too? At least one per chosen. That's enough.\n\nEnsure JSON object."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5077,
+      "completion_tokens": 624,
+      "total_tokens": 5701,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 532
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 341
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

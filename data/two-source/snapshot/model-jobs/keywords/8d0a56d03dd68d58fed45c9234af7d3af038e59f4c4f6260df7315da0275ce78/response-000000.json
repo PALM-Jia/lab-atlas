@@ -1,0 +1,8 @@
+{
+  "request_sha256": "d60706a97820733183fbd2601c5aa2c1f459b32a4b5c478eececd47b7c21e12c",
+  "received_at": "2026-10-15T13:09:58+00:00",
+  "http": 0,
+  "response": {
+    "error": "The read operation timed out"
+  }
+}

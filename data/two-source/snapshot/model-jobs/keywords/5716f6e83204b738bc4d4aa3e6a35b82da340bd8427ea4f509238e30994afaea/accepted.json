@@ -1,0 +1,42 @@
+{
+  "task_sha256": "5716f6e83204b738bc4d4aa3e6a35b82da340bd8427ea4f509238e30994afaea",
+  "input_sha256": "2ad618f5583fbae5b1396a6fb17d516748813f2a5ff72c72e46ab490f200ea06",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "08e7ecc862d768694eff9e5a95abbe30aada6d9246a31ba95c0ff5ab30ecd6bc",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "e9fb4277a3d24dd2a8885ae89fb7ef23e56c0cf5098e898af31a9c67c2e83893",
+  "raw_response": "{\"paper_id\":\"W4413398904\",\"input_sha256\":\"a864b6e076c22667ce9d2eb30698daccb3fe8dab150317bf54c289a05b123491\",\"keyword_ids\":[\"deep-clustering\",\"graph-neural-networks\"],\"evidence\":[{\"keyword_id\":\"deep-clustering\",\"field\":\"title\",\"quote\":\"DSGAC: deep self-supervised global attention for attributed graph clustering\"},{\"keyword_id\":\"graph-neural-networks\",\"field\":\"title\",\"quote\":\"deep self-supervised global attention for attributed graph clustering\"}]}",
+  "value": {
+    "paper_id": "W4413398904",
+    "input_sha256": "a864b6e076c22667ce9d2eb30698daccb3fe8dab150317bf54c289a05b123491",
+    "keyword_ids": [
+      "deep-clustering",
+      "graph-neural-networks"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "deep-clustering",
+        "field": "title",
+        "quote": "DSGAC: deep self-supervised global attention for attributed graph clustering"
+      },
+      {
+        "keyword_id": "graph-neural-networks",
+        "field": "title",
+        "quote": "deep self-supervised global attention for attributed graph clustering"
+      }
+    ]
+  }
+}

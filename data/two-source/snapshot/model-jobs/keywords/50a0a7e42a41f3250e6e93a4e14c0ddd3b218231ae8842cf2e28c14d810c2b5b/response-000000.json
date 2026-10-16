@@ -1,0 +1,37 @@
+{
+  "request_sha256": "272581ccbf63c9415fd36b59699c6be84c36c6d1dee95a66b92742fef0aeda2a",
+  "received_at": "2026-10-15T13:03:56+00:00",
+  "http": 200,
+  "response": {
+    "id": "2a9ac1fb-9584-4d7c-925f-5bc05ef27a8b",
+    "object": "chat.completion",
+    "created": 1792069431,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"lab-fdadc630f8db\",\"input_sha256\":\"24d51e7f04ca67c2289dc1f348c2e53b3f21dd5e5b05aed190d4fa9890084ec2\",\"keyword_ids\":[\"label-enhancement\"],\"evidence\":[{\"keyword_id\":\"label-enhancement\",\"field\":\"title\",\"quote\":\"Label enhancement\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title only (abstract empty). Need inspect title: \"Label enhancement by manifold fusion of feature and label spaces\". Vocabulary. Need choose keyword IDs with evidence quotes from title.\n\nWe must apply definitions. Title mentions Label enhancement. That maps exactly id label-enhancement? Definition: 从逻辑标签恢复或构建更细致的标签分布; not general data augmentation. Title \"Label enhancement\" yes. Need evidence quote continuous from title: \"Label enhancement\" exactly. So keyword_ids include \"label-enhancement\".\n\nAlso \"manifold fusion of feature and label spaces\" perhaps graph and manifold regularization? Title \"manifold fusion\" maybe method. Definition graph-manifold-regularization: use neighborhood, graph Laplacian or hypergraph structures to impose geometric consistency constraints. Does title support? \"manifold fusion\" not explicitly regularization, but manifold fusion of spaces. Could be manifold learning? There is no \"manifold learning\" keyword. Graph and manifold regularization maybe if using manifold fusion. But definition says graph/manifold regularization. Title says manifold fusion of feature and label spaces. Is that enough? We must be conservative. The paper likely label enhancement via manifold fusion. But label-enhancement only likely. Could also \"multi-label learning\"? Label enhancement often for label distribution learning; title doesn't mention multi-label or label distribution. Definition label distribution learning: predict relative description degree; label enhancement recovers label distribution. But title only label enhancement, not label distribution learning. Should we include label-distribution-learning? The task says do not label merely cited/background; missing abstract use title conservatively. Label enhancement is distinct task. Title doesn't mention label distribution. But label enhancement by definition recovers/builds label distribution; however keyword label-enhancement already covers. Should we include label-distribution-learning? It says Label distribution learning is predicting relative degree. Title \"Label enhancement\" could be a task in LDL but not explicitly. Conservative no.\n\n\"Manifold fusion of feature and label spaces\" maybe \"Graph and manifold regularization\" because manifold fusion uses manifold regularization. But title lacks graph, Laplacian, regularization, consistency. It says manifold fusion. Definition \"用邻域、图拉普拉斯或超图等结构对学习结果施加几何一致性约束；图神经网络或图构造本身不等价。\" Manifold fusion of feature and label spaces maybe a method for fusion, not clearly regularization. Hmm.\n\n\"Feature and label spaces\" maybe multi-view? No, not multiple views. \"Label correlation modeling\"? It models relationships between feature and label spaces, not label-label correlation. No.\n\n\"Low-rank modeling\"? No.\n\nCould \"label enhancement\" parent none. Maybe no others. Need include evidence for each chosen ID. If only label-enhancement, keyword_ids [\"label-enhancement\"], evidence quote \"Label enhancement\".\n\nNeed ensure quote continuous from title. Yes \"Label enhancement\" is continuous. The field title.\n\nReturn JSON exact schema. Need no extra prose. Paper_id given. input_sha256 given. Should be valid JSON. Use double quotes."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4873,
+      "completion_tokens": 737,
+      "total_tokens": 5610,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 642
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 265
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

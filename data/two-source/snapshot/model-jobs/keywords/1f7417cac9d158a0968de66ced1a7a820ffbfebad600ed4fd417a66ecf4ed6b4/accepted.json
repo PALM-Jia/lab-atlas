@@ -1,0 +1,54 @@
+{
+  "task_sha256": "1f7417cac9d158a0968de66ced1a7a820ffbfebad600ed4fd417a66ecf4ed6b4",
+  "input_sha256": "c07ea671e7a88a0b42dea130df380d03569111380cb9e675f3677e5f777c41dd",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "45009ed9a1d1a9ac453723cb8929d01440ee6f08c187840c005c7575d80f358e",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "34d74c10d57e9db396479329af1224da45eacf0f1bddea4ab2abb19e758624c7",
+  "raw_response": "{\"paper_id\":\"lab-a6e1c503e9fd\",\"input_sha256\":\"094b7a2e0f21f048a57e6598e412958a28bcbb324c7679f53e91f84bdb645cac\",\"keyword_ids\":[\"value-preference-alignment\",\"knowledge-distillation\",\"pseudo-label-self-training\",\"weakly-supervised-learning\"],\"evidence\":[{\"keyword_id\":\"value-preference-alignment\",\"field\":\"abstract\",\"quote\":\"enabling a fully local training loop via direct preference optimization or group relative policy optimization.\"},{\"keyword_id\":\"knowledge-distillation\",\"field\":\"abstract\",\"quote\":\"distills the teacher's preference-optimization capability from black-box generations into a locally trainable student.\"},{\"keyword_id\":\"pseudo-label-self-training\",\"field\":\"abstract\",\"quote\":\"locally sample multiple student candidates, and perform anchor-conditioned self-ranking to induce pairwise or listwise preferences\"},{\"keyword_id\":\"weakly-supervised-learning\",\"field\":\"abstract\",\"quote\":\"Without human-labeled preferences or a reward model\"}]}",
+  "value": {
+    "paper_id": "lab-a6e1c503e9fd",
+    "input_sha256": "094b7a2e0f21f048a57e6598e412958a28bcbb324c7679f53e91f84bdb645cac",
+    "keyword_ids": [
+      "value-preference-alignment",
+      "knowledge-distillation",
+      "pseudo-label-self-training",
+      "weakly-supervised-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "value-preference-alignment",
+        "field": "abstract",
+        "quote": "enabling a fully local training loop via direct preference optimization or group relative policy optimization."
+      },
+      {
+        "keyword_id": "knowledge-distillation",
+        "field": "abstract",
+        "quote": "distills the teacher's preference-optimization capability from black-box generations into a locally trainable student."
+      },
+      {
+        "keyword_id": "pseudo-label-self-training",
+        "field": "abstract",
+        "quote": "locally sample multiple student candidates, and perform anchor-conditioned self-ranking to induce pairwise or listwise preferences"
+      },
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "field": "abstract",
+        "quote": "Without human-labeled preferences or a reward model"
+      }
+    ]
+  }
+}

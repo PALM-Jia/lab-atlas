@@ -1,0 +1,42 @@
+{
+  "task_sha256": "4fd12d5a37fdea8bd3f96d8b9e97d9462bd960e6f22ea53be9723b7d3303f2ca",
+  "input_sha256": "00023acb2275eb2536989d128c3479bb4b7f4bd55c9d4ec9e0dd51024e8920f5",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "7461469d7431adb6a3c4e713662793f18499020ea8f538eef28d396516359f3d",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "c9e5fc8733688452b87070e5644355bbac2e26047bc8f1614d67e60a25551e2e",
+  "raw_response": "{\"paper_id\":\"W2160419739\",\"input_sha256\":\"c8d76f8ac2eb81f171d6ac7b8cfc20eac13dc8fba8f0783b678ccc6e024b8ace\",\"keyword_ids\":[\"pairwise-constraint-propagation\",\"semi-supervised-learning\"],\"evidence\":[{\"keyword_id\":\"pairwise-constraint-propagation\",\"field\":\"title\",\"quote\":\"Constraint Propagation\"},{\"keyword_id\":\"semi-supervised-learning\",\"field\":\"title\",\"quote\":\"Constrained Spectral Clustering\"}]}",
+  "value": {
+    "paper_id": "W2160419739",
+    "input_sha256": "c8d76f8ac2eb81f171d6ac7b8cfc20eac13dc8fba8f0783b678ccc6e024b8ace",
+    "keyword_ids": [
+      "pairwise-constraint-propagation",
+      "semi-supervised-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "pairwise-constraint-propagation",
+        "field": "title",
+        "quote": "Constraint Propagation"
+      },
+      {
+        "keyword_id": "semi-supervised-learning",
+        "field": "title",
+        "quote": "Constrained Spectral Clustering"
+      }
+    ]
+  }
+}

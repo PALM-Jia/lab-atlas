@@ -1,0 +1,42 @@
+{
+  "task_sha256": "c8592e39d3757ce258b67593d497a49fee544b1ca03e7e251b91908a48c2dde4",
+  "input_sha256": "927e88623808970448a1346db409e846ca6386cd52d87d4e6253fafcd065dbf5",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "e0c490a292aca10faed81b1d18959e5d8981a7db0bbcac4813960a044a9fd581",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "a47a6f18a7d90f28c63491d479185116c26f0344d9fd9e5fc4ca69fc92816b5d",
+  "raw_response": "{\"paper_id\":\"lab-10ec9a4b941d\",\"input_sha256\":\"42eac91b97814fb9be08d7c211fa2b8ec7d8d19532425d3ea0afc33b50a31f51\",\"keyword_ids\":[\"partial-label-learning\",\"pairwise-constraint-propagation\"],\"evidence\":[{\"keyword_id\":\"partial-label-learning\",\"field\":\"title\",\"quote\":\"Partial Label Learning\"},{\"keyword_id\":\"pairwise-constraint-propagation\",\"field\":\"title\",\"quote\":\"Dissimilarity Propagation\"}]}",
+  "value": {
+    "paper_id": "lab-10ec9a4b941d",
+    "input_sha256": "42eac91b97814fb9be08d7c211fa2b8ec7d8d19532425d3ea0afc33b50a31f51",
+    "keyword_ids": [
+      "partial-label-learning",
+      "pairwise-constraint-propagation"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "partial-label-learning",
+        "field": "title",
+        "quote": "Partial Label Learning"
+      },
+      {
+        "keyword_id": "pairwise-constraint-propagation",
+        "field": "title",
+        "quote": "Dissimilarity Propagation"
+      }
+    ]
+  }
+}

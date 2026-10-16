@@ -1,0 +1,36 @@
+{
+  "task_sha256": "53d6468086a689e228ab73247d6300945efe2cd648626f01e2a49f49bf5f6aa4",
+  "input_sha256": "f597abd4cce84208168c22b3065c190dedbf5770ca6feb7908a0babd233d91cf",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "9bc4e199714bdf28d19d589fa39117dff3c204530150d721e4365fab6c1d591c",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "46d11f5c979b4810de694d10d169f60844cc854639e7b5abd13cc5d347dd72e4",
+  "raw_response": "{\"paper_id\":\"W4404726533\",\"input_sha256\":\"9185816f1a7d9ce88d600b6e019ed594c879a01fcac8498f1837b1d07ce7c4f5\",\"keyword_ids\":[\"multi-view-learning\"],\"evidence\":[{\"keyword_id\":\"multi-view-learning\",\"field\":\"title\",\"quote\":\"incomplete multi-view clustering\"}]}",
+  "value": {
+    "paper_id": "W4404726533",
+    "input_sha256": "9185816f1a7d9ce88d600b6e019ed594c879a01fcac8498f1837b1d07ce7c4f5",
+    "keyword_ids": [
+      "multi-view-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "multi-view-learning",
+        "field": "title",
+        "quote": "incomplete multi-view clustering"
+      }
+    ]
+  }
+}

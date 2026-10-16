@@ -1,0 +1,36 @@
+{
+  "task_sha256": "4caac1da458d92525c840439c2002d7080baa9520a0643f80b9d790e64f21449",
+  "input_sha256": "099cbcf7ff7075749d9bf382c1968eafce768b96dd57aa0455fb029ce54baf3d",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "b1e0770679d54f186bdc939e764d57215aea5fde5dff120885bd6618cfe14f0a",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "7e8d79f050e34b236ac03559709c1cec029bdbf29cd5c7eba43d2328ae45cf55",
+  "raw_response": "{\"paper_id\":\"W7204963515\",\"input_sha256\":\"9e92cb4fc907e46354479e7515c549ade7af23d5bd08801670f5c7f90c3b45c9\",\"keyword_ids\":[\"person-reidentification\"],\"evidence\":[{\"keyword_id\":\"person-reidentification\",\"field\":\"title\",\"quote\":\"Person Re-Identification\"}]}",
+  "value": {
+    "paper_id": "W7204963515",
+    "input_sha256": "9e92cb4fc907e46354479e7515c549ade7af23d5bd08801670f5c7f90c3b45c9",
+    "keyword_ids": [
+      "person-reidentification"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "person-reidentification",
+        "field": "title",
+        "quote": "Person Re-Identification"
+      }
+    ]
+  }
+}

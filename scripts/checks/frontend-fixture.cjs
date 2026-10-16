@@ -22,7 +22,7 @@ for(const file of scripts){
  if(file==='cytoscape.min.js')vm.runInContext(`const realCytoscape=cytoscape;cytoscape=options=>{globalThis.testCy=realCytoscape({...options,container:undefined,headless:true});return testCy;};`,context);
 }
 cy=context.testCy;
-const allYears=()=>{for(const [id,value] of [['year-from',Number(el('year-from').min)],['year-to',Number(el('year-to').max)]]){el(id).value=value;el(id).onchange({target:el(id),type:'change'});}el('year-unknown').checked=true;el('year-unknown').onchange({target:{checked:true}});};
+const allYears=()=>{for(const [id,value] of [['year-from',Number(el('year-from').min)],['year-to',Number(el('year-to').max)]]){el(id).value=value;el(id).onchange({target:el(id),type:'change'});}};
 
 return {cy,el,views,window,allYears,detailClick,context,timelineCalls,scripts};
 };

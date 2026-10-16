@@ -1,0 +1,36 @@
+{
+  "task_sha256": "2433af58bba75aa5d9f3fe4e543f7380ac733e59c8d6537d83ab77e322946f64",
+  "input_sha256": "41086cd7e101fc8edc58fc8e64c014d3f60fd4ab466d0eaa696ec10f3844bdf5",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "930461d09b5a0aad124430eff93cc44b3402febbf32d50e746ba17090c27671e",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "72ea2148becbd917f60c1ff0ee251f8252137dd06fd636588921bb7c1f313aa1",
+  "raw_response": "{\"paper_id\":\"W4402495249\",\"input_sha256\":\"9cee41e89e3ac9d6acd5955821017218e927205d409bcd1ef26ef81885c71345\",\"keyword_ids\":[\"deep-clustering\"],\"evidence\":[{\"keyword_id\":\"deep-clustering\",\"field\":\"title\",\"quote\":\"deep document clustering\"}]}",
+  "value": {
+    "paper_id": "W4402495249",
+    "input_sha256": "9cee41e89e3ac9d6acd5955821017218e927205d409bcd1ef26ef81885c71345",
+    "keyword_ids": [
+      "deep-clustering"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "deep-clustering",
+        "field": "title",
+        "quote": "deep document clustering"
+      }
+    ]
+  }
+}

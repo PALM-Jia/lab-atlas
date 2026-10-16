@@ -1,0 +1,37 @@
+{
+  "request_sha256": "94726a135c169740a5dcb01e4d852fe31c0b99e2e2bf669baa8f68164e33562f",
+  "received_at": "2026-10-15T13:03:54+00:00",
+  "http": 200,
+  "response": {
+    "id": "472cd6bc-8fb0-47c7-b793-4383eb6b7cf8",
+    "object": "chat.completion",
+    "created": 1792069427,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"lab-dccd5bfa936b\",\"input_sha256\":\"afd9f1dfd4c786b7a96f0d31b41d672d69f2717a62ab591f5cf3331738773385\",\"keyword_ids\":[\"model-merging\"],\"evidence\":[{\"keyword_id\":\"model-merging\",\"field\":\"title\",\"quote\":\"LoRA Model Merging\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title/abstract. Abstract empty. Need choose keyword IDs based on title conservatively. Title: \"PGSB: Pretrained-Guided Shared Basis for LoRA Model Merging\"\n\nNeed apply vocabulary. Likely model merging? Model merging definition: merge multiple trained models in parameter/update space. Title has \"LoRA Model Merging\". So keyword \"model-merging\". Also parameter-efficient fine-tuning? LoRA is low-rank adaptation, parameter-efficient fine-tuning. Title mentions LoRA. Definition includes low-rank adaptation. Is LoRA model merging about PEFT? It involves LoRA modules, shared basis. Could be parameter-efficient fine-tuning? The paper likely about merging LoRA models. Since LoRA is parameter-efficient fine-tuning method, but task is model merging. Does title evidence support PEFT? \"LoRA\" is a PEFT method. Vocabulary says includes low-rank adaptation. However title \"LoRA Model Merging\" uses LoRA as objects to merge, not fine-tuning? Could still count? Need be conservative. \"Parameter-efficient fine-tuning\" definition: only train small incremental params or selected params to adapt pretrained model, including low-rank adaptation, adapters, prompts; cannot infer from model name. Here title \"LoRA Model Merging\" suggests merging LoRA models, not fine-tuning. Maybe not chosen unless explicitly about fine-tuning. But \"LoRA\" is low-rank adaptation, which is PEFT. However the task is merging, not fine-tuning. The keyword could be method used, but definition says PEFT method; title only indicates LoRA, not that it trains adapters. Could be model merging of LoRA. Need decide.\n\nAlso low-rank modeling? LoRA = low-rank adaptation. Definition: explicit use matrix/tensor low-rank constraints, decomposition/approx; LoRA parameterization doesn't automatically equate to data low-rank modeling. This says LoRA parameterization not automatically equal data low-rank modeling. So likely not chosen. Also \"Shared Basis\" maybe low-rank? Not enough.\n\nNeed include evidence literal continuous quote from title. For model-merging quote: \"Model Merging\" or full title? Must be literal continuous quote. Can use full title. Each chosen ID at least one quote from given field. We can include title quote \"PGSB: Pretrained-Guided Shared Basis for LoRA Model Merging\" for model-merging. Maybe also for PEFT if choose. Need maybe \"LoRA\" quote. But quote must continuous. \"LoRA\" is continuous in title. Could support PEFT? Hmm.\n\nNeed maybe also \"large language models\"? Title doesn't mention LLM. No.\n\n\"Vision-language models\"? no.\n\n\"Low-rank modeling\"? LoRA acronym? Title has LoRA. The vocabulary definition explicitly: LoRA's parameterization does not automatically equate to data low-rank modeling. So probably should not select low-rank-modeling.\n\n\"Parameter-efficient fine-tuning\" definition includes low-rank adaptation. If title says LoRA model merging, the paper may be about merging models after PEFT. But the core research task is model merging. The vocabulary says model merging in parameter or update space merge multiple trained models to preserve capabilities; different from prediction voting or distillation. LoRA model merging exactly. So choose model-merging.\n\nShould we select PEFT? The paper might propose a pretrained-guided shared basis for LoRA model merging; perhaps it involves LoRA merging, not fine-tuning. The title doesn't mention fine-tuning, training. The definition says cannot infer simply from model name. \"LoRA\" alone might be model name? It is low-rank adaptation, a PEFT method. But no evidence of training small incremental parameters. Since abstract missing and title only, conservatively maybe not. But if title \"LoRA Model Merging\" indicates merging LoRA models, the LoRA modules are PEFT parameters. Yet the research contribution likely model merging. Could include PEFT? The instruction: do not label merely cited/example/background task as contribution. Title is main. LoRA is in title; PEFT is method underlying LoRA. Is it a contribution? Possibly they design shared basis for LoRA model merging, not PEFT training. I'd omit PEFT to be conservative.\n\n\"Pretrained-Guided Shared Basis\" maybe parameter-efficient fine-tuning? Pretrained model used. Not enough.\n\n\"Model merging\" definitely.\n\nPotential \"Low-rank modeling\"? \"LoRA\" stands for low-rank adaptation. Title \"LoRA\" and \"Shared Basis\". The definition says LoRA parameterization doesn't automatically equal data low-rank modeling. So no.\n\n\"Knowledge distillation\"? no.\n\n\"Value alignment\"? no.\n\n\"Multi-objective optimization\"? no.\n\nCould \"Model merging\" definition \"merge multiple trained models\" exactly title.\n\nNeed output JSON with paper_id, input_sha256, keyword_ids array, evidence array. For chosen model-merging, field title, quote \"Model Merging\". That's continuous in title. Maybe \"LoRA Model Merging\" also. Should quote enough. Use exact substring. We can use full title? It is continuous. For each chosen ID, one evidence. Since only one keyword, one evidence. Ensure JSON valid no extra prose.\n\nBut maybe there is a parent? model-merging parent null. Fine.\n\nNeed check if \"model merging\" keyword id \"model-merging\". Yes.\n\nReturn JSON."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4878,
+      "completion_tokens": 1199,
+      "total_tokens": 6077,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1106
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 270
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

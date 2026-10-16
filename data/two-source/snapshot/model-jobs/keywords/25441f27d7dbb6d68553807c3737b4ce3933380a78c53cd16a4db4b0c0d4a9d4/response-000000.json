@@ -1,0 +1,37 @@
+{
+  "request_sha256": "288e66cfc1a0566bd8d7c95967d6f7eff5074cea0abbd3b65093481707c6dbc3",
+  "received_at": "2026-10-15T13:04:07+00:00",
+  "http": 200,
+  "response": {
+    "id": "d3922b82-f9f5-4608-b057-cf2ad926198a",
+    "object": "chat.completion",
+    "created": 1792069442,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"lab-bbbc3701492a\",\"input_sha256\":\"f1660065d81e0b08f57fffc1d135930092ff061c0feb83e77d9b3a70b344efc8\",\"keyword_ids\":[\"adversarial-robustness\"],\"evidence\":[{\"keyword_id\":\"adversarial-robustness\",\"field\":\"title\",\"quote\":\"Adversarial Robustness\"}]}",
+          "reasoning_content": "We need answer only JSON. Need label with vocabulary. Need inspect title/abstract. Paper about adversarial robustness via two-stage training. Likely keyword adversarial-robustness. Any others? Let's analyze definitions.\n\nTitle: \"Improving the Adversarial Robustness of Deep Neural Networks via Efficient Two-Stage Training\". Abstract: proactive defense, enhance adversarial robustness DNNs. Two-stage training: map input samples into feature embedding space with high separability, second stage fixes feature generator and learns parameters only for last layer for classification. Cuts off interactions between parameter updating for deep feature generator and classifier, discovers relationship between adversarial robustness and separability in embedding space.\n\nPotential keywords:\n- adversarial-robustness definitely. Quote title or abstract.\n- parameter-efficient fine-tuning? It freezes feature generator and only learns last layer. But definition: only train small incremental params or selected params to adapt pretrained model, including low-rank adapters, adapters, prompts. Here two-stage training likely training from scratch? \"feature generator\" and \"last layer\", not necessarily pretrained. Could be parameter-efficient fine-tuning? Need be cautious. The abstract says second stage fixes feature generator and learns parameters only for last layer for classification. This is selective parameter training, but not necessarily pretrained model. PEFT defined \"适配预训练模型\". No evidence pretrained. So likely not.\n- representation learning? Not keyword.\n- Contrastive learning? No.\n- Dimensionality reduction? No, feature embedding space for separability, not explicit low-dimensional mapping? No.\n- Deep clustering? No.\n- Multi-objective optimization? No.\n- Semi-supervised? No.\n- Domain adaptation? No.\n- Adversarial robustness only.\n\nNeed produce evidence quote literal continuous from title/abstract. For keyword adversarial-robustness, quote from title \"Adversarial Robustness\" and/or abstract \"enhance the adversarial robustness of DNNs\". Must exact continuous. Use field title quote \"Adversarial Robustness\" continuous? Title has \"Improving the Adversarial Robustness of Deep Neural Networks via Efficient Two-Stage Training\" contains \"Adversarial Robustness\" exact uppercase. Good. Could also abstract. At least one quote. JSON paper_id, input_sha256, keyword_ids, evidence.\n\nNeed ensure no extra prose. Return JSON object.\n\nCheck if \"Adversarial robustness\" definition: research model under deliberately constructed attacks. This paper explicitly. Good.\n\nCould there be \"parameter-efficient fine-tuning\" due to \"fixes the feature generator and learns parameters only for last layer\". Definition says only train少量增量参数或选定参数以适配预训练模型. It doesn't say pretrained; \"including ...\". But \"or selected parameters\" maybe. However abstract not mention pretrained model. DNN training. \"feature generator\" might be pretrained? No. \"two-stage training\" not PEFT. Also \"efficient\" in title might imply efficiency, but PEFT requires pretrained. Not enough. So no.\n\nCould be \"dimensionality reduction\" because embedding space? Definition explicit low-dimensional mapping or embedding with dimension compression as goal. Here goal separability not dimension reduction. No.\n\n\"graph-manifold regularization\"? no.\n\n\"classifier ensemble\"? no.\n\n\"multi-objective optimization\"? no.\n\nTherefore one keyword.\n\nNeed final JSON only. Ensure no markdown."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5090,
+      "completion_tokens": 787,
+      "total_tokens": 5877,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 688
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 354
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

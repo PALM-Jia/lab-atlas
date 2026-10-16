@@ -1,0 +1,37 @@
+{
+  "request_sha256": "81e17f048f3f212ad8d39901e445d913cefb2749db7dcad689e812110bacb16a",
+  "received_at": "2026-10-15T13:04:01+00:00",
+  "http": 200,
+  "response": {
+    "id": "93aa6109-c1b3-4669-89fd-eb996a2eccf1",
+    "object": "chat.completion",
+    "created": 1792069435,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"lab-d7d729a798a9\",\"input_sha256\":\"1a9798e3393dfa5d9b4dcba513a7c29864f5fcd7e965364bab83b023a27dc9fe\",\"keyword_ids\":[\"label-distribution-learning\",\"semi-supervised-learning\",\"label-correlation-modeling\"],\"evidence\":[{\"keyword_id\":\"label-distribution-learning\",\"field\":\"title\",\"quote\":\"Label Distribution Learning\"},{\"keyword_id\":\"semi-supervised-learning\",\"field\":\"title\",\"quote\":\"Semi-Supervised\"},{\"keyword_id\":\"label-correlation-modeling\",\"field\":\"title\",\"quote\":\"Rank Correlation between Labels\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title, abstract empty. Need choose keyword IDs with evidence quote from title. Need apply definitions. Title: \"RankMatch: A Novel Approach to Semi-Supervised Label Distribution Learning Leveraging Rank Correlation between Labels\"\n\nWe need identify keywords. Must quote literal continuous from title. Abstract empty so evidence field title. Need only IDs with evidence. Need avoid outside. Let's parse title.\n\nIt mentions \"Semi-Supervised Label Distribution Learning\" -> label distribution learning (research_task) present? Definition: predicting relative description degree of each label for instance. Title explicitly label distribution learning. Yes.\n\n\"Leveraging Rank Correlation between Labels\" -> label correlation modeling? Definition: explicitly modeling label co-occurrence, dependency, ordering, or local correlation structure. \"Rank Correlation between Labels\" explicitly label correlation. Yes method label-correlation-modeling. Need quote continuous: \"Rank Correlation between Labels\" or \"Leveraging Rank Correlation between Labels\". Good.\n\n\"Semi-Supervised\" -> semi-supervised learning? Definition: combines limited supervision info with unlabeled samples, or limited pairwise constraints. Title \"Semi-Supervised\" indicates research setting. Yes semi-supervised-learning. Quote \"Semi-Supervised\" continuous within \"Semi-Supervised Label Distribution Learning\" yes.\n\n\"Rank\" maybe learning to rank? No vocab. \"RankMatch\" no.\n\nCould be \"weakly supervised learning\"? Semi-supervised is separate; don't infer weak. No.\n\nCould be \"label enhancement\"? Label distribution learning maybe label distribution from labels? But title doesn't mention enhancement. No.\n\nCould be \"label correlation modeling\" yes.\n\nCould be \"contrastive learning\"? Match? RankMatch likely method but title no explicit contrastive. No.\n\nCould be \"multi-label learning\"? Label distribution learning distinct, not multi-label. No.\n\nCould be \"partial label learning\"? no.\n\nCould be \"class imbalance\"? no.\n\nCould be \"noisy-label learning\"? no.\n\nCould be \"open-vocabulary recognition\" maybe definition says current paper only supports title-level multi-label recognition setting, but title is label distribution not multi-label. No.\n\nNeed maybe \"semi-supervised label distribution learning\" as label distribution learning and semi-supervised learning. Parent not automatically? label-distribution-learning parent null. semi-supervised parent null.\n\nPotential \"Rank correlation between labels\" maybe not just label correlation but rank correlation. Definition label correlation modeling explicitly includes \"排序\" (ordering/ranking). Yes.\n\nNeed ensure every chosen ID has at least one literal continuous quote from title. We can provide evidence. The schema: {\"paper_id\": string, \"input_sha256\": string, \"keyword_ids\": [string], \"evidence\": [{\"keyword_id\": string, \"field\":\"title\",\"quote\": string}]}. No extra prose.\n\nNeed decide if include \"label-distribution-learning\", \"semi-supervised-learning\", \"label-correlation-modeling\". Maybe \"deep clustering\"? no. \"contrastive learning\"? RankMatch maybe matching rank? Not explicit, title no.\n\nNeed maybe \"multi-label learning\"? Label distribution learning is separate, title explicitly LDR. The vocabulary definition distinguishes not same as multi-label. So no.\n\nPotential \"learning with noisy labels\"? no.\n\nPotential \"low-rank modeling\"? no.\n\nPotential \"classification ensemble\"? no.\n\nPotential \"confidence calibration\"? no.\n\nPotential \"parameter-efficient fine-tuning\"? no.\n\nPotential \"large language models\"? no.\n\nNeed maybe \"research_setting: semi-supervised learning\" yes.\n\nNeed maybe \"label distribution learning\" is task. Quote exact: \"Label Distribution Learning\" appears in title. Good.\n\nNeed maybe evidence for label-correlation: \"Rank Correlation between Labels\" appears. Good.\n\nNeed maybe evidence for semi-supervised: \"Semi-Supervised\" appears with hyphen. Title: \"Semi-Supervised Label Distribution Learning\". The quote can be \"Semi-Supervised\". Continuous? In string \"Semi-Supervised\" yes (hyphen included). Good. Could quote \"Semi-Supervised Label Distribution Learning\" for both LDR and SSL? But each evidence quote must be continuous. Could use same quote? likely okay. But better distinct quotes. For LDR quote \"Label Distribution Learning\"; for SSL quote \"Semi-Supervised\". For label correlation quote \"Rank Correlation between Labels\".\n\nNeed final JSON no markdown? The instruction says return JSON. We can output raw JSON. Ensure exactly schema.\n\nNeed input_sha256 given. paper_id lab-d7d729a798a9.\n\nLet's final."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4881,
+      "completion_tokens": 1075,
+      "total_tokens": 5956,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 928
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 273
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

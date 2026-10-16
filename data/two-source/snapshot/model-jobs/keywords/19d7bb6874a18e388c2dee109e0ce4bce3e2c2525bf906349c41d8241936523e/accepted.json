@@ -1,0 +1,42 @@
+{
+  "task_sha256": "19d7bb6874a18e388c2dee109e0ce4bce3e2c2525bf906349c41d8241936523e",
+  "input_sha256": "aee92f61ef19deb9d1ac4630b38d75bfcdea267c8536b8667a22b426153312e9",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "baa7eeeeb7cff6175a9cd6606e5a3bac39f41dfd20f791cc82050b48876687ac",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "77ca99cf202eacb75d2b1316cea6ac7c215bf930d188eebbff8551f5d638ae52",
+  "raw_response": "{\"paper_id\":\"W2118718620\",\"input_sha256\":\"990f76f70fb567fd66bc6b67e420c82c4ebcd2b53bd56caba6b6e5423e75f0c4\",\"keyword_ids\":[\"nonnegative-matrix-factorization\",\"sparse-representation\"],\"evidence\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"field\":\"title\",\"quote\":\"Non-negative matrix factorization\"},{\"keyword_id\":\"sparse-representation\",\"field\":\"title\",\"quote\":\"sparseness constraints\"}]}",
+  "value": {
+    "paper_id": "W2118718620",
+    "input_sha256": "990f76f70fb567fd66bc6b67e420c82c4ebcd2b53bd56caba6b6e5423e75f0c4",
+    "keyword_ids": [
+      "nonnegative-matrix-factorization",
+      "sparse-representation"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "nonnegative-matrix-factorization",
+        "field": "title",
+        "quote": "Non-negative matrix factorization"
+      },
+      {
+        "keyword_id": "sparse-representation",
+        "field": "title",
+        "quote": "sparseness constraints"
+      }
+    ]
+  }
+}

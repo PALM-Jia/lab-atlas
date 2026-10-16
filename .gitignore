@@ -30,3 +30,6 @@ work/reports/
 # Adopted facts and reusable tools are under data/ and scripts/.
 # Full request/annotation runs and historical patches remain local in work/.
 /work/
+
+# Verified local copy; v1.0 tag retains the original tracked data.
+/_legacy/v1.0/data/

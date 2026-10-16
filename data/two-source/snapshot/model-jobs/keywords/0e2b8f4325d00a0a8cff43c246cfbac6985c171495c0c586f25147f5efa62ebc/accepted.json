@@ -1,0 +1,42 @@
+{
+  "task_sha256": "0e2b8f4325d00a0a8cff43c246cfbac6985c171495c0c586f25147f5efa62ebc",
+  "input_sha256": "9391a0b41c7b712bcab4d64b5ddb2bec5a818364be3fbf006372edad149f9594",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "c884094de9f68e6d649aa99a60d30913aa88a7fea04af720b88adbc0b27f0991",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "1323c226c6d6cbf2106a03c12cdde7111c500ebbb8a44f964b701f431f23f6e3",
+  "raw_response": "{\"paper_id\":\"lab-effcb20ed6d4\",\"input_sha256\":\"54b6fed3d44cf42cbbf3114b1512c11c585bdd7e79b4bf31c6d2a87409c38c49\",\"keyword_ids\":[\"partial-label-learning\",\"semi-supervised-learning\"],\"evidence\":[{\"keyword_id\":\"partial-label-learning\",\"field\":\"title\",\"quote\":\"Partial Label Learning\"},{\"keyword_id\":\"semi-supervised-learning\",\"field\":\"title\",\"quote\":\"Semi-Supervised\"}]}",
+  "value": {
+    "paper_id": "lab-effcb20ed6d4",
+    "input_sha256": "54b6fed3d44cf42cbbf3114b1512c11c585bdd7e79b4bf31c6d2a87409c38c49",
+    "keyword_ids": [
+      "partial-label-learning",
+      "semi-supervised-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "partial-label-learning",
+        "field": "title",
+        "quote": "Partial Label Learning"
+      },
+      {
+        "keyword_id": "semi-supervised-learning",
+        "field": "title",
+        "quote": "Semi-Supervised"
+      }
+    ]
+  }
+}

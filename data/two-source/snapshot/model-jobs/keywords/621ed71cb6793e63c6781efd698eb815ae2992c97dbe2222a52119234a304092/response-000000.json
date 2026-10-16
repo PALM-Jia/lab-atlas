@@ -1,0 +1,37 @@
+{
+  "request_sha256": "ccc55ab08977237c18af1b6ce9b4489ee24410717f12b2baff7a44ae9b0d9336",
+  "received_at": "2026-10-15T13:05:43+00:00",
+  "http": 200,
+  "response": {
+    "id": "0533d1f0-ed80-426d-8f84-75ead5f4ec3a",
+    "object": "chat.completion",
+    "created": 1792069536,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W4404025116\",\"input_sha256\":\"e2f78356ef27e981b64c0331c6317f6193f9a5d64b2b253d2919e53bc6c92469\",\"keyword_ids\":[\"nonnegative-matrix-factorization\"],\"evidence\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"field\":\"title\",\"quote\":\"symmetric non-negative matrix factorization\"}]}",
+          "reasoning_content": "We need answer only JSON. Need label paper using title, abstract empty. Need use vocabulary definitions. Need decide keywords. Title: \"Anomaly-aware symmetric non-negative matrix factorization for short text clustering\". Need label with IDs. Relevant likely Nonnegative matrix factorization (explicit), maybe Deep clustering? No, symmetric NMF for short text clustering. Clustering task? Vocabulary has Deep clustering, Ensemble clustering, Subspace clustering, not generic clustering. Paper title indicates clustering but no keyword \"short text clustering\" generic. We can't invent. Nonnegative matrix factorization definitely: title says symmetric non-negative matrix factorization. Need include evidence quote title. Is \"Symmetric non-negative matrix factorization\" qualifies. Maybe sparse? no. Low-rank modeling? NMF is low-rank factorization, but definition says general low-rank decomposition or only nonnegative constraint insufficient; NMF can also be low-rank modeling. But parent? Low-rank modeling could be present because NMF is a low-rank method? But keyword definition: \"显式利用矩阵或张量低秩约束、分解或近似表示相关结构；仅作为被批评的旧假设不充分，LoRA的参数化也不自动等同于数据低秩建模。\" NMF is matrix factorization, often low rank, but title only says NMF. Does choosing NMF also imply low-rank modeling? The instruction says parent not automatically present because child chosen. But low-rank is not parent of NMF? It's method separate. Could choose both? Need apply each definition. NMF title explicitly. Low-rank modeling maybe not explicitly; NMF involves low-rank but not necessarily \"low-rank\" in title. We need conservatively. Keywords maybe also \"Anomaly-aware\" could relate to noisy-label learning? Anomaly-aware means handling anomalies in short text clustering. Not supervised label noise. Could be adversarial robustness? No, anomaly not adversarial. Data imputation? no. Graph/manifold? no. \"short text clustering\" maybe \"Deep clustering\" no neural? Title doesn't mention deep. \"Subspace clustering\" no. \"Ensemble clustering\" no. \"Nonnegative matrix factorization\" yes. Possibly \"Graph and manifold regularization\"? no. \"Sparse representation\"? no. \"Low-rank modeling\" maybe yes? Need decide. Since NMF is a factorization and symmetric NMF often low-rank. But vocabulary has NMF explicit; likely intended to label NMF. Low-rank maybe also applicable as method? However \"NMF\" parent? parent_id null. In taxonomy, low-rank modeling broad method, NMF specific method. If we select NMF, should we select parent low-rank? The instruction: A parent is not automatically present because a child was chosen. But does child have parent? NMF parent null in provided vocabulary. Low-rank has parent null too. So no parent relation. We can include low-rank if explicit evidence. Title does not contain \"low-rank\". Definition says \"显式利用矩阵或张量低秩约束、分解或近似表示相关结构\" NMF title is a matrix factorization, which may be low rank but no explicit \"low-rank\" in title. Conservative: maybe not.\n\nCould \"Anomaly-aware\" map to noisy-label learning? It says training supervision has errors, candidate missing etc. Not. No.\n\nCould \"short text clustering\" map to \"Deep clustering\"? Definition: using learnable neural representations and/or clustering head; traditional clustering on fixed pre-trained features not automatically. NMF not neural. No.\n\nCould \"Anomaly-aware\" map to \"Adversarial robustness\"? Anomaly detection not adversarial robustness. No.\n\nMaybe \"Data imputation and recovery\"? no.\n\nMaybe \"Nonnegative matrix factorization\" only.\n\nNeed return JSON with keyword_ids [\"nonnegative-matrix-factorization\"] and evidence quote title: \"symmetric non-negative matrix factorization\". Need quotes exactly continuous from title. Title: \"Anomaly-aware symmetric non-negative matrix factorization for short text clustering\". Quote for NMF: \"symmetric non-negative matrix factorization\" exactly includes hyphen. The canonical has \"Nonnegative matrix factorization\" but quote okay. Need maybe include \"Anomaly-aware\" for what? There is no keyword. Could \"Anomaly-aware\" relate to \"Noisy-label learning\" if anomalies are noisy? no evidence. We should not.\n\nNeed ensure JSON only. Input_sha256 provided. Paper_id W4404025116. keyword_ids. evidence list with one. No extra prose. Final JSON."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4872,
+      "completion_tokens": 1011,
+      "total_tokens": 5883,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 914
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 136
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

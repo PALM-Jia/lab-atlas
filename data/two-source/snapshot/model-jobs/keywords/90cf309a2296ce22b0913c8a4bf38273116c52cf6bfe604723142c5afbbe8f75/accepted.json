@@ -1,0 +1,48 @@
+{
+  "task_sha256": "90cf309a2296ce22b0913c8a4bf38273116c52cf6bfe604723142c5afbbe8f75",
+  "input_sha256": "1feb12ec5fb23fd78a8043b00d16c84e6e33b9c6e723a77762873936b1b7a581",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "81e17f048f3f212ad8d39901e445d913cefb2749db7dcad689e812110bacb16a",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "5617817912c77a0dda1ce049f5f01e812f9c541e56bbb5c7b81f8be8409b152b",
+  "raw_response": "{\"paper_id\":\"lab-d7d729a798a9\",\"input_sha256\":\"1a9798e3393dfa5d9b4dcba513a7c29864f5fcd7e965364bab83b023a27dc9fe\",\"keyword_ids\":[\"label-distribution-learning\",\"semi-supervised-learning\",\"label-correlation-modeling\"],\"evidence\":[{\"keyword_id\":\"label-distribution-learning\",\"field\":\"title\",\"quote\":\"Label Distribution Learning\"},{\"keyword_id\":\"semi-supervised-learning\",\"field\":\"title\",\"quote\":\"Semi-Supervised\"},{\"keyword_id\":\"label-correlation-modeling\",\"field\":\"title\",\"quote\":\"Rank Correlation between Labels\"}]}",
+  "value": {
+    "paper_id": "lab-d7d729a798a9",
+    "input_sha256": "1a9798e3393dfa5d9b4dcba513a7c29864f5fcd7e965364bab83b023a27dc9fe",
+    "keyword_ids": [
+      "label-distribution-learning",
+      "semi-supervised-learning",
+      "label-correlation-modeling"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "label-distribution-learning",
+        "field": "title",
+        "quote": "Label Distribution Learning"
+      },
+      {
+        "keyword_id": "semi-supervised-learning",
+        "field": "title",
+        "quote": "Semi-Supervised"
+      },
+      {
+        "keyword_id": "label-correlation-modeling",
+        "field": "title",
+        "quote": "Rank Correlation between Labels"
+      }
+    ]
+  }
+}

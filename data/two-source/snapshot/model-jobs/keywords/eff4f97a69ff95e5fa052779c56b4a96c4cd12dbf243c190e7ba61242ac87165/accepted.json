@@ -1,0 +1,42 @@
+{
+  "task_sha256": "eff4f97a69ff95e5fa052779c56b4a96c4cd12dbf243c190e7ba61242ac87165",
+  "input_sha256": "678b0835d0cb52f06dc12a86d851e0a8ca7136cb16eb9948ad4c1100e801db1a",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "35d03cba6973a0ab0f42e6c44588b8750d0e94a14a8b6b73bfbfc292f04343aa",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "d796a924eb8a8a9a850049f3fecac391c1b0c1db78932cac6f02e2674d8244cc",
+  "raw_response": "{\"paper_id\":\"W4416993175\",\"input_sha256\":\"ee911dbe718d8ce9705ad1e076f9656cbc3abca756b2aded6087d9a737cb2693\",\"keyword_ids\":[\"deep-clustering\",\"nonnegative-matrix-factorization\"],\"evidence\":[{\"keyword_id\":\"deep-clustering\",\"field\":\"title\",\"quote\":\"Deep symmetric non-negative matrix factorization representation algorithm for clustering\"},{\"keyword_id\":\"nonnegative-matrix-factorization\",\"field\":\"title\",\"quote\":\"symmetric non-negative matrix factorization\"}]}",
+  "value": {
+    "paper_id": "W4416993175",
+    "input_sha256": "ee911dbe718d8ce9705ad1e076f9656cbc3abca756b2aded6087d9a737cb2693",
+    "keyword_ids": [
+      "deep-clustering",
+      "nonnegative-matrix-factorization"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "deep-clustering",
+        "field": "title",
+        "quote": "Deep symmetric non-negative matrix factorization representation algorithm for clustering"
+      },
+      {
+        "keyword_id": "nonnegative-matrix-factorization",
+        "field": "title",
+        "quote": "symmetric non-negative matrix factorization"
+      }
+    ]
+  }
+}

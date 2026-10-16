@@ -1,0 +1,41 @@
+{
+  "task_sha256": "bde5d83a6f8d7272e7ffc02b71cf05f4ef281ee6a1960abc9f274f525a462ae4",
+  "input_sha256": "1b770adbe14166f455296e0bebb48ad2b0c6f83a01438aeb90bc49e9ff50f841",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "aacc5a419eb9dbb7cc81ad8609a01281b3fe5124dc483a78ec8a26f1d61dc2f1",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "0b3769aed7dec297d1e2ce6a99af5423331b4d5b279e7d4ae6f64ebff699e6ec",
+  "raw_response": "{\"paper_id\":\"W2886666371\",\"input_sha256\":\"7aa8afe8e41262d87687215bde409f5d111e8cb364354fe31e33c06bff9214eb\",\"keyword_ids\":[\"hyperspectral-images\"],\"evidence\":[{\"keyword_id\":\"hyperspectral-images\",\"field\":\"title\",\"quote\":\"Hyperspectral Imagery for Environmental Urban Planning\"},{\"keyword_id\":\"hyperspectral-images\",\"field\":\"abstract\",\"quote\":\"Hyperspectral imagery capacities\"}]}",
+  "value": {
+    "paper_id": "W2886666371",
+    "input_sha256": "7aa8afe8e41262d87687215bde409f5d111e8cb364354fe31e33c06bff9214eb",
+    "keyword_ids": [
+      "hyperspectral-images"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "hyperspectral-images",
+        "field": "title",
+        "quote": "Hyperspectral Imagery for Environmental Urban Planning"
+      },
+      {
+        "keyword_id": "hyperspectral-images",
+        "field": "abstract",
+        "quote": "Hyperspectral imagery capacities"
+      }
+    ]
+  }
+}

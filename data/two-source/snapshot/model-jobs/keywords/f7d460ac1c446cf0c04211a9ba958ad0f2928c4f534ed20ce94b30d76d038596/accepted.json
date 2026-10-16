@@ -1,0 +1,54 @@
+{
+  "task_sha256": "f7d460ac1c446cf0c04211a9ba958ad0f2928c4f534ed20ce94b30d76d038596",
+  "input_sha256": "d8b936d801f22028108f325566e995f428eadf8a9aed043d2eecaa36230aefe5",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "e7207852d897ed89064cfb90175306533fb009571c8390a68b50a13fcbe9c000",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "66dc6cf4f49118500e260211cd9a907d7255fe17e9974229dc115672e5b70f2f",
+  "raw_response": "{\"paper_id\":\"lab-fe676cbbfafd\",\"input_sha256\":\"5a563c77ea950504aded964a31e8ca84e02775265a8fe1e908928d6d2bf5be9e\",\"keyword_ids\":[\"hyperspectral-images\",\"multi-view-learning\",\"graph-manifold-regularization\",\"image-segmentation\"],\"evidence\":[{\"keyword_id\":\"hyperspectral-images\",\"field\":\"title\",\"quote\":\"Hyperspectral Images\"},{\"keyword_id\":\"multi-view-learning\",\"field\":\"abstract\",\"quote\":\"multi-view data, where each feature type can be regarded as a specific view of data\"},{\"keyword_id\":\"graph-manifold-regularization\",\"field\":\"abstract\",\"quote\":\"hypergraph regularized multi-view clustering model\"},{\"keyword_id\":\"image-segmentation\",\"field\":\"abstract\",\"quote\":\"we segment an HSI into several superpixels\"}]}",
+  "value": {
+    "paper_id": "lab-fe676cbbfafd",
+    "input_sha256": "5a563c77ea950504aded964a31e8ca84e02775265a8fe1e908928d6d2bf5be9e",
+    "keyword_ids": [
+      "hyperspectral-images",
+      "multi-view-learning",
+      "graph-manifold-regularization",
+      "image-segmentation"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "hyperspectral-images",
+        "field": "title",
+        "quote": "Hyperspectral Images"
+      },
+      {
+        "keyword_id": "multi-view-learning",
+        "field": "abstract",
+        "quote": "multi-view data, where each feature type can be regarded as a specific view of data"
+      },
+      {
+        "keyword_id": "graph-manifold-regularization",
+        "field": "abstract",
+        "quote": "hypergraph regularized multi-view clustering model"
+      },
+      {
+        "keyword_id": "image-segmentation",
+        "field": "abstract",
+        "quote": "we segment an HSI into several superpixels"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "task_sha256": "09ac7d32401e21fe06a9890873c0adf2d51ffc724949152e46970c552f0e1392",
+  "input_sha256": "e5488601c731d71490b5fb6758807f14f36fce0f79d92b336da28b7701d2acdb",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "2791649f052fb64d14f21100f27d107d7b81f79c28b50bb80c65146d645aa967",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "f5d8d60e8a9c5636fe3fcc1531695dd20dd743d196aba1bee0fd0df63a9a578a",
+  "raw_response": "{\"paper_id\":\"W4240808349\",\"input_sha256\":\"1ad1847f8086581b4b43b7656b299775d8eddc2662caa160c0b75da7b858bfb0\",\"keyword_ids\":[\"hyperspectral-images\"],\"evidence\":[{\"keyword_id\":\"hyperspectral-images\",\"field\":\"abstract\",\"quote\":\"High-spectral-resolution data of the Airborne Imaging Spectrometer (AIS)\"}]}",
+  "value": {
+    "paper_id": "W4240808349",
+    "input_sha256": "1ad1847f8086581b4b43b7656b299775d8eddc2662caa160c0b75da7b858bfb0",
+    "keyword_ids": [
+      "hyperspectral-images"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "hyperspectral-images",
+        "field": "abstract",
+        "quote": "High-spectral-resolution data of the Airborne Imaging Spectrometer (AIS)"
+      }
+    ]
+  }
+}

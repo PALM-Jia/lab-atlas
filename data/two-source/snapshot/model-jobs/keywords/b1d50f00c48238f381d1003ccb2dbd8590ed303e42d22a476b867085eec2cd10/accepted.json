@@ -1,0 +1,36 @@
+{
+  "task_sha256": "b1d50f00c48238f381d1003ccb2dbd8590ed303e42d22a476b867085eec2cd10",
+  "input_sha256": "0c4a7cca120f8de30cf0730db666b72b92c402e0068d48e1bef246c91e717bd2",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "b10ba91d1cf82b52b5d553e63c75233b8a52bbd245c4a0d30e957095a84cc525",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "b824fd543172c5ba6360fefd39a6bcba2f35ea4afa0ae097b9274d2622499d19",
+  "raw_response": "{\"paper_id\":\"W2884822772\",\"input_sha256\":\"ebb7ac5cd87d3172eff0beaf1669ef49ec35bbe42d5b29162735e6a4b8b6d402\",\"keyword_ids\":[\"image-segmentation\"],\"evidence\":[{\"keyword_id\":\"image-segmentation\",\"field\":\"title\",\"quote\":\"Perceptual Parsing\"}]}",
+  "value": {
+    "paper_id": "W2884822772",
+    "input_sha256": "ebb7ac5cd87d3172eff0beaf1669ef49ec35bbe42d5b29162735e6a4b8b6d402",
+    "keyword_ids": [
+      "image-segmentation"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "image-segmentation",
+        "field": "title",
+        "quote": "Perceptual Parsing"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "task_sha256": "527d5e7966a54195541048e8ab750226a8847e82f60a531c0cbdcfb45aeae6e4",
+  "input_sha256": "a9626bddb39873169da05e64ab3eaba4bb76383b4f5300620190581e430977b5",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "d39742176740b42d90f9d3969b597931285c2a74793b4aa8e77f49edf2865450",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "2a084a518534a8eeb216719a79ee87a70b0d7091615d3732088c82f8154f9b9c",
+  "raw_response": "{\"paper_id\":\"lab-1025a6d4de24\",\"input_sha256\":\"69e6811efc14b94f80f33df6603dba87050afdd805a78239e376c6ca63629c21\",\"keyword_ids\":[\"deep-clustering\",\"multi-view-learning\"],\"evidence\":[{\"keyword_id\":\"deep-clustering\",\"field\":\"title\",\"quote\":\"Deep Multi-View Clustering\"},{\"keyword_id\":\"multi-view-learning\",\"field\":\"title\",\"quote\":\"Multi-View Clustering\"}]}",
+  "value": {
+    "paper_id": "lab-1025a6d4de24",
+    "input_sha256": "69e6811efc14b94f80f33df6603dba87050afdd805a78239e376c6ca63629c21",
+    "keyword_ids": [
+      "deep-clustering",
+      "multi-view-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "deep-clustering",
+        "field": "title",
+        "quote": "Deep Multi-View Clustering"
+      },
+      {
+        "keyword_id": "multi-view-learning",
+        "field": "title",
+        "quote": "Multi-View Clustering"
+      }
+    ]
+  }
+}

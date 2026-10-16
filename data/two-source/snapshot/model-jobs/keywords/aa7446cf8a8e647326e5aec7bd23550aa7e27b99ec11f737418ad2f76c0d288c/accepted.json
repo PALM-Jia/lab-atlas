@@ -1,0 +1,36 @@
+{
+  "task_sha256": "aa7446cf8a8e647326e5aec7bd23550aa7e27b99ec11f737418ad2f76c0d288c",
+  "input_sha256": "c90a4f03cf007ae6cf99b02d7f634a92eee60b855e1c58481f8503c0a506abc3",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "d83597a80518f0b6adf8e03dd6759f3b31b8010deea42b44152566d38359fd30",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "6922cc77a64569966a61609281959900efe7e558819db2da42b9aa2ea7c0c468",
+  "raw_response": "{\"paper_id\":\"lab-918df170a3ad\",\"input_sha256\":\"74879d329bdcd30033e31cb624f5ea002ed031015d870c1d393ec6e93a4e87c1\",\"keyword_ids\":[\"deep-clustering\"],\"evidence\":[{\"keyword_id\":\"deep-clustering\",\"field\":\"title\",\"quote\":\"Deep Clustering\"}]}",
+  "value": {
+    "paper_id": "lab-918df170a3ad",
+    "input_sha256": "74879d329bdcd30033e31cb624f5ea002ed031015d870c1d393ec6e93a4e87c1",
+    "keyword_ids": [
+      "deep-clustering"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "deep-clustering",
+        "field": "title",
+        "quote": "Deep Clustering"
+      }
+    ]
+  }
+}

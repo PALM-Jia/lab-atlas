@@ -1,0 +1,36 @@
+{
+  "task_sha256": "9c04771a55e04e8f25a91e4a0a6f12a535883c28cf727761a34fdb7099916046",
+  "input_sha256": "b44f3d18fa45d8955bbacc5e187aa6fec42552fe4a8aea0f5f870d785aa6106f",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "fcc8738a369583ae5c998c36cfc9c63126511423c1b02f0c8219ae5362318825",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "b4152afc853bbf40bf900011ae9142bd9c7d5dcf90deb59e603fa023f73386d0",
+  "raw_response": "{\"paper_id\":\"W3149839747\",\"input_sha256\":\"e504e782b894f2d355145703e4be5f14724aa37c8273977954c39ba3e1a59775\",\"keyword_ids\":[\"classifier-ensemble\"],\"evidence\":[{\"keyword_id\":\"classifier-ensemble\",\"field\":\"title\",\"quote\":\"Ensemble deep learning\"}]}",
+  "value": {
+    "paper_id": "W3149839747",
+    "input_sha256": "e504e782b894f2d355145703e4be5f14724aa37c8273977954c39ba3e1a59775",
+    "keyword_ids": [
+      "classifier-ensemble"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "classifier-ensemble",
+        "field": "title",
+        "quote": "Ensemble deep learning"
+      }
+    ]
+  }
+}

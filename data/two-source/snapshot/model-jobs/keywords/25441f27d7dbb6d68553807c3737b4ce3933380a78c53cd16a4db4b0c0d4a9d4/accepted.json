@@ -1,0 +1,36 @@
+{
+  "task_sha256": "25441f27d7dbb6d68553807c3737b4ce3933380a78c53cd16a4db4b0c0d4a9d4",
+  "input_sha256": "1c4f65f3fb489bfd31662af54538fa42a19042fc4acfd9f2479053b095450902",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "288e66cfc1a0566bd8d7c95967d6f7eff5074cea0abbd3b65093481707c6dbc3",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "a07edc5525179f0eecbe712baee0c892cefa1419569b3930aeb56213e8633fe9",
+  "raw_response": "{\"paper_id\":\"lab-bbbc3701492a\",\"input_sha256\":\"f1660065d81e0b08f57fffc1d135930092ff061c0feb83e77d9b3a70b344efc8\",\"keyword_ids\":[\"adversarial-robustness\"],\"evidence\":[{\"keyword_id\":\"adversarial-robustness\",\"field\":\"title\",\"quote\":\"Adversarial Robustness\"}]}",
+  "value": {
+    "paper_id": "lab-bbbc3701492a",
+    "input_sha256": "f1660065d81e0b08f57fffc1d135930092ff061c0feb83e77d9b3a70b344efc8",
+    "keyword_ids": [
+      "adversarial-robustness"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "adversarial-robustness",
+        "field": "title",
+        "quote": "Adversarial Robustness"
+      }
+    ]
+  }
+}

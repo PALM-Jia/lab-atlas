@@ -1,0 +1,42 @@
+{
+  "task_sha256": "7850021a51f3ee2dbc9d423d55ae7a9c5611771b61d83e121c70243782541971",
+  "input_sha256": "a7277ecb43ba9d5e14d95847d43f90449b8a393cbdff1802366c8417eee06e5b",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "b1add5b79e01cc53e0c9694a1c0a1dcb2a848cd0297970d93ccfc466c7f62194",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "850d1f245587fb4cc4420eb5563f49e01396860c943f2c0c7f4c9e0166aa008a",
+  "raw_response": "{\"paper_id\":\"W2780112348\",\"input_sha256\":\"347a84b3b5d4bc5047c58b29600a3ed48f85d2ee1dfb009929c5f407f279a2aa\",\"keyword_ids\":[\"multi-label-learning\",\"classifier-ensemble\"],\"evidence\":[{\"keyword_id\":\"multi-label-learning\",\"field\":\"title\",\"quote\":\"multi-label classifiers\"},{\"keyword_id\":\"classifier-ensemble\",\"field\":\"title\",\"quote\":\"ensembles of multi-label classifiers\"}]}",
+  "value": {
+    "paper_id": "W2780112348",
+    "input_sha256": "347a84b3b5d4bc5047c58b29600a3ed48f85d2ee1dfb009929c5f407f279a2aa",
+    "keyword_ids": [
+      "multi-label-learning",
+      "classifier-ensemble"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "multi-label-learning",
+        "field": "title",
+        "quote": "multi-label classifiers"
+      },
+      {
+        "keyword_id": "classifier-ensemble",
+        "field": "title",
+        "quote": "ensembles of multi-label classifiers"
+      }
+    ]
+  }
+}

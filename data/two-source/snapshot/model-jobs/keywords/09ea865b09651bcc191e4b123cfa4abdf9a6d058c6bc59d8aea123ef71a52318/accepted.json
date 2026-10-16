@@ -1,0 +1,36 @@
+{
+  "task_sha256": "09ea865b09651bcc191e4b123cfa4abdf9a6d058c6bc59d8aea123ef71a52318",
+  "input_sha256": "691f680274a5c7134d1e569af5df3c43cb8378e33713bd3280dd052ad7f4a66b",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "55cb1b64eeb99ddce86afe703fb89c2ab6ba83b35434be222c2456f1ac8f1857",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "163a6538fafdb32d39fb6278d5f17f243cddaddc2dd5dfb32f945eee9fa45551",
+  "raw_response": "{\"paper_id\":\"W2135029798\",\"input_sha256\":\"40daa321967249dd442716c68c28af6ef84ca73acd44046cf464b8ddeca195c4\",\"keyword_ids\":[\"nonnegative-matrix-factorization\"],\"evidence\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"field\":\"abstract\",\"quote\":\"Non-negative matrix factorization (NMF) has previously been shown to be a useful decomposition for multivariate data.\"}]}",
+  "value": {
+    "paper_id": "W2135029798",
+    "input_sha256": "40daa321967249dd442716c68c28af6ef84ca73acd44046cf464b8ddeca195c4",
+    "keyword_ids": [
+      "nonnegative-matrix-factorization"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "nonnegative-matrix-factorization",
+        "field": "abstract",
+        "quote": "Non-negative matrix factorization (NMF) has previously been shown to be a useful decomposition for multivariate data."
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "task_sha256": "11f206978c560be85e979718b36404cf49ec02bbe8433250bd850cad251e9be3",
+  "input_sha256": "1885cb11f3d43f17171e03a353cbc235c0df3acb7c200ca3f7325360e4dea180",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "b23eb0dc75c3bd4b75fc6f253d191167c024b45227d4d463c59241b7d7d6f949",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "97c200d8113cea6babfd3c9dc5c03e9f545c3247b5042835311c402521dfb8da",
+  "raw_response": "{\"paper_id\":\"W4386798142\",\"input_sha256\":\"6ece1c6ed9932e34bd2a8f5cc04c100c6ea64293accfa50d5da0d767dca96218\",\"keyword_ids\":[\"deep-clustering\",\"contrastive-learning\"],\"evidence\":[{\"keyword_id\":\"deep-clustering\",\"field\":\"title\",\"quote\":\"Attributed Graph Clustering\"},{\"keyword_id\":\"contrastive-learning\",\"field\":\"title\",\"quote\":\"Contrastive Learning\"}]}",
+  "value": {
+    "paper_id": "W4386798142",
+    "input_sha256": "6ece1c6ed9932e34bd2a8f5cc04c100c6ea64293accfa50d5da0d767dca96218",
+    "keyword_ids": [
+      "deep-clustering",
+      "contrastive-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "deep-clustering",
+        "field": "title",
+        "quote": "Attributed Graph Clustering"
+      },
+      {
+        "keyword_id": "contrastive-learning",
+        "field": "title",
+        "quote": "Contrastive Learning"
+      }
+    ]
+  }
+}

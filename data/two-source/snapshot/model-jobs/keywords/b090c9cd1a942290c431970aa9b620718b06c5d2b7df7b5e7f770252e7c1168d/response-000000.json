@@ -1,0 +1,37 @@
+{
+  "request_sha256": "71b0dac9fcf58fc7222a2dc81d380da50a4be1ea44ad037c55383c3878cd8d74",
+  "received_at": "2026-10-15T13:05:03+00:00",
+  "http": 200,
+  "response": {
+    "id": "3779620c-9409-4faa-a620-2ec545d31f2e",
+    "object": "chat.completion",
+    "created": 1792069500,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W3132015460\",\"input_sha256\":\"103bf0244a2baddc2df4cc2e13e50daadf938db62db53f2c14f9b1f355c1e1e9\",\"keyword_ids\":[],\"evidence\":[]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title/abstract/vocab. Abstract empty. Title: \"A study on the uncertainty of convolutional layers in deep neural networks\". Need choose keywords if supported. Need use only title evidence conservatively. Vocabulary 49. We need determine if any keyword definitions fit. Title about uncertainty of convolutional layers in deep neural networks. Likely about uncertainty? No keyword for uncertainty/convolutional layers/deep neural networks generally. Could it be \"Bayesian inference\"? Uncertainty in DNNs often Bayesian? But title only \"uncertainty of convolutional layers\" not enough to say Bayesian inference. Definition requires posterior estimation. No.\n\n\"Confidence calibration\" maybe uncertainty? Definition making confidence/weights match correctness; title uncertainty of convolutional layers not calibration. No.\n\nCould be \"Dimensionality reduction\"? no.\n\"Deep clustering\"? no.\n\"Adversarial robustness\"? no.\n\"Large language models\"? Deep neural networks not necessarily LLM. No.\n\"Vision-language models\"? no.\nMaybe \"Low-rank modeling\"? no.\n\nNeed maybe empty keyword list valid. Need output JSON with paper_id, input_sha256, keyword_ids, evidence. If empty keyword_ids, evidence empty array. Need ensure no extra prose. The user requests return JSON. We should return {\"paper_id\":\"W3132015460\",\"input_sha256\":\"...\",\"keyword_ids\":[],\"evidence\":[]}. Is that acceptable? Need \"Every chosen ID must have...\" none chosen. Yes.\n\nBut let's think carefully if \"uncertainty of convolutional layers\" might be \"Bayesian inference\" because Bayesian deep learning quantifies uncertainty. But title only says \"study on uncertainty\"; definition: through prior and probabilistic model posterior estimation or approximate inference; merely mentioning Bayesian optimal classifier or probabilistic outputs insufficient. Title doesn't mention Bayesian. Not enough. Could be \"Confidence calibration\" because uncertainty estimation relates to calibration, but not explicit. No.\n\nCould be \"Multi-objective optimization\"? no. \"Data imputation recovery\"? no. \"Model merging\"? no.\n\nPotential \"Parameter-efficient fine-tuning\" no. \"Knowledge distillation\" no.\n\nThus empty. Need valid JSON. Include exact sha."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4873,
+      "completion_tokens": 514,
+      "total_tokens": 5387,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 446
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 137
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

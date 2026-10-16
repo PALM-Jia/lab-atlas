@@ -1,0 +1,36 @@
+{
+  "task_sha256": "a58abfc9645ff67dc739100bc5db079d312435a8a4d9e374760d6ff340d4ed8f",
+  "input_sha256": "40c6e0193b31e53f7a4c58025b2f1f0849c0aeee2d9b8477dfb83e0401222031",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "ee7a771b0c6f7ab718e557fe06c4272e454fd9b3e26f925f5dd0e5c278835056",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "85c3b3a38553acc5d83c474faeebc28f04a5c4ad5ef4b1bab9267debfac33ece",
+  "raw_response": "{\"paper_id\":\"W2166049352\",\"input_sha256\":\"0613291c85d54df84bc36c1adb2dc91ae7a51dda258b382f1db3bc0ae77ee2d9\",\"keyword_ids\":[\"bayesian-inference\"],\"evidence\":[{\"keyword_id\":\"bayesian-inference\",\"field\":\"title\",\"quote\":\"Bayesian approach\"}]}",
+  "value": {
+    "paper_id": "W2166049352",
+    "input_sha256": "0613291c85d54df84bc36c1adb2dc91ae7a51dda258b382f1db3bc0ae77ee2d9",
+    "keyword_ids": [
+      "bayesian-inference"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "bayesian-inference",
+        "field": "title",
+        "quote": "Bayesian approach"
+      }
+    ]
+  }
+}

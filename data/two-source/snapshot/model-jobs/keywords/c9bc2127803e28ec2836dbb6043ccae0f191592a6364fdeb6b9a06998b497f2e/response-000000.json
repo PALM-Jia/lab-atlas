@@ -1,0 +1,37 @@
+{
+  "request_sha256": "9b62e0957e0d15a432ce8d3acae3de0c25b66d29c424caafc0de5cd25412d736",
+  "received_at": "2026-10-15T13:05:06+00:00",
+  "http": 200,
+  "response": {
+    "id": "248c8ddd-16f7-4b3a-8b39-745d3b0c297d",
+    "object": "chat.completion",
+    "created": 1792069501,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W3142715267\",\"input_sha256\":\"dae4301725dabbd907cbe5278c7a469bdaf904c525cf157f98acb86bde40dad1\",\"keyword_ids\":[\"nonnegative-matrix-factorization\"],\"evidence\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"field\":\"title\",\"quote\":\"non-negative matrix factorization\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title, abstract empty. Need use vocabulary. Title: \"A statistical framework for non-negative matrix factorization based on generalized dual divergence\". Need identify keywords. Clearly nonnegative matrix factorization (method) because title explicitly. Maybe dimensionality reduction? NMF often dimensionality reduction but definition says explicit low-dimensional mapping/embedding with dimension compression; title doesn't mention. Low-rank modeling? NMF is matrix factorization low-rank, but keyword NMF specific. Could include low-rank modeling? Definition: explicitly utilize matrix or tensor low-rank constraints, decomposition or approximate representation; NMF is a matrix factorization. But parent? NMF is method. Is low-rank modeling parent? IDs independent; parent_id null for both. They don't say NMF child of low-rank. Need label only title. \"based on generalized dual divergence\" statistical framework. Could be Bayesian inference? Stat framework, but not necessarily Bayesian. No. Could be \"Nonnegative matrix factorization\" definitely. Maybe \"Low-rank modeling\" because NMF is low-rank decomposition. But vocabulary definition for NMF: 以非负因子分解矩阵, includes symmetric NMF; general low-rank decomposition or merely nonnegative constraint insufficient. Title has non-negative matrix factorization itself, so NMF. Low-rank modeling definition: 显式利用矩阵或张量低秩约束、分解或近似表示相关结构. NMF is a low-rank decomposition but the title's contribution is a statistical framework based on divergence, not necessarily low-rank structure. But \"non-negative matrix factorization\" implies factorization. However if choosing both, NMF is more specific. The instructions: parent is not automatically present because child chosen. But NMF not parent. Need maybe not include low-rank because title doesn't mention low rank. It says matrix factorization. NMF likely low-rank by nature, but definition says \"显式利用...低秩约束、分解或近似表示相关结构\"; NMF may not be explicit low-rank? NMF is low-rank approximation (rank k). But without abstract, only title. Conservative: choose nonnegative-matrix-factorization.\n\nCould include \"Dimensionality reduction\"? NMF used for dimensionality reduction but title not explicit. No.\n\nCould include \"Statistical framework\" no vocabulary. \"generalized dual divergence\" no. \"Non-negative matrix factorization\" aliases: \"Non-negative matrix factorization\" canonical_en \"Nonnegative matrix factorization\". Need ID nonnegative-matrix-factorization. Evidence title quote continuous: \"non-negative matrix factorization\" exactly (with hyphen) appears in title. The canonical keyword is \"Nonnegative matrix factorization\" but aliases list [\"Non-negative matrix factorization\"] so okay. Need quote literal continuous from title. The title has \"Non-negative matrix factorization\" maybe capital N in Non-negative. Let's quote exactly substring: \"non-negative matrix factorization\" is in title after \"A statistical framework for \". Wait title: \"A statistical framework for non-negative matrix factorization based on generalized dual divergence\". The substring \"non-negative matrix factorization\" starts lowercase n after for. That's continuous. Good. Need include evidence with field title quote. JSON. input_sha256 given. paper_id. keyword_ids [\"nonnegative-matrix-factorization\"]. No extra prose. Ensure valid JSON object."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4866,
+      "completion_tokens": 752,
+      "total_tokens": 5618,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 663
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 258
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

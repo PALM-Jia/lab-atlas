@@ -1,0 +1,36 @@
+{
+  "task_sha256": "4440bb2f0cba02e593b18ecb066dffce3c291c0326293f33201edb6066eb7026",
+  "input_sha256": "481ad693495f1ed96e24ec0a3736c5ea9a852488f34f5be3bae580e137055786",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "12681f89e15dd54c1c82465684330ef015be0a5914b523c8a088cff1289f2ba8",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "fd10e5d8b3516bbfc1a739eb782ca320fb6bdc9eb393a409fb21256fd86811cc",
+  "raw_response": "{\"paper_id\":\"W1994292689\",\"input_sha256\":\"bb0a530bc9477947b38f7936bfa26c4a02e25dfe6d161c577eed259c48c8862c\",\"keyword_ids\":[\"nonnegative-matrix-factorization\"],\"evidence\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"field\":\"title\",\"quote\":\"nonnegative matrix factorization\"}]}",
+  "value": {
+    "paper_id": "W1994292689",
+    "input_sha256": "bb0a530bc9477947b38f7936bfa26c4a02e25dfe6d161c577eed259c48c8862c",
+    "keyword_ids": [
+      "nonnegative-matrix-factorization"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "nonnegative-matrix-factorization",
+        "field": "title",
+        "quote": "nonnegative matrix factorization"
+      }
+    ]
+  }
+}

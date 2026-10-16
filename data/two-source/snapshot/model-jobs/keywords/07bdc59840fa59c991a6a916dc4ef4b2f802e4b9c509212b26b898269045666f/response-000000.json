@@ -1,0 +1,37 @@
+{
+  "request_sha256": "f975636b387a10b836321122abb2fab6d83535df7e68ed3fd5f24dacb86f987e",
+  "received_at": "2026-10-15T13:06:35+00:00",
+  "http": 200,
+  "response": {
+    "id": "7ad081c0-a958-4a44-9f13-bb2bc13bf5fe",
+    "object": "chat.completion",
+    "created": 1792069587,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W7196954740\",\"input_sha256\":\"f56fe496d32d93cc2489c6f5a379591bbeef5b08fce9bb123a85583ef8c2e3c3\",\"keyword_ids\":[\"federated-learning\"],\"evidence\":[{\"keyword_id\":\"federated-learning\",\"field\":\"title\",\"quote\":\"Federated Learning\"}]}",
+          "reasoning_content": "We need answer only JSON object. Need label paper using title only since abstract empty. Need choose keyword IDs based on title evidence. Need conservatively assess.\n\nTitle: \"PrismFed: Joint Optimization via Dynamic Bayesian Persuasion for Multi-Task Federated Learning under Incomplete Information\"\n\nWe need map to vocabulary. Candidate keywords:\n- Federated learning: clearly \"Federated Learning\" in title. Definition multiple clients retain local data. Title mentions Multi-Task Federated Learning. So include federated-learning with quote \"Federated Learning\".\n- Multi-objective optimization? \"Joint Optimization\" maybe multiple tasks? Definition: multiple mutually constraining objectives Pareto set; model with multiple loss terms or joint training not sufficient. Title has \"Joint Optimization\" and \"Multi-Task\" but not explicit multi-objective optimization. Probably not enough.\n- Bayesian inference: \"Dynamic Bayesian Persuasion\" includes Bayesian. Definition: posterior estimation or approximate inference via prior probabilistic model. But \"Bayesian Persuasion\" is game-theoretic information design, not necessarily Bayesian inference. Need apply vocab definition. Title evidence contains \"Bayesian\" but not necessarily Bayesian inference? Definition says only mentioning Bayesian optimal classifier or probabilistic output insufficient. \"Dynamic Bayesian Persuasion\" might be method involving Bayesian persuasion. But do we include? We must be conservative. It is a specific mechanism likely Bayesian? The keyword \"Bayesian inference\" means posterior estimation/approximate inference. \"Bayesian Persuasion\" is not Bayesian inference; it's information design. However title says \"Dynamic Bayesian Persuasion\"; could be method but not inferential. I think not include unless definition matches. It doesn't explicitly mention posterior estimation. Probably no.\n- Multi-task? No keyword for multi-task learning. Federated learning under incomplete information. \n- Weakly supervised? Incomplete information? Weakly supervised learning definition: incomplete, imprecise, coarse, inaccurate supervision replacing labels. \"Incomplete Information\" in federated learning could mean not about labels but information incomplete (e.g., clients, tasks). Need not include because abstract empty and title only. Definition requires supervision condition as research problem. It's ambiguous. Probably no.\n- Multi-objective optimization? \"Multi-Task Federated Learning\" perhaps multi-task could involve multiple objectives, \"Joint Optimization\" not enough. Definition says multiple loss terms or joint training insufficient. No.\n- Large language models? no.\n- Multi-view learning? no.\n- Domain adaptation? no.\n- Class imbalance? no.\n\nCould include \"Multi-objective optimization\" because \"Joint Optimization\" multiple tasks? But strict: \"Joint Optimization via Dynamic Bayesian Persuasion for Multi-Task Federated Learning\". Joint optimization of multi-task? Might be optimizing multiple tasks, could be multi-objective. But definition: \"以多个相互制约的目标求解帕累托解集；模型中出现多个损失项或联合训练不充分.\" Title has no Pareto. \"Multi-Task\" not same as multi-objective. Not include.\n\nCould include \"Bayesian inference\"? Let's examine: \"Dynamic Bayesian Persuasion\" — Bayesian Persuasion is a game-theoretic model where sender designs information signal to influence receiver's belief. Dynamic Bayesian Persuasion may involve Bayesian updating. But vocabulary definition: \"通过先验与概率模型进行后验估计或近似推断；仅提及贝叶斯最优分类器或概率输出不充分。\" The title mentions Bayesian persuasion but not posterior estimation. Is \"Dynamic Bayesian Persuasion\" a Bayesian inference method? It is an information design method using Bayesian updating. But with only title, maybe too strong? Need apply each vocabulary definition strictly. Could perhaps include because \"Bayesian Persuasion\" inherently uses Bayesian inference? However definition requires posterior estimation/approximate inference. It might be a mechanism design not inference. Conservative: not include.\n\nThe task says every chosen ID must have at least one literal continuous quote from given field. We can provide quote for federated-learning: title \"Federated Learning\". Need JSON with paper_id, input_sha256, keyword_ids, evidence.\n\nNeed ensure no invented IDs. Use exact id \"federated-learning\".\n\nCould there be \"Multi-task federated learning\" no keyword. \"Incomplete information\" could relate to \"noisy-label-learning\"? No, incomplete information is not necessarily labels. Weakly supervised maybe? No.\n\nMaybe \"Bayesian inference\" can be supported by \"Dynamic Bayesian Persuasion\"? Let's reason more. The keyword's canonical \"Bayesian inference\" dimension method. Definition: \"通过先验与概率模型进行后验估计或近似推断；仅提及贝叶斯最优分类器或概率输出不充分。\" The title phrase \"Dynamic Bayesian Persuasion\" likely is a method involving Bayesian persuasion, not Bayesian inference. It may involve Bayesian updating, but not necessarily posterior estimation. If include, evidence quote \"Dynamic Bayesian Persuasion\". Would that satisfy? The quote has \"Bayesian\" but definition says \"仅提及贝叶斯最优分类器或概率输出不充分\". Mentioning Bayesian alone not enough. Need probable. I lean no.\n\nWhat about \"Federated learning\" under \"Incomplete Information\" – yes. Also \"Dynamic Bayesian Persuasion\" might indicate \"multi-agent\" but no keyword.\n\nCould \"Multi-objective optimization\" be supported by \"Joint Optimization\" and \"Multi-Task\"? Definition explicitly: model with multiple loss terms or joint training not sufficient. \"Joint Optimization\" alone is not sufficient. So no.\n\nPotential \"Large language models\" no.\n\nThus final likely one keyword.\n\nNeed ensure JSON valid, no extra prose. Evidence array with keyword_id \"federated-learning\", field \"title\", quote \"Federated Learning\" or full phrase? Literal continuous quote from title. Use exact title substring: \"Federated Learning\" appears in title? Title: \"PrismFed: Joint Optimization via Dynamic Bayesian Persuasion for Multi-Task Federated Learning under Incomplete Information\" Yes contains \"Federated Learning\" exactly. Note capitalization \"Federated Learning\". Good.\n\nShould we include \"federated-learning\" only. Keyword_ids array [\"federated-learning\"].\n\nReturn JSON. "
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4880,
+      "completion_tokens": 1343,
+      "total_tokens": 6223,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1253
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 144
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

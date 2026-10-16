@@ -1,0 +1,36 @@
+{
+  "task_sha256": "830813609479534353b73822374b05f82934bb9b5cf7e672ce155e3cd70ed7c0",
+  "input_sha256": "691875f43660ba29370daca8113b3ddcfbea6f94d80c2d059966e732ad3bb81e",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "983919e855e96fc8890d4f0897a9fd747cb45c0fc4ad23190d835b63ba35027c",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "cc20fd205f144dab299c5c28458087c9b67bb8678aaced33872a1c69ee2a2ba3",
+  "raw_response": "{\"paper_id\":\"W2883606943\",\"input_sha256\":\"236a46daf7d7ba9f33b45737f5e2abdbd2395e61c20128d8c5171cb6c1748933\",\"keyword_ids\":[\"image-segmentation\"],\"evidence\":[{\"keyword_id\":\"image-segmentation\",\"field\":\"title\",\"quote\":\"Superpixel Sampling Networks\"}]}",
+  "value": {
+    "paper_id": "W2883606943",
+    "input_sha256": "236a46daf7d7ba9f33b45737f5e2abdbd2395e61c20128d8c5171cb6c1748933",
+    "keyword_ids": [
+      "image-segmentation"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "image-segmentation",
+        "field": "title",
+        "quote": "Superpixel Sampling Networks"
+      }
+    ]
+  }
+}

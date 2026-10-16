@@ -1,0 +1,20 @@
+{
+  "source":"用户提供的不完整毕业生名单，2026-10-10；李宇航去重，优先采用此前在读名单",
+  "excluded_current_students":["吕闻龙","李卓明","李之昕"],
+  "students":[
+    {"name":"黄驰","author_name":null},
+    {"name":"程建弘","author_name":"Jianhong Cheng"},
+    {"name":"蒋佳豪","author_name":"Jiahao Jiang"},
+    {"name":"彭小锐","author_name":"Xiaorui Peng"},
+    {"name":"漆健晗","author_name":"Jianhan Qi"},
+    {"name":"李宇航","author_name":"Yuhang Li"},
+    {"name":"张旭","author_name":"Xu Zhang"},
+    {"name":"杨富超","author_name":"Fuchao Yang"},
+    {"name":"祁特","author_name":"Te Qi"},
+    {"name":"夏柯","author_name":"Ke Xia"},
+    {"name":"李翰洋","author_name":"Hanyang Li"},
+    {"name":"林奇瑞","author_name":"Qirui Lin"},
+    {"name":"何沐","author_name":null}
+  ],
+  "previously_confirmed_retained":["Chongjie Si","Zhiqiang Kou","Wei Gao"]
+}

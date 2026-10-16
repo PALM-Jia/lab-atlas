@@ -1,0 +1,48 @@
+{
+  "task_sha256": "1710428ddb81065dee6deb70c04002e1604403d7f90db55cd407c3e7829a1dc8",
+  "input_sha256": "e60a994d436f7b7915601ca489e43bd844e2c5ae7f0fc67e2ecdbbae1309b98b",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "c6a7cdf322a11310bca69b84f5d3dd824131d77053ec79a9cec57dc677263c4b",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "d19c7e63b19e20bf6d049e6dc27f378e9cce829f371ac1d3a2849c2634a821da",
+  "raw_response": "{\"paper_id\":\"W3166291381\",\"input_sha256\":\"9f255e9764e4d04632b13b6dfe75ea311a7f0aa8bf9e04ab8d5e7edd9de6b1b5\",\"keyword_ids\":[\"low-rank-modeling\",\"data-imputation-recovery\",\"traffic-data\"],\"evidence\":[{\"keyword_id\":\"low-rank-modeling\",\"field\":\"title\",\"quote\":\"low-rank tensor learning\"},{\"keyword_id\":\"data-imputation-recovery\",\"field\":\"title\",\"quote\":\"traffic data imputation\"},{\"keyword_id\":\"traffic-data\",\"field\":\"title\",\"quote\":\"spatiotemporal traffic data\"}]}",
+  "value": {
+    "paper_id": "W3166291381",
+    "input_sha256": "9f255e9764e4d04632b13b6dfe75ea311a7f0aa8bf9e04ab8d5e7edd9de6b1b5",
+    "keyword_ids": [
+      "low-rank-modeling",
+      "data-imputation-recovery",
+      "traffic-data"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "low-rank-modeling",
+        "field": "title",
+        "quote": "low-rank tensor learning"
+      },
+      {
+        "keyword_id": "data-imputation-recovery",
+        "field": "title",
+        "quote": "traffic data imputation"
+      },
+      {
+        "keyword_id": "traffic-data",
+        "field": "title",
+        "quote": "spatiotemporal traffic data"
+      }
+    ]
+  }
+}

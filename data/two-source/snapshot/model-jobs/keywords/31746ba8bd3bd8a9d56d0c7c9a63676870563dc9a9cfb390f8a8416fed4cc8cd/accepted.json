@@ -1,0 +1,42 @@
+{
+  "task_sha256": "31746ba8bd3bd8a9d56d0c7c9a63676870563dc9a9cfb390f8a8416fed4cc8cd",
+  "input_sha256": "f351d4bb95c3f41903944481fff9702591d96abf7dbba04c18d6971dea40054f",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "b1c40fdd9969a7de22763a1f56ee64ea1ad46f843e1d6a162cf327914aca3f4c",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "6f397ffbf59810d813be92bf2e517e4c040e299f084f6fe20998ff0cb7c69373",
+  "raw_response": "{\"paper_id\":\"lab-cfe1c0f8487f\",\"input_sha256\":\"4aab513e711e1b2f3df59d31e8bc0bc4973858542dc00568376ce6c591420f61\",\"keyword_ids\":[\"class-imbalance\",\"noisy-label-learning\"],\"evidence\":[{\"keyword_id\":\"class-imbalance\",\"field\":\"title\",\"quote\":\"Long-Tailed Learning\"},{\"keyword_id\":\"noisy-label-learning\",\"field\":\"title\",\"quote\":\"Noisy Labels\"}]}",
+  "value": {
+    "paper_id": "lab-cfe1c0f8487f",
+    "input_sha256": "4aab513e711e1b2f3df59d31e8bc0bc4973858542dc00568376ce6c591420f61",
+    "keyword_ids": [
+      "class-imbalance",
+      "noisy-label-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "class-imbalance",
+        "field": "title",
+        "quote": "Long-Tailed Learning"
+      },
+      {
+        "keyword_id": "noisy-label-learning",
+        "field": "title",
+        "quote": "Noisy Labels"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "request_sha256": "96b1dfeab163994c500de736ae89f1261ad1d1546910f8c783f919878ea5ac76",
+  "received_at": "2026-10-15T13:05:58+00:00",
+  "http": 200,
+  "response": {
+    "id": "a8906b71-9b57-46ad-bc33-fed0a74ec91c",
+    "object": "chat.completion",
+    "created": 1792069555,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W4413329663\",\"input_sha256\":\"4b9c7e093c2188188efe35377967fa9106f3569f3ec43a5f23ce54b194f5d2d1\",\"keyword_ids\":[],\"evidence\":[]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title, empty abstract, vocabulary. Need choose keyword IDs only if evidence from title or abstract. We have title \"Standards for AI-based Image and Video Coding\". Need use 49 vocab, apply definitions. Missing abstract allowed, use title conservatively. Need determine relevant keywords.\n\nTitle: Standards for AI-based Image and Video Coding. This sounds about standardization for AI-based image/video coding. Vocabulary keywords likely none? Need consider \"Image segmentation\" no. \"Vision-language models\" no. \"Large language models\" no. \"Image and Video Coding\" not in vocab. \"Standards\" not. \"AI-based\" maybe large vision-language? no. \"Deep clustering\" no. \"Dimensionality reduction\" maybe image/video coding involves compression, not explicit. No keyword for image/video compression. Maybe none. Empty keyword list valid.\n\nNeed return JSON with paper_id, input_sha256, keyword_ids [], evidence []. Ensure no extra. But let's deeply consider. The title: \"Standards for AI-based Image and Video Coding\". It is probably a paper about standardization for AI-based image and video coding. Does any vocabulary apply? Maybe \"Vision-language models\" no. \"Large vision-language models\" no. \"Large language models\" no. \"Value and preference alignment\" no. \"Hallucination mitigation\" no. \"Dataset distillation\" no. \"Model merging\" no. \"Parameter-efficient fine-tuning\" maybe no. \"Knowledge distillation\" no. \"Adversarial robustness\" maybe no. \"Image segmentation\" no. \"Multimodal retrieval\" no.\n\nCould \"Image and Video Coding\" be \"Dimensionality reduction\"? Definition: explicit low-dimensional mapping or embedding with dimension compression as goal; only hidden layers insufficient. Image/video coding is compression, but not necessarily dimensionality reduction of data? It is coding standards. Not enough from title. Also parent not automatically present.\n\nMaybe \"Large language models\"? no.\n\n\"AI-based\" perhaps machine learning applications to image/video coding. No vocab for image/video compression. Empty is correct.\n\nNeed ensure JSON schema no prose. Final only JSON.\n\nLet's produce exactly."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4867,
+      "completion_tokens": 512,
+      "total_tokens": 5379,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 447
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 259
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

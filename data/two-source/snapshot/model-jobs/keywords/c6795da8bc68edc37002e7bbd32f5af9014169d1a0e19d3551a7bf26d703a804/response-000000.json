@@ -1,0 +1,37 @@
+{
+  "request_sha256": "980d4a2defa21ac15432abef623b0ea7e190f6d819aeda47fa63ec4bf63b4d66",
+  "received_at": "2026-10-15T13:04:08+00:00",
+  "http": 200,
+  "response": {
+    "id": "f78922ec-ccf0-47ae-a26b-fcb500030b8b",
+    "object": "chat.completion",
+    "created": 1792069445,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W1736339626\",\"input_sha256\":\"c63ccc4ce3cff22dea415e403a971888fe8a7101839d32dcac1d153d54391f94\",\"keyword_ids\":[],\"evidence\":[]}",
+          "reasoning_content": "We need answer JSON only. Need label using title/abstract. Abstract empty. Title: \"A collaborative framework for 3D alignment and classification of heterogeneous subvolumes in cryo-electron tomography\"\n\nWe need choose keywords from vocabulary applicable based only title. Need be conservative. Paper about cryo-electron tomography, 3D alignment and classification of heterogeneous subvolumes. Which keywords? None likely? Let's inspect vocabulary. Tasks: deep clustering? No, classification of heterogeneous subvolumes maybe clustering? \"classification\" maybe not in vocab as generic classification. Ensemble clustering? \"collaborative framework\" maybe ensemble? But definition ensemble clustering: fusion multiple existing clusterings for consensus. Title \"collaborative framework for 3D alignment and classification\" could be collaborative? No evidence of clustering ensemble. Subspace clustering? No. Multi-label? No. Dimensionality reduction? alignment? No. Image segmentation? No. Data imputation? No. Model merging? No. Multi-objective optimization? collaborative? no. Low-rank? no. Graph? no. Domain adaptation? no. Weakly supervised? no. Hyperspectral? no. Application object? Cryo-electron tomography not in vocab. So likely empty list. But need maybe \"Image segmentation\" because subvolume classification? No. \"Dimensionality reduction\" alignment? no. \"Multi-objective optimization\" collaborative? no.\n\nNeed return JSON with paper_id, input_sha256, keyword_ids [], evidence []. Empty keyword list valid. Need ensure exact schema. No extra prose. Final JSON.\n\nBut let's think: \"3D alignment and classification\" might be image segmentation? Classification of heterogeneous subvolumes maybe classification task? The vocabulary's research_task doesn't include generic classification except multi-label, partial-label, etc. There is \"Image segmentation\" not classification. \"Subspace clustering\" no. \"Deep clustering\" no. \"Ensemble clustering\" maybe \"collaborative framework\" but not enough. \"Classifier ensemble\" method? Collaborative framework maybe combines multiple classifiers? Title says classification. But no abstract. Could be \"collaborative framework\" for alignment and classification, not necessarily ensemble. We should not infer. Also \"Multi-objective optimization\"? no.\n\nThus empty.\n\nNeed include input_sha256 from given. Final exactly."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4873,
+      "completion_tokens": 528,
+      "total_tokens": 5401,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 468
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 137
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "request_sha256": "b1add5b79e01cc53e0c9694a1c0a1dcb2a848cd0297970d93ccfc466c7f62194",
+  "received_at": "2026-10-15T13:04:42+00:00",
+  "http": 200,
+  "response": {
+    "id": "6f9b6362-4ca8-4917-8085-30c2b6647050",
+    "object": "chat.completion",
+    "created": 1792069477,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W2780112348\",\"input_sha256\":\"347a84b3b5d4bc5047c58b29600a3ed48f85d2ee1dfb009929c5f407f279a2aa\",\"keyword_ids\":[\"multi-label-learning\",\"classifier-ensemble\"],\"evidence\":[{\"keyword_id\":\"multi-label-learning\",\"field\":\"title\",\"quote\":\"multi-label classifiers\"},{\"keyword_id\":\"classifier-ensemble\",\"field\":\"title\",\"quote\":\"ensembles of multi-label classifiers\"}]}",
+          "reasoning_content": "We need label the paper using title only (abstract missing). Title: \"Review of ensembles of multi-label classifiers: Models, experimental study and prospects\". Need determine keywords from 49 vocabulary. Must not overlabel. Need every chosen ID has literal continuous quote from title. We can use title quote for each chosen. Need be conservative. Paper is review of ensembles of multi-label classifiers. So likely:\n- Multi-label learning (research_task): title \"multi-label classifiers\" indicates multi-label learning. Definition: learn predict multiple relevant labels simultaneously. It's review of classifiers for multi-label. Yes.\n- Classifier ensemble (method): title \"ensembles of multi-label classifiers\" -> ensemble of classifiers. Definition combines multiple classifiers' predictions or assigns experts for classification; clustering consensus not etc. Yes.\nMaybe also \"Ensemble clustering\" no, because not clustering.\nMaybe \"Label correlation modeling\"? It says ensembles of multi-label classifiers models, experimental study; title doesn't mention label correlation. No.\nMaybe \"Multi-view learning\"? no.\nMaybe \"Weakly supervised learning\"? no.\nMaybe \"Open-vocabulary recognition\"? no.\nMaybe \"Classifier ensemble\" parent? none. \"Ensemble clustering\" not appropriate. Also \"Multi-label learning\" research_task. Could there be \"Classifier ensemble\" and \"Multi-label learning\" enough. Since it's a review paper, not a specific method. The task is review of ensembles of multi-label classifiers. So contribution is review/survey, but vocabulary has no survey. We can label based on content domain. The instructions: label the paper using title, abstract, vocabulary. Do not label a merely cited/example/background task as paper's contribution. Since it's a review of ensembles of multi-label classifiers, multi-label learning and classifier ensemble are central topics. Could also include \"Label correlation modeling\"? Ensembles of multi-label classifiers may model label correlations, but title doesn't explicitly say. Avoid.\nCould include \"Multi-label learning\" and \"Classifier ensemble\". Maybe \"Ensemble clustering\" not.\nCould include \"Multi-objective optimization\"? no.\nCould include \"Class-imbalanced learning\"? no.\nCould include \"Large language models\"? no.\nMaybe \"Multi-label learning\" definition: \"学习为单个实例预测可同时成立的多个相关标记，含完整或弱监督下的多标记分类与识别；不同于单标记多分类及归一化标记描述度预测。\" Title \"multi-label classifiers\" indicates task. Yes.\n\"Classifier ensemble\" definition: \"结合多个分类器的预测或按样本分配专家以完成分类；聚类共识任务、模型权重合并不等价。\" Title \"ensembles of multi-label classifiers\" -> ensemble of classifiers. Yes.\n\nNeed JSON:\n{\"paper_id\":\"W2780112348\",\"input_sha256\":\"347a84b3b5d4bc5047c58b29600a3ed48f85d2ee1dfb009929c5f407f279a2aa\",\"keyword_ids\":[\"multi-label-learning\",\"classifier-ensemble\"],\"evidence\":[{\"keyword_id\":\"multi-label-learning\",\"field\":\"title\",\"quote\":\"multi-label classifiers\"},{\"keyword_id\":\"classifier-ensemble\",\"field\":\"title\",\"quote\":\"ensembles of multi-label classifiers\"}]}\n\nCheck quote continuous in title: title is \"Review of ensembles of multi-label classifiers: Models, experimental study and prospects\". \"multi-label classifiers\" continuous yes. \"ensembles of multi-label classifiers\" continuous yes. For classifier-ensemble, quote includes multi-label but continuous. Good.\n\nNeed only JSON. Ensure no extra."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4873,
+      "completion_tokens": 841,
+      "total_tokens": 5714,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 726
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 137
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "task_sha256": "2028f963d8df751e15bc2dca1a2ba3ee4211d13bbb9e32f40ac4f6e7084baa43",
+  "input_sha256": "e63342bd11d512631f51adc0569f8d769eb546305862f56dd0432f6d0d9c1605",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "b4891f81bbc1d028b56bb69be53206caef91f8e1c682aaf0084fa839ab1e3d51",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "a53b7c4e4db6c39a26dd8f6dffdd5acde5c47226519be3b5da076b9db55f29af",
+  "raw_response": "{\"paper_id\":\"W2902200737\",\"input_sha256\":\"3347bfbf48350c9cd8799351b62a2f850fddaa77705944042e9d97b03cb5d9c5\",\"keyword_ids\":[\"multi-label-learning\"],\"evidence\":[{\"keyword_id\":\"multi-label-learning\",\"field\":\"title\",\"quote\":\"Multi-label Facial Expression Recognition\"}]}",
+  "value": {
+    "paper_id": "W2902200737",
+    "input_sha256": "3347bfbf48350c9cd8799351b62a2f850fddaa77705944042e9d97b03cb5d9c5",
+    "keyword_ids": [
+      "multi-label-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "multi-label-learning",
+        "field": "title",
+        "quote": "Multi-label Facial Expression Recognition"
+      }
+    ]
+  }
+}

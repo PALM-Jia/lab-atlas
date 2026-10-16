@@ -1,0 +1,37 @@
+{
+  "request_sha256": "fc3caaf53c840c3ab13a08cc1fa44a67fee116b9a82b915cd401959b5197d837",
+  "received_at": "2026-10-15T13:05:50+00:00",
+  "http": 200,
+  "response": {
+    "id": "77193ee0-7aa8-4a8c-9efb-2164b9893c0c",
+    "object": "chat.completion",
+    "created": 1792069547,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W4413310981\",\"input_sha256\":\"6ce52e3caf338974fd9b443fc66aa58b6310be2a957e7e5df50b16169e587a99\",\"keyword_ids\":[],\"evidence\":[]}",
+          "reasoning_content": "We need answer only JSON. Need label paper using title, abstract empty. Title: \"Quality Assessment and Perception Models for Image and Video\". Need use vocabulary 49. Must choose IDs with literal quote from title (abstract empty). Need be conservative. Title seems about image/video quality assessment and perception models. What keywords fit? Let's inspect vocab. Deep clustering no. Ensemble clustering no. Subspace no. Multi-label no. Label distribution no. Label enhancement no. Dimensionality reduction no. Image segmentation no. Data imputation no. Hallucination no. Model merging no. Multimodal retrieval no. Value alignment no. Adversarial robustness no. Dataset distillation no. Person re-id no. Multi-objective no. Confidence calibration? Quality assessment could involve perception models, but confidence calibration not explicit. Low-rank no. NMF no. Graph structure no. Graph regularization no. GNN no. Contrastive no. Pseudo-label no. Sparse no. Bayesian no. Label correlation no. PEFT no. Latent reasoning no. Knowledge distillation no. Domain adaptation no. Pairwise constraint no. Classifier ensemble no. Partial label no. Semi-supervised no. Class imbalance no. Noisy-label no. Multi-view no. Federated no. Zero-shot no. Open-vocabulary no. Hyperspectral no. Traffic no. Underwater no. Large language models no. Vision-language models? Image and video quality assessment, perception models. Does title imply vision-language? No. Weakly supervised? No. Large vision-language no. Maybe no keywords? But title \"Quality Assessment and Perception Models for Image and Video\" maybe research task not in vocab. The instruction: empty keyword list valid. Need likely empty. But we must consider maybe \"Image segmentation\" no. \"Multi-objective optimization\"? no. \"Confidence calibration\" no. \"Vision-language models\" no.\n\nNeed ensure every chosen has quote. If none, keyword_ids empty evidence empty. Is there any keyword for image/video quality assessment? None. Perception models? None. Could \"Data imputation and recovery\" no.\n\nThus output JSON with paper_id, input_sha256, keyword_ids [], evidence [].\n\nNeed no extra prose."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4865,
+      "completion_tokens": 516,
+      "total_tokens": 5381,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 453
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 257
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

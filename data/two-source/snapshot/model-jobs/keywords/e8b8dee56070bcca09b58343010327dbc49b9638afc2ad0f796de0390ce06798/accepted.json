@@ -1,0 +1,48 @@
+{
+  "task_sha256": "e8b8dee56070bcca09b58343010327dbc49b9638afc2ad0f796de0390ce06798",
+  "input_sha256": "fb06a5962b9205cb6a94129a1182c29f599656dc183b74814c603d016dbea896",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "37a5d32dbd69b30fdad78e1e998f8a1a5629285d2e4b460bdcefb33b425ef065",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "b6436c96d9d1b912383b5d87489ffb3dff9c776a4754a0b7de22693729e75f57",
+  "raw_response": "{\"paper_id\":\"W3082074365\",\"input_sha256\":\"d39f075025d0e41846ab6d7e68892cd38a7a966dd76dde80d8dc04561c50087b\",\"keyword_ids\":[\"nonnegative-matrix-factorization\",\"semi-supervised-learning\",\"graph-structure-learning\"],\"evidence\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"field\":\"title\",\"quote\":\"nonnegative matrix factorization\"},{\"keyword_id\":\"semi-supervised-learning\",\"field\":\"title\",\"quote\":\"semi-supervised\"},{\"keyword_id\":\"graph-structure-learning\",\"field\":\"title\",\"quote\":\"adaptive graph\"}]}",
+  "value": {
+    "paper_id": "W3082074365",
+    "input_sha256": "d39f075025d0e41846ab6d7e68892cd38a7a966dd76dde80d8dc04561c50087b",
+    "keyword_ids": [
+      "nonnegative-matrix-factorization",
+      "semi-supervised-learning",
+      "graph-structure-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "nonnegative-matrix-factorization",
+        "field": "title",
+        "quote": "nonnegative matrix factorization"
+      },
+      {
+        "keyword_id": "semi-supervised-learning",
+        "field": "title",
+        "quote": "semi-supervised"
+      },
+      {
+        "keyword_id": "graph-structure-learning",
+        "field": "title",
+        "quote": "adaptive graph"
+      }
+    ]
+  }
+}

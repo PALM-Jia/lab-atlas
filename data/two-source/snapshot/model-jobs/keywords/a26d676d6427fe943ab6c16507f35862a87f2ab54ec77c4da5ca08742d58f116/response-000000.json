@@ -1,0 +1,37 @@
+{
+  "request_sha256": "01664857553a0e37ee23a3f9ff36bb74d8715f5c4aaee9144e0195efb445b571",
+  "received_at": "2026-10-15T13:04:58+00:00",
+  "http": 200,
+  "response": {
+    "id": "1041f3cf-9cdd-4b8e-95c0-8af91e898f78",
+    "object": "chat.completion",
+    "created": 1792069494,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W3005147439\",\"input_sha256\":\"e432490dc363500badfa89b539626624c8ba10c919a92e280803c08bab5f5e33\",\"keyword_ids\":[\"traffic-data\"],\"evidence\":[{\"keyword_id\":\"traffic-data\",\"field\":\"title\",\"quote\":\"traffic speed estimation with massive ride-sourcing GPS traces\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title/abstract. Abstract empty. Title: \"Urban network-wide traffic speed estimation with massive ride-sourcing GPS traces\". Need use 49 vocab. Need determine keywords. We can only use title field (abstract empty). Need conservative. Likely \"Traffic data\" because title explicitly traffic speed estimation, ride-sourcing GPS traces, urban network-wide. Definition: Traffic data: road traffic speed, flow, trajectory, spatiotemporal traffic state actual data object; paper only mentions intelligent transportation application background insufficient. Title directly studies traffic speed estimation with GPS traces. So traffic-data yes. Also maybe \"data imputation and recovery\"? Estimating missing? Title says traffic speed estimation, not necessarily imputation/recovery. It estimates speed from GPS traces. Data imputation definition: estimate missing observations or recover original values from contaminated observations; output is data to recover. Not necessarily. Could be \"Traffic data\" only. Maybe \"Large language models\" no, \"vision...\" no. \"Graph neural networks\"? no. \"Sparse representation\"? no. \"Multi-objective\"? no. \"Domain adaptation\"? no. \"Federated\"? no. \"Hyperspectral\"? no. \"Underwater\"? no.\n\nCould \"Data imputation and recovery\" maybe because traffic speed estimation from sparse GPS traces? Title doesn't say missing/incomplete, only estimation. Don't infer. So only traffic-data.\n\nNeed output JSON with paper_id, input_sha256, keyword_ids, evidence with keyword_id field title quote. Quote must literal continuous from title. For traffic-data quote: \"traffic speed estimation\" or \"Urban network-wide traffic speed estimation with massive ride-sourcing GPS traces\". Must be continuous from title. Choose maybe \"traffic speed estimation\" and/or \"ride-sourcing GPS traces\". Evidence one quote? The schema evidence list every chosen id at least one quote. We can include one quote. Need exact. Use title quote \"traffic speed estimation with massive ride-sourcing GPS traces\". This supports traffic data. Ensure JSON valid. No extra prose."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4864,
+      "completion_tokens": 512,
+      "total_tokens": 5376,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 424
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 256
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "task_sha256": "12a08537a60ec63684adfc4e10631820e0e607d923ae37acd2f84494604b6586",
+  "input_sha256": "f9d3d13e64cd6ff2f57b7192bdb0acabf22e82e6fe86fcb1e1119df332ea3d95",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "0ea242bf66f8aae217e08bd2888d73acf21cd6f242fa634d5de330e1287c4090",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "c7554cc1dcfa6f41752bc8ec96954154c730e74bccb43e3ea91f07a23e11d3dc",
+  "raw_response": "{\"paper_id\":\"lab-2110e10b1fd2\",\"input_sha256\":\"9c165062c25f05497e363e73d1aadd254901d6597be0e36d26b2928d143316c7\",\"keyword_ids\":[\"pseudo-label-self-training\",\"vision-language-models\"],\"evidence\":[{\"keyword_id\":\"pseudo-label-self-training\",\"field\":\"title\",\"quote\":\"Pseudo-label Self-balancing\"},{\"keyword_id\":\"vision-language-models\",\"field\":\"title\",\"quote\":\"Vision-Language Models\"}]}",
+  "value": {
+    "paper_id": "lab-2110e10b1fd2",
+    "input_sha256": "9c165062c25f05497e363e73d1aadd254901d6597be0e36d26b2928d143316c7",
+    "keyword_ids": [
+      "pseudo-label-self-training",
+      "vision-language-models"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "pseudo-label-self-training",
+        "field": "title",
+        "quote": "Pseudo-label Self-balancing"
+      },
+      {
+        "keyword_id": "vision-language-models",
+        "field": "title",
+        "quote": "Vision-Language Models"
+      }
+    ]
+  }
+}

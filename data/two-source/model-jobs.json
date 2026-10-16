@@ -1,0 +1,12 @@
+{
+  "schema": "lab-atlas-model-jobs/v1",
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "model": "deepseek-flash",
+  "settings": {"thinking": {"type": "enabled"}, "reasoning_effort": "high", "max_tokens": 16384, "response_format": {"type": "json_object"}},
+  "workers": 12,
+  "timeout_seconds": 240,
+  "attempts": 3,
+  "max_requests_per_run": 600,
+  "repair_instruction": "The preceding response did not pass validation: {reason}. Return a new complete JSON result for the ORIGINAL supplied task. Do not invent facts or alter the input hash. Every evidence quote must be a literal continuous substring of title or abstract.",
+  "policy": "Only an explicit --execute-ai may make requests. Saved responses are replayed by input, prompt, vocabulary, model and settings hashes. Each task is isolated. Authentication/balance errors stop new requests. Mechanical validation is not a semantic quality audit."
+}

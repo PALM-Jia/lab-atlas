@@ -1,0 +1,37 @@
+{
+  "request_sha256": "55cb1b64eeb99ddce86afe703fb89c2ab6ba83b35434be222c2456f1ac8f1857",
+  "received_at": "2026-10-15T13:04:28+00:00",
+  "http": 200,
+  "response": {
+    "id": "d24cd215-65d3-42b5-94ed-05586f13eb38",
+    "object": "chat.completion",
+    "created": 1792069463,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W2135029798\",\"input_sha256\":\"40daa321967249dd442716c68c28af6ef84ca73acd44046cf464b8ddeca195c4\",\"keyword_ids\":[\"nonnegative-matrix-factorization\"],\"evidence\":[{\"keyword_id\":\"nonnegative-matrix-factorization\",\"field\":\"abstract\",\"quote\":\"Non-negative matrix factorization (NMF) has previously been shown to be a useful decomposition for multivariate data.\"}]}",
+          "reasoning_content": "We need answer only JSON per schema. Need label paper using given title abstract and vocabulary. Need infer keywords with evidence quotes. Paper title \"Algorithms for Non-negative Matrix Factorization\". Abstract clearly NMF. Vocabulary has Nonnegative matrix factorization id. Also maybe Dimensionality reduction? NMF is decomposition for multivariate data, unsupervised learning algorithms such as PCA and vector quantization can be understood as factorizing data matrix. Is explicit low-dimensional mapping/embedding and dimension compression? NMF often dimensionality reduction, but definition says \"研究显式的低维映射或嵌入并以维度压缩为目标；仅存在隐藏层或特征向量不充分.\" Abstract says decomposition for multivariate data, factors. Does it show dimensionality reduction? Not explicitly goal dimension compression. It's NMF algorithms, not necessarily dimensionality reduction. We should not include if not directly supported. Low-rank modeling? Definition: 显式利用矩阵或张量低秩约束、分解或近似表示相关结构；仅作为被批评的旧假设不充分. NMF is matrix factorization but low-rank? Abstract says factorizing data matrix subject to different constraints. NMF itself is nonnegative factorization, often low-rank. But keyword \"Nonnegative matrix factorization\" specifically covers. Low-rank modeling could also be present? Need apply definitions. \"Non-negative matrix factorization\" definition: 以非负因子分解矩阵，含对称非负矩阵分解；一般低秩分解或仅非负约束不充分. Here title and abstract exactly NMF. Include.\n\nSparse representation? No.\n\nBayesian? No.\n\nMulti-objective? No.\n\nUnsupervised? Weakly supervised? No.\n\nData imputation? No.\n\nCould include \"Dimensionality reduction\"? Abstract: \"Unsupervised learning algorithms such as principal components analysis and vector quantization can be understood as factorizing a data matrix subject to different constraints.\" It doesn't mention dimensionality reduction. NMF decomposition could be for multivariate data, but not explicit dimension reduction. Probably not.\n\nCould include \"Low-rank modeling\"? NMF is factorization but no explicit low rank. The definition requires explicit low-rank constraint/decomposition/approx. \"factorizing a data matrix subject to different constraints\" might include low-rank? But title NMF. However NMF is not necessarily low rank? It is a low-rank approximation with nonneg constraints. But evidence quote does not say low-rank. Need literal continuous quote. Could quote \"factorizing a data matrix subject to different constraints\". Does that support low-rank modeling? Not explicitly low rank. Better exclude.\n\nCould include \"Nonnegative matrix factorization\" only. Need evidence quote from title or abstract. Use title: \"Non-negative Matrix Factorization\" and abstract: \"Non-negative matrix factorization (NMF) has previously been shown to be a useful decomposition for multivariate data.\" Need exact continuous quote. Title has \"Non-negative Matrix Factorization\" not exactly canonical? Fine. Abstract quote exact.\n\nNeed JSON with paper_id, input_sha256, keyword_ids [\"nonnegative-matrix-factorization\"], evidence array one item with keyword_id, field \"abstract\" or title, quote. Could include multiple evidence? Schema allows array. Every chosen ID must have at least one literal continuous quote. We can include title and abstract maybe. Need ensure quote exact. Title: \"Algorithms for Non-negative Matrix Factorization\" or \"Non-negative Matrix Factorization\"? The title field is \"Algorithms for Non-negative Matrix Factorization\". Quote continuous \"Non-negative Matrix Factorization\" is substring. Abstract quote: \"Non-negative matrix factorization (NMF) has previously been shown to be a useful decomposition for multivariate data.\" Exact. Use abstract. That is enough.\n\nNeed no extra prose. Return JSON object. Ensure valid JSON. Could include only one keyword. Is parent not automatically present. Parent null.\n\nLet's final."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5029,
+      "completion_tokens": 870,
+      "total_tokens": 5899,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 766
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 293
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

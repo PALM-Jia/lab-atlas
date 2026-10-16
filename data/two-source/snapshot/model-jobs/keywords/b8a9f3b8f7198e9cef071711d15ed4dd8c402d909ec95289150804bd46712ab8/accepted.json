@@ -1,0 +1,36 @@
+{
+  "task_sha256": "b8a9f3b8f7198e9cef071711d15ed4dd8c402d909ec95289150804bd46712ab8",
+  "input_sha256": "373afe7c7501047c3a9e4e17311de4ec0d078402342b08115659ed69c404948b",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "cfd7fe2b1f89139471c2b355007e1f7ff8cb321b4f95c9affef36938ebabf8a6",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "4252290820c6d77eca524d16622bec467015f970cce9c17a4871b9e3f7764589",
+  "raw_response": "{\"paper_id\":\"W7212154634\",\"input_sha256\":\"647c000664058f868429f453889e5834690e3ade66a50972bca4ca19fbf7810b\",\"keyword_ids\":[\"noisy-label-learning\"],\"evidence\":[{\"keyword_id\":\"noisy-label-learning\",\"field\":\"title\",\"quote\":\"Inaccurate Annotations\"}]}",
+  "value": {
+    "paper_id": "W7212154634",
+    "input_sha256": "647c000664058f868429f453889e5834690e3ade66a50972bca4ca19fbf7810b",
+    "keyword_ids": [
+      "noisy-label-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "noisy-label-learning",
+        "field": "title",
+        "quote": "Inaccurate Annotations"
+      }
+    ]
+  }
+}

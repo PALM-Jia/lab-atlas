@@ -1,0 +1,33 @@
+{
+  "ai_executed": false,
+  "rows": [
+    {
+      "occurrence_id": "lab-1025a6d4de24:5",
+      "person_id": "person-pending-lab-1025a6d4de24",
+      "name": "Hao Chen",
+      "reasons": [
+        "same_name_distinct_evidence_components",
+        "user_identity_uncertain"
+      ],
+      "openalex_author_id": null,
+      "orcid": null,
+      "roster_candidate": null,
+      "institutions": []
+    },
+    {
+      "occurrence_id": "lab-8a05dc1f7a41:4",
+      "person_id": "person-pending-lab-8a05dc1f7a41",
+      "name": "Hao Chen",
+      "reasons": [
+        "same_name_distinct_evidence_components",
+        "user_identity_uncertain"
+      ],
+      "openalex_author_id": null,
+      "orcid": null,
+      "roster_candidate": null,
+      "institutions": []
+    }
+  ],
+  "input_sha256": "5ed638e6b28889254ade8f39ada4cd47897be295ecbc80fd270586c45452fd6a",
+  "prompt_sha256": "468b71f3e94fa9212423cf89d5d015c9884463af194042e10d14ddad55ccaa97"
+}

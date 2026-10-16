@@ -1,0 +1,42 @@
+{
+  "task_sha256": "2f88d91bcbbcd6f52b36c8b913ef98de98a273bfa99c57b6aff42cd497c76acd",
+  "input_sha256": "5483d6482a1b67841c7cdb7b1f3f69e614bd445c43b355555b0f36d80c298402",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "71dc9bb475544adec841d723fcaedf1b1907f6e14066367fb131040f7637f184",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "75adf6e4b950ea2320d27d04bf824475815d6b809e23d8a0ea8585605880d17b",
+  "raw_response": "{\"paper_id\":\"W4379015973\",\"input_sha256\":\"b280ed8ed81ca6dbe9f4ecae54b80b0743b6247107e5e5f53f6a1cb6cf2dc467\",\"keyword_ids\":[\"deep-clustering\",\"subspace-clustering\"],\"evidence\":[{\"keyword_id\":\"deep-clustering\",\"field\":\"title\",\"quote\":\"Self-supervised deep subspace clustering with entropy-norm\"},{\"keyword_id\":\"subspace-clustering\",\"field\":\"title\",\"quote\":\"deep subspace clustering\"}]}",
+  "value": {
+    "paper_id": "W4379015973",
+    "input_sha256": "b280ed8ed81ca6dbe9f4ecae54b80b0743b6247107e5e5f53f6a1cb6cf2dc467",
+    "keyword_ids": [
+      "deep-clustering",
+      "subspace-clustering"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "deep-clustering",
+        "field": "title",
+        "quote": "Self-supervised deep subspace clustering with entropy-norm"
+      },
+      {
+        "keyword_id": "subspace-clustering",
+        "field": "title",
+        "quote": "deep subspace clustering"
+      }
+    ]
+  }
+}

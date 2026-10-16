@@ -1,0 +1,36 @@
+{
+  "task_sha256": "bbd5d44cf0fafa4524efee10c43b2c1d29771dd6b04a47ec368bb7b2ffe07076",
+  "input_sha256": "55d1ead0940f7557a0daa7a3edac999d1002326d40307212ace63bd99f626c72",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "50daaf8c25adfbcde0800a769014253ba9762ad0ff5d4c782469315b1d348533",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "a9b341003df455d384eaa2120c16075eba1ec6988062d312e2f14bd0dd88849a",
+  "raw_response": "{\"paper_id\":\"W2052478943\",\"input_sha256\":\"47727af5da556838939ad79c094adf5f6077a19cd5e3c570a002175d2f310292\",\"keyword_ids\":[\"semi-supervised-learning\"],\"evidence\":[{\"keyword_id\":\"semi-supervised-learning\",\"field\":\"title\",\"quote\":\"constrained spectral clustering\"}]}",
+  "value": {
+    "paper_id": "W2052478943",
+    "input_sha256": "47727af5da556838939ad79c094adf5f6077a19cd5e3c570a002175d2f310292",
+    "keyword_ids": [
+      "semi-supervised-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "semi-supervised-learning",
+        "field": "title",
+        "quote": "constrained spectral clustering"
+      }
+    ]
+  }
+}

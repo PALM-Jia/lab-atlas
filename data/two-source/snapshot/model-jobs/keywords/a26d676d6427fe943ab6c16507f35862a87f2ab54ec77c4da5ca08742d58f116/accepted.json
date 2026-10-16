@@ -1,0 +1,36 @@
+{
+  "task_sha256": "a26d676d6427fe943ab6c16507f35862a87f2ab54ec77c4da5ca08742d58f116",
+  "input_sha256": "d47e3f066b22d3ddabf6fd4ca683b7eb40ed3b30ab94e57ce7b6c99ea07be1aa",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "01664857553a0e37ee23a3f9ff36bb74d8715f5c4aaee9144e0195efb445b571",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "0bd36b6daf21eebfae6b21d864230efeb7924398dc7b809e415167011ee114ca",
+  "raw_response": "{\"paper_id\":\"W3005147439\",\"input_sha256\":\"e432490dc363500badfa89b539626624c8ba10c919a92e280803c08bab5f5e33\",\"keyword_ids\":[\"traffic-data\"],\"evidence\":[{\"keyword_id\":\"traffic-data\",\"field\":\"title\",\"quote\":\"traffic speed estimation with massive ride-sourcing GPS traces\"}]}",
+  "value": {
+    "paper_id": "W3005147439",
+    "input_sha256": "e432490dc363500badfa89b539626624c8ba10c919a92e280803c08bab5f5e33",
+    "keyword_ids": [
+      "traffic-data"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "traffic-data",
+        "field": "title",
+        "quote": "traffic speed estimation with massive ride-sourcing GPS traces"
+      }
+    ]
+  }
+}

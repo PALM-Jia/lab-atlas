@@ -1,0 +1,36 @@
+{
+  "task_sha256": "670b15d3a05dd427ad934a40bfd484cecd9099ecd69bbf0457bbd48e6616ff22",
+  "input_sha256": "2e1cf76f54c22a1e787199c11dc4902c6ab2bef06f68b7420fb69e8ac17973d6",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "b2b8792640916f6876a441530d341df821b1bfa875054b425b3df4b255582590",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "a80a4de57ddd526694494f0090d30bc45bf31c5e5d3196cc3e834e2f4eaa630c",
+  "raw_response": "{\"paper_id\":\"W3000424784\",\"input_sha256\":\"aafb5594ad24f74b94e48c68fcb1ea27183ff9801679edc6a8f60453cd778133\",\"keyword_ids\":[\"partial-label-learning\"],\"evidence\":[{\"keyword_id\":\"partial-label-learning\",\"field\":\"title\",\"quote\":\"ambiguously labeled examples\"}]}",
+  "value": {
+    "paper_id": "W3000424784",
+    "input_sha256": "aafb5594ad24f74b94e48c68fcb1ea27183ff9801679edc6a8f60453cd778133",
+    "keyword_ids": [
+      "partial-label-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "partial-label-learning",
+        "field": "title",
+        "quote": "ambiguously labeled examples"
+      }
+    ]
+  }
+}

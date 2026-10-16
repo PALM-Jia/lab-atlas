@@ -1,0 +1,37 @@
+{
+  "request_sha256": "8ec044391b7dc4b631c07a885789e45dbea82b6f93e3e5f030ded77a8887f8c4",
+  "received_at": "2026-10-15T13:06:24+00:00",
+  "http": 200,
+  "response": {
+    "id": "aaf75c3b-01a9-402d-bb7a-89aa42e3c077",
+    "object": "chat.completion",
+    "created": 1792069581,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W4413310996\",\"input_sha256\":\"773d5b1eba77f1ae22ca52220a6ce11720d81fbfab26f8ba756609f28da53281\",\"keyword_ids\":[],\"evidence\":[]}",
+          "reasoning_content": "We need answer JSON only. We need label paper using title only (abstract empty). Title: \"Open Source Projects for AI-based Image and Video Coding\". Vocabulary 49. Need choose keywords if supported. We need not browse. Need evidence literal continuous quote from title or abstract. Abstract empty. Title only evidence. Need determine applicable keywords.\n\nTitle mentions Open Source Projects for AI-based Image and Video Coding. Keywords? Large language models? Vision-language models? No. Image segmentation? No. Deep clustering? No. Dimensionality reduction? No. Multimodal retrieval? No. Maybe none. We must be conservative. \"Image and Video Coding\" not in vocab. \"AI-based\" maybe not. Open source projects not in vocab. No keyword for image/video coding. Could \"Large language models\" no. \"Vision-language models\" no. \"Large vision-language models\" no. \"Multi-view learning\"? No. \"Sparse representation\"? No. \"Graph neural networks\"? No. \"Contrastive learning\"? No. \"Parameter-efficient fine-tuning\"? No. \"Knowledge distillation\"? No. \"Dataset distillation\"? No. \"Data imputation and recovery\"? No. \"Image segmentation\"? no. \"Adversarial robustness\"? no. \"Value alignment\"? no. \"Model merging\"? no. \"Federated learning\"? no. \"Hyperspectral images\"? no. \"Traffic data\"? no. \"Underwater images\"? no. \"Weakly supervised\"? no. \"Zero-shot\"? no. \"Open-vocabulary recognition\"? no. \"Multi-label learning\"? no.\n\nThus empty keyword_ids. Evidence empty. Valid JSON.\n\nNeed include paper_id, input_sha256, keyword_ids [], evidence [].\n\nNo extra prose. Ensure JSON object."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4915,
+      "completion_tokens": 419,
+      "total_tokens": 5334,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 358
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 179
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "request_sha256": "eca63723e7de352f7d06368e9216ba7f4b65045ca03449698c16d30963caf6f3",
+  "received_at": "2026-10-15T13:06:04+00:00",
+  "http": 200,
+  "response": {
+    "id": "015ae6c6-324c-45ea-84fa-a6933a855db4",
+    "object": "chat.completion",
+    "created": 1792069557,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W4405950430\",\"input_sha256\":\"ae45ae66de125610bee3726bda8f86c4de5942bc174243404d4f717c7a8f3039\",\"keyword_ids\":[\"graph-neural-networks\",\"multi-view-learning\",\"semi-supervised-learning\"],\"evidence\":[{\"keyword_id\":\"graph-neural-networks\",\"field\":\"title\",\"quote\":\"graph convolutional network\"},{\"keyword_id\":\"multi-view-learning\",\"field\":\"title\",\"quote\":\"multi-view semi-supervised classification\"},{\"keyword_id\":\"semi-supervised-learning\",\"field\":\"title\",\"quote\":\"semi-supervised classification\"}]}",
+          "reasoning_content": "We need answer only JSON. Need label using title only since abstract empty. Paper title: \"Information-controlled graph convolutional network for multi-view semi-supervised classification\". Need choose keywords from vocabulary. Need evidence literal continuous quote from title for each chosen ID. Need apply definitions.\n\nWe need identify relevant keywords. Title includes:\n- multi-view semi-supervised classification\n- graph convolutional network\n\nVocabulary:\n- graph neural networks: using graph convolution or learnable message passing. Title \"graph convolutional network\" likely yes. Evidence quote: \"graph convolutional network\". Need exact continuous substring from title. Title has \"Information-controlled graph convolutional network...\" Contains \"graph convolutional network\". Yes GNN.\n- multi-view learning: same object multiple complementary feature views, explicitly jointly utilize view relations. Title \"multi-view semi-supervised classification\" contains \"multi-view\". Evidence quote maybe \"multi-view semi-supervised classification\" if keyword multi-view learning? Definition requires multiple views. Title has multi-view. Yes.\n- semi-supervised learning: combines limited supervision with unlabeled samples. Title \"semi-supervised classification\". Evidence quote \"semi-supervised classification\". Yes.\nCould there be weakly supervised? No, title semi-supervised, specific term semi-supervised not weakly supervised. Not enough.\nCould \"Information-controlled\" relate to graph structure learning? Not necessarily. No abstract. Title only. Need conservative. \"Information-controlled graph convolutional network\" maybe method? Not in vocab. Don't infer. Could be graph and manifold regularization? Not enough. Graph structure learning? Title says graph convolutional network, not learning graph structure. No.\nCould \"multi-view semi-supervised classification\" task is classification? No generic classification keyword. Multi-view learning yes. Semi-supervised yes. Graph neural networks yes. Maybe graph convolutional network is a GNN. Good.\n\nNeed JSON with paper_id, input_sha256, keyword_ids array, evidence array. Need every chosen ID at least one literal continuous quote from given field. Field must be \"title\" (since abstract empty). Quotes continuous substring. For \"graph-neural-networks\": quote \"graph convolutional network\". For \"multi-view-learning\": quote \"multi-view semi-supervised classification\" or \"multi-view\". Better quote \"multi-view semi-supervised classification\" continuous. For \"semi-supervised-learning\": quote \"semi-supervised classification\" continuous. Need ensure quotes exact from title:\nTitle: Information-controlled graph convolutional network for multi-view semi-supervised classification\nCheck substring: \"graph convolutional network\" yes. \"multi-view semi-supervised classification\" yes after \"for \". \"semi-supervised classification\" yes substring of \"multi-view semi-supervised classification\". Good.\n\nNeed maybe \"Graph neural networks\" definition non-neural graph optimization not count. \"graph convolutional network\" is neural. Good.\n\nShould we include \"Image segmentation\"? no.\nCould include \"weakly supervised learning\"? no, semi-supervised is not weak? definition says weakly supervised can include limited annotations but semi-supervised has own keyword. The title specifically \"semi-supervised\" so semi-supervised learning.\n\nCould include \"multi-label learning\"? no.\nCould include \"vision-language models\"? no.\nCould include \"large language models\"? no.\n\nNeed return JSON only. No extra prose.\n\nCheck input sha given. Use exact. Paper_id W4405950430.\n\nNeed perhaps evidence quote for each chosen keyword. Could have same quote for multiple? Probably okay. For multi-view quote \"multi-view semi-supervised classification\". For semi-supervised quote \"semi-supervised classification\". For GNN quote \"graph convolutional network\". All title field.\n\nPotential issue: The keyword \"graph neural networks\" canonical_en, quote can include \"graph convolutional network\". Yes because definition includes graph convolution. Good.\n\nPotential issue: \"semi-supervised learning\" definition includes limited supervision + unlabeled samples. Title says semi-supervised classification. That is enough evidence of setting? It says semi-supervised. Yes.\n\nPotential issue: \"multi-view learning\" definition requires same object multiple feature views or observations and explicitly jointly utilize view relationships. Title only \"multi-view semi-supervised classification\" maybe indicates multi-view data but not explicitly joint utilization? But paper title says multi-view semi-supervised classification, likely uses multi-view. Conservative? It is in title. We can label research setting multi-view learning. The vocabulary definition says same object multiple complementary feature views/observations, and explicitly jointly utilize view relations; data augmentation not count. Title \"multi-view\" indicates multiple views. That's okay. We don't need infer beyond title. The term \"multi-view\" strongly indicates.\n\nPotential issue: \"Information-controlled\" maybe \"Information-controlled graph convolutional network\" might refer to information-theoretic control? Not in vocab.\n\nNeed final JSON. Ensure valid JSON. Use exact sha. no markdown."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4917,
+      "completion_tokens": 1120,
+      "total_tokens": 6037,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 980
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 181
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "task_sha256": "18dd854dfa7f70e8cf7da929c7a0af9fe81691ca2593406ee64b6b3f7ea21206",
+  "input_sha256": "1b832377566c740988fe3eb3a6c4b88513d139582bc81158a3bbe54fe5b44f95",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "742e585580e1b9dd22f4dacede4027acfb87e856eb422d713acad7ce4da1ce98",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "25fe6bd18b3c008f6cbfe38f65c3008de586503a5ffdca14d48bca2e6edeffe8",
+  "raw_response": "{\"paper_id\":\"W7211911696\",\"input_sha256\":\"4dbb94b0ded7f895ae16e8efb773a35f36d8f5415264543390da790a1c791d7d\",\"keyword_ids\":[\"hyperspectral-images\"],\"evidence\":[{\"keyword_id\":\"hyperspectral-images\",\"field\":\"title\",\"quote\":\"Hyperspectral Image Clustering\"}]}",
+  "value": {
+    "paper_id": "W7211911696",
+    "input_sha256": "4dbb94b0ded7f895ae16e8efb773a35f36d8f5415264543390da790a1c791d7d",
+    "keyword_ids": [
+      "hyperspectral-images"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "hyperspectral-images",
+        "field": "title",
+        "quote": "Hyperspectral Image Clustering"
+      }
+    ]
+  }
+}

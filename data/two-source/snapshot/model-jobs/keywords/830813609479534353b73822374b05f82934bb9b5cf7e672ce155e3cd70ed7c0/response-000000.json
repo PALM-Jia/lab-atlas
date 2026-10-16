@@ -1,0 +1,37 @@
+{
+  "request_sha256": "983919e855e96fc8890d4f0897a9fd747cb45c0fc4ad23190d835b63ba35027c",
+  "received_at": "2026-10-15T13:04:42+00:00",
+  "http": 200,
+  "response": {
+    "id": "143c789a-3224-4638-824b-c3d8060ebca6",
+    "object": "chat.completion",
+    "created": 1792069479,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W2883606943\",\"input_sha256\":\"236a46daf7d7ba9f33b45737f5e2abdbd2395e61c20128d8c5171cb6c1748933\",\"keyword_ids\":[\"image-segmentation\"],\"evidence\":[{\"keyword_id\":\"image-segmentation\",\"field\":\"title\",\"quote\":\"Superpixel Sampling Networks\"}]}",
+          "reasoning_content": "We need answer label paper using title, abstract (empty), vocabulary. Need return JSON with paper_id, input_sha256, keyword_ids, evidence. Need select keywords if supported by title only, conservatively. Title: \"Superpixel Sampling Networks\". Need infer from title only. Vocabulary includes Image segmentation: pixel划分区域 or pixel-level类别 including semantic, instance, superpixel segmentation; object detection not equivalent. Title mentions \"Superpixel\" and \"Networks\". Superpixel sampling networks likely method for superpixel segmentation. So keyword \"image-segmentation\" likely supported by \"Superpixel\" in title? Definition includes 超像素分割. Yes title evidence quote \"Superpixel Sampling Networks\" contains Superpixel. Need maybe \"deep clustering\"? No, superpixel segmentation not clustering? Could be differentiable superpixel sampling with neural network. But cannot infer deep clustering. \"Graph neural networks\"? Networks but not necessarily GNN. \"Image segmentation\" definitely due superpixel. \"Sparse representation\"? Sampling? No. \"Contrastive learning\"? no. \"Dimensionality reduction\"? no. \"Graph structure learning\"? no. Could \"Deep clustering\" if superpixel segmentation as clustering pixels? Definition requires learnable neural representations and/or clustering head; traditional clustering on fixed pretrained features doesn't count. Title \"Networks\" implies neural, but \"Superpixel Sampling\" maybe learnable. Yet title only, not enough to assert clustering head? Superpixel segmentation is a segmentation task; image segmentation covers. Do we also include \"Deep clustering\"? Probably no, because merely \"networks\" and sampling, not clustering. Also \"Superpixel\" might be over-segmentation, but image segmentation definition explicitly includes superpixel. That's the only one.\n\nNeed every chosen ID must have at least one literal continuous quote from given field. Quote can be title exactly. keyword_ids: [\"image-segmentation\"]. Evidence [{\"keyword_id\":\"image-segmentation\",\"field\":\"title\",\"quote\":\"Superpixel Sampling Networks\"}]. But definition says quote continuous. Entire title contains Superpixel. Should we quote \"Superpixel Sampling Networks\"? Yes. Since quote must support keyword. It includes Superpixel. Good.\n\nNeed input_sha256 as given. paper_id as given. JSON only. Ensure no extra prose."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4864,
+      "completion_tokens": 576,
+      "total_tokens": 5440,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 484
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 256
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

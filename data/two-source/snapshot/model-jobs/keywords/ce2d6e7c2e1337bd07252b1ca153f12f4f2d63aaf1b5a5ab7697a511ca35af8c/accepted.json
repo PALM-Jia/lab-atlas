@@ -1,0 +1,36 @@
+{
+  "task_sha256": "ce2d6e7c2e1337bd07252b1ca153f12f4f2d63aaf1b5a5ab7697a511ca35af8c",
+  "input_sha256": "6277451eb125571e70bfe76910cdd57673981f843e26757a4bdff68a27573348",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "6a804e81890fa54db1cad45e6ba55a92a44c639a03dc6299852edaac054e40fa",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "df01e25578332b2ffbfa5d642357132adbbe1f5f144c26e22b498911d857815a",
+  "raw_response": "{\"paper_id\":\"W4247093658\",\"input_sha256\":\"049352adf3e810889573dba22fc76f0b1d80c3ce70dc3bebf62ca87ec569367e\",\"keyword_ids\":[\"hyperspectral-images\"],\"evidence\":[{\"keyword_id\":\"hyperspectral-images\",\"field\":\"title\",\"quote\":\"HyMap hyperspectral remote sensing to detect hydrocarbons\"}]}",
+  "value": {
+    "paper_id": "W4247093658",
+    "input_sha256": "049352adf3e810889573dba22fc76f0b1d80c3ce70dc3bebf62ca87ec569367e",
+    "keyword_ids": [
+      "hyperspectral-images"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "hyperspectral-images",
+        "field": "title",
+        "quote": "HyMap hyperspectral remote sensing to detect hydrocarbons"
+      }
+    ]
+  }
+}

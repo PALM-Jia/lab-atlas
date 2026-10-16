@@ -1,0 +1,48 @@
+{
+  "task_sha256": "a9c305619de26c85d1fe7efbdec9723e497846f0c2c8e86499746ae05d636567",
+  "input_sha256": "19fc413eab533a352e35016dba6a613348626ca0fda8f6b53ffd061bae5b6bea",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "8a1814972171842221ded31a3ff13cdd2ca45acd518eddabc63b6c0781e0c5f2",
+  "request_file": "request-000001.json",
+  "response_file": "response-000001.json",
+  "response_sha256": "c96add756ab77919e6fd5a0cf6834ad21df54a34dbbbfa418bef5e0242b69c2b",
+  "raw_response": "{\"paper_id\":\"W7204261342\",\"input_sha256\":\"83b23a7f6262aad2c55b69f29e4830b31777d403bd91f0694e3c5bf7be706566\",\"keyword_ids\":[\"hyperspectral-images\",\"class-imbalance\",\"partial-label-learning\"],\"evidence\":[{\"keyword_id\":\"hyperspectral-images\",\"field\":\"title\",\"quote\":\"Hyperspectral Images\"},{\"keyword_id\":\"class-imbalance\",\"field\":\"title\",\"quote\":\"Imbalanced\"},{\"keyword_id\":\"partial-label-learning\",\"field\":\"title\",\"quote\":\"Partially Labeled\"}]}",
+  "value": {
+    "paper_id": "W7204261342",
+    "input_sha256": "83b23a7f6262aad2c55b69f29e4830b31777d403bd91f0694e3c5bf7be706566",
+    "keyword_ids": [
+      "hyperspectral-images",
+      "class-imbalance",
+      "partial-label-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "hyperspectral-images",
+        "field": "title",
+        "quote": "Hyperspectral Images"
+      },
+      {
+        "keyword_id": "class-imbalance",
+        "field": "title",
+        "quote": "Imbalanced"
+      },
+      {
+        "keyword_id": "partial-label-learning",
+        "field": "title",
+        "quote": "Partially Labeled"
+      }
+    ]
+  }
+}

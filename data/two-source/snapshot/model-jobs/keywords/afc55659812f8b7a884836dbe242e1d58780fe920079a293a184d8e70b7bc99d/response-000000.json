@@ -1,0 +1,37 @@
+{
+  "request_sha256": "b767f30077e46cd0f23fc94d8bc33666daa283663ac207d48a96e07ddbbce9e4",
+  "received_at": "2026-10-15T13:04:01+00:00",
+  "http": 200,
+  "response": {
+    "id": "f83506d2-7db1-40ce-b8e4-c6050134aeb1",
+    "object": "chat.completion",
+    "created": 1792069435,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"lab-9728948569cd\",\"input_sha256\":\"e28073b775802fa528f07293f8604e878c889461a96cd8da2e4755e3e35d1915\",\"keyword_ids\":[\"weakly-supervised-learning\"],\"evidence\":[{\"keyword_id\":\"weakly-supervised-learning\",\"field\":\"title\",\"quote\":\"Robust Label Proportions Learning\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title/abstract. Abstract empty. Title: \"Robust Label Proportions Learning\". Need map to vocabulary. Need be conservative. We can use title evidence. Need choose keyword IDs. Let's inspect definitions.\n\nTitle mentions Robust Label Proportions Learning. Label proportions? Not exactly in vocab? Label distribution learning? Weakly supervised learning includes \"比例监督\" (proportional supervision) explicitly. Also \"Robust\" may indicate noisy label? Label proportions learning likely learning from label proportions (LLP), where training bags have proportions. Weakly supervised learning definition: \"以不完整、不精确、粗粒度或不准确的监督信号替代充分准确的实例级真值，并将该监督条件作为实质研究问题；可包含有限标注、候选歧义、标签缺失或错误、包级与比例监督。纯无监督、自监督以及仅有输入噪声不自动计入。各具体设定互不等价，也不是本词的同义词。\" Label proportions is explicitly 比例监督. So weakly-supervised-learning likely. The title says \"Robust Label Proportions Learning\", robust maybe noise? Could be noisy-label learning? Definition noisy-label learning: \"训练监督中存在错误类别、候选集遗漏真标签或不准确的标签分布，并以此为研究条件；普通偏标记候选歧义、伪标签错误或输入数据污染不自动计入。\" Label proportions learning involves inaccurate label distribution? Label proportions could be noisy? \"Robust\" suggests robust to noisy label proportions? But title only. Need not infer beyond. Could map to label-distribution-learning? Definition: \"预测各标签对实例的相对描述程度（标签分布）；浓度分布扩展可按此核心任务覆盖，但不把浓度分布学习当同义词。\" Label Proportions Learning is a different setting: from label proportions at bag level; not predicting per-instance label distribution? It could learn label proportions? The title \"Label Proportions Learning\" likely a weakly supervised setting, not label distribution learning. Do not equate. Vocabulary has weak supervision includes 比例监督, so yes.\n\nCould also \"class-imbalance\"? No.\n\n\"Robust\" could indicate adversarial robustness? But only title, no evidence of adversarial. No.\n\nMaybe \"noisy-label learning\"? Robust label proportions learning might be about learning with noisy label proportions? But no abstract. Need evidence quote from title only \"Robust Label Proportions Learning\". Does this contain \"Robust\" not enough for adversarial robustness. For noisy-label, \"Label Proportions\" maybe inaccurate label proportions? But definition requires training supervision has incorrect labels/candidate omissions/inaccurate label distributions. \"Robust Label Proportions Learning\" could imply robust to noise in label proportions, but title doesn't specify noisy. Conservative: only weak supervised. Maybe \"Label distribution learning\" if label proportions? Let's parse definitions carefully.\n\nLabel proportions learning: In machine learning, learning from label proportions (LLP) is a weakly supervised learning problem where training data is grouped into bags, and only the proportion of labels in each bag is known. This is exactly weak supervision: coarse-grained/proportional supervision. The title \"Robust Label Proportions Learning\" is a paper about robust version of label proportions learning. Vocabulary \"Weakly supervised learning\" includes \"比例监督\" explicitly. So choose weakly-supervised-learning.\n\nCould \"Label distribution learning\" be close? Definition: predicting relative descriptive degree of each label for instance. In label proportions learning, we often infer label distributions? But title doesn't say distribution. Robust label proportions learning could involve label distribution? The vocabulary says \"浓度分布扩展可按此核心任务覆盖，但不把浓度分布学习当同义词.\" Not label proportions. Better not.\n\nCould \"Semi-supervised learning\"? Not enough.\n\nCould \"Noisy-label learning\"? \"Robust\" may indicate noisy labels, but \"label proportions\" are not individual labels. No.\n\nCould \"Partial label learning\"? No.\n\nCould \"Class-imbalanced learning\"? No.\n\nCould \"Weakly supervised learning\" only. Need provide evidence quote title exactly. JSON with keyword_ids [\"weakly-supervised-learning\"], evidence quote \"Robust Label Proportions Learning\". field title.\n\nNeed include paper_id, input_sha256. Ensure valid JSON. No extra."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4863,
+      "completion_tokens": 966,
+      "total_tokens": 5829,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 873
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 255
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

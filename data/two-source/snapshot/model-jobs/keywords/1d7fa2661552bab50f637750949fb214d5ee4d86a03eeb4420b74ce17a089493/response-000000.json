@@ -1,0 +1,37 @@
+{
+  "request_sha256": "d678107d7d9496147e35fe6a08a0085984658446fa1086c32911070d844afca4",
+  "received_at": "2026-10-15T13:05:07+00:00",
+  "http": 200,
+  "response": {
+    "id": "3853a71e-05ee-4e7a-87bd-c2a7f78d4830",
+    "object": "chat.completion",
+    "created": 1792069501,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W3034951560\",\"input_sha256\":\"f351adac9cbdba6d7b06fcc6b8d48ba6e429039efb08918400918d26a94e7a6e\",\"keyword_ids\":[\"low-rank-modeling\",\"data-imputation-recovery\",\"traffic-data\"],\"evidence\":[{\"keyword_id\":\"low-rank-modeling\",\"field\":\"title\",\"quote\":\"low-rank tensor completion\"},{\"keyword_id\":\"data-imputation-recovery\",\"field\":\"title\",\"quote\":\"traffic data imputation\"},{\"keyword_id\":\"traffic-data\",\"field\":\"title\",\"quote\":\"spatiotemporal traffic data\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title, abstract empty. Need choose keyword IDs based on title. Title: \"A nonconvex low-rank tensor completion model for spatiotemporal traffic data imputation\"\n\nNeed apply vocab definitions. Available keywords. We must not browse. Missing abstract allowed; use title evidence conservatively. Need every chosen ID have at least one literal continuous quote from given field. Field can be title or abstract. Since abstract empty, use title quotes. Need pick relevant keywords. Let's parse title.\n\n\"nonconvex low-rank tensor completion model\" -> low-rank modeling? Definition: 显式利用矩阵或张量低秩约束、分解或近似表示相关结构；仅作为被批评的旧假设不充分，LoRA... This title explicitly low-rank tensor completion. So low-rank-modeling yes. Also maybe data imputation and recovery: \"traffic data imputation\" estimates missing observations, output recovered data. Title includes spatiotemporal traffic data imputation. Yes data-imputation-recovery. Traffic data: 道路交通速度、流量、轨迹或时空交通状态等实际数据对象; title \"spatiotemporal traffic data\" exactly. Yes traffic-data. Maybe tensor completion is method not in vocab. Nonconvex could relate multi-objective? No. Low-rank tensor completion maybe uses tensor completion for imputation. No other keywords. Could \"spatiotemporal traffic data\" application object. Maybe \"Data imputation and recovery\" yes. \"Low-rank modeling\" yes. \"Traffic data\" yes. Could \"Nonnegative matrix factorization\"? no. \"Graph...\" no. \"Sparse representation\"? no. \"Multi-objective optimization\"? nonconvex optimization, not multiple objectives. \"Bayesian inference\"? no. \"Deep clustering\"? no.\n\nNeed ensure quote continuous from title. For each chosen ID, at least one literal continuous quote. We can quote substrings.\n\nPaper_id W3034951560. input_sha256 given. keyword_ids array strings. Evidence with keyword_id, field title, quote. Need exact continuous quote. For low-rank-modeling quote \"low-rank tensor completion\" (continuous? Title: \"A nonconvex low-rank tensor completion model...\" substring \"low-rank tensor completion\" yes). For data-imputation-recovery quote \"traffic data imputation\" or \"imputation\". The title says \"spatiotemporal traffic data imputation\" continuous. For traffic-data quote \"spatiotemporal traffic data\" continuous. Good.\n\nNeed decide if any other? \"nonconvex\" maybe low-rank modeling? It says nonconvex low-rank tensor completion model. Low-rank modeling explicit. Data imputation and recovery: output missing data. Traffic data: exact. Maybe \"Traffic data\" and \"data imputation and recovery\". We should not add weak. Maybe \"Weakly supervised learning\"? no.\n\nCould \"Sparse representation\"? Low-rank tensor completion often uses tensor nuclear norm, not sparse. No.\n\n\"Multi-objective optimization\"? no.\n\n\"Bayesian inference\"? no.\n\nCould \"Hyperspectral images\"? no.\n\n\"Large language models\"? no.\n\n\"Vision-language models\"? no.\n\n\"Parameter-efficient fine-tuning\"? no.\n\n\"Domain adaptation\"? no.\n\nThus final 3 keywords. Need JSON object exactly. Ensure no extra prose. Use field title. Evidence quotes continuous. Maybe keyword_ids order? Any. Include all.\n\nNeed verify schema: {\"paper_id\":string,\"input_sha256\":string,\"keyword_ids\":[string],\"evidence\":[{\"keyword_id\":string,\"field\":\"title\"|\"abstract\",\"quote\":string}]}. No abstract evidence. Fine.\n\nLet's formulate. Ensure quotes exact: Title capitalization: \"A nonconvex low-rank tensor completion model for spatiotemporal traffic data imputation\". Substring \"low-rank tensor completion\" yes. \"spatiotemporal traffic data imputation\" yes. \"spatiotemporal traffic data\" yes. For data imputation, quote \"traffic data imputation\" yes, maybe better includes data imputation. For traffic data, quote \"spatiotemporal traffic data\". Good.\n\nCould data-imputation-recovery quote \"traffic data imputation\": continuous. Yes.\n\nFinal."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4875,
+      "completion_tokens": 988,
+      "total_tokens": 5863,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 846
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 139
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

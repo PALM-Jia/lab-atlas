@@ -1,0 +1,42 @@
+{
+  "task_sha256": "1f30f8fff4cf313b97c2e1e324960cf35e6b01f1274179b1585ec1046be48ccb",
+  "input_sha256": "478f47acd50abecead84f53010b1f75696c7db2bf9cc95bb7405b6748b99ce5e",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "df962283b2139890d0ec6848e929d4ba52915f68d41f18acf15d4cde11531095",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "dc41ef43ac486220956affd63ec1b94acddbacbdec4e938f21674805316e3727",
+  "raw_response": "{\"paper_id\":\"lab-5403cb1aad23\",\"input_sha256\":\"98e6644c98b308d1510d42bee14b00177284a00cc6a389d1bb0dc4288a19f063\",\"keyword_ids\":[\"partial-label-learning\",\"noisy-label-learning\"],\"evidence\":[{\"keyword_id\":\"partial-label-learning\",\"field\":\"title\",\"quote\":\"Partial Label Learning\"},{\"keyword_id\":\"noisy-label-learning\",\"field\":\"title\",\"quote\":\"Noisy Partial Label Learning\"}]}",
+  "value": {
+    "paper_id": "lab-5403cb1aad23",
+    "input_sha256": "98e6644c98b308d1510d42bee14b00177284a00cc6a389d1bb0dc4288a19f063",
+    "keyword_ids": [
+      "partial-label-learning",
+      "noisy-label-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "partial-label-learning",
+        "field": "title",
+        "quote": "Partial Label Learning"
+      },
+      {
+        "keyword_id": "noisy-label-learning",
+        "field": "title",
+        "quote": "Noisy Partial Label Learning"
+      }
+    ]
+  }
+}

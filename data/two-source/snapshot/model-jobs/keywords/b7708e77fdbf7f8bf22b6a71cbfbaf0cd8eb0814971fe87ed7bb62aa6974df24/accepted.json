@@ -1,0 +1,42 @@
+{
+  "task_sha256": "b7708e77fdbf7f8bf22b6a71cbfbaf0cd8eb0814971fe87ed7bb62aa6974df24",
+  "input_sha256": "847fa8d6807e904e00859d3c9d8e8a6379cd08eb8710ce9d3f8b41219d6c6a92",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "157a377390f54513ca97b3dc054669789d69b794331033c868e69d8b242a708b",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "8b928a94f7b3ddee51f0ea90cfacd4443d5a0186159d867915413c54ba1319a7",
+  "raw_response": "{\"paper_id\":\"W7152545522\",\"input_sha256\":\"3d97dc68588e67b4b549d98b7c4f40e1cbee7e2f245add88f13cb8a0699a1bd2\",\"keyword_ids\":[\"partial-label-learning\",\"parameter-efficient-fine-tuning\"],\"evidence\":[{\"keyword_id\":\"partial-label-learning\",\"field\":\"title\",\"quote\":\"Under Partial Labels\"},{\"keyword_id\":\"parameter-efficient-fine-tuning\",\"field\":\"title\",\"quote\":\"Prompt Learning\"}]}",
+  "value": {
+    "paper_id": "W7152545522",
+    "input_sha256": "3d97dc68588e67b4b549d98b7c4f40e1cbee7e2f245add88f13cb8a0699a1bd2",
+    "keyword_ids": [
+      "partial-label-learning",
+      "parameter-efficient-fine-tuning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "partial-label-learning",
+        "field": "title",
+        "quote": "Under Partial Labels"
+      },
+      {
+        "keyword_id": "parameter-efficient-fine-tuning",
+        "field": "title",
+        "quote": "Prompt Learning"
+      }
+    ]
+  }
+}

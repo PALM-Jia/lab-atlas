@@ -1,0 +1,98 @@
+{
+  "rows": [
+    {
+      "occurrence_id": "lab-5dda1e979492:3",
+      "person_id": "person-e2c6956bf522",
+      "name": "Xiaoyu Wang",
+      "reasons": [
+        "roster_assignment_not_supported"
+      ],
+      "openalex_author_id": null,
+      "orcid": null,
+      "roster_candidate": "current",
+      "institutions": []
+    },
+    {
+      "occurrence_id": "lab-7fa0af6e345c:3",
+      "person_id": "person-e2c6956bf522",
+      "name": "Xiaoyu Wang",
+      "reasons": [
+        "roster_assignment_not_supported"
+      ],
+      "openalex_author_id": "https://openalex.org/A5129737140",
+      "orcid": null,
+      "roster_candidate": "current",
+      "institutions": [
+        {
+          "id": "https://openalex.org/I76569877",
+          "display_name": "Southeast University",
+          "ror": "https://ror.org/04ct4d772",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I76569877"
+          ]
+        }
+      ]
+    },
+    {
+      "occurrence_id": "lab-9c41930c1897:2",
+      "person_id": "person-e2c6956bf522",
+      "name": "Xiaoyu Wang",
+      "reasons": [
+        "roster_assignment_not_supported"
+      ],
+      "openalex_author_id": "https://openalex.org/A5139826686",
+      "orcid": null,
+      "roster_candidate": "current",
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210090971",
+          "display_name": "Southeast University",
+          "ror": "https://ror.org/00cf0ab87",
+          "country_code": "BD",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210090971"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I76569877",
+          "display_name": "Southeast University",
+          "ror": "https://ror.org/04ct4d772",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I76569877"
+          ]
+        }
+      ]
+    },
+    {
+      "occurrence_id": "lab-b4f457369e13:1",
+      "person_id": "person-e2c6956bf522",
+      "name": "Xiaoyu Wang",
+      "reasons": [
+        "roster_assignment_not_supported"
+      ],
+      "openalex_author_id": null,
+      "orcid": null,
+      "roster_candidate": "current",
+      "institutions": []
+    },
+    {
+      "occurrence_id": "lab-e73ac884ede0:4",
+      "person_id": "person-e2c6956bf522",
+      "name": "Xiaoyu Wang",
+      "reasons": [
+        "roster_assignment_not_supported"
+      ],
+      "openalex_author_id": null,
+      "orcid": null,
+      "roster_candidate": "current",
+      "institutions": []
+    }
+  ],
+  "input_sha256": "e36d359edfb38065ca4a6fccfa71073d8a0bdf0103ea5e9f00ad1349886b481b",
+  "policy": "Warnings have an identifier-level basis but a same-name family or roster classification caveat; they do not block per-identifier profiles or trigger automatic person merging."
+}

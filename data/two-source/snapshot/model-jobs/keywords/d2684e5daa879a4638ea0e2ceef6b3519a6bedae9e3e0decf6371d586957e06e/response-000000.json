@@ -1,0 +1,37 @@
+{
+  "request_sha256": "6e8fa379f1f4b4d036cd7602b9dc551bd751ff2d49cc7dd173ff98e31ca53fa6",
+  "received_at": "2026-10-15T13:05:00+00:00",
+  "http": 200,
+  "response": {
+    "id": "24e1f5de-8ce8-4f44-977d-29369af5cd60",
+    "object": "chat.completion",
+    "created": 1792069498,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W3106850582\",\"input_sha256\":\"ec192ee13cff77a52d857570d0f6b4fd2faddbd75ce67f49e9449c4f18fc0a3d\",\"keyword_ids\":[\"underwater-images\"],\"evidence\":[{\"keyword_id\":\"underwater-images\",\"field\":\"title\",\"quote\":\"Underwater image processing and analysis: A review\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label using title/abstract. Abstract empty. Title: \"Underwater image processing and analysis: A review\". Need choose keywords based only title evidence conservatively. Vocabulary. Likely underwater-images. Maybe image segmentation? Title says underwater image processing and analysis: review. Does \"image processing and analysis\" support image segmentation? Not specifically. Underwater images definition: directly研究水下采集图像的感知问题及成像退化. Title exactly underwater image processing and analysis. Yes keyword \"underwater-images\". Evidence quote from title: \"Underwater image processing and analysis: A review\" or \"Underwater image processing and analysis\" continuous. Could also be \"image-segmentation\"? No title doesn't mention segmentation. Could \"dimensionality reduction\"? no. \"Deep clustering\"? no. \"Hyperspectral images\"? no. \"Traffic data\"? no. \"Large language models\"? no.\n\nNeed maybe \"image-segmentation\" not infer. Parent? Underwater images no parent. So keyword_ids [\"underwater-images\"]. Evidence one quote title exactly. Need ensure literal continuous quote. Title is \"Underwater image processing and analysis: A review\". Use quote \"Underwater image processing and analysis: A review\" field title. That's literal entire title. Good.\n\nReturn JSON schema exactly. No extra prose."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4868,
+      "completion_tokens": 363,
+      "total_tokens": 5231,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 269
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 260
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

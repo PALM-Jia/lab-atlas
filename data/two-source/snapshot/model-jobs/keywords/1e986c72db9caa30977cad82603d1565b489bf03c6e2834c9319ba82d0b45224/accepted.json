@@ -1,0 +1,36 @@
+{
+  "task_sha256": "1e986c72db9caa30977cad82603d1565b489bf03c6e2834c9319ba82d0b45224",
+  "input_sha256": "e9c63de3300dbf8de00278573f723ee67f811104d127ab64f13c5e6794229d7b",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "20a5f48b0aed9f165a9a30c5f1ebbecd87e1c68130f4e23a1e3bf053d8a8cce6",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "1262224ad3d795c71ed95ac8cc6d71b94acca1b4e610933115dd0b498c9f1c70",
+  "raw_response": "{\"paper_id\":\"W4225747866\",\"input_sha256\":\"69d2c00777054f778accb3e3bb5bd2ea3ea2be9e57dcbfcc99576c6430da5d5c\",\"keyword_ids\":[\"parameter-efficient-fine-tuning\"],\"evidence\":[{\"keyword_id\":\"parameter-efficient-fine-tuning\",\"field\":\"title\",\"quote\":\"Visual Prompt Tuning\"}]}",
+  "value": {
+    "paper_id": "W4225747866",
+    "input_sha256": "69d2c00777054f778accb3e3bb5bd2ea3ea2be9e57dcbfcc99576c6430da5d5c",
+    "keyword_ids": [
+      "parameter-efficient-fine-tuning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "parameter-efficient-fine-tuning",
+        "field": "title",
+        "quote": "Visual Prompt Tuning"
+      }
+    ]
+  }
+}

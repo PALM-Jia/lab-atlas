@@ -1,0 +1,36 @@
+{
+  "task_sha256": "05bba50fa5e13fddef35318851756796c5197e23ad356b28b3a8c7193b10282c",
+  "input_sha256": "8d755ff4ca69222cbbf0dd25e4d6fc7c390ed90a2388fd098e2a2685bcb3abfb",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "187908ca160eeace9021bf3824b573c257716f6cd9de9a1d06b159e03db59d52",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "fa5240798f2176f11ba5f8c68018a5a2a840cc9b937f548805c60a134684a820",
+  "raw_response": "{\"paper_id\":\"W2911964244\",\"input_sha256\":\"50350e6aa4c34e01891d45b905227bfd6db647eaf9e5c4ed60d9f8347d85f0c7\",\"keyword_ids\":[\"classifier-ensemble\"],\"evidence\":[{\"keyword_id\":\"classifier-ensemble\",\"field\":\"title\",\"quote\":\"Random Forests\"}]}",
+  "value": {
+    "paper_id": "W2911964244",
+    "input_sha256": "50350e6aa4c34e01891d45b905227bfd6db647eaf9e5c4ed60d9f8347d85f0c7",
+    "keyword_ids": [
+      "classifier-ensemble"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "classifier-ensemble",
+        "field": "title",
+        "quote": "Random Forests"
+      }
+    ]
+  }
+}

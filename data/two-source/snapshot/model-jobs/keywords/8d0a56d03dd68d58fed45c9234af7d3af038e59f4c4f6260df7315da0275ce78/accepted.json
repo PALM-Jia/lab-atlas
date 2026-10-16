@@ -1,0 +1,36 @@
+{
+  "task_sha256": "8d0a56d03dd68d58fed45c9234af7d3af038e59f4c4f6260df7315da0275ce78",
+  "input_sha256": "db68cdb12f7f30446ee25638ea52df6b79e7ef38cacd1bd8d13f4b1ed1846175",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "b6cbe366a3d495d58797e03f546e6c7676579d33ec792dec0d6f61955f2f8cca",
+  "request_file": "request-000001.json",
+  "response_file": "response-000001.json",
+  "response_sha256": "2a3fbe61770c40ff62640e8e4bb2febab321d390b94eb32a846365dcbbeac26e",
+  "raw_response": "{\"paper_id\":\"W7125819935\",\"input_sha256\":\"1f14302a17147bf6c3b7a8d0ddda9d186435fce8daf6a03965417121e0dee703\",\"keyword_ids\":[\"federated-learning\"],\"evidence\":[{\"keyword_id\":\"federated-learning\",\"field\":\"title\",\"quote\":\"Federated Graph Learning\"}]}",
+  "value": {
+    "paper_id": "W7125819935",
+    "input_sha256": "1f14302a17147bf6c3b7a8d0ddda9d186435fce8daf6a03965417121e0dee703",
+    "keyword_ids": [
+      "federated-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "federated-learning",
+        "field": "title",
+        "quote": "Federated Graph Learning"
+      }
+    ]
+  }
+}

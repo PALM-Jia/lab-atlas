@@ -1,0 +1,19 @@
+{
+  "schema": "lab-atlas-person-rules/v1",
+  "minimum_common_coauthors": 2,
+  "maximum_corroborator_papers": 25,
+  "maximum_rounds": 8,
+  "orcid_policy": "Validate checksum; equal ORCID requires compatible names. Conflicting ORCIDs are not resolved by coauthor links.",
+  "coauthor_policy": "Same normalized full name, unique best anchor, at least two shared named coauthors including one observed in at most 25 lab papers; compatible affiliations or a frozen lab roster candidate. Record each rule link. Known homonyms without affiliation require an explicit user occurrence constraint.",
+  "constraints_source": "User confirmations in this conversation; these are lab-provided inputs, not imported legacy person merges.",
+  "homonyms": {
+    "Bo Han": {"lab_institutions": ["Southeast University"], "other_institutions": ["Hong Kong Baptist University", "RIKEN"], "note": "User: SEU hanbo@seu.edu.cn, do not merge with HKBU namesake."},
+    "Xiaoyu Wang": {"lab_institutions": ["Southeast University"], "other_institutions": ["Monash University"], "note": "User: SEU wang_xy@seu.edu.cn, exclude the other Xiaoyu Wang."}
+  },
+  "explicit_lab_titles": {
+    "Xiaoyu Wang": ["CuMA:", "DiCaP:", "Exploiting Negative Multi-Cluster Structure", "LoCo:", "One Coin Has Two Sides:"],
+    "Bo Han": ["Exploiting Negative Multi-Cluster Structure", "LoCo:", "One Coin Has Two Sides:"]
+  },
+  "name_only_link_disabled": ["Hao Chen"],
+  "must_separate_names": [["Junfeng Fang", "Jingwei Fang"]]
+}

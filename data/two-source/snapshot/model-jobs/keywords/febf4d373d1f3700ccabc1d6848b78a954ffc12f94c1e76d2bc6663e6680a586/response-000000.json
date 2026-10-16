@@ -1,0 +1,37 @@
+{
+  "request_sha256": "667be59bf470a71c62db3e834780ea868d367c06c645e02ed3740ef498460ac6",
+  "received_at": "2026-10-15T13:03:55+00:00",
+  "http": 200,
+  "response": {
+    "id": "66efc3b8-d5f9-4f7a-a455-b496e68f7afe",
+    "object": "chat.completion",
+    "created": 1792069432,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"lab-8a05dc1f7a41\",\"input_sha256\":\"eee125d45131a33bb3c653f4dc4eda7f9d9146c468bad96f382561d3ae1cfc12\",\"keyword_ids\":[],\"evidence\":[]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title only (abstract empty). Need apply vocabulary definitions. Title: \"Discovering Attention Head Interactions in Vision Transformers\". Need determine keywords. No abstract. Must use title evidence conservatively. We can label only if clearly supported by title.\n\nWe need choose vocabulary IDs. The paper title about discovering attention head interactions in Vision Transformers. Vocabulary has no \"attention\", \"transformer\", \"interpretability\". Application objects: vision-language models? ViT is vision transformer, not VLM. Large vision-language models? No. Multimodal retrieval? no. Maybe \"graph neural networks\"? no. \"Latent reasoning\"? no. \"Contrastive learning\"? no. \"Vision-language models\" requires visual+language model, not ViT alone; definition says single ViT or general multimodal not sufficient. So no.\n\nMaybe \"Deep clustering\"? no. \"Dimensionality reduction\"? no. \"Image segmentation\"? no.\n\nCould be \"Classifier ensemble\"? Attention heads? Discovering interactions not classifier ensemble. No.\n\nCould be \"Graph structure learning\"? Attention head interactions maybe graph? But title doesn't mention graph. No.\n\nMaybe \"Multi-view learning\"? Vision Transformers have multiple attention heads? Not multiple views. No.\n\n\"Large language models\"? Vision Transformers not LLM. No.\n\nNeed likely empty keyword list. But let's be careful: \"Vision Transformers\" as model architecture. Vocabulary doesn't include transformer. \"Discovering Attention Head Interactions\" maybe interpretability/analysis. No ID. So empty list valid. Need evidence array empty. input_sha256 given. paper_id given.\n\nReturn JSON. Ensure no extra prose."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4870,
+      "completion_tokens": 408,
+      "total_tokens": 5278,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 340
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 262
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

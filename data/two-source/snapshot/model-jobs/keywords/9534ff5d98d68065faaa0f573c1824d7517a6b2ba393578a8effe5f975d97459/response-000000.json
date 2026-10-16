@@ -1,0 +1,37 @@
+{
+  "request_sha256": "e732d00bf701d8476908d1f9aeac6da9f547ec64e8a8e7762b7484423bf453d8",
+  "received_at": "2026-10-15T13:05:48+00:00",
+  "http": 200,
+  "response": {
+    "id": "1b0ab9c2-45c4-43d4-93bf-5d0847c23fba",
+    "object": "chat.completion",
+    "created": 1792069546,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W4413310964\",\"input_sha256\":\"203501a3426547c57f3f4fdb89b8b1ef774070293f889580bbfa5c007d44691d\",\"keyword_ids\":[],\"evidence\":[]}",
+          "reasoning_content": "We need answer only JSON. Need label paper using title available abstract empty and vocab. Paper title \"Deep Learning-based Video Coding\". Need choose keyword IDs only if supported by title literal continuous quote. Need apply definitions. No abstract. We can only use title evidence conservatively. Need determine which vocabulary terms are justified by title. Title: \"Deep Learning-based Video Coding\". Vocabulary mostly ML tasks. Does it match any? Deep clustering? no. Video coding not in vocab. Maybe \"Large language models\"? no. \"Vision-language models\"? no. \"Dimensionality reduction\"? Video coding maybe compression? Not explicit. \"Data imputation\"? no. \"Weakly supervised\"? no. \"Hyperspectral\"? no. \"Traffic\"? no. \"Underwater\"? no. \"Image segmentation\"? no. \"Multi-objective optimization\"? no. It is deep learning-based video coding, but no keyword for video coding or deep learning generic. Empty keyword list valid. Need output JSON with paper_id, input_sha256, keyword_ids [], evidence []. Ensure exact."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4859,
+      "completion_tokens": 277,
+      "total_tokens": 5136,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 216
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 251
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

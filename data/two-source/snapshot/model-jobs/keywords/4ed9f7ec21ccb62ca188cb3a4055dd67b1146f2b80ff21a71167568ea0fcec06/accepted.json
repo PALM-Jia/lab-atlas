@@ -1,0 +1,42 @@
+{
+  "task_sha256": "4ed9f7ec21ccb62ca188cb3a4055dd67b1146f2b80ff21a71167568ea0fcec06",
+  "input_sha256": "cd8174b383eb0f1529407cdcd984962f6fc01a81ca73375d2632fd133759021d",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "1b9bc0b627f6baeaccc743c53349dcb8d99f2d6405849c19f979e89cd7b33e50",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "6570a1c27eb64c56536eb89f85e61fc692fee8a01dca4e8f05dca055365d7726",
+  "raw_response": "{\"paper_id\":\"W4400491911\",\"input_sha256\":\"60d7dc97a89b082ecad1813c3e9bc10227e05ef27871f7a354a02c77a7bed6dd\",\"keyword_ids\":[\"ensemble-clustering\",\"semi-supervised-learning\"],\"evidence\":[{\"keyword_id\":\"ensemble-clustering\",\"field\":\"title\",\"quote\":\"Ensembling semi-supervised p-spectral clustering\"},{\"keyword_id\":\"semi-supervised-learning\",\"field\":\"title\",\"quote\":\"semi-supervised\"}]}",
+  "value": {
+    "paper_id": "W4400491911",
+    "input_sha256": "60d7dc97a89b082ecad1813c3e9bc10227e05ef27871f7a354a02c77a7bed6dd",
+    "keyword_ids": [
+      "ensemble-clustering",
+      "semi-supervised-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "ensemble-clustering",
+        "field": "title",
+        "quote": "Ensembling semi-supervised p-spectral clustering"
+      },
+      {
+        "keyword_id": "semi-supervised-learning",
+        "field": "title",
+        "quote": "semi-supervised"
+      }
+    ]
+  }
+}

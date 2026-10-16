@@ -1,0 +1,48 @@
+{
+  "task_sha256": "d784ef5a32b20e391f6b91a130c8b88f38f6450bff13baf7375bb8f847067e73",
+  "input_sha256": "81619521b7bc06029a4e9fcbaf9f8bcd40dd25dd64f2098a8319c18d75b5c182",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "eca63723e7de352f7d06368e9216ba7f4b65045ca03449698c16d30963caf6f3",
+  "request_file": "request-000001.json",
+  "response_file": "response-000001.json",
+  "response_sha256": "9c5315da6cb74d92abe858ab1b45ffb283b28f800acf7946c6d2bcad83f586da",
+  "raw_response": "{\"paper_id\":\"W4405950430\",\"input_sha256\":\"ae45ae66de125610bee3726bda8f86c4de5942bc174243404d4f717c7a8f3039\",\"keyword_ids\":[\"graph-neural-networks\",\"multi-view-learning\",\"semi-supervised-learning\"],\"evidence\":[{\"keyword_id\":\"graph-neural-networks\",\"field\":\"title\",\"quote\":\"graph convolutional network\"},{\"keyword_id\":\"multi-view-learning\",\"field\":\"title\",\"quote\":\"multi-view semi-supervised classification\"},{\"keyword_id\":\"semi-supervised-learning\",\"field\":\"title\",\"quote\":\"semi-supervised classification\"}]}",
+  "value": {
+    "paper_id": "W4405950430",
+    "input_sha256": "ae45ae66de125610bee3726bda8f86c4de5942bc174243404d4f717c7a8f3039",
+    "keyword_ids": [
+      "graph-neural-networks",
+      "multi-view-learning",
+      "semi-supervised-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "graph-neural-networks",
+        "field": "title",
+        "quote": "graph convolutional network"
+      },
+      {
+        "keyword_id": "multi-view-learning",
+        "field": "title",
+        "quote": "multi-view semi-supervised classification"
+      },
+      {
+        "keyword_id": "semi-supervised-learning",
+        "field": "title",
+        "quote": "semi-supervised classification"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "request_sha256": "bf97caf61c1c140910d62ba0bf45d51f46c895b991ccd9b5358d5f6fc2ad07c0",
+  "received_at": "2026-10-15T13:06:43+00:00",
+  "http": 200,
+  "response": {
+    "id": "f463dfc7-55bc-4abf-9494-95770ad60310",
+    "object": "chat.completion",
+    "created": 1792069596,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W7213326748\",\"input_sha256\":\"d6ff5aa5b2fdb0e0bbcf3a962334864685c4096c14d00d665483c8b59c6130dc\",\"keyword_ids\":[\"knowledge-distillation\",\"partial-label-learning\"],\"evidence\":[{\"keyword_id\":\"knowledge-distillation\",\"field\":\"title\",\"quote\":\"Dual Knowledge Distillation\"},{\"keyword_id\":\"partial-label-learning\",\"field\":\"title\",\"quote\":\"Partial Label Learning\"}]}",
+          "reasoning_content": "We need answer only JSON. Need label using title/abstract. Abstract empty. Need choose keyword IDs with evidence quotes from title (literal continuous). We must apply definitions. Title: \"From Predictions to Embeddings: Dual Knowledge Distillation for Instance-Dependent Partial Label Learning\"\n\nWe need infer from title only conservatively. Keywords likely: knowledge-distillation (title says Knowledge Distillation), partial-label-learning (title says Partial Label Learning), maybe weak-supervised? Partial label learning is research_setting specific. Multi-label? No. Label correlation? no. Pseudo-label? no. Distillation. Maybe \"instance-dependent partial label learning\" is a setting under partial label learning. Is that partial label learning? Definition: each instance given candidate label set, standard only one true; allows noisy/semisupervised extensions, not same as multi-label. Title explicitly \"Partial Label Learning\". So choose partial-label-learning. Evidence quote title \"Partial Label Learning\" continuous. Knowledge distillation: definition transfer teacher output/representation/optimization to student; title says \"Dual Knowledge Distillation\". Choose knowledge-distillation. Evidence quote \"Dual Knowledge Distillation\". Maybe \"From Predictions to Embeddings\" indicates knowledge distillation from predictions to embeddings? Still KD.\n\nCould choose \"pseudo-labeling and self-training\"? No, partial label learning not pseudo.\n\nCould choose \"label enhancement\"? no.\n\nCould choose \"weakly supervised learning\"? Partial label learning is a specific setting; vocabulary explicitly has partial label learning. Do not choose parent just because child. Weakly supervised learning is broader. Since partial label learning definition says specific, no need parent unless title/abstract explicitly weak supervision. Title does not mention weakly supervised. So no.\n\nCould choose \"confidence calibration\"? Predictions? no.\n\nCould choose \"latent reasoning\"? embeddings? no.\n\nCould choose \"dimensionality reduction\"? embeddings? No, title \"embeddings\" but not enough, and KD likely embeddings as representations not dimensionality reduction. Definition says explicit low-dimensional mapping and dimension compression; mere feature vector insufficient. So no.\n\nCould choose \"contrastive learning\"? no.\n\nCould choose \"label correlation modeling\"? no.\n\nCould choose \"multi-label learning\"? no.\n\nCould choose \"open-vocabulary recognition\"? No.\n\nCould choose \"large-language-models\"? no.\n\nCould choose \"parameter-efficient fine-tuning\"? no.\n\nMaybe \"Dataset distillation\"? no, title knowledge distillation.\n\nNeed output JSON exactly. Include input_sha256. keyword_ids array. evidence array with keyword_id, field \"title\", quote. Quotes must literal continuous. We need ensure quote exists exactly in title case? Title: \"From Predictions to Embeddings: Dual Knowledge Distillation for Instance-Dependent Partial Label Learning\". For partial label learning, quote could be \"Partial Label Learning\" (capitalized) continuous. For knowledge distillation, quote \"Dual Knowledge Distillation\" or \"Knowledge Distillation\". The title has \"Dual Knowledge Distillation\" continuous. Use exact case.\n\nCould there be \"Instance-Dependent Partial Label Learning\" maybe the paper's task is partial label learning. Good.\n\nMaybe also \"knowledge distillation\" is method, yes.\n\nWhat about \"Dual Knowledge Distillation\" perhaps dual distillation from predictions to embeddings. No other keywords.\n\nNeed no extra prose. JSON object.\n\nCheck requirement: \"Every chosen ID must have at least one literal continuous quote from the given field.\" Good.\n\nReturn:\n\n{\"paper_id\":\"W7213326748\",\"input_sha256\":\"d6ff5aa5b2fdb0e0bbcf3a962334864685c4096c14d00d665483c8b59c6130dc\",\"keyword_ids\":[\"knowledge-distillation\",\"partial-label-learning\"],\"evidence\":[{\"keyword_id\":\"knowledge-distillation\",\"field\":\"title\",\"quote\":\"Dual Knowledge Distillation\"},{\"keyword_id\":\"partial-label-learning\",\"field\":\"title\",\"quote\":\"Partial Label Learning\"}]}\n\nNeed ensure no \"large-language-models\" etc. Fine.\n\nBut let's think: Could \"instance-dependent partial label learning\" be \"partial label learning\" setting. Yes.\n\nMaybe \"From Predictions to Embeddings\" could imply \"knowledge distillation\" where teacher predictions to student embeddings. Good.\n\nIs knowledge-distillation chosen just because title mentions? The definition: \"将教师模型的输出、表示或优化能力迁移至学生模型；数据集蒸馏和模型参数合并不等价。\" The title \"Knowledge Distillation\" indicates this method. It's okay to label from title evidence conservatively. We don't need abstract. \"Dual Knowledge Distillation\" likely method contribution. Good.\n\nPotential issue: \"Instance-Dependent Partial Label Learning\" maybe not standard partial label? It is a variant. The definition says standard setting candidate set only one true; allows noisy or semi-supervised extensions. Instance-dependent PLL likely candidate set generation depends on instance, but still PLL. So choose.\n\nNo need \"noisy-label-learning\"? Instance-dependent PLL may involve label noise? Title doesn't mention noisy labels. Definition \"训练监督中存在错误类别、候选集遗漏真标签或不准确的标签分布\" - PLL candidate ambiguity not automatically noisy-label. So no.\n\nNo \"weakly-supervised\" because not explicit.\n\nNo \"label-correlation\" because no.\n\nThus final."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4876,
+      "completion_tokens": 1188,
+      "total_tokens": 6064,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1077
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 140
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

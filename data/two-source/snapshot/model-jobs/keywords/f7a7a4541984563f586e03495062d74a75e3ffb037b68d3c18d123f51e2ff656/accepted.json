@@ -1,0 +1,36 @@
+{
+  "task_sha256": "f7a7a4541984563f586e03495062d74a75e3ffb037b68d3c18d123f51e2ff656",
+  "input_sha256": "84f61babc91e45831aec156acd24e7e7d6cb223431ba65640554a8f3dc956c5e",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "5a61c8813fbeceffeabdc9c1c5e4d45bd91bb231039bb69fe5e543ddc2c3c65e",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "2142a202bef0d73fc3668ecaf775acdae50bda875fc01b9bc520c08dcef82115",
+  "raw_response": "{\"paper_id\":\"lab-80376da04947\",\"input_sha256\":\"664435340cdea774ab0bd3d404ea0aee658522bbc1910a67377046145fec3f27\",\"keyword_ids\":[\"dataset-distillation\"],\"evidence\":[{\"keyword_id\":\"dataset-distillation\",\"field\":\"title\",\"quote\":\"Multimodal Dataset Distillation\"}]}",
+  "value": {
+    "paper_id": "lab-80376da04947",
+    "input_sha256": "664435340cdea774ab0bd3d404ea0aee658522bbc1910a67377046145fec3f27",
+    "keyword_ids": [
+      "dataset-distillation"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "dataset-distillation",
+        "field": "title",
+        "quote": "Multimodal Dataset Distillation"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "task_sha256": "e2fa537e092b5f7ded9ef40da99a0d17656d02b9fcd52c5367927eea93b31954",
+  "input_sha256": "b67e28ec7def20395285681d1d4db9a5f27cc3b4b22cb32753cdd30d5df8f014",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "3c291de89e3a48d921d410cbabc5c6c5990c346630278d6b1e366dc65f5d7d7d",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "db14b08c86ce51fcddcb4e64f707c3274e1aac419bd0514cd3076f1ffac6e5c1",
+  "raw_response": "{\"paper_id\":\"W4282977071\",\"input_sha256\":\"1c91566648eed9616b354b7f459dc668b9647fba9a7027882de0416f1f604265\",\"keyword_ids\":[\"label-distribution-learning\"],\"evidence\":[{\"keyword_id\":\"label-distribution-learning\",\"field\":\"title\",\"quote\":\"Label Distribution Learning\"}]}",
+  "value": {
+    "paper_id": "W4282977071",
+    "input_sha256": "1c91566648eed9616b354b7f459dc668b9647fba9a7027882de0416f1f604265",
+    "keyword_ids": [
+      "label-distribution-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "label-distribution-learning",
+        "field": "title",
+        "quote": "Label Distribution Learning"
+      }
+    ]
+  }
+}

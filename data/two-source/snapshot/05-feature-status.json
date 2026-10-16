@@ -1,0 +1,32 @@
+{
+  "papers": 851,
+  "keyword_tasks": {
+    "total": 851,
+    "success": 696,
+    "explained_failure": 155,
+    "unexplained": 0,
+    "success_rate": 81.79,
+    "explained_failure_rate": 18.21,
+    "accounted_rate": 100.0,
+    "states": {
+      "ready": 696,
+      "not_generated": 155
+    }
+  },
+  "vectors": {
+    "total": 851,
+    "success": 851,
+    "explained_failure": 0,
+    "unexplained": 0,
+    "success_rate": 100.0,
+    "explained_failure_rate": 0.0,
+    "accounted_rate": 100.0,
+    "states": {
+      "ready": 851
+    }
+  },
+  "author_weights": {
+    "first": 1,
+    "others": 0.2
+  }
+}

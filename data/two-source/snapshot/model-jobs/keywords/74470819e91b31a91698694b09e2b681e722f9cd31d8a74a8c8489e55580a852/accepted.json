@@ -1,0 +1,36 @@
+{
+  "task_sha256": "74470819e91b31a91698694b09e2b681e722f9cd31d8a74a8c8489e55580a852",
+  "input_sha256": "e5cab8c17c7557239ffb26350907e97578fb69878a0684e2e6c5d20ef016dc9f",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "da365ecff0d2bed58140244f26e368656cc2a965dd941bc072719a137733e4cc",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "23fddf9800d3f96791be38e203105234f7becf3685fcf2e0e3582b431c5c096a",
+  "raw_response": "{\"paper_id\": \"W7133193597\", \"input_sha256\": \"2f30b90aca92d9f955cd0dee0d59a3ef85016baff10cdb53de13c590be9d5041\", \"keyword_ids\": [\"vision-language-models\"], \"evidence\": [{\"keyword_id\": \"vision-language-models\", \"field\": \"title\", \"quote\": \"Visual Instruction Tuning\"}]}",
+  "value": {
+    "paper_id": "W7133193597",
+    "input_sha256": "2f30b90aca92d9f955cd0dee0d59a3ef85016baff10cdb53de13c590be9d5041",
+    "keyword_ids": [
+      "vision-language-models"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "vision-language-models",
+        "field": "title",
+        "quote": "Visual Instruction Tuning"
+      }
+    ]
+  }
+}

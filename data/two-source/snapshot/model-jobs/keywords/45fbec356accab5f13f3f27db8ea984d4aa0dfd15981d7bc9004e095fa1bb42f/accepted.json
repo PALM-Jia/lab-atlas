@@ -1,0 +1,36 @@
+{
+  "task_sha256": "45fbec356accab5f13f3f27db8ea984d4aa0dfd15981d7bc9004e095fa1bb42f",
+  "input_sha256": "1d40a925b0a11c2186fad4a2b473fdb43bc8b1aab887dc3c067d371b4b5cb1e4",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "34d55b0f39379e9ad24ec3a61dbf02813355413ab55417d07501dcfe50e0ddb4",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "e656d24e5a0c0e8068ad3a2b88e9c87140032a6c28587a86f488d92368642942",
+  "raw_response": "{\"paper_id\":\"W7163996887\",\"input_sha256\":\"bf171fb65d63a2005ad4462db83b0ea36dedfde44c54f5bfd8f5129ec91e35cc\",\"keyword_ids\":[\"pairwise-constraint-propagation\"],\"evidence\":[{\"keyword_id\":\"pairwise-constraint-propagation\",\"field\":\"title\",\"quote\":\"Pairwise Constraint Propagation\"}]}",
+  "value": {
+    "paper_id": "W7163996887",
+    "input_sha256": "bf171fb65d63a2005ad4462db83b0ea36dedfde44c54f5bfd8f5129ec91e35cc",
+    "keyword_ids": [
+      "pairwise-constraint-propagation"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "pairwise-constraint-propagation",
+        "field": "title",
+        "quote": "Pairwise Constraint Propagation"
+      }
+    ]
+  }
+}

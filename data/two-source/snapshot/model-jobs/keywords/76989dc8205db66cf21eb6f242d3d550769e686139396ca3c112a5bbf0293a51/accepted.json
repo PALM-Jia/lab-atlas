@@ -1,0 +1,36 @@
+{
+  "task_sha256": "76989dc8205db66cf21eb6f242d3d550769e686139396ca3c112a5bbf0293a51",
+  "input_sha256": "87ca8564487c9f429c5c7411d53f91baaa747ba0bcf892e28119b0a01f8d32ba",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "be4f267d96120af9ffff38dd37f6affa08016173ca77aa841a731f116fec617e",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "8943dca63f42e62ef9e0f5dfe4616be1484118ab7e3917df765d730af80d7b76",
+  "raw_response": "{\"paper_id\":\"lab-1ba64af37485\",\"input_sha256\":\"3acd9052d62d19e0cda8f84d06a94a2a65769ebd748d5463df29c394c67c14ed\",\"keyword_ids\":[\"zero-shot-learning\"],\"evidence\":[{\"keyword_id\":\"zero-shot-learning\",\"field\":\"title\",\"quote\":\"Generative Zero-shot Learning\"}]}",
+  "value": {
+    "paper_id": "lab-1ba64af37485",
+    "input_sha256": "3acd9052d62d19e0cda8f84d06a94a2a65769ebd748d5463df29c394c67c14ed",
+    "keyword_ids": [
+      "zero-shot-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "zero-shot-learning",
+        "field": "title",
+        "quote": "Generative Zero-shot Learning"
+      }
+    ]
+  }
+}

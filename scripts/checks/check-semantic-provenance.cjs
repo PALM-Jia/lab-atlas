@@ -3,7 +3,10 @@ const assert=require('node:assert/strict');
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const root=path.resolve(__dirname,'../../data/atlas');
 const read=name=>JSON.parse(fs.readFileSync(path.join(root,name),'utf8'));
-const data=read('data.json'),retrieval=read('retrieval-data.json'),generation=read('semantic-generation.json');
+const data=read('data.json'),retrieval=read('retrieval-data.json');
+const vectorSnapshot=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../data/two-source/snapshot/05-vectors.json'),'utf8'));
+const vectorRows=vectorSnapshot.rows||[];
+const generation={coverage:{total:vectorRows.length,success:vectorRows.filter(p=>p.status==='success').length,explained_failure:vectorRows.filter(p=>p.status!=='success').length,items:vectorRows},model:{...vectorSnapshot.model,papers:vectorSnapshot.model.papers,ready:vectorSnapshot.model.ready,lab_ready:vectorSnapshot.model.lab_ready,lab_title_only:vectorSnapshot.model.lab_title_only}};
 const lab=data.nodes.filter(p=>p.lab),nodeMap=new Map(data.nodes.map(p=>[p.id,p]));
 assert(lab.length>0,'No laboratory papers');
 assert.equal(data.meta.semantic.method,'local');
@@ -52,7 +55,7 @@ for(const e of data.edges){
 }
 
 const sha=text=>crypto.createHash('sha256').update(text,'utf8').digest('hex');
-const vectorRoot=path.resolve(__dirname,'../../data/vectors');
+const vectorRoot=path.resolve(__dirname,'../../data/two-source/snapshot/vectors');
 const modelKeys=['model','base','adapter','base_revision','adapter_revision','dimensions','method','max_tokens','pooling','normalization','text_policy'];
 const model=Object.fromEntries(modelKeys.map(k=>[k,generation.model[k]]));
 const pythonModel='{'+Object.keys(model).sort().map(k=>JSON.stringify(k)+': '+JSON.stringify(model[k])).join(', ')+'}';

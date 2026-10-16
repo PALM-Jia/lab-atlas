@@ -1,0 +1,8 @@
+{
+  "request_sha256": "5ce935e9ba173a25fa338ce37d5e323ea96c50c72d408f7c8021df731afdb3e1",
+  "received_at": "2026-10-15T13:06:20+00:00",
+  "http": 0,
+  "response": {
+    "error": "Remote end closed connection without response"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "task_sha256": "dc4975b0432ced12e5fe82de6618fa6c8b43806381bdea067c7fbfb1e014ff4c",
+  "input_sha256": "d4b86ac4ceabe89271f954908b0ff6a00b610d6ff4f09778ac3ea51d19ceccdf",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "e7262d28a97408fc58ab66dec3c3d84e2f9c23c02abdf9692222507f5538657f",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "6b825ec12a8c470e189f2f3e970ef4a4824e889c6da2a42f854fbd9c338904f0",
+  "raw_response": "{\"paper_id\":\"W4386790226\",\"input_sha256\":\"6a30ff6b538dbc500bdadf37ee5fabd53debc163db351a79105d7c347b3d37a8\",\"keyword_ids\":[\"vision-language-models\",\"parameter-efficient-fine-tuning\"],\"evidence\":[{\"keyword_id\":\"vision-language-models\",\"field\":\"title\",\"quote\":\"Vision-Language Models\"},{\"keyword_id\":\"parameter-efficient-fine-tuning\",\"field\":\"title\",\"quote\":\"Feature Adapters\"}]}",
+  "value": {
+    "paper_id": "W4386790226",
+    "input_sha256": "6a30ff6b538dbc500bdadf37ee5fabd53debc163db351a79105d7c347b3d37a8",
+    "keyword_ids": [
+      "vision-language-models",
+      "parameter-efficient-fine-tuning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "vision-language-models",
+        "field": "title",
+        "quote": "Vision-Language Models"
+      },
+      {
+        "keyword_id": "parameter-efficient-fine-tuning",
+        "field": "title",
+        "quote": "Feature Adapters"
+      }
+    ]
+  }
+}

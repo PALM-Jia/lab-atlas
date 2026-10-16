@@ -1,0 +1,36 @@
+{
+  "task_sha256": "2bc3fc699d19325911c3c8d0551f5f80291102bbab0fdac9ee43e668b6746bfc",
+  "input_sha256": "1f622f53c0585054d6be115329bd7d91bff1cb35490b488fbf81de2a695935e6",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "c41449ef5fd8d145433d1555c8c31f4c8be78349902a3bb4de35ee786fc7122e",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "013ba78da2fc166e61988f2254cafc53690f6458415b9e486aeef93aab98f3fb",
+  "raw_response": "{\"paper_id\":\"W4226002507\",\"input_sha256\":\"a8ad8332f1b404af5ac501fd2adb69d2d8c6cde582d5508080ecace276a25c2a\",\"keyword_ids\":[\"data-imputation-recovery\"],\"evidence\":[{\"keyword_id\":\"data-imputation-recovery\",\"field\":\"abstract\",\"quote\":\"reconstruct the missing pixels\"}]}",
+  "value": {
+    "paper_id": "W4226002507",
+    "input_sha256": "a8ad8332f1b404af5ac501fd2adb69d2d8c6cde582d5508080ecace276a25c2a",
+    "keyword_ids": [
+      "data-imputation-recovery"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "data-imputation-recovery",
+        "field": "abstract",
+        "quote": "reconstruct the missing pixels"
+      }
+    ]
+  }
+}

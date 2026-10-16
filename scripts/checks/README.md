@@ -20,7 +20,7 @@ Get-ChildItem scripts/checks -Filter '*.cjs' | Where-Object { $_.Name -notin @('
 
 frontend-fixture executes every external script in index.html in page order, including paper-fields and keyword-relations. Real Cytoscape runs headlessly; DOM, layout installation and WebGL rendering use adapters. These checks validate application data, graph computation and event handlers; they do not certify browser layout, visual styling or WebGL rendering. No check performs network requests or writes reports into work.
 
-check-migration.cjs compares 22 fact files against the exact migration byte baseline; run it before --refresh, which may intentionally normalize JSON serialization. The removed relations-full duplicate is excluded explicitly.
+check-migration.cjs is a historical v1.0 migration check. It compares 22 old fact files against the pre-two-source byte baseline and is expected to fail after adopting the current two-source snapshot; it is excluded from the current-check command above. The removed relations-full duplicate is excluded explicitly.
 
 check-semantic-provenance.cjs recomputes every adopted title/abstract digest and model/input vector key, then validates actual vector files, pinned model revisions, dimensions, finite values, L2 normalization, generation coverage and retrieval provenance.
 

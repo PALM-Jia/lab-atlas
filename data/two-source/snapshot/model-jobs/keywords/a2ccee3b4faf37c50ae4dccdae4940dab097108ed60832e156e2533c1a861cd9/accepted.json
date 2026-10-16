@@ -1,0 +1,48 @@
+{
+  "task_sha256": "a2ccee3b4faf37c50ae4dccdae4940dab097108ed60832e156e2533c1a861cd9",
+  "input_sha256": "dd2041c0f1a6130b0850634f25d340643e5242982ed2410e27d4273da76b110b",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "ab3aed70dc289dbfb3eccfbabaa8c2adb8a63aabfa2e7dd11c2a7199d31cb089",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "607a2589320d2608a1cd5ca8c9a13a5518f710f7dba0af0b6eb4622636e2e5ba",
+  "raw_response": "{\"paper_id\":\"W4407080802\",\"input_sha256\":\"976012cd6efbc28f968588a41947e14f016f7e8dfdcc09257873ec840d839ab4\",\"keyword_ids\":[\"semi-supervised-learning\",\"nonnegative-matrix-factorization\",\"graph-structure-learning\"],\"evidence\":[{\"keyword_id\":\"semi-supervised-learning\",\"field\":\"title\",\"quote\":\"Semi-supervised\"},{\"keyword_id\":\"nonnegative-matrix-factorization\",\"field\":\"title\",\"quote\":\"symmetric non-negative matrix factorization\"},{\"keyword_id\":\"graph-structure-learning\",\"field\":\"title\",\"quote\":\"graph quality improvement\"}]}",
+  "value": {
+    "paper_id": "W4407080802",
+    "input_sha256": "976012cd6efbc28f968588a41947e14f016f7e8dfdcc09257873ec840d839ab4",
+    "keyword_ids": [
+      "semi-supervised-learning",
+      "nonnegative-matrix-factorization",
+      "graph-structure-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "semi-supervised-learning",
+        "field": "title",
+        "quote": "Semi-supervised"
+      },
+      {
+        "keyword_id": "nonnegative-matrix-factorization",
+        "field": "title",
+        "quote": "symmetric non-negative matrix factorization"
+      },
+      {
+        "keyword_id": "graph-structure-learning",
+        "field": "title",
+        "quote": "graph quality improvement"
+      }
+    ]
+  }
+}

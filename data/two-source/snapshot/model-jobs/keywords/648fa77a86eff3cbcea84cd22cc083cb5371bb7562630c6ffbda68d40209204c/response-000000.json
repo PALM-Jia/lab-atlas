@@ -1,0 +1,37 @@
+{
+  "request_sha256": "0112f3c2b7f5218946a8b692a7ff58797c5207ab6a3b0937470b9683ffdd32af",
+  "received_at": "2026-10-15T13:04:56+00:00",
+  "http": 200,
+  "response": {
+    "id": "cef16b87-b3d3-4e29-b95e-351c25068d69",
+    "object": "chat.completion",
+    "created": 1792069488,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W2971265761\",\"input_sha256\":\"9ff5b10524e20ad454a12212c168554e6e536213e6cc2c75820a654b20b1dcaa\",\"keyword_ids\":[\"data-imputation-recovery\",\"low-rank-modeling\"],\"evidence\":[{\"keyword_id\":\"data-imputation-recovery\",\"field\":\"title\",\"quote\":\"Missing data detection and imputation\"},{\"keyword_id\":\"low-rank-modeling\",\"field\":\"title\",\"quote\":\"tensor decomposition\"}]}",
+          "reasoning_content": "We need answer JSON only. Need label paper using title, abstract empty. Need use vocabulary. Title: \"Missing data detection and imputation for urban ANPR system using an iterative tensor decomposition approach\"\n\nWe need decide keywords. Must apply definitions, every chosen ID literal continuous quote from title or abstract. Abstract empty, so quotes from title. Need no browsing, no outside facts. Need conservatively use title evidence. Need maybe keyword \"Data imputation and recovery\" because title says \"Missing data detection and imputation\". Definition: estimate missing observations or recover original values; output recovered data. Title has \"Missing data detection and imputation\". Should include data-imputation-recovery. Also \"Low-rank modeling\"? Title \"iterative tensor decomposition approach\" maybe tensor decomposition can be low-rank modeling? Definition: explicit use matrix/tensor low-rank constraints, decomposition or approximate representation related structure. Title says tensor decomposition. But does \"tensor decomposition\" automatically equal low-rank modeling? The vocabulary low-rank modeling includes tensor low-rank constraints, decomposition. The title says \"iterative tensor decomposition approach\" but no explicit low-rank. Could include? Need be cautious. It says \"Low-rank modeling: 显式利用矩阵或张量低秩约束、分解或近似表示相关结构；仅作为被批评的旧假设不充分，LoRA的参数化也不自动等同于数据低秩建模.\" Tensor decomposition is a low-rank decomposition method, but term \"tensor decomposition\" could be CP/Tucker etc, usually low-rank. However title alone might support. The instruction: label using title, abstract and vocab; no outside facts. \"tensor decomposition\" in title is an approach. Does that satisfy? \"矩阵或张量低秩约束、分解或近似表示\" — tensor decomposition is a decomposition, likely low-rank. But it's not explicitly low-rank. Need conservative? Could include \"Low-rank modeling\" if title evidence \"tensor decomposition\". But maybe better not because definition emphasizes low-rank constraints/decomposition. Tensor decomposition is a form. Hmm.\n\nAlso \"Data imputation and recovery\" definitely. \"Traffic data\"? Title \"urban ANPR system\" — ANPR = automatic number plate recognition. Urban ANPR system data? Definition traffic data: road traffic speed, flow, trajectory, or spatiotemporal traffic state actual data object; paper only mentioning intelligent transportation background insufficient. Title says missing data detection and imputation for urban ANPR system. ANPR system captures vehicle license plates, likely traffic data? But vocabulary traffic data definition specifically road traffic speed, flow, trajectory or spatiotemporal traffic states. ANPR data may be traffic-related but not explicitly speed/flow/trajectory. Title only \"urban ANPR system\" not sufficient for traffic data? Could be considered traffic data object? Hmm \"ANPR\" is automatic number plate recognition; data may be traffic data. But definition says actual data object. Title says \"for urban ANPR system\" — missing data in ANPR system. It is application object. However not one of listed? Traffic data includes road traffic speed, flow, trajectory or spatio-temporal traffic state. ANPR system data is traffic data? Could be detection records, not necessarily traffic flow. Conservative: no.\n\n\"Data imputation and recovery\" enough. Maybe \"Low-rank modeling\" maybe. \"Tensor decomposition\" is method, likely low-rank. But the definition says \"显式利用矩阵或张量低秩约束、分解或近似表示相关结构\" — \"tensor decomposition\" explicitly. I'd include low-rank modeling? Need ensure quote \"iterative tensor decomposition approach\" continuous. Yes.\n\nCould \"Data imputation and recovery\" and \"Low-rank modeling\" both. Any other? \"Missing data detection\" not a keyword. \"Urban ANPR system\" maybe \"Traffic data\"? The title says urban ANPR system, could be traffic data? The keyword \"Traffic data\" aliases none, definition: 道路交通速度、流量、轨迹或时空交通状态等实际数据对象；论文仅提及智能交通应用背景不充分. ANPR is a traffic application, but data maybe not traffic speed/flow/trajectory. Probably insufficient.\n\n\"Hyperspectral images\" no. \"Image segmentation\" no.\n\nCould include \"Weakly supervised learning\"? Missing data detection? No supervision? Not enough.\n\nCould include \"Data imputation and recovery\" as research_task. Include \"Low-rank modeling\" as method. Need quote fields. Abstract empty, so title. Need evidence for each chosen keyword_id with quote. For data-imputation-recovery quote \"Missing data detection and imputation\" or \"imputation\". Better continuous quote exact. For low-rank-modeling quote \"tensor decomposition\". Both from title.\n\nNeed output JSON with paper_id, input_sha256, keyword_ids, evidence array. No extra prose. Ensure exact input_sha256. Use string.\n\nPotential concern: \"Low-rank modeling\" definition: \"显式利用矩阵或张量低秩约束、分解或近似表示相关结构\" — title only says \"tensor decomposition\" not \"low-rank\". But tensor decomposition is a decomposition. The phrase \"iterative tensor decomposition approach\" is enough? It's an approach, but perhaps not necessarily low-rank? Tensor decomposition usually low-rank. I think include. But if strict, only explicit low-rank? The definition includes \"张量低秩约束、分解或近似表示\" — \"tensor decomposition\" could be interpreted as \"tensor decomposition\" which is a low-rank factorization. It's method. Okay.\n\nCould \"Data imputation and recovery\" quote \"Missing data detection and imputation\" exactly continuous. Yes.\n\nIf abstract is empty, evidence field title. No quote from abstract. Evidence must have at least one literal continuous quote from given field. Use title.\n\nReturn only JSON."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4873,
+      "completion_tokens": 1306,
+      "total_tokens": 6179,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1190
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 137
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

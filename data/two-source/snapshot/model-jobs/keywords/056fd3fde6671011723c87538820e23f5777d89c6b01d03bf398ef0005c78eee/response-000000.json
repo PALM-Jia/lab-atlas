@@ -1,0 +1,37 @@
+{
+  "request_sha256": "1c2bfe0a65178ce07c954eaf6020dfb42f05d1b91594ad241e2c1eb2f1d19964",
+  "received_at": "2026-10-15T13:05:30+00:00",
+  "http": 200,
+  "response": {
+    "id": "9b2f671c-b8fa-4c35-856e-cd0c5bc21e0f",
+    "object": "chat.completion",
+    "created": 1792069522,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W4385245566\",\"input_sha256\":\"d56015355167e50e5487f19d13435a96cf70467de5beb8db0812d5b71f710ffb\",\"keyword_ids\":[],\"evidence\":[]}",
+          "reasoning_content": "We need answer only JSON. Need label paper using title, abstract, vocabulary. Need determine relevant keyword IDs. Paper title: \"Exploiting Generative AI to Scale up Intelligent Tutoring Systems\". Abstract: about AI/TP system proving Mizar theorems, hammer setting, automated provers E Vampire, ENIGMA and Deepire learning modifications, premise selection, incremental loop, ATP proofs, Mizar problems. Wait title seems mismatch? Abstract about automated theorem proving, Mizar 50th anniversary. Title about Generative AI and Intelligent Tutoring Systems? Odd. Need use supplied title and abstract. We must label based only title/abstract and vocabulary. No outside facts.\n\nNeed choose keywords with literal quotes from title or abstract. Need apply definitions. Potential keywords:\n- Large language models? Title says \"Generative AI\" not necessarily large language models. Abstract no LLM. Vocabulary definition: large language models as object. Generative AI not same as LLM. Could maybe not.\n- Vision-language? no.\n- Weakly supervised? no.\n- Knowledge distillation? no.\n- Contrastive? no.\n- Deep clustering? no.\n- Multi-objective? no.\n- Bayesian? no.\n- Graph? no.\n- Automated theorem proving not in vocab. So likely empty? But title \"Intelligent Tutoring Systems\" not in vocab. \"Generative AI\" maybe large language models? Definition says large-scale pretrained language models as object to adapt/merge/align/analyze. Title says Generative AI, not LLM. Abstract says AI/TP systems, learning modifications. Could be \"large language models\"? No evidence.\n\nNeed not create keyword IDs. Empty list valid. But let's examine all possible.\n\nTitle: \"Exploiting Generative AI to Scale up Intelligent Tutoring Systems\" - generative AI could be large language models maybe but definition specifically large language models. It doesn't mention LLMs. We should not infer. Abstract: \"develop an AI/TP system\", \"E and Vampire provers, their ENIGMA and Deepire learning modifications\", \"learning-based premise selection\", \"incremental loop ... training increasingly strong AI/TP systems\". No vocabulary keyword for theorem proving. \"learning modifications\", \"premise selection methods\" maybe could be \"pseudo-labeling and self-training\"? Incremental loop interleaves growing corpus of ATP proofs with training systems. Not pseudo-labeling? It uses ATP proofs as training data. Not necessarily pseudo-label. \"Knowledge distillation\"? No. \"Reinforcement learning\" not vocab. \"Weakly supervised learning\"? No, maybe not.\n\n\"Generative AI\" in title: Could be \"large language models\" because generative AI nowadays LLM, but vocabulary def: large-scale pretrained language models as object. Title \"Generative AI\" too broad, no quote for LLM. So no.\n\n\"Intelligent Tutoring Systems\" no vocab.\n\nCould \"dataset distillation\" apply? It compresses training data? No.\n\n\"Data imputation and recovery\"? no.\n\n\"Model merging\"? no.\n\n\"Classifier ensemble\"? Combining E and Vampire? Ensemble of provers? Vocabulary classifier ensemble combines multiple classifiers predictions or assign experts for classification; this is theorem proving not classification. No.\n\n\"Multi-objective optimization\"? multiple objectives? no.\n\n\"Ensemble clustering\"? no.\n\n\"Graph neural networks\"? ENIGMA? no.\n\n\"Contrastive learning\"? no.\n\n\"Parameter-efficient fine-tuning\"? no.\n\n\"Value and preference alignment\"? no.\n\n\"Domain adaptation\"? no.\n\n\"Federated learning\"? no.\n\n\"Multi-view learning\"? no.\n\n\"Zero-shot learning\"? no.\n\n\"Open-vocabulary recognition\"? no.\n\n\"Hyperspectral images\"? no.\n\n\"Traffic data\"? no.\n\n\"Underwater images\"? no.\n\n\"Underwater images\" no.\n\n\"Image segmentation\" no.\n\n\"Person re-identification\" no.\n\n\"Hallucination mitigation\" no.\n\nNo keywords likely. But let's be thorough: Abstract mentions \"learning-based premise selection\" - not a keyword. \"ENIGMA and Deepire learning modifications\" - no.\n\nCould \"Sparse representation\" if ATP proofs? no.\n\nCould \"low-rank modeling\"? no.\n\nCould \"nonnegative matrix factorization\"? no.\n\nCould \"Bayesian inference\"? no.\n\nCould \"latent reasoning\"? no.\n\nCould \"multi-label learning\"? no.\n\nCould \"label distribution\"? no.\n\nCould \"label enhancement\"? no.\n\nCould \"label correlation modeling\"? no.\n\nCould \"partial label learning\"? no.\n\nCould \"noisy-label learning\"? no.\n\nCould \"semi-supervised learning\"? no.\n\nCould \"class imbalance\"? no.\n\nCould \"adversarial robustness\"? no.\n\nCould \"confidence calibration\"? no.\n\nCould \"deep clustering\"? no.\n\nCould \"dimensionality reduction\"? no.\n\nCould \"multimodal retrieval\"? no.\n\nCould \"dataset distillation\"? maybe not.\n\nThus empty keyword list is valid. Need return JSON with paper_id, input_sha256, keyword_ids [], evidence []. Ensure no extra prose. Since empty evidence array. Should be exactly.\n\nBut let's consider whether title \"Exploiting Generative AI to Scale up Intelligent Tutoring Systems\" may imply \"Large language models\"? The vocabulary has \"Large language models\" definition: \"将大规模预训练语言模型作为要适配、合并、对齐或分析的对象；基因组基础模型和普通小型分类网络不自动计入。\" It says large-scale pretrained language models as object to adapt, merge, align, or analyze. Title \"Generative AI\" not necessarily LLM. No abstract. Missing? Actually abstract about ATP, not tutoring. We shouldn't use outside facts. The paper title seems about generative AI for ITS. Could generative AI be LLM? The definition requires large language models, not generative AI. No literal quote \"large language model\". So not.\n\nCould \"Vision-language models\"? no.\n\nCould \"Weakly supervised learning\"? Abstract says \"helped by using only premises used in human-written Mizar proofs\" maybe premises? No.\n\nNo keywords.\n\nNeed final JSON."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5022,
+      "completion_tokens": 1293,
+      "total_tokens": 6315,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1231
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 286
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

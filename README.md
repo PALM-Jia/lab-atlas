@@ -13,6 +13,8 @@
 | `data/vectors/` | 按模型版本和输入摘要散列定位的向量文件，不含模型权重 |
 | `data/sources/` | 原主页、参考与被引名单、已保存书目信息、摘要提取来源和领域判定依据 |
 | `data/workflow/` | 阶段协议、当前图表结构和补充解释；阶段标题从协议生成 |
+| `data/two-source/` | 两源流程协议、冻结结果与旧版对照；网络与检索页面由其导出采用数据 |
+| `_legacy/v1.0/` | 原多源数据的校验归档，原数据仍由 v1.0 标签保留 |
 | `scripts/` | 构建、特征处理、候选采集、关键词执行和检查工具 |
 | `work/` | 缓存、模型环境、运行目录、候选结果和历史归档；不提交 Git |
 
@@ -23,11 +25,12 @@
 在仓库根目录执行：
 
 ```powershell
+python -B scripts/collection/two_source/export_atlas.py --promote
 python scripts/build/build_atlas.py
 python scripts/build/build_atlas.py --check
 ```
 
-第一条从本地采用结果生成页面数据；第二条只读检查页面依赖、投影一致性和论文集合。构建不读取查询缓存，不请求数据库，不调用 AI，不重新计算向量。
+第一条从冻结的两源快照生成采用数据；第二条从采用结果生成页面数据；第三条只读检查页面依赖、投影一致性和论文集合。导出和构建都不请求数据库、不调用 AI、不重新计算向量。
 
 时间脉络使用正射投影，年份为竖直轴。论文从发表起在后续年度以粗枝线延续；选中节点后才显示跨论文关联，引用与共同作者用细实线，相似度用细虚线。选中论文时激活其全部可见年度节点，关联从最早的可见年度节点向上绘制，每条关系只出现一次；引用仅连接引用它的施引文献。点击节点或连线时，详情对应实际端点年度。年度节点大小按截至该年的累计被引数平方根映射，放大低被引与高被引的尺寸差异。实验室论文使用已采用的被引名单；外部文献仅使用已采集邻域中的引用。缺失名单保留为未知，不使用当前总被引数倒推历史。`data/atlas/citation-history.json` 是这些证据的年度派生汇总，普通离线构建自动更新，浏览器通过 `citation-history.js` 读取。
 
@@ -39,7 +42,11 @@ python scripts/build/build_atlas.py --check
 
 ## 收集与采用的边界
 
-五个阶段的语义以 `data/workflow/contract.json` 为准。该协议描述信息如何形成；当前构建读取历史采集、核对后保留的结果，不要求重新走一遍外部查询。
+两源重采集入口为 `scripts/collection/two_source/`，协议在 `data/two-source/protocol.json`。只用主页原始快照、用户实验室名单和 OpenAlex；完整说明见该入口 README。流程页的阶段、图表解释和正文从这份协议及两源冻结快照生成。`scripts/collection/two_source/export_atlas.py` 将冻结快照导出到 `data/atlas/` 与 `data/people/`，再由普通构建投影到网络和检索页面。`data/workflow/contract.json` 是只读生成结果，`map.json` 与 `diagram.json` 只维护图形布局。
+
+统一执行入口：`python -B scripts/collection/two_source/run.py`。默认离线，串联采集、人员对应、向量、关键词复用、画像、校验、独立冻结和旧版对照。输入或代码变化时重跑对应缓存单元；失败停止冻结，未决任务单列，不调用AI模型。`--online`只允许补查本轮缓存缺少的OpenAlex请求，不替换网络页面数据。
+
+五个阶段的执行边界与读者说明统一维护在 `data/two-source/protocol.json`。普通构建只导出已采用的本地数据和流程说明，不重新查询数据库、调用AI或生成向量。更新冻结快照后，先运行两源导出，再运行普通构建，页面才会切换到新的采用数据。
 
 `scripts/collection/build_retrieval_dashboard.cjs` 及 `sync-retrieval-candidate.py` 从显式来源重新整理检索候选，写入 `work/retrieval-candidate/`。候选和现有采用结果分别保留，运行候选生成不会覆盖采用的版本、人员、来源观察值或当前网页。
 

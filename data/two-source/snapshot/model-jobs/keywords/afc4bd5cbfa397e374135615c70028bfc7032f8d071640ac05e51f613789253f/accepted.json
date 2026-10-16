@@ -1,0 +1,42 @@
+{
+  "task_sha256": "afc4bd5cbfa397e374135615c70028bfc7032f8d071640ac05e51f613789253f",
+  "input_sha256": "b6f7f946fdacddc827679c8d5e23b0aaf3062c160fe860119a5ed2403c2f9fc4",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "0d3a9215b36f1f536e7ab0434e3eef9921756bf8a0fdf66be21cae94c291a8b1",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "fbd42a4a44494965b3a0299c737bf66339efe31080bffc91288a4c5fa2b083f7",
+  "raw_response": "{\"paper_id\":\"lab-5dda1e979492\",\"input_sha256\":\"b9c76d2905f5c1202864720f257733a01f2bc24c2343ea4780d3444cb70dd62b\",\"keyword_ids\":[\"multi-label-learning\",\"open-vocabulary-recognition\"],\"evidence\":[{\"keyword_id\":\"multi-label-learning\",\"field\":\"title\",\"quote\":\"Multi-Label Recognition\"},{\"keyword_id\":\"open-vocabulary-recognition\",\"field\":\"title\",\"quote\":\"Open-Vocabulary Multi-Label Recognition\"}]}",
+  "value": {
+    "paper_id": "lab-5dda1e979492",
+    "input_sha256": "b9c76d2905f5c1202864720f257733a01f2bc24c2343ea4780d3444cb70dd62b",
+    "keyword_ids": [
+      "multi-label-learning",
+      "open-vocabulary-recognition"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "multi-label-learning",
+        "field": "title",
+        "quote": "Multi-Label Recognition"
+      },
+      {
+        "keyword_id": "open-vocabulary-recognition",
+        "field": "title",
+        "quote": "Open-Vocabulary Multi-Label Recognition"
+      }
+    ]
+  }
+}

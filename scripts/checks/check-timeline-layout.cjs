@@ -12,7 +12,7 @@ assert.deepEqual(cachedSubset.planes,freshSubset.planes,'cached slices exclude r
 assert.deepEqual(cachedSubset.positions.map(p=>({id:p.id,x:p.x,y:p.y,citation:p.citation})),freshSubset.positions.map(p=>({id:p.id,x:p.x,y:p.y,citation:p.citation})));
 assert.equal(layout.tracks.get('old').length,4);
 assert.equal(layout.tracks.get('new').length,2);
-assert.equal(layout.positions.filter(p=>p.unknown).length,1);
+assert.equal(layout.positions.filter(p=>p.unknown).length,0);
 assert.deepEqual(layout.tracks.get('old').map(p=>p.citation.count),[0,2,2,5]);
 assert(layout.planes.at(-1).z>layout.planes[0].z);
 assert(layout.planes.at(-1).radius>layout.planes[0].radius);

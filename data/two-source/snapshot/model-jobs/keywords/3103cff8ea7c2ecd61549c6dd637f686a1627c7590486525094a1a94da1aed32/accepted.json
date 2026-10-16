@@ -1,0 +1,36 @@
+{
+  "task_sha256": "3103cff8ea7c2ecd61549c6dd637f686a1627c7590486525094a1a94da1aed32",
+  "input_sha256": "a506db3d87c8ea52922756370b9630b56a90efa488b686774cb9860e7965131b",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "71b7b80bb1cd29689d76f56840de09fde4a8b2524393d838bb379e9d81e43801",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "6b2390d7f475a32ea5b61428bea7c46b3dc329350ddbe91babb2f05cca14df54",
+  "raw_response": "{\"paper_id\":\"W1600471557\",\"input_sha256\":\"f1996c7f332c1a099cf047dd29b84ca53bf2aca38b35e32822e4a5ec8e5dd3e7\",\"keyword_ids\":[\"subspace-clustering\"],\"evidence\":[{\"keyword_id\":\"subspace-clustering\",\"field\":\"title\",\"quote\":\"Subspace Segmentation\"}]}",
+  "value": {
+    "paper_id": "W1600471557",
+    "input_sha256": "f1996c7f332c1a099cf047dd29b84ca53bf2aca38b35e32822e4a5ec8e5dd3e7",
+    "keyword_ids": [
+      "subspace-clustering"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "subspace-clustering",
+        "field": "title",
+        "quote": "Subspace Segmentation"
+      }
+    ]
+  }
+}

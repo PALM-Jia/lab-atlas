@@ -1,0 +1,42 @@
+{
+  "task_sha256": "b16a98e5537dfb6cc0b2f9677dd6a4da0139b9e1c9ad49c41a91ae45735e4b79",
+  "input_sha256": "0eb77654000771e3f4ee38c9142833880f3444402f0b9679b95e5a08c123043a",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "a8567d8177c3d657ae8d6ff06f8459124d8b297e52f495455c970ef2a02f6c5b",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "55883750ddebf02109392136a4d62ef1a379ab0089f954e8b4b57bffbcdc3e9b",
+  "raw_response": "{\"paper_id\":\"W4386083044\",\"input_sha256\":\"92d6f8490b39cb2440f2cc04543914a8e1ba979f944463ee032bfbc835b76fdb\",\"keyword_ids\":[\"subspace-clustering\",\"graph-neural-networks\"],\"evidence\":[{\"keyword_id\":\"subspace-clustering\",\"field\":\"abstract\",\"quote\":\"Spectral-type subspace clustering algorithms have shown excellent performance in many subspace clustering applications.\"},{\"keyword_id\":\"graph-neural-networks\",\"field\":\"abstract\",\"quote\":\"inspired by graph convolutional networks, we use the graph convolution technique to develop a feature extraction method and a coefficient matrix constraint simultaneously.\"}]}",
+  "value": {
+    "paper_id": "W4386083044",
+    "input_sha256": "92d6f8490b39cb2440f2cc04543914a8e1ba979f944463ee032bfbc835b76fdb",
+    "keyword_ids": [
+      "subspace-clustering",
+      "graph-neural-networks"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "subspace-clustering",
+        "field": "abstract",
+        "quote": "Spectral-type subspace clustering algorithms have shown excellent performance in many subspace clustering applications."
+      },
+      {
+        "keyword_id": "graph-neural-networks",
+        "field": "abstract",
+        "quote": "inspired by graph convolutional networks, we use the graph convolution technique to develop a feature extraction method and a coefficient matrix constraint simultaneously."
+      }
+    ]
+  }
+}

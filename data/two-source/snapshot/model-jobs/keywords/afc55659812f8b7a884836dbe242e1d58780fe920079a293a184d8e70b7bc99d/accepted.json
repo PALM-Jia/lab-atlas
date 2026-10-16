@@ -1,0 +1,36 @@
+{
+  "task_sha256": "afc55659812f8b7a884836dbe242e1d58780fe920079a293a184d8e70b7bc99d",
+  "input_sha256": "2d7a9f155a8d58db7d684ade64886f859443b5a94effb0f255116d21bf6bd069",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "b767f30077e46cd0f23fc94d8bc33666daa283663ac207d48a96e07ddbbce9e4",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "e744ce981b70ab98391283f10ba2864e83838e13d5f78a4c78ac922364900f0f",
+  "raw_response": "{\"paper_id\":\"lab-9728948569cd\",\"input_sha256\":\"e28073b775802fa528f07293f8604e878c889461a96cd8da2e4755e3e35d1915\",\"keyword_ids\":[\"weakly-supervised-learning\"],\"evidence\":[{\"keyword_id\":\"weakly-supervised-learning\",\"field\":\"title\",\"quote\":\"Robust Label Proportions Learning\"}]}",
+  "value": {
+    "paper_id": "lab-9728948569cd",
+    "input_sha256": "e28073b775802fa528f07293f8604e878c889461a96cd8da2e4755e3e35d1915",
+    "keyword_ids": [
+      "weakly-supervised-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "field": "title",
+        "quote": "Robust Label Proportions Learning"
+      }
+    ]
+  }
+}

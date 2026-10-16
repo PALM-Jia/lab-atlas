@@ -1,0 +1,42 @@
+{
+  "task_sha256": "cb43c5aa06238b6874d637da92a9a865378a98929469ccd11d8d39cfee5e773c",
+  "input_sha256": "8f9e0cf6623719ab7bbd58394332c997de891d041016611f8851bed11d8e2dbb",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "bf97caf61c1c140910d62ba0bf45d51f46c895b991ccd9b5358d5f6fc2ad07c0",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "30423a03de62cc6389dbb55bc515515aaceab0061562b8c41dfe9410992fa769",
+  "raw_response": "{\"paper_id\":\"W7213326748\",\"input_sha256\":\"d6ff5aa5b2fdb0e0bbcf3a962334864685c4096c14d00d665483c8b59c6130dc\",\"keyword_ids\":[\"knowledge-distillation\",\"partial-label-learning\"],\"evidence\":[{\"keyword_id\":\"knowledge-distillation\",\"field\":\"title\",\"quote\":\"Dual Knowledge Distillation\"},{\"keyword_id\":\"partial-label-learning\",\"field\":\"title\",\"quote\":\"Partial Label Learning\"}]}",
+  "value": {
+    "paper_id": "W7213326748",
+    "input_sha256": "d6ff5aa5b2fdb0e0bbcf3a962334864685c4096c14d00d665483c8b59c6130dc",
+    "keyword_ids": [
+      "knowledge-distillation",
+      "partial-label-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "knowledge-distillation",
+        "field": "title",
+        "quote": "Dual Knowledge Distillation"
+      },
+      {
+        "keyword_id": "partial-label-learning",
+        "field": "title",
+        "quote": "Partial Label Learning"
+      }
+    ]
+  }
+}

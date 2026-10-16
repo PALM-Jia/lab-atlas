@@ -1,0 +1,36 @@
+{
+  "task_sha256": "73be51e587da7916390e36bf8b9b2462d48d7852d35e7e7cdd89b2ed56632d11",
+  "input_sha256": "ec53022da6ba5428349cf9745e79c743a77ee38efcb76a445364878f62f8feed",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "552a459aa8cfa723a9c18cdebe38f0dd67a2ac0d9eedbf6860469cb2f58c3316",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "af778e14bcec7887dc6a5a95f32806fdc030a1d58557415c4186fa8d730e5387",
+  "raw_response": "{\"paper_id\":\"W2997519153\",\"input_sha256\":\"75a26d30a24944200158d2ce15e5f8ade62281900f873c091217686fb2cf2ae1\",\"keyword_ids\":[\"partial-label-learning\"],\"evidence\":[{\"keyword_id\":\"partial-label-learning\",\"field\":\"abstract\",\"quote\":\"the algorithm is given a candidate set of labels, only one of which is correct\"}]}",
+  "value": {
+    "paper_id": "W2997519153",
+    "input_sha256": "75a26d30a24944200158d2ce15e5f8ade62281900f873c091217686fb2cf2ae1",
+    "keyword_ids": [
+      "partial-label-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "partial-label-learning",
+        "field": "abstract",
+        "quote": "the algorithm is given a candidate set of labels, only one of which is correct"
+      }
+    ]
+  }
+}

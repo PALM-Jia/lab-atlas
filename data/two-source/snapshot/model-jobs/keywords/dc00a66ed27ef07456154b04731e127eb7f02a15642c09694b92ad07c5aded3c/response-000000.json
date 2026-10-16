@@ -1,0 +1,37 @@
+{
+  "request_sha256": "d7ee3bc36fc7075a267f77b06b040cf6c689ea96c68ca6a70ee3d9623d7fe298",
+  "received_at": "2026-10-15T13:05:05+00:00",
+  "http": 200,
+  "response": {
+    "id": "57dcfc42-71d7-40e9-b78e-5025a4c1268a",
+    "object": "chat.completion",
+    "created": 1792069498,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"paper_id\":\"W3041279471\",\"input_sha256\":\"d0403c8634c8fdeacf78787eab5ed7eb5abd9ea440fa0330b8fc1cd9b28658c5\",\"keyword_ids\":[\"traffic-data\"],\"evidence\":[{\"keyword_id\":\"traffic-data\",\"field\":\"title\",\"quote\":\"network-wide traffic state\"}]}",
+          "reasoning_content": "We need label paper with vocabulary. Need output JSON. Title only, abstract empty. Need conservatively use title. We must identify keyword IDs present. Let's parse title: \"Stacked bidirectional and unidirectional LSTM recurrent neural network for forecasting network-wide traffic state with missing values\"\n\nNeed apply vocabulary definitions. Candidate keywords: Traffic data (application_object) clearly title mentions traffic state. Data imputation and recovery? Title says \"with missing values\" and forecasting traffic state with missing values. Does task include handling missing values? Definition: estimate missing observations or recover original values; output is data to be recovered, not only improving classification robustness. Title: \"forecasting ... with missing values\" could mean forecasting despite missing values, not necessarily imputation. But \"with missing values\" maybe data has missing values; method likely handles missing values, maybe forecasting network-wide traffic state with missing values. Need decide if data-imputation-recovery applies? The title includes missing values; but the task is forecasting traffic state with missing values, not necessarily estimating/recovering missing observations. It might use missing values as input condition. Definition says output is data to be recovered. Here output is traffic state forecast. So not data imputation/recovery, likely. Maybe missing value handling? No keyword specifically missing data except data imputation/recovery. Do not label if not explicit.\n\nLSTM recurrent neural network: no keyword for RNN/LSTM. Traffic data yes. Maybe \"time series forecasting\"? No keyword. Could be Traffic data.\n\nBidirectional and unidirectional LSTM: not in vocab. \"Stacked\" no.\n\nMissing abstract allowed, use title evidence conservatively. Need every chosen ID literal continuous quote from title. For traffic-data, quote \"traffic state\". Is \"network-wide traffic state\" mentions traffic data object? Definition: road traffic speed, flow, trajectory or spatio-temporal traffic state actual data object; paper only mentions intelligent transportation application background not enough. Title says forecasting network-wide traffic state with missing values. That's actual traffic state data object. Yes choose traffic-data with quote \"network-wide traffic state\" or \"traffic state\". Need literal continuous quote.\n\nAny other? \"forecasting\" maybe not. \"missing values\" maybe noisy-label? No. Data imputation and recovery maybe: title says \"with missing values\"; but not output recovered data. However, if the paper is about forecasting with missing values, it likely deals with missing data. Definition: estimate missing observations or recover original values; output is data to be recovered. The title does not say imputation or recovery. It says forecasting traffic state with missing values. Could be forecasting under missing data. Conservative: no.\n\nPotential \"Large language models\"? no. \"Graph neural networks\"? no. \"Deep clustering\"? no.\n\nMaybe \"Traffic data\" only. Need output JSON with paper_id, input_sha256, keyword_ids, evidence. For chosen keyword, evidence field title, quote. Should be continuous quote. Use exactly \"network-wide traffic state with missing values\"? Or \"traffic state\". The quote must be literal continuous. \"network-wide traffic state\" is continuous in title. Good. \"with missing values\" also. But keyword traffic-data definition mentions traffic state. Use \"traffic state\".\n\nNeed only one keyword? Let's think if \"Data imputation and recovery\" may be considered because title includes missing values. The paper might forecast network-wide traffic state with missing values. It likely addresses missing data in traffic forecasting. But the task is forecasting, not imputation. The keyword definition: \"估计缺失观测或从污染观测恢复原始数值；输出为待恢复数据，不含仅改进分类鲁棒性.\" Output data to be recovered. Title output is forecasting traffic state, not missing data. So not include.\n\nMaybe \"Semi-supervised learning\"? no.\n\n\"Multi-view learning\"? no.\n\n\"Graph structure learning\"? no.\n\n\"Traffic data\" is application_object. Good.\n\nNeed ensure JSON exactly. No extra prose.\n\nFinal JSON:\n{\"paper_id\":\"W3041279471\",\"input_sha256\":\"d0403c8634c8fdeacf78787eab5ed7eb5abd9ea440fa0330b8fc1cd9b28658c5\",\"keyword_ids\":[\"traffic-data\"],\"evidence\":[{\"keyword_id\":\"traffic-data\",\"field\":\"title\",\"quote\":\"traffic state\"}]}\n\nCheck quote continuous. Yes. Should we include \"network-wide traffic state\"? Even better context. Use \"network-wide traffic state\". It's literal continuous. The definition includes \"traffic state\". I'll use \"network-wide traffic state\" to show application. But keyword traffic-data quote can be any literal continuous. Good.\n\nReturn JSON."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4878,
+      "completion_tokens": 1057,
+      "total_tokens": 5935,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 969
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 142
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  }
+}

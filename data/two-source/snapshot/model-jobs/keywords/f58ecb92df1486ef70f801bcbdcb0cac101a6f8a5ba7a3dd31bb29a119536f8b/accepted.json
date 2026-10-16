@@ -1,0 +1,36 @@
+{
+  "task_sha256": "f58ecb92df1486ef70f801bcbdcb0cac101a6f8a5ba7a3dd31bb29a119536f8b",
+  "input_sha256": "d4e0a1f1e0b3c43812d5986732f9fd9f1a4a6576444c2c08218a15178be4a89d",
+  "model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "settings": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high",
+    "max_tokens": 16384,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "9e1349d683e0c3c0239868f30792dfb16423ee5c2ea9870e2c3871a56944463f",
+  "request_sha256": "222bc851378c40c469605fbc69d053a3f65387db9b1542e6b2ec97912fdcb7c0",
+  "request_file": "request-000000.json",
+  "response_file": "response-000000.json",
+  "response_sha256": "bc8b61d95bcc87ad8bb4d47ca9ee9100b6ca227f22f0b89223b694f46602d206",
+  "raw_response": "{\"paper_id\":\"lab-2c640db3fd61\",\"input_sha256\":\"3df068195269570b3d26a7cfaca4a1a85dbe270e2ffadd0bbadc32adf99932bd\",\"keyword_ids\":[\"weakly-supervised-learning\"],\"evidence\":[{\"keyword_id\":\"weakly-supervised-learning\",\"field\":\"title\",\"quote\":\"Complementary Label Learning\"}]}",
+  "value": {
+    "paper_id": "lab-2c640db3fd61",
+    "input_sha256": "3df068195269570b3d26a7cfaca4a1a85dbe270e2ffadd0bbadc32adf99932bd",
+    "keyword_ids": [
+      "weakly-supervised-learning"
+    ],
+    "evidence": [
+      {
+        "keyword_id": "weakly-supervised-learning",
+        "field": "title",
+        "quote": "Complementary Label Learning"
+      }
+    ]
+  }
+}
