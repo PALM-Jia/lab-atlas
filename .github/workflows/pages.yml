@@ -1,0 +1,40 @@
+name: Deploy Lab Atlas Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Build static site at the published root
+        run: |
+          python -B scripts/build/build_atlas.py --output work/pages
+          python -B scripts/build/prepare_pages.py --output work/pages
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: work/pages
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

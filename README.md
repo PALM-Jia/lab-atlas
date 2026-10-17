@@ -21,6 +21,24 @@
 
 采用结果只在 `data/` 修改。浏览器 `.js` 数据由构建导出，不手工改；前端逻辑和样式仍在发布目录维护。`data/atlas/data.json` 的 `edges` 是完整关系来源，已删除重复的 `relations-full.json`。
 
+## 网页发布
+
+GitHub Pages 使用 `.github/workflows/pages.yml`，将离线构建目录的内容直接发布到站点根路径，不发布整个仓库。
+
+- 可视化：https://palm-jia.github.io/lab-atlas/
+- 检索汇总：https://palm-jia.github.io/lab-atlas/retrieval.html
+- 处理流程：https://palm-jia.github.io/lab-atlas/workflow.html
+
+`outputs/paper-atlas/` 是源码维护目录，不是公开网址的一部分。原有深层 HTML 地址在发布时生成兼容跳转，保留查询参数和锚点。后续推送到 `master` 自动重新构建和发布。Pages 设置的 Source 应为 GitHub Actions。
+
+本地预览发布结构：
+
+```powershell
+python -B scripts/build/build_atlas.py --output work/pages
+python -B scripts/build/prepare_pages.py --output work/pages
+python -m http.server 8000 --directory work/pages
+```
+
 ## 日常使用
 
 在仓库根目录执行：
